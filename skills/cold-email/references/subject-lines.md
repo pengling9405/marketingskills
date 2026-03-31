@@ -1,53 +1,53 @@
-# Subject Line Optimization
+# 邮件标题优化
 
-The subject line determines whether the email gets read. The data is counterintuitive: **short, boring, internal-looking subject lines win decisively.**
+邮件标题决定了一封邮件是否会被打开。数据结果有点反直觉：**短、无聊、看起来像内部邮件的标题，表现明显更好。**
 
-## Length: 2–4 words
+## 长度：2–4 个词
 
-- 2-word subject lines get **60% more opens** than 5-word (Lavender).
-- Going from 2 to 4 words reduces replies by **17.5%**.
-- 2–4 words yield **46% open rates** vs 34% for 10 words (Belkins, 5.5M emails).
-- Mobile truncates at 30–35 characters — brevity is practical necessity.
+- 2 个词的标题比 5 个词的标题，**打开率高 60%**（Lavender）。
+- 从 2 个词增加到 4 个词，回复率会下降 **17.5%**。
+- 2–4 个词的标题，打开率可达 **46%**，而 10 个词只有 34%（Belkins，550 万封邮件样本）。
+- 移动端通常在 30–35 个字符处截断，所以短不是风格问题，而是现实限制。
 
-## Internal Camouflage Principle
+## “内部邮件伪装”原则
 
-Subject lines that look like they came from a colleague, not a vendor, double open rates (Gong). Buyers mentally categorize before opening — if it looks like sales, it's filtered.
+看起来像同事发来的标题，而不是供应商发来的标题，打开率会翻倍（Gong）。买家在打开前就会先做心理归类，只要一眼像销售邮件，就会被过滤掉。
 
-**High-performing examples:** "reply rates" · "trial delays" · "hiring ops" · "employee turnover" · "Q2 forecast" · "new patients" · "personalization issue" · "second page"
+**高表现示例：** `"reply rates"` · `"trial delays"` · `"hiring ops"` · `"employee turnover"` · `"Q2 forecast"` · `"new patients"` · `"personalization issue"` · `"second page"`
 
-## Capitalization: lowercase wins
+## 大小写：全小写胜出
 
-All-lowercase has highest open rates (Gong, 85M+ emails). Lowercase looks more personal/internal. For cold outreach specifically, lowercase beats title case.
+全小写标题的打开率最高（Gong，8500 万+ 邮件样本）。全小写看起来更像私人 / 内部邮件。对于 cold outreach 来说，全小写优于首字母大写格式。
 
-## Personalization: context over name
+## 个性化：语境比名字更重要
 
-Personalized subject lines boost opens **26–50%**, but type matters:
+个性化标题能让打开率提升 **26–50%**，但关键在于个性化的类型：
 
-- **First name in subject line → 12% fewer replies.** Signals automation.
-- **Contextual personalization works:** pain points, competitors, trigger events, industry challenges.
-- Use {{painPoint}}, {{competitor}}, {{commonGround}} — not {{firstName}}.
+- **在标题里直接写 first name → 回复率反而少 12%。** 这会暴露自动化痕迹。
+- **基于语境的个性化有效：** 痛点、竞品、触发事件、行业挑战。
+- 使用 `{{painPoint}}`、`{{competitor}}`、`{{commonGround}}`，而不是 `{{firstName}}`。
 
-## Questions: only when highly specific
+## 问句：只有足够具体时才有效
 
-Data conflicts: Belkins says questions perform well (46% open rate). Lavender says questions lower opens by **56%**. Resolution: **specific pain questions work** ("Need help with {{challenge}}?"), **generic questions fail** ("Quick question?" / "Have 15 minutes?"). Default to statements.
+数据本身有冲突：Belkins 认为问句表现不错（46% 打开率），Lavender 则认为问句会让打开率下降 **56%**。合理解释是：**具体、贴痛点的问题有效**（例如 `"Need help with {{challenge}}?"`），**泛泛而谈的问题无效**（例如 `"Quick question?"` / `"Have 15 minutes?"`）。默认优先用陈述句。
 
-## What to Avoid
+## 应避免的写法
 
-| Anti-pattern                                   | Impact                      |
+| 反模式 | 影响 |
 | ---------------------------------------------- | --------------------------- |
-| Salesy language ("increase," "boost," "ROI")   | -17.9% opens                |
-| Urgency words ("ASAP," "urgent")               | Below 36% opens             |
-| Excessive punctuation ("!!!" or "??")          | -36% opens                  |
-| Numbers and percentages                        | -46% opens                  |
-| Emojis                                         | Hurt B2B professionalism    |
-| Pitching product in subject                    | -57% replies                |
-| Empty/no subject line                          | +30% opens but -12% replies |
-| Spam triggers ("free," "guarantee," "act now") | Deliverability risk         |
+| 销售味太重的词（如 "increase"、"boost"、"ROI"） | 打开率 -17.9% |
+| 紧迫性词汇（如 "ASAP"、"urgent"） | 打开率低于 36% |
+| 过多标点（如 "!!!" 或 "??"） | 打开率 -36% |
+| 数字和百分比 | 打开率 -46% |
+| Emoji | 会削弱 B2B 专业感 |
+| 在标题里直接推产品 | 回复率 -57% |
+| 空标题 / 无标题 | 打开率 +30%，但回复率 -12% |
+| 垃圾邮件触发词（如 "free"、"guarantee"、"act now"） | 有送达风险 |
 
-## C-Suite Subject Lines
+## 面向高管的标题
 
-Executives receive 300–400 emails daily, decide in seconds. They respond **23% more often** than non-C-suite when emails pass their filter (6.4% reply rate).
+高管每天会收到 300–400 封邮件，通常几秒钟内就会决定是否处理。当邮件通过他们的第一层过滤时，高管的回复概率反而比非高管高 **23%**（6.4% 回复率）。
 
-What works: ultra-concise, human, understated. "{{companyInitiative}}" · "thank you" · "an update" · "a question" · reference to a specific project or trigger event.
+有效的做法是：极简、像真人写的、克制。比如 `{{companyInitiative}}`、`"thank you"`、`"an update"`、`"a question"`，或者直接引用某个具体项目 / 触发事件。
 
-Anything "salesy" is immediately rejected.
+任何带明显“销售味”的写法都会被立刻拒绝。
