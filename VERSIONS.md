@@ -1,6 +1,6 @@
-# Marketing Skills Versions
+# Marketing Skills 版本列表
 
-Current versions of all skills. Agents can compare against local versions to check for updates.
+这里记录了所有 skill 的当前版本。Agent 可以将其与本地版本比较，以检查是否有更新。
 
 | Skill | Version | Last Updated |
 |-------|---------|--------------|
@@ -38,45 +38,45 @@ Current versions of all skills. Agents can compare against local versions to che
 | site-architecture | 1.2.0 | 2026-03-14 |
 | social-content | 1.2.0 | 2026-03-14 |
 
-## Recent Changes
+## 最近变更
 
 ### 2026-03-14
-- Added `lead-magnets` skill for lead magnet strategy, format selection, and conversion optimization
-- Added Composio integration layer for MCP access to OAuth-heavy tools (HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion, etc.)
-- Added headless CMS integration guides (Sanity, Contentful, Strapi) with headless-cms reference
-- Added 197 evals across all 33 skills for automated quality testing
-- Optimized all 32 skill descriptions for better trigger phrase matching
-- Replaced rigid imperatives with reasoning-based guidance across all skills
-- Added 10 new CLI tools (airops, clay, close, coupler, crossbeam, outreach, pendo, similarweb, supermetrics, zoominfo)
-- Added 13 new integration guides
-- Bumped all 32 existing skills from 1.1.0 → 1.2.0
+- 新增 `lead-magnets` skill，用于 lead magnet 策略、形式选择和转化优化
+- 新增 Composio 集成层，为重 OAuth 工具提供 MCP 访问（HubSpot、Salesforce、Meta Ads、LinkedIn Ads、Google Sheets、Slack、Notion 等）
+- 新增 headless CMS 集成指南（Sanity、Contentful、Strapi），并加入 `headless-cms` reference
+- 为全部 33 个 skill 增加了 197 个 eval，用于自动化质量测试
+- 优化全部 32 个既有 skill 的 description，提高触发短语匹配效果
+- 把僵硬命令式写法替换成基于推理的指导方式，覆盖所有 skills
+- 新增 10 个 CLI 工具（airops、clay、close、coupler、crossbeam、outreach、pendo、similarweb、supermetrics、zoominfo）
+- 新增 13 份 integration guide
+- 将全部 32 个既有 skill 从 1.1.0 升级到 1.2.0
 
 ### 2026-02-27
-- Migrated context path from `.claude/` to `.agents/` for agent-agnostic compatibility
-- All skills now check `.agents/product-marketing-context.md` first, with `.claude/` fallback for older setups
-- Updated install paths in README to reference `.agents/skills/`
-- Bumped all 32 skills from 1.0.0 → 1.1.0
+- 为了兼容不同 agent，从 `.claude/` 迁移 context 路径到 `.agents/`
+- 所有 skill 现在都会优先读取 `.agents/product-marketing-context.md`，同时保留 `.claude/` 作为旧项目回退
+- 更新 README 中的安装路径，统一指向 `.agents/skills/`
+- 将全部 32 个 skill 从 1.0.0 升级到 1.1.0
 
 ### 2026-02-22
-- Added `revops` skill for revenue operations, lead lifecycle, scoring, routing, pipeline management, and CRM automation
-- Added `sales-enablement` skill for sales decks, one-pagers, objection handling, demo scripts, and sales playbooks
+- 新增 `revops` skill，用于 revenue operations、线索生命周期、评分、路由、pipeline 管理和 CRM 自动化
+- 新增 `sales-enablement` skill，用于销售 deck、one-pager、异议处理、demo script 和销售 playbook
 
 ### 2026-02-21
-- Added `site-architecture` skill for website structure planning, page hierarchy, navigation design, URL structure, and internal linking strategy
+- 新增 `site-architecture` skill，用于网站结构规划、页面层级、导航设计、URL 结构和内链策略
 
 ### 2026-02-18
-- Added `ai-seo` skill for AI search optimization (AEO, GEO, LLMO, AI Overviews)
-- Moved AEO/GEO content patterns from `seo-audit` references to `ai-seo` skill
-- Added `churn-prevention` skill for cancel flows, save offers, dunning, and payment recovery
+- 新增 `ai-seo` skill，用于 AI 搜索优化（AEO、GEO、LLMO、AI Overviews）
+- 将 AEO / GEO 的内容模式从 `seo-audit` references 移到 `ai-seo`
+- 新增 `churn-prevention` skill，用于取消流程、挽留优惠、催款和支付恢复
 
 ### 2026-02-17
-- Added `ad-creative` skill for bulk ad creative generation and performance-based iteration
-- Added 51 zero-dependency CLI tools for marketing platforms (`tools/clis/`)
-- Added 31 new integration guides (`tools/integrations/`)
-- Added 4 email outreach CLIs: hunter, snov, lemlist, instantly
-- Security hardening: header auth for meta-ads, URL encoding, input validation
-- All CLIs reviewed via independent codex audit (auth, security, error handling, consistency)
+- 新增 `ad-creative` skill，用于批量广告创意生成和基于表现的迭代
+- 新增 51 个零依赖 CLI 工具，覆盖营销平台（`tools/clis/`）
+- 新增 31 份 integration guide（`tools/integrations/`）
+- 新增 4 个邮件外呼 CLI：hunter、snov、lemlist、instantly
+- 安全加固：为 meta-ads 增加 header auth、URL 编码与输入校验
+- 所有 CLI 都经过独立的 codex 审计（鉴权、安全、错误处理、一致性）
 
 ### 2026-01-27
-- Initial version tracking added
-- Added tools registry with 29 integration guides
+- 首次加入版本跟踪
+- 新增工具注册表，包含 29 份 integration guide

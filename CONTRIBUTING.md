@@ -1,27 +1,27 @@
-# Contributing
+# 贡献指南
 
-Thanks for your interest in contributing to Marketing Skills! This guide will help you add new skills or improve existing ones.
+感谢你有兴趣为 Marketing Skills 做贡献。本指南会帮助你新增 skill 或改进现有 skill。
 
-## Requesting a Skill
+## 提出 Skill 请求
 
-You can also suggest new skills by [opening a skill request](https://github.com/coreyhaines31/marketingskills/issues/new?template=skill-request.yml).
+你也可以通过[提交 skill request](https://github.com/coreyhaines31/marketingskills/issues/new?template=skill-request.yml)来建议新增 skill。
 
-## Adding a New Skill
+## 新增一个 Skill
 
-### 1. Create the skill directory
+### 1. 创建 skill 目录
 
 ```bash
 mkdir -p skills/your-skill-name
 ```
 
-### 2. Create the SKILL.md file
+### 2. 创建 `SKILL.md` 文件
 
-Every skill needs a `SKILL.md` file with YAML frontmatter:
+每个 skill 都需要一个带 YAML frontmatter 的 `SKILL.md` 文件：
 
 ```yaml
 ---
 name: your-skill-name
-description: When to use this skill. Include trigger phrases and keywords that help agents identify relevant tasks.
+description: 说明这个 skill 什么时候用。包含触发短语和关键词，帮助 agent 识别相关任务。
 ---
 
 # Your Skill Name
@@ -29,61 +29,61 @@ description: When to use this skill. Include trigger phrases and keywords that h
 Instructions for the agent go here...
 ```
 
-Optional frontmatter fields: `license` (default: MIT), `metadata` (author, version, etc.)
+可选 frontmatter 字段：`license`（默认 MIT）、`metadata`（author、version 等）。
 
-### 3. Follow the naming conventions
+### 3. 遵循命名规范
 
-- **Directory name**: lowercase, hyphens only (e.g., `email-sequence`)
-- **Name field**: must match directory name exactly
-- **Description**: 1-1024 characters, include trigger phrases
+- **目录名**：小写，仅使用连字符（例如 `email-sequence`）
+- **name 字段**：必须与目录名完全一致
+- **description**：1-1024 个字符，并包含触发短语
 
-### 4. Structure your skill
+### 4. 组织你的 Skill
 
 ```
 skills/your-skill-name/
-├── SKILL.md           # Required - main instructions
-├── references/        # Optional - additional documentation
+├── SKILL.md           # 必需 - 主说明文件
+├── references/        # 可选 - 补充文档
 │   └── guide.md
-├── scripts/           # Optional - executable code
+├── scripts/           # 可选 - 可执行代码
 │   └── helper.py
-└── assets/            # Optional - templates, images, data
+└── assets/            # 可选 - 模板、图片、数据
     └── template.json
 ```
 
-### 5. Write effective instructions
+### 5. 写出有效说明
 
-- Keep `SKILL.md` under 500 lines
-- Move detailed reference material to `references/`
-- Include step-by-step instructions
-- Add examples of inputs and outputs
-- Cover common edge cases
+- 把 `SKILL.md` 控制在 500 行以内
+- 详细参考资料移到 `references/`
+- 提供逐步说明
+- 加入输入 / 输出示例
+- 覆盖常见边界情况
 
-## Improving Existing Skills
+## 改进现有 Skills
 
-1. Read the existing skill thoroughly
-2. Test your changes locally
-3. Keep changes focused and minimal
-4. Update the version in metadata if making significant changes
+1. 彻底读懂现有 skill
+2. 在本地测试你的改动
+3. 保持改动聚焦且最小
+4. 如果改动较大，在 metadata 里更新版本号
 
-## Submitting Your Contribution
+## 提交你的贡献
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-skill-name`)
-3. Make your changes
-4. Test locally with an AI agent
-5. Submit a pull request using the appropriate template:
+1. Fork 这个仓库
+2. 创建功能分支（`git checkout -b feature/new-skill-name`）
+3. 进行修改
+4. 用 AI agent 在本地测试
+5. 使用合适的模板提交 pull request：
    - [New Skill](?template=new-skill.md)
    - [Skill Update](?template=skill-update.md)
    - [Documentation](?template=documentation.md)
 
-## Skill Quality Checklist
+## Skill 质量检查清单
 
-- [ ] `name` matches directory name
-- [ ] `description` clearly explains when to use the skill
-- [ ] Instructions are clear and actionable
-- [ ] No sensitive data or credentials
-- [ ] Follows existing skill patterns in the repo
+- [ ] `name` 与目录名一致
+- [ ] `description` 清楚说明何时使用该 skill
+- [ ] 说明清晰且可执行
+- [ ] 不包含敏感数据或凭据
+- [ ] 遵循仓库中现有 skill 的模式
 
-## Questions?
+## 有问题？
 
-Open an issue if you have questions or need help with your contribution.
+如果你有疑问，或在贡献过程中需要帮助，请提交 issue。

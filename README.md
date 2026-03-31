@@ -1,22 +1,22 @@
-# Marketing Skills for AI Agents
+# 面向 AI Agent 的 Marketing Skills
 
-A collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+这是一个聚焦营销任务的 AI agent skill 集合。它面向技术型营销人和创始人，帮助 AI 编码 agent 处理转化优化、文案撰写、SEO、数据分析和增长工程等工作。可用于 Claude Code、OpenAI Codex、Cursor、Windsurf，以及任何支持 [Agent Skills spec](https://agentskills.io) 的 agent。
 
-Built by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want to learn more about marketing? Subscribe to [Swipe Files](https://swipefiles.com?ref=marketingskills). Want an autonomous AI agent that uses these skills to be your CMO? Try [Magister](https://magistermarketing.com?ref=marketingskills).
+由 [Corey Haines](https://corey.co?ref=marketingskills) 构建。想要落地执行支持？可以了解 [Conversion Factory](https://conversionfactory.co?ref=marketingskills)，这是 Corey 的转化优化、落地页和增长策略咨询机构。想学更多营销？可以订阅 [Swipe Files](https://swipefiles.com?ref=marketingskills)。如果你想要一个能使用这些 skill、像 CMO 一样工作的自治 AI agent，可以看看 [Magister](https://magistermarketing.com?ref=marketingskills)。
 
-New to the terminal and coding agents? Check out the companion guide [Coding for Marketers](https://codingformarketers.com?ref=marketingskills).
+如果你刚开始接触终端和 coding agent，可以看看配套指南 [Coding for Marketers](https://codingformarketers.com?ref=marketingskills)。
 
-**Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
+**欢迎贡献！** 如果你找到改进某个 skill 的方式，或者有新的 skill 想法，可以[提交 PR](#contributing)。
 
-Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+如果你遇到问题或有疑问，可以[提交 issue](https://github.com/coreyhaines31/marketingskills/issues)，我们很乐意帮忙。
 
-## What are Skills?
+## 什么是 Skills？
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
+Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业知识和工作流。当你把这些文件加入项目后，agent 就能识别你当前是否在处理营销任务，并自动套用合适的框架与最佳实践。
 
-## How Skills Work Together
+## Skills 如何协同工作
 
-Skills reference each other and build on shared context. The `product-marketing-context` skill is the foundation — every other skill checks it first to understand your product, audience, and positioning before doing anything.
+各个 skill 会互相引用，并建立在共享上下文之上。`product-marketing-context` 是基础层，其他所有 skill 在真正开始工作前，都会先读取它，理解你的产品、受众和定位。
 
 ```
                             ┌──────────────────────────────────────┐
@@ -47,150 +47,150 @@ Skills reference each other and build on shared context. The `product-marketing-
            customer-research → copywriting, page-cro, competitor-alternatives
 ```
 
-See each skill's **Related Skills** section for the full dependency map.
+完整依赖关系见各个 skill 中的 **Related Skills** 章节。
 
-## Available Skills
+## 可用 Skills
 
 <!-- SKILLS:START -->
 | Skill | Description |
 |-------|-------------|
-| [ab-test-setup](skills/ab-test-setup/) | When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B... |
-| [ad-creative](skills/ad-creative/) | When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad... |
-| [ai-seo](skills/ai-seo/) | When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers.... |
-| [analytics-tracking](skills/analytics-tracking/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
-| [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
-| [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
-| [competitor-alternatives](skills/competitor-alternatives/) | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when... |
-| [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
-| [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this... |
-| [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
-| [customer-research](skills/customer-research/) | When the user wants to conduct, analyze, or synthesize customer research — including interview transcripts, surveys, support tickets, review mining, Reddit/G2/forum research, persona generation, and voice of customer (VOC)... |
-| [email-sequence](skills/email-sequence/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
-| [form-cro](skills/form-cro/) | When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms,... |
-| [free-tool-strategy](skills/free-tool-strategy/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
-| [launch-strategy](skills/launch-strategy/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
-| [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
-| [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the... |
-| [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
-| [onboarding-cro](skills/onboarding-cro/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
-| [page-cro](skills/page-cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing... |
-| [paid-ads](skills/paid-ads/) | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X,... |
-| [paywall-upgrade-cro](skills/paywall-upgrade-cro/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
-| [popup-cro](skills/popup-cro/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
-| [pricing-strategy](skills/pricing-strategy/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
-| [product-marketing-context](skills/product-marketing-context/) | When the user wants to create or update their product marketing context document. Also use when the user mentions... |
-| [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
-| [referral-program](skills/referral-program/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.... |
-| [revops](skills/revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.... |
-| [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
-| [schema-markup](skills/schema-markup/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user... |
-| [seo-audit](skills/seo-audit/) | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO... |
-| [signup-flow-cro](skills/signup-flow-cro/) | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the... |
-| [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
-| [social-content](skills/social-content/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
+| [ab-test-setup](skills/ab-test-setup/) | 当用户希望规划、设计或实施 A/B 测试 / 实验时使用。也适用于用户提到 “A/B... |
+| [ad-creative](skills/ad-creative/) | 当用户希望生成、迭代或批量扩展广告创意时使用，包括标题、描述、主文案或完整广告... |
+| [ai-seo](skills/ai-seo/) | 当用户希望为 AI 搜索引擎优化内容、在 LLM 结果中被引用，或出现在 AI 生成回答中时使用.... |
+| [analytics-tracking](skills/analytics-tracking/) | 当用户希望搭建、改进或审计数据追踪与测量时使用。也适用于用户提到... |
+| [churn-prevention](skills/churn-prevention/) | 当用户希望降低流失、设计取消流程、设置挽留优惠、恢复失败付款或... |
+| [cold-email](skills/cold-email/) | 撰写能获得回复的 B2B 冷邮件和跟进序列。适用于用户需要写外呼邮件... |
+| [competitor-alternatives](skills/competitor-alternatives/) | 当用户希望为 SEO 或销售赋能创建竞品对比页 / alternative 页时使用。也适用于... |
+| [content-strategy](skills/content-strategy/) | 当用户希望规划内容策略、决定写什么内容或梳理主题时使用。也适用于... |
+| [copy-editing](skills/copy-editing/) | 当用户希望编辑、审阅或改进现有营销文案时使用。也适用于用户说 “edit this... |
+| [copywriting](skills/copywriting/) | 当用户希望撰写、重写或优化任意页面的营销文案时使用，包括首页、落地页... |
+| [customer-research](skills/customer-research/) | 当用户希望开展、分析或综合客户研究时使用，包括访谈稿、问卷、工单、评论挖掘、Reddit/G2/论坛研究、persona 生成和 VOC... |
+| [email-sequence](skills/email-sequence/) | 当用户希望创建或优化邮件序列、drip campaign、自动化邮件流或生命周期邮件时使用... |
+| [form-cro](skills/form-cro/) | 当用户希望优化任何非注册类表单时使用，包括获客表单、联系表单... |
+| [free-tool-strategy](skills/free-tool-strategy/) | 当用户希望规划、评估或构建用于营销目的的免费工具时使用，例如获客、SEO 价值或... |
+| [launch-strategy](skills/launch-strategy/) | 当用户希望规划产品发布、功能公告或 release strategy 时使用。也适用于用户... |
+| [lead-magnets](skills/lead-magnets/) | 当用户希望创建、规划或优化用于邮箱收集 / lead generation 的 lead magnet 时使用。也适用于... |
+| [marketing-ideas](skills/marketing-ideas/) | 当用户需要营销创意、灵感或 SaaS / 软件产品营销策略时使用。也适用于... |
+| [marketing-psychology](skills/marketing-psychology/) | 当用户希望把心理学原则、心智模型或行为科学应用到营销中时使用。也适用于... |
+| [onboarding-cro](skills/onboarding-cro/) | 当用户希望优化注册后的 onboarding、用户激活、首次使用体验或价值到达时间时使用... |
+| [page-cro](skills/page-cro/) | 当用户希望优化、改进或提升任意营销页面的转化时使用，包括首页、落地页... |
+| [paid-ads](skills/paid-ads/) | 当用户需要 Google Ads、Meta、LinkedIn、Twitter/X 等付费广告投放支持时使用... |
+| [paywall-upgrade-cro](skills/paywall-upgrade-cro/) | 当用户希望创建或优化产品内 paywall、升级页、upsell 弹窗或 feature gate 时使用... |
+| [popup-cro](skills/popup-cro/) | 当用户希望创建或优化弹窗、模态框、overlay、slide-in 或 banner 以提升转化时使用... |
+| [pricing-strategy](skills/pricing-strategy/) | 当用户希望获得定价决策、套餐设计或变现策略支持时使用。也适用于用户提到... |
+| [product-marketing-context](skills/product-marketing-context/) | 当用户希望创建或更新产品营销上下文文档时使用。也适用于用户提到... |
+| [programmatic-seo](skills/programmatic-seo/) | 当用户希望通过模板和数据批量生成 SEO 页面时使用。也适用于用户提到... |
+| [referral-program](skills/referral-program/) | 当用户希望创建、优化或分析 referral program、affiliate program 或口碑传播策略时使用... |
+| [revops](skills/revops/) | 当用户需要 revenue operations、线索生命周期管理或营销到销售交接流程支持时使用... |
+| [sales-enablement](skills/sales-enablement/) | 当用户希望创建销售资料、pitch deck、one-pager、异议处理文档或 demo script 时使用... |
+| [schema-markup](skills/schema-markup/) | 当用户希望在网站上新增、修复或优化 schema markup 与结构化数据时使用。也适用于... |
+| [seo-audit](skills/seo-audit/) | 当用户希望审计、检查或诊断站点 SEO 问题时使用。也适用于用户提到 “SEO... |
+| [signup-flow-cro](skills/signup-flow-cro/) | 当用户希望优化注册、账户创建或 trial 激活流程时使用。也适用于用户... |
+| [site-architecture](skills/site-architecture/) | 当用户希望规划、梳理或重构网站页面层级、导航、URL 结构或内链时使用... |
+| [social-content](skills/social-content/) | 当用户希望创建、排期或优化 LinkedIn、Twitter/X、Instagram 等平台的社媒内容时使用... |
 <!-- SKILLS:END -->
 
-## Installation
+## 安装方式
 
-### Option 1: CLI Install (Recommended)
+### 选项 1：CLI 安装（推荐）
 
-Use [npx skills](https://github.com/vercel-labs/skills) to install skills directly:
+使用 [npx skills](https://github.com/vercel-labs/skills) 直接安装：
 
 ```bash
-# Install all skills
+# 安装全部 skills
 npx skills add coreyhaines31/marketingskills
 
-# Install specific skills
+# 安装指定 skills
 npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
 
-# List available skills
+# 列出可用 skills
 npx skills add coreyhaines31/marketingskills --list
 ```
 
-This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
+这会自动安装到你的 `.agents/skills/` 目录（并为 Claude Code 兼容性同步创建 `.claude/skills/` 的 symlink）。
 
-### Option 2: Claude Code Plugin
+### 选项 2：Claude Code 插件
 
-Install via Claude Code's built-in plugin system:
+通过 Claude Code 内置插件系统安装：
 
 ```bash
-# Add the marketplace
+# 添加 marketplace
 /plugin marketplace add coreyhaines31/marketingskills
 
-# Install all marketing skills
+# 安装全部 marketing skills
 /plugin install marketing-skills
 ```
 
-### Option 3: Clone and Copy
+### 选项 3：Clone 后复制
 
-Clone the entire repo and copy the skills folder:
+克隆整个仓库，然后复制 `skills` 目录：
 
 ```bash
 git clone https://github.com/coreyhaines31/marketingskills.git
 cp -r marketingskills/skills/* .agents/skills/
 ```
 
-### Option 4: Git Submodule
+### 选项 4：Git Submodule
 
-Add as a submodule for easy updates:
+用 submodule 方式添加，方便后续更新：
 
 ```bash
 git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills
 ```
 
-Then reference skills from `.agents/marketingskills/skills/`.
+然后从 `.agents/marketingskills/skills/` 引用各 skill。
 
-### Option 5: Fork and Customize
+### 选项 5：Fork 并定制
 
-1. Fork this repository
-2. Customize skills for your specific needs
-3. Clone your fork into your projects
+1. Fork 本仓库
+2. 按你的需求定制这些 skills
+3. 把你的 fork clone 到项目中
 
-### Option 6: SkillKit (Multi-Agent)
+### 选项 6：SkillKit（多 Agent）
 
-Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across multiple AI agents (Claude Code, Cursor, Copilot, etc.):
+使用 [SkillKit](https://github.com/rohitg00/skillkit) 在多个 AI agent（Claude Code、Cursor、Copilot 等）之间安装：
 
 ```bash
-# Install all skills
+# 安装全部 skills
 npx skillkit install coreyhaines31/marketingskills
 
-# Install specific skills
+# 安装指定 skills
 npx skillkit install coreyhaines31/marketingskills --skill page-cro copywriting
 
-# List available skills
+# 列出可用 skills
 npx skillkit install coreyhaines31/marketingskills --list
 ```
 
-## Upgrading from v1.0
+## 从 v1.0 升级
 
-Skills now use `.agents/` instead of `.claude/` for the product marketing context file. Move your existing context file:
+这些 skill 现在使用 `.agents/` 而不是 `.claude/` 来存放 product marketing context 文件。把现有上下文文件迁移过来：
 
 ```bash
 mkdir -p .agents
 mv .claude/product-marketing-context.md .agents/product-marketing-context.md
 ```
 
-Skills will still check `.claude/` as a fallback, so nothing breaks if you don't.
+这些 skill 仍然会把 `.claude/` 作为回退路径检查，所以即使你不迁移，也不会直接坏掉。
 
-## Usage
+## 使用方式
 
-Once installed, just ask your agent to help with marketing tasks:
+安装完成后，直接让 agent 帮你处理营销任务即可：
 
 ```
 "Help me optimize this landing page for conversions"
-→ Uses page-cro skill
+→ 使用 page-cro skill
 
 "Write homepage copy for my SaaS"
-→ Uses copywriting skill
+→ 使用 copywriting skill
 
 "Set up GA4 tracking for signups"
-→ Uses analytics-tracking skill
+→ 使用 analytics-tracking skill
 
 "Create a 5-email welcome sequence"
-→ Uses email-sequence skill
+→ 使用 email-sequence skill
 ```
 
-You can also invoke skills directly:
+你也可以直接调用 skill：
 
 ```
 /page-cro
@@ -198,63 +198,63 @@ You can also invoke skills directly:
 /seo-audit
 ```
 
-## Skill Categories
+## Skill 分类
 
-### Conversion Optimization
-- `page-cro` - Any marketing page
-- `signup-flow-cro` - Registration flows
-- `onboarding-cro` - Post-signup activation
-- `form-cro` - Lead capture forms
-- `popup-cro` - Modals and overlays
-- `paywall-upgrade-cro` - In-app upgrade moments
+### 转化优化
+- `page-cro` - 任意营销页面
+- `signup-flow-cro` - 注册流程
+- `onboarding-cro` - 注册后激活
+- `form-cro` - 获客表单
+- `popup-cro` - 弹窗与 overlay
+- `paywall-upgrade-cro` - 产品内升级时刻
 
-### Content & Copy
-- `copywriting` - Marketing page copy
-- `copy-editing` - Edit and polish existing copy
-- `cold-email` - B2B cold outreach emails and sequences
-- `email-sequence` - Automated email flows
-- `social-content` - Social media content
+### 内容与文案
+- `copywriting` - 营销页面文案
+- `copy-editing` - 编辑与润色现有文案
+- `cold-email` - B2B 冷启动外呼邮件与序列
+- `email-sequence` - 自动化邮件流
+- `social-content` - 社交媒体内容
 
-### SEO & Discovery
-- `seo-audit` - Technical and on-page SEO
-- `ai-seo` - AI search optimization (AEO, GEO, LLMO)
-- `programmatic-seo` - Scaled page generation
-- `site-architecture` - Page hierarchy, navigation, URL structure
-- `competitor-alternatives` - Comparison and alternative pages
-- `schema-markup` - Structured data
+### SEO 与内容发现
+- `seo-audit` - 技术 SEO 与 on-page SEO
+- `ai-seo` - AI 搜索优化（AEO、GEO、LLMO）
+- `programmatic-seo` - 批量页面生成
+- `site-architecture` - 页面层级、导航与 URL 结构
+- `competitor-alternatives` - 对比页与 alternative 页
+- `schema-markup` - 结构化数据
 
-### Paid & Distribution
-- `paid-ads` - Google, Meta, LinkedIn ad campaigns
-- `ad-creative` - Bulk ad creative generation and iteration
-- `social-content` - Social media scheduling and strategy
+### 付费投放与分发
+- `paid-ads` - Google、Meta、LinkedIn 广告投放
+- `ad-creative` - 批量广告创意生成与迭代
+- `social-content` - 社媒排期与策略
 
-### Measurement & Testing
-- `analytics-tracking` - Event tracking setup
-- `ab-test-setup` - Experiment design
+### 测量与测试
+- `analytics-tracking` - 事件追踪搭建
+- `ab-test-setup` - 实验设计
 
-### Retention
-- `churn-prevention` - Cancel flows, save offers, dunning, payment recovery
+### 留存
+- `churn-prevention` - 取消流程、挽留优惠、催款与支付恢复
 
-### Growth Engineering
-- `free-tool-strategy` - Marketing tools and calculators
-- `referral-program` - Referral and affiliate programs
+### 增长工程
+- `free-tool-strategy` - 免费工具与计算器策略
+- `referral-program` - 推荐与联盟计划
 
-### Strategy & Monetization
-- `marketing-ideas` - 140 SaaS marketing ideas
-- `marketing-psychology` - Mental models and psychology
-- `launch-strategy` - Product launches and announcements
-- `pricing-strategy` - Pricing, packaging, and monetization
+### 策略与变现
+- `marketing-ideas` - 140 个 SaaS 营销想法
+- `marketing-psychology` - 心智模型与营销心理学
+- `launch-strategy` - 产品发布与公告
+- `pricing-strategy` - 定价、套餐与变现
 
-### Sales & RevOps
-- `revops` - Lead lifecycle, scoring, routing, pipeline management
-- `sales-enablement` - Sales decks, one-pagers, objection docs, demo scripts
+### 销售与 RevOps
+- `revops` - 线索生命周期、评分、路由和 pipeline 管理
+- `sales-enablement` - 销售 deck、one-pager、异议处理文档、demo script
 
-## Contributing
+## 贡献
 
-Found a way to improve a skill? Have a new skill to suggest? PRs and issues welcome!
+如果你知道如何改进某个 skill，或者有新的 skill 想法，欢迎提 PR 和 issue。
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding or improving skills.
+新增或优化 skill 的详细规范见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## License
+## 许可证
 
-[MIT](LICENSE) - Use these however you want.
+[MIT](LICENSE) - 想怎么用都可以。
