@@ -1,21 +1,21 @@
-## Skill Update
+## Skill 更新
 
 **Skill:** `skills/SKILL-NAME`
 
-## Summary
+## 摘要
 
-<!-- What changes are you making and why? -->
+<!-- 你改了什么，为什么要改？ -->
 
-## Type of update
+## 更新类型
 
-- [ ] Bug fix
-- [ ] Improved instructions
-- [ ] Added references/scripts
-- [ ] Other
+- [ ] Bug 修复
+- [ ] 优化说明
+- [ ] 新增 references / scripts
+- [ ] 其他
 
-## Checklist
+## 检查清单
 
-- [ ] Changes are focused and minimal
-- [ ] `SKILL.md` is still under 500 lines
-- [ ] No sensitive data or credentials
-- [ ] Tested locally with AI agent
+- [ ] 改动聚焦且最小化
+- [ ] `SKILL.md` 仍然不超过 500 行
+- [ ] 不包含敏感数据或凭证
+- [ ] 已在本地用 AI agent 测试

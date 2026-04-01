@@ -1,15 +1,15 @@
-## Documentation
+## 文档变更
 
-## Summary
+## 摘要
 
-<!-- What documentation changes are you making? -->
+<!-- 你对文档做了哪些改动？ -->
 
-## Files changed
+## 变更文件
 
-<!-- List the files you're updating -->
+<!-- 列出你修改的文件 -->
 
-## Checklist
+## 检查清单
 
-- [ ] Links are valid
-- [ ] Formatting is consistent with existing docs
-- [ ] No sensitive data or credentials
+- [ ] 链接有效
+- [ ] 格式与现有文档保持一致
+- [ ] 不包含敏感数据或凭证

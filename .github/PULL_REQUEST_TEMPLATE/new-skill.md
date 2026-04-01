@@ -1,16 +1,16 @@
-## New Skill
+## 新 Skill
 
 **Skill name:** `skills/SKILL-NAME`
 
-## Summary
+## 摘要
 
-<!-- What does this skill do and when should it be used? -->
+<!-- 这个 skill 做什么，什么时候应该使用？ -->
 
-## Checklist
+## 检查清单
 
-- [ ] `name` matches directory name exactly
-- [ ] `name` follows naming rules (lowercase, hyphens, no `--`)
-- [ ] `description` is 1-1024 chars with trigger phrases
-- [ ] `SKILL.md` is under 500 lines
-- [ ] No sensitive data or credentials
-- [ ] Tested locally with AI agent
+- [ ] `name` 与目录名完全一致
+- [ ] `name` 符合命名规则（小写、连字符、不能有 `--`）
+- [ ] `description` 长度为 1-1024 个字符，并包含触发短语
+- [ ] `SKILL.md` 不超过 500 行
+- [ ] 不包含敏感数据或凭证
+- [ ] 已在本地用 AI agent 测试

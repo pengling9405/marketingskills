@@ -1,94 +1,94 @@
 # Snov.io
 
-Email finding, verification, and drip campaign platform for outreach.
+用于外联的邮箱查找、验证和 drip campaign 平台。
 
-## Capabilities
+## 能力
 
-| Integration | Available | Notes |
-|-------------|-----------|-------|
-| API | ✓ | REST API for email finding, verification, prospects, drip campaigns |
-| MCP | - | Not available |
-| CLI | [✓](../clis/snov.js) | Zero-dependency Node.js CLI |
-| SDK | - | API-only |
+| 集成方式 | 可用性 | 说明 |
+|-------------|--------|------|
+| API | ✓ | 提供邮箱查找、验证、prospect、drip campaign 的 REST API |
+| MCP | - | 不可用 |
+| CLI | [✓](../clis/snov.js) | 零依赖 Node.js CLI |
+| SDK | - | 仅提供 API |
 
-## Authentication
+## 认证
 
-- **Type**: OAuth2 client credentials
-- **Flow**: POST to `/oauth/access_token` with client_id + client_secret
-- **Env vars**: `SNOV_CLIENT_ID`, `SNOV_CLIENT_SECRET`
-- **Get keys**: [Snov.io > Integration > API](https://app.snov.io/integration/api)
+- **类型**：OAuth2 client credentials
+- **流程**：向 `/oauth/access_token` 发起 POST，并附带 `client_id` + `client_secret`
+- **环境变量**：`SNOV_CLIENT_ID`、`SNOV_CLIENT_SECRET`
+- **获取方式**：[Snov.io > Integration > API](https://app.snov.io/integration/api)
 
-The CLI handles token acquisition automatically.
+CLI 会自动处理 token 获取。
 
-## Common Agent Operations
+## 常见 Agent 操作
 
-### Search emails by domain
+### 按域名搜索邮箱
 
 ```bash
 node tools/clis/snov.js domain search --domain example.com --type all --limit 10
 ```
 
-### Find a specific person's email
+### 查找某个具体联系人的邮箱
 
 ```bash
 node tools/clis/snov.js email find --domain example.com --first-name John --last-name Doe
 ```
 
-### Verify an email
+### 验证邮箱
 
 ```bash
 node tools/clis/snov.js email verify --email john@example.com
 ```
 
-### Find prospect by email
+### 按邮箱查找 prospect
 
 ```bash
 node tools/clis/snov.js prospect find --email john@example.com
 ```
 
-### Add prospect to a list
+### 把 prospect 加入列表
 
 ```bash
 node tools/clis/snov.js prospect add --email john@example.com --first-name John --last-name Doe --list-id 12345
 ```
 
-### Manage prospect lists
+### 管理 prospect 列表
 
 ```bash
-# List all lists
+# 列出所有列表
 node tools/clis/snov.js lists list
 
-# Get prospects in a list
+# 获取列表中的 prospect
 node tools/clis/snov.js lists prospects --id 12345 --page 1 --per-page 50
 ```
 
-### Check domain technology stack
+### 检查域名技术栈
 
 ```bash
 node tools/clis/snov.js technology check --domain example.com
 ```
 
-### Manage drip campaigns
+### 管理 drip campaign
 
 ```bash
-# List campaigns
+# 列出 Campaign
 node tools/clis/snov.js drips list
 
-# Get campaign details
+# 获取 Campaign 详情
 node tools/clis/snov.js drips get --id 12345
 
-# Add prospect to drip campaign
+# 把 prospect 加入 drip campaign
 node tools/clis/snov.js drips add-prospect --id 12345 --email john@example.com
 ```
 
-## Rate Limits
+## 限流
 
-- Rate limits vary by plan
-- OAuth tokens expire after a set period; CLI handles refresh automatically
+- 限流随套餐不同而变化
+- OAuth token 会在一定时间后过期；CLI 会自动处理刷新
 
-## Use Cases
+## 使用场景
 
-- **Link building**: Find contacts and run automated drip outreach
-- **Prospecting**: Build and manage prospect lists
-- **Technology research**: Check what tech stack a target domain uses
-- **Email verification**: Clean lists before sending
+- **链接建设**：查找联系人并运行自动化 drip outreach
+- **商机挖掘**：构建和管理 prospect 列表
+- **技术研究**：查看目标域名使用了什么技术栈
+- **邮箱验证**：发送前清洗列表

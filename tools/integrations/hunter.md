@@ -1,90 +1,90 @@
 # Hunter.io
 
-Email finding and verification platform for outreach and link building.
+用于外联和链接建设的邮箱查找与验证平台。
 
-## Capabilities
+## 能力
 
-| Integration | Available | Notes |
-|-------------|-----------|-------|
-| API | ✓ | REST API for domain search, email finder, verification |
-| MCP | - | Not available |
-| CLI | [✓](../clis/hunter.js) | Zero-dependency Node.js CLI |
-| SDK | - | API-only |
+| 集成方式 | 可用性 | 说明 |
+|-------------|--------|------|
+| API | ✓ | 提供域名搜索、邮箱查找、验证的 REST API |
+| MCP | - | 不可用 |
+| CLI | [✓](../clis/hunter.js) | 零依赖 Node.js CLI |
+| SDK | - | 仅提供 API |
 
-## Authentication
+## 认证
 
-- **Type**: API Key (query parameter)
-- **Parameter**: `api_key={key}`
-- **Env var**: `HUNTER_API_KEY`
-- **Get key**: [Hunter dashboard > API](https://hunter.io/api-keys)
+- **类型**：API Key（query 参数）
+- **参数**：`api_key={key}`
+- **环境变量**：`HUNTER_API_KEY`
+- **获取方式**：[Hunter dashboard > API](https://hunter.io/api-keys)
 
-## Common Agent Operations
+## 常见 Agent 操作
 
-### Find emails for a domain
+### 查找某个域名下的邮箱
 
 ```bash
 node tools/clis/hunter.js domain search --domain example.com --limit 10
 ```
 
-### Find a specific person's email
+### 查找某个具体联系人的邮箱
 
 ```bash
 node tools/clis/hunter.js email find --domain example.com --first-name John --last-name Doe
 ```
 
-### Verify an email address
+### 验证邮箱地址
 
 ```bash
 node tools/clis/hunter.js email verify --email john@example.com
 ```
 
-### Count emails available for a domain
+### 统计某个域名可用的邮箱数量
 
 ```bash
 node tools/clis/hunter.js domain count --domain example.com
 ```
 
-### Manage leads
+### 管理线索
 
 ```bash
-# List leads
+# 列出线索
 node tools/clis/hunter.js leads list --limit 20
 
-# Create a lead
+# 创建线索
 node tools/clis/hunter.js leads create --email john@example.com --first-name John --last-name Doe --company "Example Inc"
 
-# Delete a lead
+# 删除线索
 node tools/clis/hunter.js leads delete --id 12345
 ```
 
-### Manage campaigns
+### 管理 Campaign
 
 ```bash
-# List campaigns
+# 列出 Campaign
 node tools/clis/hunter.js campaigns list
 
-# Get campaign details
+# 获取 Campaign 详情
 node tools/clis/hunter.js campaigns get --id 12345
 
-# Start/pause a campaign
+# 启动 / 暂停 Campaign
 node tools/clis/hunter.js campaigns start --id 12345
 node tools/clis/hunter.js campaigns pause --id 12345
 ```
 
-### Check account usage
+### 查看账户使用情况
 
 ```bash
 node tools/clis/hunter.js account info
 ```
 
-## Rate Limits
+## 限流
 
-- Free plan: 25 searches/month, 50 verifications/month
-- Paid plans scale with tier
-- API rate limit: 10 requests/second
+- 免费版：每月 25 次搜索、50 次验证
+- 付费版配额随套餐提升
+- API 限流：10 次请求 / 秒
 
-## Use Cases
+## 使用场景
 
-- **Link building**: Find email contacts at target domains for outreach
-- **Prospecting**: Build lead lists from company domains
-- **Verification**: Clean email lists before sending campaigns
+- **链接建设**：在目标域名里查找联系人邮箱，方便做 outreach
+- **商机挖掘**：基于公司域名构建 lead 列表
+- **邮箱验证**：在发送 campaign 前清洗邮箱列表
