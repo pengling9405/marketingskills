@@ -1,48 +1,48 @@
-# Generative AI Tools for Ad Creative
+# 广告创意的生成式 AI 工具
 
-参考 for using AI image generators, 视频 generators, and code-based 视频 tools to produce ad visuals at scale.
+这是一份参考清单，帮助你用 AI 图片生成器、视频生成器和代码驱动的视频工具，规模化生产广告视觉素材。
 
 ---
 
-## 适用场景 Generative Tools
+## 生成式工具适用场景
 
-| Need | Tool Category | Best Fit |
+| 需求 | 工具类别 | 最适合 |
 |------|---------------|----------|
-| Static ad images (banners, social) | Image generation | Nano Banana Pro, Flux, Ideogram |
-| Ad images with text overlays | Image generation (text-capable) | Ideogram, Nano Banana Pro |
-| Short 视频 ads (6-30 sec) | 视频 generation | Veo, Kling, Runway, Sora, Seedance |
-| 视频 ads with voiceover | 视频 gen + voice | Veo/Sora (native), or Runway + ElevenLabs |
-| Voiceover tracks for ads | Voice generation | ElevenLabs, OpenAI TTS, Cartesia |
-| Multi-language ad versions | Voice generation | ElevenLabs, PlayHT |
-| Brand voice cloning | Voice generation | ElevenLabs, Resemble AI |
-| 产品 mockups and variations | Image generation + references | Flux (multi-image 参考) |
-| Templated 视频 ads at scale | Code-based 视频 | Remotion |
-| Personalized 视频 (name, data) | Code-based 视频 | Remotion |
-| Brand-consistent variations | Image gen + style refs | Flux, Ideogram, Nano Banana Pro |
+| 静态广告图（横幅、社媒） | 图片生成 | Nano Banana Pro、Flux、Ideogram |
+| 带文字叠层的广告图 | 图片生成（擅长文字） | Ideogram、Nano Banana Pro |
+| 短视频广告（6 到 30 秒） | 视频生成 | Veo、Kling、Runway、Sora、Seedance |
+| 带旁白的视频广告 | 视频生成 + 语音 | Veo / Sora（原生），或 Runway + ElevenLabs |
+| 广告旁白音轨 | 语音生成 | ElevenLabs、OpenAI TTS、Cartesia |
+| 多语言广告版本 | 语音生成 | ElevenLabs、PlayHT |
+| 品牌声音克隆 | 语音生成 | ElevenLabs、Resemble AI |
+| 产品 mockup 与变体 | 图片生成 + 参考图 | Flux（多图参考） |
+| 模板化批量视频广告 | 代码驱动视频 | Remotion |
+| 个性化视频（姓名、数据） | 代码驱动视频 | Remotion |
+| 品牌一致的多版本素材 | 图片生成 + 风格参考 | Flux、Ideogram、Nano Banana Pro |
 
 ---
 
-## Image Generation
+## 图片生成
 
 ### Nano Banana Pro (Gemini)
 
-Google DeepMind's image generation model, available through the Gemini API.
+Google DeepMind 的图片生成模型，可通过 Gemini API 使用。
 
-**Best for:** High-质量 ad images, 产品 visuals, text rendering
+**最适合：** 高质量广告图片、产品视觉、图片中的文字渲染
 **API:** Gemini API (Google AI Studio, Vertex AI)
 **Pricing:** ~$0.04/image (Gemini 2.5 Flash Image), ~$0.24/4K image (Nano Banana Pro)
 
-**Strengths:**
+**优势：**
 - Strong text rendering in images (logos, headlines)
 - Native image editing (modify existing images with prompts)
-- 可用 through the same Gemini API used for text generation
+- 可直接复用与文本生成相同的 Gemini API
 - Supports both generation and editing in one model
 
-**Ad creative use cases:**
-- Generate social media ad images from text descriptions
-- Create 产品 mockup variations
-- Edit existing ad images (swap backgrounds, change colors)
-- Generate images with 标题 text baked in
+**广告创意用例：**
+- 根据文字描述生成社媒广告图
+- 生成多种产品 mockup 版本
+- 编辑已有广告图，例如替换背景、调整颜色
+- 直接生成带标题文字的图片
 
 **API 示例:**
 ```bash
@@ -60,15 +60,15 @@ curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5
 
 ---
 
-### Flux (Black Forest Labs)
+### Flux（Black Forest Labs）
 
-Open-weight image generation models with API access through Replicate and BFL's native API.
+开放权重的图片生成模型，可通过 Replicate 和 BFL 官方 API 使用。
 
-**Best for:** Photorealistic images, brand-consistent variations, multi-参考 generation
+**最适合：** 拟真图像、品牌一致的多版本产出、多参考图生成
 **API:** Replicate, BFL API, fal.ai
 **Pricing:** ~$0.01-0.06/image depending on model and resolution
 
-**Model variants:**
+**模型版本：**
 | Model | Speed | 质量 | Cost | Best For |
 |-------|-------|---------|------|----------|
 | Flux 2 Pro | ~6 sec | Highest | $0.015/MP | Final production assets |
@@ -76,17 +76,17 @@ Open-weight image generation models with API access through Replicate and BFL's 
 | Flux 2 Dev | ~2.5 sec | Good | $0.012/MP | Rapid prototyping |
 | Flux 2 Klein | Fastest | Good | Lowest | High-volume batch generation |
 
-**Strengths:**
-- Multi-image 参考 (up to 8 images) for consistent identity across ads
-- 产品 consistency — same 产品 in different contexts
-- Style transfer from 参考 images
-- Open-weight Dev model for self-hosting
+**优势：**
+- 支持最多 8 张参考图，方便在多条广告里保持统一形象
+- 产品一致性强，同一产品可以放进不同场景
+- 支持从参考图迁移风格
+- Dev 模型开源，可自托管
 
-**Ad creative use cases:**
-- Generate 50+ ad variations with consistent 产品/person identity
-- Create 产品-in-context images (your SaaS on different devices)
-- Style-match to existing brand assets using 参考 images
-- Rapid A/B test image variations
+**广告创意用例：**
+- 一次生成 50+ 个广告版本，同时保持人物或产品一致
+- 生成“产品在具体使用场景中”的图片，例如 SaaS 出现在不同设备里
+- 用参考图去贴合已有品牌资产的视觉风格
+- 快速产出 A/B 测试用图片版本
 
 **Docs:** [Replicate Flux](https://replicate.com/black-forest-labs/flux-2-pro), [BFL API](https://docs.bfl.ml/)
 
@@ -94,45 +94,45 @@ Open-weight image generation models with API access through Replicate and BFL's 
 
 ### Ideogram
 
-Specialized in typography and text rendering within images.
+专门强化图片中的排版与文字渲染。
 
-**Best for:** Ad banners with text, branded graphics, social ad images with headlines
+**最适合：** 含文字的广告横幅、品牌图形、带标题的社媒广告图
 **API:** Ideogram API, Runware
 **Pricing:** ~$0.06/image (API), ~$0.009/image (subscription)
 
-**Strengths:**
+**优势：**
 - Best-in-class text rendering (~90% accuracy vs ~30% for most tools)
 - Style 参考 system (upload up to 3 参考 images)
 - 4.3 billion style presets for consistent brand aesthetics
 - Strong at logos and branded typography
 
-**Ad creative use cases:**
-- Generate ad banners with 标题 text directly in the image
-- Create social media graphics with branded text overlays
-- Produce multiple design variations with consistent typography
-- Generate promotional materials without needing a designer for each iteration
+**广告创意用例：**
+- 直接生成内含标题文字的广告横幅
+- 产出带品牌文字叠层的社媒图形
+- 快速生成多版且排版风格一致的设计
+- 在每次迭代都不依赖设计师的情况下产出推广素材
 
 **Docs:** [Ideogram API](https://developer.ideogram.ai/), [Ideogram](https://ideogram.ai/)
 
 ---
 
-### Other Image Tools
+### 其他图片工具
 
-| Tool | Best For | API Status | 说明 |
+| 工具 | 最适合 | API 状态 | 说明 |
 |------|----------|------------|-------|
 | **DALL-E 3** (OpenAI) | General image generation | Official API | Integrated with ChatGPT, good text rendering |
 | **Midjourney** | Artistic, high-aesthetic images | No official public API | Discord-based; unofficial APIs exist but risk bans |
-| **Stable Diffusion** | Self-hosted, customizable | Open 来源 | Best for teams with GPU infrastructure |
+| **Stable Diffusion** | 自托管、可深度定制 | 开源 | 更适合有 GPU 基础设施的团队 |
 
 ---
 
-## 视频 Generation
+## 视频生成
 
 ### Google Veo
 
-Google DeepMind's 视频 generation model, available through the Gemini API and Vertex AI.
+Google DeepMind 的视频生成模型，可通过 Gemini API 和 Vertex AI 使用。
 
-**Best for:** High-质量 视频 ads with native audio, vertical 视频 for social
+**最适合：** 高质量带原生音频的视频广告，以及面向社媒的竖屏视频
 **API:** Gemini API, Vertex AI
 **Pricing:** ~$0.15/sec (Veo 3.1 Fast), ~$0.40/sec (Veo 3.1 Standard)
 
@@ -143,21 +143,21 @@ Google DeepMind's 视频 generation model, available through the Gemini API and 
 - Upscale to 4K
 - Text-to-视频 and image-to-视频
 
-**Ad creative use cases:**
-- Generate short 视频 ads (15-30 sec) from text descriptions
-- Create vertical 视频 ads for TikTok, Reels, Shorts
-- Produce 产品 demos with voiceover
-- Generate multiple 视频 variations from the same prompt with different styles
+**广告创意用例：**
+- 从文字描述生成 15 到 30 秒短视频广告
+- 为 TikTok、Reels、Shorts 生成竖屏广告
+- 生成带旁白的产品演示视频
+- 基于同一提示词，快速产出多种风格版本
 
 **Docs:** [Veo on Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/video/overview)
 
 ---
 
-### Kling (Kuaishou)
+### Kling（快手）
 
-视频 generation with simultaneous audio-visual generation and camera controls.
+支持音视频同时生成，并带镜头控制能力。
 
-**Best for:** Cinematic 视频 ads, longer-form content, audio-synced 视频
+**最适合：** 电影感广告视频、较长的视频内容、音画同步视频
 **API:** Kling API, PiAPI, fal.ai
 **Pricing:** ~$0.09/sec (via fal.ai third-party)
 
@@ -167,10 +167,10 @@ Google DeepMind's 视频 generation model, available through the Gemini API and 
 - Text-to-视频 and image-to-视频
 - Motion and camera controls
 
-**Ad creative use cases:**
-- Longer 产品 explainer videos
-- Cinematic brand videos with synchronized audio
-- Animate 产品 images into 视频 ads
+**广告创意用例：**
+- 更长的产品讲解视频
+- 带同步音频的品牌电影感视频
+- 把产品静态图转成视频广告
 
 **Docs:** [Kling AI Developer](https://klingai.com/global/dev/model/video)
 
@@ -178,9 +178,9 @@ Google DeepMind's 视频 generation model, available through the Gemini API and 
 
 ### Runway
 
-视频 generation and editing 平台 with strong controllability.
+一体化的视频生成与编辑平台，控制力较强。
 
-**Best for:** Controlled 视频 generation, style-consistent content, editing existing footage
+**最适合：** 可控的视频生成、风格一致的内容、已有素材的再编辑
 **API:** Runway Developer Portal
 
 **能力:**
@@ -189,20 +189,20 @@ Google DeepMind's 视频 generation model, available through the Gemini API and 
 - Image-to-视频 with 参考 images
 - 视频-to-视频 style transfer
 
-**Ad creative use cases:**
-- Generate 视频 ads with consistent characters/products across scenes
-- Style-transfer existing footage to match brand aesthetics
-- Extend or remix existing 视频 content
+**广告创意用例：**
+- 生成跨镜头保持人物或产品一致的视频广告
+- 把已有视频做风格迁移，贴近品牌视觉
+- 延展或重混已有视频素材
 
 **Docs:** [Runway API](https://docs.dev.runwayml.com/)
 
 ---
 
-### Sora 2 (OpenAI)
+### Sora 2（OpenAI）
 
-OpenAI's 视频 generation model with synchronized audio.
+OpenAI 的视频生成模型，支持同步音频。
 
-**Best for:** High-fidelity 视频 with dialogue and sound
+**最适合：** 高保真、带对白和音效的视频
 **API:** OpenAI API
 **Pricing:** Free tier available; Pro from $0.10-0.50/sec depending on resolution
 
@@ -212,10 +212,10 @@ OpenAI's 视频 generation model with synchronized audio.
 - sora-2 (fast) and sora-2-pro (质量) variants
 - Text-to-视频 and image-to-视频
 
-**Ad creative use cases:**
-- 视频 推荐语 and talking-head style ads
-- 产品 demo videos with narration
-- Narrative brand videos
+**广告创意用例：**
+- 视频推荐语与 talking-head 风格广告
+- 带讲解的产品 Demo 视频
+- 叙事型品牌视频
 
 **Docs:** [OpenAI Video Generation](https://platform.openai.com/docs/guides/video-generation)
 

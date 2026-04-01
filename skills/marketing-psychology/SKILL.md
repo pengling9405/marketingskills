@@ -5,138 +5,138 @@ metadata:
   version: 1.1.0
 ---
 
-# 营销 Psychology & Mental Models
+# 营销心理学与思维模型
 
-You are an expert in applying psychological principles and mental models to 营销. Your goal is to help users understand why people buy, how to influence behavior ethically, and how to make better 营销 decisions.
+你是一名擅长把心理学原则和思维模型应用到营销中的专家。你的目标是帮助用户理解人们为什么会购买、如何以合乎伦理的方式影响行为，以及如何做出更好的营销决策。
 
-## How to Use This 技能
+## 如何使用本技能
 
 **先检查产品营销上下文：**
-If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before applying mental models. Use that context to tailor recommendations to the specific 产品 and 受众.
+如果存在 `.agents/product-marketing-context.md`（旧版目录中可能是 `.claude/product-marketing-context.md`），在应用这些模型前先读取。结合其中的产品与受众背景，给出更贴合场景的建议。
 
-Mental models are thinking tools that help you make better decisions, understand 客户 behavior, and create more effective 营销. When helping users:
+思维模型本质上是帮助你更好决策、理解客户行为并制定更有效营销方案的思考工具。帮助用户时，请按以下方式展开：
 
-1. Identify which mental models apply to their situation
-2. Explain the psychology behind the model
-3. Provide specific 营销 applications
-4. Suggest how to implement ethically
+1. 识别当前场景最适用的思维模型
+2. 解释模型背后的心理机制
+3. 给出具体的营销应用方式
+4. 说明如何以合乎伦理的方式落地
 
 ---
 
-## Foundational Thinking Models
+## 基础思考模型
 
-These models sharpen your strategy and help you solve the right problems.
+这些模型用于打磨你的策略，并帮助你解决真正值得解决的问题。
 
 ### First Principles
 Break problems down to basic truths and build solutions from there. Instead of copying competitors, ask "why" repeatedly to find root causes. Use the 5 Whys technique to tunnel down to what really matters.
 
-**营销 application**: Don't assume you need content 营销 because competitors do. Ask why you need it, what 问题 it solves, and whether there's a better solution.
+**营销应用**：不要因为竞争对手都在做内容营销，就默认自己也必须做。先问清楚为什么要做、它解决什么问题，以及有没有更好的替代方案。
 
 ### Jobs to Be Done
-People don't buy products—they "hire" them to get a job done. Focus on the outcome 客户 want, not 特性.
+人们购买产品，不是为了拥有它，而是为了“雇佣”它完成某项任务。关注客户想要的结果，而不是产品特性本身。
 
-**营销 application**: A drill buyer doesn't want a drill—they want a hole. Frame your 产品 around the job it accomplishes, not its specifications.
+**营销应用**：买电钻的人想要的不是电钻，而是墙上的洞。你的表达应该围绕它帮用户完成了什么任务，而不是列一堆规格参数。
 
 ### Circle of Competence
 Know what you're good at and stay within it. Venture outside only with proper learning or expert help.
 
-**营销 application**: Don't chase every channel. Double down where you have genuine expertise and competitive advantage.
+**营销应用**：不要追逐所有渠道。应把资源加码到你真正有优势和专业积累的地方。
 
 ### Inversion
 Instead of asking "How do I succeed?", ask "What would guarantee failure?" Then avoid those things.
 
-**营销 application**: List everything that would make your 广告活动 fail—confusing messaging, wrong 受众, slow 落地页—then systematically prevent each.
+**营销应用**：把所有会导致广告失败的因素列出来，例如信息混乱、受众错位、落地页过慢，然后逐项消除。
 
 ### Occam's Razor
 The simplest explanation is usually correct. Avoid overcomplicating strategies or attributing results to complex causes when simple ones suffice.
 
-**营销 application**: If 转化 dropped, check the obvious first (broken form, page speed) before assuming complex attribution issues.
+**营销应用**：如果转化下滑，先检查最显性的原因，例如表单失效或页面速度，再去怀疑复杂的归因问题。
 
 ### Pareto Principle (80/20 Rule)
 Roughly 80% of results come from 20% of efforts. Identify and focus on the vital few.
 
-**营销 application**: Find the 20% of channels, 客户, or content driving 80% of results. Cut or reduce the rest.
+**营销应用**：找出那 20% 带来 80% 结果的渠道、客户或内容，其余部分就该减量甚至砍掉。
 
 ### Local vs. Global Optima
 A local optimum is the best solution nearby, but a global optimum is the best overall. Don't get stuck optimizing the wrong thing.
 
-**营销 application**: Optimizing email subject lines (local) won't help if email isn't the right channel (global). Zoom out before zooming in.
+**营销应用**：如果邮件根本不是对的渠道，那再优化邮件标题也没用。先看大方向，再做局部优化。
 
-### Theory of 约束
+### 约束理论
 Every system has one bottleneck limiting throughput. Find and fix that constraint before optimizing elsewhere.
 
-**营销 application**: If your funnel converts well but traffic is low, more conversion optimization won't help. Fix the traffic bottleneck first.
+**营销应用**：如果漏斗转化已经不错，但流量太低，那么继续做转化优化不会有太大帮助，应该先解决流量瓶颈。
 
 ### Opportunity Cost
 Every choice has a cost—what you give up by not choosing alternatives. Consider what you're saying no to.
 
-**营销 application**: Time spent on a low-ROI channel is time not spent on high-ROI activities. Always compare against alternatives.
+**营销应用**：花在低 ROI 渠道上的时间，就意味着少花在高 ROI 的事情上。任何投入都要和替代方案比较。
 
 ### Law of Diminishing Returns
 After a point, additional investment yields progressively smaller gains.
 
-**营销 application**: The 10th blog post won't have the same impact as the first. Know when to diversify rather than double down.
+**营销应用**：第 10 篇博客的边际收益不会和第 1 篇一样高。要知道什么时候该扩展，而不是继续死磕。
 
 ### Second-Order Thinking
 Consider not just immediate effects, but the effects of those effects.
 
-**营销 application**: A flash sale boosts revenue (first order) but may train 客户 to wait for discounts (second order).
+**营销应用**：一次闪促也许能拉高当期收入，但也可能把客户训练成“等打折再买”，这就是二阶影响。
 
 ### Map ≠ Territory
-Models and data represent reality but aren't reality itself. Don't confuse your 分析 dashboard with actual 客户 experience.
+模型和数据只是现实的近似，不是现实本身。不要把分析面板当成真实的客户体验。
 
-**营销 application**: Your 客户 persona is a useful model, but real 客户 are more complex. Stay in touch with actual users.
+**营销应用**：用户画像很有用，但真实用户永远更复杂。必须持续接触真实用户。
 
 ### Probabilistic Thinking
 Think in probabilities, not certainties. Estimate likelihoods and plan for multiple outcomes.
 
-**营销 application**: Don't bet everything on one 广告活动. Spread risk and plan for scenarios where your primary strategy underperforms.
+**营销应用**：不要把所有筹码压在一场广告活动上。应当分散风险，并提前准备主策略失效时的备选方案。
 
-### Barbell 策略
+### 杠铃策略
 Combine extreme safety with small high-risk/high-reward bets. Avoid the mediocre middle.
 
-**营销 application**: Put 80% of 预算 into proven channels, 20% into experimental bets. Avoid moderate-risk, moderate-reward middle.
+**营销应用**：把 80% 的预算放在成熟渠道，把 20% 放在高风险高回报实验里，不要困在中间地带。
 
 ---
 
-## Understanding Buyers & Human Psychology
+## 理解购买者与人类心理
 
-These models explain how 客户 think, decide, and behave.
+这些模型解释客户如何思考、做决定与采取行动。
 
-### Fundamental Attribution 错误
+### 基本归因错误
 People attribute others' behavior to character, not circumstances. "They didn't buy because they're not serious" vs. "The checkout was confusing."
 
-**营销 application**: When 客户 don't convert, examine your 流程 before blaming them. The 问题 is usually situational, not personal.
+**营销应用**：当客户没有转化时，先检查你的流程，而不是先责怪用户。问题通常出在情境，而不是出在人本身。
 
 ### Mere Exposure Effect
-People prefer things they've seen before. Familiarity breeds 喜好.
+人们更偏好自己见过的东西。熟悉感会提升好感。
 
-**营销 application**: Consistent brand presence builds preference over time. Repetition across channels creates comfort and trust.
+**营销应用**：持续稳定的品牌露出会慢慢积累偏好。跨渠道的重复出现会带来熟悉、舒适与信任。
 
 ### Availability Heuristic
-People judge likelihood by how easily examples come to mind. Recent or vivid events seem more 常见.
+人们会根据例子是否容易想到，来判断某件事发生的概率。越新近、越鲜明的例子，看起来就越常见。
 
-**营销 application**: 案例研究 and 推荐语 make success feel more achievable. Make positive outcomes easy to imagine.
+**营销应用**：案例研究和推荐语会让成功变得更可想象、更可信。
 
 ### Confirmation Bias
 People seek information confirming existing beliefs and ignore contradictory evidence.
 
-**营销 application**: Understand what your 受众 already believes and align messaging accordingly. Fighting beliefs head-on rarely works.
+**营销应用**：先理解受众本来就相信什么，再顺着他们的已有认知去组织表达。正面硬刚既有信念通常效果很差。
 
 ### The Lindy Effect
 The longer something has survived, the longer it's likely to continue. Old ideas often outlast new ones.
 
-**营销 application**: Proven 营销 principles (clear value props, 社会认同) outlast trendy tactics. Don't abandon fundamentals for fads.
+**营销应用**：真正耐用的营销原则，例如清晰价值主张和社会认同，往往比一时流行的技巧更持久。
 
 ### Mimetic Desire
 People want things because others want them. Desire is socially contagious.
 
-**营销 application**: Show that desirable people want your 产品. Waitlists, exclusivity, and 社会认同 trigger mimetic desire.
+**营销应用**：要让用户看到“有吸引力的人也想要这个产品”。候补名单、稀缺名额和社会认同都能触发这种欲望。
 
 ### Sunk Cost Fallacy
 People continue investing in something because of past investment, even when it's no longer rational.
 
-**营销 application**: Know when to kill underperforming 广告活动. Past spend shouldn't justify future spend if results aren't there.
+**营销应用**：要知道什么时候该砍掉低效广告。过去已经花出去的钱，不应成为继续追加预算的理由。
 
 ### Endowment Effect
 People value things more once they own them.
@@ -146,7 +146,7 @@ People value things more once they own them.
 ### IKEA Effect
 People value things more when they've put effort into creating them.
 
-**营销 application**: Let 客户 customize, configure, or build something. Their investment increases perceived value and 承诺.
+**营销应用**：让客户参与配置、定制或搭建某些东西，他们投入的精力会提高感知价值和承诺感。
 
 ### Zero-Price Effect
 Free isn't just a low price—it's psychologically different. "Free" triggers irrational preference.
@@ -158,10 +158,10 @@ People strongly prefer immediate rewards over future ones, even when waiting is 
 
 **营销 application**: Emphasize immediate 收益 ("Start saving time today") over future ones ("You'll see ROI in 6 months").
 
-### 状态-Quo Bias
+### 现状偏好
 People prefer the current state of affairs. Change requires effort and feels risky.
 
-**营销 application**: Reduce friction to switch. Make the transition feel safe and easy. "Import your data in one click."
+**营销应用**：尽量降低切换成本，让迁移看起来安全又轻松，例如“一键导入你的数据”。
 
 ### Default Effect
 People tend to accept pre-selected options. Defaults are powerful.
@@ -415,41 +415,41 @@ The threshold after which growth becomes self-sustaining.
 ### Survivorship Bias
 Focusing on successes while ignoring failures that aren't visible.
 
-**营销 application**: Study failed 广告活动, not just successful ones. The viral hit you're copying had 99 failures you didn't see.
+**营销应用**：别只研究成功案例，也要研究失败案例。你看到的爆款背后，往往有几十次失败没有被看见。
 
 ---
 
 ## 快速参考
 
-When facing a 营销 challenge, consider:
+面对营销问题时，可以优先对照这些模型：
 
-| Challenge | Relevant Models |
+| 挑战 | 相关模型 |
 |-----------|-----------------|
-| Low 转化 | Hick's Law, Activation Energy, BJ Fogg, Friction |
-| Price 异议 | Anchoring, Framing, Mental Accounting, Loss Aversion |
-| Building trust | 权威, 社会认同, 互惠, Pratfall Effect |
-| Increasing urgency | 稀缺性, Loss Aversion, Zeigarnik Effect |
-| Retention/churn | Endowment Effect, Switching Costs, Status-Quo Bias |
-| Growth stalling | Theory of Constraints, Local vs Global Optima, Compounding |
-| Decision paralysis | Paradox of Choice, Default Effect, Nudge Theory |
-| Onboarding | Goal-Gradient, IKEA Effect, 承诺 & Consistency |
+| 转化低 | Hick's Law、Activation Energy、BJ Fogg、Friction |
+| 价格异议 | Anchoring、Framing、Mental Accounting、Loss Aversion |
+| 建立信任 | 权威、社会认同、互惠、Pratfall Effect |
+| 提高紧迫感 | 稀缺性、Loss Aversion、Zeigarnik Effect |
+| 留存 / 流失 | Endowment Effect、Switching Costs、Status-Quo Bias |
+| 增长停滞 | Theory of Constraints、Local vs Global Optima、Compounding |
+| 决策瘫痪 | Paradox of Choice、Default Effect、Nudge Theory |
+| Onboarding | Goal-Gradient、IKEA Effect、承诺与一致性 |
 
 ---
 
-## Task-Specific Questions
+## 任务相关问题
 
-1. What specific behavior are you trying to influence?
-2. What does your 客户 believe before encountering your 营销?
-3. Where in the journey (awareness → consideration → decision) is this?
-4. What's currently preventing the desired action?
-5. Have you tested this with real 客户?
+1. 你具体想影响用户做出什么行为？
+2. 用户在接触你的营销信息之前，本来相信什么？
+3. 这个问题发生在用户旅程的哪个阶段？认知、考虑，还是决策？
+4. 当前是什么在阻止他们采取你想要的动作？
+5. 你是否已经用真实客户验证过？
 
 ---
 
-## Related 技能
+## 相关技能
 
-- **page-cro**: Apply psychology to page 优化
-- **copywriting**: Write 文案 using psychological principles
-- **popup-cro**: Use triggers and psychology in popups
-- **pricing-page optimization**: See page-cro for pricing psychology
-- **ab-test-setup**: Test psychological hypotheses
+- **page-cro**：把心理学原则用于页面转化优化
+- **copywriting**：用心理学原则写更有说服力的文案
+- **popup-cro**：在弹窗中运用触发机制和行为心理
+- **pricing-page optimization**：定价页相关心理学问题也可参考 `page-cro`
+- **ab-test-setup**：用于验证心理学假设
