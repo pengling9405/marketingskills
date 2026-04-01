@@ -61,7 +61,7 @@ access_token={access_token}
 &special_ad_categories=[]
 ```
 
-### Update 广告活动 status
+### Update 广告活动 状态
 
 ```bash
 POST https://graph.facebook.com/v18.0/{campaign_id}

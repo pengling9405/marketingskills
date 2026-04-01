@@ -35,7 +35,7 @@ GET https://business-api.tiktok.com/open_api/v1.3/campaign/get/?advertiser_id={a
 Access-Token: {access_token}
 ```
 
-### Get 广告活动 report
+### Get 广告活动 报告
 
 ```bash
 POST https://business-api.tiktok.com/open_api/v1.3/report/integrated/get/
@@ -69,7 +69,7 @@ Access-Token: {access_token}
 }
 ```
 
-### Update 广告活动 status
+### Update 广告活动 状态
 
 ```bash
 POST https://business-api.tiktok.com/open_api/v1.3/campaign/status/update/

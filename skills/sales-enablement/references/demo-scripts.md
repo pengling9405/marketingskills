@@ -53,7 +53,7 @@ Scene-by-scene templates for different call types, with timing, talk tracks, and
 
 ---
 
-### Scene 4: Impact & Priority (5 min)
+### Scene 4: 影响 & Priority (5 min)
 
 **Questions to ask:**
 - "Where does solving this sit on your priority list this quarter?"
@@ -234,7 +234,7 @@ Show something they can't do today and can't get from competitors.
 
 ---
 
-### Scene 5: Implementation & Migration (5 min)
+### Scene 5: 实现 & Migration (5 min)
 
 **Cover:**
 - Implementation timeline and phases

@@ -58,7 +58,7 @@ Detailed formulas and templates for writing high-converting ad 文案.
 
 ---
 
-### Feature-收益 Bridge
+### 功能-收益 Bridge
 
 ```
 [Feature]

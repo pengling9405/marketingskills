@@ -1,6 +1,6 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO-driven pages at scale using templates and data. 当用户提到以下内容时也应使用 "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[关键词] + [city] pages," "comparison pages," "integration pages," "building many pages for SEO," "pSEO," "generate 100 pages," "data-driven pages," or "templated landing pages." 在这些情况下都应使用本技能 someone wants to create many similar pages targeting different 关键词 or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.
+description: "当用户想基于模板与数据批量生成 SEO 页面时使用。用户提到“programmatic SEO”“template pages”“pages at scale”“directory pages”“location pages”“[keyword] + [city] pages”“comparison pages”“integration pages”“pSEO”“generate 100 pages”或“templated landing pages”时也应使用。本技能适用于希望围绕不同关键词、地域或对象批量创建相似页面的场景。若要审计现有 SEO 问题，请参见 seo-audit；若要规划内容策略，请参见 content-strategy。"
 metadata:
   version: 1.1.0
 ---
@@ -35,7 +35,7 @@ Before designing a programmatic SEO strategy, understand:
 
 ## 核心原则
 
-### 1. Unique Value Per Page
+### 1. Unique Value Per 页面
 - Every page must provide value specific to that page
 - Not just swapped variables in a template
 - Maximize unique content—the more differentiated, the better
@@ -105,9 +105,9 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 
 ---
 
-## Implementation Framework
+## 实现 Framework
 
-### 1. 关键词 Pattern Research
+### 1. 关键词 模式 Research
 
 **Identify the pattern:**
 - What's the repeating structure?
@@ -126,7 +126,7 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 - Is it first-party, scraped, licensed, public?
 - How is it updated?
 
-### 3. Template Design
+### 3. Template 设计
 
 **Page structure:**
 - 请求头 with target 关键词
@@ -152,7 +152,7 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 - XML sitemap for all pages
 - Breadcrumbs with structured data
 
-### 5. Indexation Strategy
+### 5. Indexation 策略
 
 - Prioritize high-volume patterns
 - Noindex very thin variations
@@ -206,12 +206,12 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 
 ## 输出格式
 
-### Strategy Document
+### 策略 Document
 - Opportunity 分析
 - Implementation plan
 - Content guidelines
 
-### Page Template
+### 页面 Template
 - URL structure
 - Title/meta templates
 - Content outline
@@ -230,7 +230,7 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **seo-audit**: For auditing programmatic pages after launch
 - **schema-markup**: For adding structured data

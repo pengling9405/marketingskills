@@ -15,7 +15,7 @@ npx @composio/mcp@latest setup
 
 Verify by running `/mcp` in Claude Code — `composio` should appear in the server list.
 
-## Connect a Tool
+## Connect a 工具
 
 When you ask the agent to use a Composio-backed tool for the first time, it will provide a Connect Link. Open the link in your browser, authorize the app, and you're set. The connection persists across sessions.
 
@@ -46,7 +46,7 @@ Agent: "Here are your top contacts: ..."
 "Add a row to my 'Campaign Tracker' Google Sheet with today's LinkedIn Ads metrics"
 ```
 
-### Cross-tool 工作流
+### Cross-工具 工作流
 
 ```
 "Find Salesforce leads from this week and post a summary in Slack #new-leads"
@@ -69,7 +69,7 @@ Key tools with new MCP access (no native MCP server in this repo):
 
 ## Troubleshooting
 
-### "Tool not found" error
+### "工具 not found" 错误
 
 The tool may not be connected yet. Ask the agent to connect it, or run:
 
@@ -84,7 +84,7 @@ OAuth tokens expire. If a tool stops working, re-authenticate:
 ```bash
 npx composio connections list    # Find the connection
 npx composio connections remove {id}  # Remove it
-# Then ask the agent to use the tool again to trigger re-auth
+# Then ask the agent to use the 工具 again to trigger re-auth
 ```
 
 ### Rate limit errors

@@ -1,6 +1,6 @@
 ---
-name: 营销-psychology
-description: "When the user wants to apply psychological principles, mental models, or behavioral science to 营销. 当用户提到以下内容时也应使用 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' '社会认同,' '稀缺性,' 'loss aversion,' 'framing,' or 'nudge.' 在这些情况下都应使用本技能 someone wants to understand or leverage how people think and make decisions in a 营销 context."
+name: marketing-psychology
+description: "当用户想把心理学原则、mental models 或 behavioral science 用到营销中时使用。用户提到“psychology”“mental models”“cognitive bias”“persuasion”“behavioral science”“why people buy”“decision-making”“consumer behavior”“anchoring”“social proof”“scarcity”“loss aversion”“framing”或“nudge”时也应使用。本技能适用于希望理解并利用用户如何思考、如何做决策的营销场景。"
 metadata:
   version: 1.1.0
 ---
@@ -9,7 +9,7 @@ metadata:
 
 You are an expert in applying psychological principles and mental models to 营销. Your goal is to help users understand why people buy, how to influence behavior ethically, and how to make better 营销 decisions.
 
-## How to Use This Skill
+## How to Use This 技能
 
 **先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before applying mental models. Use that context to tailor recommendations to the specific 产品 and 受众.
@@ -62,7 +62,7 @@ A local optimum is the best solution nearby, but a global optimum is the best ov
 
 **营销 application**: Optimizing email subject lines (local) won't help if email isn't the right channel (global). Zoom out before zooming in.
 
-### Theory of Constraints
+### Theory of 约束
 Every system has one bottleneck limiting throughput. Find and fix that constraint before optimizing elsewhere.
 
 **营销 application**: If your funnel converts well but traffic is low, more conversion optimization won't help. Fix the traffic bottleneck first.
@@ -92,7 +92,7 @@ Think in probabilities, not certainties. Estimate likelihoods and plan for multi
 
 **营销 application**: Don't bet everything on one 广告活动. Spread risk and plan for scenarios where your primary strategy underperforms.
 
-### Barbell Strategy
+### Barbell 策略
 Combine extreme safety with small high-risk/high-reward bets. Avoid the mediocre middle.
 
 **营销 application**: Put 80% of 预算 into proven channels, 20% into experimental bets. Avoid moderate-risk, moderate-reward middle.
@@ -103,7 +103,7 @@ Combine extreme safety with small high-risk/high-reward bets. Avoid the mediocre
 
 These models explain how 客户 think, decide, and behave.
 
-### Fundamental Attribution Error
+### Fundamental Attribution 错误
 People attribute others' behavior to character, not circumstances. "They didn't buy because they're not serious" vs. "The checkout was confusing."
 
 **营销 application**: When 客户 don't convert, examine your 流程 before blaming them. The 问题 is usually situational, not personal.
@@ -158,7 +158,7 @@ People strongly prefer immediate rewards over future ones, even when waiting is 
 
 **营销 application**: Emphasize immediate 收益 ("Start saving time today") over future ones ("You'll see ROI in 6 months").
 
-### Status-Quo Bias
+### 状态-Quo Bias
 People prefer the current state of affairs. Change requires effort and feels risky.
 
 **营销 application**: Reduce friction to switch. Make the transition feel safe and easy. "Import your data in one click."
@@ -317,7 +317,7 @@ Framing the same price differently changes perception.
 
 ---
 
-## Design & Delivery Models
+## 设计 & Delivery Models
 
 These models help you design effective 营销 systems.
 
@@ -446,10 +446,10 @@ When facing a 营销 challenge, consider:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **page-cro**: Apply psychology to page 优化
 - **copywriting**: Write 文案 using psychological principles
 - **popup-cro**: Use triggers and psychology in popups
 - **pricing-page optimization**: See page-cro for pricing psychology
-- **ab-test-配置方式**: Test psychological hypotheses
+- **ab-test-setup**: Test psychological hypotheses

@@ -67,7 +67,7 @@ Headers:
   Authorization: Bearer {access_token}
 ```
 
-### Reply to a review
+### Reply to a 审查
 
 ```bash
 POST https://api.trustpilot.com/v1/private/reviews/{reviewId}/reply
@@ -80,7 +80,7 @@ Headers:
 }
 ```
 
-### Send email invitation
+### Send 邮件 invitation
 
 ```bash
 POST https://api.trustpilot.com/v1/private/business-units/{businessUnitId}/email-invitations
@@ -96,7 +96,7 @@ Headers:
 }
 ```
 
-### Generate review invitation link
+### Generate 审查 invitation link
 
 ```bash
 POST https://api.trustpilot.com/v1/private/business-units/{businessUnitId}/invitation-links
@@ -121,7 +121,7 @@ Headers:
   Authorization: Bearer {access_token}
 ```
 
-### Add tags to a review
+### Add tags to a 审查
 
 ```bash
 PUT https://api.trustpilot.com/v1/private/reviews/{reviewId}/tags
@@ -142,7 +142,7 @@ Headers:
 - `stars` - Star rating displayed
 - `status` - Claim status (claimed, unclaimed)
 
-### Review 指标
+### 审查 指标
 - `stars` - Individual review star rating (1-5)
 - `language` - Review language code
 - `createdAt` - Review creation timestamp
@@ -151,7 +151,7 @@ Headers:
 
 ## Parameters
 
-### Review Filters
+### 审查 Filters
 - `stars` - Filter by star rating (1-5)
 - `language` - Filter by language code (e.g., `en`)
 - `orderBy` - Sort order (`createdat.desc`, `createdat.asc`, `stars.desc`, `stars.asc`)

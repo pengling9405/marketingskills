@@ -67,7 +67,7 @@ Authorization: Bearer {access_token}
 }
 ```
 
-### Update 广告活动 status
+### Update 广告活动 状态
 
 ```bash
 POST https://api.linkedin.com/v2/adCampaignsV2/{campaign_id}

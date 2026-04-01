@@ -87,7 +87,7 @@ graph TD
 
 ---
 
-## Hub-and-Spoke Content Model
+## Hub-and-Spoke 内容 Model
 
 Shows a hub page connected to spoke articles, with spokes linking to each other.
 

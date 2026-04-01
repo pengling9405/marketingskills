@@ -99,7 +99,7 @@ sanity init
 # Start the studio locally
 sanity dev
 
-# Deploy studio to Sanity hosting
+# 部署 studio to Sanity hosting
 sanity deploy
 
 # Export dataset

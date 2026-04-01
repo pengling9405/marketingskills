@@ -35,13 +35,13 @@ resend login
 ### 常见 commands
 
 ```bash
-# Send a test email
+# Send a 测试 邮件
 resend emails send --from hello@example.com --to user@example.com --subject "Test" --text "Hello"
 
 # List recent emails
 resend emails list
 
-# Get email status
+# Get 邮件 状态
 resend emails get <email_id>
 
 # List domains
@@ -62,7 +62,7 @@ resend api-keys create --name "Production"
 
 ## 常见代理操作
 
-### Send email
+### Send 邮件
 
 ```bash
 POST https://api.resend.com/emails
@@ -91,7 +91,7 @@ POST https://api.resend.com/emails
 }
 ```
 
-### Get email status
+### Get 邮件 状态
 
 ```bash
 GET https://api.resend.com/emails/{email_id}
@@ -157,7 +157,7 @@ await resend.emails.send({
 });
 ```
 
-### With React Email
+### With React 邮件
 
 ```typescript
 import { WelcomeEmail } from './emails/welcome';
@@ -170,7 +170,7 @@ await resend.emails.send({
 });
 ```
 
-## Email Statuses
+## 邮件 Statuses
 
 - `queued` - Email queued for delivery
 - `sent` - Email sent to recipient server

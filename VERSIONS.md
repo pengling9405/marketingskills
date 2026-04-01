@@ -1,4 +1,4 @@
-# Marketing Skills 版本列表
+# Marketing 技能 版本列表
 
 这里记录了所有 skill 的当前版本。Agent 可以将其与本地版本比较，以检查是否有更新。
 

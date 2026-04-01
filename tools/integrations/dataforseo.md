@@ -56,7 +56,7 @@ POST https://api.dataforseo.com/v3/keywords_data/google_ads/keywords_for_site/li
 }]
 ```
 
-### Backlinks - Summary
+### Backlinks - 摘要
 
 ```bash
 POST https://api.dataforseo.com/v3/backlinks/summary/live
@@ -98,7 +98,7 @@ POST https://api.dataforseo.com/v3/backlinks/referring_domains/live
 GET https://api.dataforseo.com/v3/backlinks/index
 ```
 
-### On-Page - Instant pages audit
+### On-页面 - Instant 页面 audit
 
 ```bash
 POST https://api.dataforseo.com/v3/on_page/instant_pages
@@ -121,7 +121,7 @@ GET https://api.dataforseo.com/v3/serp/google/locations
 GET https://api.dataforseo.com/v3/serp/google/languages
 ```
 
-## API Pattern
+## API 模式
 
 DataForSEO uses two methods for most endpoints:
 - **Live** (`/live`) - Synchronous, results in same response

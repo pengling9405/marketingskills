@@ -113,7 +113,7 @@ Authorization: Bearer {app_api_key}
 }
 ```
 
-### Send transactional email
+### Send transactional 邮件
 
 ```bash
 POST https://api.customer.io/v1/send/email

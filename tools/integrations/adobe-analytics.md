@@ -19,7 +19,7 @@ Enterprise 分析 平台 for cross-channel 衡量 and attribution.
 
 ## 常见代理操作
 
-### Get report suite info
+### Get 报告 suite info
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/reportsuites
@@ -46,7 +46,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Run report
+### Run 报告
 
 ```bash
 POST https://analytics.adobe.io/api/{company_id}/reports
@@ -152,5 +152,5 @@ s.tl(this, 'o', 'Button Click');
 ## 相关技能
 
 - 分析-跟踪
-- ab-test-配置方式
+- ab-test-setup
 - paid-ads

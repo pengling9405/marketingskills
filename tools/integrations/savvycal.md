@@ -19,7 +19,7 @@ Scheduling 平台 API for managing scheduling links, events, availability slots,
 
 ## 常见代理操作
 
-### Get current user
+### Get current 用户
 
 ```bash
 GET https://api.savvycal.com/v1/me

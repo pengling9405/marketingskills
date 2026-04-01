@@ -51,7 +51,7 @@ POST https://api.airops.com/public_api/v1/workspaces/{workspace_id}/flows/{flow_
 GET https://api.airops.com/public_api/v1/workspaces/{workspace_id}/flows/{flow_id}/runs
 ```
 
-### Get Run Status
+### Get Run 状态
 
 ```bash
 GET https://api.airops.com/public_api/v1/workspaces/{workspace_id}/runs/{run_id}

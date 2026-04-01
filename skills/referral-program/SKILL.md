@@ -1,6 +1,6 @@
 ---
 name: referral-program
-description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. 当用户提到以下内容时也应使用 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' '客户 referring 客户,' or 'affiliate payout.' 在这些情况下都应使用本技能 someone wants existing users or partners to bring in new 客户. For launch-specific virality, see launch-strategy."
+description: "当用户想创建、优化或分析 referral program、affiliate program 或口碑传播机制时使用。用户提到“referral”“affiliate”“ambassador”“word of mouth”“viral loop”“refer a friend”“partner program”“referral incentive”“how to get referrals”或“customers referring customers”时也应使用。本技能适用于希望让现有用户或合作伙伴带来新客户的场景。若是发布期的传播爆发，请参见 launch-strategy。"
 metadata:
   version: 1.1.0
 ---
@@ -66,7 +66,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 ---
 
-## Referral Program Design
+## Referral Program 设计
 
 ### The Referral Loop
 
@@ -74,7 +74,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 ```
 
-### Step 1: Identify Trigger Moments
+### 步骤 1: Identify Trigger Moments
 
 **High-intent moments:**
 - Right after first "aha" moment
@@ -82,7 +82,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 - After exceptional support
 - After renewing or upgrading
 
-### Step 2: Design Share Mechanism
+### 步骤 2: 设计 Share Mechanism
 
 **Ranked by effectiveness:**
 1. In-产品 sharing (highest conversion)
@@ -91,7 +91,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 4. Social sharing
 5. Referral code (works offline)
 
-### Step 3: Choose Incentive Structure
+### 步骤 3: Choose Incentive Structure
 
 **Single-sided rewards** (referrer only): Simpler, works for high-value products
 
@@ -188,7 +188,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 ---
 
-## Email Sequences
+## 邮件 Sequences
 
 ### Referral Program Launch
 
@@ -233,7 +233,7 @@ They get [their reward] too.
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools for referral programs:
 
@@ -249,7 +249,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **launch-strategy**: For launching referral program effectively
 - **email-sequence**: For referral nurture 广告活动

@@ -73,7 +73,7 @@ Responses are CSV by default. Add `&export_escape=1` for proper escaping.
 
 ## Export Columns
 
-### Domain Report
+### Domain 报告
 - `Db` - Database
 - `Dn` - Domain
 - `Rk` - Rank
@@ -81,7 +81,7 @@ Responses are CSV by default. Add `&export_escape=1` for proper escaping.
 - `Ot` - Organic traffic
 - `Oc` - Organic cost
 
-### 关键词 Report
+### 关键词 报告
 - `Ph` - Phrase/关键词
 - `Nq` - 搜索 volume
 - `Cp` - CPC

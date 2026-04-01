@@ -61,7 +61,7 @@ search_commissions
 
 Returns: commission amounts, currency, payment status, associated partner and deals.
 
-### Generate Business Review (QBR/MBR/WBR)
+### Generate Business 审查 (QBR/MBR/WBR)
 
 ```
 generate_business_review

@@ -151,7 +151,7 @@ POST https://api.partnerstack.com/api/v2/webhooks
 }
 ```
 
-## API Pattern
+## API 模式
 
 PartnerStack uses cursor-based pagination. List responses include `has_more` and item keys for `starting_after` / `ending_before` parameters.
 

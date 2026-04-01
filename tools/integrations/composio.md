@@ -46,12 +46,12 @@ This adds the Composio MCP server to your Claude Code configuration.
 
 In Claude Code, run `/mcp` to confirm `composio` appears in your MCP server list.
 
-### 3. Authenticate a tool
+### 3. Authenticate a 工具
 
 When you first use a Composio-backed tool, you'll receive a Connect Link. Open it in your browser to complete OAuth. The connection persists across sessions.
 
 ```
-# Example: connect HubSpot
+# 示例: connect HubSpot
 > "Pull my top 10 HubSpot contacts"
 # Agent will prompt: "Please authenticate HubSpot: [Connect Link]"
 # Click link → authorize → done
@@ -106,7 +106,7 @@ These tools **already have native MCP or CLI** in this repo. Composio provides a
 npx composio apps list
 ```
 
-### Check connection status
+### Check connection 状态
 
 ```bash
 npx composio connections list
@@ -125,7 +125,7 @@ POST https://backend.composio.dev/api/v1/actions/{action_id}/execute
 }
 ```
 
-### Disconnect a tool
+### Disconnect a 工具
 
 ```bash
 npx composio connections remove {connection_id}

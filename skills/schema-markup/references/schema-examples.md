@@ -372,7 +372,7 @@ Combine multiple schema types using @graph.
 
 ---
 
-## Implementation 示例 (Next.js)
+## 实现 示例 (Next.js)
 
 ```jsx
 export default function ProductPage({ product }) {

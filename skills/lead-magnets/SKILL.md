@@ -1,6 +1,6 @@
 ---
 name: lead-magnets
-description: When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. 当用户提到以下内容时也应使用 "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat sheet," "checklist," "template download," "opt-in," "freebie," "PDF download," "resource library," "content offer," "email capture content," "Notion template," "spreadsheet template," or "what should I give away for emails." Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tool-strategy. For writing the actual content, see copywriting. For the email sequence after capture, see email-sequence.
+description: "当用户想为 email capture 或 lead generation 创建、规划或优化 lead magnet 时使用。用户提到“lead magnet”“gated content”“content upgrade”“downloadable”“ebook”“cheat sheet”“checklist”“template download”“opt-in”“freebie”“PDF download”“resource library”“Notion template”或“what should I give away for emails”时也应使用。本技能适用于规划“给什么内容换邮箱”以及“如何分发它”。若是交互式工具型 lead magnet，请参见 free-tool-strategy；若要写具体内容，请参见 copywriting；获取线索后的邮件序列请参见 email-sequence。"
 metadata:
   version: 1.0.0
 ---
@@ -16,7 +16,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Business Context
+### 1. Business 背景
 - What does the company do?
 - Who is the ideal 客户?
 - What problems does your 产品 solve?
@@ -26,7 +26,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - What lead magnets or offers do you have?
 - What's your current 转化率 on email capture?
 
-### 3. Content Assets
+### 3. 内容 Assets
 - What existing content could be repurposed? (blog posts, guides, data)
 - What expertise can you package?
 - What templates or tools do you use internally?
@@ -120,7 +120,7 @@ Goal: Help implement. Remove friction to purchase.
 
 ---
 
-## Gating Strategy
+## Gating 策略
 
 ### Gating Options
 
@@ -174,7 +174,7 @@ Rule of thumb: Ask for the minimum needed. Every extra field reduces conversion 
 | **Thank you page + email** | Best of both—instant access + email 文案 | Slightly more complex |
 | **Drip delivery** | Builds habit, multiple touchpoints | Only for courses/series |
 
-### Thank You Page Optimization
+### Thank You 页面 Optimization
 
 Don't waste the thank you page. After they've converted:
 - Confirm delivery ("Check your inbox")
@@ -186,7 +186,7 @@ Don't waste the thank you page. After they've converted:
 
 ## Promotion & Distribution
 
-### Blog CTAs & Content Upgrades
+### Blog CTAs & 内容 Upgrades
 
 - Add relevant CTAs within blog posts (inline, end-of-post)
 - Create post-specific content upgrades (bonus checklist for a how-to post)
@@ -265,22 +265,22 @@ When creating a lead magnet strategy, provide:
 - Why this format for this 受众
 - Estimated creation effort
 
-### 2. Content Outline
+### 2. 内容 Outline
 - Key sections/components
 - Length and scope
 - What makes it unique or valuable
 
-### 3. Gating & Capture Plan
+### 3. Gating & Capture 计划
 - What to gate and how
 - Form fields
 - 落地页 structure
 
-### 4. Distribution Plan
+### 4. Distribution 计划
 - Promotion channels
 - Content upgrade opportunities
 - Paid amplification (if applicable)
 
-### 5. 衡量 Plan
+### 5. 衡量 计划
 - KPIs and targets
 - What to A/B test first
 
@@ -296,7 +296,7 @@ When creating a lead magnet strategy, provide:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **free-tool-strategy**: For interactive tools as lead magnets (calculators, graders, quizzes)
 - **copywriting**: For writing the lead magnet content itself

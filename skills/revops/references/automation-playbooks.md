@@ -232,7 +232,7 @@ Booking form submitted
 
 ---
 
-## Zapier Cross-Tool Patterns
+## Zapier Cross-工具 Patterns
 
 ### 1. New Lead → CRM + Slack + Task
 
@@ -243,7 +243,7 @@ Booking form submitted
 3. Post to Slack #new-leads with enriched data
 4. Create task in project management tool (Asana, Linear)
 
-### 2. Meeting Booked → CRM + Prep Email
+### 2. Meeting Booked → CRM + Prep 邮件
 
 **Trigger:** New Calendly/SavvyCal booking
 **Actions:**
@@ -262,7 +262,7 @@ Booking form submitted
 4. Create Slack channel: #客户-[company-name]
 5. Notify CS team in Slack
 
-### 4. Lead Scoring → Cross-Tool Sync
+### 4. Lead Scoring → Cross-工具 Sync
 
 **Trigger:** CRM lead score crosses MQL threshold
 **Actions:**

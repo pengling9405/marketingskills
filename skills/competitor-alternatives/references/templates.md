@@ -1,4 +1,4 @@
-# Section Templates for Competitor Pages
+# Section Templates for Competitor 页面
 
 Ready-to-use templates for each section of competitor comparison pages.
 
@@ -13,7 +13,7 @@ Ready-to-use templates for each section of competitor comparison pages.
 - 社会认同 Section
 - Comparison Table Best Practices (beyond checkmarks, organize by category, include ratings where useful)
 
-## TL;DR Summary
+## TL;DR 摘要
 
 Start every page with a quick summary for scanners:
 
@@ -43,14 +43,14 @@ Teams who [specific need] often find this more effective.
 
 ---
 
-## Feature Comparison Section
+## 功能 Comparison Section
 
 Go beyond checkmarks:
 
 ```markdown
-## Feature Comparison
+## 功能 Comparison
 
-### [Feature Category]
+### [功能 Category]
 
 **[Competitor]**: [2-3 sentence description of how they handle this]
 - Strengths: [specific]

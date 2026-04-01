@@ -52,7 +52,7 @@ POST https://api2.amplitude.com/batch
 }
 ```
 
-### Get user activity
+### Get 用户 activity
 
 ```bash
 GET https://amplitude.com/api/2/useractivity?user={user_id}
@@ -131,5 +131,5 @@ amplitude.track('Feature Used', {
 ## 相关技能
 
 - 分析-跟踪
-- ab-test-配置方式
+- ab-test-setup
 - onboarding-cro

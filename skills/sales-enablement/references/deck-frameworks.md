@@ -130,7 +130,7 @@ The goal is not to present 特性. The goal is to make the buyer feel understood
 
 ---
 
-### Slide 8: Implementation / Timeline
+### Slide 8: 实现 / Timeline
 
 **What to include:**
 - Clear phases with timeline (e.g., Week 1: 配置方式, Week 2-3: Integration, Week 4: Live)
@@ -244,7 +244,7 @@ The goal is not to present 特性. The goal is to make the buyer feel understood
 
 ## Anti-Patterns
 
-### The Feature Dump
+### The 功能 Dump
 Every slide is a feature with a screenshot. No story, no "so what," no connection to the buyer's world. Reps click through it; prospects tune out.
 
 ### The Wall of Text

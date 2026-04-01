@@ -65,7 +65,7 @@ PATCH https://{dc}.api.mailchimp.com/3.0/lists/{list_id}/members/{subscriber_has
 GET https://{dc}.api.mailchimp.com/3.0/campaigns?count=20
 ```
 
-### Get 广告活动 report
+### Get 广告活动 报告
 
 ```bash
 GET https://{dc}.api.mailchimp.com/3.0/reports/{campaign_id}
@@ -103,7 +103,7 @@ GET https://{dc}.api.mailchimp.com/3.0/automations
 
 ## 核心指标
 
-### 广告活动 Report Fields
+### 广告活动 报告 Fields
 - `emails_sent` - Total sent
 - `opens` - Open count
 - `unique_opens` - Unique opens

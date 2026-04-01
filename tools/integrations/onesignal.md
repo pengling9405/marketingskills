@@ -39,7 +39,7 @@ Headers:
 }
 ```
 
-### Send notification to specific users
+### Send notification to specific 用户
 
 ```bash
 POST https://api.onesignal.com/api/v1/notifications
@@ -126,7 +126,7 @@ Headers:
 }
 ```
 
-### Get user by external ID
+### Get 用户 by external ID
 
 ```bash
 GET https://api.onesignal.com/api/v1/apps/{APP_ID}/users/by/external_id/{external_id}
@@ -135,7 +135,7 @@ Headers:
   Authorization: Basic {REST_API_KEY}
 ```
 
-### Create a user
+### Create a 用户
 
 ```bash
 POST https://api.onesignal.com/api/v1/apps/{APP_ID}/users
@@ -172,7 +172,7 @@ Headers:
 - `errored` - Count of errors
 - `opened` - Notification open count
 
-### User 指标
+### 用户 指标
 - `session_count` - Total user sessions
 - `last_active` - Last activity timestamp
 - `tags` - Custom key-value metadata

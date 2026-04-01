@@ -1,6 +1,6 @@
 ---
 name: onboarding-cro
-description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. 当用户提到以下内容时也应使用 "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes 配置方式," "low activation rate," "users sign up but don't use the 产品," "time to value," or "first session experience." 在这些情况下都应使用本技能 users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
+description: "当用户想优化 post-signup onboarding、user activation、first-run experience 或 time-to-value 时使用。用户提到“onboarding flow”“activation rate”“user activation”“first-run experience”“empty states”“onboarding checklist”“aha moment”“users aren't activating”“nobody completes setup”“low activation rate”或“users sign up but don't use the product”时也应使用。本技能适用于用户完成注册后没有真正开始使用产品的场景。注册流程优化请参见 signup-flow-cro；持续邮件序列请参见 email-sequence。"
 metadata:
   version: 1.1.0
 ---
@@ -27,7 +27,7 @@ Before providing recommendations, understand:
 ### 1. Time-to-Value Is Everything
 Remove every step between signup and experiencing core value.
 
-### 2. One Goal Per Session
+### 2. One Goal Per 会话
 Focus first session on one successful outcome. Save advanced 特性 for later.
 
 ### 3. Do, Don't Show
@@ -60,7 +60,7 @@ The action that correlates most strongly with retention:
 
 ---
 
-## Onboarding Flow Design
+## Onboarding Flow 设计
 
 ### Immediate Post-Signup (First 30 Seconds)
 
@@ -75,7 +75,7 @@ The action that correlates most strongly with retention:
 - No dead ends
 - Progress indication if multi-step
 
-### Onboarding Checklist Pattern
+### Onboarding Checklist 模式
 
 **适用场景:**
 - Multiple 配置方式 步骤 required
@@ -113,7 +113,7 @@ Empty states are onboarding opportunities, not dead ends.
 
 ## Multi-Channel Onboarding
 
-### Email + In-App Coordination
+### 邮件 + In-App Coordination
 
 **Trigger-based emails:**
 - Welcome email (immediate)
@@ -128,7 +128,7 @@ Empty states are onboarding opportunities, not dead ends.
 
 ---
 
-## Handling Stalled Users
+## Handling Stalled 用户
 
 ### Detection
 Define "stalled" criteria (X days inactive, incomplete 配置方式)
@@ -169,7 +169,7 @@ Identify biggest drops and focus there.
 ### Onboarding Audit
 For each issue: Finding → Impact → Recommendation → Priority
 
-### Onboarding Flow Design
+### Onboarding Flow 设计
 - Activation goal
 - Step-by-step flow
 - Checklist items (if applicable)
@@ -212,9 +212,9 @@ When recommending experiments, consider tests for:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **signup-flow-cro**: For optimizing the signup before onboarding
 - **email-sequence**: For onboarding email series
 - **paywall-upgrade-cro**: For converting to paid during/after onboarding
-- **ab-test-配置方式**: For 测试 onboarding changes
+- **ab-test-setup**: For 测试 onboarding changes

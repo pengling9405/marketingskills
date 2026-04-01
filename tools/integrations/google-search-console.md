@@ -32,7 +32,7 @@ POST https://searchconsole.googleapis.com/webmasters/v3/sites/{site_url}/searchA
 }
 ```
 
-### Get 表现 by page
+### Get 表现 by 页面
 
 ```bash
 POST https://searchconsole.googleapis.com/webmasters/v3/sites/{site_url}/searchAnalytics/query

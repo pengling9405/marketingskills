@@ -1,4 +1,4 @@
-# Reverse Engineering Viral Content
+# Reverse Engineering Viral 内容
 
 Instead of guessing what works, systematically analyze top-performing content in your niche and extract proven patterns.
 

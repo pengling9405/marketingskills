@@ -1,4 +1,4 @@
-# Email 文案 Guidelines
+# 邮件 文案 Guidelines
 
 ## Contents
 - Structure
@@ -58,7 +58,7 @@
 - Company name (B2B)
 - Relevant data (usage, plan, etc.)
 
-### Dynamic Content
+### Dynamic 内容
 - Based on segment
 - Based on behavior
 - Based on stage
@@ -91,7 +91,7 @@
 
 ## 测试 and Optimization
 
-### What to Test
+### What to 测试
 - Subject lines (highest impact)
 - Send times
 - Email length
@@ -99,7 +99,7 @@
 - Personalization level
 - Sequence timing
 
-### How to Test
+### How to 测试
 - A/B test one variable at a time
 - Sufficient sample size
 - Statistical significance

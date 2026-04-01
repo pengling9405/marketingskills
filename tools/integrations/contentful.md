@@ -114,16 +114,16 @@ contentful login
 # List spaces
 contentful space list
 
-# Export space content
+# Export space 内容
 contentful space export --space-id {space_id}
 
-# Import content
+# Import 内容
 contentful space import --space-id {space_id} --content-file export.json
 
 # Create migration
 contentful space migration --space-id {space_id} migration.js
 
-# List content types
+# List 内容 types
 contentful content-type list --space-id {space_id}
 ```
 

@@ -1,6 +1,6 @@
 ---
 name: ad-creative
-description: "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising 平台. 当用户提到以下内容时也应使用 'ad 文案 variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad 文案,' 'ad iterations,' 'creative 测试,' 'ad 表现 optimization,' 'write me some ads,' 'Facebook ad 文案,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' 在这些情况下都应使用本技能 someone needs to produce ad 文案 at scale or iterate on existing ads. For 广告活动 strategy and targeting, see paid-ads. For 落地页 文案, see copywriting."
+description: "当用户想为任意付费广告平台批量生成、迭代或扩展广告创意时使用，范围包括标题、描述、primary text 与完整广告变体。用户提到“ad copy variations”“ad creative”“generate headlines”“RSA headlines”“bulk ad copy”“creative testing”“ad performance optimization”“Facebook ad copy”“Google ad headlines”或“LinkedIn ad text”时也应使用。本技能适用于需要高效产出大量广告文案或迭代现有广告的场景。若要做投放策略与定向，请参见 paid-ads；若要写落地页文案，请参见 copywriting。"
 metadata:
   version: 1.1.0
 ---
@@ -37,21 +37,21 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - Which are underperforming?
 - What angles or themes have been tested?
 
-### 5. Constraints
+### 5. 约束
 - Brand voice guidelines or words to avoid?
 - 遵循率 requirements? (Industry regulations, 平台 policies)
 - Any mandatory elements? (Brand name, trademark symbols, disclaimers)
 
 ---
 
-## How This Skill Works
+## How This 技能 Works
 
 This skill supports two modes:
 
-### Mode 1: Generate from Scratch
+### 模式 1: Generate from Scratch
 When starting fresh, you generate a full set of ad creative based on 产品 context, 受众 insights, and 平台 best practices.
 
-### Mode 2: Iterate from 表现 Data
+### 模式 2: Iterate from 表现 Data
 When the user provides 表现 data (CSV, paste, or API output), you analyze what's working, identify patterns in top performers, and generate new variations that build on winning themes while exploring new angles.
 
 The core loop:
@@ -138,7 +138,7 @@ For image and 视频 ad creative, use generative AI tools and code-based 视频 
 
 ## Generating Ad 文案
 
-### Step 1: Define Your Angles
+### 步骤 1: Define Your Angles
 
 Before writing individual headlines, establish 3-5 distinct **angles** — different reasons someone would click. Each angle should tap into a different motivation.
 
@@ -155,7 +155,7 @@ Before writing individual headlines, establish 3-5 distinct **angles** — diffe
 | Identity | "Built for [specific role/类型]" |
 | Contrarian | "Why [常见 practice] doesn't work" |
 
-### Step 2: Generate Variations per Angle
+### 步骤 2: Generate Variations per Angle
 
 For each angle, generate multiple variations. Vary:
 - **Word choice** — synonyms, active vs. passive
@@ -163,11 +163,11 @@ For each angle, generate multiple variations. Vary:
 - **Tone** — direct vs. question vs. command
 - **Structure** — short punch vs. full 收益 statement
 
-### Step 3: Validate Against Specs
+### 步骤 3: Validate Against Specs
 
 Before delivering, check every piece of creative against the 平台's character limits. Flag anything that's over and provide a trimmed alternative.
 
-### Step 4: Organize for Upload
+### 步骤 4: Organize for Upload
 
 Present creative in a structured format that maps to the ad 平台's upload requirements.
 
@@ -177,7 +177,7 @@ Present creative in a structured format that maps to the ad 平台's upload requ
 
 When the user provides 表现 data, follow this 流程:
 
-### Step 1: Analyze Winners
+### 步骤 1: Analyze Winners
 
 Look at the top-performing creative (by CTR, 转化率, or ROAS — ask which metric matters most) and identify:
 
@@ -186,14 +186,14 @@ Look at the top-performing creative (by CTR, 转化率, or ROAS — ask which me
 - **Winning word patterns** — Specific words or phrases that recur?
 - **Character utilization** — Are top performers shorter or longer?
 
-### Step 2: Analyze Losers
+### 步骤 2: Analyze Losers
 
 Look at the worst performers and identify:
 
 - **Themes that fall flat** — What angles aren't resonating?
 - **常见 patterns in low performers** — Too generic? Too long? Wrong tone?
 
-### Step 3: Generate New Variations
+### 步骤 3: Generate New Variations
 
 Create new creative that:
 - **Doubles down** on winning themes with fresh phrasing
@@ -201,7 +201,7 @@ Create new creative that:
 - **Tests** 1-2 new angles not yet explored
 - **Avoids** patterns found in underperformers
 
-### Step 4: Document the Iteration
+### 步骤 4: Document the Iteration
 
 Track what was learned and what's being tested:
 
@@ -273,12 +273,12 @@ headline_1,headline_2,headline_3,description_1,description_2,platform
 "Stop Manual Reporting","Automate in 5 Minutes","Join 10K+ Teams","Save 10+ hrs/week on reports. Start free.","Connect data sources once. Reports forever.","google_ads"
 ```
 
-### Iteration Report
+### Iteration 报告
 
 When iterating, include a summary:
 
 ```
-## Performance Summary
+## Performance 摘要
 - Analyzed: [X] headlines, [Y] descriptions
 - Top performer: "[headline]" — [metric]: [value]
 - Worst performer: "[headline]" — [metric]: [value]
@@ -328,7 +328,7 @@ For large-scale creative production (Anthropic's growth team generates 100+ vari
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For pulling 表现 data and managing 广告活动, see the [tools registry](../../tools/REGISTRY.md).
 
@@ -346,17 +346,17 @@ For pulling 表现 data and managing 广告活动, see the [tools registry](../.
 node tools/clis/google-ads.js reports get --type ad_performance --date-range last_30_days
 
 # 2. Analyze output (identify top/bottom performers)
-# 3. Feed winning patterns into this skill
+# 3. Feed winning patterns into this 技能
 # 4. Generate new variations
 # 5. Upload to platform
 ```
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **paid-ads**: For 广告活动 strategy, targeting, budgets, and 优化
 - **copywriting**: For 落地页 文案 (where ad traffic lands)
-- **ab-test-配置方式**: For structuring creative tests with statistical rigor
+- **ab-test-setup**: For structuring creative tests with statistical rigor
 - **营销-psychology**: For psychological principles behind high-performing creative
-- **文案-editing**: For polishing ad 文案 before launch
+- **copy-editing**: For polishing ad 文案 before launch

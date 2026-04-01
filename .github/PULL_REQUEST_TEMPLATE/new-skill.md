@@ -1,4 +1,4 @@
-## 新 Skill
+## 新 技能
 
 **Skill name:** `skills/SKILL-NAME`
 

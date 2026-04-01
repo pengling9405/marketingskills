@@ -1,6 +1,6 @@
 ---
 name: popup-cro
-description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. 当用户提到以下内容时也应使用 "exit intent," "popup 转化," "modal optimization," "lead capture popup," "email popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup," "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.
+description: "当用户想创建或优化用于转化的 popup、modal、overlay、slide-in 或 banner 时使用。用户提到“exit intent”“popup conversions”“modal optimization”“lead capture popup”“email popup”“announcement banner”“overlay”“collect emails with a popup”“exit popup”“scroll trigger”或“sticky bar”时也应使用。本技能适用于所有叠层、打断式的转化元素。弹窗外的表单请参见 form-cro；通用页面转化优化请参见 page-cro。"
 metadata:
   version: 1.1.0
 ---
@@ -50,7 +50,7 @@ Before providing recommendations, understand:
 - Relevant to page context
 - Worth the interruption
 
-### 3. Respect the User
+### 3. Respect the 用户
 - Easy to dismiss
 - Don't trap or trick
 - Remember preferences
@@ -83,7 +83,7 @@ Before providing recommendations, understand:
 - Best for: Lead magnets, gated content, demos
 - 示例: "Download PDF" → Popup form
 
-### Page Count / Session-Based
+### 页面 Count / 会话-Based
 - After visiting X pages
 - Indicates research/comparison behavior
 - Best for: Multi-page journeys
@@ -99,7 +99,7 @@ Before providing recommendations, understand:
 
 ## Popup Types
 
-### Email Capture Popup
+### 邮件 Capture Popup
 **Goal**: Newsletter/list subscription
 
 **Best practices:**
@@ -167,7 +167,7 @@ Before providing recommendations, understand:
 
 ---
 
-## Design Best Practices
+## 设计 Best Practices
 
 ### Visual Hierarchy
 1. 标题 (largest, first seen)
@@ -243,7 +243,7 @@ Before providing recommendations, understand:
 - Exclude converted users
 - Exclude recently dismissed
 
-### Page Rules
+### 页面 Rules
 - Exclude checkout/conversion flows
 - Consider blog vs. 产品 pages
 - Match offer to page context
@@ -300,7 +300,7 @@ Before providing recommendations, understand:
 
 ## 输出格式
 
-### Popup Design
+### Popup 设计
 - **类型**: Email capture, lead magnet, etc.
 - **Trigger**: When it appears
 - **Targeting**: Who sees it
@@ -308,13 +308,13 @@ Before providing recommendations, understand:
 - **文案**: 标题, subhead, CTA, decline
 - **Design notes**: Layout, imagery, mobile
 
-### Multiple Popup Strategy
+### Multiple Popup 策略
 If recommending multiple popups:
 - Popup 1: [用途, trigger, 受众]
 - Popup 2: [用途, trigger, 受众]
 - Conflict rules: How they don't overlap
 
-### Test Hypotheses
+### 测试 Hypotheses
 Ideas to A/B test with expected outcomes
 
 ---
@@ -331,7 +331,7 @@ Ideas to A/B test with expected outcomes
 2. Scroll: Newsletter/blog subscription
 3. Exit intent: Trial reminder or content offer
 
-### Content/Media
+### 内容/Media
 1. Scroll-based: Newsletter after engagement
 2. Page count: Subscribe after multiple visits
 3. Exit intent: Don't miss future content
@@ -387,7 +387,7 @@ Ideas to A/B test with expected outcomes
 
 ---
 
-### Messaging & Content Experiments
+### Messaging & 内容 Experiments
 
 **Headlines & 文案**
 - Test attention-grabbing vs. informational headlines
@@ -445,10 +445,10 @@ Ideas to A/B test with expected outcomes
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **lead-magnets**: For planning lead magnets to promote via popups
 - **form-cro**: For optimizing the form inside the popup
 - **page-cro**: For the page context around popups
 - **email-sequence**: For what happens after popup conversion
-- **ab-test-配置方式**: For 测试 popup variations
+- **ab-test-setup**: For 测试 popup variations

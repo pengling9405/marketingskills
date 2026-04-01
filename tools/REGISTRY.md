@@ -10,7 +10,7 @@ Quick 参考 for AI agents to discover tool 能力 and integration methods.
 
 ---
 
-## Tool Index
+## 工具 Index
 
 | Tool | Category | API | MCP | CLI | SDK | Guide |
 |------|----------|:---:|:---:|:---:|:---:|-------|
@@ -161,7 +161,7 @@ Tools for referral programs, affiliate 跟踪, and partner management.
 
 **Agent recommendation**: Rewardful or Tolt for Stripe-based SaaS. PartnerStack for enterprise partner programs. Dub.co for link attribution.
 
-### Email
+### 邮件
 
 Email 营销, transactional email, and automation platforms.
 
@@ -340,7 +340,7 @@ Traffic 分析, competitor benchmarking, and market research.
 
 **Agent recommendation**: Similarweb for competitor traffic analysis and market benchmarking.
 
-### AI Content
+### AI 内容
 
 AI-powered content generation and optimization platforms.
 
@@ -361,7 +361,7 @@ Partner data sharing, co-sell, and ecosystem management.
 
 **Agent recommendation**: Crossbeam for identifying partner 账户 overlaps and co-sell opportunities. Introw for full partner relationship management — partner pipeline, commissions, tasks, and automated business review prep.
 
-### Email Outreach
+### 邮件 Outreach
 
 Cold email outreach and email finding tools for link building and sales prospecting.
 
@@ -456,11 +456,11 @@ Use Composio when you need MCP access to OAuth-heavy tools. Prefer native MCP se
 1. Read [rewardful.md](integrations/rewardful.md) or [tolt.md](integrations/tolt.md) for Stripe-based programs
 2. Read [dub-co.md](integrations/dub-co.md) for link 跟踪
 
-### Setting up email automation
+### Setting up 邮件 automation
 1. Read [customer-io.md](integrations/customer-io.md) for behavior-based automation
 2. Read [resend.md](integrations/resend.md) for transactional email
 
-### Running email outreach for backlinks
+### Running 邮件 outreach for backlinks
 1. Read [hunter.md](integrations/hunter.md) for finding emails
 2. Read [lemlist.md](integrations/lemlist.md) or [instantly.md](integrations/instantly.md) for sending 广告活动
 

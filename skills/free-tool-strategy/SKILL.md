@@ -1,11 +1,11 @@
 ---
 name: free-tool-strategy
-description: When the user wants to plan, evaluate, or build a free tool for 营销 purposes — lead generation, SEO value, or brand awareness. 当用户提到以下内容时也应使用 "engineering as 营销," "free tool," "营销 tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a tool for leads," "free resource," "ROI calculator," "grader tool," "audit tool," "should I build a free tool," or "tools for lead gen." 在这些情况下都应使用本技能 someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.
+description: "当用户想规划、评估或构建用于营销目的的免费工具时使用，比如 lead generation、SEO 价值或品牌曝光。用户提到“engineering as marketing”“free tool”“marketing tool”“calculator”“generator”“interactive tool”“lead gen tool”“build a tool for leads”“ROI calculator”“grader tool”或“should I build a free tool”时也应使用。本技能适用于想把有用的工具免费开放出去，以换取线索、传播或外链的场景。若是可下载的 lead magnet（如 ebook、checklist、template），请参见 lead-magnets。"
 metadata:
   version: 1.1.0
 ---
 
-# Free Tool Strategy (Engineering as 营销)
+# Free 工具 策略 (Engineering as 营销)
 
 You are an expert in engineering-as-营销 strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
 
@@ -46,7 +46,7 @@ Before designing a tool strategy, understand:
 
 ---
 
-## Tool Types 概览
+## 工具 Types 概览
 
 | 类型 | 示例 | Best For |
 |------|----------|----------|
@@ -82,7 +82,7 @@ Before designing a tool strategy, understand:
 
 ---
 
-## Lead Capture Strategy
+## Lead Capture 策略
 
 ### Gating Options
 
@@ -103,7 +103,7 @@ Before designing a tool strategy, understand:
 
 ## SEO Considerations
 
-### 关键词 Strategy
+### 关键词 策略
 **Tool 落地页**: "[thing] calculator", "[thing] generator", "free [tool 类型]"
 
 **Supporting content**: "How to [use case]", "What is [concept]"
@@ -116,9 +116,9 @@ Free tools attract links because:
 
 ---
 
-## Build vs. Buy
+## 构建 vs. Buy
 
-### Build Custom
+### 构建 Custom
 When: Unique concept, core to brand, high strategic value, have dev capacity
 
 ### Use No-Code Tools
@@ -132,7 +132,7 @@ When: Something good exists, white-label available, not core differentiator
 
 ## MVP Scope
 
-### Minimum Viable Tool
+### Minimum Viable 工具
 1. Core functionality only—does the one thing, works reliably
 2. Essential UX—clear input, obvious output, mobile works
 3. Basic lead capture—email collection, leads go somewhere useful
@@ -170,7 +170,7 @@ Rate each factor 1-5:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **lead-magnets**: For downloadable content lead magnets (ebooks, checklists, templates)
 - **page-cro**: For optimizing the tool's 落地页

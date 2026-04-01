@@ -1,6 +1,6 @@
 ---
 name: revops
-description: "When the user wants help with revenue 操作, lead lifecycle management, or 营销-to-sales handoff processes. 当用户提到以下内容时也应使用 'RevOps,' 'revenue 操作,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' '营销-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should 营销 hand off to sales.' Use this for anything involving the systems and processes that connect 营销 to revenue. For cold outreach emails, see cold-email. For email drip 广告活动, see email-sequence. For pricing decisions, see pricing-strategy."
+description: "当用户想处理 revenue operations、lead 生命周期管理，或 marketing-to-sales handoff 流程时使用。用户提到“RevOps”“revenue operations”“lead scoring”“lead routing”“MQL”“SQL”“pipeline stages”“deal desk”“CRM automation”“marketing-to-sales handoff”“data hygiene”“leads aren't getting to sales”或“pipeline management”时也应使用。本技能适用于所有连接营销与收入的系统流程问题。冷启动外联邮件请参见 cold-email；邮件 drip 流程请参见 email-sequence；定价决策请参见 pricing-strategy。"
 metadata:
   version: 1.1.0
 ---
@@ -238,7 +238,7 @@ Document every exception. Track which non-standard terms get requested most — 
 
 ## Data Hygiene & Enrichment
 
-### Dedup Strategy
+### Dedup 策略
 
 - **Matching rules** — Email domain + company name + phone as primary match keys
 - **Merge priority** — CRM record wins over 营销 automation; most recent activity wins for fields
@@ -316,7 +316,7 @@ Format each as a standalone document the user can implement directly. Include �
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOps tools:
 
@@ -335,7 +335,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key RevOp
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **cold-email**: For outbound prospecting emails
 - **email-sequence**: For lifecycle and nurture email flows

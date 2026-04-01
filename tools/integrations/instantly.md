@@ -29,7 +29,7 @@ node tools/clis/instantly.js campaigns list --limit 20
 # Get campaign details
 node tools/clis/instantly.js campaigns get --id cam_abc123
 
-# Check campaign status
+# Check campaign 状态
 node tools/clis/instantly.js campaigns status --id cam_abc123
 
 # Launch a campaign
@@ -51,20 +51,20 @@ node tools/clis/instantly.js leads add --campaign-id cam_abc123 --email john@exa
 # Delete a lead
 node tools/clis/instantly.js leads delete --campaign-id cam_abc123 --email john@example.com
 
-# Check lead status
+# Check lead 状态
 node tools/clis/instantly.js leads status --campaign-id cam_abc123 --email john@example.com
 ```
 
-### Manage email accounts
+### Manage 邮件 accounts
 
 ```bash
 # List connected accounts
 node tools/clis/instantly.js accounts list --limit 20
 
-# Check account status
+# Check account 状态
 node tools/clis/instantly.js accounts status --account-id me@example.com
 
-# Check warmup status
+# Check warmup 状态
 node tools/clis/instantly.js accounts warmup-status --account-id me@example.com
 ```
 

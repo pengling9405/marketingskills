@@ -19,7 +19,7 @@ Email delivery 平台 for transactional and 营销 emails.
 
 ## 常见代理操作
 
-### Send email
+### Send 邮件
 
 ```bash
 POST https://api.sendgrid.com/v3/mail/send
@@ -82,7 +82,7 @@ POST https://api.sendgrid.com/v3/marketing/contacts/search
 }
 ```
 
-### Get email statistics
+### Get 邮件 statistics
 
 ```bash
 GET https://api.sendgrid.com/v3/stats?start_date=2024-01-01&end_date=2024-01-31
@@ -106,7 +106,7 @@ GET https://api.sendgrid.com/v3/suppression/spam_reports
 Authorization: Bearer {api_key}
 ```
 
-### Validate email
+### Validate 邮件
 
 ```bash
 POST https://api.sendgrid.com/v3/validations/email

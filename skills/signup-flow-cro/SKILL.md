@@ -1,6 +1,6 @@
 ---
 name: signup-flow-cro
-description: When the user wants to optimize signup, registration, 账户 creation, or trial activation flows. 当用户提到以下内容时也应使用 "signup 转化," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "账户 creation flow," "people aren't signing up," "signup abandonment," "trial 转化率," "nobody completes registration," "too many 步骤 to sign up," or "simplify our signup." 在这些情况下都应使用本技能 the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not 账户 creation), see form-cro.
+description: "当用户想优化 signup、registration、account creation 或试用激活流程时使用。用户提到“signup conversions”“registration friction”“signup form optimization”“free trial signup”“reduce signup dropoff”“account creation flow”“people aren't signing up”“signup abandonment”“trial conversion rate”“nobody completes registration”或“simplify our signup”时也应使用。本技能适用于注册或试用转化表现不佳的场景。注册后的 onboarding 请参见 onboarding-cro；收集线索但不创建账号的表单请参见 form-cro。"
 metadata:
   version: 1.1.0
 ---
@@ -54,7 +54,7 @@ Every field reduces conversion. For each field, ask:
 - Can they experience the 产品 before creating an 账户?
 - Reverse the order: value first, signup second
 
-### 3. Reduce Perceived Effort
+### 3. Reduce Perceived 工作量
 - Show progress if multi-step
 - Group related fields
 - Use smart defaults
@@ -69,7 +69,7 @@ Every field reduces conversion. For each field, ask:
 
 ## Field-by-Field Optimization
 
-### Email Field
+### 邮件 Field
 - Single field (no email confirmation field)
 - Inline validation for format
 - Check for 常见 typos (gmial.com → gmail.com)
@@ -153,7 +153,7 @@ Every field reduces conversion. For each field, ask:
 - Security badges if relevant
 - Testimonial near signup form
 
-### Error Handling
+### 错误 Handling
 - Inline validation (not just on submit)
 - Specific error messages ("Email already registered" + recovery path)
 - Don't clear the form on error
@@ -264,7 +264,7 @@ Organized by:
 
 ## Experiment Ideas
 
-### Form Design Experiments
+### Form 设计 Experiments
 
 **Layout & Structure**
 - Single-step vs. multi-step signup flow
@@ -351,9 +351,9 @@ Organized by:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **onboarding-cro**: For optimizing what happens after signup
 - **form-cro**: For non-signup forms (lead capture, contact)
 - **page-cro**: For the 落地页 leading to signup
-- **ab-test-配置方式**: For 测试 signup flow changes
+- **ab-test-setup**: For 测试 signup flow changes

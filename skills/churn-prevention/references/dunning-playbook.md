@@ -91,7 +91,7 @@ For annual plans or high-value subscriptions:
 
 ---
 
-## Smart Retry Strategy
+## Smart Retry 策略
 
 ### Decline 类型 Classification
 
@@ -131,9 +131,9 @@ For annual plans or high-value subscriptions:
 
 ---
 
-## Dunning Email Sequence
+## Dunning 邮件 Sequence
 
-### Email 1: Payment Failed (Day 0)
+### 邮件 1: Payment Failed (Day 0)
 
 **Tone:** Friendly, matter-of-fact. No alarm.
 
@@ -157,7 +157,7 @@ Need help? Just reply to this email.
 — [Product] Team
 ```
 
-### Email 2: Reminder (Day 3)
+### 邮件 2: Reminder (Day 3)
 
 **Tone:** Helpful, slightly more urgent.
 
@@ -180,7 +180,7 @@ Questions? Reply here and we'll help.
 — [Product] Team
 ```
 
-### Email 3: Urgency (Day 7)
+### 邮件 3: Urgency (Day 7)
 
 **Tone:** Direct, clear consequences.
 
@@ -207,7 +207,7 @@ updating your payment method.
 — [Product] Team
 ```
 
-### Email 4: Final Warning (Day 10)
+### 邮件 4: Final Warning (Day 10)
 
 **Tone:** Final, clear, no guilt.
 
@@ -337,7 +337,7 @@ Final:   Mark subscription as unpaid after last retry
 
 Don't rely on email alone. Show payment failures in the app:
 
-### Banner Pattern
+### Banner 模式
 ```
 ┌──────────────────────────────────────────────────────┐
 │ ⚠ Your payment of $29 failed. Update your card to    │
@@ -351,7 +351,7 @@ Don't rely on email alone. Show payment failures in the app:
 - Direct link to payment update (fewest 点击 possible)
 - Don't block the 产品 — let them continue using it
 
-### Modal Pattern (for final warning)
+### Modal 模式 (for final warning)
 ```
 ┌─────────────────────────────────────┐
 │                                     │

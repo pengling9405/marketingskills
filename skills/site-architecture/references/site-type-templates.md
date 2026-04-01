@@ -6,7 +6,7 @@ Full page hierarchy templates with ASCII trees, URL maps, and navigation recomme
 
 ## SaaS 营销 Site
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Homepage (/)
@@ -70,9 +70,9 @@ Homepage (/)
 
 ---
 
-## Content / Blog Site
+## 内容 / Blog Site
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Homepage (/)
@@ -115,7 +115,7 @@ Homepage (/)
 
 ## E-Commerce
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Homepage (/)
@@ -169,7 +169,7 @@ Homepage (/)
 
 ## Documentation Site
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Docs Home (/docs)
@@ -211,9 +211,9 @@ Docs Home (/docs)
 
 ---
 
-## Hybrid SaaS + Content
+## Hybrid SaaS + 内容
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Homepage (/)
@@ -257,7 +257,7 @@ Use mega menus for 产品 (特性 list), Solutions (use cases + industries), and
 
 ## Small Business / Local
 
-### Page Hierarchy
+### 页面 Hierarchy
 
 ```
 Homepage (/)

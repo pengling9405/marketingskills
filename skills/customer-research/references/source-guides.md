@@ -55,7 +55,7 @@ site:reddit.com "[competitor name]" "vs" OR "alternative" OR "switched"
 
 ---
 
-## G2 and Review Site Mining
+## G2 and 审查 Site Mining
 
 ### Your Own 产品 Reviews
 
@@ -83,7 +83,7 @@ The 4-star competitor reviews are gold — 客户 who like the 产品 but still 
 
 **Capterra** has similar structure. **Trustpilot** skews B2C. **AppSumo** reviews are useful for SMB/prosumer SaaS.
 
-### Review Mining Template
+### 审查 Mining Template
 
 For each competitor's 4-star reviews, extract:
 
@@ -193,7 +193,7 @@ A job posting is a company's admission of a pain point.
 
 ## Blog Post and Forum Research
 
-### Comparison Content
+### Comparison 内容
 
 Google: `"[competitor 1] vs [competitor 2]"` or `"best [category] software [year]"`
 

@@ -1,4 +1,4 @@
-# Content Architecture for Competitor Pages
+# 内容 Architecture for Competitor 页面
 
 How to structure and maintain competitor data for scalable comparison pages.
 
@@ -127,7 +127,7 @@ not_ideal_for:
 
 ---
 
-## Page Generation
+## 页面 Generation
 
 Each page pulls from centralized data:
 
@@ -144,7 +144,7 @@ Each page pulls from centralized data:
 
 ---
 
-## Index Page Structure
+## Index 页面 Structure
 
 ### Alternatives Index
 
@@ -190,7 +190,7 @@ Looking to switch? See how [Your Product] compares to the tools you're evaluatin
 
 ---
 
-### Index Page Best Practices
+### Index 页面 Best Practices
 
 **Keep them updated**: When you add a new comparison page, add it to the relevant index.
 
@@ -221,7 +221,7 @@ Looking to switch? See how [Your Product] compares to the tools you're evaluatin
 
 The site footer appears on all 营销 pages, making it a powerful internal linking opportunity for competitor pages.
 
-### Option 1: Link to Index Pages (Minimum)
+### Option 1: Link to Index 页面 (Minimum)
 
 At minimum, add links to your comparison index pages in the footer:
 

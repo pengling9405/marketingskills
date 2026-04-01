@@ -1,6 +1,6 @@
 ---
-name: 客户-research
-description: When the user wants to conduct, analyze, or synthesize 客户 research. Use when the user mentions "客户 research," "ICP research," "talk to 客户," "analyze transcripts," "客户 interviews," "survey analysis," "support ticket analysis," "voice of 客户," "VOC," "build personas," "客户 personas," "jobs to be done," "JTBD," "what do 客户 say," "what are 客户 struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "客户 sentiment," or "find out why 客户 churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing 文案 informed by research, see copywriting. For acting on research to improve pages, see page-cro.
+name: customer-research
+description: "当用户想开展、分析或汇总 customer research 时使用。用户提到“customer research”“ICP research”“talk to customers”“analyze transcripts”“customer interviews”“survey analysis”“support ticket analysis”“voice of customer”“VOC”“build personas”“JTBD”“Reddit mining”“G2 reviews”“review mining”“community research”“forum research”“competitor reviews”或“find out why customers churn/convert/buy”时也应使用。本技能既适用于分析已有研究材料，也适用于从线上渠道采集新的用户研究素材。若要基于研究撰写文案，请参见 copywriting；若要把研究用于优化页面，请参见 page-cro。"
 metadata:
   version: 1.0.0
 ---
@@ -18,17 +18,17 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 ## Two Modes of Research
 
-### Mode 1: Analyze Existing Assets
+### 模式 1: Analyze Existing Assets
 You have raw research material (transcripts, surveys, reviews, tickets). Your job is to extract signal.
 
-### Mode 2: Go Find Research
+### 模式 2: Go Find Research
 You need to gather intel from online sources (Reddit, G2, forums, communities, review sites). Your job is to know where to look and what to extract.
 
 Most engagements combine both. Establish which mode applies before proceeding.
 
 ---
 
-## Mode 1: Analyzing Existing Research Assets
+## 模式 1: Analyzing Existing Research Assets
 
 ### Asset Types
 
@@ -111,7 +111,7 @@ Label every insight with a confidence level before presenting it:
 
 ---
 
-## Mode 2: Digital Watering Hole Research
+## 模式 2: Digital Watering Hole Research
 
 Online communities are where 客户 speak without a filter. The goal is to find authentic, unmoderated language about the 问题 space.
 
@@ -256,7 +256,7 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 
 ---
 
-## Related Skills
+## Related 技能
 
 | When to hand off | Skill |
 |-----------------|-------|

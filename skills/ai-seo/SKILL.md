@@ -1,6 +1,6 @@
 ---
 name: ai-seo
-description: "When the user wants to optimize content for AI 搜索 engines, get cited by LLMs, or appear in AI-generated answers. 当用户提到以下内容时也应使用 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click 搜索,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' 在这些情况下都应使用本技能 someone wants their content to be cited or surfaced by AI assistants and AI 搜索 engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup."
+description: "当用户想优化内容以适配 AI 搜索引擎、被 LLM 引用，或出现在 AI 生成答案中时使用。用户提到“AI SEO”“AEO”“GEO”“LLMO”“answer engine optimization”“generative engine optimization”“AI Overviews”“optimize for ChatGPT”“optimize for Perplexity”“AI citations”“AI visibility”“zero-click search”或“optimize for Claude/Gemini”时也应使用。本技能适用于希望让内容被 AI 助手与 AI 搜索系统发现、引用和展示的场景。传统技术 SEO 或页面 SEO 审计请参见 seo-audit；结构化数据实现请参见 schema-markup。"
 metadata:
   version: 1.1.0
 ---
@@ -21,7 +21,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - Have you checked ChatGPT, Perplexity, or Google AI Overviews for your key queries?
 - What queries matter most to your business?
 
-### 2. Content & Domain
+### 2. 内容 & Domain
 - What 类型 of content do you produce? (Blog, docs, comparisons, 产品 pages)
 - What's your domain 权威 / traditional SEO strength?
 - Do you have existing structured data (schema markup)?
@@ -72,7 +72,7 @@ In traditional 搜索, you need to rank on page 1. In AI 搜索, a well-structur
 
 Before optimizing, assess your current AI 搜索 presence.
 
-### Step 1: Check AI Answers for Your Key Queries
+### 步骤 1: Check AI Answers for Your Key Queries
 
 Test 10-20 of your most important queries across platforms:
 
@@ -88,7 +88,7 @@ Test 10-20 of your most important queries across platforms:
 - "How to [问题 your 产品 solves]"
 - "[Your 产品 category] pricing"
 
-### Step 2: Analyze Citation Patterns
+### 步骤 2: Analyze Citation Patterns
 
 When your competitors get cited and you don't, examine:
 - **Content structure** — Is their content more extractable?
@@ -97,7 +97,7 @@ When your competitors get cited and you don't, examine:
 - **Schema markup** — Do they have structured data you're missing?
 - **Third-party presence** — Are they cited via Wikipedia, Reddit, review sites?
 
-### Step 3: Content Extractability Check
+### 步骤 3: 内容 Extractability Check
 
 For each priority page, verify:
 
@@ -114,7 +114,7 @@ For each priority page, verify:
 | Heading structure matches query patterns? | |
 | AI bots allowed in robots.txt? | |
 
-### Step 4: AI Bot Access Check
+### 步骤 4: AI Bot Access Check
 
 Verify your robots.txt allows AI crawlers. Each AI 平台 has its own bot, and blocking it means that 平台 can't cite you:
 
@@ -130,7 +130,7 @@ See [references/platform-ranking-factors.md](references/platform-ranking-factors
 
 ---
 
-## Optimization Strategy
+## Optimization 策略
 
 ### The Three Pillars
 
@@ -140,7 +140,7 @@ See [references/platform-ranking-factors.md](references/platform-ranking-factors
 3. Presence (be where AI looks)
 ```
 
-### Pillar 1: Structure — Make Content Extractable
+### Pillar 1: Structure — Make 内容 Extractable
 
 AI systems extract passages, not pages. Every key claim should work as a standalone statement.
 
@@ -162,7 +162,7 @@ AI systems extract passages, not pages. Every key claim should work as a standal
 - Numbered lists beat paragraphs for 流程 content
 - Each paragraph should convey one clear idea
 
-### Pillar 2: 权威 — Make Content Citable
+### Pillar 2: 权威 — Make 内容 Citable
 
 AI systems prefer sources they can trust. Build citation-worthiness.
 
@@ -244,7 +244,7 @@ Content with proper schema shows 30-40% higher AI visibility. For implementation
 
 ---
 
-## Content Types That Get Cited Most
+## 内容 Types That Get Cited Most
 
 Not all content is equally citable. Prioritize these formats:
 
@@ -298,9 +298,9 @@ Monthly manual check:
 
 ---
 
-## AI SEO for Different Content Types
+## AI SEO for Different 内容 Types
 
-### SaaS 产品 Pages
+### SaaS 产品 页面
 
 **Goal:** Get cited in "What is [category]?" and "Best [category]" queries.
 
@@ -312,7 +312,7 @@ Monthly manual check:
 - Pricing transparency (AI cites pages with visible pricing)
 - FAQ section addressing 常见 buyer questions
 
-### Blog Content
+### Blog 内容
 
 **Goal:** Get cited as an authoritative 来源 on topics in your space.
 
@@ -324,7 +324,7 @@ Monthly manual check:
 - Author bio with relevant credentials
 - Internal links to related 产品/feature pages
 
-### Comparison/Alternative Pages
+### Comparison/Alternative 页面
 
 **Goal:** Get cited in "[X] vs [Y]" and "Best [X] alternatives" queries.
 
@@ -335,7 +335,7 @@ Monthly manual check:
 - Updated pricing and feature data
 - Cite the competitor-alternatives skill for building these pages
 
-### Documentation / Help Content
+### Documentation / Help 内容
 
 **Goal:** Get cited in "How to [X] with [your 产品]" queries.
 
@@ -364,7 +364,7 @@ Monthly manual check:
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
@@ -388,7 +388,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **seo-audit**: For traditional technical and on-page SEO audits
 - **schema-markup**: For implementing structured data that helps AI understand your content

@@ -1,6 +1,6 @@
 ---
 name: churn-prevention
-description: "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. 当用户提到以下内容时也应使用 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or '客户 are leaving.' 在这些情况下都应使用本技能 someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro."
+description: "当用户想降低 churn、设计取消流程、设置挽留 offer、恢复失败扣款或建立 retention 策略时使用。用户提到“churn”“cancel flow”“offboarding”“save offer”“dunning”“failed payment recovery”“win-back”“retention”“exit survey”“pause subscription”“involuntary churn”或“customers are leaving”时也应使用。本技能适用于订阅用户持续流失，或希望提前建立防流失体系的场景。取消后的挽回邮件序列请参见 email-sequence；应用内升级 paywall 请参见 paywall-upgrade-cro。"
 metadata:
   version: 1.1.0
 ---
@@ -34,14 +34,14 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - Do you have cancellation reason data from past churns?
 - What's your activation metric? (What do retained users do that churned users don't?)
 
-### 4. Constraints
+### 4. 约束
 - B2B or B2C? (Affects flow design)
 - Self-serve cancellation required? (Some regulations mandate easy cancel)
 - Brand tone for offboarding? (Empathetic, direct, playful)
 
 ---
 
-## How This Skill Works
+## How This 技能 Works
 
 Churn has two types requiring different strategies:
 
@@ -60,7 +60,7 @@ This skill supports three modes:
 
 ---
 
-## Cancel Flow Design
+## Cancel Flow 设计
 
 ### The Cancel Flow Structure
 
@@ -85,7 +85,7 @@ If they still want to cancel, confirm clearly with end-of-billing-period messagi
 **Step 5: Post-Cancel**
 Set expectations, offer easy reactivation path, trigger win-back sequence.
 
-### Exit Survey Design
+### Exit Survey 设计
 
 The exit survey is the foundation. Good reason categories:
 
@@ -296,7 +296,7 @@ Not all failures are the same. Retry strategy by decline 类型:
 
 **Smart retry tip:** Retry on the day of the month the payment originally succeeded (if Day 1 worked before, retry on Day 1). Stripe Smart Retries handles this automatically.
 
-### Dunning Email Sequence
+### Dunning 邮件 Sequence
 
 | Email | Timing | Tone | Content |
 |-------|--------|------|---------|
@@ -360,7 +360,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | 文案 tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-test-配置方式** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its 功能开关 can split users into different flows server-side, and its funnel 分析 track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for 配置方式.
+**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its 功能开关 can split users into different flows server-side, and its funnel 分析 track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for 配置方式.
 
 ---
 
@@ -379,7 +379,7 @@ Test one variable at a time:
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
@@ -414,11 +414,11 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **email-sequence**: For win-back email sequences after cancellation
 - **paywall-upgrade-cro**: For in-app upgrade moments and trial expiration
 - **pricing-strategy**: For plan structure and annual discount strategy
 - **onboarding-cro**: For activation to prevent early churn
 - **分析-跟踪**: For setting up churn signal events
-- **ab-test-配置方式**: For 测试 cancel flow variations with statistical rigor
+- **ab-test-setup**: For 测试 cancel flow variations with statistical rigor

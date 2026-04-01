@@ -31,7 +31,7 @@ GET https://api.getrewardful.com/v1/affiliates
 GET https://api.getrewardful.com/v1/affiliates/{affiliate_id}
 ```
 
-### 搜索 affiliate by email
+### 搜索 affiliate by 邮件
 
 ```bash
 GET https://api.getrewardful.com/v1/affiliates?email=affiliate@example.com

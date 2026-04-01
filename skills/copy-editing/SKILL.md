@@ -1,6 +1,6 @@
 ---
-name: 文案-editing
-description: "When the user wants to edit, review, or improve existing 营销 文案. 当用户提到以下内容时也应使用 'edit this 文案,' 'review my 文案,' '文案 feedback,' 'proofread,' 'polish this,' 'make this better,' '文案 sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has 文案 and wants it improved rather than rewritten from scratch. For writing new 文案, see copywriting."
+name: copy-editing
+description: "当用户想编辑、审阅或优化已有营销文案时使用。用户提到“edit this copy”“review my copy”“copy feedback”“proofread”“polish this”“make this better”“copy sweep”“tighten this up”“this reads awkwardly”或“sharpen the messaging”时也应使用。本技能适用于用户手上已经有文案，只想把它打磨得更好，而不是从零重写的场景。若要写新文案，请参见 copywriting。"
 metadata:
   version: 1.1.0
 ---
@@ -393,7 +393,7 @@ Use these for faster reviews when a full seven-sweep 流程 isn't needed.
 **Symptom:** 文案 tries to speak to everyone, resonates with no one
 **Fix:** Pick one 受众 and write directly to them
 
-### 问题: Feature Overload
+### 问题: 功能 Overload
 **Symptom:** Listing every capability, overwhelming the reader
 **Fix:** Focus on 3-5 key 收益 that matter most to the 受众
 
@@ -428,20 +428,20 @@ This iterative 流程 ensures each edit doesn't create new problems while respec
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **copywriting**: For writing new 文案 from scratch (use this skill to edit after your first draft is complete)
 - **page-cro**: For broader page optimization beyond 文案
 - **营销-psychology**: For understanding why certain edits improve conversion
-- **ab-test-配置方式**: For 测试 文案 variations
+- **ab-test-setup**: For 测试 文案 variations
 
 ---
 
-## 适用场景 Each Skill
+## 适用场景 Each 技能
 
 | Task | Skill to Use |
 |------|--------------|
 | Writing new page 文案 from scratch | copywriting |
-| Reviewing and improving existing 文案 | 文案-editing (this skill) |
-| Editing 文案 you just wrote | 文案-editing (this skill) |
+| Reviewing and improving existing 文案 | copy-editing (this skill) |
+| Editing 文案 you just wrote | copy-editing (this skill) |
 | Structural or strategic page changes | page-cro |

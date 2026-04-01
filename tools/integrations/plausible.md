@@ -32,7 +32,7 @@ POST https://plausible.io/api/v2/query
 }
 ```
 
-### Top Pages
+### Top 页面
 
 ```bash
 POST https://plausible.io/api/v2/query
@@ -84,7 +84,7 @@ POST https://plausible.io/api/v2/query
 }
 ```
 
-### Filtered Query (specific page)
+### Filtered Query (specific 页面)
 
 ```bash
 POST https://plausible.io/api/v2/query

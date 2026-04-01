@@ -39,7 +39,7 @@
 
 每封邮件只增加 **一个新价值主张**（SalesBread）。这样自然会迫使你每次切换角度。
 
-## Breakup Email
+## Breakup 邮件
 
 它利用的是损失厌恶心理，也就是你收回压力、同时通过“退出”制造稀缺感。Close.com 的数据表明，breakup email 对 cold prospect 的回复率能达到 **10–15%**。
 

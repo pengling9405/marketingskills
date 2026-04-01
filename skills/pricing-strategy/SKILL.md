@@ -1,11 +1,11 @@
 ---
 name: pricing-strategy
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy. 当用户提到以下内容时也应使用 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' '定价页,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' 在这些情况下都应使用本技能 someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro."
+description: "当用户想获得 pricing、packaging 或 monetization strategy 方面的帮助时使用。用户提到“pricing”“pricing tiers”“freemium”“free trial”“packaging”“price increase”“value metric”“Van Westendorp”“willingness to pay”“how much should I charge”“annual vs monthly”“per seat pricing”或“should I offer a free plan”时也应使用。本技能适用于确定该收多少钱，以及如何设计套餐结构的场景。若是应用内升级界面，请参见 paywall-upgrade-cro。"
 metadata:
   version: 1.1.0
 ---
 
-# Pricing Strategy
+# Pricing 策略
 
 You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with 客户 willingness to pay.
 
@@ -16,7 +16,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Business Context
+### 1. Business 背景
 - What 类型 of 产品? (SaaS, marketplace, e-commerce, service)
 - What's your current pricing (if any)?
 - What's your target market? (SMB, mid-market, enterprise)
@@ -220,12 +220,12 @@ Identifies which 特性 客户 value most:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **churn-prevention**: For cancel flows, save offers, and reducing revenue churn
 - **page-cro**: For optimizing 定价页 conversion
 - **copywriting**: For 定价页 文案
 - **营销-psychology**: For pricing psychology principles
-- **ab-test-配置方式**: For 测试 pricing changes
+- **ab-test-setup**: For 测试 pricing changes
 - **revops**: For deal desk processes and pipeline pricing
 - **sales-enablement**: For proposal templates and pricing presentations

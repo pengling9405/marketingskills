@@ -1,4 +1,4 @@
-# Email Types 参考
+# 邮件 Types 参考
 
 A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit checklist and implementation 参考.
 
@@ -13,7 +13,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ## Onboarding Emails
 
-### New Users Series
+### New 用户 Series
 **Trigger**: User signs up (free or trial)
 **Goal**: Activate user, drive to aha moment
 **Typical sequence**: 5-7 emails over 14 days
@@ -63,7 +63,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ---
 
-### New User Invite
+### New 用户 Invite
 **Trigger**: Existing user invites teammate
 **Goal**: Activate the invited user
 **Recipient**: The person being invited
@@ -101,7 +101,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ---
 
-### Upgrade to Higher Plan
+### Upgrade to Higher 计划
 **Trigger**: User approaching plan limits or using 特性 available on higher tier
 **Goal**: Upsell to next tier
 **Format**: Single email or 2-3 email sequence
@@ -120,7 +120,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ---
 
-### Ask for Review
+### Ask for 审查
 **Trigger**: 客户 milestone (30/60/90 days, key achievement, support resolution)
 **Goal**: Generate 社会认同 on G2, Capterra, app stores
 **Format**: Single email
@@ -160,7 +160,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ---
 
-### 产品 Usage Report
+### 产品 Usage 报告
 **Trigger**: Time-based (weekly, monthly, quarterly)
 **Goal**: Demonstrate value, drive engagement, reduce churn
 **Format**: Single email, recurring
@@ -298,7 +298,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ## Usage Emails
 
-### Daily/Weekly/Monthly Summary
+### Daily/Weekly/Monthly 摘要
 **Trigger**: Time-based
 **Goal**: Drive engagement, demonstrate value
 **Format**: Single email, recurring
@@ -474,7 +474,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 
 ---
 
-## Email Audit Checklist
+## 邮件 Audit Checklist
 
 Use this to audit your current email program:
 

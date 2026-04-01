@@ -157,7 +157,7 @@ When multiple contacts from the same 账户 engage:
 
 ## Speed-to-Lead Data
 
-### Response Time Impact on Conversion
+### Response Time 影响 on Conversion
 
 | Response Time | Relative Qualification Rate | 说明 |
 |---------------|---------------------------|-------|

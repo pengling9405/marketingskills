@@ -1,4 +1,4 @@
-# 面向 AI Agent 的 Marketing Skills
+# 面向 AI Agent 的 Marketing 技能
 
 这是一个聚焦营销任务的 AI agent skill 集合。它面向技术型营销人和创始人，帮助 AI 编码 agent 处理转化优化、文案撰写、SEO、数据分析和增长工程等工作。可用于 Claude Code、OpenAI Codex、Cursor、Windsurf，以及任何支持 [Agent Skills spec](https://agentskills.io) 的 agent。
 
@@ -10,11 +10,11 @@
 
 如果你遇到问题或有疑问，可以[提交 issue](https://github.com/coreyhaines31/marketingskills/issues)，我们很乐意帮忙。
 
-## 什么是 Skills？
+## 什么是 技能？
 
 Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业知识和工作流。当你把这些文件加入项目后，agent 就能识别你当前是否在处理营销任务，并自动套用合适的框架与最佳实践。
 
-## Skills 如何协同工作
+## 技能 如何协同工作
 
 各个 skill 会互相引用，并建立在共享上下文之上。`product-marketing-context` 是基础层，其他所有 skill 在真正开始工作前，都会先读取它，理解你的产品、受众和定位。
 
@@ -49,7 +49,7 @@ Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业�
 
 完整依赖关系见各个 skill 中的 **Related Skills** 章节。
 
-## 可用 Skills
+## 可用 技能
 
 <!-- SKILLS:START -->
 | Skill | Description |
@@ -97,13 +97,13 @@ Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业�
 使用 [npx skills](https://github.com/vercel-labs/skills) 直接安装：
 
 ```bash
-# 安装全部 skills
+# 安装全部 技能
 npx skills add coreyhaines31/marketingskills
 
-# 安装指定 skills
+# 安装指定 技能
 npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
 
-# 列出可用 skills
+# 列出可用 技能
 npx skills add coreyhaines31/marketingskills --list
 ```
 
@@ -117,7 +117,7 @@ npx skills add coreyhaines31/marketingskills --list
 # 添加 marketplace
 /plugin marketplace add coreyhaines31/marketingskills
 
-# 安装全部 marketing skills
+# 安装全部 marketing 技能
 /plugin install marketing-skills
 ```
 
@@ -151,13 +151,13 @@ git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/m
 使用 [SkillKit](https://github.com/rohitg00/skillkit) 在多个 AI agent（Claude Code、Cursor、Copilot 等）之间安装：
 
 ```bash
-# 安装全部 skills
+# 安装全部 技能
 npx skillkit install coreyhaines31/marketingskills
 
-# 安装指定 skills
+# 安装指定 技能
 npx skillkit install coreyhaines31/marketingskills --skill page-cro copywriting
 
-# 列出可用 skills
+# 列出可用 技能
 npx skillkit install coreyhaines31/marketingskills --list
 ```
 
@@ -198,7 +198,7 @@ mv .claude/product-marketing-context.md .agents/product-marketing-context.md
 /seo-audit
 ```
 
-## Skill 分类
+## 技能 分类
 
 ### 转化优化
 - `page-cro` - 任意营销页面

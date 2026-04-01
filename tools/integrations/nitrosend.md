@@ -40,7 +40,7 @@ Unlimited contacts on all plans — pay per email sent, not per subscriber.
 
 ## 常见代理操作 (via MCP)
 
-### Create an email sequence
+### Create an 邮件 sequence
 
 ```
 "Create a 5-email onboarding sequence for new SaaS trial users.
@@ -53,7 +53,7 @@ Email 5: Upgrade prompt (day 12)"
 
 Nitrosend builds the sequence, timing, and sends — no manual 配置方式 in a dashboard.
 
-### Send a transactional email
+### Send a transactional 邮件
 
 ```
 "Send a password reset email to user@example.com with a reset link valid for 1 hour."

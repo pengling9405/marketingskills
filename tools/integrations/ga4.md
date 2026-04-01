@@ -19,7 +19,7 @@ Web 分析 平台 for 跟踪 user behavior, 转化, and 营销 表现.
 
 ## 常见代理操作
 
-### Run a report (Data API)
+### Run a 报告 (Data API)
 
 ```bash
 POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runReport
@@ -121,6 +121,6 @@ POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}
 ## 相关技能
 
 - 分析-跟踪
-- ab-test-配置方式
+- ab-test-setup
 - seo-audit
 - page-cro

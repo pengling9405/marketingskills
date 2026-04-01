@@ -18,7 +18,7 @@ Beyond these basics, each 平台 weights different signals. Here's what matters 
 
 ---
 
-## Google AI Overviews
+## Google AI 概览s
 
 Google AI Overviews pull from Google's own index and lean heavily on E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness). They appear in roughly 45% of Google searches.
 

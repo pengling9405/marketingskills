@@ -21,7 +21,7 @@ Email 营销 automation 平台 with CRM, contacts, deals pipeline, tags, automat
 
 ## 常见代理操作
 
-### Get current user
+### Get current 用户
 
 ```bash
 GET https://{account}.api-us1.com/api/3/users/me
@@ -32,7 +32,7 @@ GET https://{account}.api-us1.com/api/3/users/me
 ```bash
 GET https://{account}.api-us1.com/api/3/contacts?limit=20&offset=0
 
-# Search by email
+# Search by 邮件
 GET https://{account}.api-us1.com/api/3/contacts?email=user@example.com
 
 # Search by name
@@ -260,7 +260,7 @@ POST https://{account}.api-us1.com/api/3/webhooks
 }
 ```
 
-## API Pattern
+## API 模式
 
 ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). Responses include the resource object plus metadata. Related resources are managed via junction endpoints (e.g., `/contactLists`, `/contactTags`, `/contactAutomations`). The base URL is 账户-specific. Pagination uses `limit` and `offset` parameters.
 
@@ -292,11 +292,11 @@ ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). 
 
 ## Parameters
 
-### Contact List Status
+### Contact List 状态
 - `1` - Subscribed (active)
 - `2` - Unsubscribed
 
-### Deal Status
+### Deal 状态
 - `0` - Open
 - `1` - Won
 - `2` - Lost

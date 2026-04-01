@@ -19,7 +19,7 @@ Company and person data enrichment API for converting leads with 100+ firmograph
 
 ## 常见代理操作
 
-### Person Enrichment (by email)
+### Person Enrichment (by 邮件)
 
 ```bash
 GET https://person.clearbit.com/v2/people/find?email=alex@clearbit.com
@@ -67,7 +67,7 @@ GET https://prospector.clearbit.com/v1/people/search?domain=clearbit.com&role=sa
 
 Finds employees at a company filtered by role, seniority, title.
 
-## API Pattern
+## API 模式
 
 Clearbit uses separate subdomains per API:
 - `person.clearbit.com` - Person data

@@ -1,4 +1,4 @@
-# GA4 Implementation 参考
+# GA4 实施 参考
 
 Detailed implementation guide for Google 分析 4.
 
@@ -58,7 +58,7 @@ Use Google's predefined events when possible for enhanced reporting:
 
 ## Custom Events
 
-### gtag.js Implementation
+### gtag.js 实现
 
 ```javascript
 // Basic event
@@ -275,7 +275,7 @@ For multiple domains sharing 分析:
 2. Configure your domains
 3. List all domains that should share sessions
 
-### Session Settings
+### 会话 Settings
 
 Admin > Data streams > [Stream] > Configure tag settings
 

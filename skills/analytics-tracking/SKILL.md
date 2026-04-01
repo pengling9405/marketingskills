@@ -1,6 +1,6 @@
 ---
-name: 分析-跟踪
-description: When the user wants to set up, improve, or audit 分析 跟踪 and 衡量. 当用户提到以下内容时也应使用 "set up 跟踪," "GA4," "Google 分析," "conversion 跟踪," "事件 跟踪," "UTM parameters," "tag manager," "GTM," "分析 implementation," "跟踪 plan," "how do I measure this," "track 转化," "attribution," "Mixpanel," "Segment," "are my events firing," or "分析 isn't working." 在这些情况下都应使用本技能 someone asks how to know if something is working or wants to measure 营销 results. 如果是 A/B 测试衡量，请参见 `ab-test-配置方式`。
+name: analytics-tracking
+description: "当用户想搭建、改进或审计 analytics 埋点与衡量体系时使用。用户提到“set up tracking”“GA4”“Google Analytics”“conversion tracking”“event tracking”“UTM parameters”“tag manager”“GTM”“analytics implementation”“tracking plan”“how do I measure this”“track conversions”“attribution”“Mixpanel”“Segment”或“analytics isn't working”时也应使用。本技能适用于用户想知道某件事是否有效，或希望衡量营销结果的场景。若是 A/B 测试衡量，请参见 ab-test-setup。"
 metadata:
   version: 1.1.0
 ---
@@ -246,12 +246,12 @@ dataLayer.push({
 
 ## 输出格式
 
-### 跟踪 Plan Document
+### 跟踪 计划 Document
 
 ```markdown
-# [Site/Product] Tracking Plan
+# [Site/Product] Tracking 计划
 
-## Overview
+## 概览
 - Tools: GA4, GTM
 - Last updated: [Date]
 
@@ -287,7 +287,7 @@ dataLayer.push({
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key 分析 tools:
 
@@ -301,9 +301,9 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key 分�
 
 ---
 
-## Related Skills
+## Related 技能
 
-- **ab-test-配置方式**: For experiment 跟踪
+- **ab-test-setup**: For experiment 跟踪
 - **seo-audit**: For organic traffic 分析
 - **page-cro**: For conversion optimization (uses this data)
 - **revops**: For pipeline 指标, CRM 跟踪, and revenue attribution

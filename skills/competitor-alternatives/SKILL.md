@@ -1,11 +1,11 @@
 ---
 name: competitor-alternatives
-description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. 当用户提到以下内容时也应使用 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[产品] vs [产品],' '[产品] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your 产品 against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement."
+description: "当用户想创建用于 SEO 或销售支持的竞品对比页、替代页或“vs”页面时使用。用户提到“alternative page”“vs page”“competitor comparison”“comparison page”“[Product] vs [Product]”“[Product] alternative”“competitive landing pages”“how do we compare to X”“battle card”或“competitor teardown”时也应使用。本技能适用于任何需要把自家产品与竞品放在一起定位和比较的内容场景，覆盖单一替代页、替代方案列表页、你对竞品，以及竞品对竞品四种格式。若是纯销售用的竞品材料，请参见 sales-enablement。"
 metadata:
   version: 1.1.0
 ---
 
-# Competitor & Alternative Pages
+# Competitor & Alternative 页面
 
 You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive 搜索 terms, provide genuine value to evaluators, and position your 产品 effectively.
 
@@ -57,14 +57,14 @@ Before creating competitor pages, understand:
 - Be clear about who competitor is best for
 - Reduce evaluation friction
 
-### 4. Modular Content Architecture
+### 4. Modular 内容 Architecture
 - Competitor data should be centralized
 - Updates propagate to all pages
 - Single 来源 of truth per competitor
 
 ---
 
-## Page Formats
+## 页面 Formats
 
 ### Format 1: [Competitor] Alternative (Singular)
 
@@ -146,13 +146,13 @@ Before creating competitor pages, understand:
 
 ## Essential Sections
 
-### TL;DR Summary
+### TL;DR 摘要
 Start every page with a quick summary for scanners—key differences in 2-3 sentences.
 
 ### Paragraph Comparisons
 Go beyond tables. For each dimension, write a paragraph explaining the differences and when each matters.
 
-### Feature Comparison
+### 功能 Comparison
 For each category: describe how each handles it, list strengths and limitations, give bottom line recommendation.
 
 ### Pricing Comparison
@@ -168,7 +168,7 @@ Cover what transfers, what needs reconfiguration, support offered, and quotes fr
 
 ---
 
-## Content Architecture
+## 内容 Architecture
 
 ### Centralized Competitor Data
 Create a single 来源 of truth for each competitor with:
@@ -230,10 +230,10 @@ Consider FAQ schema for 常见 questions like "What is the best alternative to [
 ### Competitor Data File
 Complete competitor profile in YAML format for use across all comparison pages.
 
-### Page Content
+### 页面 内容
 For each page: URL, meta tags, full page 文案 organized by section, comparison tables, CTAs.
 
-### Page Set Plan
+### 页面 Set 计划
 Recommended pages to create with priority order based on 搜索 volume.
 
 ---
@@ -247,7 +247,7 @@ Recommended pages to create with priority order based on 搜索 volume.
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **programmatic-seo**: For building competitor pages at scale
 - **copywriting**: For writing compelling comparison 文案

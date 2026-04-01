@@ -73,7 +73,7 @@ GET https://api.supermetrics.com/enterprise/v2/datasources/accounts?ds_id=GA4
 GET https://api.supermetrics.com/enterprise/v2/teams
 ```
 
-### List Users
+### List 用户
 
 ```bash
 GET https://api.supermetrics.com/enterprise/v2/users

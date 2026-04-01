@@ -1,6 +1,6 @@
 ---
 name: paywall-upgrade-cro
-description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. 当用户提到以下内容时也应使用 "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-产品 moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-产品 upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.
+description: "当用户想创建或优化应用内 paywall、upgrade screen、upsell modal 或 feature gate 时使用。用户提到“paywall”“upgrade screen”“upgrade modal”“upsell”“feature gate”“convert free to paid”“freemium conversion”“trial expiration screen”“limit reached screen”“plan upgrade prompt”或“how do I get users to pay”时也应使用。本技能适用于所有在产品内部要求用户升级付费的时刻，和公开 pricing page 不同，它强调用户已经体验过价值后的升级转化。若是定价决策，请参见 pricing-strategy。"
 metadata:
   version: 1.1.0
 ---
@@ -49,7 +49,7 @@ Before providing recommendations, understand:
 
 ## Paywall Trigger Points
 
-### Feature Gates
+### 功能 Gates
 When user 点击 a paid-only feature:
 - Clear explanation of why it's paid
 - Show what the feature does
@@ -96,7 +96,7 @@ After X days of free use:
 
 ## Specific Paywall Types
 
-### Feature Lock Paywall
+### 功能 Lock Paywall
 ```
 [Lock Icon]
 This feature is available on Pro
@@ -174,7 +174,7 @@ What you've accomplished:
 
 ## A/B 测试
 
-### What to Test
+### What to 测试
 - Trigger timing
 - 标题/文案 variations
 - Price presentation
@@ -219,9 +219,9 @@ What you've accomplished:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **churn-prevention**: For cancel flows, save offers, and reducing churn post-upgrade
 - **page-cro**: For public 定价页 优化
 - **onboarding-cro**: For driving to aha moment before upgrade
-- **ab-test-配置方式**: For 测试 paywall variations
+- **ab-test-setup**: For 测试 paywall variations

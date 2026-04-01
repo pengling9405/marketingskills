@@ -133,7 +133,7 @@ Detailed creation 指导 for each lead magnet format.
 
 ## Mini-Courses
 
-### Email-Based Mini-Courses
+### 邮件-Based Mini-Courses
 - 3-5 emails delivered over 5-7 days
 - One lesson per email, one concept per lesson
 - Each email: teach → 示例 → exercise

@@ -92,7 +92,7 @@ Typeform → Zapier → HubSpot
 Stripe (new customer) → Zapier → Slack
 ```
 
-### Email sequence triggers
+### 邮件 sequence triggers
 ```
 Form submission → Zapier → Customer.io
 ```

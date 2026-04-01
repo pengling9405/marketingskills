@@ -37,7 +37,7 @@ GET https://api.beehiiv.com/v2/publications/{publicationId}
 ```bash
 GET https://api.beehiiv.com/v2/publications/{publicationId}/subscriptions?limit=10&status=active
 
-# Filter by email
+# Filter by 邮件
 GET https://api.beehiiv.com/v2/publications/{publicationId}/subscriptions?email=user@example.com
 ```
 
@@ -108,7 +108,7 @@ GET https://api.beehiiv.com/v2/publications/{publicationId}/automations
 GET https://api.beehiiv.com/v2/publications/{publicationId}/referral_program
 ```
 
-## API Pattern
+## API 模式
 
 All endpoints are scoped to a publication. The publication ID is a required path parameter for most 操作. Responses use cursor-based pagination with a `cursor` parameter for fetching subsequent pages.
 

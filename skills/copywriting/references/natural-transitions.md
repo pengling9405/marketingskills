@@ -26,7 +26,7 @@ Adapted from: University of Manchester Academic Phrasebank (2023), Plain English
 - Best Practice Guidelines
 - Transitions to Avoid (AI Tells)
 
-## Previewing Content Structure
+## Previewing 内容 Structure
 
 Use to orient readers and set expectations:
 
@@ -190,7 +190,7 @@ Use when citing sources, data, or expert opinions:
 
 ---
 
-## Concluding Content
+## Concluding 内容
 
 - Wrapping up,...
 - The bottom line is...

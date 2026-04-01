@@ -199,7 +199,7 @@ What happens after cancel matters for:
 - Word of mouth
 - Review sentiment
 
-### Confirmation Page
+### Confirmation 页面
 
 ```
 Your subscription has been cancelled.
@@ -269,23 +269,23 @@ The most effective cancel flows use segmentation to show different offers to dif
 
 ---
 
-## Implementation Checklist
+## 实现 Checklist
 
-### Phase 1: Foundation (Week 1)
+### 阶段 1: Foundation (Week 1)
 - [ ] Add cancel flow (survey + 1 offer + confirmation)
 - [ ] Set up exit survey with 5-7 reason categories
 - [ ] Map one offer per reason (simple 1:1 mapping)
 - [ ] Track cancel reasons and save rate in 分析
 - [ ] Enable pre-dunning card expiry emails
 
-### Phase 2: Optimization (Weeks 2-4)
+### 阶段 2: Optimization (Weeks 2-4)
 - [ ] Add fallback offers (primary + secondary per reason)
 - [ ] Implement pause subscription option
 - [ ] Set up dunning email sequence (4 emails over 10 days)
 - [ ] Enable smart retries (Stripe Smart Retries or equivalent)
 - [ ] Add MRR-based routing for high-value accounts
 
-### Phase 3: Advanced (Month 2+)
+### 阶段 3: Advanced (Month 2+)
 - [ ] Build health score from usage signals
 - [ ] Set up proactive intervention triggers
 - [ ] A/B test discount amounts and offer types

@@ -1,6 +1,6 @@
 ---
 name: schema-markup
-description: When the user wants to add, fix, or optimize schema markup and structured data on their site. 当用户提到以下内容时也应使用 "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "产品 schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in 搜索," or "add structured data." 在这些情况下都应使用本技能 someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI 搜索 optimization, see ai-seo.
+description: "当用户想在网站上添加、修复或优化 schema markup 与 structured data 时使用。用户提到“schema markup”“structured data”“JSON-LD”“rich snippets”“schema.org”“FAQ schema”“product schema”“review schema”“breadcrumb schema”“Google rich results”或“add structured data”时也应使用。本技能适用于希望让页面在 Google 中显示更丰富搜索结果的场景。更广义的 SEO 问题请参见 seo-audit；AI 搜索优化请参见 ai-seo。"
 metadata:
   version: 1.1.0
 ---
@@ -69,7 +69,7 @@ Before implementing schema, understand:
 
 ## 快速参考
 
-### Organization (Company Page)
+### Organization (Company 页面)
 Required: name, url
 Recommended: logo, sameAs (social profiles), contactPoint
 
@@ -123,7 +123,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ---
 
-## Implementation
+## 实现
 
 ### Static Sites
 - Add JSON-LD directly in HTML template
@@ -143,7 +143,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ## 输出格式
 
-### Schema Implementation
+### Schema 实现
 ```json
 // Full JSON-LD code block
 {
@@ -171,7 +171,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **seo-audit**: For overall SEO including schema review
 - **ai-seo**: For AI 搜索 optimization (schema helps AI understand content)

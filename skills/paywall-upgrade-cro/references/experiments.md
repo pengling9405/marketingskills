@@ -29,7 +29,7 @@ Comprehensive list of A/B tests and experiments for paywall optimization.
 
 ---
 
-## Paywall Design Experiments
+## Paywall 设计 Experiments
 
 ### Layout & Format
 - Full-screen paywall vs. modal overlay
@@ -63,7 +63,7 @@ Comprehensive list of A/B tests and experiments for paywall optimization.
 - Show price after trial vs. emphasize "Start Free"
 - 展示 price prominently vs. de-emphasize until click
 
-### Plan Options
+### 计划 Options
 - Single recommended plan vs. multiple tiers
 - Add "Most Popular" badge to target plan
 - Test number of visible plans (2 vs. 3)

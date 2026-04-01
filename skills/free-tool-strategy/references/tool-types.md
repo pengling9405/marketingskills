@@ -1,4 +1,4 @@
-# Free Tool Types 参考
+# Free 工具 Types 参考
 
 Detailed guide to each 类型 of 营销 tool you can build.
 
@@ -179,7 +179,7 @@ Detailed guide to each 类型 of 营销 tool you can build.
 
 ---
 
-## Tool Concept 示例 by Industry
+## 工具 Concept 示例 by Industry
 
 ### SaaS 产品
 - 产品 ROI calculator

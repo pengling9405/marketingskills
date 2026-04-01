@@ -25,7 +25,7 @@ Payment processing, subscriptions, and billing for internet businesses.
 GET https://api.stripe.com/v1/customers?limit=10
 ```
 
-### Get 客户 by email
+### Get 客户 by 邮件
 
 ```bash
 GET https://api.stripe.com/v1/customers?email=user@example.com
@@ -43,7 +43,7 @@ GET https://api.stripe.com/v1/subscriptions/{subscription_id}
 GET https://api.stripe.com/v1/subscriptions?customer={customer_id}
 ```
 
-### Create checkout session
+### Create checkout 会话
 
 ```bash
 POST https://api.stripe.com/v1/checkout/sessions
@@ -56,7 +56,7 @@ customer={customer_id}
 &cancel_url=https://example.com/cancel
 ```
 
-### Create 客户 portal session
+### Create 客户 portal 会话
 
 ```bash
 POST https://api.stripe.com/v1/billing_portal/sessions
@@ -106,7 +106,7 @@ const event = stripe.webhooks.constructEvent(
 # Listen to webhooks locally
 stripe listen --forward-to localhost:3000/webhooks
 
-# Trigger test events
+# Trigger 测试 events
 stripe trigger checkout.session.completed
 
 # List recent events

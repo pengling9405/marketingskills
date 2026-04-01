@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: When the user wants to audit, review, or diagnose SEO issues on their site. 当用户提到以下内容时也应使用 "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target 关键词, see programmatic-seo. For adding structured data, see schema-markup. For AI 搜索 optimization, see ai-seo.
+description: "当用户想审计、评估或诊断网站 SEO 问题时使用。用户提到“SEO audit”“technical SEO”“why am I not ranking”“SEO issues”“on-page SEO”“meta tags review”“SEO health check”“my traffic dropped”“lost rankings”“not showing up in Google”“site isn't ranking”“Google update hit me”“page speed”“core web vitals”“crawl errors”或“indexing issues”时也应使用。即使用户只说“my SEO is bad”或“help with SEO”，也应先从审计开始。批量生成 SEO 页面请参见 programmatic-seo；结构化数据请参见 schema-markup；AI 搜索优化请参见 ai-seo。"
 metadata:
   version: 1.1.0
 ---
@@ -155,7 +155,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 ---
 
-## On-Page SEO Audit
+## On-页面 SEO Audit
 
 ### Title Tags
 
@@ -203,7 +203,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Headings used for styling only
 - No H1 on page
 
-### Content Optimization
+### 内容 Optimization
 
 **Primary Page Content**
 - 关键词 in first 100 words
@@ -260,7 +260,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 ---
 
-## Content 质量 Assessment
+## 内容 质量 Assessment
 
 ### E-E-A-T Signals
 
@@ -286,14 +286,14 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - 隐私 policy, terms
 - Secure site (HTTPS)
 
-### Content Depth
+### 内容 Depth
 
 - Comprehensive coverage of topic
 - Answers follow-up questions
 - Better than top-ranking competitors
 - Updated and current
 
-### User Engagement Signals
+### 用户 Engagement Signals
 
 - Time on page
 - Bounce rate in context
@@ -318,7 +318,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Faceted navigation creating duplicates
 - Out-of-stock pages mishandled
 
-### Content/Blog Sites
+### 内容/Blog Sites
 - Outdated content not refreshed
 - 关键词 cannibalization
 - No topical clustering
@@ -336,7 +336,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 ## 输出格式
 
-### Audit Report Structure
+### Audit 报告 Structure
 
 **Executive Summary**
 - Overall health assessment
@@ -402,7 +402,7 @@ Same format as above
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **ai-seo**: For optimizing content for AI 搜索 engines (AEO, GEO, LLMO)
 - **programmatic-seo**: For building SEO pages at scale

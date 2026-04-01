@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve 营销 文案 for any page — including 首页, landing pages, pricing pages, feature pages, about pages, or 产品 pages. Also use when the user says "write 文案 for," "improve this 文案," "rewrite this page," "营销 文案," "标题 help," "CTA 文案," "value proposition," "tagline," "副标题," "hero section 文案," "above the fold," "this 文案 is weak," "make this more compelling," or "help me describe my 产品." 在这些情况下都应使用本技能 someone is working on website text that needs to persuade or convert. 如果是邮件文案，请参见 `email-sequence`。 如果是弹窗文案，请参见 `popup-cro`。 如果是编辑已有文案，请参见 `文案-editing`。
+description: "当用户想为任意页面撰写、重写或优化营销文案时使用，包括首页、landing page、pricing page、feature page、about page 与 product page。用户提到“write copy for”“improve this copy”“rewrite this page”“marketing copy”“headline help”“CTA copy”“value proposition”“tagline”“subheadline”“hero section copy”或“help me describe my product”时也应使用。本技能适用于任何需要说服、转化或解释产品价值的网站文案场景。邮件文案请参见 email-sequence；弹窗文案请参见 popup-cro；已有文案的润色请参见 copy-editing。"
 metadata:
   version: 1.1.0
 ---
@@ -16,7 +16,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Page 用途
+### 1. 页面 用途
 - What 类型 of page? (首页, 落地页, pricing, feature, about)
 - What is the ONE primary action you want visitors to take?
 
@@ -32,7 +32,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - What's the key transformation or outcome?
 - Any 证明材料 (numbers, 推荐语, 案例研究)?
 
-### 4. Context
+### 4. 背景
 - Where is traffic coming from? (ads, organic, email)
 - What do visitors already know before arriving?
 
@@ -77,7 +77,7 @@ Each section should advance one argument. Build a logical flow down the page.
 - Exclamation points? (remove them)
 - 营销 buzzwords without substance?
 
-For thorough line-by-line review, use the **文案-editing** skill after your draft.
+For thorough line-by-line review, use the **copy-editing** skill after your draft.
 
 ---
 
@@ -221,7 +221,7 @@ Maintain consistency, but adjust intensity:
 
 When writing 文案, provide:
 
-### Page 文案
+### 页面 文案
 Organized by section:
 - 标题, 副标题, CTA
 - Section 请求头 and body 文案
@@ -237,16 +237,16 @@ For headlines and CTAs, provide 2-3 options:
 - Option A: [文案] — [rationale]
 - Option B: [文案] — [rationale]
 
-### Meta Content (if relevant)
+### Meta 内容 (if relevant)
 - Page title (for SEO)
 - Meta description
 
 ---
 
-## Related Skills
+## Related 技能
 
-- **文案-editing**: For polishing existing 文案 (use after your draft)
+- **copy-editing**: For polishing existing 文案 (use after your draft)
 - **page-cro**: If page structure/strategy needs work, not just 文案
 - **email-sequence**: For email copywriting
 - **popup-cro**: For popup and modal 文案
-- **ab-test-配置方式**: To test 文案 variations
+- **ab-test-setup**: To test 文案 variations

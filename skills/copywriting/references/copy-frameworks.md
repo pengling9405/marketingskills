@@ -209,9 +209,9 @@
 
 ---
 
-## Page Structure Templates
+## 页面 Structure Templates
 
-### Feature-Heavy Page (Weak)
+### 功能-Heavy 页面 (Weak)
 
 ```
 1. Hero
@@ -226,7 +226,7 @@ This is a list, not a persuasive narrative.
 
 ---
 
-### Varied, Engaging Page (Strong)
+### Varied, Engaging 页面 (Strong)
 
 ```
 1. Hero with clear value prop
@@ -280,7 +280,7 @@ Addresses enterprise buyer concerns.
 
 ---
 
-### 产品 Launch Page
+### 产品 Launch 页面
 
 ```
 1. Hero with launch announcement

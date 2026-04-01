@@ -115,7 +115,7 @@ Headers:
   Api-Secret: {API_SECRET}
 ```
 
-## API Pattern
+## API 模式
 
 Demio uses a straightforward REST API:
 - All requests require both `Api-Key` and `Api-Secret` 请求头

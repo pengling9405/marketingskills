@@ -101,7 +101,7 @@ GET https://api.optimizely.com/v2/audiences?project_id={project_id}
 GET https://api.optimizely.com/v2/events?project_id={project_id}
 ```
 
-### List Pages
+### List 页面
 
 ```bash
 GET https://api.optimizely.com/v2/pages?project_id={project_id}
@@ -164,7 +164,7 @@ GET https://api.optimizely.com/v2/pages?project_id={project_id}
 
 ## 相关技能
 
-- ab-test-配置方式
+- ab-test-setup
 - page-cro
 - landing-page
 - personalization

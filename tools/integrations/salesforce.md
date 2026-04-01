@@ -94,7 +94,7 @@ sf data query --query "SELECT Id, Name FROM Account LIMIT 10"
 # Create record
 sf data create record --sobject Account --values "Name='New Account'"
 
-# Deploy metadata
+# 部署 metadata
 sf project deploy start
 
 # Run Apex

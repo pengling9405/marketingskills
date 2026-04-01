@@ -1,11 +1,11 @@
 ---
 name: email-sequence
-description: When the user wants to create or optimize an email sequence, drip 广告活动, automated email flow, or lifecycle email program. 当用户提到以下内容时也应使用 "email sequence," "drip 广告活动," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email 工作流," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.
+description: "当用户想创建或优化 email sequence、drip campaign、自动化邮件流程或生命周期邮件体系时使用。用户提到“email sequence”“drip campaign”“nurture sequence”“onboarding emails”“welcome sequence”“re-engagement emails”“email automation”“lifecycle emails”“email funnel”“email workflow”或“what emails should I send”时也应使用。本技能适用于任何多封邮件组成的自动化流程。冷启动外联邮件请参见 cold-email；应用内 onboarding 请参见 onboarding-cro。"
 metadata:
   version: 1.1.0
 ---
 
-# Email Sequence Design
+# 邮件 Sequence 设计
 
 You are an expert in email 营销 and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.
 
@@ -41,7 +41,7 @@ Before creating a sequence, understand:
 
 ## 核心原则
 
-### 1. One Email, One Job
+### 1. One 邮件, One Job
 - Each email has one primary purpose
 - One main CTA per email
 - Don't try to do everything
@@ -63,7 +63,7 @@ Before creating a sequence, understand:
 
 ---
 
-## Email Sequence Strategy
+## 邮件 Sequence 策略
 
 ### Sequence Length
 - Welcome: 3-7 emails
@@ -87,7 +87,7 @@ Consider:
 - B2C: Test weekends
 - Time zones: Send at local time
 
-### Subject Line Strategy
+### Subject Line 策略
 - Clear > Clever
 - Specific > Vague
 - 收益 or curiosity-driven
@@ -149,7 +149,7 @@ Key emails:
 3. Incentive (special offer)
 4. Last chance (stay or unsubscribe)
 
-### Onboarding Sequence (产品 Users)
+### Onboarding Sequence (产品 用户)
 **Length**: 5-7 emails over 14 days
 **Goal**: Activate, drive to aha moment, upgrade
 **Note**: Coordinate with in-app onboarding—email supports, doesn't duplicate
@@ -167,7 +167,7 @@ Key emails:
 
 ---
 
-## Email Types by Category
+## 邮件 Types by Category
 
 ### Onboarding Emails
 - New users series
@@ -210,7 +210,7 @@ Key emails:
 
 ---
 
-## Email 文案 Guidelines
+## 邮件 文案 Guidelines
 
 ### 结构
 1. **Hook**: First line grabs attention
@@ -259,7 +259,7 @@ Timing: [Delay between emails]
 Exit Conditions: [When they leave the sequence]
 ```
 
-### For Each Email
+### For Each 邮件
 ```
 Email [#]: [Name/Purpose]
 Send: [Timing]
@@ -270,7 +270,7 @@ CTA: [Button text] → [Link destination]
 Segment/Conditions: [If applicable]
 ```
 
-### 指标 Plan
+### 指标 计划
 What to measure and benchmarks
 
 ---
@@ -285,7 +285,7 @@ What to measure and benchmarks
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email tools:
 
@@ -300,12 +300,12 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **lead-magnets**: For planning lead magnets that feed into nurture sequences
 - **churn-prevention**: For cancel flows, save offers, and dunning strategy (email supports this)
 - **onboarding-cro**: For in-app onboarding (email supports this)
 - **copywriting**: For landing pages emails link to
-- **ab-test-配置方式**: For 测试 email elements
+- **ab-test-setup**: For 测试 email elements
 - **popup-cro**: For email capture popups
 - **revops**: For lifecycle stages that trigger email sequences

@@ -1,4 +1,4 @@
-# 平台-Specific Strategy Guide
+# 平台-Specific 策略 Guide
 
 Detailed strategies for each major social 平台.
 

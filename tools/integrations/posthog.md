@@ -147,5 +147,5 @@ if (posthog.isFeatureEnabled('new-pricing')) {
 ## 相关技能
 
 - 分析-跟踪
-- ab-test-配置方式
+- ab-test-setup
 - onboarding-cro

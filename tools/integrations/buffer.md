@@ -20,7 +20,7 @@ Social media scheduling, publishing, and 分析 平台 for managing multiple soc
 
 ## 常见代理操作
 
-### Get user info
+### Get 用户 info
 
 ```bash
 GET https://api.bufferapp.com/1/user.json
@@ -84,7 +84,7 @@ Content-Type: application/x-www-form-urlencoded
 order[]={update_id_1}&order[]={update_id_2}&order[]={update_id_3}
 ```
 
-## API Pattern
+## API 模式
 
 Buffer API v1 uses `.json` extensions on all endpoints. POST requests use `application/x-www-form-urlencoded` content 类型. Array parameters use bracket notation (e.g., `profile_ids[]`).
 

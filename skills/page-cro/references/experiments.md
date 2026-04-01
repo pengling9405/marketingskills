@@ -1,4 +1,4 @@
-# Page CRO Experiment Ideas
+# 页面 CRO Experiment Ideas
 
 Comprehensive list of A/B tests and experiments organized by page 类型.
 
@@ -36,7 +36,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 | Testimonial placement | Above fold vs. dedicated section |
 | 视频 推荐语 | More engaging than text quotes |
 
-### 特性 & Content
+### 特性 & 内容
 
 | Test | Hypothesis |
 |------|------------|
@@ -105,7 +105,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 
 ---
 
-## Demo Request Page Experiments
+## Demo Request 页面 Experiments
 
 ### Form Optimization
 
@@ -118,7 +118,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 | Field enrichment | Hide fields you can auto-fill |
 | Form labels | Inside field vs. above |
 
-### Page Content
+### 页面 内容
 
 | Test | Hypothesis |
 |------|------------|
@@ -142,9 +142,9 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 
 ---
 
-## Resource/Blog Page Experiments
+## Resource/Blog 页面 Experiments
 
-### Content CTAs
+### 内容 CTAs
 
 | Test | Hypothesis |
 |------|------------|
@@ -190,7 +190,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 | 社会认同 density | Amount and placement |
 | 视频 inclusion | Explain offer with 视频 |
 
-### Page Length
+### 页面 Length
 
 | Test | Hypothesis |
 |------|------------|
@@ -203,7 +203,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 
 ## 功能页 Experiments
 
-### Feature Presentation
+### 功能 Presentation
 
 | Test | Hypothesis |
 |------|------------|
@@ -225,7 +225,7 @@ Comprehensive list of A/B tests and experiments organized by page 类型.
 
 ---
 
-## Cross-Page Experiments
+## Cross-页面 Experiments
 
 ### Site-Wide Tests
 

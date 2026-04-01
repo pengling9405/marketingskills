@@ -40,7 +40,7 @@ A headless CMS separates content management from presentation. Content is stored
 
 ---
 
-## Content Modeling for 营销
+## 内容 Modeling for 营销
 
 ### 核心原则
 
@@ -49,7 +49,7 @@ A headless CMS separates content management from presentation. Content is stored
 3. **Design for reuse.** If 推荐语 appear on 5 pages, create a Testimonial 类型 and 参考 it — don't duplicate.
 4. **Keep models flat.** Deeply nested structures are hard to query and maintain. Prefer references over nesting.
 
-### 常见 营销 Content Types
+### 常见 营销 内容 Types
 
 | 类型 | Key Fields | 说明 |
 |------|-----------|-------|
@@ -77,7 +77,7 @@ Every page-level content 类型 needs:
 
 ## Editorial 工作流
 
-### Draft → Review → Publish Cycle
+### Draft → 审查 → Publish Cycle
 
 1. **Draft** — Author creates or edits content
 2. **Review** — Editor reviews for accuracy, brand voice, SEO
@@ -153,7 +153,7 @@ Exact permission models vary by 平台. Sanity uses role-based access. Contentfu
 
 ---
 
-## Integration with 营销 Skills
+## Integration with 营销 技能
 
 ### Programmatic SEO
 
@@ -167,13 +167,13 @@ CMS content models enforce consistent structure. Define fields that match your �
 
 URL structure, navigation hierarchy, and internal linking all depend on how content is organized in the CMS. Plan your content model and site architecture together. See **site-architecture** skill.
 
-### Email Sequences
+### 邮件 Sequences
 
 Pull CMS content into email templates for consistent messaging across web and email. 案例研究, 推荐语, and blog posts can feed email nurture sequences. See **email-sequence** skill.
 
 ---
 
-## Implementation Checklist
+## 实现 Checklist
 
 - [ ] Define content types based on page types and reusable blocks
 - [ ] Add SEO fields to every page-level content 类型

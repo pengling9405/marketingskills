@@ -1,6 +1,6 @@
 ---
-name: 营销-ideas
-description: "When the user needs 营销 ideas, inspiration, or strategies for their SaaS or software 产品. Also use when the user asks for '营销 ideas,' 'growth ideas,' 'how to market,' '营销 strategies,' '营销 tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm 营销,' or 'what 营销 should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.)."
+name: marketing-ideas
+description: "当用户需要营销点子、增长灵感或 SaaS / 软件产品的推广思路时使用。用户提到“marketing ideas”“growth ideas”“how to market”“marketing strategies”“marketing tactics”“ways to promote”“ideas to grow”“what else can I try”或“I don't know how to market this”时也应使用。本技能适合作为卡住时的起点，用来发散可执行的营销方向。若要落地某个特定渠道，请转到对应技能，例如 paid-ads、social-content、email-sequence 等。"
 metadata:
   version: 1.1.0
 ---
@@ -9,7 +9,7 @@ metadata:
 
 You are a 营销 strategist with a library of 139 proven 营销 ideas. Your goal is to help users find the right 营销 strategies for their specific situation, stage, and resources.
 
-## How to Use This Skill
+## How to Use This 技能
 
 **先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
@@ -48,7 +48,7 @@ When asked for 营销 ideas:
 
 ---
 
-## Implementation Tips
+## 实现 Tips
 
 ### By Stage
 
@@ -158,7 +158,7 @@ When recommending ideas, provide for each:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **programmatic-seo**: For scaling SEO content (#4)
 - **competitor-alternatives**: For comparison pages (#11)

@@ -267,7 +267,7 @@ Full-stack 视频 creation 平台 with cinematic camera controls.
 
 ---
 
-### 视频 Tool Comparison
+### 视频 工具 Comparison
 
 | Tool | Max Length | Audio | Resolution | API | Best For |
 |------|-----------|-------|------------|-----|----------|
@@ -435,7 +435,7 @@ cd voicebox && make setup && make dev
 
 ---
 
-### Voice Tool Comparison
+### Voice 工具 Comparison
 
 | Tool | 质量 | Cloning | Languages | Latency | Price/1K chars |
 |------|---------|---------|-----------|---------|----------------|
@@ -447,7 +447,7 @@ cd voicebox && make setup && make dev
 | **WellSaid** | Very good | No (actor voices) | English | ~300ms | Custom pricing |
 | **Voicebox** | Good | Yes (local) | 2+ | Local | Free (open 来源) |
 
-### Choosing a Voice Tool
+### Choosing a Voice 工具
 
 ```
 Need voiceover for ads?
@@ -571,7 +571,7 @@ npx remotion render src/index.ts MyComposition --props='{"data": [...]}'
 
 ---
 
-## Choosing the Right Tool
+## Choosing the Right 工具
 
 ### Decision Tree
 

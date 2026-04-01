@@ -1,6 +1,6 @@
 ---
 name: paid-ads
-description: "When the user wants help with paid advertising 广告活动 on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. 当用户提到以下内容时也应使用 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad 广告活动,' 'retargeting,' '受众 targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad 预算,' '每次点击成本,' 'ad spend,' or 'should I run ads.' Use this for 广告活动 strategy, 受众 targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For 落地页 optimization, see page-cro."
+description: "当用户想获得 Google Ads、Meta（Facebook / Instagram）、LinkedIn、Twitter/X 等付费广告平台的帮助时使用。用户提到“PPC”“paid media”“ROAS”“CPA”“ad campaign”“retargeting”“audience targeting”“Google Ads”“Facebook ads”“LinkedIn ads”“ad budget”“cost per click”或“should I run ads”时也应使用。本技能覆盖投放策略、受众定向、出价与优化。若要批量生成广告创意，请参见 ad-creative；若要优化落地页，请参见 page-cro。"
 metadata:
   version: 1.1.0
 ---
@@ -187,7 +187,7 @@ LI_LeadGen_CMOs-SaaS_Whitepaper_Mar24
 - High competition → try different placements
 - Low relevance score → improve creative fit
 
-### Bid Strategy Progression
+### Bid 策略 Progression
 1. Start with manual or cost caps
 2. Gather conversion data (50+ 转化)
 3. Switch to automated with targets based on historical data
@@ -223,7 +223,7 @@ LI_LeadGen_CMOs-SaaS_Whitepaper_Mar24
 
 ## Reporting & Analysis
 
-### Weekly Review
+### Weekly 审查
 - Spend vs. 预算 pacing
 - CPA/ROAS vs. targets
 - Top and bottom performing ads
@@ -257,7 +257,7 @@ Before launching 广告活动, ensure proper 跟踪 and 账户 配置方式.
 
 ## 常见 Mistakes to Avoid
 
-### Strategy
+### 策略
 - Launching without conversion 跟踪
 - Too many 广告活动 (fragmenting 预算)
 - Not giving algorithms enough learning time
@@ -291,7 +291,7 @@ Before launching 广告活动, ensure proper 跟踪 and 账户 配置方式.
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md). Key advertising platforms:
 
@@ -306,10 +306,10 @@ For 跟踪, see also: [ga4.md](../../tools/integrations/ga4.md), [segment.md](..
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **ad-creative**: For generating and iterating ad headlines, descriptions, and creative at scale
 - **copywriting**: For 落地页 文案 that converts ad traffic
 - **分析-跟踪**: For proper conversion 跟踪 配置方式
-- **ab-test-配置方式**: For 落地页 测试 to improve ROAS
+- **ab-test-setup**: For 落地页 测试 to improve ROAS
 - **page-cro**: For optimizing post-click conversion rates

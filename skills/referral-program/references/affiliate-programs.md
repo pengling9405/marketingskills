@@ -1,4 +1,4 @@
-# Affiliate Program Design
+# Affiliate Program 设计
 
 Detailed 指导 for building and managing affiliate programs.
 
@@ -125,7 +125,7 @@ Provide affiliates with:
 - Rewardful — Stripe-integrated affiliates
 - Refersion — E-commerce affiliates
 
-### Choosing a Tool
+### Choosing a 工具
 
 Consider:
 - Integration with your payment system

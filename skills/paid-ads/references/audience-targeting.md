@@ -232,7 +232,7 @@ Too broad = wasted spend, poor relevance
 
 ---
 
-## Exclusion Strategy
+## Exclusion 策略
 
 Always exclude:
 - Existing 客户 (unless upsell)

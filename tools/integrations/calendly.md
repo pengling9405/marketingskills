@@ -19,7 +19,7 @@ Scheduling and booking 平台 API for managing 事件 types, scheduled events, i
 
 ## 常见代理操作
 
-### Get current user
+### Get current 用户
 
 ```bash
 GET https://api.calendly.com/users/me
@@ -65,7 +65,7 @@ POST https://api.calendly.com/scheduled_events/{event_uuid}/cancellation
 GET https://api.calendly.com/event_type_available_times?event_type={event_type_uri}&start_time=2024-01-20T00:00:00Z&end_time=2024-01-27T00:00:00Z
 ```
 
-### Get user busy times
+### Get 用户 busy times
 
 ```bash
 GET https://api.calendly.com/user_busy_times?user={user_uri}&start_time=2024-01-20T00:00:00Z&end_time=2024-01-27T00:00:00Z

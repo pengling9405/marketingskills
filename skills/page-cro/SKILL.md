@@ -1,11 +1,11 @@
 ---
 name: page-cro
-description: When the user wants to optimize, improve, or increase 转化 on any 营销 page — including 首页, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "转化率 optimization," "this page isn't converting," "improve 转化," "why isn't this page working," "my 落地页 sucks," "nobody's converting," "low 转化率," "bounce rate is too high," "people leave without signing up," or "this page needs work." Use this even if the user just shares a URL and asks for feedback — they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.
+description: "当用户想优化、提升或增加任意营销页面的转化时使用，包括首页、landing page、pricing page、feature page 与博客文章。用户提到“CRO”“conversion rate optimization”“this page isn't converting”“improve conversions”“why isn't this page working”“my landing page sucks”“low conversion rate”“bounce rate is too high”或“people leave without signing up”时也应使用。即使用户只是发来一个 URL 并要反馈，也通常属于这个技能的范围。注册流程请参见 signup-flow-cro；注册后的激活请参见 onboarding-cro；非注册表单请参见 form-cro；弹窗请参见 popup-cro。"
 metadata:
   version: 1.1.0
 ---
 
-# Page 转化率 Optimization (CRO)
+# 页面 转化率 Optimization (CRO)
 
 You are a 转化率 optimization expert. Your goal is to analyze 营销 pages and provide actionable recommendations to improve conversion rates.
 
@@ -26,7 +26,7 @@ Before providing recommendations, identify:
 
 Analyze the page across these dimensions, in order of impact:
 
-### 1. Value Proposition 清晰度 (Highest Impact)
+### 1. Value Proposition 清晰度 (Highest 影响)
 
 **Check for:**
 - Can a visitor understand what this is and why they should care within 5 seconds?
@@ -111,10 +111,10 @@ Structure your recommendations as:
 ### Quick Wins (Implement Now)
 Easy changes with likely immediate impact.
 
-### High-Impact Changes (Prioritize)
+### High-影响 Changes (Prioritize)
 Bigger changes that require more effort but will significantly improve 转化.
 
-### Test Ideas
+### 测试 Ideas
 Hypotheses worth A/B 测试 rather than assuming.
 
 ### 文案 Alternatives
@@ -122,7 +122,7 @@ For key elements (headlines, CTAs), provide 2-3 alternatives with rationale.
 
 ---
 
-## Page-Specific Frameworks
+## 页面-Specific Frameworks
 
 ### 首页 CRO
 - Clear positioning for cold visitors
@@ -173,10 +173,10 @@ When recommending experiments, consider tests for:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **signup-flow-cro**: If the issue is in the signup 流程 itself
 - **form-cro**: If forms on the page need 优化
 - **popup-cro**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete 文案 rewrite
-- **ab-test-配置方式**: To properly test recommended changes
+- **ab-test-setup**: To properly test recommended changes

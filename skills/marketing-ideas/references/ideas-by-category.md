@@ -21,7 +21,7 @@ Complete list of proven 营销 approaches organized by category.
 - Developer & Technical (133-136)
 - 受众-Specific (137-139)
 
-## Content & SEO (1-10)
+## 内容 & SEO (1-10)
 
 1. **Easy 关键词 Ranking** - Target low-competition 关键词 where you can rank quickly. Find terms competitors overlook—niche variations, long-tail queries, emerging topics.
 
@@ -129,7 +129,7 @@ Complete list of proven 营销 approaches organized by category.
 
 ---
 
-## Email 营销 (45-53)
+## 邮件 营销 (45-53)
 
 45. **Mistake Email 营销** - Send "oops" emails when something genuinely goes wrong. Authenticity generates engagement.
 
@@ -257,7 +257,7 @@ Complete list of proven 营销 approaches organized by category.
 
 ---
 
-## Content Formats (97-109)
+## 内容 Formats (97-109)
 
 97. **Playlists as 营销** - Create Spotify playlists for your 受众.
 

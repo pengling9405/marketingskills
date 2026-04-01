@@ -25,7 +25,7 @@ Competitive traffic intelligence 平台 providing website 分析, traffic source
 GET https://api.similarweb.com/v1/website/example.com/total-traffic-and-engagement/visits?api_key={key}&start_date=2024-01&end_date=2024-03&country=us&granularity=monthly
 ```
 
-### Pages Per Visit
+### 页面 Per Visit
 
 ```bash
 GET https://api.similarweb.com/v1/website/example.com/total-traffic-and-engagement/pages-per-visit?api_key={key}&start_date=2024-01&end_date=2024-03

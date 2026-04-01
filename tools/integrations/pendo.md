@@ -25,19 +25,19 @@
 GET https://app.pendo.io/api/v1/feature
 ```
 
-### Get Feature Details
+### Get 功能 Details
 
 ```bash
 GET https://app.pendo.io/api/v1/feature/{featureId}
 ```
 
-### List Pages
+### List 页面
 
 ```bash
 GET https://app.pendo.io/api/v1/page
 ```
 
-### Get Page Details
+### Get 页面 Details
 
 ```bash
 GET https://app.pendo.io/api/v1/page/{pageId}
@@ -99,7 +99,7 @@ POST https://app.pendo.io/api/v1/aggregation
 }
 ```
 
-### Run Funnel Report
+### Run Funnel 报告
 
 ```bash
 POST https://app.pendo.io/api/v1/aggregation
@@ -127,7 +127,7 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 
 ## 核心指标
 
-### Feature Data
+### 功能 Data
 - `id` - Feature ID
 - `name` - Feature name
 - `kind` - Feature 类型
@@ -136,7 +136,7 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 - `numEvents` - 事件 count
 - `numVisitors` - Unique visitor count
 
-### Page Data
+### 页面 Data
 - `id` - Page ID
 - `name` - Page name
 - `rules` - URL matching rules
@@ -205,4 +205,4 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 - 分析-跟踪
 - onboarding-cro
 - churn-prevention
-- ab-test-配置方式
+- ab-test-setup

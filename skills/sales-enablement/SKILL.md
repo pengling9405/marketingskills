@@ -1,6 +1,6 @@
 ---
 name: sales-enablement
-description: "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. 当用户提到以下内容时也应使用 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For 营销 website 文案, see copywriting. For cold outreach emails, see cold-email."
+description: "当用户想创建销售材料、pitch deck、one-pager、异议处理文档或 demo script 时使用。用户提到“sales deck”“pitch deck”“one-pager”“leave-behind”“objection handling”“deal-specific ROI analysis”“demo script”“talk track”“sales playbook”“proposal template”“buyer persona card”或“what should I give my sales reps”时也应使用。本技能适用于任何帮助销售团队成交的文档或资产。竞品对比页与 battle card 请参见 competitor-alternatives；营销网站文案请参见 copywriting；cold outreach 邮件请参见 cold-email。"
 metadata:
   version: 1.1.0
 ---
@@ -104,7 +104,7 @@ Every claim connects to revenue, efficiency, or risk reduction. 特性 mean noth
 4. **Proof point** — One strong metric or 客户 quote
 5. **CTA** — Clear next step with contact info
 
-### Design Principles
+### 设计 Principles
 
 - One page, literally. Front only, or front and back maximum.
 - Scannable in 30 seconds. Bold 请求头, short bullets, whitespace.
@@ -149,7 +149,7 @@ For each objection, document:
 
 ## ROI Calculators & Value Props
 
-### Calculator Design
+### Calculator 设计
 
 **Inputs** (current state 指标 the prospect provides):
 - Time spent on manual processes
@@ -274,7 +274,7 @@ Organize 案例研究 so reps can find the right one instantly:
 - **Demo flow** — Recommended sequence for each persona
 - **Email templates** — Follow-up, proposal, check-in, breakup
 
-### When to Build
+### When to 构建
 
 - **New 产品 launch** — Reps need a single 来源 of truth
 - **New market segment** — Different buyers need different approaches
@@ -339,7 +339,7 @@ If context is missing, ask:
 
 ---
 
-## Tool Integrations
+## 工具 Integrations
 
 For partner sales enablement, see the [tools registry](../../tools/REGISTRY.md):
 
@@ -349,7 +349,7 @@ For partner sales enablement, see the [tools registry](../../tools/REGISTRY.md):
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **competitor-alternatives**: For public-facing comparison and alternative pages
 - **copywriting**: For 营销 website 文案

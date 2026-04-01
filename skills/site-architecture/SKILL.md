@@ -1,6 +1,6 @@
 ---
 name: site-architecture
-description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. 当用户提到以下内容时也应使用 "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." 在这些情况下都应使用本技能 someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.
+description: "当用户想规划、映射或重构网站页面层级、导航、URL 结构或内部链接时使用。用户提到“sitemap”“site map”“visual sitemap”“site structure”“page hierarchy”“information architecture”“IA”“navigation design”“URL structure”“breadcrumbs”“internal linking strategy”或“what pages do I need”时也应使用。本技能适用于规划网站应该有哪些页面，以及这些页面如何组织与互相连接的场景。它不用于 XML sitemap；那属于技术 SEO，请参见 seo-audit。结构化数据请参见 schema-markup。"
 metadata:
   version: 1.1.0
 ---
@@ -16,7 +16,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Business Context
+### 1. Business 背景
 - What does the company do?
 - Who are the primary audiences?
 - What are the top 3 goals for the site? (转化, SEO traffic, education, support)
@@ -34,7 +34,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 - Hybrid (SaaS + content)
 - Small business / local
 
-### 4. Content Inventory
+### 4. 内容 Inventory
 - How many pages exist or are planned?
 - What are the most important pages? (by traffic, 转化, or business value)
 - Any planned sections or expansions?
@@ -56,7 +56,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 ---
 
-## Page Hierarchy Design
+## 页面 Hierarchy 设计
 
 ### The 3-Click Rule
 
@@ -112,7 +112,7 @@ Homepage (/)
 
 ---
 
-## Navigation Design
+## Navigation 设计
 
 ### Navigation Types
 
@@ -156,7 +156,7 @@ Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be 
 
 ## URL Structure
 
-### Design Principles
+### 设计 Principles
 
 1. **Readable by humans** — `/features/analytics` not `/f/a123`
 2. **Hyphens, not underscores** — `/blog/seo-guide` not `/blog/seo_guide`
@@ -165,7 +165,7 @@ Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be 
 5. **Lowercase always** — `/About` should redirect to `/about`
 6. **Short but descriptive** — `/blog/how-to-improve-landing-page-conversion-rates` is too long; `/blog/landing-page-conversions` is better
 
-### URL Patterns by Page 类型
+### URL Patterns by 页面 类型
 
 | Page 类型 | Pattern | 示例 |
 |-----------|---------|---------|
@@ -256,7 +256,7 @@ graph TD
 
 ---
 
-## Internal Linking Strategy
+## Internal Linking 策略
 
 ### Link Types
 
@@ -306,7 +306,7 @@ Each spoke links back to the hub. The hub links to all spokes. Spokes link to ea
 
 When creating a site architecture plan, provide these deliverables:
 
-### 1. Page Hierarchy (ASCII Tree)
+### 1. 页面 Hierarchy (ASCII Tree)
 Full site structure with URLs at each node. Use the ASCII tree format from the Page Hierarchy Design section.
 
 ### 2. Visual Sitemap (Mermaid)
@@ -328,7 +328,7 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 - Sidebar nav (if applicable)
 - Breadcrumb implementation notes
 
-### 5. Internal Linking Plan
+### 5. Internal Linking 计划
 - Hub pages and their spokes
 - Cross-section link opportunities
 - Orphan page audit (if restructuring)
@@ -347,7 +347,7 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **content-strategy**: For planning what content to create and topic clusters
 - **programmatic-seo**: For building SEO pages at scale with templates and data

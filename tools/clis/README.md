@@ -97,7 +97,7 @@ Every CLI reads credentials from environment variables:
 - Use `--dry-run` on any command to preview the request without sending it (credentials are masked as `***`)
 - If you fork this repo, audit your commits to ensure no secrets are included
 
-## Command Pattern
+## Command 模式
 
 All CLIs follow the same structure:
 

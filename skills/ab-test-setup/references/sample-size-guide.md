@@ -246,7 +246,7 @@ Statistical method that adjusts for multiple looks at data.
 
 ## Quick Decision Framework
 
-### Can I run this test?
+### Can I run this 测试?
 
 ```
 Daily traffic to page: _____

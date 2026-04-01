@@ -22,7 +22,7 @@
 
 ## 常见代理操作
 
-### Ping (test 认证)
+### Ping (测试 认证)
 
 ```bash
 GET https://api.livestorm.co/v1/ping
@@ -103,7 +103,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Create a session for an 事件
+### Create a 会话 for an 事件
 
 ```bash
 POST https://api.livestorm.co/v1/events/{event_id}/sessions
@@ -123,7 +123,7 @@ Headers:
 }
 ```
 
-### Register someone for a session
+### Register someone for a 会话
 
 ```bash
 POST https://api.livestorm.co/v1/sessions/{session_id}/people
@@ -146,7 +146,7 @@ Headers:
 }
 ```
 
-### List session participants
+### List 会话 participants
 
 ```bash
 GET https://api.livestorm.co/v1/sessions/{session_id}/people?page[number]=1&page[size]=25
@@ -156,7 +156,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Remove a registrant from session
+### Remove a registrant from 会话
 
 ```bash
 DELETE https://api.livestorm.co/v1/sessions/{session_id}/people?filter[email]=attendee@example.com
@@ -165,7 +165,7 @@ Headers:
   Authorization: {API_TOKEN}
 ```
 
-### List session chat messages
+### List 会话 chat messages
 
 ```bash
 GET https://api.livestorm.co/v1/sessions/{session_id}/chat-messages
@@ -175,7 +175,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### List session questions
+### List 会话 questions
 
 ```bash
 GET https://api.livestorm.co/v1/sessions/{session_id}/questions
@@ -225,7 +225,7 @@ Headers:
 }
 ```
 
-## API Pattern
+## API 模式
 
 Livestorm follows the JSON:API specification:
 - All responses use `data`, `attributes`, `relationships` structure
@@ -243,7 +243,7 @@ Livestorm follows the JSON:API specification:
 - `registration_page_enabled` - Registration page status
 - `everyone_can_speak` - Whether all attendees can speak
 
-### Session 指标
+### 会话 指标
 - `status` - Session status (upcoming, live, past)
 - `estimated_started_at` - Scheduled start time
 - `started_at` - Actual start time
@@ -272,7 +272,7 @@ Livestorm follows the JSON:API specification:
 - `description` - 事件 description
 - `estimated_duration` - Duration in minutes
 
-### Session Attributes
+### 会话 Attributes
 - `estimated_started_at` - ISO 8601 start time
 - `timezone` - IANA timezone string
 

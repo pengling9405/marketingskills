@@ -207,7 +207,7 @@ For live calls. Find the objection, scan the response, 参考 the proof.
 
 ---
 
-### Status Quo 异议
+### 状态 Quo 异议
 
 #### "What we have works fine"
 

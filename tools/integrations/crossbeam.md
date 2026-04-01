@@ -98,7 +98,7 @@ Authorization: Bearer {api_key}
 - `overlap_type` - 类型 of overlap (客户, prospect, etc.)
 - `match_confidence` - Match confidence score
 
-### Report Data
+### 报告 Data
 - `id` - Report ID
 - `name` - Report name
 - `type` - Report 类型

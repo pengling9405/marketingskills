@@ -141,7 +141,7 @@ Authorization: Bearer {access_token}
 ## 相关技能
 
 - page-cro
-- ab-test-配置方式
+- ab-test-setup
 - 分析-跟踪
 - ux-audit
 - landing-page

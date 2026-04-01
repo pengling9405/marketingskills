@@ -1,4 +1,4 @@
-# Email Sequence Templates
+# 邮件 Sequence Templates
 
 Detailed templates for 常见 email sequences.
 
@@ -128,7 +128,7 @@ Detailed templates for 常见 email sequences.
 
 ---
 
-## Onboarding Sequence (产品 Users)
+## Onboarding Sequence (产品 用户)
 
 Coordinate with in-app onboarding. Email supports, doesn't duplicate.
 

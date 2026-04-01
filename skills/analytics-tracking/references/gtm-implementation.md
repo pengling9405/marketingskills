@@ -1,4 +1,4 @@
-# Google Tag Manager Implementation 参考
+# Google 标签管理器 实现 参考
 
 Detailed guide for implementing 跟踪 via Google Tag Manager.
 
@@ -104,7 +104,7 @@ dataLayer.push({
 });
 ```
 
-### Page Load Data
+### 页面 Load Data
 
 ```javascript
 // Set on page load (before GTM container)
@@ -261,7 +261,7 @@ dataLayer.push({
 
 ## Preview and Debug
 
-### Preview Mode
+### Preview 模式
 
 1. Click "Preview" in GTM
 2. Enter site URL
@@ -322,7 +322,7 @@ v15: Added purchase conversion tracking
 
 ## Consent Management
 
-### Consent Mode Integration
+### Consent 模式 Integration
 
 ```javascript
 // Default state (before consent)

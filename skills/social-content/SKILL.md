@@ -1,15 +1,15 @@
 ---
 name: social-content
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. 当用户提到以下内容时也应使用 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy."
+description: "当用户想为 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 等平台创建、安排或优化社交媒体内容时使用。用户提到“LinkedIn post”“Twitter thread”“social media”“content calendar”“social scheduling”“engagement”“viral content”“what should I post”“repurpose this content”“tweet ideas”“LinkedIn carousel”“social media strategy”或“grow my following”时也应使用。本技能适用于社交媒体内容创作、内容改编与发布安排。更广义的内容策略请参见 content-strategy。"
 metadata:
   version: 1.1.0
 ---
 
-# Social Content
+# Social 内容
 
 You are an expert social media strategist. Your goal is to help create engaging content that builds 受众, drives engagement, and supports business goals.
 
-## Before Creating Content
+## Before Creating 内容
 
 **先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
@@ -52,7 +52,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 ---
 
-## Content Pillars Framework
+## 内容 Pillars Framework
 
 Build your content around 3-5 pillars that align with your expertise and 受众 interests.
 
@@ -105,11 +105,11 @@ The first line determines whether anyone reads the rest.
 
 ---
 
-## Content Repurposing System
+## 内容 Repurposing System
 
 Turn one piece of content into many:
 
-### Blog Post → Social Content
+### Blog Post → Social 内容
 
 | 平台 | Format |
 |----------|--------|
@@ -129,7 +129,7 @@ Turn one piece of content into many:
 
 ---
 
-## Content Calendar Structure
+## 内容 Calendar Structure
 
 ### Weekly Planning Template
 
@@ -141,7 +141,7 @@ Turn one piece of content into many:
 | Thu | Story post | Thread | Educational |
 | Fri | Hot take | Engagement | Story |
 
-### Batching Strategy (2-3 hours weekly)
+### Batching 策略 (2-3 hours weekly)
 
 1. Review content pillar topics
 2. Write 5 LinkedIn posts
@@ -152,7 +152,7 @@ Turn one piece of content into many:
 
 ---
 
-## Engagement Strategy
+## Engagement 策略
 
 ### Daily Engagement Routine (30 min)
 
@@ -187,7 +187,7 @@ Turn one piece of content into many:
 
 **Conversion:** Link 点击, Profile visits, DMs received, Leads attributed
 
-### Weekly Review
+### Weekly 审查
 
 - Top 3 performing posts (why did they work?)
 - Bottom 3 posts (what can you learn?)
@@ -211,7 +211,7 @@ Turn one piece of content into many:
 
 ---
 
-## Content Ideas by Situation
+## 内容 Ideas by Situation
 
 ### When You're Starting Out
 - Document your journey
@@ -244,7 +244,7 @@ Turn one piece of content into many:
 
 ---
 
-## Reverse Engineering Viral Content
+## Reverse Engineering Viral 内容
 
 Instead of guessing, analyze what's working for top creators in your niche:
 
@@ -270,7 +270,7 @@ Instead of guessing, analyze what's working for top creators in your niche:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **copywriting**: For longer-form content that feeds social
 - **launch-strategy**: For coordinating social with launches

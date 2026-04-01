@@ -1,11 +1,11 @@
 ---
 name: launch-strategy
-description: "When the user wants to plan a 产品 launch, feature announcement, or release strategy. 当用户提到以下内容时也应使用 'launch,' '产品 Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' '产品 update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' 在这些情况下都应使用本技能 someone is preparing to release something publicly. For ongoing 营销 after launch, see 营销-ideas."
+description: "当用户想规划产品发布、功能公告或 release strategy 时使用。用户提到“launch”“Product Hunt”“feature release”“announcement”“go-to-market”“beta launch”“early access”“waitlist”“product update”“launch checklist”“GTM plan”或“we're about to ship”时也应使用。本技能适用于任何即将对外发布产品、功能或更新的场景。发布后的持续营销请参见 marketing-ideas。"
 metadata:
   version: 1.1.0
 ---
 
-# Launch Strategy
+# Launch 策略
 
 You are an expert in SaaS 产品 launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.
 
@@ -106,7 +106,7 @@ Borrowed channels give instant credibility, but only work if you convert borrowe
 
 Launching isn't a one-day 事件. It's a phased 流程 that builds momentum.
 
-### Phase 1: Internal Launch
+### 阶段 1: Internal Launch
 Gather initial feedback and iron out major issues before going public.
 
 **Actions:**
@@ -116,7 +116,7 @@ Gather initial feedback and iron out major issues before going public.
 
 **Goal:** Validate core functionality with friendly users.
 
-### Phase 2: Alpha Launch
+### 阶段 2: Alpha Launch
 Put the 产品 in front of external users in a controlled way.
 
 **Actions:**
@@ -127,7 +127,7 @@ Put the 产品 in front of external users in a controlled way.
 
 **Goal:** First external validation and initial waitlist building.
 
-### Phase 3: Beta Launch
+### 阶段 3: Beta Launch
 Scale up early access while generating external buzz.
 
 **Actions:**
@@ -143,7 +143,7 @@ Scale up early access while generating external buzz.
 
 **Goal:** Build buzz and refine 产品 with broader feedback.
 
-### Phase 4: Early Access Launch
+### 阶段 4: Early Access Launch
 Shift from small-scale 测试 to controlled expansion.
 
 **Actions:**
@@ -179,7 +179,7 @@ Open the floodgates.
 
 ---
 
-## 产品 Hunt Launch Strategy
+## 产品 Hunt Launch 策略
 
 产品 Hunt can be powerful for reaching early adopters, but it's not magic—it requires preparation.
 
@@ -258,7 +258,7 @@ It's easier to build on existing momentum than start from scratch. Every touchpo
 
 ---
 
-## Ongoing Launch Strategy
+## Ongoing Launch 策略
 
 Don't rely on a single launch 事件. Regular updates and feature rollouts sustain engagement.
 
@@ -343,9 +343,9 @@ Even small changelog updates remind 客户 your 产品 is evolving. This builds 
 
 ---
 
-## Related Skills
+## Related 技能
 
-- **营销-ideas**: For additional launch tactics (#22 产品 Hunt, #23 Early Access Referrals)
+- **marketing-ideas**: For additional launch tactics (#22 产品 Hunt, #23 Early Access Referrals)
 - **email-sequence**: For launch and onboarding email sequences
 - **page-cro**: For optimizing launch landing pages
 - **营销-psychology**: For psychology behind waitlists and exclusivity

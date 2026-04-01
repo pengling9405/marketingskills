@@ -48,7 +48,7 @@ node tools/clis/<name>.js           # 显示用法（无参数时输出帮助）
 node tools/clis/<name>.js <cmd> --dry-run  # 预览请求而不真正发送
 ```
 
-## Agent Skills 规范
+## Agent 技能 规范
 
 这些 skill 遵循 [Agent Skills spec](https://agentskills.io/specification.md)。
 
@@ -80,7 +80,7 @@ description: 这个 skill 做什么，什么时候使用。包含触发短语。
 **有效**：`page-cro`、`email-sequence`、`ab-test-setup`  
 **无效**：`Page-CRO`、`-page`、`page--cro`
 
-### 可选的 Skill 目录结构
+### 可选的 技能 目录结构
 
 ```
 skills/skill-name/
@@ -221,7 +221,7 @@ tools/
    - 在 marketingskills 目录里运行 `git pull`
    - 告知用户具体更新了什么
 
-## Skill 分类
+## 技能 分类
 
 当前 skill 列表按分类组织，详见 `README.md`。新增 skill 时，遵循该分类中已有 skill 的命名模式。
 

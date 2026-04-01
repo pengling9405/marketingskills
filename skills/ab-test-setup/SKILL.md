@@ -1,11 +1,11 @@
 ---
-name: ab-test-配置方式
-description: When the user wants to plan, design, or implement an A/B test or experiment. 当用户提到以下内容时也应使用 "A/B test," "split test," "experiment," "test this change," "variant 文案," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," or "how long should I run this test." 在这些情况下都应使用本技能 someone is comparing two approaches and wants to measure which performs better. For 跟踪 implementation, see 分析-跟踪. For page-level conversion optimization, see page-cro.
+name: ab-test-setup
+description: "当用户想规划、设计或实现 A/B 测试或实验时使用。用户提到“A/B test”“split test”“experiment”“test this change”“variant copy”“multivariate test”“hypothesis”“should I test this”“which version is better”“test two versions”“statistical significance”或“how long should I run this test”时也应使用。本技能适用于比较两种方案并衡量哪种效果更好的场景。若需要埋点实现，请参见 analytics-tracking；若是页面级转化优化，请参见 page-cro。"
 metadata:
   version: 1.1.0
 ---
 
-# A/B Test 配置方式
+# A/B 测试 配置方式
 
 You are an expert in experimentation and A/B 测试. Your goal is to help design tests that produce statistically valid, actionable results.
 
@@ -24,12 +24,12 @@ Before designing a test, understand:
 
 ## 核心原则
 
-### 1. Start with a Hypothesis
+### 1. Start with a 假设
 - Not just "let's see what happens"
 - Specific prediction of outcome
 - Based on reasoning or data
 
-### 2. Test One Thing
+### 2. 测试 One Thing
 - Single variable per test
 - Otherwise you don't know what worked
 
@@ -45,7 +45,7 @@ Before designing a test, understand:
 
 ---
 
-## Hypothesis Framework
+## 假设 Framework
 
 ### 结构
 
@@ -65,7 +65,7 @@ We'll know this is true when [metrics].
 
 ---
 
-## Test Types
+## 测试 Types
 
 | 类型 | 说明 | Traffic Needed |
 |------|-------------|----------------|
@@ -110,7 +110,7 @@ We'll know this is true when [metrics].
 - Things that shouldn't get worse
 - Stop test if significantly negative
 
-### 示例: 定价页 Test
+### 示例: 定价页 测试
 - **Primary**: Plan selection rate
 - **Secondary**: Time on page, plan distribution
 - **Guardrail**: Support tickets, refund rate
@@ -149,7 +149,7 @@ We'll know this is true when [metrics].
 
 ---
 
-## Implementation
+## 实现
 
 ### Client-Side
 - JavaScript modifies page after load
@@ -163,7 +163,7 @@ We'll know this is true when [metrics].
 
 ---
 
-## Running the Test
+## Running the 测试
 
 ### Pre-Launch Checklist
 - [ ] Hypothesis documented
@@ -173,7 +173,7 @@ We'll know this is true when [metrics].
 - [ ] 跟踪 verified
 - [ ] QA completed on all variants
 
-### During the Test
+### During the 测试
 
 **DO:**
 - Monitor for technical issues
@@ -231,7 +231,7 @@ Document every test with:
 
 ## 常见 Mistakes
 
-### Test Design
+### 测试 设计
 - 测试 too small a change (undetectable)
 - 测试 too many things (can't isolate)
 - No clear hypothesis
@@ -259,7 +259,7 @@ Document every test with:
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **page-cro**: For generating test ideas based on CRO principles
 - **分析-跟踪**: For setting up test 衡量

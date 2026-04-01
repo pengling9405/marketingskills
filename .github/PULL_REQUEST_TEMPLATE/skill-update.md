@@ -1,4 +1,4 @@
-## Skill 更新
+## 技能 更新
 
 **Skill:** `skills/SKILL-NAME`
 

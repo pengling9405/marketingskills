@@ -54,7 +54,7 @@ POST https://api.mention-me.com/api/v2/referee
 }
 ```
 
-### Get referral status
+### Get referral 状态
 
 ```bash
 GET https://api.mention-me.com/api/v2/referral/{referral_id}

@@ -26,7 +26,7 @@ E-commerce email and SMS 营销 平台 with profiles, flows, 广告活动, segme
 ```bash
 GET https://a.klaviyo.com/api/profiles/?page[size]=20
 
-# Filter by email
+# Filter by 邮件
 GET https://a.klaviyo.com/api/profiles/?filter=equals(email,"user@example.com")
 ```
 
@@ -141,7 +141,7 @@ GET https://a.klaviyo.com/api/campaigns/?filter=equals(messages.channel,"email")
 GET https://a.klaviyo.com/api/flows/
 ```
 
-### Update flow status
+### Update flow 状态
 
 ```bash
 PATCH https://a.klaviyo.com/api/flows/{flowId}/
@@ -169,7 +169,7 @@ GET https://a.klaviyo.com/api/metrics/
 GET https://a.klaviyo.com/api/segments/
 ```
 
-## API Pattern
+## API 模式
 
 Klaviyo uses the JSON:API specification. All request/response bodies use `{ "data": { "type": "...", "attributes": {...} } }` format. Relationships are managed via `/relationships/` sub-endpoints. The `revision` 请求头 is required on every request and determines API behavior version.
 

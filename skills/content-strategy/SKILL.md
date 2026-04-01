@@ -1,11 +1,11 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. 当用户提到以下内容时也应使用 "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content 营销," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." 在这些情况下都应使用本技能 someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.
+description: "当用户想规划内容策略、决定该产出什么内容，或判断应该覆盖哪些主题时使用。用户提到“content strategy”“what should I write about”“content ideas”“blog strategy”“topic clusters”“content planning”“editorial calendar”“content marketing”“content roadmap”“blog topics”或“content pillars”时也应使用。本技能适用于帮助用户决定“做什么内容”，而不仅仅是“怎么写内容”。若是撰写单篇内容，请参见 copywriting；若是 SEO 审计，请参见 seo-audit；若是社交媒体内容，请参见 social-content。"
 metadata:
   version: 1.1.0
 ---
 
-# Content Strategy
+# 内容 策略
 
 You are a content strategist. Your goal is to help plan content that drives traffic, builds 权威, and generates leads by being either searchable, shareable, or both.
 
@@ -16,7 +16,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Business Context
+### 1. Business 背景
 - What does the company do?
 - Who is the ideal 客户?
 - What's the primary goal for content? (traffic, leads, brand awareness, thought leadership)
@@ -47,7 +47,7 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 
 **Shareable content** creates demand. Spreads ideas and gets people talking.
 
-### When Writing Searchable Content
+### When Writing Searchable 内容
 
 - Target a specific 关键词 or question
 - Match 搜索 intent exactly—answer what the searcher wants
@@ -58,7 +58,7 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 - Include data, examples, and links to authoritative sources
 - Optimize for AI/LLM discovery: clear positioning, structured content, brand consistency across the web
 
-### When Writing Shareable Content
+### When Writing Shareable 内容
 
 - Lead with a novel insight, original data, or counterintuitive take
 - Challenge conventional wisdom with well-reasoned arguments
@@ -69,9 +69,9 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 
 ---
 
-## Content Types
+## 内容 Types
 
-### Searchable Content Types
+### Searchable 内容 Types
 
 **Use-Case Content**
 Formula: [persona] + [use-case]. Targets long-tail 关键词.
@@ -97,7 +97,7 @@ High-intent 关键词 + 产品 adoption.
 - Provide immediate standalone value
 - Show how 产品 enhances the template
 
-### Shareable Content Types
+### Shareable 内容 Types
 
 **Thought Leadership**
 - Articulate 概念 everyone feels but hasn't named
@@ -122,7 +122,7 @@ For programmatic content at scale, see **programmatic-seo** skill.
 
 ---
 
-## Content Pillars and Topic Clusters
+## 内容 Pillars and Topic Clusters
 
 Content pillars are the 3-5 core topics your brand will own. Each pillar spawns a cluster of related content.
 
@@ -201,7 +201,7 @@ Modifiers: "templates," "examples," "tutorial," "how to use," "配置方式"
 
 ---
 
-## Content Ideation Sources
+## 内容 Ideation Sources
 
 ### 1. 关键词 Data
 
@@ -280,17 +280,17 @@ Extract from 客户-facing teams:
 
 ---
 
-## Prioritizing Content Ideas
+## Prioritizing 内容 Ideas
 
 Score each idea on four factors:
 
-### 1. 客户 Impact (40%)
+### 1. 客户 影响 (40%)
 - How frequently did this topic come up in research?
 - What percentage of 客户 face this challenge?
 - How emotionally charged was this pain point?
 - What's the potential LTV of 客户 with this need?
 
-### 2. Content-Market Fit (30%)
+### 2. 内容-Market Fit (30%)
 - Does this align with problems your 产品 solves?
 - Can you offer unique insights from 客户 research?
 - Do you have 客户 stories to support this?
@@ -320,7 +320,7 @@ Score each idea on four factors:
 
 When creating a content strategy, provide:
 
-### 1. Content Pillars
+### 1. 内容 Pillars
 - 3-5 pillars with rationale
 - Subtopic clusters for each pillar
 - How pillars connect to 产品
@@ -354,7 +354,7 @@ Visual or structured representation of how content interconnects.
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **copywriting**: For writing individual content pieces
 - **seo-audit**: For technical SEO and on-page 优化

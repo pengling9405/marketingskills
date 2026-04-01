@@ -1,4 +1,4 @@
-# AEO and GEO Content Patterns
+# AEO and GEO 内容 Patterns
 
 Reusable content block patterns optimized for answer engines and AI citation.
 
@@ -51,7 +51,7 @@ Use for "How to [X]" queries. Optimal for list snippets.
 
 **示例：**
 ```markdown
-## How to Optimize Content for Featured Snippets
+## How to Optimize 内容 for Featured Snippets
 
 Earning featured snippets requires strategic formatting and direct answers to search queries.
 
@@ -113,15 +113,15 @@ Use for topic pages with multiple 常见 questions. Essential for FAQ schema.
 ```markdown
 ## Frequently Asked Questions
 
-### [Question phrased exactly as users search]?
+### [Question phrased exactly as 用户 search]?
 
 [Direct answer in first sentence]. [Supporting context in 2-3 additional sentences].
 
-### [Question phrased exactly as users search]?
+### [Question phrased exactly as 用户 search]?
 
 [Direct answer in first sentence]. [Supporting context in 2-3 additional sentences].
 
-### [Question phrased exactly as users search]?
+### [Question phrased exactly as 用户 search]?
 
 [Direct answer in first sentence]. [Supporting context in 2-3 additional sentences].
 ```
@@ -233,31 +233,31 @@ Evidence supporting this includes:
 
 Different content domains 收益 from different 权威 signals.
 
-### Technology Content
+### Technology 内容
 - Emphasize technical precision and correct terminology
 - Include version numbers and dates for software/tools
 - 参考 official documentation
 - Add code examples where relevant
 
-### Health/Medical Content
+### Health/Medical 内容
 - Cite peer-reviewed studies with publication details
 - Include expert credentials (MD, RN, etc.)
 - Note study limitations and context
 - Add "last reviewed" dates
 
-### Financial Content
+### Financial 内容
 - 参考 regulatory bodies (SEC, FTC, etc.)
 - Include specific numbers with timeframes
 - Note that information is educational, not advice
 - Cite recognized financial institutions
 
-### Legal Content
+### Legal 内容
 - Cite specific laws, statutes, and regulations
 - 参考 jurisdiction clearly
 - Include professional disclaimers
 - Note when professional consultation is advised
 
-### Business/营销 Content
+### Business/营销 内容
 - Include 案例研究 with measurable results
 - 参考 industry research and reports
 - Add percentage changes and timeframes

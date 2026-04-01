@@ -9,7 +9,7 @@
 | `HUBSPOT` | OAuth 2.0 | 获取 / 创建联系人、按阶段列出 deal、获取公司信息、管理列表、按属性搜索联系人 | Deep |
 | `SALESFORCE` | OAuth 2.0 | 执行 SOQL 查询、获取 / 创建 leads、列出 opportunities、获取账户详情、更新记录 | Deep |
 
-## Email & SMS
+## 邮件 & SMS
 
 | Composio Toolkit | 认证 | 关键营销操作 | 覆盖深度 |
 |-----------------|------|-------------|----------|

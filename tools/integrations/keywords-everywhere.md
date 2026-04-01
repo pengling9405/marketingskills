@@ -131,7 +131,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Get page backlinks
+### Get 页面 backlinks
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_page_backlinks

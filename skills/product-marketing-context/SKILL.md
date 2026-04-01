@@ -1,11 +1,11 @@
 ---
-name: 产品-营销-context
-description: "When the user wants to create or update their 产品 营销 context document. 当用户提到以下内容时也应使用 '产品 context,' '营销 context,' 'set up context,' 'positioning,' 'who is my target 受众,' 'describe my 产品,' 'ICP,' 'ideal 客户 profile,' or wants to avoid repeating foundational information across 营销 tasks. Use this at the start of any new project before using other 营销 skills — it creates `.agents/product-marketing-context.md` that all other skills 参考 for 产品, 受众, and positioning context."
+name: product-marketing-context
+description: "当用户想创建或更新产品营销上下文文档时使用。用户提到“product context”“marketing context”“set up context”“positioning”“who is my target audience”“describe my product”“ICP”“ideal customer profile”或希望避免在不同营销任务里反复解释基础信息时也应使用。这个技能适合在新项目开始时优先运行，会生成 `.agents/product-marketing-context.md`，供其他营销技能复用产品、受众与定位信息。"
 metadata:
   version: 1.1.0
 ---
 
-# 产品 营销 Context
+# 产品 营销 背景
 
 You help users create and maintain a 产品 营销 context document. This captures foundational positioning and messaging information that other 营销 skills 参考, so users don't repeat themselves.
 
@@ -13,7 +13,7 @@ The document is stored at `.agents/product-marketing-context.md`.
 
 ## 工作流
 
-### Step 1: Check for Existing Context
+### 步骤 1: Check for Existing 背景
 
 First, check if `.agents/product-marketing-context.md` already exists. Also check `.claude/product-marketing-context.md` for older setups — if found there but not in `.agents/`, offer to move it.
 
@@ -30,7 +30,7 @@ First, check if `.agents/product-marketing-context.md` already exists. Also chec
 
 Most users prefer option 1. After presenting the draft, ask: "What needs correcting? What's missing?"
 
-### Step 2: Gather Information
+### 步骤 2: Gather Information
 
 **If auto-drafting:**
 1. Read the codebase: README, landing pages, 营销 文案, about pages, meta descriptions, package.json, any existing docs
@@ -126,16 +126,16 @@ The JTBD Four Forces:
 
 ---
 
-## Step 3: Create the Document
+## 步骤 3: Create the Document
 
 After gathering information, create `.agents/product-marketing-context.md` with this structure:
 
 ```markdown
-# Product Marketing Context
+# Product Marketing 背景
 
 *Last updated: [date]*
 
-## Product Overview
+## Product 概览
 **One-liner:**
 **What it does:**
 **Product category:**
@@ -223,7 +223,7 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 
 ---
 
-## Step 4: Confirm and Save
+## 步骤 4: Confirm and Save
 
 - Show the completed document
 - Ask if anything needs adjustment

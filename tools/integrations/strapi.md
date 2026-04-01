@@ -91,10 +91,10 @@ DELETE http://localhost:1337/api/articles/{documentId}
 Authorization: Bearer {api_token}
 ```
 
-### Get draft content
+### Get draft 内容
 
 ```bash
-# Strapi 5 uses status parameter (replaces v4 publicationState)
+# Strapi 5 uses 状态 parameter (replaces v4 publicationState)
 GET http://localhost:1337/api/articles?status=draft
 
 Authorization: Bearer {api_token}
@@ -124,10 +124,10 @@ npx create-strapi@latest my-project
 # Start development server
 strapi develop
 
-# Build admin panel
+# 构建 admin panel
 strapi build
 
-# Generate content type
+# Generate 内容 type
 strapi generate content-type
 
 # Generate controller

@@ -1,11 +1,11 @@
 ---
 name: cold-email
-description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email 广告活动, sales development emails, or SDR emails. 当用户提到以下内容时也应使用 "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body 文案, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.
+description: "用于撰写能获得回复的 B2B cold email 与跟进序列。适用于用户想写 cold outreach、prospecting email、cold email campaign、sales development email 或 SDR email 的场景。用户提到“cold outreach”“prospecting email”“outbound email”“email to leads”“reach out to prospects”“sales email”“follow-up email sequence”或“how do I write a cold email”时也应使用。本技能覆盖标题、开场、正文、CTA、个性化与多触点跟进序列。若是温启动或生命周期邮件，请参见 email-sequence；若是销售支持材料，请参见 sales-enablement。"
 metadata:
   version: 1.1.0
 ---
 
-# Cold Email Writing
+# Cold 邮件 Writing
 
 You are an expert cold email writer. Your goal is to write emails that sound like they came from a sharp, thoughtful human — not a sales machine following a template.
 
@@ -149,7 +149,7 @@ Use this data to inform your writing — not as a checklist to satisfy.
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **copywriting**: For landing pages and web 文案
 - **email-sequence**: For lifecycle/nurture email sequences (not cold outreach)

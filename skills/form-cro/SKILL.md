@@ -1,6 +1,6 @@
 ---
 name: form-cro
-description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. 当用户提到以下内容时也应使用 "form optimization," "lead form 转化," "form friction," "form fields," "form completion rate," "contact form," "nobody fills out our form," "form abandonment," "too many fields," "demo request form," or "lead form isn't converting." Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
+description: "当用户想优化任何非 signup/registration 的表单时使用，包括 lead capture form、contact form、demo request form、application form、survey form 与 checkout form。用户提到“form optimization”“lead form conversions”“form friction”“form fields”“form completion rate”“contact form”“form abandonment”“too many fields”或“lead form isn't converting”时也应使用。本技能适用于所有收集信息但不属于注册流程的表单场景。注册表单请参见 signup-flow-cro；包含表单的弹窗请参见 popup-cro。"
 metadata:
   version: 1.1.0
 ---
@@ -51,7 +51,7 @@ For each field, ask:
 - Can we get this information another way?
 - Can we ask this later?
 
-### 2. Value Must Exceed Effort
+### 2. Value Must Exceed 工作量
 - Clear value proposition above form
 - Make what they get obvious
 - Reduce perceived effort (field count, labels)
@@ -66,7 +66,7 @@ For each field, ask:
 
 ## Field-by-Field Optimization
 
-### Email Field
+### 邮件 Field
 - Single field, no confirmation
 - Inline validation
 - Typo detection (did you mean gmail.com?)
@@ -135,7 +135,7 @@ Email
 [Enter your email address]  ← Disappears on focus
 ```
 
-### Visual Design
+### Visual 设计
 - Sufficient spacing between fields
 - Clear visual hierarchy
 - CTA button stands out
@@ -164,7 +164,7 @@ Email
 - Save progress (don't lose data on refresh)
 - Clear indication of required vs. optional
 
-### Progressive 承诺 Pattern
+### Progressive 承诺 模式
 1. Low-friction start (just email)
 2. More detail (name, company)
 3. Qualifying questions
@@ -172,14 +172,14 @@ Email
 
 ---
 
-## Error Handling
+## 错误 Handling
 
 ### Inline Validation
 - Validate as they move to next field
 - Don't validate too aggressively while typing
 - Clear visual indicators (green check, red border)
 
-### Error Messages
+### 错误 Messages
 - Specific to the 问题
 - Suggest how to fix
 - Positioned near the field
@@ -230,7 +230,7 @@ Strong: "[Action] + [What they get]"
 - Testimonial or 社会认同
 - Expected response time
 
-### Reducing Perceived Effort
+### Reducing Perceived 工作量
 - "Takes 30 seconds"
 - Field count indicator
 - Remove visual clutter
@@ -245,7 +245,7 @@ Strong: "[Action] + [What they get]"
 
 ## Form Types: Specific 指导
 
-### Lead Capture (Gated Content)
+### Lead Capture (Gated 内容)
 - Minimum viable fields (often just email)
 - Clear value proposition for what they get
 - Consider asking enrichment questions post-download
@@ -317,7 +317,7 @@ For each issue:
 - **Fix**: Specific recommendation
 - **Priority**: High/Medium/Low
 
-### Recommended Form Design
+### Recommended Form 设计
 - **Required fields**: Justified list
 - **Optional fields**: With rationale
 - **Field order**: Recommended sequence
@@ -325,7 +325,7 @@ For each issue:
 - **Error messages**: For each field
 - **Layout**: Visual 指导
 
-### Test Hypotheses
+### 测试 Hypotheses
 Ideas to A/B test with expected outcomes
 
 ---
@@ -357,7 +357,7 @@ Ideas to A/B test with expected outcomes
 
 ---
 
-### 文案 & Design Experiments
+### 文案 & 设计 Experiments
 
 **Labels & Microcopy**
 - Test field label 清晰度 and length
@@ -421,9 +421,9 @@ Ideas to A/B test with expected outcomes
 
 ---
 
-## Related Skills
+## Related 技能
 
 - **signup-flow-cro**: For 账户 creation forms
 - **popup-cro**: For forms inside popups/modals
 - **page-cro**: For the page containing the form
-- **ab-test-配置方式**: For 测试 form changes
+- **ab-test-setup**: For 测试 form changes

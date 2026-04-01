@@ -21,7 +21,7 @@ Transactional email delivery service with fast delivery, templates, bounce manag
 
 ## 常见代理操作
 
-### Send single email
+### Send single 邮件
 
 ```bash
 POST https://api.postmarkapp.com/email
@@ -168,7 +168,7 @@ POST https://api.postmarkapp.com/message-streams/outbound/suppressions
 }
 ```
 
-## API Pattern
+## API 模式
 
 Postmark uses simple REST endpoints with PascalCase field names in request/response bodies. 认证 is via custom 请求头 rather than Authorization. Pagination uses `Count` and `Offset` parameters. Email sending is synchronous with immediate delivery confirmation.
 
@@ -195,7 +195,7 @@ Postmark uses simple REST endpoints with PascalCase field names in request/respo
 
 ## Parameters
 
-### Email Parameters
+### 邮件 Parameters
 - `From` - Sender address (must be verified)
 - `To` - Recipient (comma-separated for multiple)
 - `Subject` - Email subject

@@ -35,7 +35,7 @@ POST https://api.mixpanel.com/track
 }
 ```
 
-### Set user profile
+### Set 用户 profile
 
 ```bash
 POST https://api.mixpanel.com/engage
@@ -133,5 +133,5 @@ mixpanel.track('Feature Used', {
 ## 相关技能
 
 - 分析-跟踪
-- ab-test-配置方式
+- ab-test-setup
 - onboarding-cro

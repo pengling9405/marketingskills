@@ -32,7 +32,7 @@ GET https://api.brevo.com/v3/account
 GET https://api.brevo.com/v3/contacts?limit=50&offset=0
 ```
 
-### Get contact by email
+### Get contact by 邮件
 
 ```bash
 GET https://api.brevo.com/v3/contacts/user@example.com
@@ -123,7 +123,7 @@ POST https://api.brevo.com/v3/contacts/lists/{listId}/contacts/remove
 }
 ```
 
-### Send transactional email
+### Send transactional 邮件
 
 ```bash
 POST https://api.brevo.com/v3/smtp/email
@@ -141,13 +141,13 @@ POST https://api.brevo.com/v3/smtp/email
 }
 ```
 
-### List email 广告活动
+### List 邮件 广告活动
 
 ```bash
 GET https://api.brevo.com/v3/emailCampaigns?limit=50&offset=0&type=classic&status=sent
 ```
 
-### Create email 广告活动
+### Create 邮件 广告活动
 
 ```bash
 POST https://api.brevo.com/v3/emailCampaigns
@@ -167,7 +167,7 @@ POST https://api.brevo.com/v3/emailCampaigns
 POST https://api.brevo.com/v3/emailCampaigns/{campaignId}/sendNow
 ```
 
-### Send test email for 广告活动
+### Send 测试 邮件 for 广告活动
 
 ```bash
 POST https://api.brevo.com/v3/emailCampaigns/{campaignId}/sendTest
@@ -202,7 +202,7 @@ GET https://api.brevo.com/v3/smsCampaigns?limit=50&offset=0
 GET https://api.brevo.com/v3/senders
 ```
 
-## API Pattern
+## API 模式
 
 Brevo uses standard REST with offset-based pagination (`limit` and `offset` parameters). Contact attributes use uppercase field names (FIRSTNAME, LASTNAME). Lists are nested under the contacts resource path. Transactional email uses the `/smtp/email` endpoint despite being REST-based.
 
@@ -224,7 +224,7 @@ Brevo uses standard REST with offset-based pagination (`limit` and `offset` para
 - `unsubscribed` - Unsubscribe count
 - `hardBounces`, `softBounces` - Bounce counts
 
-### Transactional Email Response
+### Transactional 邮件 Response
 - `messageId` - Unique message identifier for 跟踪
 
 ## Parameters

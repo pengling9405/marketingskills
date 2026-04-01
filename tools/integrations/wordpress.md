@@ -64,7 +64,7 @@ Authorization: Basic {base64(username:app_password)}
 }
 ```
 
-### List pages
+### List 页面
 
 ```bash
 GET https://example.com/wp-json/wp/v2/pages?per_page=20
@@ -101,7 +101,7 @@ Content-Type: image/jpeg
 [binary image data]
 ```
 
-### List users
+### List 用户
 
 ```bash
 GET https://example.com/wp-json/wp/v2/users

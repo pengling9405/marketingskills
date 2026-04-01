@@ -88,7 +88,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ## Personalization Experiments
 
-### User Segmentation
+### 用户 Segmentation
 
 | Test | Hypothesis |
 |------|------------|
@@ -99,7 +99,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Industry-specific paths | Vertical customization |
 | Experience-based | Beginner vs. expert paths |
 
-### Dynamic Content
+### Dynamic 内容
 
 | Test | Hypothesis |
 |------|------------|
@@ -148,7 +148,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ---
 
-## Email & Multi-Channel Experiments
+## 邮件 & Multi-Channel Experiments
 
 ### Onboarding Emails
 
@@ -161,7 +161,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Quick tips format | Short actionable content |
 | 视频 in email | More engaging format |
 
-### Email Content
+### 邮件 内容
 
 | Test | Hypothesis |
 |------|------------|
@@ -187,7 +187,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ## Re-engagement Experiments
 
-### Stalled User Recovery
+### Stalled 用户 Recovery
 
 | Test | Hypothesis |
 |------|------------|

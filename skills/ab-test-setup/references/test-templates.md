@@ -1,4 +1,4 @@
-# A/B Test Templates 参考
+# A/B 测试 Templates 参考
 
 Templates for planning, documenting, and analyzing experiments.
 
@@ -11,18 +11,18 @@ Templates for planning, documenting, and analyzing experiments.
 - Experiment Prioritization Scorecard
 - Hypothesis Bank Template
 
-## Test Plan Template
+## 测试 计划 Template
 
 ```markdown
-# A/B Test: [Name]
+# A/B 测试: [Name]
 
-## Overview
+## 概览
 - **Owner**: [Name]
 - **Test ID**: [ID in testing tool]
 - **Page/Feature**: [What's being tested]
 - **Planned dates**: [Start] - [End]
 
-## Hypothesis
+## 假设
 
 Because [observation/data],
 we believe [change]
@@ -30,7 +30,7 @@ will cause [expected outcome]
 for [audience].
 We'll know this is true when [metrics].
 
-## Test Design
+## 测试 设计
 
 | Element | Details |
 |---------|---------|
@@ -71,7 +71,7 @@ We'll know this is true when [metrics].
 - [Metric that shouldn't get worse]
 - [Another safety metric]
 
-## Segment Analysis Plan
+## Segment Analysis 计划
 - Mobile vs. desktop
 - New vs. returning visitors
 - Traffic source
@@ -99,9 +99,9 @@ We'll know this is true when [metrics].
 ## Results Documentation Template
 
 ```markdown
-# A/B Test Results: [Name]
+# A/B 测试 Results: [Name]
 
-## Summary
+## 摘要
 | Element | Value |
 |---------|-------|
 | Test ID | [ID] |
@@ -110,7 +110,7 @@ We'll know this is true when [metrics].
 | Result | Winner / Loser / Inconclusive |
 | Decision | [What we're doing] |
 
-## Hypothesis (Reminder)
+## 假设 (Reminder)
 [Copy from test plan]
 
 ## Results
@@ -182,18 +182,18 @@ We'll know this is true when [metrics].
 - [Key insight 1]
 - [Key insight 2]
 
-### What to test next
+### What to 测试 next
 - [Follow-up test idea 1]
 - [Follow-up test idea 2]
 
-### Impact
+### 影响
 - **Projected lift**: [X% improvement in Y metric]
 - **Business impact**: [Revenue, conversions, etc.]
 ```
 
 ---
 
-## Test Repository Entry Template
+## 测试 Repository Entry Template
 
 For 跟踪 all tests in a central location:
 
@@ -207,12 +207,12 @@ For 跟踪 all tests in a central location:
 
 ---
 
-## Quick Test Brief Template
+## Quick 测试 Brief Template
 
 For simple tests that don't need full documentation:
 
 ```markdown
-## [Test Name]
+## [测试 Name]
 
 **What**: [One sentence description]
 **Why**: [One sentence hypothesis]
@@ -227,7 +227,7 @@ For simple tests that don't need full documentation:
 ## Stakeholder Update Template
 
 ```markdown
-## A/B Test Update: [Name]
+## A/B 测试 Update: [Name]
 
 **Status**: Running / Complete
 **Days remaining**: X (or complete)
@@ -264,7 +264,7 @@ Scoring: 1-5 (5 = best)
 
 ---
 
-## Hypothesis Bank Template
+## 假设 Bank Template
 
 For collecting test ideas:
 
