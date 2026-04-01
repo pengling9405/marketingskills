@@ -15,7 +15,7 @@ Free tool for monitoring website 搜索 表现 and indexing.
 
 - **类型**: OAuth 2.0 or Service 账户
 - **作用域**: `https://www.googleapis.com/auth/webmasters.readonly`
-- **配置方式**: Create credentials in Google Cloud Console
+- **配置**: Create credentials in Google Cloud Console
 
 ## 常见代理操作
 

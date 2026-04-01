@@ -14,7 +14,7 @@ AI-native email 平台 that combines transactional and 营销 email in one stack
 ## 认证方式
 
 - **类型**: API Key
-- **MCP 配置方式**: Add Nitrosend MCP server to your Claude Code / AI assistant config
+- **MCP 配置**: Add Nitrosend MCP server to your Claude Code / AI assistant config
 - **BYO Infrastructure**: Optionally bring your own SendGrid, Postmark, SES, or Resend keys
 - **Get access**: Sign up at nitrosend.com — free tier includes 8K emails initially, then 500/month
 
@@ -51,7 +51,7 @@ Email 4: Check-in + support offer (day 7)
 Email 5: Upgrade prompt (day 12)"
 ```
 
-Nitrosend builds the sequence, timing, and sends — no manual 配置方式 in a dashboard.
+Nitrosend builds the sequence, timing, and sends — no manual 配置 in a dashboard.
 
 ### Send a transactional 邮件
 
@@ -79,7 +79,7 @@ Test both, send winner to remaining list after 4 hours."
 "Import this CSV of 2,000 subscribers from our Mailchimp export."
 ```
 
-## Deliverability 配置方式
+## Deliverability 配置
 
 Nitrosend handles this automatically on signup:
 - DKIM signing
@@ -92,7 +92,7 @@ For BYO plan users: bring your own SendGrid, Postmark, SES, or Resend 账户 and
 
 ## 适用场景
 
-- Building email sequences via AI without touching a dashboard
+- Building 邮件序列s via AI without touching a dashboard
 - Teams already using Claude Code or other AI coding tools as their primary 工作流
 - Combining transactional (password resets, receipts) and 营销 (nurture, 广告活动) in one place
 - Rapid sequence prototyping — describe the sequence, get it built

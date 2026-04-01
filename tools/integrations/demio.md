@@ -158,7 +158,7 @@ Demio uses a straightforward REST API:
 
 ## 适用场景
 
-- Automating webinar registration from landing pages or forms
+- Automating webinar registration from 落地页s or forms
 - Syncing webinar attendee data with CRM
 - Building custom registration flows for webinars
 - 跟踪 webinar attendance and engagement

@@ -269,7 +269,7 @@ Same approach as B2B but different 视频 types:
 
 - "X app honest review" or "X app after 6 months"
 - "Best [category] apps [year]" comparison videos
-- Unboxing or "配置方式" videos for hardware/physical products
+- Unboxing or "配置" videos for hardware/physical products
 
 Comments on review videos are especially valuable — these are people actively in the consideration phase.
 

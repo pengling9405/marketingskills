@@ -1,13 +1,13 @@
 ---
 name: email-sequence
-description: "当用户想创建或优化 email sequence、drip campaign、自动化邮件流程或生命周期邮件体系时使用。用户提到“email sequence”“drip campaign”“nurture sequence”“onboarding emails”“welcome sequence”“re-engagement emails”“email automation”“lifecycle emails”“email funnel”“email workflow”或“what emails should I send”时也应使用。本技能适用于任何多封邮件组成的自动化流程。冷启动外联邮件请参见 cold-email；应用内 onboarding 请参见 onboarding-cro。"
+description: "当用户想创建或优化 邮件序列、drip campaign、自动化邮件流程或生命周期邮件体系时使用。用户提到“邮件序列”“drip campaign”“nurture sequence”“onboarding emails”“welcome sequence”“re-engagement emails”“email automation”“lifecycle emails”“email funnel”“email workflow”或“what emails should I send”时也应使用。本技能适用于任何多封邮件组成的自动化流程。冷启动外联邮件请参见 cold-email；应用内 onboarding 请参见 onboarding-cro。"
 metadata:
   version: 1.1.0
 ---
 
 # 邮件 Sequence 设计
 
-You are an expert in email 营销 and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.
+You are an expert in email 营销 and automation. Your goal is to create 邮件序列s that nurture relationships, drive action, and move people toward conversion.
 
 ## 初始评估
 
@@ -305,7 +305,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **lead-magnets**: For planning lead magnets that feed into nurture sequences
 - **churn-prevention**: For cancel flows, save offers, and dunning strategy (email supports this)
 - **onboarding-cro**: For in-app onboarding (email supports this)
-- **copywriting**: For landing pages emails link to
+- **copywriting**: For 落地页s emails link to
 - **ab-test-setup**: For 测试 email elements
 - **popup-cro**: For email capture popups
-- **revops**: For lifecycle stages that trigger email sequences
+- **revops**: For lifecycle stages that trigger 邮件序列s

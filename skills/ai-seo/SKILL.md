@@ -322,7 +322,7 @@ Monthly manual check:
 - Original data, research, or expert quotes
 - "Last updated" date visible
 - Author bio with relevant credentials
-- Internal links to related 产品/feature pages
+- Internal links to related 产品/功能页s
 
 ### Comparison/Alternative 页面
 

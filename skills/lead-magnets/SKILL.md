@@ -301,7 +301,7 @@ When creating a lead magnet strategy, provide:
 - **free-tool-strategy**: For interactive tools as lead magnets (calculators, graders, quizzes)
 - **copywriting**: For writing the lead magnet content itself
 - **email-sequence**: For nurture sequences after lead capture
-- **page-cro**: For optimizing lead magnet landing pages
+- **page-cro**: For optimizing lead magnet 落地页s
 - **popup-cro**: For popup-based lead capture
 - **form-cro**: For optimizing capture forms
 - **content-strategy**: For content planning and topic selection

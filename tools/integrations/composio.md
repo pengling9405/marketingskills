@@ -14,7 +14,7 @@ Managed OAuth and pre-built tool connectors for 500+ apps via a single MCP serve
 ## 认证方式
 
 - **类型**: OAuth 2.0 (per-tool, managed by Composio) or API Key
-- **配置方式**: `npx @composio/mcp@latest setup` to install, then authenticate each tool via Connect Link in browser
+- **配置**: `npx @composio/mcp@latest setup` to install, then authenticate each tool via Connect Link in browser
 - **API Key** (optional): `COMPOSIO_API_KEY` env var for advanced/team usage
 
 Composio handles OAuth token management, refresh, and storage for all connected tools. Individual tool auth types are listed in the 营销 Tools table below.
@@ -32,7 +32,7 @@ Composio is an **alternative integration method**, not a replacement. Use this d
 | Need quick read/write access across many tools | Composio |
 | Tool not covered by Composio | Native API guide |
 
-## 配置方式
+## 配置
 
 ### 1. Install the MCP server
 
@@ -92,7 +92,7 @@ These tools **already have native MCP or CLI** in this repo. Composio provides a
 
 | Tool | Native Integration | Composio Toolkit | 适用场景 Composio |
 |------|-------------------|-----------------|---------------------|
-| Mailchimp | MCP ✓, CLI ✓ | `MAILCHIMP` | If native MCP 配置方式 fails |
+| Mailchimp | MCP ✓, CLI ✓ | `MAILCHIMP` | If native MCP 配置 fails |
 | Google Ads | MCP ✓, CLI ✓ | `GOOGLEADS` | If OAuth is simpler via Composio |
 | Stripe | MCP ✓, CLI ✓ | `STRIPE` | Prefer native (deeper coverage) |
 | GA4 | MCP ✓, CLI ✓ | `GOOGLEANALYTICS` | Prefer native (deeper coverage) |

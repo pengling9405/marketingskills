@@ -1,6 +1,6 @@
 ---
 name: paywall-upgrade-cro
-description: "当用户想创建或优化应用内 paywall、upgrade screen、upsell modal 或 feature gate 时使用。用户提到“paywall”“upgrade screen”“upgrade modal”“upsell”“feature gate”“convert free to paid”“freemium conversion”“trial expiration screen”“limit reached screen”“plan upgrade prompt”或“how do I get users to pay”时也应使用。本技能适用于所有在产品内部要求用户升级付费的时刻，和公开 pricing page 不同，它强调用户已经体验过价值后的升级转化。若是定价决策，请参见 pricing-strategy。"
+description: "当用户想创建或优化应用内 paywall、upgrade screen、upsell modal 或 feature gate 时使用。用户提到“paywall”“upgrade screen”“upgrade modal”“upsell”“feature gate”“convert free to paid”“freemium conversion”“trial expiration screen”“limit reached screen”“plan upgrade prompt”或“how do I get users to pay”时也应使用。本技能适用于所有在产品内部要求用户升级付费的时刻，和公开 定价页 不同，它强调用户已经体验过价值后的升级转化。若是定价决策，请参见 pricing-strategy。"
 metadata:
   version: 1.1.0
 ---

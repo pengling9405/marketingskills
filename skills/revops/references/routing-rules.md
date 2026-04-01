@@ -43,7 +43,7 @@ Customize this tree for your business. The key principle: **route to the most sp
 4. Reset distribution count weekly or monthly
 5. Log every assignment for auditing
 
-### HubSpot Round-Robin 配置方式
+### HubSpot Round-Robin 配置
 
 **Using HubSpot's rotation tool:**
 - Navigate to Automation → 工作流
@@ -60,10 +60,10 @@ Customize this tree for your business. The key principle: **route to the most sp
 5. Increment counter (reset at max)
 6. Create follow-up task with SLA deadline
 
-### Salesforce Round-Robin 配置方式
+### Salesforce Round-Robin 配置
 
 **Using Lead Assignment Rules:**
-1. 配置方式 → Feature Settings → 营销 → Lead Assignment Rules
+1. 配置 → Feature Settings → 营销 → Lead Assignment Rules
 2. Create rule entries in priority order (most specific first)
 3. For round-robin: Use assignment rule + custom logic
 
@@ -127,7 +127,7 @@ Lead arrives
 
 ## Named 账户 / ABM Routing
 
-### 配置方式
+### 配置
 
 1. **Define target 账户 list** (typically 50-500 accounts)
 2. **Assign 账户 owners** in CRM (1 rep per 账户)

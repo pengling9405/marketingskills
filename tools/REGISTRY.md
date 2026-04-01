@@ -6,7 +6,7 @@ Quick 参考 for AI agents to discover tool 能力 and integration methods.
 
 1. **Find tools by category** - Browse sections below for tools in each domain
 2. **Check integration methods** - See what APIs, MCPs, CLIs, or SDKs are available
-3. **Read integration guides** - Detailed 配置方式 and 常见 操作 in `integrations/`
+3. **Read integration guides** - Detailed 配置 and 常见 操作 in `integrations/`
 
 ---
 
@@ -438,7 +438,7 @@ To use MCP tools, ensure the appropriate MCP server is configured in your enviro
 
 [Composio](integrations/composio.md) provides managed OAuth and pre-built connectors for 500+ tools via a single MCP server. It adds MCP access to tools that don't have native MCP servers, including HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion, and more.
 
-- **配置方式**: `npx @composio/mcp@latest setup`
+- **配置**: `npx @composio/mcp@latest setup`
 - **Quick start**: See [tools/composio/README.md](composio/README.md)
 - **营销 tool mapping**: See [tools/composio/marketing-tools.md](composio/marketing-tools.md)
 

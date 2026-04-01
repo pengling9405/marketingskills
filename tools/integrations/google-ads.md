@@ -15,7 +15,7 @@ Pay-per-click advertising 平台 for 搜索, 展示, and 视频 广告活动.
 
 - **类型**: OAuth 2.0
 - **作用域**: `https://www.googleapis.com/auth/adwords`
-- **配置方式**: Create credentials in Google Cloud Console, link to Google Ads 账户
+- **配置**: Create credentials in Google Cloud Console, link to Google Ads 账户
 - **请求头**: `developer-token`, `login-customer-id` (for MCC)
 
 ## 常见代理操作

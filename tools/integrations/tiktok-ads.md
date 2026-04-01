@@ -15,7 +15,7 @@ Advertising 平台 for TikTok's short-form 视频 受众.
 
 - **类型**: Access Token
 - **请求头**: `Access-Token: {access_token}`
-- **配置方式**: Create app in TikTok for Business, get access token
+- **配置**: Create app in TikTok for Business, get access token
 
 ## 常见代理操作
 

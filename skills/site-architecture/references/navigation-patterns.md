@@ -88,7 +88,7 @@ Best for: most sites. Organize links into 3-5 themed columns.
 
 ### Minimal Footer
 
-Best for: simple sites, landing pages.
+Best for: simple sites, 落地页s.
 
 ```
 ┌──────────────────────────────────────────────────────────┐

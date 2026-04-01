@@ -1,6 +1,6 @@
 ---
 name: programmatic-seo
-description: "当用户想基于模板与数据批量生成 SEO 页面时使用。用户提到“programmatic SEO”“template pages”“pages at scale”“directory pages”“location pages”“[keyword] + [city] pages”“comparison pages”“integration pages”“pSEO”“generate 100 pages”或“templated landing pages”时也应使用。本技能适用于希望围绕不同关键词、地域或对象批量创建相似页面的场景。若要审计现有 SEO 问题，请参见 seo-audit；若要规划内容策略，请参见 content-strategy。"
+description: "当用户想基于模板与数据批量生成 SEO 页面时使用。用户提到“programmatic SEO”“template pages”“pages at scale”“directory pages”“location pages”“[keyword] + [city] pages”“comparison pages”“integration pages”“pSEO”“generate 100 pages”或“templated 落地页s”时也应使用。本技能适用于希望围绕不同关键词、地域或对象批量创建相似页面的场景。若要审计现有 SEO 问题，请参见 seo-audit；若要规划内容策略，请参见 content-strategy。"
 metadata:
   version: 1.1.0
 ---

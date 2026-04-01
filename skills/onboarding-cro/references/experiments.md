@@ -20,7 +20,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 |------|------------|
 | Email 验证 timing | During vs. after onboarding |
 | Empty states vs. dummy data | Pre-populated examples |
-| Pre-filled templates | Accelerate 配置方式 with templates |
+| Pre-filled templates | Accelerate 配置 with templates |
 | OAuth options | Faster 账户 linking |
 | Required step count | Fewer required 步骤 |
 | Optional vs. required fields | Minimize requirements |
@@ -35,7 +35,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Friction placement | Move hard 步骤 later |
 | Required vs. optional balance | Ratio of required 步骤 |
 | Single vs. branching paths | One path vs. personalized |
-| Quick start vs. full 配置方式 | Minimal path to value |
+| Quick start vs. full 配置 | Minimal path to value |
 
 ### Progress & Motivation
 

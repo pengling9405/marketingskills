@@ -163,7 +163,7 @@ npx skillkit install coreyhaines31/marketingskills --list
 
 ## 从 v1.0 升级
 
-这些 skill 现在使用 `.agents/` 而不是 `.claude/` 来存放 product marketing context 文件。把现有上下文文件迁移过来：
+这些 skill 现在使用 `.agents/` 而不是 `.claude/` 来存放 产品营销上下文 文件。把现有上下文文件迁移过来：
 
 ```bash
 mkdir -p .agents
@@ -177,10 +177,10 @@ mv .claude/product-marketing-context.md .agents/product-marketing-context.md
 安装完成后，直接让 agent 帮你处理营销任务即可：
 
 ```
-"Help me optimize this landing page for conversions"
+"Help me optimize this 落地页 for conversions"
 → 使用 page-cro skill
 
-"Write homepage copy for my SaaS"
+"Write 首页 copy for my SaaS"
 → 使用 copywriting skill
 
 "Set up GA4 tracking for signups"

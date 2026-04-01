@@ -15,7 +15,7 @@ Web 分析 平台 for 跟踪 user behavior, 转化, and 营销 表现.
 
 - **类型**: OAuth 2.0 or Service 账户
 - **作用域**: `https://www.googleapis.com/auth/analytics.readonly` (read), `https://www.googleapis.com/auth/analytics.edit` (write)
-- **配置方式**: Create credentials in Google Cloud Console
+- **配置**: Create credentials in Google Cloud Console
 
 ## 常见代理操作
 

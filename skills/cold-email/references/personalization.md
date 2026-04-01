@@ -36,7 +36,7 @@
 | LinkedIn 动态 | 帖子、评论、职位变动 | `"Really enjoyed your post about X"` |
 | 公司新闻 | Google News、新闻稿 | `"Congrats on acquiring X — integrating teams usually creates Y challenge"` |
 | 播客 / 演讲 | Google、YouTube、播客 | `"Caught your talk at SaaStr on X — really insightful"` |
-| 网站变化 | 手动查看 | `"Your new pricing page caught my eye — curious how it's converting"` |
+| 网站变化 | 手动查看 | `"Your new 定价页 caught my eye — curious how it's converting"` |
 
 ## 3 分钟个性化系统
 

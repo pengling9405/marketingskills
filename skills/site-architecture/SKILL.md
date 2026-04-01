@@ -272,7 +272,7 @@ graph TD
 1. **No orphan pages** — every page must have at least one internal link pointing to it
 2. **Descriptive anchor text** — "our 分析 特性" not "click here"
 3. **5-10 internal links per 1000 words** of content (approximate guideline)
-4. **Link to important pages more often** — 首页, key feature pages, pricing
+4. **Link to important pages more often** — 首页, key 功能页s, pricing
 5. **Use breadcrumbs** — free internal links on every page
 6. **Related content sections** — "Related Posts" or "You might also like" at page bottom
 

@@ -59,7 +59,7 @@ Complete list of proven 营销 approaches organized by category.
 
 14. **Side Projects as 营销** - Build small, useful tools related to your main 产品. Side projects attract users who may later convert.
 
-15. **Engineering as 营销** - Build free tools that solve real problems. Calculators, analyzers, generators—useful utilities that naturally lead to your paid 产品.
+15. **Engineering as 营销** - Build 免费工具s that solve real problems. Calculators, analyzers, generators—useful utilities that naturally lead to your paid 产品.
 
 16. **Importers as 营销** - Build import tools for competitor data. "Import from [Competitor]" reduces switching friction.
 
@@ -101,7 +101,7 @@ Complete list of proven 营销 approaches organized by category.
 
 33. **Cross-平台 Retargeting** - Follow users across platforms with consistent messaging.
 
-34. **Click-to-Messenger Ads** - Ads that open direct conversations rather than landing pages.
+34. **Click-to-Messenger Ads** - Ads that open direct conversations rather than 落地页s.
 
 ---
 
@@ -251,7 +251,7 @@ Complete list of proven 营销 approaches organized by category.
 
 94. **Offboarding Flows** - Optimize cancellation flows to retain or learn.
 
-95. **Concierge 配置方式** - White-glove onboarding for high-value accounts.
+95. **Concierge 配置** - White-glove onboarding for high-value accounts.
 
 96. **Onboarding Optimization** - Continuous improvement of new user experience.
 

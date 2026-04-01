@@ -14,7 +14,7 @@ Partner Relationship Management 平台 for managing channel partners, 跟踪 par
 ## 认证方式
 
 - **类型**: OAuth2 (via MCP connector)
-- **配置方式**: Connect via Claude MCP connector — no API key management needed
+- **配置**: Connect via Claude MCP connector — no API key management needed
 - **Scope**: All data is scoped to the authenticated organisation
 
 ## 常见代理操作

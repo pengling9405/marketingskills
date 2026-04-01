@@ -36,7 +36,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 **Typical sequence**: 3-5 emails over 14 days
 
 - Email 1: Thank you + what's next (immediate)
-- Email 2: Getting full value — 配置方式 checklist (day 2)
+- Email 2: Getting full value — 配置 checklist (day 2)
 - Email 3: Pro tips for paid 特性 (day 5)
 - Email 4: Success story from similar 客户 (day 7)
 - Email 5: Check-in + introduce support resources (day 14)
@@ -46,7 +46,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 ---
 
 ### Key Onboarding Step Reminder
-**Trigger**: User hasn't completed critical 配置方式 step after X time
+**Trigger**: User hasn't completed critical 配置 step after X time
 **Goal**: Nudge completion of high-value action
 **Format**: Single email or 2-3 email mini-sequence
 
@@ -104,7 +104,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 ### Upgrade to Higher 计划
 **Trigger**: User approaching plan limits or using 特性 available on higher tier
 **Goal**: Upsell to next tier
-**Format**: Single email or 2-3 email sequence
+**Format**: Single email or 2-3 邮件序列
 
 **Trigger examples**:
 - 80% of seat limit reached
@@ -223,7 +223,7 @@ A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit
 ### Switch to Annual
 **Trigger**: Monthly subscriber at renewal time or 广告活动
 **Goal**: Convert monthly to annual (improve LTV, reduce churn)
-**Format**: Single email or 2-email sequence
+**Format**: Single email or 2-邮件序列
 
 **Value proposition**:
 - Calculate exact savings

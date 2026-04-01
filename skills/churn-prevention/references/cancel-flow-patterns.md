@@ -226,7 +226,7 @@ from customers like you.
 | Day 60 | Address their specific cancel reason if resolved |
 | Day 90 | Final win-back with special offer |
 
-**如需详细说明，请参见 win-back email sequences**: See the email-sequence skill.
+**如需详细说明，请参见 win-back 邮件序列s**: See the email-sequence skill.
 
 ---
 
@@ -249,7 +249,7 @@ The most effective cancel flows use segmentation to show different offers to dif
 
 **New 客户 (< 30 days):**
 - They haven't activated. The save is onboarding, not discounts.
-- Offer: Free onboarding call, 配置方式 help, extended trial
+- Offer: Free onboarding call, 配置 help, extended trial
 - Ask: "What were you hoping to accomplish?" (learn what's missing)
 
 **Engaged 客户 cancelling on price:**
@@ -281,7 +281,7 @@ The most effective cancel flows use segmentation to show different offers to dif
 ### 阶段 2: Optimization (Weeks 2-4)
 - [ ] Add fallback offers (primary + secondary per reason)
 - [ ] Implement pause subscription option
-- [ ] Set up dunning email sequence (4 emails over 10 days)
+- [ ] Set up dunning 邮件序列 (4 emails over 10 days)
 - [ ] Enable smart retries (Stripe Smart Retries or equivalent)
 - [ ] Add MRR-based routing for high-value accounts
 

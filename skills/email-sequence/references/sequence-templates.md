@@ -1,6 +1,6 @@
 # 邮件 Sequence Templates
 
-Detailed templates for 常见 email sequences.
+Detailed templates for 常见 邮件序列s.
 
 ## Contents
 - Welcome Sequence (Post-Signup)

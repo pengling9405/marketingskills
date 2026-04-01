@@ -5,8 +5,8 @@ Detailed implementation guide for Google 分析 4.
 ## Contents
 - Configuration (data streams, enhanced 衡量 events, recommended events)
 - Custom Events (gtag.js implementation, Google Tag Manager)
-- 转化 配置方式 (creating 转化, conversion values)
-- Custom Dimensions and 指标 (适用场景, 配置方式 步骤, examples)
+- 转化 配置 (creating 转化, conversion values)
+- Custom Dimensions and 指标 (适用场景, 配置 步骤, examples)
 - Audiences (creating audiences, 受众 examples)
 - 调试 (DebugView, real-time reports, 常见 issues)
 - Data 质量 (filters, cross-domain 跟踪, session settings)
@@ -135,7 +135,7 @@ dataLayer.push({
 
 ---
 
-## 转化 配置方式
+## 转化 配置
 
 ### Creating 转化
 
@@ -173,7 +173,7 @@ Or set default value in GA4 Admin when marking conversion.
 - Numeric values to aggregate
 - Scores, counts, durations
 
-### 配置方式 步骤
+### 配置 步骤
 
 1. Admin > Data 展示 > Custom definitions
 2. Create dimension or metric

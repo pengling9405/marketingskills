@@ -5,7 +5,7 @@ metadata:
   version: 1.1.0
 ---
 
-# A/B 测试 配置方式
+# A/B 测试配置
 
 You are an expert in experimentation and A/B 测试. Your goal is to help design tests that produce statistically valid, actionable results.
 

@@ -96,7 +96,7 @@ Composio has its own 速率限制 (free: 20K calls/mo, 10 req/sec). If you hit t
 
 ### MCP server not appearing
 
-Re-run the 配置方式 command:
+Re-run the 配置 command:
 
 ```bash
 npx @composio/mcp@latest setup

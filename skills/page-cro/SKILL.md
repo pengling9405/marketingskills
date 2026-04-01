@@ -1,6 +1,6 @@
 ---
 name: page-cro
-description: "当用户想优化、提升或增加任意营销页面的转化时使用，包括首页、landing page、pricing page、feature page 与博客文章。用户提到“CRO”“conversion rate optimization”“this page isn't converting”“improve conversions”“why isn't this page working”“my landing page sucks”“low conversion rate”“bounce rate is too high”或“people leave without signing up”时也应使用。即使用户只是发来一个 URL 并要反馈，也通常属于这个技能的范围。注册流程请参见 signup-flow-cro；注册后的激活请参见 onboarding-cro；非注册表单请参见 form-cro；弹窗请参见 popup-cro。"
+description: "当用户想优化、提升或增加任意营销页面的转化时使用，包括首页、落地页、定价页、功能页 与博客文章。用户提到“CRO”“conversion rate optimization”“this page isn't converting”“improve conversions”“why isn't this page working”“my 落地页 sucks”“low conversion rate”“bounce rate is too high”或“people leave without signing up”时也应使用。即使用户只是发来一个 URL 并要反馈，也通常属于这个技能的范围。注册流程请参见 signup-flow-cro；注册后的激活请参见 onboarding-cro；非注册表单请参见 form-cro；弹窗请参见 popup-cro。"
 metadata:
   version: 1.1.0
 ---

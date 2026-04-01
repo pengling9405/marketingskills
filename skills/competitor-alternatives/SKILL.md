@@ -1,6 +1,6 @@
 ---
 name: competitor-alternatives
-description: "当用户想创建用于 SEO 或销售支持的竞品对比页、替代页或“vs”页面时使用。用户提到“alternative page”“vs page”“competitor comparison”“comparison page”“[Product] vs [Product]”“[Product] alternative”“competitive landing pages”“how do we compare to X”“battle card”或“competitor teardown”时也应使用。本技能适用于任何需要把自家产品与竞品放在一起定位和比较的内容场景，覆盖单一替代页、替代方案列表页、你对竞品，以及竞品对竞品四种格式。若是纯销售用的竞品材料，请参见 sales-enablement。"
+description: "当用户想创建用于 SEO 或销售支持的竞品对比页、替代页或“vs”页面时使用。用户提到“alternative page”“vs page”“competitor comparison”“comparison page”“[Product] vs [Product]”“[Product] alternative”“competitive 落地页s”“how do we compare to X”“battle card”或“competitor teardown”时也应使用。本技能适用于任何需要把自家产品与竞品放在一起定位和比较的内容场景，覆盖单一替代页、替代方案列表页、你对竞品，以及竞品对竞品四种格式。若是纯销售用的竞品材料，请参见 sales-enablement。"
 metadata:
   version: 1.1.0
 ---
@@ -217,7 +217,7 @@ For each competitor, gather:
 
 ### Internal Linking
 - Link between related competitor pages
-- Link from feature pages to relevant comparisons
+- Link from 功能页s to relevant comparisons
 - Create hub page linking to all competitor content
 
 ### Schema Markup

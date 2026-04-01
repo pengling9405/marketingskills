@@ -54,7 +54,7 @@ Detailed creation 指导 for each lead magnet format.
 - Make it printable — clean layout, generous spacing
 - Include a "done" checkbox for each item
 
-**What works**: Step-by-step processes, audit criteria, launch checklists, 配置方式 guides
+**What works**: Step-by-step processes, audit criteria, launch checklists, 配置 guides
 
 ---
 
@@ -127,7 +127,7 @@ Detailed creation 指导 for each lead magnet format.
 - Update periodically with fresh examples
 - Credit original sources
 
-**What works**: Email subject lines, landing pages, ad 文案, CTAs, onboarding flows, pricing pages
+**What works**: Email subject lines, 落地页s, ad 文案, CTAs, onboarding flows, 定价页s
 
 ---
 

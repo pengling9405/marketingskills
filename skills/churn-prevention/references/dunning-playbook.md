@@ -276,7 +276,7 @@ will be paused automatically.
 
 ---
 
-## Provider-Specific 配置方式
+## Provider-Specific 配置
 
 ### Stripe
 

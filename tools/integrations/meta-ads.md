@@ -15,7 +15,7 @@ Advertising 平台 for Facebook, Instagram, Messenger, and 受众 Network.
 
 - **类型**: OAuth 2.0 Access Token
 - **请求头**: Access token as query parameter
-- **配置方式**: Create app in Meta Business Suite, generate System User token
+- **配置**: Create app in Meta Business Suite, generate System User token
 
 ## 常见代理操作
 
@@ -132,7 +132,7 @@ access_token={access_token}
 - Creating/managing Facebook and Instagram ads
 - 受众 targeting and lookalikes
 - 广告活动 表现 分析
-- Retargeting 配置方式
+- Retargeting 配置
 
 ## 速率限制
 

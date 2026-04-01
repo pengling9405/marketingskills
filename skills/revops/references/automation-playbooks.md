@@ -71,7 +71,7 @@
 2. Set "客户 Since" date to current date
 3. Assign contact owner to CS team member (based on segment/territory)
 4. Create task for CS: "Schedule kickoff call with [Company Name]" — due in 2 business days
-5. Enroll contact in "客户 Onboarding" email sequence
+5. Enroll contact in "客户 Onboarding" 邮件序列
 6. Send internal notification to CS manager
 7. Remove from all sales sequences
 **Outcome:** Seamless handoff from sales to 客户 success
@@ -179,7 +179,7 @@
 
 ### Round-Robin Meeting Scheduling
 
-**Calendly 配置方式:**
+**Calendly 配置:**
 1. Create a team 事件 类型 with all eligible reps
 2. Distribution: "Optimize for equal distribution"
 3. Availability: Each rep manages their own calendar
@@ -193,7 +193,7 @@
 4. If new contact → create lead, assign via routing rules, log meeting
 5. Set lifecycle stage to MQL (meeting = high intent)
 
-### SavvyCal 配置方式
+### SavvyCal 配置
 
 **Advantages over Calendly:**
 - Priority-based scheduling (prefer certain time slots)

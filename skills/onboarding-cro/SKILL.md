@@ -67,7 +67,7 @@ The action that correlates most strongly with retention:
 | Approach | Best For | Risk |
 |----------|----------|------|
 | 产品-first | Simple products, B2C, mobile | Blank slate overwhelm |
-| Guided 配置方式 | Products needing personalization | Adds friction before value |
+| Guided 配置 | Products needing personalization | Adds friction before value |
 | Value-first | Products with demo data | May not feel "real" |
 
 **Whatever you choose:**
@@ -78,7 +78,7 @@ The action that correlates most strongly with retention:
 ### Onboarding Checklist 模式
 
 **适用场景:**
-- Multiple 配置方式 步骤 required
+- Multiple 配置 步骤 required
 - 产品 has several 特性 to discover
 - Self-serve B2B products
 
@@ -131,7 +131,7 @@ Empty states are onboarding opportunities, not dead ends.
 ## Handling Stalled 用户
 
 ### Detection
-Define "stalled" criteria (X days inactive, incomplete 配置方式)
+Define "stalled" criteria (X days inactive, incomplete 配置)
 
 ### Re-engagement Tactics
 
@@ -149,7 +149,7 @@ Define "stalled" criteria (X days inactive, incomplete 配置方式)
 |--------|-------------|
 | Activation rate | % reaching activation 事件 |
 | Time to activation | How long to first value |
-| Onboarding completion | % completing 配置方式 |
+| Onboarding completion | % completing 配置 |
 | Day 1/7/30 retention | Return rate by timeframe |
 
 ### Funnel Analysis
@@ -183,9 +183,9 @@ For each issue: Finding → Impact → Recommendation → Priority
 
 | 产品 类型 | Key 步骤 |
 |--------------|-----------|
-| B2B SaaS | 配置方式 wizard → First value action → Team invite → Deep 配置方式 |
+| B2B SaaS | 配置 wizard → First value action → Team invite → Deep 配置 |
 | Marketplace | Complete profile → Browse → First transaction → Repeat loop |
-| Mobile App | Permissions → Quick win → Push 配置方式 → Habit loop |
+| Mobile App | Permissions → Quick win → Push 配置 → Habit loop |
 | Content 平台 | Follow/customize → Consume → Create → Engage |
 
 ---

@@ -8,7 +8,7 @@
 |-------------|-----------|-------|
 | API | ✓ | REST (default), GraphQL (plugin) |
 | MCP | - | No official MCP server |
-| CLI | ✓ | `strapi` CLI for project 配置方式, content types, plugins |
+| CLI | ✓ | `strapi` CLI for project 配置, content types, plugins |
 | SDK | ✓ | `@strapi/sdk-js`, `@strapi/blocks-react-renderer` |
 
 ## 认证方式

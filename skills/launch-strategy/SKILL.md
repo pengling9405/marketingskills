@@ -239,7 +239,7 @@ Your launch isn't over when the announcement goes live. Now comes adoption and r
 ### Immediate Post-Launch Actions
 
 **Educate new users:**
-Set up automated onboarding email sequence introducing key 特性 and use cases.
+Set up automated onboarding 邮件序列 introducing key 特性 and use cases.
 
 **Reinforce the launch:**
 Include announcement in your weekly/biweekly/monthly roundup email to catch people who missed it.
@@ -322,7 +322,7 @@ Even small changelog updates remind 客户 your 产品 is evolving. This builds 
 - [ ] Monitor for issues and feedback
 
 ### Post-Launch
-- [ ] Onboarding email sequence active
+- [ ] Onboarding 邮件序列 active
 - [ ] Follow-up with engaged prospects
 - [ ] Roundup email includes announcement
 - [ ] Comparison pages published
@@ -346,8 +346,8 @@ Even small changelog updates remind 客户 your 产品 is evolving. This builds 
 ## Related 技能
 
 - **marketing-ideas**: For additional launch tactics (#22 产品 Hunt, #23 Early Access Referrals)
-- **email-sequence**: For launch and onboarding email sequences
-- **page-cro**: For optimizing launch landing pages
+- **email-sequence**: For launch and onboarding 邮件序列s
+- **page-cro**: For optimizing launch 落地页s
 - **营销-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
 - **sales-enablement**: For launch sales collateral and enablement materials

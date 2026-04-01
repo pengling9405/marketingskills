@@ -136,7 +136,7 @@ For 产品 pages (e-commerce or SaaS).
 
 ## SoftwareApplication
 
-For SaaS 产品 pages and app landing pages.
+For SaaS 产品 pages and app 落地页s.
 
 ```json
 {

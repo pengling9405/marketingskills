@@ -133,7 +133,7 @@ The goal is not to present 特性. The goal is to make the buyer feel understood
 ### Slide 8: 实现 / Timeline
 
 **What to include:**
-- Clear phases with timeline (e.g., Week 1: 配置方式, Week 2-3: Integration, Week 4: Live)
+- Clear phases with timeline (e.g., Week 1: 配置, Week 2-3: Integration, Week 4: Live)
 - What's required from their side vs. yours
 - Support resources available
 

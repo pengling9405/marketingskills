@@ -151,7 +151,7 @@ curl -s "https://api.outreach.io/api/v2/tasks?filter[status]=incomplete" \
 ## 适用场景
 
 - Managing outbound sales sequences and cadences
-- Adding prospects to automated email sequences
+- Adding prospects to automated 邮件序列s
 - 跟踪 prospect engagement across touchpoints
 - Managing sales tasks and follow-ups
 - Coordinating multi-channel outreach 广告活动

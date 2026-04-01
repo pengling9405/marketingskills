@@ -1,16 +1,16 @@
-# 平台 配置方式 Checklists
+# 平台 配置 Checklists
 
-Complete 配置方式 checklists for major ad platforms.
+Complete 配置 checklists for major ad platforms.
 
 ## Contents
-- Google Ads 配置方式 (账户 Foundation, Conversion 跟踪, 分析 Integration, 受众 配置方式, 广告活动 Readiness, Ad Extensions, Brand Protection)
-- Meta Ads 配置方式 (Business Manager Foundation, Pixel & 跟踪, Domain & Aggregated Events, 受众 配置方式, Catalog, Creative Assets, 遵循率)
-- LinkedIn Ads 配置方式 (广告活动 Manager Foundation, Insight Tag & 跟踪, 受众 配置方式, Lead Gen Forms, Document Ads, Creative Assets, 预算 Considerations)
-- Twitter/X Ads 配置方式 (账户 Foundation, 跟踪, 受众 配置方式, Creative)
-- TikTok Ads 配置方式 (账户 Foundation, Pixel & 跟踪, 受众 配置方式, Creative)
+- Google Ads 配置 (账户 Foundation, Conversion 跟踪, 分析 Integration, 受众 配置, 广告活动 Readiness, Ad Extensions, Brand Protection)
+- Meta Ads 配置 (Business Manager Foundation, Pixel & 跟踪, Domain & Aggregated Events, 受众 配置, Catalog, Creative Assets, 遵循率)
+- LinkedIn Ads 配置 (广告活动 Manager Foundation, Insight Tag & 跟踪, 受众 配置, Lead Gen Forms, Document Ads, Creative Assets, 预算 Considerations)
+- Twitter/X Ads 配置 (账户 Foundation, 跟踪, 受众 配置, Creative)
+- TikTok Ads 配置 (账户 Foundation, Pixel & 跟踪, 受众 配置, Creative)
 - Universal Pre-Launch Checklist
 
-## Google Ads 配置方式
+## Google Ads 配置
 
 ### 账户 Foundation
 
@@ -35,7 +35,7 @@ Complete 配置方式 checklists for major ad platforms.
 - [ ] GA4 audiences available in Google Ads
 - [ ] Cross-domain 跟踪 set up (if multiple domains)
 
-### 受众 配置方式
+### 受众 配置
 
 - [ ] Remarketing tag verified
 - [ ] Website visitor audiences created:
@@ -74,7 +74,7 @@ Complete 配置方式 checklists for major ad platforms.
 
 ---
 
-## Meta Ads 配置方式
+## Meta Ads 配置
 
 ### Business Manager Foundation
 
@@ -89,7 +89,7 @@ Complete 配置方式 checklists for major ad platforms.
 - [ ] Meta Pixel installed on all pages
 - [ ] Standard events configured:
   - PageView (automatic)
-  - ViewContent (产品/feature pages)
+  - ViewContent (产品/功能页s)
   - Lead (form submissions)
   - Purchase (转化)
   - AddToCart (if e-commerce)
@@ -105,7 +105,7 @@ Complete 配置方式 checklists for major ad platforms.
 - [ ] Top 8 events prioritized in order of importance
 - [ ] Web events prioritized for iOS 14+ 跟踪
 
-### 受众 配置方式
+### 受众 配置
 
 - [ ] Custom audiences created:
   - Website visitors (all, 30/60/90/180 days)
@@ -141,7 +141,7 @@ Complete 配置方式 checklists for major ad platforms.
 
 ---
 
-## LinkedIn Ads 配置方式
+## LinkedIn Ads 配置
 
 ### 广告活动 Manager Foundation
 
@@ -159,7 +159,7 @@ Complete 配置方式 checklists for major ad platforms.
   - 事件-specific 转化
 - [ ] Conversion values set (if applicable)
 
-### 受众 配置方式
+### 受众 配置
 
 - [ ] Matched Audiences created:
   - Website retargeting audiences
@@ -200,7 +200,7 @@ Complete 配置方式 checklists for major ad platforms.
 
 ---
 
-## Twitter/X Ads 配置方式
+## Twitter/X Ads 配置
 
 ### 账户 Foundation
 
@@ -214,7 +214,7 @@ Complete 配置方式 checklists for major ad platforms.
 - [ ] Conversion events created
 - [ ] Website tag verified
 
-### 受众 配置方式
+### 受众 配置
 
 - [ ] Tailored audiences created:
   - Website visitors
@@ -231,7 +231,7 @@ Complete 配置方式 checklists for major ad platforms.
 
 ---
 
-## TikTok Ads 配置方式
+## TikTok Ads 配置
 
 ### 账户 Foundation
 
@@ -245,7 +245,7 @@ Complete 配置方式 checklists for major ad platforms.
 - [ ] Events configured (ViewContent, Purchase, etc.)
 - [ ] Events API set up (recommended)
 
-### 受众 配置方式
+### 受众 配置
 
 - [ ] Custom audiences created
 - [ ] Lookalike audiences created

@@ -233,12 +233,12 @@ tools/
 
 Claude Code 支持在 SKILL.md 里嵌入 shell 命令，语法是 `` !`command` ``。当 skill 被调用时，Claude Code 会执行命令并把结果直接注入上下文，也就是说模型看到的是结果，不是命令说明。
 
-**最有价值的用途：自动注入 product marketing context 文件**
+**最有价值的用途：自动注入 产品营销上下文 文件**
 
 与其让每个 skill 都写“先检查 `.agents/产品-营销-context.md` 是否存在，再去读取它”，不如直接自动注入：
 
 ```markdown
-Product context: !`cat .agents/product-marketing-context.md 2>/dev/null || echo "No product context file found — ask the user about their product before proceeding."`
+Product context: !`cat .agents/product-marketing-context.md 2>/dev/null || echo "No 产品上下文 file found — ask the user about their product before proceeding."`
 ```
 
 把这段放在 skill 正文顶部（frontmatter 后）即可。这样上下文在一开始就可用，不再需要额外的读文件步骤。

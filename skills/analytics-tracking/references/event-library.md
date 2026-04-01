@@ -172,7 +172,7 @@ Comprehensive list of events to track by business 类型 and context.
 | 事件 Name | 说明 | Properties |
 |------------|-------------|------------|
 | integration_viewed | Integration page seen | integration_name |
-| integration_started | 配置方式 began | integration_name |
+| integration_started | 配置 began | integration_name |
 | integration_connected | Successfully connected | integration_name |
 | integration_disconnected | Removed integration | integration_name, reason |
 

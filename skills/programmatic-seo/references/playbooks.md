@@ -156,7 +156,7 @@ Beyond mixing and matching data point permutations, these are the proven playboo
 **Pattern**: "[产品] for [受众]" or "[solution] for [role/industry]"
 **示例 searches**: "payroll software for agencies", "crm for real estate", "project management for freelancers"
 
-**What it is**: Tailored landing pages addressing specific 受众 segments.
+**What it is**: Tailored 落地页s addressing specific 受众 segments.
 
 **Why it works**:
 - Speaks directly to searcher's context
@@ -187,7 +187,7 @@ Beyond mixing and matching data point permutations, these are the proven playboo
 
 **Value requirements**:
 - Real integration details
-- 配置方式 instructions
+- 配置 instructions
 - Use cases for the combination
 - Working integration (not vaporware)
 

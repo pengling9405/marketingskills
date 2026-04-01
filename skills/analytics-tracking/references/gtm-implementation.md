@@ -19,7 +19,7 @@ Detailed guide for implementing 跟踪 via Google Tag Manager.
 Tags are code snippets that execute when triggered.
 
 **常见 tag types:**
-- GA4 Configuration (base 配置方式)
+- GA4 Configuration (base 配置)
 - GA4 事件 (custom events)
 - Google Ads Conversion
 - Facebook Pixel
@@ -352,7 +352,7 @@ function grantConsent() {
 
 ### Tag Sequencing
 
-**配置方式 tags to fire in order:**
+**配置 tags to fire in order:**
 Tag Configuration > Advanced Settings > Tag Sequencing
 
 **Use cases:**

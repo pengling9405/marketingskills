@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: "当用户想为任意页面撰写、重写或优化营销文案时使用，包括首页、landing page、pricing page、feature page、about page 与 product page。用户提到“write copy for”“improve this copy”“rewrite this page”“marketing copy”“headline help”“CTA copy”“value proposition”“tagline”“subheadline”“hero section copy”或“help me describe my product”时也应使用。本技能适用于任何需要说服、转化或解释产品价值的网站文案场景。邮件文案请参见 email-sequence；弹窗文案请参见 popup-cro；已有文案的润色请参见 copy-editing。"
+description: "当用户想为任意页面撰写、重写或优化营销文案时使用，包括首页、落地页、定价页、功能页、关于页 与 产品页。用户提到“write copy for”“improve this copy”“rewrite this page”“marketing copy”“headline help”“CTA copy”“value proposition”“tagline”“subheadline”“hero section copy”或“help me describe my product”时也应使用。本技能适用于任何需要说服、转化或解释产品价值的网站文案场景。邮件文案请参见 email-sequence；弹窗文案请参见 popup-cro；已有文案的润色请参见 copy-editing。"
 metadata:
   version: 1.1.0
 ---

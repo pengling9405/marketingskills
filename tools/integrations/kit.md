@@ -154,7 +154,7 @@ POST https://api.convertkit.com/v3/broadcasts
 - Simple email automation
 - Form-based list building
 - Tagging and segmentation
-- Course email sequences
+- Course 邮件序列s
 
 ## 速率限制
 

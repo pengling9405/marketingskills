@@ -138,7 +138,7 @@ All endpoints are scoped to a publication. The publication ID is a required path
 ## 适用场景
 
 - Managing newsletter subscribers programmatically
-- Syncing subscribers from external signup forms or landing pages
+- Syncing subscribers from external signup forms or 落地页s
 - Building referral program integrations
 - Automating post creation and publishing 工作流
 - 跟踪 subscriber growth and engagement 指标

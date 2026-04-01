@@ -1,6 +1,6 @@
 ---
 name: product-marketing-context
-description: "当用户想创建或更新产品营销上下文文档时使用。用户提到“product context”“marketing context”“set up context”“positioning”“who is my target audience”“describe my product”“ICP”“ideal customer profile”或希望避免在不同营销任务里反复解释基础信息时也应使用。这个技能适合在新项目开始时优先运行，会生成 `.agents/product-marketing-context.md`，供其他营销技能复用产品、受众与定位信息。"
+description: "当用户想创建或更新产品营销上下文文档时使用。用户提到“产品上下文”“营销上下文”“set up context”“positioning”“who is my target audience”“describe my product”“ICP”“ideal customer profile”或希望避免在不同营销任务里反复解释基础信息时也应使用。这个技能适合在新项目开始时优先运行，会生成 `.agents/product-marketing-context.md`，供其他营销技能复用产品、受众与定位信息。"
 metadata:
   version: 1.1.0
 ---
@@ -24,7 +24,7 @@ First, check if `.agents/product-marketing-context.md` already exists. Also chec
 
 **If it doesn't exist, offer two options:**
 
-1. **Auto-draft from codebase** (recommended): You'll study the repo—README, landing pages, 营销 文案, package.json, etc.—and draft a V1 of the context document. The user then reviews, corrects, and fills gaps. This is faster than starting from scratch.
+1. **Auto-draft from codebase** (recommended): You'll study the repo—README, 落地页s, 营销 文案, package.json, etc.—and draft a V1 of the context document. The user then reviews, corrects, and fills gaps. This is faster than starting from scratch.
 
 2. **Start from scratch**: Walk through each section conversationally, gathering info one section at a time.
 
@@ -33,7 +33,7 @@ Most users prefer option 1. After presenting the draft, ask: "What needs correct
 ### 步骤 2: Gather Information
 
 **If auto-drafting:**
-1. Read the codebase: README, landing pages, 营销 文案, about pages, meta descriptions, package.json, any existing docs
+1. Read the codebase: README, 落地页s, 营销 文案, 关于页s, meta descriptions, package.json, any existing docs
 2. Draft all sections based on what you find
 3. Present the draft and ask what needs correcting or is missing
 4. Iterate until the user is satisfied

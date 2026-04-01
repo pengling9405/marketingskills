@@ -25,7 +25,7 @@ Developer-friendly transactional email service with modern API.
 npm install -g resend-cli
 ```
 
-### 配置方式
+### 配置
 
 ```bash
 resend login

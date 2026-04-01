@@ -33,7 +33,7 @@ A headless CMS separates content management from presentation. Content is stored
 |--------|----------|-------------|
 | Multi-channel delivery | Yes | Limited |
 | Developer control | Full | Constrained |
-| Non-technical editing | Requires 配置方式 | Built-in |
+| Non-technical editing | Requires 配置 | Built-in |
 | Time to launch | Longer | Faster |
 | Content reuse | Native | Manual |
 | Hosting flexibility | Any frontend | 平台-dependent |
@@ -56,7 +56,7 @@ A headless CMS separates content management from presentation. Content is stored
 | **落地页** | title, slug, hero, sections[], seo | Modular sections for flexibility |
 | **Blog Post** | title, slug, body, author, category, tags, publishedAt, seo | Rich text or Portable Text body |
 | **Case Study** | title, 客户, challenge, solution, results, 指标[], logo | Link to related products/特性 |
-| **Testimonial** | quote, author, role, company, avatar, rating | 参考 from landing pages |
+| **Testimonial** | quote, author, role, company, avatar, rating | 参考 from 落地页s |
 | **FAQ** | question, answer, category | Group by category for programmatic pages |
 | **Author** | name, bio, avatar, social links | 参考 from blog posts |
 | **CTA Block** | heading, body, buttonText, buttonUrl, variant | Reusable across pages |

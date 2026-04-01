@@ -125,7 +125,7 @@ Authorization: Bearer {access_token}
 
 ## 适用场景
 
-- Analyzing user behavior patterns on landing pages
+- Analyzing user behavior patterns on 落地页s
 - Collecting qualitative feedback via on-site surveys
 - Identifying UX issues through session recordings
 - Understanding scroll depth and engagement via heatmaps

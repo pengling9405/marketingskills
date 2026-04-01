@@ -56,7 +56,7 @@ This skill supports three modes:
 
 1. **Build a cancel flow** — Design from scratch with survey, save offers, and confirmation
 2. **Optimize an existing flow** — Analyze cancel data and improve save rates
-3. **Set up dunning** — Failed payment recovery with retries and email sequences
+3. **Set up dunning** — Failed payment recovery with retries and 邮件序列s
 
 ---
 
@@ -321,7 +321,7 @@ Not all failures are the same. Retry strategy by decline 类型:
 | Overall payment recovery | <30% | 40-50% | 60%+ |
 | Pre-dunning prevention | None | 10-15% | 20-30% |
 
-For the complete dunning playbook with provider-specific 配置方式, see [references/dunning-playbook.md](references/dunning-playbook.md).
+For the complete dunning playbook with provider-specific 配置, see [references/dunning-playbook.md](references/dunning-playbook.md).
 
 ---
 
@@ -360,7 +360,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | 文案 tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its 功能开关 can split users into different flows server-side, and its funnel 分析 track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for 配置方式.
+**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its 功能开关 can split users into different flows server-side, and its funnel 分析 track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for 配置.
 
 ---
 
@@ -389,7 +389,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 |------|----------|-------------|
 | **Churnkey** | Full cancel flow + dunning | AI-powered adaptive offers, 34% avg save rate |
 | **ProsperStack** | Cancel flows with 分析 | Advanced rules engine, Stripe/Chargebee integration |
-| **Raaft** | Simple cancel flow builder | Easy 配置方式, good for early-stage |
+| **Raaft** | Simple cancel flow builder | Easy 配置, good for early-stage |
 | **Chargebee Retention** | Chargebee 客户 | Native integration, was Brightback |
 
 ### Billing Providers (Dunning)
@@ -407,7 +407,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 | 工具 | 用途 |
 |------|---------|
 | `stripe` | Subscription management, dunning config, payment retries |
-| `customer-io` | Dunning email sequences, retention 广告活动 |
+| `customer-io` | Dunning 邮件序列s, retention 广告活动 |
 | `posthog` | Cancel flow A/B tests via 功能开关, funnel 分析 |
 | `mixpanel` / `ga4` | Usage 跟踪, churn signal analysis |
 | `segment` | 事件 routing for health scoring |
@@ -416,7 +416,7 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ## Related 技能
 
-- **email-sequence**: For win-back email sequences after cancellation
+- **email-sequence**: For win-back 邮件序列s after cancellation
 - **paywall-upgrade-cro**: For in-app upgrade moments and trial expiration
 - **pricing-strategy**: For plan structure and annual discount strategy
 - **onboarding-cro**: For activation to prevent early churn

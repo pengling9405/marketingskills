@@ -1,6 +1,6 @@
 ---
 name: customer-research
-description: "当用户想开展、分析或汇总 customer research 时使用。用户提到“customer research”“ICP research”“talk to customers”“analyze transcripts”“customer interviews”“survey analysis”“support ticket analysis”“voice of customer”“VOC”“build personas”“JTBD”“Reddit mining”“G2 reviews”“review mining”“community research”“forum research”“competitor reviews”或“find out why customers churn/convert/buy”时也应使用。本技能既适用于分析已有研究材料，也适用于从线上渠道采集新的用户研究素材。若要基于研究撰写文案，请参见 copywriting；若要把研究用于优化页面，请参见 page-cro。"
+description: "当用户想开展、分析或汇总 客户研究 时使用。用户提到“客户研究”“ICP research”“talk to customers”“analyze transcripts”“customer interviews”“survey analysis”“support ticket analysis”“voice of customer”“VOC”“build personas”“JTBD”“Reddit mining”“G2 reviews”“review mining”“community research”“forum research”“competitor reviews”或“find out why customers churn/convert/buy”时也应使用。本技能既适用于分析已有研究材料，也适用于从线上渠道采集新的用户研究素材。若要基于研究撰写文案，请参见 copywriting；若要把研究用于优化页面，请参见 page-cro。"
 metadata:
   version: 1.0.0
 ---

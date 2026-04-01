@@ -146,7 +146,7 @@ Response time is the single biggest factor in lead conversion:
 
 Build routing rules that prioritize speed. Alert reps immediately. Escalate if SLA is missed.
 
-**For routing decision trees and 平台-specific 配置方式**: See [references/routing-rules.md](references/routing-rules.md)
+**For routing decision trees and 平台-specific 配置**: See [references/routing-rules.md](references/routing-rules.md)
 
 ---
 

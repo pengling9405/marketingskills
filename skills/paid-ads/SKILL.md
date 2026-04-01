@@ -239,11 +239,11 @@ LI_LeadGen_CMOs-SaaS_Whitepaper_Mar24
 
 ---
 
-## 平台 配置方式
+## 平台 配置
 
-Before launching 广告活动, ensure proper 跟踪 and 账户 配置方式.
+Before launching 广告活动, ensure proper 跟踪 and 账户 配置.
 
-**For complete 配置方式 checklists by 平台**: See [references/platform-setup-checklists.md](references/platform-setup-checklists.md)
+**For complete 配置 checklists by 平台**: See [references/platform-setup-checklists.md](references/platform-setup-checklists.md)
 
 ### Universal Pre-Launch Checklist
 - [ ] Conversion 跟踪 tested with real conversion
@@ -310,6 +310,6 @@ For 跟踪, see also: [ga4.md](../../tools/integrations/ga4.md), [segment.md](..
 
 - **ad-creative**: For generating and iterating ad headlines, descriptions, and creative at scale
 - **copywriting**: For 落地页 文案 that converts ad traffic
-- **分析-跟踪**: For proper conversion 跟踪 配置方式
+- **分析-跟踪**: For proper conversion 跟踪 配置
 - **ab-test-setup**: For 落地页 测试 to improve ROAS
 - **page-cro**: For optimizing post-click conversion rates

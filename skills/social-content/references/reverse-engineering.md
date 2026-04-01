@@ -90,7 +90,7 @@ Why it works: Pattern interrupt + invites debate
 **Format patterns:**
 - Carousel: Hook slide → 问题 → Solution 步骤 → CTA
 - Thread: Hook → Promise → Deliver → Recap → CTA
-- Story post: Hook → 配置方式 → Conflict → Resolution → Lesson
+- Story post: Hook → 配置 → Conflict → Resolution → Lesson
 
 **CTA patterns:**
 - Question: "What would you add?"

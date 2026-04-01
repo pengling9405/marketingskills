@@ -1,6 +1,6 @@
 ---
 name: cold-email
-description: "用于撰写能获得回复的 B2B cold email 与跟进序列。适用于用户想写 cold outreach、prospecting email、cold email campaign、sales development email 或 SDR email 的场景。用户提到“cold outreach”“prospecting email”“outbound email”“email to leads”“reach out to prospects”“sales email”“follow-up email sequence”或“how do I write a cold email”时也应使用。本技能覆盖标题、开场、正文、CTA、个性化与多触点跟进序列。若是温启动或生命周期邮件，请参见 email-sequence；若是销售支持材料，请参见 sales-enablement。"
+description: "用于撰写能获得回复的 B2B cold email 与跟进序列。适用于用户想写 cold outreach、prospecting email、cold email campaign、sales development email 或 SDR email 的场景。用户提到“cold outreach”“prospecting email”“outbound email”“email to leads”“reach out to prospects”“sales email”“follow-up 邮件序列”或“how do I write a cold email”时也应使用。本技能覆盖标题、开场、正文、CTA、个性化与多触点跟进序列。若是温启动或生命周期邮件，请参见 email-sequence；若是销售支持材料，请参见 sales-enablement。"
 metadata:
   version: 1.1.0
 ---
@@ -151,8 +151,8 @@ Use this data to inform your writing — not as a checklist to satisfy.
 
 ## Related 技能
 
-- **copywriting**: For landing pages and web 文案
-- **email-sequence**: For lifecycle/nurture email sequences (not cold outreach)
+- **copywriting**: For 落地页s and web 文案
+- **email-sequence**: For lifecycle/nurture 邮件序列s (not cold outreach)
 - **social-content**: For LinkedIn and social posts
 - **产品-营销-context**: For establishing foundational positioning
 - **revops**: For lead scoring, routing, and pipeline 管理

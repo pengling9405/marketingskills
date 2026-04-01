@@ -15,7 +15,7 @@ Content management system for blogs and websites.
 
 - **类型**: Application Password, JWT, or OAuth
 - **请求头**: `Authorization: Basic {base64(username:app_password)}`
-- **配置方式**: Users > Your Profile > Application Passwords
+- **配置**: Users > Your Profile > Application Passwords
 
 ## 常见代理操作
 

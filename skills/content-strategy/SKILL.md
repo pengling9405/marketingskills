@@ -1,6 +1,6 @@
 ---
 name: content-strategy
-description: "当用户想规划内容策略、决定该产出什么内容，或判断应该覆盖哪些主题时使用。用户提到“content strategy”“what should I write about”“content ideas”“blog strategy”“topic clusters”“content planning”“editorial calendar”“content marketing”“content roadmap”“blog topics”或“content pillars”时也应使用。本技能适用于帮助用户决定“做什么内容”，而不仅仅是“怎么写内容”。若是撰写单篇内容，请参见 copywriting；若是 SEO 审计，请参见 seo-audit；若是社交媒体内容，请参见 social-content。"
+description: "当用户想规划内容策略、决定该产出什么内容，或判断应该覆盖哪些主题时使用。用户提到“内容策略”“what should I write about”“content ideas”“blog strategy”“topic clusters”“content planning”“editorial calendar”“content marketing”“content roadmap”“blog topics”或“content pillars”时也应使用。本技能适用于帮助用户决定“做什么内容”，而不仅仅是“怎么写内容”。若是撰写单篇内容，请参见 copywriting；若是 SEO 审计，请参见 seo-audit；若是社交媒体内容，请参见 social-content。"
 metadata:
   version: 1.1.0
 ---
@@ -192,11 +192,11 @@ Modifiers: "pricing," "reviews," "demo," "trial," "buy"
 - "[产品] Reviews"
 
 ### 实施方式 Stage
-Modifiers: "templates," "examples," "tutorial," "how to use," "配置方式"
+Modifiers: "templates," "examples," "tutorial," "how to use," "配置"
 
 示例: If support tickets show implementation struggles:
 - "Project Template Library"
-- "Step-by-Step 配置方式 Tutorial"
+- "Step-by-Step 配置 Tutorial"
 - "How to Use [Feature]"
 
 ---
@@ -318,7 +318,7 @@ Score each idea on four factors:
 
 ## 输出格式
 
-When creating a content strategy, provide:
+When creating a 内容策略, provide:
 
 ### 1. 内容 Pillars
 - 3-5 pillars with rationale

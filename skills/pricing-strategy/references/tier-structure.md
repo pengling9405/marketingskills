@@ -133,7 +133,7 @@ Different 客户 have different:
 **Step 3: Price to value for each persona**
 - Research willingness to pay per segment
 - Set prices that capture value without blocking adoption
-- Consider segment-specific landing pages
+- Consider segment-specific 落地页s
 
 ---
 
@@ -158,7 +158,7 @@ Different 客户 have different:
 
 **Free trial works when:**
 - 产品 needs time to demonstrate value
-- Onboarding/配置方式 investment required
+- Onboarding/配置 investment required
 - B2B with buying committees
 - Higher price points
 - 产品 is "sticky" once configured

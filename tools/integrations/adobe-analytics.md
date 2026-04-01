@@ -14,7 +14,7 @@ Enterprise 分析 平台 for cross-channel 衡量 and attribution.
 ## 认证方式
 
 - **类型**: OAuth 2.0 (Service 账户 JWT)
-- **配置方式**: Create integration in Adobe Developer Console
+- **配置**: Create integration in Adobe Developer Console
 - **请求头**: `Authorization: Bearer {access_token}`
 
 ## 常见代理操作

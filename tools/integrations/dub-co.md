@@ -143,7 +143,7 @@ const analytics = await dub.analytics.retrieve({
 - Creating trackable 营销 links
 - Building referral link systems
 - 跟踪 广告活动 attribution
-- A/B 测试 landing pages via links
+- A/B 测试 落地页s via links
 - Generating branded short URLs
 - Analyzing link 表现
 

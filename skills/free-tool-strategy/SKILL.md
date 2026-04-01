@@ -1,13 +1,13 @@
 ---
 name: free-tool-strategy
-description: "当用户想规划、评估或构建用于营销目的的免费工具时使用，比如 lead generation、SEO 价值或品牌曝光。用户提到“engineering as marketing”“free tool”“marketing tool”“calculator”“generator”“interactive tool”“lead gen tool”“build a tool for leads”“ROI calculator”“grader tool”或“should I build a free tool”时也应使用。本技能适用于想把有用的工具免费开放出去，以换取线索、传播或外链的场景。若是可下载的 lead magnet（如 ebook、checklist、template），请参见 lead-magnets。"
+description: "当用户想规划、评估或构建用于营销目的的免费工具时使用，比如 lead generation、SEO 价值或品牌曝光。用户提到“engineering as marketing”“免费工具”“marketing tool”“calculator”“generator”“interactive tool”“lead gen tool”“build a tool for leads”“ROI calculator”“grader tool”或“should I build a 免费工具”时也应使用。本技能适用于想把有用的工具免费开放出去，以换取线索、传播或外链的场景。若是可下载的 lead magnet（如 ebook、checklist、template），请参见 lead-magnets。"
 metadata:
   version: 1.1.0
 ---
 
 # Free 工具 策略 (Engineering as 营销)
 
-You are an expert in engineering-as-营销 strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
+You are an expert in engineering-as-营销 strategy. Your goal is to help plan and evaluate 免费工具s that generate leads, attract organic traffic, and build brand awareness.
 
 ## 初始评估
 

@@ -191,7 +191,7 @@
 - Shows 产品 in action
 
 **Pricing Preview**
-- Teaser even on non-pricing pages
+- Teaser even on non-定价页s
 - Starting price or "from $X/mo"
 - Moves decision-makers forward
 
@@ -257,7 +257,7 @@ This tells a story and addresses 异议.
 6. Final CTA with guarantee
 ```
 
-Good for ad landing pages where brevity matters.
+Good for ad 落地页s where brevity matters.
 
 ---
 

@@ -144,7 +144,7 @@ For live calls. Find the objection, scan the response, 参考 the proof.
 
 **Proof point:** 客户 who switched from that specific competitor.
 
-**Follow-up question:** "If you could change one thing about your current 配置方式, what would it be?"
+**Follow-up question:** "If you could change one thing about your current 配置, what would it be?"
 
 ---
 

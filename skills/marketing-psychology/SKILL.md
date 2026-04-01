@@ -222,7 +222,7 @@ These models help you ethically influence 客户 decisions.
 ### 互惠 Principle
 People feel obligated to return favors. Give first, and people want to give back.
 
-**营销 application**: Free content, free tools, and generous free tiers create reciprocal obligation. Give value before asking for anything.
+**营销 application**: Free content, 免费工具s, and generous free tiers create reciprocal obligation. Give value before asking for anything.
 
 ### 承诺 & Consistency
 Once people commit to something, they want to stay consistent with that 承诺.
@@ -334,7 +334,7 @@ Attention → Interest → Desire → Action. The classic 客户 journey model.
 ### Rule of 7
 Prospects need roughly 7 touchpoints before converting. One ad rarely converts; sustained presence does.
 
-**营销 application**: Build multi-touch 广告活动 across channels. Retargeting, email sequences, and consistent presence compound.
+**营销 application**: Build multi-touch 广告活动 across channels. Retargeting, 邮件序列s, and consistent presence compound.
 
 ### Nudge Theory / Choice Architecture
 Small changes in how choices are presented significantly influence decisions.
