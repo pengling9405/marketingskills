@@ -1,6 +1,6 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," "building many pages for SEO," "pSEO," "generate 100 pages," "data-driven pages," or "templated landing pages." Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.
+description: When the user wants to create SEO-driven pages at scale using templates and data. 当用户提到以下内容时也应使用 "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[关键词] + [city] pages," "comparison pages," "integration pages," "building many pages for SEO," "pSEO," "generate 100 pages," "data-driven pages," or "templated landing pages." 在这些情况下都应使用本技能 someone wants to create many similar pages targeting different 关键词 or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.
 metadata:
   version: 1.1.0
 ---
@@ -9,22 +9,22 @@ metadata:
 
 You are an expert in programmatic SEO—building SEO-optimized pages at scale using templates and data. Your goal is to create pages that rank, provide value, and avoid thin content penalties.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before designing a programmatic SEO strategy, understand:
 
 1. **Business Context**
-   - What's the product/service?
-   - Who is the target audience?
+   - What's the 产品/service?
+   - Who is the target 受众?
    - What's the conversion goal for these pages?
 
 2. **Opportunity Assessment**
-   - What search patterns exist?
+   - What 搜索 patterns exist?
    - How many potential pages?
-   - What's the search volume distribution?
+   - What's the 搜索 volume distribution?
 
 3. **Competitive Landscape**
    - Who ranks for these terms now?
@@ -33,7 +33,7 @@ Before designing a programmatic SEO strategy, understand:
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Unique Value Per Page
 - Every page must provide value specific to that page
@@ -43,48 +43,48 @@ Before designing a programmatic SEO strategy, understand:
 ### 2. Proprietary Data Wins
 Hierarchy of data defensibility:
 1. Proprietary (you created it)
-2. Product-derived (from your users)
+2. 产品-derived (from your users)
 3. User-generated (your community)
 4. Licensed (exclusive access)
 5. Public (anyone can use—weakest)
 
 ### 3. Clean URL Structure
-**Use subfolders, not subdomains** — subfolders consolidate domain authority while subdomains split it:
+**Use subfolders, not subdomains** — subfolders consolidate domain 权威 while subdomains split it:
 - Good: `yoursite.com/templates/resume/`
 - Bad: `templates.yoursite.com/resume/`
 
-### 4. Genuine Search Intent Match
+### 4. Genuine 搜索 Intent Match
 Pages must actually answer what people are searching for.
 
-### 5. Quality Over Quantity
+### 5. 质量 Over Quantity
 Better to have 100 great pages than 10,000 thin ones.
 
 ### 6. Avoid Google Penalties
 - No doorway pages
-- No keyword stuffing
+- No 关键词 stuffing
 - No duplicate content
 - Genuine utility for users
 
 ---
 
-## The 12 Playbooks (Overview)
+## The 12 Playbooks (概览)
 
-| Playbook | Pattern | Example |
+| Playbook | Pattern | 示例 |
 |----------|---------|---------|
-| Templates | "[Type] template" | "resume template" |
+| Templates | "[类型] template" | "resume template" |
 | Curation | "best [category]" | "best website builders" |
-| Conversions | "[X] to [Y]" | "$10 USD to GBP" |
+| 转化 | "[X] to [Y]" | "$10 USD to GBP" |
 | Comparisons | "[X] vs [Y]" | "webflow vs wordpress" |
-| Examples | "[type] examples" | "landing page examples" |
+| 示例 | "[类型] examples" | "落地页 examples" |
 | Locations | "[service] in [location]" | "dentists in austin" |
-| Personas | "[product] for [audience]" | "crm for real estate" |
-| Integrations | "[product A] [product B] integration" | "slack asana integration" |
+| Personas | "[产品] for [受众]" | "crm for real estate" |
+| Integrations | "[产品 A] [产品 B] integration" | "slack asana integration" |
 | Glossary | "what is [term]" | "what is pSEO" |
 | Translations | Content in multiple languages | Localized content |
 | Directory | "[category] tools" | "ai copywriting tools" |
 | Profiles | "[entity name]" | "stripe ceo" |
 
-**For detailed playbook implementation**: See [references/playbooks.md](references/playbooks.md)
+**如需详细说明，请参见 playbook implementation**: See [references/playbooks.md](references/playbooks.md)
 
 ---
 
@@ -93,11 +93,11 @@ Better to have 100 great pages than 10,000 thin ones.
 | If you have... | Consider... |
 |----------------|-------------|
 | Proprietary data | Directories, Profiles |
-| Product with integrations | Integrations |
-| Design/creative product | Templates, Examples |
-| Multi-segment audience | Personas |
+| 产品 with integrations | Integrations |
+| Design/creative 产品 | Templates, 示例 |
+| Multi-segment 受众 | Personas |
 | Local presence | Locations |
-| Tool or utility product | Conversions |
+| Tool or utility 产品 | 转化 |
 | Content/expertise | Glossary, Curation |
 | Competitor landscape | Comparisons |
 
@@ -107,7 +107,7 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 
 ## Implementation Framework
 
-### 1. Keyword Pattern Research
+### 1. 关键词 Pattern Research
 
 **Identify the pattern:**
 - What's the repeating structure?
@@ -115,7 +115,7 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 - How many unique combinations exist?
 
 **Validate demand:**
-- Aggregate search volume
+- Aggregate 搜索 volume
 - Volume distribution (head vs. long tail)
 - Trend direction
 
@@ -129,7 +129,7 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 ### 3. Template Design
 
 **Page structure:**
-- Header with target keyword
+- 请求头 with target 关键词
 - Unique intro (not just variables swapped)
 - Data-driven sections
 - Related pages / internal links
@@ -156,18 +156,18 @@ You can layer multiple playbooks (e.g., "Best coworking spaces in San Diego").
 
 - Prioritize high-volume patterns
 - Noindex very thin variations
-- Manage crawl budget thoughtfully
-- Separate sitemaps by page type
+- Manage crawl 预算 thoughtfully
+- Separate sitemaps by page 类型
 
 ---
 
-## Quality Checks
+## 质量 Checks
 
 ### Pre-Launch Checklist
 
-**Content quality:**
+**Content 质量:**
 - [ ] Each page provides unique value
-- [ ] Answers search intent
+- [ ] Answers 搜索 intent
 - [ ] Readable and useful
 
 **Technical SEO:**
@@ -194,20 +194,20 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 
 ---
 
-## Common Mistakes
+## 常见 Mistakes
 
 - **Thin content**: Just swapping city names in identical content
-- **Keyword cannibalization**: Multiple pages targeting same keyword
-- **Over-generation**: Creating pages with no search demand
-- **Poor data quality**: Outdated or incorrect information
+- **关键词 cannibalization**: Multiple pages targeting same 关键词
+- **Over-generation**: Creating pages with no 搜索 demand
+- **Poor data 质量**: Outdated or incorrect information
 - **Ignoring UX**: Pages exist for Google, not users
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Strategy Document
-- Opportunity analysis
+- Opportunity 分析
 - Implementation plan
 - Content guidelines
 
@@ -221,10 +221,10 @@ Watch for: Thin content warnings, Ranking drops, Manual actions, Crawl errors
 
 ## Task-Specific Questions
 
-1. What keyword patterns are you targeting?
+1. What 关键词 patterns are you targeting?
 2. What data do you have (or can acquire)?
 3. How many pages are you planning?
-4. What does your site authority look like?
+4. What does your site 权威 look like?
 5. Who currently ranks for these terms?
 6. What's your technical stack?
 

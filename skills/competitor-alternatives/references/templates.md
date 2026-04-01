@@ -10,7 +10,7 @@ Ready-to-use templates for each section of competitor comparison pages.
 - Service & Support Comparison
 - Who It's For Section
 - Migration Section
-- Social Proof Section
+- 社会认同 Section
 - Comparison Table Best Practices (beyond checkmarks, organize by category, include ratings where useful)
 
 ## TL;DR Summary
@@ -168,7 +168,7 @@ We offer [migration support details]:
 
 ---
 
-## Social Proof Section
+## 社会认同 Section
 
 Focus on switchers:
 
@@ -204,20 +204,20 @@ Do this:
 | Feature | You | Competitor |
 |---------|-----|-----------|
 | Feature A | Full support with [detail] | Basic support, [limitation] |
-| Feature B | [Specific capability] | Not available |
+| Feature B | [Specific capability] | 不可用 |
 
 ### Organize by Category
 
-Group features into meaningful categories:
+Group 特性 into meaningful categories:
 - Core functionality
 - Collaboration
 - Integrations
-- Security & compliance
+- Security & 遵循率
 - Support & service
 
 ### Include Ratings Where Useful
 
-| Category | You | Competitor | Notes |
+| Category | You | Competitor | 说明 |
 |----------|-----|-----------|-------|
 | Ease of use | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | [Brief note] |
 | Feature depth | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | [Brief note] |

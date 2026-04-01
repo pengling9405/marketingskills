@@ -1,25 +1,25 @@
 # Composio
 
-Managed OAuth and pre-built tool connectors for 500+ apps via a single MCP server. Provides agent-native access to marketing tools that lack native MCP support.
+Managed OAuth and pre-built tool connectors for 500+ apps via a single MCP server. Provides agent-native access to 营销 tools that lack native MCP support.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for managing connections and triggering actions |
 | MCP | ✓ | Single MCP server exposes all connected tools |
 | CLI | ✓ | `npx composio` for managing apps, connections, and actions |
 | SDK | ✓ | TypeScript and Python SDKs |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 (per-tool, managed by Composio) or API Key
-- **Setup**: `npx @composio/mcp@latest setup` to install, then authenticate each tool via Connect Link in browser
+- **类型**: OAuth 2.0 (per-tool, managed by Composio) or API Key
+- **配置方式**: `npx @composio/mcp@latest setup` to install, then authenticate each tool via Connect Link in browser
 - **API Key** (optional): `COMPOSIO_API_KEY` env var for advanced/team usage
 
-Composio handles OAuth token management, refresh, and storage for all connected tools. Individual tool auth types are listed in the Marketing Tools table below.
+Composio handles OAuth token management, refresh, and storage for all connected tools. Individual tool auth types are listed in the 营销 Tools table below.
 
-## When to Use Composio vs. Native Tools
+## 适用场景 Composio vs. Native Tools
 
 Composio is an **alternative integration method**, not a replacement. Use this decision guide:
 
@@ -32,7 +32,7 @@ Composio is an **alternative integration method**, not a replacement. Use this d
 | Need quick read/write access across many tools | Composio |
 | Tool not covered by Composio | Native API guide |
 
-## Setup
+## 配置方式
 
 ### 1. Install the MCP server
 
@@ -65,39 +65,39 @@ For advanced usage or team setups, set your Composio API key:
 export COMPOSIO_API_KEY=your_key_here
 ```
 
-## Marketing Tools Available via Composio
+## 营销 Tools 可用 via Composio
 
 ### New MCP Coverage
 
 These tools have API guides in this repo but **no native MCP server**. Composio adds MCP access:
 
-| Tool | Composio Toolkit | Auth Type | Coverage Depth |
+| Tool | Composio Toolkit | Auth 类型 | Coverage Depth |
 |------|-----------------|-----------|----------------|
 | HubSpot | `HUBSPOT` | OAuth 2.0 | Deep (contacts, deals, companies, lists, email) |
 | Salesforce | `SALESFORCE` | OAuth 2.0 | Deep (SOQL, objects, leads, opportunities) |
-| Meta Ads | `FACEBOOKADS` | OAuth 2.0 | Medium (campaigns, ad sets, insights) |
-| LinkedIn Ads | `LINKEDIN` | OAuth 2.0 | Medium (campaigns, analytics, company pages) |
+| Meta Ads | `FACEBOOKADS` | OAuth 2.0 | Medium (广告活动, ad sets, insights) |
+| LinkedIn Ads | `LINKEDIN` | OAuth 2.0 | Medium (广告活动, 分析, company pages) |
 | Google Sheets | `GOOGLESHEETS` | OAuth 2.0 | Deep (read, write, create, format) |
 | Slack | `SLACK` | OAuth 2.0 | Deep (messages, channels, files) |
 | Notion | `NOTION` | OAuth 2.0 | Deep (pages, databases, blocks) |
 | Airtable | `AIRTABLE` | OAuth 2.0 | Deep (records, tables, views) |
 | ActiveCampaign | `ACTIVECAMPAIGN` | API Key | Medium (contacts, lists, automations) |
-| Klaviyo | `KLAVIYO` | API Key | Medium (profiles, lists, campaigns) |
-| Shopify | `SHOPIFY` | OAuth 2.0 | Deep (products, orders, customers) |
-| Gmail | `GMAIL` | OAuth 2.0 | Deep (read, send, labels, search) |
+| Klaviyo | `KLAVIYO` | API Key | Medium (profiles, lists, 广告活动) |
+| Shopify | `SHOPIFY` | OAuth 2.0 | Deep (products, orders, 客户) |
+| Gmail | `GMAIL` | OAuth 2.0 | Deep (read, send, labels, 搜索) |
 
 ### Alternative to Existing Tools
 
 These tools **already have native MCP or CLI** in this repo. Composio provides an alternative path:
 
-| Tool | Native Integration | Composio Toolkit | When to Use Composio |
+| Tool | Native Integration | Composio Toolkit | 适用场景 Composio |
 |------|-------------------|-----------------|---------------------|
-| Mailchimp | MCP ✓, CLI ✓ | `MAILCHIMP` | If native MCP setup fails |
+| Mailchimp | MCP ✓, CLI ✓ | `MAILCHIMP` | If native MCP 配置方式 fails |
 | Google Ads | MCP ✓, CLI ✓ | `GOOGLEADS` | If OAuth is simpler via Composio |
 | Stripe | MCP ✓, CLI ✓ | `STRIPE` | Prefer native (deeper coverage) |
 | GA4 | MCP ✓, CLI ✓ | `GOOGLEANALYTICS` | Prefer native (deeper coverage) |
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List available tools
 
@@ -131,7 +131,7 @@ POST https://backend.composio.dev/api/v1/actions/{action_id}/execute
 npx composio connections remove {connection_id}
 ```
 
-## Example Workflows
+## 示例 工作流
 
 ### Pull CRM data into a spreadsheet
 
@@ -140,12 +140,12 @@ npx composio connections remove {connection_id}
 ```
 Agent uses Composio's `HUBSPOT` to fetch contacts and `GOOGLESHEETS` to write rows.
 
-### Cross-platform ad reporting
+### Cross-平台 ad reporting
 
 ```
 > "Compare my Meta Ads and LinkedIn Ads spend this month"
 ```
-Agent uses `FACEBOOKADS` and `LINKEDIN` toolkits to pull campaign data.
+Agent uses `FACEBOOKADS` and `LINKEDIN` toolkits to pull 广告活动 data.
 
 ### Notify team about new leads
 
@@ -159,19 +159,19 @@ Agent uses `SALESFORCE` to read leads and `SLACK` to post messages.
 - **Coverage depth varies** — some toolkits expose hundreds of actions (HubSpot, Google Sheets), others only a handful
 - **No customization** — you can't modify Composio's action schemas or add custom endpoints
 - **Vendor dependency** — if Composio's servers are down, all connected tools are unavailable
-- **Rate limits apply** — Composio enforces its own rate limits on top of each tool's native limits
+- **速率限制 apply** — Composio enforces its own 速率限制 on top of each tool's native limits
 - **OAuth tokens** — managed by Composio; you don't control token refresh or storage
 - **Action naming** — Composio action names may differ from native API terminology
 
 ## Pricing
 
-| Plan | Monthly Price | API Calls | Notes |
+| Plan | Monthly Price | API Calls | 说明 |
 |------|--------------|-----------|-------|
 | Free | $0 | 20,000 | Good for exploration and personal use |
 | Growth | $29 | 200,000 | For regular use across multiple tools |
 | Business | $229 | 2,000,000 | For teams and heavy automation |
 
-## Rate Limits
+## 速率限制
 
 - Free tier: 20,000 calls/month, 10 req/sec
 - Growth tier: 200,000 calls/month, 50 req/sec
@@ -180,11 +180,11 @@ Agent uses `SALESFORCE` to read leads and `SLACK` to post messages.
 ## See Also
 
 - [Quick start guide](../composio/README.md) — install, connect, and use in 5 minutes
-- [Marketing tools mapping](../composio/marketing-tools.md) — detailed toolkit-to-category reference
+- [Marketing tools mapping](../composio/marketing-tools.md) — detailed toolkit-to-category 参考
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking (cross-platform data via Composio connectors)
+- 分析-跟踪 (cross-平台 data via Composio connectors)
 - email-sequence (ActiveCampaign, Klaviyo access)
 - paid-ads (Meta Ads, LinkedIn Ads MCP access)
 - referral-program (Shopify integration)

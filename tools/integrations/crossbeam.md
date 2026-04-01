@@ -1,23 +1,23 @@
 # Crossbeam
 
-Partner ecosystem platform (now part of Reveal) for sharing account data with partners to identify co-sell opportunities, overlapping customers, and partner-sourced pipeline.
+Partner ecosystem 平台 (now part of Reveal) for sharing 账户 data with partners to identify co-sell opportunities, overlapping 客户, and partner-sourced pipeline.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Partners, Populations, Overlaps, Reports, Threads |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/crossbeam) |
 | CLI | ✓ | [crossbeam.js](../clis/crossbeam.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API at https://app.crossbeam.com
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Partners
 
@@ -54,7 +54,7 @@ GET https://api.crossbeam.com/v1/overlaps/{id}
 Authorization: Bearer {api_key}
 ```
 
-### Search Accounts
+### 搜索 Accounts
 
 ```bash
 GET https://api.crossbeam.com/v1/accounts/search?domain={domain}
@@ -75,7 +75,7 @@ GET https://api.crossbeam.com/v1/threads
 Authorization: Bearer {api_key}
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Partner Data
 - `id` - Partner ID
@@ -86,7 +86,7 @@ Authorization: Bearer {api_key}
 
 ### Population Data
 - `id` - Population ID
-- `name` - Population name (e.g., "Customers", "Open Opportunities")
+- `name` - Population name (e.g., "客户", "Open Opportunities")
 - `record_count` - Number of records in population
 - `partner_visibility` - What partners can see
 
@@ -94,14 +94,14 @@ Authorization: Bearer {api_key}
 - `id` - Overlap ID
 - `partner_id` - Partner involved
 - `population_id` - Population matched
-- `account_name` - Overlapping account name
-- `overlap_type` - Type of overlap (customer, prospect, etc.)
+- `account_name` - Overlapping 账户 name
+- `overlap_type` - 类型 of overlap (客户, prospect, etc.)
 - `match_confidence` - Match confidence score
 
 ### Report Data
 - `id` - Report ID
 - `name` - Report name
-- `type` - Report type
+- `type` - Report 类型
 - `created_at` - Creation date
 - `results` - Report results data
 
@@ -111,25 +111,25 @@ Authorization: Bearer {api_key}
 - `partner_id` - Filter by specific partner
 - `population_id` - Filter by specific population
 
-### Accounts Search
-- `domain` - Company domain to search for
+### Accounts 搜索
+- `domain` - Company domain to 搜索 for
 
-## When to Use
+## 适用场景
 
 - Identifying co-sell opportunities with channel partners
-- Finding overlapping customers and prospects across partner ecosystems
+- Finding overlapping 客户 and prospects across partner ecosystems
 - Building partner-sourced pipeline by matching accounts
-- Tracking partner influence on deals
-- Creating account mapping reports for partner meetings
+- 跟踪 partner influence on deals
+- Creating 账户 mapping reports for partner meetings
 - Prioritizing which partners to engage based on overlap data
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Standard: 100 requests/minute
 - Pagination supported on list endpoints
 
-## Relevant Skills
+## 相关技能
 
 - revops
 - sales-enablement

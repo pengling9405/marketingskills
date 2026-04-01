@@ -1,24 +1,24 @@
-# Schema Markup Examples
+# Schema Markup 示例
 
-Complete JSON-LD examples for common schema types.
+Complete JSON-LD examples for 常见 schema types.
 
 ## Contents
 - Organization
 - WebSite (with SearchAction)
 - Article / BlogPosting
-- Product
+- 产品
 - SoftwareApplication
 - FAQPage
 - HowTo
 - BreadcrumbList
 - LocalBusiness
-- Event
+- 事件
 - Multiple Schema Types
-- Implementation Example (Next.js)
+- Implementation 示例 (Next.js)
 
 ## Organization
 
-For company/brand homepage or about page.
+For company/brand 首页 or 关于页.
 
 ```json
 {
@@ -44,7 +44,7 @@ For company/brand homepage or about page.
 
 ## WebSite (with SearchAction)
 
-For homepage, enables sitelinks search box.
+For 首页, enables sitelinks 搜索 box.
 
 ```json
 {
@@ -100,9 +100,9 @@ For blog posts and news articles.
 
 ---
 
-## Product
+## 产品
 
-For product pages (e-commerce or SaaS).
+For 产品 pages (e-commerce or SaaS).
 
 ```json
 {
@@ -136,7 +136,7 @@ For product pages (e-commerce or SaaS).
 
 ## SoftwareApplication
 
-For SaaS product pages and app landing pages.
+For SaaS 产品 pages and app landing pages.
 
 ```json
 {
@@ -298,9 +298,9 @@ For local business location pages.
 
 ---
 
-## Event
+## 事件
 
-For event pages, webinars, conferences.
+For 事件 pages, webinars, conferences.
 
 ```json
 {
@@ -372,7 +372,7 @@ Combine multiple schema types using @graph.
 
 ---
 
-## Implementation Example (Next.js)
+## Implementation 示例 (Next.js)
 
 ```jsx
 export default function ProductPage({ product }) {

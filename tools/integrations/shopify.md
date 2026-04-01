@@ -1,23 +1,23 @@
 # Shopify
 
-E-commerce platform for online stores and retail.
+E-commerce 平台 for online stores and retail.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST Admin API, Storefront API, GraphQL |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | Shopify CLI for themes and apps |
 | SDK | ✓ | Official libraries for multiple languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: Access Token (Custom App or OAuth)
-- **Header**: `X-Shopify-Access-Token: {access_token}`
+- **类型**: Access Token (Custom App or OAuth)
+- **请求头**: `X-Shopify-Access-Token: {access_token}`
 - **Base URL**: `https://{shop}.myshopify.com/admin/api/2024-01/`
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get shop info
 
@@ -35,7 +35,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/products.json?limit=50
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Get product
+### Get 产品
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/products/{product_id}.json
@@ -43,7 +43,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/products/{product_id}.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Create product
+### Create 产品
 
 ```bash
 POST https://{shop}.myshopify.com/admin/api/2024-01/products.json
@@ -80,7 +80,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/orders/{order_id}.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-### List customers
+### List 客户
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/customers.json?limit=50
@@ -88,7 +88,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/customers.json?limit=50
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Search customers
+### 搜索 客户
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/customers/search.json?query=email:user@example.com
@@ -96,7 +96,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/customers/search.json?query=e
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Get analytics
+### Get 分析
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/reports.json
@@ -151,26 +151,26 @@ shopify app create node
 | `orders/create` | New order |
 | `orders/paid` | Order paid |
 | `orders/fulfilled` | Order shipped |
-| `customers/create` | New customer |
-| `products/update` | Product changed |
+| `customers/create` | New 客户 |
+| `products/update` | 产品 changed |
 | `checkouts/create` | Checkout started |
 
-## When to Use
+## 适用场景
 
-- E-commerce store management
-- Product catalog operations
+- E-commerce store 管理
+- 产品 catalog 操作
 - Order processing
-- Customer data management
-- Inventory tracking
+- 客户 data 管理
+- Inventory 跟踪
 
-## Rate Limits
+## 速率限制
 
 - REST: 2 requests/second
 - GraphQL: 50 points/second
-- Bulk operations available
+- Bulk 操作 available
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - email-sequence
 - referral-program

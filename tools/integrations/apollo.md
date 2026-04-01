@@ -1,25 +1,25 @@
 # Apollo.io
 
-B2B prospecting and data enrichment platform with 210M+ contacts and 35M+ companies for sales intelligence.
+B2B prospecting and data enrichment 平台 with 210M+ contacts and 35M+ companies for sales intelligence.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | People Search, Company Search, Enrichment, Sequences |
-| MCP | - | Not available |
+| API | ✓ | People 搜索, Company 搜索, Enrichment, Sequences |
+| MCP | - | 不可用 |
 | CLI | ✓ | [apollo.js](../clis/apollo.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `x-api-key: {api_key}` or `Authorization: Bearer {token}`
+- **类型**: API Key
+- **请求头**: `x-api-key: {api_key}` or `Authorization: Bearer {token}`
 - **Get key**: Settings > Integrations > API at https://app.apollo.io
 
-## Common Agent Operations
+## 常见代理操作
 
-### People Search
+### People 搜索
 
 ```bash
 POST https://api.apollo.io/api/v1/mixed_people/api_search
@@ -57,7 +57,7 @@ POST https://api.apollo.io/api/v1/people/bulk_match
 }
 ```
 
-### Organization Search
+### Organization 搜索
 
 ```bash
 POST https://api.apollo.io/api/v1/mixed_companies/search
@@ -79,7 +79,7 @@ POST https://api.apollo.io/api/v1/organizations/enrich
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Person Data
 - `first_name`, `last_name` - Name
@@ -101,7 +101,7 @@ POST https://api.apollo.io/api/v1/organizations/enrich
 
 ## Parameters
 
-### People Search
+### People 搜索
 - `person_titles` - Array of job titles
 - `person_locations` - Array of locations
 - `person_seniorities` - Array: owner, founder, c_suite, partner, vp, head, director, manager, senior, entry
@@ -117,29 +117,29 @@ POST https://api.apollo.io/api/v1/organizations/enrich
 - `reveal_personal_emails` - Include personal emails
 - `reveal_phone_number` - Include phone numbers
 
-### Organization Search
+### Organization 搜索
 - `organization_locations` - Array of locations
 - `organization_num_employees_ranges` - Employee count ranges
 - `organization_ids` - Specific org IDs
 - `page` - Page number
 
-## When to Use
+## 适用场景
 
 - Building targeted prospect lists by role, seniority, and company size
 - Enriching leads with verified contact info
 - Finding decision-makers at target accounts
-- Company research and firmographic analysis
-- ABM campaign targeting
+- Company research and firmographic 分析
+- ABM 广告活动 targeting
 - Sales intelligence and outbound prospecting
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Standard: 100 requests/minute for most endpoints
 - Bulk enrichment: up to 10 people per request
-- Search: max 50,000 records (100 per page, 500 pages)
+- 搜索: max 50,000 records (100 per page, 500 pages)
 
-## Relevant Skills
+## 相关技能
 
 - abm-strategy
 - lead-enrichment

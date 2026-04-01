@@ -1,53 +1,53 @@
-# AI Writing Detection
+# AI 写作识别
 
-Words, phrases, and punctuation patterns commonly associated with AI-generated text. Avoid these to ensure writing sounds natural and human.
+以下这些词语、短语和标点模式，通常与 AI 生成文本强相关。尽量避开它们，能让文字听起来更自然、更像真人写的。
 
-Sources: Grammarly (2025), Microsoft 365 Life Hacks (2025), GPTHuman (2025), Walter Writes (2025), Textero (2025), Plagiarism Today (2025), Rolling Stone (2025), MDPI Blog (2025)
+来源：Grammarly（2025）、Microsoft 365 Life Hacks（2025）、GPTHuman（2025）、Walter Writes（2025）、Textero（2025）、Plagiarism Today（2025）、Rolling Stone（2025）、MDPI Blog（2025）
 
 ---
 
-## Contents
-- Em Dashes: The Primary AI Tell
-- Overused Verbs
-- Overused Adjectives
-- Overused Transitions and Connectors
-- Phrases That Signal AI Writing (Opening Phrases, Transitional Phrases, Concluding Phrases, Structural Patterns)
-- Filler Words and Empty Intensifiers
-- Academic-Specific AI Tells
-- How to Self-Check
+## 目录
+- 破折号：最明显的 AI 痕迹
+- 过度使用的动词
+- 过度使用的形容词
+- 过度使用的转折词和连接词
+- 暴露 AI 痕迹的短语（开头、过渡、结尾、结构模式）
+- 填充词与空洞强化词
+- 学术写作中特有的 AI 痕迹
+- 如何自查
 
-## Em Dashes: The Primary AI Tell
+## 破折号：最明显的 AI 痕迹
 
-**The em dash (—) has become one of the most reliable markers of AI-generated content.**
+**英文长破折号（—）已经成为识别 AI 生成内容最可靠的标记之一。**
 
-Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, or parenthetical information. While they have legitimate uses in writing, AI models drastically overuse them.
+长破折号比普通连字符（-）更长，常用于强调、插入语或补充说明。它本身并没有问题，但 AI 模型会明显过度使用它。
 
-### Why Em Dashes Signal AI Writing
-- AI models were trained on edited books, academic papers, and style guides where em dashes appear frequently
-- AI uses em dashes as a shortcut for sentence variety instead of commas, colons, or parentheses
-- Most human writers rarely use em dashes because they don't exist as a standard keyboard key
-- The overuse is so consistent that it has become the unofficial signature of ChatGPT writing
+### 为什么长破折号容易暴露 AI 写作
+- AI 模型大量学习过经编辑的书籍、学术论文和写作指南，而这些材料中长破折号出现得很频繁
+- AI 常把长破折号当成制造句式变化的捷径，而不是使用逗号、冒号或括号
+- 大多数真人写作者很少主动输入长破折号，因为它并不是标准键盘上的常用按键
+- 这种过度使用已经稳定到足以成为 ChatGPT 风格写作的“非官方签名”
 
-### What To Do Instead
-| Instead of | Use |
+### 更好的替代方式
+| 不要写 | 改成 |
 |------------|-----|
 | The results—which were surprising—showed... | The results, which were surprising, showed... |
 | This approach—unlike traditional methods—allows... | This approach, unlike traditional methods, allows... |
 | The study found—as expected—that... | The study found, as expected, that... |
 | Communication skills—both written and verbal—are essential | Communication skills (both written and verbal) are essential |
 
-### Guidelines
-- Use commas for most parenthetical information
-- Use colons to introduce explanations or lists
-- Use parentheses for supplementary information
-- Reserve em dashes for rare, deliberate emphasis only
-- If you find yourself using more than one em dash per page, revise
+### 使用建议
+- 大多数插入说明改用逗号
+- 引出解释或列表时用冒号
+- 补充信息优先用括号
+- 长破折号只保留给少量、刻意的强调
+- 如果一页里出现超过一个长破折号，通常就该重写
 
 ---
 
-## Overused Verbs
+## 过度使用的动词
 
-| Avoid | Use Instead |
+| 避免 | 替代表达 |
 |-------|-------------|
 | delve (into) | explore, examine, investigate, look at |
 | leverage | use, apply, draw on |
@@ -67,9 +67,9 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 
 ---
 
-## Overused Adjectives
+## 过度使用的形容词
 
-| Avoid | Use Instead |
+| 避免 | 替代表达 |
 |-------|-------------|
 | robust | strong, reliable, thorough, solid |
 | comprehensive | complete, thorough, full, detailed |
@@ -88,9 +88,9 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 
 ---
 
-## Overused Transitions and Connectors
+## 过度使用的转折词和连接词
 
-| Avoid | Use Instead |
+| 避免 | 替代表达 |
 |-------|-------------|
 | furthermore | also, in addition, and |
 | moreover | also, and, besides |
@@ -105,9 +105,9 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 
 ---
 
-## Phrases That Signal AI Writing
+## 容易暴露 AI 痕迹的短语
 
-### Opening Phrases to Avoid
+### 需要避免的开头短语
 - "In today's fast-paced world..."
 - "In today's digital age..."
 - "In an era of..."
@@ -117,7 +117,7 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 - "Let's delve into..."
 - "Imagine a world where..."
 
-### Transitional Phrases to Avoid
+### 需要避免的过渡短语
 - "That being said..."
 - "With that in mind..."
 - "It's worth mentioning that..."
@@ -126,7 +126,7 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 - "In essence..."
 - "This begs the question..."
 
-### Concluding Phrases to Avoid
+### 需要避免的结尾短语
 - "In conclusion..."
 - "To sum up..."
 - "By [doing X], you can [achieve Y]..."
@@ -134,17 +134,17 @@ Em dashes are longer than hyphens (-) and are used for emphasis, interruptions, 
 - "All things considered..."
 - "At the end of the day..."
 
-### Structural Patterns to Avoid
-- "Whether you're a [X], [Y], or [Z]..." (listing three examples after "whether")
+### 需要避免的结构模式
+- "Whether you're a [X], [Y], or [Z]..."（在 whether 后面连续列三个例子）
 - "It's not just [X], it's also [Y]..."
 - "Think of [X] as [elaborate metaphor]..."
-- Starting sentences with "By" followed by a gerund: "By understanding X, you can Y..."
+- 句子以 "By" + 动名词开头，例如："By understanding X, you can Y..."
 
 ---
 
-## Filler Words and Empty Intensifiers
+## 填充词与空洞强化词
 
-These words often add nothing to meaning. Remove them or find specific alternatives:
+这些词通常不会增加实际信息。能删就删，或者换成更具体的说法：
 
 - absolutely
 - actually
@@ -171,9 +171,9 @@ These words often add nothing to meaning. Remove them or find specific alternati
 
 ---
 
-## Academic-Specific AI Tells
+## 学术写作中特有的 AI 痕迹
 
-| Avoid | Use Instead |
+| 避免 | 替代表达 |
 |-------|-------------|
 | shed light on | clarify, explain, reveal |
 | pave the way for | enable, allow, make possible |
@@ -186,15 +186,15 @@ These words often add nothing to meaning. Remove them or find specific alternati
 | in light of | because of, given, considering |
 | with respect to | about, regarding, for |
 | in terms of | regarding, for, about |
-| the fact that | that (or rewrite sentence) |
+| the fact that | that（或者直接重写整句） |
 
 ---
 
-## How to Self-Check
+## 如何自查
 
-1. Read your text aloud. If phrases sound unnatural in speech, revise them
-2. Ask: "Would I say this in a conversation with a colleague?"
-3. Check for repetitive sentence structures
-4. Look for clusters of the words listed above
-5. Ensure varied sentence lengths (not all similar length)
-6. Verify each intensifier adds genuine meaning
+1. 把文字大声读出来。如果它听起来不像正常说话方式，就改掉
+2. 问自己一句：`我会这样跟同事说话吗？`
+3. 检查句式是否反复重复
+4. 留意上面这些高风险词是否成片出现
+5. 确保句长有变化，不要所有句子都一样长
+6. 确认每个强化词都真的增加了意义

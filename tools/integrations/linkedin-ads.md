@@ -1,23 +1,23 @@
 # LinkedIn Ads
 
-B2B advertising platform with professional targeting.
+B2B advertising 平台 with professional targeting.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Marketing API for campaigns, audiences, analytics |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | 营销 API for 广告活动, audiences, 分析 |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | - | API-only (community libraries available) |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0
-- **Header**: `Authorization: Bearer {access_token}`
-- **Scopes**: `r_ads`, `r_ads_reporting`, `rw_ads`
+- **类型**: OAuth 2.0
+- **请求头**: `Authorization: Bearer {access_token}`
+- **作用域**: `r_ads`, `r_ads_reporting`, `rw_ads`
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get ad accounts
 
@@ -27,7 +27,7 @@ GET https://api.linkedin.com/v2/adAccountsV2?q=search
 Authorization: Bearer {access_token}
 ```
 
-### Get campaigns
+### Get 广告活动
 
 ```bash
 GET https://api.linkedin.com/v2/adCampaignsV2?q=search&search.account.values[0]=urn:li:sponsoredAccount:{account_id}
@@ -35,7 +35,7 @@ GET https://api.linkedin.com/v2/adCampaignsV2?q=search&search.account.values[0]=
 Authorization: Bearer {access_token}
 ```
 
-### Get campaign analytics
+### Get 广告活动 分析
 
 ```bash
 GET https://api.linkedin.com/v2/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&dateRange.start.year=2024&dateRange.start.month=1&dateRange.start.day=1&dateRange.end.year=2024&dateRange.end.month=1&dateRange.end.day=31&campaigns=urn:li:sponsoredCampaign:{campaign_id}&fields=impressions,clicks,costInLocalCurrency,conversions
@@ -43,7 +43,7 @@ GET https://api.linkedin.com/v2/adAnalyticsV2?q=analytics&pivot=CAMPAIGN&dateRan
 Authorization: Bearer {access_token}
 ```
 
-### Create campaign
+### Create 广告活动
 
 ```bash
 POST https://api.linkedin.com/v2/adCampaignsV2
@@ -67,7 +67,7 @@ Authorization: Bearer {access_token}
 }
 ```
 
-### Update campaign status
+### Update 广告活动 status
 
 ```bash
 POST https://api.linkedin.com/v2/adCampaignsV2/{campaign_id}
@@ -91,7 +91,7 @@ GET https://api.linkedin.com/v2/adCreativesV2?q=search&search.campaign.values[0]
 Authorization: Bearer {access_token}
 ```
 
-### Get audience counts
+### Get 受众 counts
 
 ```bash
 POST https://api.linkedin.com/v2/audienceCountsV2
@@ -109,17 +109,17 @@ POST https://api.linkedin.com/v2/audienceCountsV2
 }
 ```
 
-## Key Metrics
+## 核心指标
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
-| `impressions` | Ad impressions |
-| `clicks` | Total clicks |
+| `impressions` | Ad 曝光 |
+| `clicks` | Total 点击 |
 | `costInLocalCurrency` | Spend |
 | `conversions` | Conversion count |
 | `leadGenerationMailContactInfoShares` | Lead form submissions |
 
-## Campaign Types
+## 广告活动 Types
 
 - `SPONSORED_UPDATES` - Sponsored content
 - `TEXT_AD` - Text ads
@@ -146,19 +146,19 @@ POST https://api.linkedin.com/v2/audienceCountsV2
 - Schools
 - Degrees
 
-## When to Use
+## 适用场景
 
 - B2B advertising
 - Job title targeting
-- Account-based marketing
-- Lead generation campaigns
+- 账户-based 营销
+- Lead generation 广告活动
 
-## Rate Limits
+## 速率限制
 
 - 100 requests/day (basic)
-- 10,000 requests/day (Marketing Developer Platform)
+- 10,000 requests/day (营销 Developer 平台)
 
-## Relevant Skills
+## 相关技能
 
 - paid-ads
-- analytics-tracking
+- 分析-跟踪

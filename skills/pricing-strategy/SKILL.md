@@ -1,36 +1,36 @@
 ---
 name: pricing-strategy
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro."
+description: "When the user wants help with pricing decisions, packaging, or monetization strategy. 当用户提到以下内容时也应使用 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' '定价页,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' 在这些情况下都应使用本技能 someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro."
 metadata:
   version: 1.1.0
 ---
 
 # Pricing Strategy
 
-You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
+You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with 客户 willingness to pay.
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
 ### 1. Business Context
-- What type of product? (SaaS, marketplace, e-commerce, service)
+- What 类型 of 产品? (SaaS, marketplace, e-commerce, service)
 - What's your current pricing (if any)?
 - What's your target market? (SMB, mid-market, enterprise)
 - What's your go-to-market motion? (self-serve, sales-led, hybrid)
 
 ### 2. Value & Competition
 - What's the primary value you deliver?
-- What alternatives do customers consider?
+- What alternatives do 客户 consider?
 - How do competitors price?
 
-### 3. Current Performance
-- What's your current conversion rate?
+### 3. Current 表现
+- What's your current 转化率?
 - What's your ARPU and churn rate?
-- Any feedback on pricing from customers/prospects?
+- Any feedback on pricing from 客户/prospects?
 
 ### 4. Goals
 - Optimizing for growth, revenue, or profitability?
@@ -43,7 +43,7 @@ Gather this context (ask if not provided):
 ### The Three Pricing Axes
 
 **1. Packaging** — What's included at each tier?
-- Features, limits, support level
+- 特性, limits, support level
 - How tiers differ from each other
 
 **2. Pricing Metric** — What do you charge for?
@@ -58,7 +58,7 @@ Gather this context (ask if not provided):
 
 Price should be based on value delivered, not cost to serve:
 
-- **Customer's perceived value** — The ceiling
+- **客户's perceived value** — The ceiling
 - **Your price** — Between alternatives and perceived value
 - **Next best alternative** — The floor for differentiation
 - **Your cost to serve** — Only a baseline, not the basis
@@ -67,21 +67,21 @@ Price should be based on value delivered, not cost to serve:
 
 ---
 
-## Value Metrics
+## Value 指标
 
 ### What is a Value Metric?
 
-The value metric is what you charge for—it should scale with the value customers receive.
+The value metric is what you charge for—it should scale with the value 客户 receive.
 
-**Good value metrics:**
+**Good value 指标:**
 - Align price with value delivered
 - Are easy to understand
-- Scale as customer grows
+- Scale as 客户 grows
 - Are hard to game
 
-### Common Value Metrics
+### 常见 Value 指标
 
-| Metric | Best For | Example |
+| Metric | Best For | 示例 |
 |--------|----------|---------|
 | Per user/seat | Collaboration tools | Slack, Notion |
 | Per usage | Variable consumption | AWS, Twilio |
@@ -92,28 +92,28 @@ The value metric is what you charge for—it should scale with the value custome
 
 ### Choosing Your Value Metric
 
-Ask: "As a customer uses more of [metric], do they get more value?"
+Ask: "As a 客户 uses more of [metric], do they get more value?"
 - If yes → good value metric
 - If no → price doesn't align with value
 
 ---
 
-## Tier Structure Overview
+## Tier Structure 概览
 
 ### Good-Better-Best Framework
 
-**Good tier (Entry):** Core features, limited usage, low price
-**Better tier (Recommended):** Full features, reasonable limits, anchor price
-**Best tier (Premium):** Everything, advanced features, 2-3x Better price
+**Good tier (Entry):** Core 特性, limited usage, low price
+**Better tier (Recommended):** Full 特性, reasonable limits, anchor price
+**Best tier (Premium):** Everything, advanced 特性, 2-3x Better price
 
 ### Tier Differentiation
 
-- **Feature gating** — Basic vs. advanced features
-- **Usage limits** — Same features, different limits
+- **Feature gating** — Basic vs. advanced 特性
+- **Usage limits** — Same 特性, different limits
 - **Support level** — Email → Priority → Dedicated
 - **Access** — API, SSO, custom branding
 
-**For detailed tier structures and persona-based packaging**: See [references/tier-structure.md](references/tier-structure.md)
+**如需详细说明，请参见 tier structures and persona-based packaging**: See [references/tier-structure.md](references/tier-structure.md)
 
 ---
 
@@ -123,7 +123,7 @@ Ask: "As a customer uses more of [metric], do they get more value?"
 
 Four questions that identify acceptable price range:
 1. Too expensive (wouldn't consider)
-2. Too cheap (question quality)
+2. Too cheap (question 质量)
 3. Expensive but might consider
 4. A bargain
 
@@ -131,12 +131,12 @@ Analyze intersections to find optimal pricing zone.
 
 ### MaxDiff Analysis
 
-Identifies which features customers value most:
-- Show sets of features
+Identifies which 特性 客户 value most:
+- Show sets of 特性
 - Ask: Most important? Least important?
 - Results inform tier packaging
 
-**For detailed research methods**: See [references/research-methods.md](references/research-methods.md)
+**如需详细说明，请参见 research methods**: See [references/research-methods.md](references/research-methods.md)
 
 ---
 
@@ -154,34 +154,34 @@ Identifies which features customers value most:
 - Very low churn (<3% monthly)
 - Strong unit economics
 
-**Product signals:**
+**产品 signals:**
 - Significant value added since last pricing
-- Product more mature/stable
+- 产品 more mature/stable
 
 ### Price Increase Strategies
 
-1. **Grandfather existing** — New price for new customers only
+1. **Grandfather existing** — New price for new 客户 only
 2. **Delayed increase** — Announce 3-6 months out
-3. **Tied to value** — Raise price but add features
+3. **Tied to value** — Raise price but add 特性
 4. **Plan restructure** — Change plans entirely
 
 ---
 
-## Pricing Page Best Practices
+## 定价页 Best Practices
 
-### Above the Fold
+### 首屏区域
 - Clear tier comparison table
 - Recommended tier highlighted
 - Monthly/annual toggle
 - Primary CTA for each tier
 
-### Common Elements
+### 常见 Elements
 - Feature comparison table
 - Who each tier is for
 - FAQ section
 - Annual discount callout (17-20%)
 - Money-back guarantee
-- Customer logos/trust signals
+- 客户 logos/trust signals
 
 ### Pricing Psychology
 - **Anchoring:** Show higher-priced option first
@@ -194,16 +194,16 @@ Identifies which features customers value most:
 ## Pricing Checklist
 
 ### Before Setting Prices
-- [ ] Defined target customer personas
+- [ ] Defined target 客户 personas
 - [ ] Researched competitor pricing
 - [ ] Identified your value metric
-- [ ] Conducted willingness-to-pay research
-- [ ] Mapped features to tiers
+- [ ] Conducted willingness-to-pay 调研
+- [ ] Mapped 特性 to tiers
 
 ### Pricing Structure
 - [ ] Chosen number of tiers
 - [ ] Differentiated tiers clearly
-- [ ] Set price points based on research
+- [ ] Set price points based on 调研
 - [ ] Created annual discount strategy
 - [ ] Planned enterprise/custom tier
 
@@ -212,7 +212,7 @@ Identifies which features customers value most:
 ## Task-Specific Questions
 
 1. What pricing research have you done?
-2. What's your current ARPU and conversion rate?
+2. What's your current ARPU and 转化率?
 3. What's your primary value metric?
 4. Who are your main pricing personas?
 5. Are you self-serve, sales-led, or hybrid?
@@ -223,9 +223,9 @@ Identifies which features customers value most:
 ## Related Skills
 
 - **churn-prevention**: For cancel flows, save offers, and reducing revenue churn
-- **page-cro**: For optimizing pricing page conversion
-- **copywriting**: For pricing page copy
-- **marketing-psychology**: For pricing psychology principles
-- **ab-test-setup**: For testing pricing changes
+- **page-cro**: For optimizing 定价页 conversion
+- **copywriting**: For 定价页 文案
+- **营销-psychology**: For pricing psychology principles
+- **ab-test-配置方式**: For 测试 pricing changes
 - **revops**: For deal desk processes and pipeline pricing
 - **sales-enablement**: For proposal templates and pricing presentations

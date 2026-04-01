@@ -6,7 +6,7 @@ Ready-to-use templates for different platforms and content types.
 - LinkedIn Post Templates (The Story Post, The Contrarian Take, The List Post, The How-To)
 - Twitter/X Thread Templates (The Tutorial Thread, The Story Thread, The Breakdown Thread)
 - Instagram Templates (The Carousel Hook, The Reel Script)
-- Hook Formulas (Curiosity Hooks, Story Hooks, Value Hooks, Contrarian Hooks, Social Proof Hooks)
+- Hook Formulas (Curiosity Hooks, Story Hooks, Value Hooks, Contrarian Hooks, 社会认同 Hooks)
 
 ## LinkedIn Post Templates
 
@@ -148,7 +148,7 @@ CTA (25-30 sec): [Follow, comment, share, link]
 The first line determines whether anyone reads the rest.
 
 ### Curiosity Hooks
-- "I was wrong about [common belief]."
+- "I was wrong about [常见 belief]."
 - "The real reason [outcome] happens isn't what you think."
 - "[Impressive result] — and it only took [surprisingly short time]."
 - "Nobody talks about [insider knowledge]."
@@ -160,18 +160,18 @@ The first line determines whether anyone reads the rest.
 - "[Person] told me something I'll never forget."
 
 ### Value Hooks
-- "How to [desirable outcome] (without [common pain]):"
+- "How to [desirable outcome] (without [常见 pain]):"
 - "[Number] [things] that [outcome]:"
 - "The simplest way to [outcome]:"
-- "Stop [common mistake]. Do this instead:"
+- "Stop [常见 mistake]. Do this instead:"
 
 ### Contrarian Hooks
 - "Unpopular opinion: [bold statement]"
-- "[Common advice] is wrong. Here's why:"
-- "I stopped [common practice] and [positive result]."
+- "[常见 advice] is wrong. Here's why:"
+- "I stopped [常见 practice] and [positive result]."
 - "Everyone says [X]. The truth is [Y]."
 
-### Social Proof Hooks
+### 社会认同 Hooks
 - "We [achieved result] in [timeframe]. Here's the full story:"
 - "[Number] people asked me about [topic]. Here's my answer:"
-- "[Authority figure] taught me [lesson]."
+- "[权威 figure] taught me [lesson]."

@@ -1,15 +1,15 @@
-# Email Types Reference
+# Email Types 参考
 
-A comprehensive guide to lifecycle and campaign emails. Use this as an audit checklist and implementation reference.
+A comprehensive guide to lifecycle and 广告活动 emails. Use this as an audit checklist and implementation 参考.
 
 ## Contents
-- Onboarding Emails (new users series, new customers series, key onboarding step reminder, new user invite)
-- Retention Emails (upgrade to paid, upgrade to higher plan, ask for review, offer support proactively, product usage report, NPS survey, referral program)
+- Onboarding Emails (new users series, new 客户 series, key onboarding step reminder, new user invite)
+- Retention Emails (upgrade to paid, upgrade to higher plan, ask for review, offer support proactively, 产品 usage report, NPS survey, referral program)
 - Billing Emails (switch to annual, failed payment recovery, cancellation survey, upcoming renewal reminder)
-- Usage Emails (daily/weekly/monthly summary, key event or milestone notifications)
-- Win-Back Emails (expired trials, cancelled customers)
-- Campaign Emails (monthly roundup/newsletter, seasonal promotions, product updates, industry news roundup, pricing update)
-- Email Audit Checklist (onboarding, retention, billing, usage, win-back, campaigns)
+- Usage Emails (daily/weekly/monthly summary, key 事件 or milestone notifications)
+- Win-Back Emails (expired trials, cancelled 客户)
+- 广告活动 Emails (monthly roundup/newsletter, seasonal promotions, 产品 updates, industry news roundup, pricing update)
+- Email Audit Checklist (onboarding, retention, billing, usage, win-back, 广告活动)
 
 ## Onboarding Emails
 
@@ -21,24 +21,24 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Email 1: Welcome + single next step (immediate)
 - Email 2: Quick win / getting started (day 1)
 - Email 3: Key feature highlight (day 3)
-- Email 4: Success story / social proof (day 5)
+- Email 4: Success story / 社会认同 (day 5)
 - Email 5: Check-in + offer help (day 7)
 - Email 6: Advanced tip (day 10)
 - Email 7: Upgrade prompt or next milestone (day 14)
 
-**Key metrics**: Activation rate, feature adoption
+**Key 指标**: Activation rate, feature adoption
 
 ---
 
-### New Customers Series
+### New 客户 Series
 **Trigger**: User converts to paid
 **Goal**: Reinforce purchase decision, drive adoption, reduce early churn
 **Typical sequence**: 3-5 emails over 14 days
 
 - Email 1: Thank you + what's next (immediate)
-- Email 2: Getting full value — setup checklist (day 2)
-- Email 3: Pro tips for paid features (day 5)
-- Email 4: Success story from similar customer (day 7)
+- Email 2: Getting full value — 配置方式 checklist (day 2)
+- Email 3: Pro tips for paid 特性 (day 5)
+- Email 4: Success story from similar 客户 (day 7)
 - Email 5: Check-in + introduce support resources (day 14)
 
 **Key point**: Different from new user series—they've committed. Focus on reinforcement and expansion, not conversion.
@@ -46,16 +46,16 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 ---
 
 ### Key Onboarding Step Reminder
-**Trigger**: User hasn't completed critical setup step after X time
+**Trigger**: User hasn't completed critical 配置方式 step after X time
 **Goal**: Nudge completion of high-value action
 **Format**: Single email or 2-3 email mini-sequence
 
-**Example triggers**:
+**示例 triggers**:
 - Hasn't connected integration after 48 hours
 - Hasn't invited team member after 3 days
 - Hasn't completed profile after 24 hours
 
-**Copy approach**:
+**文案 approach**:
 - Remind them what they started
 - Explain why this step matters
 - Make it easy (direct link to complete)
@@ -72,11 +72,11 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Email 2: Reminder if not accepted (day 2)
 - Email 3: Final reminder (day 5)
 
-**Copy approach**:
+**文案 approach**:
 - Personalize with inviter's name
 - Explain what they're joining
 - Single CTA to accept invite
-- Social proof optional
+- 社会认同 optional
 
 ---
 
@@ -95,14 +95,14 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 **Sequence structure**:
 - Value summary: What they've accomplished
 - Feature comparison: What they're missing
-- Social proof: Who else upgraded
+- 社会认同: Who else upgraded
 - Urgency: Trial ending, limited offer
 - Final: Last chance + easy path
 
 ---
 
 ### Upgrade to Higher Plan
-**Trigger**: User approaching plan limits or using features available on higher tier
+**Trigger**: User approaching plan limits or using 特性 available on higher tier
 **Goal**: Upsell to next tier
 **Format**: Single email or 2-3 email sequence
 
@@ -112,7 +112,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Tried to use higher-tier feature
 - Power user behavior patterns
 
-**Copy approach**:
+**文案 approach**:
 - Acknowledge their growth (positive framing)
 - Show what next tier unlocks
 - Quantify value vs. cost
@@ -121,8 +121,8 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 ---
 
 ### Ask for Review
-**Trigger**: Customer milestone (30/60/90 days, key achievement, support resolution)
-**Goal**: Generate social proof on G2, Capterra, app stores
+**Trigger**: 客户 milestone (30/60/90 days, key achievement, support resolution)
+**Goal**: Generate 社会认同 on G2, Capterra, app stores
 **Format**: Single email
 
 **Best timing**:
@@ -131,11 +131,11 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - After renewal
 - NOT after billing issues or bugs
 
-**Copy approach**:
-- Thank them for being a customer
+**文案 approach**:
+- Thank them for being a 客户
 - Mention specific value/milestone if possible
 - Explain why reviews matter (help others decide)
-- Direct link to review platform
+- Direct link to review 平台
 - Keep it short—this is an ask
 
 ---
@@ -151,7 +151,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Viewed help docs repeatedly
 - Stuck at same onboarding step
 
-**Copy approach**:
+**文案 approach**:
 - Genuine concern tone
 - Specific: "I noticed you..." (if data allows)
 - Offer direct help (not just link to docs)
@@ -160,19 +160,19 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ---
 
-### Product Usage Report
+### 产品 Usage Report
 **Trigger**: Time-based (weekly, monthly, quarterly)
 **Goal**: Demonstrate value, drive engagement, reduce churn
 **Format**: Single email, recurring
 
 **What to include**:
-- Key metrics/activity summary
+- Key 指标/activity summary
 - Comparison to previous period
 - Achievements/milestones
 - Suggestions for improvement
 - Light CTA to explore more
 
-**Examples**:
+**示例**:
 - "You saved X hours this month"
 - "Your team completed X projects"
 - "You're in the top X% of users"
@@ -182,7 +182,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 ---
 
 ### NPS Survey
-**Trigger**: Time-based (quarterly) or event-based (post-milestone)
+**Trigger**: Time-based (quarterly) or 事件-based (post-milestone)
 **Goal**: Measure satisfaction, identify promoters and detractors
 **Format**: Single email
 
@@ -200,17 +200,17 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 ---
 
 ### Referral Program
-**Trigger**: Customer milestone, promoter NPS score, or campaign
+**Trigger**: 客户 milestone, promoter NPS score, or 广告活动
 **Goal**: Generate referrals
 **Format**: Single email or periodic reminders
 
 **Good timing**:
 - After positive NPS response
-- After customer achieves result
+- After 客户 achieves result
 - After renewal
-- Seasonal campaigns
+- Seasonal 广告活动
 
-**Copy approach**:
+**文案 approach**:
 - Remind them of their success
 - Explain the referral offer clearly
 - Make sharing easy (unique link)
@@ -221,13 +221,13 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 ## Billing Emails
 
 ### Switch to Annual
-**Trigger**: Monthly subscriber at renewal time or campaign
+**Trigger**: Monthly subscriber at renewal time or 广告活动
 **Goal**: Convert monthly to annual (improve LTV, reduce churn)
 **Format**: Single email or 2-email sequence
 
 **Value proposition**:
 - Calculate exact savings
-- Additional benefits (if any)
+- Additional 收益 (if any)
 - Lock in current price messaging
 - Easy one-click switch
 
@@ -241,22 +241,22 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ### Failed Payment Recovery
 **Trigger**: Payment fails
-**Goal**: Recover revenue, retain customer
+**Goal**: Recover revenue, retain 客户
 **Typical sequence**: 3-4 emails over 7-14 days
 
 **Sequence structure**:
 - Email 1 (Day 0): Friendly notice, update payment link
 - Email 2 (Day 3): Reminder, service may be interrupted
-- Email 3 (Day 7): Urgent, account will be suspended
+- Email 3 (Day 7): Urgent, 账户 will be suspended
 - Email 4 (Day 10-14): Final notice, what they'll lose
 
-**Copy approach**:
+**文案 approach**:
 - Assume it's an accident (card expired, etc.)
 - Clear, direct, no guilt
 - Single CTA to update payment
 - Explain what happens if not resolved
 
-**Key metrics**: Recovery rate, time to recovery
+**Key 指标**: Recovery rate, time to recovery
 
 ---
 
@@ -289,7 +289,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Renewal date and amount
 - What's included in renewal
 - How to update payment/plan
-- Changes to pricing/features (if any)
+- Changes to pricing/特性 (if any)
 - Optional: Upsell opportunity
 
 **Required for**: Annual subscriptions, high-value contracts
@@ -309,7 +309,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - **Monthly**: Comprehensive report, achievements, ROI if calculable
 
 **Structure**:
-- Key metrics at a glance
+- Key 指标 at a glance
 - Notable achievements
 - Activity breakdown
 - Suggestions / what to try next
@@ -319,10 +319,10 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ---
 
-### Key Event or Milestone Notifications
-**Trigger**: Specific achievement or event
+### Key 事件 or Milestone Notifications
+**Trigger**: Specific achievement or 事件
 **Goal**: Celebrate, drive continued engagement
-**Format**: Single email per event
+**Format**: Single email per 事件
 
 **Milestone examples**:
 - First [action] completed
@@ -331,7 +331,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Team collaboration milestone
 - Usage streak
 
-**Copy approach**:
+**文案 approach**:
 - Celebration tone
 - Specific achievement
 - Context (compared to others, compared to before)
@@ -359,17 +359,17 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ---
 
-### Cancelled Customers
+### Cancelled 客户
 **Trigger**: Time after cancellation (30, 60, 90 days)
-**Goal**: Win back churned customers
+**Goal**: Win back churned 客户
 **Typical sequence**: 2-3 emails spread over 90 days
 
 **Sequence structure**:
 - Email 1 (Day 30): What's new since you left
-- Email 2 (Day 60): We've addressed [common reason]
+- Email 2 (Day 60): We've addressed [常见 reason]
 - Email 3 (Day 90): Special offer to return
 
-**Copy approach**:
+**文案 approach**:
 - No guilt, no desperation
 - Genuine updates and improvements
 - Personalize based on cancellation reason if known
@@ -379,7 +379,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ---
 
-## Campaign Emails
+## 广告活动 Emails
 
 ### Monthly Roundup / Newsletter
 **Trigger**: Time-based (monthly)
@@ -387,8 +387,8 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 **Format**: Single email, recurring
 
 **Content mix**:
-- Product updates and tips
-- Customer stories
+- 产品 updates and tips
+- 客户 stories
 - Educational content
 - Company news
 - Industry insights
@@ -404,12 +404,12 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ### Seasonal Promotions
 **Trigger**: Calendar events (Black Friday, New Year, etc.)
-**Goal**: Drive conversions with timely offer
-**Format**: Campaign burst (2-4 emails)
+**Goal**: Drive 转化 with timely offer
+**Format**: 广告活动 burst (2-4 emails)
 
-**Common opportunities**:
+**常见 opportunities**:
 - New Year (fresh start, annual planning)
-- End of fiscal year (budget spending)
+- End of fiscal year (预算 spending)
 - Black Friday / Cyber Monday
 - Industry-specific seasons
 - Back to school / work
@@ -421,19 +421,19 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 
 ---
 
-### Product Updates
+### 产品 Updates
 **Trigger**: New feature release
 **Goal**: Adoption, engagement, demonstrate momentum
 **Format**: Single email per major release
 
 **What to include**:
 - What's new (clear and simple)
-- Why it matters (benefit, not just feature)
+- Why it matters (收益, not just feature)
 - How to use it (direct link)
 - Who asked for it (community acknowledgment)
 
 **Segmentation**: Consider targeting based on relevance:
-- Users who would benefit most
+- Users who would 收益 most
 - Users who requested feature
 - Power users first (for beta feel)
 
@@ -448,9 +448,9 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Curated news and links
 - Your take / commentary
 - What it means for readers
-- How your product helps
+- How your 产品 helps
 
-**Best for**: B2B products where customers care about industry trends.
+**Best for**: B2B products where 客户 care about industry trends.
 
 ---
 
@@ -464,7 +464,7 @@ A comprehensive guide to lifecycle and campaign emails. Use this as an audit che
 - Reminder 14 days before
 - Final notice 7 days before
 
-**Copy approach**:
+**文案 approach**:
 - Clear, direct, transparent
 - Explain the why (value delivered, costs increased)
 - Grandfather if possible (lock in old rate)
@@ -480,7 +480,7 @@ Use this to audit your current email program:
 
 ### Onboarding
 - [ ] New users series
-- [ ] New customers series
+- [ ] New 客户 series
 - [ ] Key onboarding step reminders
 - [ ] New user invite sequence
 
@@ -489,27 +489,27 @@ Use this to audit your current email program:
 - [ ] Upgrade to higher plan triggers
 - [ ] Ask for review (timed properly)
 - [ ] Proactive support outreach
-- [ ] Product usage reports
+- [ ] 产品 usage reports
 - [ ] NPS survey
 - [ ] Referral program emails
 
 ### Billing
-- [ ] Switch to annual campaign
+- [ ] Switch to annual 广告活动
 - [ ] Failed payment recovery sequence
 - [ ] Cancellation survey
 - [ ] Upcoming renewal reminders
 
 ### Usage
 - [ ] Daily/weekly/monthly summaries
-- [ ] Key event notifications
+- [ ] Key 事件 notifications
 - [ ] Milestone celebrations
 
 ### Win-Back
 - [ ] Expired trial sequence
-- [ ] Cancelled customer sequence
+- [ ] Cancelled 客户 sequence
 
-### Campaigns
+### 广告活动
 - [ ] Monthly roundup / newsletter
 - [ ] Seasonal promotion calendar
-- [ ] Product update announcements
+- [ ] 产品 update announcements
 - [ ] Pricing update communications

@@ -1,6 +1,6 @@
 # Lifecycle Stage Definitions
 
-Complete templates for lead lifecycle stages, MQL criteria by business type, SLAs, and rejection/recycling workflows.
+Complete templates for lead lifecycle stages, MQL criteria by business 类型, SLAs, and rejection/recycling 工作流.
 
 ## Stage Templates
 
@@ -15,11 +15,11 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 - Visits 3+ pages in a session
 - Downloads gated content
 
-**Owner:** Marketing (automated)
+**Owner:** 营销 (automated)
 
 **Actions on entry:**
 - Add to newsletter nurture
-- Begin tracking engagement score
+- Begin 跟踪 engagement score
 
 ---
 
@@ -31,9 +31,9 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 
 **Exit criteria:**
 - Reaches MQL threshold (fit + engagement)
-- Manually qualified by marketing/SDR
+- Manually qualified by 营销/SDR
 
-**Owner:** Marketing
+**Owner:** 营销
 
 **Actions on entry:**
 - Enrich contact data (company size, industry, role)
@@ -42,23 +42,23 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 
 ---
 
-### MQL (Marketing Qualified Lead)
+### MQL (营销 Qualified Lead)
 
 **Entry criteria:**
 - Meets fit score threshold AND engagement score threshold
-- OR triggers high-intent action (demo request, pricing page + form fill)
+- OR triggers high-intent action (demo request, 定价页 + form fill)
 
 **Exit criteria:**
 - Sales accepts (becomes SQL)
 - Sales rejects (recycled to nurture with reason code)
 - No response within SLA (escalated to manager)
 
-**Owner:** Marketing → Sales (handoff)
+**Owner:** 营销 → Sales (handoff)
 
 **Actions on entry:**
 - Instant alert to assigned sales rep
 - Create follow-up task with 4-hour SLA
-- Pause marketing nurture sequences
+- Pause 营销 nurture sequences
 - Log all recent activity for sales context
 
 ---
@@ -67,7 +67,7 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 
 **Entry criteria:**
 - Sales rep has had qualifying conversation
-- Confirmed: budget, authority, need, or timeline (at least 2 of 4)
+- Confirmed: 预算, 权威, need, or timeline (at least 2 of 4)
 
 **Exit criteria:**
 - Opportunity created with projected value
@@ -100,7 +100,7 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 
 ---
 
-### Customer
+### 客户
 
 **Entry criteria:**
 - Closed-won deal
@@ -109,7 +109,7 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 **Exit criteria:**
 - Churns, expands, or renews
 
-**Owner:** Customer Success / Account Management
+**Owner:** 客户 Success / 账户 Management
 
 **Actions on entry:**
 - Trigger onboarding sequence
@@ -128,19 +128,19 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 **Exit criteria:**
 - Ongoing program participation
 
-**Owner:** Customer Success + Marketing
+**Owner:** 客户 Success + 营销
 
 **Actions on entry:**
 - Add to advocacy program
 - Request case study or testimonial
 - Invite to referral program
-- Feature in marketing campaigns (with permission)
+- Feature in 营销 广告活动 (with permission)
 
 ---
 
-## MQL Criteria Templates by Business Type
+## MQL Criteria Templates by Business 类型
 
-### PLG (Product-Led Growth)
+### PLG (产品-Led Growth)
 
 **Fit score (40% weight):**
 
@@ -152,16 +152,16 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 | Decision-maker role | +15 |
 | Uses complementary tool | +10 |
 
-**Engagement score (60% weight) — weight product usage heavily:**
+**Engagement score (60% weight) — weight 产品 usage heavily:**
 
 | Signal | Points |
 |--------|--------|
-| Created free account | +15 |
+| Created free 账户 | +15 |
 | Completed onboarding | +20 |
 | Used core feature 3+ times | +25 |
 | Invited team member | +20 |
 | Hit usage limit | +15 |
-| Visited pricing page | +10 |
+| Visited 定价页 | +10 |
 
 **MQL threshold:** 65 points
 
@@ -176,8 +176,8 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 | Company size 500+ | +20 |
 | Target industry | +15 |
 | VP+ title | +20 |
-| Budget authority confirmed | +15 |
-| Uses competitor product | +10 |
+| 预算 权威 confirmed | +15 |
+| Uses competitor 产品 | +10 |
 
 **Engagement score (40% weight):**
 
@@ -186,7 +186,7 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 | Requested demo | +25 |
 | Attended webinar | +10 |
 | Downloaded whitepaper | +10 |
-| Visited pricing page 2+ times | +15 |
+| Visited 定价页 2+ times | +15 |
 | Engaged with sales email | +10 |
 
 **MQL threshold:** 70 points
@@ -210,7 +210,7 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 |--------|--------|
 | Demo request | +25 |
 | Free trial signup | +20 |
-| Pricing page visit | +10 |
+| 定价页 visit | +10 |
 | Content download (2+) | +10 |
 | Email click (3+) | +10 |
 | Webinar attendance | +10 |
@@ -254,25 +254,25 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 |------|--------|----------------|
 | **FIT-01** | Company too small | Nurture; re-score if company grows |
 | **FIT-02** | Wrong industry | Archive; do not recycle |
-| **FIT-03** | Wrong role / no authority | Nurture; monitor for org changes |
+| **FIT-03** | Wrong role / no 权威 | Nurture; monitor for org changes |
 | **ENG-01** | No response after 3 attempts | Recycle to nurture in 90 days |
 | **ENG-02** | Interested but bad timing | Recycle to nurture; re-engage in 60 days |
-| **QUAL-01** | No budget | Recycle to nurture in 90 days |
+| **QUAL-01** | No 预算 | Recycle to nurture in 90 days |
 | **QUAL-02** | Using competitor, locked in | Recycle; trigger before contract renewal |
 | **QUAL-03** | Not a real project | Archive; do not recycle |
 
-### Recycling Workflow
+### Recycling 工作流
 
 1. Sales rejects MQL with reason code
 2. CRM updates lifecycle stage to "Recycled"
 3. Lead enters recycling nurture sequence (different from original nurture)
 4. Engagement score resets to baseline (keep fit score)
 5. If lead re-engages and crosses MQL threshold, re-route to sales with "Recycled MQL" flag
-6. Track recycled MQL conversion rate separately
+6. Track recycled MQL 转化率 separately
 
 ### Recycling Nurture Sequence
 
 - **Frequency:** Bi-weekly or monthly (lower frequency than initial nurture)
-- **Content:** Industry insights, case studies, product updates
+- **Content:** Industry insights, 案例研究, 产品 updates
 - **Duration:** 6 months, then archive if no engagement
-- **Re-MQL trigger:** High-intent action (demo request, pricing page revisit)
+- **Re-MQL trigger:** High-intent action (demo request, 定价页 revisit)

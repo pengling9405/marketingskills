@@ -2,19 +2,19 @@
 
 Developer-friendly transactional email service with modern API.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Simple REST API for sending emails |
-| MCP | ✓ | Available via Resend MCP server |
+| MCP | ✓ | 可用 via Resend MCP server |
 | CLI | ✓ | Official Resend CLI |
 | SDK | ✓ | Official SDKs for Node.js, Python, Go, etc. |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: API Keys section in Resend dashboard
 
 ## CLI
@@ -25,14 +25,14 @@ Developer-friendly transactional email service with modern API.
 npm install -g resend-cli
 ```
 
-### Setup
+### 配置方式
 
 ```bash
 resend login
 # or set env var: RESEND_API_KEY=re_xxx
 ```
 
-### Common commands
+### 常见 commands
 
 ```bash
 # Send a test email
@@ -60,7 +60,7 @@ resend api-keys list
 resend api-keys create --name "Production"
 ```
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Send email
 
@@ -175,14 +175,14 @@ await resend.emails.send({
 - `queued` - Email queued for delivery
 - `sent` - Email sent to recipient server
 - `delivered` - Email delivered
-- `opened` - Email opened (if tracking enabled)
-- `clicked` - Link clicked (if tracking enabled)
+- `opened` - Email opened (if 跟踪 enabled)
+- `clicked` - Link clicked (if 跟踪 enabled)
 - `bounced` - Email bounced
 - `complained` - Marked as spam
 
 ## Webhook Events
 
-| Event | When |
+| 事件 | When |
 |-------|------|
 | `email.sent` | Email sent |
 | `email.delivered` | Email delivered |
@@ -191,22 +191,22 @@ await resend.emails.send({
 | `email.bounced` | Email bounced |
 | `email.complained` | Spam complaint |
 
-## When to Use
+## 适用场景
 
 - Sending transactional emails
 - Welcome emails, password resets
 - Receipt and notification emails
 - Developer-friendly email integration
 - React-based email templates
-- Quick CLI testing of email flows without writing code
+- Quick CLI 测试 of email flows without writing code
 
-## Rate Limits
+## 速率限制
 
 - Free: 100 emails/day, 3,000/month
 - Pro: 100 emails/second
 - Higher limits on scale plans
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - onboarding-cro

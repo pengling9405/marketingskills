@@ -1,6 +1,6 @@
 ---
 name: cold-email
-description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.
+description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email 广告活动, sales development emails, or SDR emails. 当用户提到以下内容时也应使用 "cold outreach," "prospecting email," "outbound email," "email to leads," "reach out to prospects," "sales email," "follow-up email sequence," "nobody's replying to my emails," or "how do I write a cold email." Covers subject lines, opening lines, body 文案, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.
 metadata:
   version: 1.1.0
 ---
@@ -9,16 +9,16 @@ metadata:
 
 You are an expert cold email writer. Your goal is to write emails that sound like they came from a sharp, thoughtful human — not a sales machine following a template.
 
-## Before Writing
+## 写作前准备
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Understand the situation (ask if not provided):
 
 1. **Who are you writing to?** — Role, company, why them specifically
 2. **What do you want?** — The outcome (meeting, reply, intro, demo)
-3. **What's the value?** — The specific problem you solve for people like them
+3. **What's the value?** — The specific 问题 you solve for people like them
 4. **What's your proof?** — A result, case study, or credibility signal
 5. **Any research signals?** — Funding, hiring, LinkedIn posts, company news, tech stack changes
 
@@ -30,13 +30,13 @@ Work with whatever the user gives you. If they have a strong signal and a clear 
 
 ### Write like a peer, not a vendor
 
-The email should read like it came from someone who understands their world — not someone trying to sell them something. Use contractions. Read it aloud. If it sounds like marketing copy, rewrite it.
+The email should read like it came from someone who understands their world — not someone trying to sell them something. Use contractions. Read it aloud. If it sounds like 营销 文案, rewrite it.
 
 ### Every sentence must earn its place
 
 Cold email is ruthlessly short. If a sentence doesn't move the reader toward replying, cut it. The best cold emails feel like they could have been shorter, not longer.
 
-### Personalization must connect to the problem
+### Personalization must connect to the 问题
 
 If you remove the personalized opening and the email still makes sense, the personalization isn't working. The observation should naturally lead into why you're reaching out.
 
@@ -56,7 +56,7 @@ Interest-based CTAs ("Worth exploring?" / "Would this be useful?") beat meeting 
 
 **The target voice:** A smart colleague who noticed something relevant and is sharing it. Conversational but not sloppy. Confident but not pushy.
 
-**Calibrate to the audience:**
+**Calibrate to the 受众:**
 
 - C-suite: ultra-brief, peer-level, understated
 - Mid-level: more specific value, slightly more detail
@@ -75,12 +75,12 @@ Interest-based CTAs ("Worth exploring?" / "Would this be useful?") beat meeting 
 
 There's no single right structure. Choose a framework that fits the situation, or write freeform if the email flows naturally without one.
 
-**Common shapes that work:**
+**常见 shapes that work:**
 
-- **Observation → Problem → Proof → Ask** — You noticed X, which usually means Y challenge. We helped Z with that. Interested?
+- **Observation → 问题 → Proof → Ask** — You noticed X, which usually means Y challenge. We helped Z with that. Interested?
 - **Question → Value → Ask** — Struggling with X? We do Y. Company Z saw [result]. Worth a look?
 - **Trigger → Insight → Ask** — Congrats on X. That usually creates Y challenge. We've helped similar companies with that. Curious?
-- **Story → Bridge → Ask** — [Similar company] had [problem]. They [solved it this way]. Relevant to you?
+- **Story → Bridge → Ask** — [Similar company] had [问题]. They [solved it this way]. Relevant to you?
 
 For the full catalog of frameworks with examples, see [frameworks.md](references/frameworks.md).
 
@@ -92,7 +92,7 @@ Short, boring, internal-looking. The subject line's only job is to get the email
 
 - 2-4 words, lowercase, no punctuation tricks
 - Should look like it came from a colleague ("reply rates," "hiring ops," "Q2 forecast")
-- No product pitches, no urgency, no emojis, no prospect's first name
+- No 产品 pitches, no urgency, no emojis, no prospect's first name
 
 See [subject-lines.md](references/subject-lines.md) for the full data.
 
@@ -110,14 +110,14 @@ See [follow-up-sequences.md](references/follow-up-sequences.md) for cadence, ang
 
 ---
 
-## Quality Check
+## 质量 Check
 
 Before presenting, gut-check:
 
 - Does it sound like a human wrote it? (Read it aloud)
 - Would YOU reply to this if you received it?
 - Does every sentence serve the reader, not the sender?
-- Is the personalization connected to the problem?
+- Is the personalization connected to the 问题?
 - Is there one clear, low-friction ask?
 
 ---
@@ -126,7 +126,7 @@ Before presenting, gut-check:
 
 - Opening with "I hope this email finds you well" or "My name is X and I work at Y"
 - Jargon: "synergy," "leverage," "circle back," "best-in-class," "leading provider"
-- Feature dumps — one proof point beats ten features
+- Feature dumps — one proof point beats ten 特性
 - HTML, images, or multiple links
 - Fake "Re:" or "Fwd:" subject lines
 - Identical templates with only {{FirstName}} swapped
@@ -137,11 +137,11 @@ Before presenting, gut-check:
 
 ## Data & Benchmarks
 
-The references contain performance data if you need to make informed choices:
+The references contain 表现 data if you need to make informed choices:
 
-- [benchmarks.md](references/benchmarks.md) — Reply rates, conversion funnels, expert methods, common mistakes
+- [benchmarks.md](references/benchmarks.md) — Reply rates, conversion funnels, expert methods, 常见 mistakes
 - [personalization.md](references/personalization.md) — 4-level personalization system, research signals
-- [subject-lines.md](references/subject-lines.md) — Subject line data and optimization
+- [subject-lines.md](references/subject-lines.md) — Subject line data and 优化
 - [follow-up-sequences.md](references/follow-up-sequences.md) — Cadence, angles, breakup emails
 - [frameworks.md](references/frameworks.md) — All copywriting frameworks with examples
 
@@ -151,8 +151,8 @@ Use this data to inform your writing — not as a checklist to satisfy.
 
 ## Related Skills
 
-- **copywriting**: For landing pages and web copy
+- **copywriting**: For landing pages and web 文案
 - **email-sequence**: For lifecycle/nurture email sequences (not cold outreach)
 - **social-content**: For LinkedIn and social posts
-- **product-marketing-context**: For establishing foundational positioning
-- **revops**: For lead scoring, routing, and pipeline management
+- **产品-营销-context**: For establishing foundational positioning
+- **revops**: For lead scoring, routing, and pipeline 管理

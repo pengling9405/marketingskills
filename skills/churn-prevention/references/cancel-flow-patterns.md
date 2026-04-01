@@ -1,10 +1,10 @@
 # Cancel Flow Patterns
 
-Detailed cancel flow patterns by business type, billing provider, and industry.
+Detailed cancel flow patterns by business 类型, billing provider, and industry.
 
 ---
 
-## Cancel Flow by Business Type
+## Cancel Flow by Business 类型
 
 ### B2C / Self-Serve SaaS
 
@@ -24,7 +24,7 @@ Cancel button → Exit survey (1 question) → Dynamic offer → Confirm → Pos
 
 **Typical save rate:** 20-30%
 
-**Example flow for a $29/mo productivity app:**
+**示例 flow for a $29/mo productivity app:**
 1. "What's the main reason?" → 6 options
 2. Selected "Too expensive" → "Get 25% off for 3 months (save $21.75)"
 3. Declined → "Or switch to our Starter plan at $12/mo"
@@ -42,7 +42,7 @@ Cancel button → Exit survey → Offer (or route to CS) → Confirm → Post-ca
 ```
 
 **Characteristics:**
-- Route accounts above MRR threshold to customer success
+- Route accounts above MRR threshold to 客户 success
 - Show team impact ("Your 8 team members will lose access")
 - Offer admin-to-admin call for enterprise accounts
 - Longer consideration — allow "schedule a call" as a save option
@@ -52,7 +52,7 @@ Cancel button → Exit survey → Offer (or route to CS) → Confirm → Post-ca
 
 **MRR-based routing:**
 
-| Account MRR | Cancel Flow |
+| 账户 MRR | Cancel Flow |
 |-------------|-------------|
 | <$100/mo | Automated flow with offers |
 | $100-$500/mo | Automated + flag for CS follow-up |
@@ -74,7 +74,7 @@ Cancel button → "Switch to Free?" prompt → Exit survey (if still cancelling)
 - Lead with the free tier as the first option (not a save offer)
 - Show what they keep on free vs. what they lose
 - The "save" is keeping them on free, not losing them entirely
-- Track free-tier users for future re-upgrade campaigns
+- Track free-tier users for future re-upgrade 广告活动
 
 ---
 
@@ -82,7 +82,7 @@ Cancel button → "Switch to Free?" prompt → Exit survey (if still cancelling)
 
 ### Monthly Subscribers
 
-- More price-sensitive, shorter commitment
+- More price-sensitive, shorter 承诺
 - Discount offers work well (20-30% for 2-3 months)
 - Pause is effective (1-2 months)
 - Suggest annual plan at a discount as an alternative
@@ -94,7 +94,7 @@ Cancel button → "Switch to Free?" prompt → Exit survey (if still cancelling)
 
 ### Annual Subscribers
 
-- Higher commitment, often cancelling for stronger reasons
+- Higher 承诺, often cancelling for stronger reasons
 - Prorate refund expectations matter
 - Longer save window (they've already paid)
 - Personal outreach more justified (higher LTV at stake)
@@ -130,7 +130,7 @@ Cancel click → 15% off → Still cancelling → 25% off → Still cancelling �
 
 ### The Pause Playbook
 
-Pause is often better than a discount because it doesn't devalue your product.
+Pause is often better than a discount because it doesn't devalue your 产品.
 
 **Implementation:**
 
@@ -188,7 +188,7 @@ When the cancel reason is "switching to competitor":
 3. **Offer a migration credit** ("We'll match their price for 3 months")
 4. **Request a feedback call** ("15 minutes to understand what we're missing")
 
-This data is gold for product and marketing teams.
+This data is gold for 产品 and 营销 teams.
 
 ---
 
@@ -226,38 +226,38 @@ from customers like you.
 | Day 60 | Address their specific cancel reason if resolved |
 | Day 90 | Final win-back with special offer |
 
-**For detailed win-back email sequences**: See the email-sequence skill.
+**如需详细说明，请参见 win-back email sequences**: See the email-sequence skill.
 
 ---
 
 ## Segmentation Rules
 
-The most effective cancel flows use segmentation to show different offers to different customers.
+The most effective cancel flows use segmentation to show different offers to different 客户.
 
 ### Segmentation Dimensions
 
 | Dimension | Why It Matters |
 |-----------|---------------|
-| Plan / MRR | Higher-value customers get personal outreach |
-| Tenure | Long-term customers get more generous offers |
-| Usage level | High-usage customers get different messaging than dormant ones |
+| Plan / MRR | Higher-value 客户 get personal outreach |
+| Tenure | Long-term 客户 get more generous offers |
+| Usage level | High-usage 客户 get different messaging than dormant ones |
 | Billing interval | Monthly vs. annual need different approaches |
 | Previous saves | Don't re-offer the same discount to a repeat canceller |
 | Cancel reason | Drives which offer to show (core mapping) |
 
 ### Segment-Specific Flows
 
-**New customer (< 30 days):**
+**New 客户 (< 30 days):**
 - They haven't activated. The save is onboarding, not discounts.
-- Offer: Free onboarding call, setup help, extended trial
+- Offer: Free onboarding call, 配置方式 help, extended trial
 - Ask: "What were you hoping to accomplish?" (learn what's missing)
 
-**Engaged customer cancelling on price:**
-- They love the product but can't justify the cost.
+**Engaged 客户 cancelling on price:**
+- They love the 产品 but can't justify the cost.
 - Offer: Discount, annual plan switch, downgrade
 - High save potential
 
-**Dormant customer (no login 30+ days):**
+**Dormant 客户 (no login 30+ days):**
 - They forgot about you. A discount won't bring them back.
 - Offer: Pause subscription, "what changed?" conversation
 - Low save potential — focus on learning why
@@ -275,7 +275,7 @@ The most effective cancel flows use segmentation to show different offers to dif
 - [ ] Add cancel flow (survey + 1 offer + confirmation)
 - [ ] Set up exit survey with 5-7 reason categories
 - [ ] Map one offer per reason (simple 1:1 mapping)
-- [ ] Track cancel reasons and save rate in analytics
+- [ ] Track cancel reasons and save rate in 分析
 - [ ] Enable pre-dunning card expiry emails
 
 ### Phase 2: Optimization (Weeks 2-4)
@@ -295,22 +295,22 @@ The most effective cancel flows use segmentation to show different offers to dif
 
 ---
 
-## Compliance Notes
+## 遵循率 说明
 
 ### FTC Click-to-Cancel Rule (US)
 - Cancellation must be as easy as signup
 - Cannot require a phone call to cancel if signup was online
-- Cannot add excessive steps to discourage cancellation
+- Cannot add excessive 步骤 to discourage cancellation
 - Save offers are allowed but "continue cancelling" must be clear
 
 ### GDPR / Data Retention (EU)
 - Inform users about data retention period post-cancel
-- Offer data export before account deletion
+- Offer data export before 账户 deletion
 - Honor deletion requests within 30 days
-- Don't use post-cancel data for marketing without consent
+- Don't use post-cancel data for 营销 without consent
 
 ### General Best Practices
 - Always show a clear path to complete cancellation
 - Never hide the cancel button (dark pattern)
-- Process cancellation even if save flow has errors
+- 流程 cancellation even if save flow has errors
 - Confirm cancellation with email receipt

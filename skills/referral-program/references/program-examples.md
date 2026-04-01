@@ -1,4 +1,4 @@
-# Referral Program Examples
+# Referral Program 示例
 
 Real-world examples of successful referral programs.
 
@@ -9,17 +9,17 @@ Real-world examples of successful referral programs.
 - Notion
 - Incentive Types Comparison
 - Incentive Sizing Framework
-- Viral Coefficient & Metrics (Key Metrics, Calculating Referral Program ROI)
+- Viral Coefficient & 指标 (Key 指标, Calculating Referral Program ROI)
 
 ## Dropbox (Classic)
 
 **Program:** Give 500MB storage, get 500MB storage
 
 **Why it worked:**
-- Reward directly tied to product value
+- Reward directly tied to 产品 value
 - Low friction (just an email)
-- Both parties benefit equally
-- Gamified with progress tracking
+- Both parties 收益 equally
+- Gamified with progress 跟踪
 
 ---
 
@@ -56,20 +56,20 @@ Real-world examples of successful referral programs.
 **Program:** $10 credit per referral (education)
 
 **Why it worked:**
-- Targeted high-sharing audience (students)
-- Product naturally spreads in teams
+- Targeted high-sharing 受众 (students)
+- 产品 naturally spreads in teams
 - Credit keeps users engaged
 
 ---
 
 ## Incentive Types Comparison
 
-| Type | Pros | Cons | Best For |
+| 类型 | Pros | Cons | Best For |
 |------|------|------|----------|
 | Cash/credit | Universally valued | Feels transactional | Marketplaces, fintech |
-| Product credit | Drives usage | Only valuable if they'll use it | SaaS, subscriptions |
+| 产品 credit | Drives usage | Only valuable if they'll use it | SaaS, subscriptions |
 | Free months | Clear value | May attract freebie-seekers | Subscription products |
-| Feature unlock | Low cost to you | Only works for gated features | Freemium products |
+| Feature unlock | Low cost to you | Only works for gated 特性 | Freemium products |
 | Swag/gifts | Memorable, shareable | Logistics complexity | Brand-focused companies |
 | Charity donation | Feel-good | Lower personal motivation | Mission-driven brands |
 
@@ -82,7 +82,7 @@ Real-world examples of successful referral programs.
 Max Referral Reward = (Customer LTV × Gross Margin) - Target CAC
 ```
 
-**Example:**
+**示例：**
 - LTV: $1,200
 - Gross margin: 70%
 - Target CAC: $200
@@ -95,9 +95,9 @@ Max Referral Reward = (Customer LTV × Gross Margin) - Target CAC
 
 ---
 
-## Viral Coefficient & Metrics
+## Viral Coefficient & 指标
 
-### Key Metrics
+### 核心指标
 
 **Viral coefficient (K-factor):**
 ```
@@ -107,8 +107,8 @@ K > 1 = Viral growth (each user brings more than 1 new user)
 K < 1 = Amplified growth (referrals supplement other acquisition)
 ```
 
-**Example:**
-- Average customer sends 3 invitations
+**示例：**
+- Average 客户 sends 3 invitations
 - 15% of invitations convert
 - K = 3 × 0.15 = 0.45
 
@@ -118,7 +118,7 @@ Referral Rate = (Customers who refer) / (Total customers)
 ```
 
 Benchmarks:
-- Good: 10-25% of customers refer
+- Good: 10-25% of 客户 refer
 - Great: 25-50%
 - Exceptional: 50%+
 
@@ -138,6 +138,6 @@ Program costs = Rewards paid + Tool costs + Management time
 ```
 
 **Track separately:**
-- Cost per referred customer (CAC via referral)
-- LTV of referred customers (often higher than average)
+- Cost per referred 客户 (CAC via referral)
+- LTV of referred 客户 (often higher than average)
 - Payback period for referral rewards

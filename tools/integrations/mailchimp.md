@@ -1,23 +1,23 @@
 # Mailchimp
 
-Email marketing platform for campaigns, automation, and audience management.
+Email 营销 平台 for 广告活动, automation, and 受众 management.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Marketing API for campaigns, audiences, automation |
-| MCP | ✓ | Available via Mailchimp MCP server |
-| CLI | - | Not available |
+| API | ✓ | 营销 API for 广告活动, audiences, automation |
+| MCP | ✓ | 可用 via Mailchimp MCP server |
+| CLI | - | 不可用 |
 | SDK | ✓ | Official SDKs for multiple languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key or OAuth 2.0
-- **Header**: `Authorization: Bearer {api_key}` or `Authorization: apikey {api_key}`
+- **类型**: API Key or OAuth 2.0
+- **请求头**: `Authorization: Bearer {api_key}` or `Authorization: apikey {api_key}`
 - **Base URL**: `https://{dc}.api.mailchimp.com/3.0/` (dc = datacenter from API key)
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List audiences (lists)
 
@@ -25,7 +25,7 @@ Email marketing platform for campaigns, automation, and audience management.
 GET https://{dc}.api.mailchimp.com/3.0/lists
 ```
 
-### Get audience members
+### Get 受众 members
 
 ```bash
 GET https://{dc}.api.mailchimp.com/3.0/lists/{list_id}/members?count=100
@@ -59,19 +59,19 @@ PATCH https://{dc}.api.mailchimp.com/3.0/lists/{list_id}/members/{subscriber_has
 }
 ```
 
-### Get campaigns
+### Get 广告活动
 
 ```bash
 GET https://{dc}.api.mailchimp.com/3.0/campaigns?count=20
 ```
 
-### Get campaign report
+### Get 广告活动 report
 
 ```bash
 GET https://{dc}.api.mailchimp.com/3.0/reports/{campaign_id}
 ```
 
-### Create campaign
+### Create 广告活动
 
 ```bash
 POST https://{dc}.api.mailchimp.com/3.0/campaigns
@@ -89,7 +89,7 @@ POST https://{dc}.api.mailchimp.com/3.0/campaigns
 }
 ```
 
-### Send campaign
+### Send 广告活动
 
 ```bash
 POST https://{dc}.api.mailchimp.com/3.0/campaigns/{campaign_id}/actions/send
@@ -101,9 +101,9 @@ POST https://{dc}.api.mailchimp.com/3.0/campaigns/{campaign_id}/actions/send
 GET https://{dc}.api.mailchimp.com/3.0/automations
 ```
 
-## Key Metrics
+## 核心指标
 
-### Campaign Report Fields
+### 广告活动 Report Fields
 - `emails_sent` - Total sent
 - `opens` - Open count
 - `unique_opens` - Unique opens
@@ -128,23 +128,23 @@ const hash = md5(email.toLowerCase());
 - `pending` - Awaiting confirmation
 - `transactional` - Transactional only
 
-## When to Use
+## 适用场景
 
 - Managing email lists and subscribers
-- Creating and sending email campaigns
+- Creating and sending email 广告活动
 - Setting up email automation
-- Analyzing campaign performance
+- Analyzing 广告活动 表现
 - Segmenting audiences
-- A/B testing emails
+- A/B 测试 emails
 
-## Rate Limits
+## 速率限制
 
 - 10 concurrent connections
 - 10 requests per second
-- Batch endpoints for bulk operations
+- Batch endpoints for bulk 操作
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- analytics-tracking
+- 分析-跟踪
 - referral-program

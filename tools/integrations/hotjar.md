@@ -1,21 +1,21 @@
 # Hotjar
 
-Behavior analytics platform with heatmaps, session recordings, and surveys for understanding user experience.
+Behavior 分析 平台 with heatmaps, session recordings, and surveys for understanding user experience.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Surveys, Responses, Sites, Heatmaps, Recordings |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [hotjar.js](../clis/hotjar.js) |
-| SDK | ✓ | JavaScript tracking snippet, Identify API, Events API |
+| SDK | ✓ | JavaScript 跟踪 snippet, Identify API, Events API |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 Client Credentials
+- **类型**: OAuth 2.0 Client Credentials
 - **Token endpoint**: `POST https://api.hotjar.io/v1/oauth/token`
-- **Header**: `Authorization: Bearer {access_token}`
+- **请求头**: `Authorization: Bearer {access_token}`
 - **Get credentials**: Hotjar Dashboard > Integrations > API
 - **Token expiry**: 3600 seconds (1 hour)
 
@@ -38,7 +38,7 @@ grant_type=client_credentials&client_id={client_id}&client_secret={client_secret
 }
 ```
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Sites
 
@@ -90,7 +90,7 @@ GET https://api.hotjar.io/v1/sites/{site_id}/forms
 Authorization: Bearer {access_token}
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Survey Response Data
 - `response_id` - Unique response identifier
@@ -100,7 +100,7 @@ Authorization: Bearer {access_token}
 
 ### Heatmap Data
 - `url` - Page URL
-- `click_count` - Total clicks tracked
+- `click_count` - Total 点击 tracked
 - `visitors` - Unique visitors
 - `created_at` - Heatmap creation date
 
@@ -123,25 +123,25 @@ Authorization: Bearer {access_token}
 - `date_from` - Start date filter
 - `date_to` - End date filter
 
-## When to Use
+## 适用场景
 
 - Analyzing user behavior patterns on landing pages
 - Collecting qualitative feedback via on-site surveys
 - Identifying UX issues through session recordings
 - Understanding scroll depth and engagement via heatmaps
 - Validating CRO hypotheses with user behavior data
-- Form abandonment analysis
+- Form abandonment 分析
 
-## Rate Limits
+## 速率限制
 
 - 3000 requests/minute (50 per second)
-- Rate limited by source IP address
+- Rate limited by 来源 IP address
 - Cursor-based pagination for large result sets
 
-## Relevant Skills
+## 相关技能
 
 - page-cro
-- ab-test-setup
-- analytics-tracking
+- ab-test-配置方式
+- 分析-跟踪
 - ux-audit
 - landing-page

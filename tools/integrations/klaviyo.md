@@ -1,25 +1,25 @@
 # Klaviyo
 
-E-commerce email and SMS marketing platform with profiles, flows, campaigns, segments, and event tracking.
+E-commerce email and SMS 营销 平台 with profiles, flows, 广告活动, segments, and 事件 跟踪.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API with JSON:API spec, revision-versioned |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [klaviyo.js](../clis/klaviyo.js) |
 | SDK | ✓ | Python, Node.js, Ruby, PHP, Java, C# |
 
-## Authentication
+## 认证方式
 
-- **Type**: Private API Key
-- **Header**: `Authorization: Klaviyo-API-Key {private_api_key}`
-- **Revision Header**: `revision: 2024-10-15` (required on all requests)
-- **Get key**: Account Settings > API Keys at https://www.klaviyo.com/settings/account/api-keys
+- **类型**: Private API Key
+- **请求头**: `Authorization: Klaviyo-API-Key {private_api_key}`
+- **Revision 请求头**: `revision: 2024-10-15` (required on all requests)
+- **Get key**: 账户 Settings > API Keys at https://www.klaviyo.com/settings/账户/API-keys
 - **Note**: Private keys are prefixed with `pk_`; public keys (6-char site ID) are for client-side only
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List profiles
 
@@ -98,7 +98,7 @@ POST https://a.klaviyo.com/api/lists/{listId}/relationships/profiles/
 }
 ```
 
-### Track event
+### 跟踪事件
 
 ```bash
 POST https://a.klaviyo.com/api/events/
@@ -129,7 +129,7 @@ POST https://a.klaviyo.com/api/events/
 }
 ```
 
-### List campaigns
+### 列出广告活动
 
 ```bash
 GET https://a.klaviyo.com/api/campaigns/?filter=equals(messages.channel,"email")
@@ -157,7 +157,7 @@ PATCH https://a.klaviyo.com/api/flows/{flowId}/
 }
 ```
 
-### List metrics
+### List 指标
 
 ```bash
 GET https://a.klaviyo.com/api/metrics/
@@ -171,9 +171,9 @@ GET https://a.klaviyo.com/api/segments/
 
 ## API Pattern
 
-Klaviyo uses the JSON:API specification. All request/response bodies use `{ "data": { "type": "...", "attributes": {...} } }` format. Relationships are managed via `/relationships/` sub-endpoints. The `revision` header is required on every request and determines API behavior version.
+Klaviyo uses the JSON:API specification. All request/response bodies use `{ "data": { "type": "...", "attributes": {...} } }` format. Relationships are managed via `/relationships/` sub-endpoints. The `revision` 请求头 is required on every request and determines API behavior version.
 
-## Key Metrics
+## 核心指标
 
 ### Profile Fields
 - `email` - Email address
@@ -182,13 +182,13 @@ Klaviyo uses the JSON:API specification. All request/response bodies use `{ "dat
 - `properties` - Custom properties object
 - `subscriptions` - Email/SMS subscription status
 
-### Event Fields
-- `metric` - The metric/event name
-- `properties` - Custom event properties
-- `time` - Event timestamp
-- `value` - Monetary value (for revenue tracking)
+### 事件 Fields
+- `metric` - The metric/事件 name
+- `properties` - Custom 事件 properties
+- `time` - 事件 timestamp
+- `value` - Monetary value (for revenue 跟踪)
 
-### Campaign/Flow Metrics
+### 广告活动/Flow 指标
 - `send_count` - Number of sends
 - `open_rate` - Open percentage
 - `click_rate` - Click percentage
@@ -196,7 +196,7 @@ Klaviyo uses the JSON:API specification. All request/response bodies use `{ "dat
 
 ## Parameters
 
-### Common Query Parameters
+### 常见 Query Parameters
 - `page[size]` - Results per page (default 20, max 100)
 - `page[cursor]` - Cursor for pagination
 - `filter` - Filter expressions (e.g., `equals(email,"user@example.com")`)
@@ -204,25 +204,25 @@ Klaviyo uses the JSON:API specification. All request/response bodies use `{ "dat
 - `include` - Include related resources
 - `fields[resource]` - Sparse fieldsets
 
-## When to Use
+## 适用场景
 
-- E-commerce email/SMS marketing automation
-- Syncing customer profiles from external systems
-- Tracking purchase events and customer behavior
-- Managing email flows and drip campaigns
-- Segmenting audiences for targeted campaigns
-- Reporting on campaign and flow performance
+- E-commerce email/SMS 营销 automation
+- Syncing 客户 profiles from external systems
+- 跟踪 purchase events and 客户 behavior
+- Managing email flows and drip 广告活动
+- Segmenting audiences for targeted 广告活动
+- Reporting on 广告活动 and flow 表现
 
-## Rate Limits
+## 速率限制
 
 - Steady-state: 75 requests/second for most endpoints
 - Burst: up to 700 requests in 1 minute
-- Rate limit headers: `RateLimit-Limit`, `RateLimit-Remaining`, `RateLimit-Reset`
+- Rate limit 请求头: `RateLimit-Limit`, `RateLimit-Remaining`, `RateLimit-Reset`
 - Lower limits on some write endpoints (profiles, events)
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - ecommerce-email
-- lifecycle-marketing
-- customer-segmentation
+- lifecycle-营销
+- 客户-segmentation

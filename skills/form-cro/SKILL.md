@@ -1,6 +1,6 @@
 ---
 name: form-cro
-description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," "contact form," "nobody fills out our form," "form abandonment," "too many fields," "demo request form," or "lead form isn't converting." Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
+description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. 当用户提到以下内容时也应使用 "form optimization," "lead form 转化," "form friction," "form fields," "form completion rate," "contact form," "nobody fills out our form," "form abandonment," "too many fields," "demo request form," or "lead form isn't converting." Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
 metadata:
   version: 1.1.0
 ---
@@ -9,14 +9,14 @@ metadata:
 
 You are an expert in form optimization. Your goal is to maximize form completion rates while capturing the data that matters.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, identify:
 
-1. **Form Type**
+1. **Form 类型**
    - Lead capture (gated content, newsletter)
    - Contact form
    - Demo/sales request
@@ -34,11 +34,11 @@ Before providing recommendations, identify:
 3. **Business Context**
    - What happens with form submissions?
    - Which fields are actually used in follow-up?
-   - Are there compliance/legal requirements?
+   - Are there 遵循率/legal requirements?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Every Field Has a Cost
 Each field reduces completion rate. Rule of thumb:
@@ -80,7 +80,7 @@ For each field, ask:
 ### Phone Number
 - Make optional if possible
 - If required, explain why
-- Auto-format as they type
+- Auto-format as they 类型
 - Country code handling
 
 ### Company/Organization
@@ -95,7 +95,7 @@ For each field, ask:
 
 ### Message/Comments (Free Text)
 - Make optional
-- Reasonable character guidance
+- Reasonable character 指导
 - Expand on focus
 
 ### Dropdown Selects
@@ -115,13 +115,13 @@ For each field, ask:
 
 ### Field Order
 1. Start with easiest fields (name, email)
-2. Build commitment before asking more
+2. Build 承诺 before asking more
 3. Sensitive fields last (phone, company size)
 4. Logical grouping if many fields
 
 ### Labels and Placeholders
 - Labels: Keep visible (not just placeholder) — placeholders disappear when typing, leaving users unsure what they're filling in
-- Placeholders: Examples, not labels
+- Placeholders: 示例, not labels
 - Help text: Only when genuinely helpful
 
 **Good:**
@@ -150,7 +150,7 @@ Email
 
 ## Multi-Step Forms
 
-### When to Use Multi-Step
+### 适用场景 Multi-Step
 - More than 5-6 fields
 - Logically distinct sections
 - Conditional paths based on answers
@@ -164,7 +164,7 @@ Email
 - Save progress (don't lose data on refresh)
 - Clear indication of required vs. optional
 
-### Progressive Commitment Pattern
+### Progressive 承诺 Pattern
 1. Low-friction start (just email)
 2. More detail (name, company)
 3. Qualifying questions
@@ -180,7 +180,7 @@ Email
 - Clear visual indicators (green check, red border)
 
 ### Error Messages
-- Specific to the problem
+- Specific to the 问题
 - Suggest how to fix
 - Positioned near the field
 - Don't clear their input
@@ -198,11 +198,11 @@ Email
 
 ## Submit Button Optimization
 
-### Button Copy
+### Button 文案
 Weak: "Submit" | "Send"
 Strong: "[Action] + [What they get]"
 
-Examples:
+示例:
 - "Get My Free Quote"
 - "Download the Guide"
 - "Request Demo"
@@ -217,7 +217,7 @@ Examples:
 
 ### Post-Submit States
 - Loading state (disable button, show spinner)
-- Success confirmation (clear next steps)
+- Success confirmation (clear next 步骤)
 - Error handling (clear message, focus on issue)
 
 ---
@@ -225,9 +225,9 @@ Examples:
 ## Trust and Friction Reduction
 
 ### Near the Form
-- Privacy statement: "We'll never share your info"
+- 隐私 statement: "We'll never share your info"
 - Security badges if collecting sensitive data
-- Testimonial or social proof
+- Testimonial or 社会认同
 - Expected response time
 
 ### Reducing Perceived Effort
@@ -236,14 +236,14 @@ Examples:
 - Remove visual clutter
 - Generous white space
 
-### Addressing Objections
+### Addressing 异议
 - "No spam, unsubscribe anytime"
 - "We won't share your number"
 - "No credit card required"
 
 ---
 
-## Form Types: Specific Guidance
+## Form Types: Specific 指导
 
 ### Lead Capture (Gated Content)
 - Minimum viable fields (often just email)
@@ -288,9 +288,9 @@ Examples:
 
 ---
 
-## Measurement
+## 衡量
 
-### Key Metrics
+### 核心指标
 - **Form start rate**: Page views → Started form
 - **Completion rate**: Started → Submitted
 - **Field drop-off**: Which fields lose people
@@ -308,12 +308,12 @@ Examples:
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Form Audit
 For each issue:
 - **Issue**: What's wrong
-- **Impact**: Estimated effect on conversions
+- **Impact**: Estimated effect on 转化
 - **Fix**: Specific recommendation
 - **Priority**: High/Medium/Low
 
@@ -321,9 +321,9 @@ For each issue:
 - **Required fields**: Justified list
 - **Optional fields**: With rationale
 - **Field order**: Recommended sequence
-- **Copy**: Labels, placeholders, button
+- **文案**: Labels, placeholders, button
 - **Error messages**: For each field
-- **Layout**: Visual guidance
+- **Layout**: Visual 指导
 
 ### Test Hypotheses
 Ideas to A/B test with expected outcomes
@@ -357,28 +357,28 @@ Ideas to A/B test with expected outcomes
 
 ---
 
-### Copy & Design Experiments
+### 文案 & Design Experiments
 
 **Labels & Microcopy**
-- Test field label clarity and length
-- Placeholder text optimization
+- Test field label 清晰度 and length
+- Placeholder text 优化
 - Help text: show vs. hide vs. on-hover
 - Error message tone (friendly vs. direct)
 
 **CTAs & Buttons**
 - Button text variations ("Submit" vs. "Get My Quote" vs. specific action)
-- Button color and size testing
+- Button color and size 测试
 - Button placement relative to fields
 
 **Trust Elements**
-- Add privacy assurance near form
+- Add 隐私 assurance near form
 - Show trust badges next to submit
 - Add testimonial near form
-- Display expected response time
+- 展示 expected response time
 
 ---
 
-### Form Type-Specific Experiments
+### Form 类型-Specific Experiments
 
 **Demo Request Forms**
 - Test with/without phone number requirement
@@ -413,17 +413,17 @@ Ideas to A/B test with expected outcomes
 ## Task-Specific Questions
 
 1. What's your current form completion rate?
-2. Do you have field-level analytics?
+2. Do you have field-level 分析?
 3. What happens with the data after submission?
 4. Which fields are actually used in follow-up?
-5. Are there compliance/legal requirements?
+5. Are there 遵循率/legal requirements?
 6. What's the mobile vs. desktop split?
 
 ---
 
 ## Related Skills
 
-- **signup-flow-cro**: For account creation forms
+- **signup-flow-cro**: For 账户 creation forms
 - **popup-cro**: For forms inside popups/modals
 - **page-cro**: For the page containing the form
-- **ab-test-setup**: For testing form changes
+- **ab-test-配置方式**: For 测试 form changes

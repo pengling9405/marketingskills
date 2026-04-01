@@ -1,22 +1,22 @@
 ---
 name: schema-markup
-description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in search," or "add structured data." Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.
+description: When the user wants to add, fix, or optimize schema markup and structured data on their site. 当用户提到以下内容时也应使用 "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "产品 schema," "review schema," "breadcrumb schema," "Google rich results," "knowledge panel," "star ratings in 搜索," or "add structured data." 在这些情况下都应使用本技能 someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI 搜索 optimization, see ai-seo.
 metadata:
   version: 1.1.0
 ---
 
 # Schema Markup
 
-You are an expert in structured data and schema markup. Your goal is to implement schema.org markup that helps search engines understand content and enables rich results in search.
+You are an expert in structured data and schema markup. Your goal is to implement schema.org markup that helps 搜索 engines understand content and enables rich results in 搜索.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before implementing schema, understand:
 
-1. **Page Type** - What kind of page? What's the primary content? What rich results are possible?
+1. **Page 类型** - What kind of page? What's the primary content? What rich results are possible?
 
 2. **Current State** - Any existing schema? Errors in implementation? Which rich results already appearing?
 
@@ -24,7 +24,7 @@ Before implementing schema, understand:
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Accuracy First
 - Schema must accurately represent page content
@@ -43,41 +43,41 @@ Before implementing schema, understand:
 
 ### 4. Validate Everything
 - Test before deploying
-- Monitor Search Console
+- Monitor 搜索 Console
 - Fix errors promptly
 
 ---
 
-## Common Schema Types
+## 常见 Schema Types
 
-| Type | Use For | Required Properties |
+| 类型 | Use For | Required Properties |
 |------|---------|-------------------|
-| Organization | Company homepage/about | name, url |
-| WebSite | Homepage (search box) | name, url |
-| Article | Blog posts, news | headline, image, datePublished, author |
-| Product | Product pages | name, image, offers |
+| Organization | Company 首页/about | name, url |
+| WebSite | 首页 (搜索 box) | name, url |
+| Article | Blog posts, news | 标题, image, datePublished, author |
+| 产品 | 产品 pages | name, image, offers |
 | SoftwareApplication | SaaS/app pages | name, offers |
 | FAQPage | FAQ content | mainEntity (Q&A array) |
 | HowTo | Tutorials | name, step |
 | BreadcrumbList | Any page with breadcrumbs | itemListElement |
 | LocalBusiness | Local business pages | name, address |
-| Event | Events, webinars | name, startDate, location |
+| 事件 | Events, webinars | name, startDate, location |
 
 **For complete JSON-LD examples**: See [references/schema-examples.md](references/schema-examples.md)
 
 ---
 
-## Quick Reference
+## 快速参考
 
 ### Organization (Company Page)
 Required: name, url
 Recommended: logo, sameAs (social profiles), contactPoint
 
 ### Article/BlogPosting
-Required: headline, image, datePublished, author
+Required: 标题, image, datePublished, author
 Recommended: dateModified, publisher, description
 
-### Product
+### 产品
 Required: name, image, offers (price + availability)
 Recommended: sku, brand, aggregateRating, review
 
@@ -106,14 +106,14 @@ You can combine multiple schema types on one page using `@graph`:
 
 ---
 
-## Validation and Testing
+## Validation and 测试
 
 ### Tools
-- **Google Rich Results Test**: https://search.google.com/test/rich-results
+- **Google Rich Results Test**: https://搜索.google.com/test/rich-results
 - **Schema.org Validator**: https://validator.schema.org/
-- **Search Console**: Enhancements reports
+- **搜索 Console**: Enhancements reports
 
-### Common Errors
+### 常见 Errors
 
 **Missing required properties** - Check Google's documentation for required fields
 
@@ -141,7 +141,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Schema Implementation
 ```json
@@ -153,7 +153,7 @@ You can combine multiple schema types on one page using `@graph`:
 }
 ```
 
-### Testing Checklist
+### 测试 Checklist
 - [ ] Validates in Rich Results Test
 - [ ] No errors or warnings
 - [ ] Matches page content
@@ -163,7 +163,7 @@ You can combine multiple schema types on one page using `@graph`:
 
 ## Task-Specific Questions
 
-1. What type of page is this?
+1. What 类型 of page is this?
 2. What rich results are you hoping to achieve?
 3. What data is available to populate the schema?
 4. Is there existing schema on the page?
@@ -174,6 +174,6 @@ You can combine multiple schema types on one page using `@graph`:
 ## Related Skills
 
 - **seo-audit**: For overall SEO including schema review
-- **ai-seo**: For AI search optimization (schema helps AI understand content)
+- **ai-seo**: For AI 搜索 optimization (schema helps AI understand content)
 - **programmatic-seo**: For templated schema at scale
 - **site-architecture**: For breadcrumb structure and navigation schema planning

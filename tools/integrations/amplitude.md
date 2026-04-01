@@ -1,24 +1,24 @@
 # Amplitude
 
-Product analytics platform for user behavior, retention, and experimentation.
+产品 分析 平台 for user behavior, retention, and experimentation.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | HTTP API for events, User Profile API, Export API |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | JavaScript, iOS, Android, Python, etc. |
 
-## Authentication
+## 认证方式
 
 - **HTTP API**: API Key (public for events)
 - **Export/Dashboard API**: API Key + Secret Key
 
-## Common Agent Operations
+## 常见代理操作
 
-### Track event
+### 跟踪事件
 
 ```bash
 POST https://api2.amplitude.com/2/httpapi
@@ -38,7 +38,7 @@ POST https://api2.amplitude.com/2/httpapi
 }
 ```
 
-### Batch events
+### 批量事件
 
 ```bash
 POST https://api2.amplitude.com/batch
@@ -78,7 +78,7 @@ Authorization: Basic {base64(api_key:secret_key)}
 
 ### Query with SQL (Snowflake)
 
-For Amplitude customers with SQL access:
+For Amplitude 客户 with SQL access:
 ```sql
 SELECT event_type, COUNT(*) as count
 FROM events
@@ -106,30 +106,30 @@ amplitude.track('Feature Used', {
 });
 ```
 
-## Key Concepts
+## 关键概念
 
 - **Events** - User actions with properties
 - **User Properties** - Persistent user attributes
 - **Cohorts** - Behavioral segments
-- **Funnels** - Multi-step conversion analysis
+- **Funnels** - Multi-step conversion 分析
 - **Retention** - User return patterns
-- **Journeys** - User path analysis
+- **Journeys** - User path 分析
 
-## When to Use
+## 适用场景
 
-- Tracking product analytics
+- 跟踪 产品 分析
 - Analyzing user funnels
 - Cohort analysis and retention
-- Experimentation and A/B testing
+- Experimentation and A/B 测试
 - User journey mapping
 
-## Rate Limits
+## 速率限制
 
 - HTTP API: 1000 events/second
 - Export API: 360 requests/hour
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
-- ab-test-setup
+- 分析-跟踪
+- ab-test-配置方式
 - onboarding-cro

@@ -2,23 +2,23 @@
 
 Headless CMS with real-time collaboration, GROQ query language, and schema-as-code.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | GROQ queries, Mutations API, Assets API |
 | MCP | - | No official MCP server |
 | CLI | ✓ | `sanity` CLI for studio, datasets, deployment |
 | SDK | ✓ | `@sanity/client`, `next-sanity`, `@sanity/image-url` |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token (Bearer)
-- **Header**: `Authorization: Bearer skXXXXXX`
+- **类型**: API Token (Bearer)
+- **请求头**: `Authorization: Bearer skXXXXXX`
 - **Tokens**: Create in Sanity Manage → API → Tokens
 - **Permissions**: Read-only or Read+Write per token
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Query documents (GROQ)
 
@@ -119,30 +119,30 @@ sanity documents query '*[_type == "post"][0..9]{title, slug}'
 
 - **Document** — Top-level content item with `_id`, `_type`, `_rev`
 - **Asset** — Images and files stored in Sanity CDN
-- **Reference** — Link between documents (`{_type: "reference", _ref: "doc-id"}`)
+- **参考** — Link between documents (`{_type: "reference", _ref: "doc-id"}`)
 - **Portable Text** — Rich text as structured array of blocks
 - **Dataset** — Isolated content database (e.g., `production`, `staging`)
 - **Slug** — URL-friendly identifier (`{_type: "slug", current: "my-slug"}`)
 
-## When to Use
+## 适用场景
 
-- Structured content for marketing sites and blogs
+- Structured content for 营销 sites and blogs
 - Multi-channel content delivery (web, mobile, email)
-- Real-time collaborative editing workflows
+- Real-time collaborative editing 工作流
 - Content-heavy sites with complex models
 - Next.js or React-based frontends
 
-## Rate Limits
+## 速率限制
 
-Rate limits vary by plan. Documented defaults:
+速率限制 vary by plan. Documented defaults:
 
 - CDN API (queries): High throughput, globally distributed (no hard per-second cap published)
 - API (without CDN): Rate-limited per project (varies by plan)
 - Mutations: Rate-limited per project (varies by plan)
 - See [Sanity technical limits](https://www.sanity.io/docs/technical-limits) for current values
 
-## Relevant Skills
+## 相关技能
 
 - content-strategy (CMS selection, content modeling)
-- programmatic-seo (CMS as data source for generated pages)
+- programmatic-seo (CMS as data 来源 for generated pages)
 - site-architecture (URL structure from CMS slugs)

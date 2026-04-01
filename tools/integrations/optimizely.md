@@ -1,23 +1,23 @@
 # Optimizely
 
-A/B testing and experimentation platform with a REST API for managing projects, experiments, campaigns, and results.
+A/B 测试 and experimentation 平台 with a REST API for managing projects, experiments, 广告活动, and results.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Projects, Experiments, Campaigns, Audiences, Results |
-| MCP | - | Not available |
+| API | ✓ | Projects, Experiments, 广告活动, Audiences, Results |
+| MCP | - | 不可用 |
 | CLI | ✓ | [optimizely.js](../clis/optimizely.js) |
 | SDK | ✓ | JavaScript, Python, Ruby, Java, Go, C#, PHP, React, Swift, Android |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (Personal Access Token or OAuth 2.0)
-- **Header**: `Authorization: Bearer {personal_token}`
-- **Get token**: https://app.optimizely.com/v2/profile/api > Generate New Token
+- **类型**: Bearer Token (Personal Access Token or OAuth 2.0)
+- **请求头**: `Authorization: Bearer {personal_token}`
+- **获取令牌**： https://app.optimizely.com/v2/profile/API > Generate New Token
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Projects
 
@@ -77,13 +77,13 @@ PATCH https://api.optimizely.com/v2/experiments/{experiment_id}
 }
 ```
 
-### List Campaigns
+### List 广告活动
 
 ```bash
 GET https://api.optimizely.com/v2/campaigns?project_id={project_id}
 ```
 
-### Get Campaign Results
+### Get 广告活动 Results
 
 ```bash
 GET https://api.optimizely.com/v2/campaigns/{campaign_id}/results
@@ -107,11 +107,11 @@ GET https://api.optimizely.com/v2/events?project_id={project_id}
 GET https://api.optimizely.com/v2/pages?project_id={project_id}
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Experiment Results
 - `variation_id` - Variation identifier
-- `variation_name` - Variation display name
+- `variation_name` - Variation 展示 name
 - `visitors` - Unique visitors per variation
 - `conversions` - Conversion count
 - `conversion_rate` - Rate as decimal
@@ -141,31 +141,31 @@ GET https://api.optimizely.com/v2/pages?project_id={project_id}
 ### Create Experiment
 - `project_id` (required) - Parent project
 - `name` (required) - Experiment name
-- `type` - Experiment type (default: a/b)
+- `type` - Experiment 类型 (default: a/b)
 - `variations` (required) - Array of variations with name and weight
-- `metrics` - Array of metric/event configurations
+- `metrics` - Array of metric/事件 configurations
 - `audience_conditions` - Targeting conditions
 - `traffic_allocation` - Traffic percentage (0-10000)
 
-## When to Use
+## 适用场景
 
-- Running A/B tests on web pages and features
+- Running A/B tests on web pages and 特性
 - Managing experimentation programs at scale
-- Pulling experiment results for analysis
+- Pulling experiment results for 分析
 - Automating experiment creation and monitoring
-- Feature flag management
-- Personalization campaigns
+- Feature flag 管理
+- Personalization 广告活动
 
-## Rate Limits
+## 速率限制
 
 - 50 requests/second per personal token
 - Pagination via `page` and `per_page` parameters
-- OpenAPI spec available at https://api.optimizely.com/v2/swagger.json
+- OpenAPI spec available at https://API.optimizely.com/v2/swagger.json
 
-## Relevant Skills
+## 相关技能
 
-- ab-test-setup
+- ab-test-配置方式
 - page-cro
 - landing-page
 - personalization
-- analytics-tracking
+- 分析-跟踪

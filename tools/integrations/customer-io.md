@@ -1,25 +1,25 @@
-# Customer.io
+# 客户.io
 
-Behavior-based messaging platform for email, push, SMS, and in-app.
+Behavior-based messaging 平台 for email, push, SMS, and in-app.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Track API, App API, Journeys API |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | JavaScript, iOS, Android, Ruby, Python |
 
-## Authentication
+## 认证方式
 
 - **Track API**: Site ID + API Key (Basic auth)
 - **App API**: Bearer token
-- **Header**: `Authorization: Basic {base64(site_id:api_key)}`
+- **请求头**: `Authorization: Basic {base64(site_id:api_key)}`
 
-## Common Agent Operations
+## 常见代理操作
 
-### Identify customer
+### Identify 客户
 
 ```bash
 PUT https://track.customer.io/api/v1/customers/{customer_id}
@@ -34,7 +34,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Track event
+### 跟踪事件
 
 ```bash
 POST https://track.customer.io/api/v1/customers/{customer_id}/events
@@ -50,7 +50,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Track anonymous event
+### Track anonymous 事件
 
 ```bash
 POST https://track.customer.io/api/v1/events
@@ -66,7 +66,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Delete customer
+### Delete 客户
 
 ```bash
 DELETE https://track.customer.io/api/v1/customers/{customer_id}
@@ -74,7 +74,7 @@ DELETE https://track.customer.io/api/v1/customers/{customer_id}
 Authorization: Basic {base64(site_id:api_key)}
 ```
 
-### Get customer (App API)
+### Get 客户 (App API)
 
 ```bash
 GET https://api.customer.io/v1/customers/{customer_id}/attributes
@@ -82,7 +82,7 @@ GET https://api.customer.io/v1/customers/{customer_id}/attributes
 Authorization: Bearer {app_api_key}
 ```
 
-### List campaigns
+### 列出广告活动
 
 ```bash
 GET https://api.customer.io/v1/campaigns
@@ -90,7 +90,7 @@ GET https://api.customer.io/v1/campaigns
 Authorization: Bearer {app_api_key}
 ```
 
-### Get campaign metrics
+### Get 广告活动 指标
 
 ```bash
 GET https://api.customer.io/v1/campaigns/{campaign_id}/metrics
@@ -153,11 +153,11 @@ _cio.track('purchase', {
 _cio.page();
 ```
 
-## Key Concepts
+## 关键概念
 
-- **People** - Customers and leads
+- **People** - 客户 and leads
 - **Segments** - Dynamic groups based on attributes/behavior
-- **Campaigns** - Automated message sequences
+- **广告活动** - Automated message sequences
 - **Broadcasts** - One-time sends
 - **Transactional** - Triggered messages
 
@@ -167,21 +167,21 @@ _cio.page();
 - Custom: Any key you define
 - Computed: Aggregations from events
 
-## When to Use
+## 适用场景
 
 - Behavior-based email automation
 - Multi-channel messaging (email, push, SMS)
 - Onboarding sequences
-- Re-engagement campaigns
+- Re-engagement 广告活动
 - Transactional messages
 
-## Rate Limits
+## 速率限制
 
 - Track API: 100 requests/second
 - App API: 10 requests/second
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - onboarding-cro
-- analytics-tracking
+- 分析-跟踪

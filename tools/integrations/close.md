@@ -2,22 +2,22 @@
 
 Sales CRM for SMBs with built-in calling, email, and pipeline management designed for high-velocity sales teams.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Leads, Contacts, Opportunities, Activities, Tasks |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [close.js](../clis/close.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: Basic Auth
-- **Header**: `Authorization: Basic {base64(api_key + ':')}`
+- **类型**: Basic Auth
+- **请求头**: `Authorization: Basic {base64(api_key + ':')}`
 - **Get key**: Settings > API Keys at https://app.close.com
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Leads
 
@@ -27,7 +27,7 @@ GET https://api.close.com/api/v1/lead/
 Authorization: Basic {base64(api_key + ':')}
 ```
 
-### Search Leads
+### 搜索 Leads
 
 ```bash
 GET https://api.close.com/api/v1/lead/?query=company_name
@@ -101,7 +101,7 @@ POST https://api.close.com/api/v1/task/
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Lead Data
 - `id` - Lead ID
@@ -140,7 +140,7 @@ POST https://api.close.com/api/v1/task/
 ## Parameters
 
 ### Leads
-- `query` - Search query string
+- `query` - 搜索 query string
 - `_skip` - Number of results to skip (pagination)
 - `_limit` - Max results to return (default: 100)
 - `_fields` - Comma-separated fields to return
@@ -152,13 +152,13 @@ POST https://api.close.com/api/v1/task/
 
 ### Opportunities
 - `lead_id` - Filter by parent lead
-- `status` - Filter by status type (active, won, lost)
+- `status` - Filter by status 类型 (active, won, lost)
 - `_skip` - Pagination offset
 - `_limit` - Max results
 
 ### Activities
 - `lead_id` - Filter by lead
-- `_type__type` - Filter by type (Email, Call, Note, SMS, Meeting)
+- `_type__type` - Filter by 类型 (Email, Call, Note, SMS, Meeting)
 - `date_created__gt` - After date
 - `date_created__lt` - Before date
 
@@ -166,25 +166,25 @@ POST https://api.close.com/api/v1/task/
 - `assigned_to` - Filter by user ID
 - `is_complete` - Filter by completion (true/false)
 - `lead_id` - Filter by lead
-- `_type` - Task type (lead)
+- `_type` - Task 类型 (lead)
 
-## When to Use
+## 适用场景
 
 - Managing SMB sales pipelines with high-touch outreach
-- Tracking sales activities (calls, emails, meetings) per lead
+- 跟踪 sales activities (calls, emails, meetings) per lead
 - Creating and managing tasks for sales follow-ups
-- Opportunity tracking and revenue forecasting
-- Building automated outreach workflows
-- Sales team performance reporting
+- Opportunity 跟踪 and revenue forecasting
+- Building automated outreach 工作流
+- Sales team 表现 reporting
 
-## Rate Limits
+## 速率限制
 
-- Rate limits based on organization plan
+- 速率限制 based on organization plan
 - Standard: ~100 requests/minute
-- Responses include `ratelimit-limit` and `ratelimit-remaining` headers
-- 429 responses include `Retry-After` header
+- Responses include `ratelimit-limit` and `ratelimit-remaining` 请求头
+- 429 responses include `Retry-After` 请求头
 
-## Relevant Skills
+## 相关技能
 
 - revops
 - sales-enablement

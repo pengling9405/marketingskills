@@ -1,6 +1,6 @@
 ---
 name: onboarding-cro
-description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes setup," "low activation rate," "users sign up but don't use the product," "time to value," or "first session experience." Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
+description: When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. 当用户提到以下内容时也应使用 "onboarding flow," "activation rate," "user activation," "first-run experience," "empty states," "onboarding checklist," "aha moment," "new user experience," "users aren't activating," "nobody completes 配置方式," "low activation rate," "users sign up but don't use the 产品," "time to value," or "first session experience." 在这些情况下都应使用本技能 users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.
 metadata:
   version: 1.1.0
 ---
@@ -9,26 +9,26 @@ metadata:
 
 You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lead to long-term retention.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, understand:
 
-1. **Product Context** - What type of product? B2B or B2C? Core value proposition?
+1. **产品 Context** - What 类型 of 产品? B2B or B2C? Core value proposition?
 2. **Activation Definition** - What's the "aha moment"? What action indicates a user "gets it"?
 3. **Current State** - What happens after signup? Where do users drop off?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Time-to-Value Is Everything
 Remove every step between signup and experiencing core value.
 
 ### 2. One Goal Per Session
-Focus first session on one successful outcome. Save advanced features for later.
+Focus first session on one successful outcome. Save advanced 特性 for later.
 
 ### 3. Do, Don't Show
 Interactive > Tutorial. Doing the thing > Learning about the thing.
@@ -46,17 +46,17 @@ The action that correlates most strongly with retention:
 - What do retained users do that churned users don't?
 - What's the earliest indicator of future engagement?
 
-**Examples by product type:**
+**示例 by 产品 类型:**
 - Project management: Create first project + add team member
-- Analytics: Install tracking + see first report
+- 分析: Install 跟踪 + see first report
 - Design tool: Create first design + export/share
 - Marketplace: Complete first transaction
 
-### Activation Metrics
+### Activation 指标
 - % of signups who reach activation
 - Time to activation
-- Steps to activation
-- Activation by cohort/source
+- 步骤 to activation
+- Activation by cohort/来源
 
 ---
 
@@ -66,8 +66,8 @@ The action that correlates most strongly with retention:
 
 | Approach | Best For | Risk |
 |----------|----------|------|
-| Product-first | Simple products, B2C, mobile | Blank slate overwhelm |
-| Guided setup | Products needing personalization | Adds friction before value |
+| 产品-first | Simple products, B2C, mobile | Blank slate overwhelm |
+| Guided 配置方式 | Products needing personalization | Adds friction before value |
 | Value-first | Products with demo data | May not feel "real" |
 
 **Whatever you choose:**
@@ -77,9 +77,9 @@ The action that correlates most strongly with retention:
 
 ### Onboarding Checklist Pattern
 
-**When to use:**
-- Multiple setup steps required
-- Product has several features to discover
+**适用场景:**
+- Multiple 配置方式 步骤 required
+- 产品 has several 特性 to discover
 - Self-serve B2B products
 
 **Best practices:**
@@ -98,14 +98,14 @@ Empty states are onboarding opportunities, not dead ends.
 - Explains what this area is for
 - Shows what it looks like with data
 - Clear primary action to add first item
-- Optional: Pre-populate with example data
+- Optional: Pre-populate with 示例 data
 
 ### Tooltips and Guided Tours
 
-**When to use:** Complex UI, features that aren't self-evident, power features users might miss
+**适用场景:** Complex UI, 特性 that aren't self-evident, power 特性 users might miss
 
 **Best practices:**
-- Max 3-5 steps per tour
+- Max 3-5 步骤 per tour
 - Dismissable at any time
 - Don't repeat for returning users
 
@@ -123,7 +123,7 @@ Empty states are onboarding opportunities, not dead ends.
 
 **Email should:**
 - Reinforce in-app actions, not duplicate them
-- Drive back to product with specific CTA
+- Drive back to 产品 with specific CTA
 - Be personalized based on actions taken
 
 ---
@@ -131,7 +131,7 @@ Empty states are onboarding opportunities, not dead ends.
 ## Handling Stalled Users
 
 ### Detection
-Define "stalled" criteria (X days inactive, incomplete setup)
+Define "stalled" criteria (X days inactive, incomplete 配置方式)
 
 ### Re-engagement Tactics
 
@@ -141,15 +141,15 @@ Define "stalled" criteria (X days inactive, incomplete setup)
 
 ---
 
-## Measurement
+## 衡量
 
-### Key Metrics
+### 核心指标
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
-| Activation rate | % reaching activation event |
+| Activation rate | % reaching activation 事件 |
 | Time to activation | How long to first value |
-| Onboarding completion | % completing setup |
+| Onboarding completion | % completing 配置方式 |
 | Day 1/7/30 retention | Return rate by timeframe |
 
 ### Funnel Analysis
@@ -164,7 +164,7 @@ Identify biggest drops and focus there.
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Onboarding Audit
 For each issue: Finding → Impact → Recommendation → Priority
@@ -173,20 +173,20 @@ For each issue: Finding → Impact → Recommendation → Priority
 - Activation goal
 - Step-by-step flow
 - Checklist items (if applicable)
-- Empty state copy
+- Empty state 文案
 - Email sequence triggers
-- Metrics plan
+- 指标 plan
 
 ---
 
-## Common Patterns by Product Type
+## 常见 Patterns by 产品 类型
 
-| Product Type | Key Steps |
+| 产品 类型 | Key 步骤 |
 |--------------|-----------|
-| B2B SaaS | Setup wizard → First value action → Team invite → Deep setup |
+| B2B SaaS | 配置方式 wizard → First value action → Team invite → Deep 配置方式 |
 | Marketplace | Complete profile → Browse → First transaction → Repeat loop |
-| Mobile App | Permissions → Quick win → Push setup → Habit loop |
-| Content Platform | Follow/customize → Consume → Create → Engage |
+| Mobile App | Permissions → Quick win → Push 配置方式 → Habit loop |
+| Content 平台 | Follow/customize → Consume → Create → Engage |
 
 ---
 
@@ -198,7 +198,7 @@ When recommending experiments, consider tests for:
 - Personalization by role or goal
 - Support and help availability
 
-**For comprehensive experiment ideas**: See [references/experiments.md](references/experiments.md)
+**如需更完整的内容，请参见 experiment ideas**: See [references/experiments.md](references/experiments.md)
 
 ---
 
@@ -217,4 +217,4 @@ When recommending experiments, consider tests for:
 - **signup-flow-cro**: For optimizing the signup before onboarding
 - **email-sequence**: For onboarding email series
 - **paywall-upgrade-cro**: For converting to paid during/after onboarding
-- **ab-test-setup**: For testing onboarding changes
+- **ab-test-配置方式**: For 测试 onboarding changes

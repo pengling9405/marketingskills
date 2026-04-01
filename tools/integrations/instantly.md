@@ -1,26 +1,26 @@
 # Instantly.ai
 
-Cold email platform with built-in email warmup and campaign management at scale.
+Cold email 平台 with built-in email warmup and 广告活动 management at scale.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for campaigns, leads, accounts, analytics |
-| MCP | - | Not available |
+| API | ✓ | REST API for 广告活动, leads, accounts, 分析 |
+| MCP | - | 不可用 |
 | CLI | [✓](../clis/instantly.js) | Zero-dependency Node.js CLI |
 | SDK | - | API-only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key (query parameter)
+- **类型**: API Key (query parameter)
 - **Parameter**: `api_key={key}`
 - **Env var**: `INSTANTLY_API_KEY`
 - **Get key**: [Instantly Settings > Integrations > API](https://app.instantly.ai/app/settings/integrations)
 
-## Common Agent Operations
+## 常见代理操作
 
-### Manage campaigns
+### Manage 广告活动
 
 ```bash
 # List campaigns
@@ -68,7 +68,7 @@ node tools/clis/instantly.js accounts status --account-id me@example.com
 node tools/clis/instantly.js accounts warmup-status --account-id me@example.com
 ```
 
-### View analytics
+### View 分析
 
 ```bash
 # Campaign analytics
@@ -91,14 +91,14 @@ node tools/clis/instantly.js blocklist list
 node tools/clis/instantly.js blocklist add --entries "competitor.com,spam@example.com"
 ```
 
-## Rate Limits
+## 速率限制
 
-- API rate limits vary by plan
+- API 速率限制 vary by plan
 - Recommended: stay under 10 requests/second
 
 ## Use Cases
 
-- **Link building at scale**: Run large-volume outreach campaigns with built-in warmup
-- **Campaign management**: Launch, pause, and monitor cold email campaigns
-- **Account health**: Monitor email account warmup and deliverability
-- **Analytics**: Track open rates, reply rates, and campaign performance
+- **Link building at scale**: Run large-volume outreach 广告活动 with built-in warmup
+- **广告活动 management**: Launch, pause, and monitor cold email 广告活动
+- **账户 health**: Monitor email 账户 warmup and deliverability
+- **分析**: Track open rates, reply rates, and 广告活动 表现

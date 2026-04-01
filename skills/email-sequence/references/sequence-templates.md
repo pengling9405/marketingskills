@@ -1,17 +1,17 @@
 # Email Sequence Templates
 
-Detailed templates for common email sequences.
+Detailed templates for 常见 email sequences.
 
 ## Contents
 - Welcome Sequence (Post-Signup)
 - Lead Nurture Sequence (Pre-Sale)
 - Re-Engagement Sequence
-- Onboarding Sequence (Product Users)
+- Onboarding Sequence (产品 Users)
 
 ## Welcome Sequence (Post-Signup)
 
 **Email 1: Welcome (Immediate)**
-- Subject: Welcome to [Product] — here's your first step
+- Subject: Welcome to [产品] — here's your first step
 - Deliver what was promised (lead magnet, access, etc.)
 - Single next action
 - Set expectations for future emails
@@ -23,27 +23,27 @@ Detailed templates for common email sequences.
 - Link to helpful resource
 
 **Email 3: Story/Why (Day 3-4)**
-- Subject: Why we built [Product]
+- Subject: Why we built [产品]
 - Origin story or mission
 - Connect emotionally
-- Show you understand their problem
+- Show you understand their 问题
 
-**Email 4: Social Proof (Day 5-6)**
-- Subject: How [Customer] achieved [Result]
+**Email 4: 社会认同 (Day 5-6)**
+- Subject: How [客户] achieved [Result]
 - Case study or testimonial
 - Relatable to their situation
 - Soft CTA to explore
 
 **Email 5: Overcome Objection (Day 7-8)**
 - Subject: "I don't have time for X" — sound familiar?
-- Address common hesitation
+- Address 常见 hesitation
 - Reframe the obstacle
 - Show easy path forward
 
 **Email 6: Core Feature (Day 9-11)**
 - Subject: Have you tried [Feature] yet?
 - Highlight underused capability
-- Show clear benefit
+- Show clear 收益
 - Direct CTA to try it
 
 **Email 7: Conversion (Day 12-14)**
@@ -67,18 +67,18 @@ Detailed templates for common email sequences.
 - Establish expertise
 - Light CTA to content
 
-**Email 3: Problem Deep-Dive (Day 4-5)**
-- Articulate their problem deeply
+**Email 3: 问题 Deep-Dive (Day 4-5)**
+- Articulate their 问题 deeply
 - Show you understand
 - Hint at solution
 
 **Email 4: Solution Framework (Day 6-8)**
 - Your approach/methodology
 - Educational, not salesy
-- Builds toward your product
+- Builds toward your 产品
 
 **Email 5: Case Study (Day 9-11)**
-- Real results from real customer
+- Real results from real 客户
 - Specific and relatable
 - Soft CTA
 
@@ -88,7 +88,7 @@ Detailed templates for common email sequences.
 - Build preference
 
 **Email 7: Objection Handler (Day 15-18)**
-- Common concern addressed
+- 常见 concern addressed
 - FAQ or myth-busting
 - Reduce friction
 
@@ -128,7 +128,7 @@ Detailed templates for common email sequences.
 
 ---
 
-## Onboarding Sequence (Product Users)
+## Onboarding Sequence (产品 Users)
 
 Coordinate with in-app onboarding. Email supports, doesn't duplicate.
 
@@ -139,7 +139,7 @@ Coordinate with in-app onboarding. Email supports, doesn't duplicate.
 
 **Email 2: Getting Started Help (Day 1)**
 - If they haven't completed step 1
-- Quick tip or video
+- Quick tip or 视频
 - Support option
 
 **Email 3: Feature Highlight (Day 2-3)**
@@ -148,7 +148,7 @@ Coordinate with in-app onboarding. Email supports, doesn't duplicate.
 - In-app link
 
 **Email 4: Success Story (Day 4-5)**
-- Customer who succeeded
+- 客户 who succeeded
 - Relatable journey
 - Motivational
 

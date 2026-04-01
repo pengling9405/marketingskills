@@ -1,25 +1,25 @@
 ---
 name: referral-program
-description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy."
+description: "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. 当用户提到以下内容时也应使用 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' '客户 referring 客户,' or 'affiliate payout.' 在这些情况下都应使用本技能 someone wants existing users or partners to bring in new 客户. For launch-specific virality, see launch-strategy."
 metadata:
   version: 1.1.0
 ---
 
 # Referral & Affiliate Programs
 
-You are an expert in viral growth and referral marketing. Your goal is to help design and optimize programs that turn customers into growth engines.
+You are an expert in viral growth and referral 营销. Your goal is to help design and optimize programs that turn 客户 into growth engines.
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Program Type
-- Customer referral program, affiliate program, or both?
+### 1. Program 类型
+- 客户 referral program, affiliate program, or both?
 - B2B or B2C?
-- What's the average customer LTV?
+- What's the average 客户 LTV?
 - What's your current CAC from other channels?
 
 ### 2. Current State
@@ -27,28 +27,28 @@ Gather this context (ask if not provided):
 - Current referral rate (% who refer)?
 - What incentives have you tried?
 
-### 3. Product Fit
-- Is your product shareable?
+### 3. 产品 Fit
+- Is your 产品 shareable?
 - Does it have network effects?
-- Do customers naturally talk about it?
+- Do 客户 naturally talk about it?
 
 ### 4. Resources
 - Tools/platforms you use or consider?
-- Budget for referral incentives?
+- 预算 for referral incentives?
 
 ---
 
 ## Referral vs. Affiliate
 
-### Customer Referral Programs
+### 客户 Referral Programs
 
 **Best for:**
-- Existing customers recommending to their network
+- Existing 客户 recommending to their network
 - Products with natural word-of-mouth
 - Lower-ticket or self-serve products
 
 **Characteristics:**
-- Referrer is an existing customer
+- Referrer is an existing 客户
 - One-time or limited rewards
 - Higher trust, lower volume
 
@@ -60,7 +60,7 @@ Gather this context (ask if not provided):
 - Higher-ticket products that justify commissions
 
 **Characteristics:**
-- Affiliates may not be customers
+- Affiliates may not be 客户
 - Ongoing commission relationship
 - Higher volume, variable trust
 
@@ -85,7 +85,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 ### Step 2: Design Share Mechanism
 
 **Ranked by effectiveness:**
-1. In-product sharing (highest conversion)
+1. In-产品 sharing (highest conversion)
 2. Personalized link
 3. Email invitation
 4. Social sharing
@@ -97,7 +97,7 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 **Double-sided rewards** (both parties): Higher conversion, win-win framing
 
-**Tiered rewards**: Gamifies referral process, increases engagement
+**Tiered rewards**: Gamifies referral 流程, increases engagement
 
 **For examples and incentive sizing**: See [references/program-examples.md](references/program-examples.md)
 
@@ -107,11 +107,11 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 ### Improving Referral Rate
 
-**If few customers are referring:**
+**If few 客户 are referring:**
 - Ask at better moments
-- Simplify sharing process
+- Simplify sharing 流程
 - Test different incentive types
-- Make referral prominent in product
+- Make referral prominent in 产品
 
 **If referrals aren't converting:**
 - Improve landing experience for referred users
@@ -120,61 +120,61 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 ### A/B Tests to Run
 
-**Incentive tests:** Amount, type, single vs. double-sided, timing
+**Incentive tests:** Amount, 类型, single vs. double-sided, timing
 
-**Messaging tests:** Program description, CTA copy, landing page copy
+**Messaging tests:** Program description, CTA 文案, 落地页 文案
 
 **Placement tests:** Where and when the referral prompt appears
 
-### Common Problems & Fixes
+### 常见 Problems & Fixes
 
-| Problem | Fix |
+| 问题 | Fix |
 |---------|-----|
 | Low awareness | Add prominent in-app prompts |
 | Low share rate | Simplify to one click |
 | Low conversion | Optimize referred user experience |
-| Fraud/abuse | Add verification, limits |
+| Fraud/abuse | Add 验证, limits |
 | One-time referrers | Add tiered/gamified rewards |
 
 ---
 
 ## Measuring Success
 
-### Key Metrics
+### 核心指标
 
 **Program health:**
 - Active referrers (referred someone in last 30 days)
-- Referral conversion rate
+- Referral 转化率
 - Rewards earned/paid
 
 **Business impact:**
-- % of new customers from referrals
+- % of new 客户 from referrals
 - CAC via referral vs. other channels
-- LTV of referred customers
+- LTV of referred 客户
 - Referral program ROI
 
 ### Typical Findings
 
-- Referred customers have 16-25% higher LTV
-- Referred customers have 18-37% lower churn
-- Referred customers refer others at 2-3x rate
+- Referred 客户 have 16-25% higher LTV
+- Referred 客户 have 18-37% lower churn
+- Referred 客户 refer others at 2-3x rate
 
 ---
 
 ## Launch Checklist
 
 ### Before Launch
-- [ ] Define program goals and success metrics
+- [ ] Define program goals and success 指标
 - [ ] Design incentive structure
 - [ ] Build or configure referral tool
-- [ ] Create referral landing page
-- [ ] Set up tracking and attribution
+- [ ] Create referral 落地页
+- [ ] Set up 跟踪 and attribution
 - [ ] Define fraud prevention rules
 - [ ] Create terms and conditions
 - [ ] Test complete referral flow
 
 ### Launch
-- [ ] Announce to existing customers
+- [ ] Announce to existing 客户
 - [ ] Add in-app referral prompts
 - [ ] Update website with program details
 - [ ] Brief support team
@@ -210,7 +210,7 @@ They get [their reward] too.
 ### Referral Nurture Sequence
 
 - Day 7: Remind about referral program
-- Day 30: "Know anyone who'd benefit?"
+- Day 30: "Know anyone who'd 收益?"
 - Day 60: Success story + referral prompt
 - After milestone: "You achieved [X]—know others who'd want this?"
 
@@ -218,18 +218,18 @@ They get [their reward] too.
 
 ## Affiliate Programs
 
-**For detailed affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
+**如需详细说明，请参见 affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
 
 ---
 
 ## Task-Specific Questions
 
-1. What type of program (referral, affiliate, or both)?
-2. What's your customer LTV and current CAC?
+1. What 类型 of program (referral, affiliate, or both)?
+2. What's your 客户 LTV and current CAC?
 3. Existing program or starting from scratch?
 4. What tools/platforms are you considering?
-5. What's your budget for rewards/commissions?
-6. Is your product naturally shareable?
+5. What's your 预算 for rewards/commissions?
+6. Is your 产品 naturally shareable?
 
 ---
 
@@ -242,8 +242,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 | **Rewardful** | Stripe-native affiliate programs | [rewardful.md](../../tools/integrations/rewardful.md) |
 | **Tolt** | SaaS affiliate programs | [tolt.md](../../tools/integrations/tolt.md) |
 | **Mention Me** | Enterprise referral programs | [mention-me.md](../../tools/integrations/mention-me.md) |
-| **Dub.co** | Link tracking and attribution | [dub-co.md](../../tools/integrations/dub-co.md) |
-| **Stripe** | Payment processing (for commission tracking) | [stripe.md](../../tools/integrations/stripe.md) |
+| **Dub.co** | Link 跟踪 and attribution | [dub-co.md](../../tools/integrations/dub-co.md) |
+| **Stripe** | Payment processing (for commission 跟踪) | [stripe.md](../../tools/integrations/stripe.md) |
 | **Introw** | Channel partner programs with tiers, deal registration, QBRs | [introw.md](../../tools/integrations/introw.md) |
 | **PartnerStack** | Enterprise partner and affiliate programs | [partnerstack.md](../../tools/integrations/partnerstack.md) |
 
@@ -252,6 +252,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 ## Related Skills
 
 - **launch-strategy**: For launching referral program effectively
-- **email-sequence**: For referral nurture campaigns
-- **marketing-psychology**: For understanding referral motivation
-- **analytics-tracking**: For tracking referral attribution
+- **email-sequence**: For referral nurture 广告活动
+- **营销-psychology**: For understanding referral motivation
+- **分析-跟踪**: For 跟踪 referral attribution

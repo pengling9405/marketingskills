@@ -1,23 +1,23 @@
-# Adobe Analytics
+# Adobe 分析
 
-Enterprise analytics platform for cross-channel measurement and attribution.
+Enterprise 分析 平台 for cross-channel 衡量 and attribution.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Reporting API 2.0, Data Insertion API |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | AppMeasurement.js, Mobile SDKs, Launch |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 (Service Account JWT)
-- **Setup**: Create integration in Adobe Developer Console
-- **Header**: `Authorization: Bearer {access_token}`
+- **类型**: OAuth 2.0 (Service 账户 JWT)
+- **配置方式**: Create integration in Adobe Developer Console
+- **请求头**: `Authorization: Bearer {access_token}`
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get report suite info
 
@@ -37,7 +37,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Get metrics
+### Get 指标
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/metrics?rsid={report_suite_id}
@@ -111,24 +111,24 @@ s.t();
 s.tl(this, 'o', 'Button Click');
 ```
 
-## Key Concepts
+## 关键概念
 
 - **Report Suite** - Data container
 - **eVars** - Conversion variables (persistent)
 - **props** - Traffic variables (hit-level)
-- **Events** - Success metrics
+- **Events** - Success 指标
 - **Segments** - User/visit filters
-- **Calculated Metrics** - Derived metrics
+- **Calculated 指标** - Derived 指标
 
-## Common Dimensions
+## 常见 Dimensions
 
 - `variables/page` - Page name
 - `variables/evar1` - Custom conversion variable
 - `variables/prop1` - Custom traffic variable
-- `variables/marketingchannel` - Marketing channel
+- `variables/marketingchannel` - 营销 channel
 - `variables/referringdomain` - Referring domain
 
-## Common Metrics
+## 常见 指标
 
 - `metrics/visits` - Visits
 - `metrics/pageviews` - Page views
@@ -136,21 +136,21 @@ s.tl(this, 'o', 'Button Click');
 - `metrics/orders` - Orders
 - `metrics/revenue` - Revenue
 
-## When to Use
+## 适用场景
 
-- Enterprise-scale analytics
+- Enterprise-scale 分析
 - Cross-channel attribution
 - Integration with Adobe Experience Cloud
 - Advanced segmentation
 - Data warehouse exports
 
-## Rate Limits
+## 速率限制
 
 - 12 requests/second per company
 - 120 requests/minute
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
-- ab-test-setup
+- 分析-跟踪
+- ab-test-配置方式
 - paid-ads

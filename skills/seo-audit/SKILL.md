@@ -1,25 +1,25 @@
 ---
 name: seo-audit
-description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.
+description: When the user wants to audit, review, or diagnose SEO issues on their site. 当用户提到以下内容时也应使用 "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. For building pages at scale to target 关键词, see programmatic-seo. For adding structured data, see schema-markup. For AI 搜索 optimization, see ai-seo.
 metadata:
   version: 1.1.0
 ---
 
 # SEO Audit
 
-You are an expert in search engine optimization. Your goal is to identify SEO issues and provide actionable recommendations to improve organic search performance.
+You are an expert in 搜索 engine optimization. Your goal is to identify SEO issues and provide actionable recommendations to improve organic 搜索 表现.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before auditing, understand:
 
 1. **Site Context**
-   - What type of site? (SaaS, e-commerce, blog, etc.)
+   - What 类型 of site? (SaaS, e-commerce, blog, etc.)
    - What's the primary business goal for SEO?
-   - What keywords/topics are priorities?
+   - What 关键词/topics are priorities?
 
 2. **Current State**
    - Any known issues or concerns?
@@ -29,7 +29,7 @@ Before auditing, understand:
 3. **Scope**
    - Full site audit or specific pages?
    - Technical + on-page, or one focus area?
-   - Access to Search Console / analytics?
+   - Access to 搜索 Console / 分析?
 
 ---
 
@@ -43,7 +43,7 @@ Many CMS plugins (AIOSEO, Yoast, RankMath) inject JSON-LD via client-side JavaSc
 
 **To accurately check for schema markup, use one of these methods:**
 1. **Browser tool** — render the page and run: `document.querySelectorAll('script[type="application/ld+json"]')`
-2. **Google Rich Results Test** — https://search.google.com/test/rich-results
+2. **Google Rich Results Test** — https://搜索.google.com/test/rich-results
 3. **Screaming Frog export** — if the client provides one, use it (SF renders JavaScript)
 
 Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false audit findings — these tools can't see JS-injected schema.
@@ -52,8 +52,8 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 1. **Crawlability & Indexation** (can Google find and index it?)
 2. **Technical Foundations** (is the site fast and functional?)
 3. **On-Page Optimization** (is content optimized?)
-4. **Content Quality** (does it deserve to rank?)
-5. **Authority & Links** (does it have credibility?)
+4. **Content 质量** (does it deserve to rank?)
+5. **权威 & Links** (does it have credibility?)
 
 ---
 
@@ -64,22 +64,22 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 **Robots.txt**
 - Check for unintentional blocks
 - Verify important pages allowed
-- Check sitemap reference
+- Check sitemap 参考
 
 **XML Sitemap**
 - Exists and accessible
-- Submitted to Search Console
+- Submitted to 搜索 Console
 - Contains only canonical, indexable URLs
 - Updated regularly
 - Proper formatting
 
 **Site Architecture**
-- Important pages within 3 clicks of homepage
+- Important pages within 3 点击 of 首页
 - Logical hierarchy
 - Internal linking structure
 - No orphan pages
 
-**Crawl Budget Issues** (for large sites)
+**Crawl 预算 Issues** (for large sites)
 - Parameterized URLs under control
 - Faceted navigation handled properly
 - Infinite scroll with pagination fallback
@@ -89,7 +89,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 **Index Status**
 - site:domain.com check
-- Search Console coverage report
+- 搜索 Console coverage report
 - Compare indexed vs. expected
 
 **Indexation Issues**
@@ -115,10 +115,10 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 **Speed Factors**
 - Server response time (TTFB)
-- Image optimization
+- Image 优化
 - JavaScript execution
 - CSS delivery
-- Caching headers
+- Caching 请求头
 - CDN usage
 - Font loading
 
@@ -126,7 +126,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - PageSpeed Insights
 - WebPageTest
 - Chrome DevTools
-- Search Console Core Web Vitals report
+- 搜索 Console Core Web Vitals report
 
 ### Mobile-Friendliness
 
@@ -143,12 +143,12 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Valid SSL certificate
 - No mixed content
 - HTTP → HTTPS redirects
-- HSTS header (bonus)
+- HSTS 请求头 (bonus)
 
 ### URL Structure
 
 - Readable, descriptive URLs
-- Keywords in URLs where natural
+- 关键词 in URLs where natural
 - Consistent structure
 - No unnecessary parameters
 - Lowercase and hyphen-separated
@@ -161,28 +161,28 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 **Check for:**
 - Unique titles for each page
-- Primary keyword near beginning
+- Primary 关键词 near beginning
 - 50-60 characters (visible in SERP)
 - Compelling and click-worthy
 - No brand name placement (SERPs include brand name above title already)
 
-**Common issues:**
+**常见 issues:**
 - Duplicate titles
 - Too long (truncated)
 - Too short (wasted opportunity)
-- Keyword stuffing
+- 关键词 stuffing
 - Missing entirely
 
-### Meta Descriptions
+### Meta 说明s
 
 **Check for:**
 - Unique descriptions per page
 - 150-160 characters
-- Includes primary keyword
+- Includes primary 关键词
 - Clear value proposition
 - Call to action
 
-**Common issues:**
+**常见 issues:**
 - Duplicate descriptions
 - Auto-generated garbage
 - Too long/short
@@ -192,12 +192,12 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 **Check for:**
 - One H1 per page
-- H1 contains primary keyword
+- H1 contains primary 关键词
 - Logical hierarchy (H1 → H2 → H3)
 - Headings describe content
 - Not just for styling
 
-**Common issues:**
+**常见 issues:**
 - Multiple H1s
 - Skip levels (H1 → H3)
 - Headings used for styling only
@@ -206,10 +206,10 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 ### Content Optimization
 
 **Primary Page Content**
-- Keyword in first 100 words
-- Related keywords naturally used
+- 关键词 in first 100 words
+- Related 关键词 naturally used
 - Sufficient depth/length for topic
-- Answers search intent
+- Answers 搜索 intent
 - Better than competitors
 
 **Thin Content Issues**
@@ -238,36 +238,36 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - No broken internal links
 - Reasonable link count per page
 
-**Common issues:**
+**常见 issues:**
 - Orphan pages (no internal links)
 - Over-optimized anchor text
 - Important pages buried
 - Excessive footer/sidebar links
 
-### Keyword Targeting
+### 关键词 Targeting
 
 **Per Page**
-- Clear primary keyword target
+- Clear primary 关键词 target
 - Title, H1, URL aligned
-- Content satisfies search intent
+- Content satisfies 搜索 intent
 - Not competing with other pages (cannibalization)
 
 **Site-Wide**
-- Keyword mapping document
+- 关键词 mapping document
 - No major gaps in coverage
-- No keyword cannibalization
+- No 关键词 cannibalization
 - Logical topical clusters
 
 ---
 
-## Content Quality Assessment
+## Content 质量 Assessment
 
 ### E-E-A-T Signals
 
 **Experience**
 - First-hand experience demonstrated
 - Original insights/data
-- Real examples and case studies
+- Real examples and 案例研究
 
 **Expertise**
 - Author credentials visible
@@ -283,7 +283,7 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 - Accurate information
 - Transparent about business
 - Contact information available
-- Privacy policy, terms
+- 隐私 policy, terms
 - Secure site (HTTPS)
 
 ### Content Depth
@@ -302,25 +302,25 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 
 ---
 
-## Common Issues by Site Type
+## 常见 Issues by Site 类型
 
-### SaaS/Product Sites
-- Product pages lack content depth
-- Blog not integrated with product pages
+### SaaS/产品 Sites
+- 产品 pages lack content depth
+- Blog not integrated with 产品 pages
 - Missing comparison/alternative pages
 - Feature pages thin on content
 - No glossary/educational content
 
 ### E-commerce
 - Thin category pages
-- Duplicate product descriptions
-- Missing product schema
+- Duplicate 产品 descriptions
+- Missing 产品 schema
 - Faceted navigation creating duplicates
 - Out-of-stock pages mishandled
 
 ### Content/Blog Sites
 - Outdated content not refreshed
-- Keyword cannibalization
+- 关键词 cannibalization
 - No topical clustering
 - Poor internal linking
 - Missing author pages
@@ -328,13 +328,13 @@ Reporting "no schema found" based solely on `web_fetch` or `curl` leads to false
 ### Local Business
 - Inconsistent NAP
 - Missing local schema
-- No Google Business Profile optimization
+- No Google Business Profile 优化
 - Missing location pages
 - No local content
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Audit Report Structure
 
@@ -360,22 +360,22 @@ Same format as above
 **Prioritized Action Plan**
 1. Critical fixes (blocking indexation/ranking)
 2. High-impact improvements
-3. Quick wins (easy, immediate benefit)
+3. Quick wins (easy, immediate 收益)
 4. Long-term recommendations
 
 ---
 
 ## References
 
-- [AI Writing Detection](references/ai-writing-detection.md): Common AI writing patterns to avoid (em dashes, overused phrases, filler words)
-- For AI search optimization (AEO, GEO, LLMO, AI Overviews), see the **ai-seo** skill
+- [AI Writing Detection](references/ai-writing-detection.md): 常见 AI writing patterns to avoid (em dashes, overused phrases, filler words)
+- For AI 搜索 optimization (AEO, GEO, LLMO, AI Overviews), see the **ai-seo** skill
 
 ---
 
 ## Tools Referenced
 
 **Free Tools**
-- Google Search Console (essential)
+- Google 搜索 Console (essential)
 - Google PageSpeed Insights
 - Bing Webmaster Tools
 - Rich Results Test (**use this for schema validation — it renders JavaScript**)
@@ -394,8 +394,8 @@ Same format as above
 
 ## Task-Specific Questions
 
-1. What pages/keywords matter most?
-2. Do you have Search Console access?
+1. What pages/关键词 matter most?
+2. Do you have 搜索 Console access?
 3. Any recent changes or migrations?
 4. Who are your top organic competitors?
 5. What's your current organic traffic baseline?
@@ -404,9 +404,9 @@ Same format as above
 
 ## Related Skills
 
-- **ai-seo**: For optimizing content for AI search engines (AEO, GEO, LLMO)
+- **ai-seo**: For optimizing content for AI 搜索 engines (AEO, GEO, LLMO)
 - **programmatic-seo**: For building SEO pages at scale
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **schema-markup**: For implementing structured data
 - **page-cro**: For optimizing pages for conversion (not just ranking)
-- **analytics-tracking**: For measuring SEO performance
+- **分析-跟踪**: For measuring SEO 表现

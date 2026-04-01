@@ -1,24 +1,24 @@
-# Plausible Analytics
+# Plausible 分析
 
-Privacy-focused, open-source web analytics with a simple API for stats queries without cookies or personal data collection.
+隐私-focused, 开源 web 分析 with a simple API for stats queries without cookies or personal data collection.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Stats v2 Query, Sites Provisioning, Goals, Shared Links |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [plausible.js](../clis/plausible.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: Bearer Token
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: https://plausible.io/settings > API Keys
 - **Note**: Sites API requires Enterprise plan
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Stats Query (v2)
 
@@ -109,9 +109,9 @@ GET https://plausible.io/api/v1/stats/realtime/visitors?site_id=example.com
 GET https://plausible.io/api/v1/sites
 ```
 
-## Key Metrics
+## 核心指标
 
-### Available Metrics
+### 可用 指标
 - `visitors` - Unique visitors
 - `visits` - Total visits (sessions)
 - `pageviews` - Total page views
@@ -119,19 +119,19 @@ GET https://plausible.io/api/v1/sites
 - `bounce_rate` - Bounce rate percentage
 - `visit_duration` - Average session duration (seconds)
 - `events` - Total events
-- `conversion_rate` - Goal conversion rate
+- `conversion_rate` - Goal 转化率
 - `time_on_page` - Average time on page
 - `scroll_depth` - Average scroll depth
 - `percentage` - Share of total
 
-### Available Dimensions
+### 可用 Dimensions
 - `event:page` - Page path
 - `event:goal` - Goal name
-- `visit:source` - Traffic source
+- `visit:source` - Traffic 来源
 - `visit:referrer` - Referrer URL
 - `visit:channel` - Traffic channel
 - `visit:utm_source`, `visit:utm_medium`, `visit:utm_campaign` - UTM params
-- `visit:device` - Device type
+- `visit:device` - Device 类型
 - `visit:browser` - Browser name
 - `visit:os` - Operating system
 - `visit:country`, `visit:region`, `visit:city` - Location
@@ -142,7 +142,7 @@ GET https://plausible.io/api/v1/sites
 
 ### Stats Query (v2)
 - `site_id` (required) - Domain registered in Plausible
-- `metrics` (required) - Array of metrics to return
+- `metrics` (required) - Array of 指标 to return
 - `date_range` (required) - Time period: "day", "7d", "30d", "month", "6mo", "12mo", "year", or custom ["2024-01-01", "2024-01-31"]
 - `dimensions` - Array of dimensions to group by
 - `filters` - Array of filter conditions: `[operator, dimension, values]`
@@ -154,24 +154,24 @@ GET https://plausible.io/api/v1/sites
 - `contains` / `contains_not` - Substring match
 - `matches` / `matches_not` - Wildcard match
 
-## When to Use
+## 适用场景
 
-- Privacy-first web analytics without cookies
-- Simple, lightweight traffic analysis
-- UTM campaign performance tracking
-- Goal and conversion tracking
+- 隐私-first web 分析 without cookies
+- Simple, lightweight traffic 分析
+- UTM 广告活动 表现 跟踪
+- Goal and conversion 跟踪
 - Geographic and device breakdown
-- GDPR/CCPA-compliant analytics alternative to GA4
+- GDPR/CCPA-compliant 分析 alternative to GA4
 
-## Rate Limits
+## 速率限制
 
 - 600 requests/hour per API key
 - All requests must be over HTTPS
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - content-strategy
 - programmatic-seo
 - page-cro
-- utm-tracking
+- utm-跟踪

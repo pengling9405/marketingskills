@@ -1,27 +1,27 @@
 # Firehose
 
-Real-time web data streaming API that monitors web pages and delivers matching content instantly via server-sent events (SSE). Built for competitive intelligence, brand monitoring, and news tracking without polling.
+Real-time web data streaming API that monitors web pages and delivers matching content instantly via server-sent events (SSE). Built for competitive intelligence, brand monitoring, and news 跟踪 without polling.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | RESTful endpoints for managing rules + SSE for streaming |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | - | Native AI agent skill available |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
+- **类型**: API Key
 - **Currently**: Free beta — no credit card required
 - **Get access**: Sign up at firehose.com
 
-## Core Concepts
+## Core 概念
 
 **Rules** — Filters that define what content to match. Uses Lucene query syntax.
 
-**Stream** — A server-sent event (SSE) connection that delivers matching content in real-time as it's published on the web.
+**Stream** — A server-sent 事件 (SSE) connection that delivers matching content in real-time as it's published on the web.
 
 Instead of polling an endpoint on a schedule, you define rules once and receive a continuous stream of matches as they happen.
 
@@ -54,7 +54,7 @@ category:finance
 category:technology
 ```
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Create a monitoring rule
 
@@ -89,7 +89,7 @@ Authorization: Bearer {api_key}
 # data: {"url": "...", "title": "...", "publish_time": "...", "matched_rule": "..."}
 ```
 
-### Example: Node.js stream consumer
+### 示例: Node.js stream consumer
 
 ```javascript
 import EventSource from 'eventsource';
@@ -104,10 +104,10 @@ stream.onmessage = (event) => {
 };
 ```
 
-## Use Cases for Marketing
+## Use Cases for 营销
 
 ### Competitive intelligence
-Monitor competitors' press coverage, product announcements, and funding news in real-time.
+Monitor competitors' press coverage, 产品 announcements, and funding news in real-time.
 
 ```
 query: "CompetitorName" AND (launch OR funding OR "product update" OR partnership)
@@ -142,18 +142,18 @@ Get alerted when publications cover topics in your space, enabling timely outrea
 query: "best [category] tools" OR "top [category] software" AND publish_time:[now-7d TO now]
 ```
 
-## When to Use
+## 适用场景
 
 - Real-time competitive intelligence (faster than Google Alerts)
 - Brand mention monitoring across news and web
-- Market signal tracking for sales prospecting
+- Market signal 跟踪 for sales prospecting
 - Automated content curation pipelines
-- Trigger-based workflows (new mention → Slack alert, CRM update, etc.)
+- Trigger-based 工作流 (new mention → Slack alert, CRM update, etc.)
 
-## Relevant Skills
+## 相关技能
 
 - competitor-alternatives
-- customer-research
+- 客户-research
 - content-strategy
 - cold-email
-- marketing-ideas
+- 营销-ideas

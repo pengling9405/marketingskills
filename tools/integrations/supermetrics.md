@@ -1,25 +1,25 @@
 # Supermetrics
 
-Marketing data pipeline that connects 200+ marketing platforms. Pulls data from ad platforms, analytics, social, SEO, email, and more into a single query interface.
+营销 data pipeline that connects 200+ 营销 platforms. Pulls data from ad platforms, 分析, social, SEO, email, and more into a single query interface.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Query any connected data source, manage accounts |
+| API | ✓ | Query any connected data 来源, manage accounts |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/supermetrics) |
 | CLI | ✓ | [supermetrics.js](../clis/supermetrics.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Query param**: `api_key={api_key}` or **Header**: `x-api-key: {api_key}`
+- **类型**: API Key
+- **Query param**: `api_key={api_key}` or **请求头**: `x-api-key: {api_key}`
 - **Get key**: Supermetrics Hub > API settings at https://hub.supermetrics.com
 
-## Common Agent Operations
+## 常见代理操作
 
-### Query a Data Source
+### Query a Data 来源
 
 ```bash
 POST https://api.supermetrics.com/enterprise/v2/query/data/json
@@ -55,7 +55,7 @@ POST https://api.supermetrics.com/enterprise/v2/query/data/json
 }
 ```
 
-### List Available Data Sources
+### List 可用 Data Sources
 
 ```bash
 GET https://api.supermetrics.com/enterprise/v2/datasources
@@ -79,18 +79,18 @@ GET https://api.supermetrics.com/enterprise/v2/teams
 GET https://api.supermetrics.com/enterprise/v2/users
 ```
 
-## Key Metrics
+## 核心指标
 
-### Data Source IDs
-- `GA4` - Google Analytics 4
-- `GA4_PAID` - Google Analytics (paid)
+### Data 来源 IDs
+- `GA4` - Google 分析 4
+- `GA4_PAID` - Google 分析 (paid)
 - `AW` - Google Ads
 - `FB` - Facebook Ads
 - `LI` - LinkedIn Ads
 - `TW_ADS` - Twitter Ads
 - `IG_IA` - Instagram
 - `FB_IA` - Facebook Pages
-- `GSC` - Google Search Console
+- `GSC` - Google 搜索 Console
 - `SE` - Semrush
 - `MC` - Mailchimp
 - `HubSpot` - HubSpot
@@ -104,8 +104,8 @@ GET https://api.supermetrics.com/enterprise/v2/users
 ## Parameters
 
 ### Query
-- `ds_id` - Data source identifier (required)
-- `ds_accounts` - Account ID for the data source (required)
+- `ds_id` - Data 来源 identifier (required)
+- `ds_accounts` - 账户 ID for the data 来源 (required)
 - `date_range_type` - Date range preset or "custom" (required)
 - `fields` - Array of field objects with `name` property (required)
 - `filter` - Filter expression for narrowing results
@@ -113,32 +113,32 @@ GET https://api.supermetrics.com/enterprise/v2/users
 - `start_date` - Start date for custom range (YYYY-MM-DD)
 - `end_date` - End date for custom range (YYYY-MM-DD)
 
-### Common Fields by Source
+### 常见 Fields by 来源
 - **GA4**: `sessions`, `pageviews`, `users`, `bounce_rate`, `date`, `source`, `medium`, `page_path`
 - **Google Ads**: `campaign_name`, `clicks`, `impressions`, `cost`, `conversions`, `ctr`, `cpc`
 - **Facebook Ads**: `campaign_name`, `impressions`, `clicks`, `spend`, `reach`, `cpm`, `cpc`
 - **LinkedIn Ads**: `campaign_name`, `impressions`, `clicks`, `cost`, `conversions`
 - **GSC**: `query`, `clicks`, `impressions`, `ctr`, `position`, `page`
 
-## When to Use
+## 适用场景
 
-- Pulling cross-platform marketing data into a single report
-- Comparing performance across ad platforms (Google, Meta, LinkedIn, TikTok)
-- Aggregating analytics data from multiple sources
-- Automating marketing reporting workflows
-- Building unified dashboards across marketing channels
-- Extracting SEO data alongside paid media metrics
+- Pulling cross-平台 营销 data into a single report
+- Comparing 表现 across ad platforms (Google, Meta, LinkedIn, TikTok)
+- Aggregating 分析 data from multiple sources
+- Automating 营销 reporting 工作流
+- Building unified dashboards across 营销 channels
+- Extracting SEO data alongside paid media 指标
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Enterprise API: typically 100 requests/minute
 - Query results may be paginated for large datasets
 - Recommended: use `max_rows` to control response size
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - paid-ads
 - seo-audit
 - content-strategy

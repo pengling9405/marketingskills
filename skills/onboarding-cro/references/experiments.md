@@ -4,13 +4,13 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ## Contents
 - Flow Simplification Experiments (reduce friction, step sequencing, progress & motivation)
-- Guided Experience Experiments (product tours, CTA optimization, UI guidance)
+- Guided Experience Experiments (产品 tours, CTA optimization, UI 指导)
 - Personalization Experiments (user segmentation, dynamic content)
 - Quick Wins & Engagement Experiments (time-to-value, motivation mechanics, support & help)
 - Email & Multi-Channel Experiments (onboarding emails, email content, feedback loops)
 - Re-engagement Experiments (stalled user recovery, return experience)
-- Technical & UX Experiments (performance, mobile onboarding, accessibility)
-- Metrics to Track
+- Technical & UX Experiments (表现, mobile onboarding, accessibility)
+- 指标 to Track
 
 ## Flow Simplification Experiments
 
@@ -18,24 +18,24 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 | Test | Hypothesis |
 |------|------------|
-| Email verification timing | During vs. after onboarding |
+| Email 验证 timing | During vs. after onboarding |
 | Empty states vs. dummy data | Pre-populated examples |
-| Pre-filled templates | Accelerate setup with templates |
-| OAuth options | Faster account linking |
-| Required step count | Fewer required steps |
+| Pre-filled templates | Accelerate 配置方式 with templates |
+| OAuth options | Faster 账户 linking |
+| Required step count | Fewer required 步骤 |
 | Optional vs. required fields | Minimize requirements |
-| Skip options | Allow bypassing non-critical steps |
+| Skip options | Allow bypassing non-critical 步骤 |
 
 ### Step Sequencing
 
 | Test | Hypothesis |
 |------|------------|
 | Step ordering | Test different sequences |
-| Value-first ordering | Highest-value features first |
-| Friction placement | Move hard steps later |
-| Required vs. optional balance | Ratio of required steps |
+| Value-first ordering | Highest-value 特性 first |
+| Friction placement | Move hard 步骤 later |
+| Required vs. optional balance | Ratio of required 步骤 |
 | Single vs. branching paths | One path vs. personalized |
-| Quick start vs. full setup | Minimal path to value |
+| Quick start vs. full 配置方式 | Minimal path to value |
 
 ### Progress & Motivation
 
@@ -52,13 +52,13 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ## Guided Experience Experiments
 
-### Product Tours
+### 产品 Tours
 
 | Test | Hypothesis |
 |------|------------|
 | Interactive tours | Tools like Navattic, Storylane |
-| Tooltip vs. modal guidance | Subtle vs. attention-grabbing |
-| Video tutorials | For complex workflows |
+| Tooltip vs. modal 指导 | Subtle vs. attention-grabbing |
+| 视频 tutorials | For complex 工作流 |
 | Self-paced vs. guided | User control vs. structured |
 | Tour length | Shorter vs. comprehensive |
 | Tour triggering | Automatic vs. user-initiated |
@@ -67,22 +67,22 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 | Test | Hypothesis |
 |------|------------|
-| CTA text variations | Action-oriented copy testing |
+| CTA text variations | Action-oriented 文案 测试 |
 | CTA placement | Position within screens |
 | In-app tooltips | Feature discovery prompts |
 | Sticky CTAs | Persist during onboarding |
 | CTA contrast | Visual prominence |
 | Secondary CTAs | "Learn more" vs. primary only |
 
-### UI Guidance
+### UI 指导
 
 | Test | Hypothesis |
 |------|------------|
-| Hotspot highlights | Draw attention to key features |
+| Hotspot highlights | Draw attention to key 特性 |
 | Coachmarks | Contextual tips |
 | Feature announcements | New feature discovery |
 | Contextual help | Help where users need it |
-| Search vs. guided | Self-service vs. directed |
+| 搜索 vs. guided | Self-service vs. directed |
 
 ---
 
@@ -108,7 +108,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Dynamic recommendations | Based on user answers |
 | Template suggestions | Pre-filled for segment |
 | Feature highlighting | Relevant to stated goals |
-| Benchmark data | Industry-specific metrics |
+| Benchmark data | Industry-specific 指标 |
 
 ---
 
@@ -133,7 +133,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Streaks | Consecutive day engagement |
 | Leaderboards | Social comparison (if appropriate) |
 | Rewards | Incentives for completion |
-| Unlock mechanics | Features revealed progressively |
+| Unlock mechanics | 特性 revealed progressively |
 
 ### Support & Help
 
@@ -159,7 +159,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Email timing | Immediate vs. delayed |
 | Email frequency | More vs. fewer touches |
 | Quick tips format | Short actionable content |
-| Video in email | More engaging format |
+| 视频 in email | More engaging format |
 
 ### Email Content
 
@@ -168,9 +168,9 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | Subject lines | Open rate optimization |
 | Personalization depth | Name vs. behavior-based |
 | CTA prominence | Single clear action |
-| Social proof inclusion | Testimonials in email |
+| 社会认同 inclusion | 推荐语 in email |
 | Urgency messaging | Trial reminders |
-| Plain text vs. designed | Format testing |
+| Plain text vs. designed | Format 测试 |
 
 ### Feedback Loops
 
@@ -179,7 +179,7 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 | NPS during onboarding | When to ask |
 | Blocking question | "What's stopping you?" |
 | NPS follow-up | Actions based on score |
-| In-app feedback | Thumbs up/down on features |
+| In-app feedback | Thumbs up/down on 特性 |
 | Survey timing | When to request feedback |
 | Feedback incentives | Reward for completing |
 
@@ -193,9 +193,9 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 |------|------------|
 | Re-engagement email timing | When to send |
 | Personal outreach | Human vs. automated |
-| Simplified path | Reduced steps for returners |
+| Simplified path | Reduced 步骤 for returners |
 | Incentive offers | Discount or extended trial |
-| Problem identification | Ask what's blocking |
+| 问题 identification | Ask what's blocking |
 | Demo offer | Live walkthrough |
 
 ### Return Experience
@@ -212,12 +212,12 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ## Technical & UX Experiments
 
-### Performance
+### 表现
 
 | Test | Hypothesis |
 |------|------------|
 | Load time optimization | Faster = higher completion |
-| Progressive loading | Perceived performance |
+| Progressive loading | Perceived 表现 |
 | Offline capability | Mobile experience |
 | Error handling | Graceful failure recovery |
 
@@ -242,17 +242,17 @@ Comprehensive list of A/B tests and experiments for user onboarding and activati
 
 ---
 
-## Metrics to Track
+## 指标 to Track
 
 For all experiments, measure:
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
-| Activation rate | % reaching activation event |
+| Activation rate | % reaching activation 事件 |
 | Time to activation | Hours/days to first value |
 | Step completion rate | % completing each step |
 | Drop-off points | Where users abandon |
 | Return rate | Users who come back |
 | Day 1/7/30 retention | Engagement over time |
-| Feature adoption | Which features get used |
+| Feature adoption | Which 特性 get used |
 | Support requests | Volume during onboarding |

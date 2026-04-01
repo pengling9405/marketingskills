@@ -1,28 +1,28 @@
 # Livestorm
 
-Video engagement platform for webinars, virtual events, and online meetings with built-in analytics and integrations.
+视频 engagement 平台 for webinars, virtual events, and online meetings with built-in 分析 and integrations.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Events, Sessions, People, Recordings, Webhooks |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [livestorm.js](../clis/livestorm.js) |
 | SDK | - | REST API with JSON:API format |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token
-- **Header**: `Authorization: {API_TOKEN}` (no prefix)
-- **Content-Type**: `application/vnd.api+json` (JSON:API)
-- **Scopes**: Identity, Events, Admin, Webhooks
-- **Get token**: Account Settings > Integrations > Public API
+- **类型**: API Token
+- **请求头**: `Authorization: {API_TOKEN}` (no prefix)
+- **Content-类型**: `application/vnd.api+json` (JSON:API)
+- **作用域**: Identity, Events, Admin, Webhooks
+- **获取令牌**： 账户 Settings > Integrations > Public API
 - **Docs**: https://developers.livestorm.co/
 
-## Common Agent Operations
+## 常见代理操作
 
-### Ping (test authentication)
+### Ping (test 认证)
 
 ```bash
 GET https://api.livestorm.co/v1/ping
@@ -42,7 +42,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Create an event
+### Create an 事件
 
 ```bash
 POST https://api.livestorm.co/v1/events
@@ -63,7 +63,7 @@ Headers:
 }
 ```
 
-### Get event details
+### Get 事件 details
 
 ```bash
 GET https://api.livestorm.co/v1/events/{event_id}
@@ -73,7 +73,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Update an event
+### Update an 事件
 
 ```bash
 PATCH https://api.livestorm.co/v1/events/{event_id}
@@ -103,7 +103,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Create a session for an event
+### Create a session for an 事件
 
 ```bash
 POST https://api.livestorm.co/v1/events/{event_id}/sessions
@@ -185,7 +185,7 @@ Headers:
   Accept: application/vnd.api+json
 ```
 
-### Get session recordings
+### 获取会话录屏
 
 ```bash
 GET https://api.livestorm.co/v1/sessions/{session_id}/recordings
@@ -234,16 +234,16 @@ Livestorm follows the JSON:API specification:
 - Events contain multiple Sessions; Sessions contain People
 - ISO 8601 timestamps throughout
 
-## Key Metrics
+## 核心指标
 
-### Event Metrics
-- `title` - Event title
+### 事件 指标
+- `title` - 事件 title
 - `slug` - URL-friendly identifier
 - `estimated_duration` - Duration in minutes
 - `registration_page_enabled` - Registration page status
 - `everyone_can_speak` - Whether all attendees can speak
 
-### Session Metrics
+### Session 指标
 - `status` - Session status (upcoming, live, past)
 - `estimated_started_at` - Scheduled start time
 - `started_at` - Actual start time
@@ -252,7 +252,7 @@ Livestorm follows the JSON:API specification:
 - `attendees_count` - Number of attendees
 - `registrants_count` - Number of registrants
 
-### People Metrics
+### People 指标
 - `email` - Contact email
 - `first_name` / `last_name` - Contact name
 - `registrant_detail` - Registration metadata
@@ -266,10 +266,10 @@ Livestorm follows the JSON:API specification:
 - `page[number]` - Page number (default: 1)
 - `page[size]` - Items per page (default: 25)
 
-### Event Attributes
-- `title` - Event title (required for create)
+### 事件 Attributes
+- `title` - 事件 title (required for create)
 - `slug` - URL slug
-- `description` - Event description
+- `description` - 事件 description
 - `estimated_duration` - Duration in minutes
 
 ### Session Attributes
@@ -286,28 +286,28 @@ Livestorm follows the JSON:API specification:
 - `registration` - Triggered on new registration
 - `unregistration` - Triggered on unregistration
 
-## When to Use
+## 适用场景
 
-- Hosting product demos and marketing webinars
-- Automated webinar registration and attendee management
-- Tracking webinar engagement and attendance rates
+- Hosting 产品 demos and 营销 webinars
+- Automated webinar registration and attendee 管理
+- 跟踪 webinar engagement and attendance rates
 - Retrieving session recordings for content repurposing
 - Building custom registration pages with API-driven registration
-- Syncing webinar data with CRM and marketing automation
+- Syncing webinar data with CRM and 营销 automation
 - Monitoring session Q&A and chat for follow-up
 
-## Rate Limits
+## 速率限制
 
 - **10,000 API calls per 30-day period** (organization-wide)
-- Rate limits shared across all API tokens in the organization
-- Plan accordingly for high-volume operations
+- 速率限制 shared across all API tokens in the organization
+- Plan accordingly for high-volume 操作
 - Use webhooks instead of polling to conserve quota
 
-## Relevant Skills
+## 相关技能
 
-- webinar-marketing
-- event-marketing
+- webinar-营销
+- 事件-营销
 - lead-generation
 - content-strategy
-- lifecycle-marketing
-- customer-engagement
+- lifecycle-营销
+- 客户-engagement

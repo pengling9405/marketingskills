@@ -1,24 +1,24 @@
 # Intercom
 
-Customer messaging and support platform API for managing contacts, conversations, messages, companies, articles, and tags.
+客户 messaging and support 平台 API for managing contacts, conversations, messages, companies, articles, and tags.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API v2.11+ - contacts, conversations, messages, companies, articles, tags |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [intercom.js](../clis/intercom.js) |
 | SDK | ✓ | Node.js, Ruby, Python, PHP, Go |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (Access Token or OAuth 2.0)
-- **Header**: `Authorization: Bearer {token}`
-- **Version Header**: `Intercom-Version: 2.11`
+- **类型**: Bearer Token (Access Token or OAuth 2.0)
+- **请求头**: `Authorization: Bearer {token}`
+- **Version 请求头**: `Intercom-Version: 2.11`
 - **Get key**: Developer Hub at https://app.intercom.com/a/apps/_/developer-hub
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List contacts
 
@@ -60,7 +60,7 @@ PUT https://api.intercom.io/contacts/{id}
 }
 ```
 
-### Search contacts
+### 搜索 contacts
 
 ```bash
 POST https://api.intercom.io/contacts/search
@@ -92,7 +92,7 @@ GET https://api.intercom.io/conversations
 GET https://api.intercom.io/conversations/{id}
 ```
 
-### Search conversations
+### 搜索 conversations
 
 ```bash
 POST https://api.intercom.io/conversations/search
@@ -226,7 +226,7 @@ POST https://api.intercom.io/events
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Contact Data
 - `id` - Unique contact identifier
@@ -258,35 +258,35 @@ POST https://api.intercom.io/events
 - `per_page` - Results per page (default 20, max 150)
 - `starting_after` - Pagination cursor
 
-### Search (Contacts & Conversations)
-- `query.field` - Field to search
+### 搜索 (Contacts & Conversations)
+- `query.field` - Field to 搜索
 - `query.operator` - Comparison operator (=, !=, >, <, ~, IN, NIN)
-- `query.value` - Search value
+- `query.value` - 搜索 value
 - `pagination.per_page` - Results per page
 - `pagination.starting_after` - Cursor for next page
 - `sort.field` / `sort.order` - Sort configuration
 
-## When to Use
+## 适用场景
 
-- Managing customer contact records and segments
-- Automating customer messaging and onboarding
+- Managing 客户 contact records and segments
+- Automating 客户 messaging and onboarding
 - Monitoring and responding to support conversations
-- Tracking customer events and behavior
-- Building custom support workflows
-- Syncing customer data between platforms
+- 跟踪 客户 events and behavior
+- Building custom support 工作流
+- Syncing 客户 data between platforms
 
-## Rate Limits
+## 速率限制
 
 - **Default**: 10,000 API calls per minute per app
 - **Per workspace**: 25,000 API calls per minute
 - Distributed in 10-second windows (resets every 10 seconds)
-- Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
+- 请求头: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
 - HTTP 429 returned when exceeded
 
-## Relevant Skills
+## 相关技能
 
-- customer-onboarding
-- customer-retention
+- 客户-onboarding
+- 客户-retention
 - lead-generation
-- customer-support
+- 客户-support
 - in-app-messaging

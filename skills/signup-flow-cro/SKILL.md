@@ -1,6 +1,6 @@
 ---
 name: signup-flow-cro
-description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "account creation flow," "people aren't signing up," "signup abandonment," "trial conversion rate," "nobody completes registration," "too many steps to sign up," or "simplify our signup." Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.
+description: When the user wants to optimize signup, registration, 账户 creation, or trial activation flows. 当用户提到以下内容时也应使用 "signup 转化," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," "账户 creation flow," "people aren't signing up," "signup abandonment," "trial 转化率," "nobody completes registration," "too many 步骤 to sign up," or "simplify our signup." 在这些情况下都应使用本技能 the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not 账户 creation), see form-cro.
 metadata:
   version: 1.1.0
 ---
@@ -9,38 +9,38 @@ metadata:
 
 You are an expert in optimizing signup and registration flows. Your goal is to reduce friction, increase completion rates, and set users up for successful activation.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, understand:
 
-1. **Flow Type**
+1. **Flow 类型**
    - Free trial signup
-   - Freemium account creation
-   - Paid account creation
+   - Freemium 账户 creation
+   - Paid 账户 creation
    - Waitlist/early access signup
    - B2B vs B2C
 
 2. **Current State**
-   - How many steps/screens?
+   - How many 步骤/screens?
    - What fields are required?
    - What's the current completion rate?
    - Where do users drop off?
 
 3. **Business Constraints**
    - What data is genuinely needed at signup?
-   - Are there compliance requirements?
+   - Are there 遵循率 requirements?
    - What happens immediately after signup?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Minimize Required Fields
 Every field reduces conversion. For each field, ask:
-- Do we absolutely need this before they can use the product?
+- Do we absolutely need this before they can use the 产品?
 - Can we collect this later through progressive profiling?
 - Can we infer this from other data?
 
@@ -49,9 +49,9 @@ Every field reduces conversion. For each field, ask:
 - Often needed: Name
 - Usually deferrable: Company, Role, Team size, Phone, Address
 
-### 2. Show Value Before Asking for Commitment
+### 2. Show Value Before Asking for 承诺
 - What can you show/give before requiring signup?
-- Can they experience the product before creating an account?
+- Can they experience the 产品 before creating an 账户?
 - Reverse the order: value first, signup second
 
 ### 3. Reduce Perceived Effort
@@ -63,7 +63,7 @@ Every field reduces conversion. For each field, ask:
 ### 4. Remove Uncertainty
 - Clear expectations ("Takes 30 seconds")
 - Show what happens after signup
-- No surprises (hidden requirements, unexpected steps)
+- No surprises (hidden requirements, unexpected 步骤)
 
 ---
 
@@ -72,7 +72,7 @@ Every field reduces conversion. For each field, ask:
 ### Email Field
 - Single field (no email confirmation field)
 - Inline validation for format
-- Check for common typos (gmial.com → gmail.com)
+- Check for 常见 typos (gmial.com → gmail.com)
 - Clear error messages
 
 ### Password Field
@@ -93,21 +93,21 @@ Every field reduces conversion. For each field, ask:
 
 ### Social Auth Options
 - Place prominently (often higher conversion than email)
-- Show most relevant options for your audience
+- Show most relevant options for your 受众
   - B2C: Google, Apple, Facebook
   - B2B: Google, Microsoft, SSO
 - Clear visual separation from email signup
 - Consider "Sign up with Google" as primary
 
 ### Phone Number
-- Defer unless essential (SMS verification, calling leads)
+- Defer unless essential (SMS 验证, calling leads)
 - If required, explain why
-- Use proper input type with country code handling
-- Format as they type
+- Use proper input 类型 with country code handling
+- Format as they 类型
 
 ### Company/Organization
 - Defer if possible
-- Auto-suggest as they type
+- Auto-suggest as they 类型
 - Infer from email domain when possible
 
 ### Use Case / Role Questions
@@ -132,12 +132,12 @@ Every field reduces conversion. For each field, ask:
 ### Multi-Step Best Practices
 - Show progress indicator
 - Lead with easy questions (name, email)
-- Put harder questions later (after psychological commitment)
+- Put harder questions later (after psychological 承诺)
 - Each step should feel completable in seconds
 - Allow back navigation
 - Save progress (don't lose data on refresh)
 
-**Progressive commitment pattern:**
+**Progressive 承诺 pattern:**
 1. Email only (lowest barrier)
 2. Password + name
 3. Customization questions (optional)
@@ -149,7 +149,7 @@ Every field reduces conversion. For each field, ask:
 ### At the Form Level
 - "No credit card required" (if true)
 - "Free forever" or "14-day free trial"
-- Privacy note: "We'll never share your email"
+- 隐私 note: "We'll never share your email"
 - Security badges if relevant
 - Testimonial near signup form
 
@@ -157,7 +157,7 @@ Every field reduces conversion. For each field, ask:
 - Inline validation (not just on submit)
 - Specific error messages ("Email already registered" + recovery path)
 - Don't clear the form on error
-- Focus on the problem field
+- Focus on the 问题 field
 
 ### Microcopy
 - Placeholder text: Use for examples, not labels
@@ -183,23 +183,23 @@ Every field reduces conversion. For each field, ask:
 ### Success State
 - Clear confirmation
 - Immediate next step
-- If email verification required:
+- If email 验证 required:
   - Explain what to do
   - Easy resend option
   - Check spam reminder
   - Option to change email if wrong
 
-### Verification Flows
-- Consider delaying verification until necessary
+### 验证 Flows
+- Consider delaying 验证 until necessary
 - Magic link as alternative to password
-- Let users explore while awaiting verification
-- Clear re-engagement if verification stalls
+- Let users explore while awaiting 验证
+- Clear re-engagement if 验证 stalls
 
 ---
 
-## Measurement
+## 衡量
 
-### Key Metrics
+### 核心指标
 - Form start rate (landed → started filling)
 - Form completion rate (started → submitted)
 - Field-level drop-off (which fields lose people)
@@ -211,11 +211,11 @@ Every field reduces conversion. For each field, ask:
 - Each field interaction (focus, blur, error)
 - Step progression in multi-step
 - Social auth vs. email signup ratio
-- Time between steps
+- Time between 步骤
 
 ---
 
-## Output Format
+## 输出格式
 
 ### Audit Findings
 For each issue found:
@@ -233,12 +233,12 @@ Organized by:
 ### Form Redesign (if requested)
 - Recommended field set with rationale
 - Field order
-- Copy for labels, placeholders, buttons, errors
+- 文案 for labels, placeholders, buttons, errors
 - Visual layout suggestions
 
 ---
 
-## Common Signup Flow Patterns
+## 常见 Signup Flow Patterns
 
 ### B2B SaaS Trial
 1. Email + Password (or Google auth)
@@ -247,7 +247,7 @@ Organized by:
 
 ### B2C App
 1. Google/Apple auth OR Email
-2. → Product experience
+2. → 产品 experience
 3. Profile completion later
 
 ### Waitlist/Early Access
@@ -255,9 +255,9 @@ Organized by:
 2. Optional: Role/use case question
 3. → Waitlist confirmation
 
-### E-commerce Account
+### E-commerce 账户
 1. Guest checkout as default
-2. Account creation optional post-purchase
+2. 账户 creation optional post-purchase
 3. OR Social auth with single click
 
 ---
@@ -280,62 +280,62 @@ Organized by:
 - Add or remove company/organization field
 - Test required vs. optional field balance
 
-**Authentication Options**
+**认证 Options**
 - Add SSO options (Google, Microsoft, GitHub, LinkedIn)
 - SSO prominent vs. email form prominent
-- Test which SSO options resonate (varies by audience)
+- Test which SSO options resonate (varies by 受众)
 - SSO-only vs. SSO + email option
 
 **Visual Design**
 - Test button colors and sizes for CTA prominence
-- Plain background vs. product-related visuals
+- Plain background vs. 产品-related visuals
 - Test form container styling (card vs. minimal)
-- Mobile-optimized layout testing
+- Mobile-optimized layout 测试
 
 ---
 
-### Copy & Messaging Experiments
+### 文案 & Messaging Experiments
 
 **Headlines & CTAs**
-- Test headline variations above signup form
-- CTA button text: "Create Account" vs. "Start Free Trial" vs. "Get Started"
-- Add clarity around trial length in CTA
-- Test value proposition emphasis in form header
+- Test 标题 variations above signup form
+- CTA button text: "Create 账户" vs. "Start Free Trial" vs. "Get Started"
+- Add 清晰度 around trial length in CTA
+- Test value proposition emphasis in form 请求头
 
 **Microcopy**
 - Field labels: minimal vs. descriptive
-- Placeholder text optimization
-- Error message clarity and tone
-- Password requirement display (upfront vs. on error)
+- Placeholder text 优化
+- Error message 清晰度 and tone
+- Password requirement 展示 (upfront vs. on error)
 
 **Trust Elements**
-- Add social proof next to signup form
-- Test trust badges near form (security, compliance)
+- Add 社会认同 next to signup form
+- Test trust badges near form (security, 遵循率)
 - Add "No credit card required" messaging
-- Include privacy assurance copy
+- Include 隐私 assurance 文案
 
 ---
 
-### Trial & Commitment Experiments
+### Trial & 承诺 Experiments
 
 **Free Trial Variations**
 - Credit card required vs. not required for trial
 - Test trial length impact (7 vs. 14 vs. 30 days)
 - Freemium vs. free trial model
-- Trial with limited features vs. full access
+- Trial with limited 特性 vs. full access
 
 **Friction Points**
-- Email verification required vs. delayed vs. removed
+- Email 验证 required vs. delayed vs. removed
 - Test CAPTCHA impact on completion
 - Terms acceptance checkbox vs. implicit acceptance
-- Phone verification for high-value accounts
+- Phone 验证 for high-value accounts
 
 ---
 
 ### Post-Submit Experiments
 
-- Clear next steps messaging after signup
-- Instant product access vs. email confirmation first
+- Clear next 步骤 messaging after signup
+- Instant 产品 access vs. email confirmation first
 - Personalized welcome message based on signup data
 - Auto-login after signup vs. require login
 
@@ -344,9 +344,9 @@ Organized by:
 ## Task-Specific Questions
 
 1. What's your current signup completion rate?
-2. Do you have field-level analytics on drop-off?
-3. What data is absolutely required before they can use the product?
-4. Are there compliance or verification requirements?
+2. Do you have field-level 分析 on drop-off?
+3. What data is absolutely required before they can use the 产品?
+4. Are there 遵循率 or 验证 requirements?
 5. What happens immediately after signup?
 
 ---
@@ -355,5 +355,5 @@ Organized by:
 
 - **onboarding-cro**: For optimizing what happens after signup
 - **form-cro**: For non-signup forms (lead capture, contact)
-- **page-cro**: For the landing page leading to signup
-- **ab-test-setup**: For testing signup flow changes
+- **page-cro**: For the 落地页 leading to signup
+- **ab-test-配置方式**: For 测试 signup flow changes

@@ -2,21 +2,21 @@
 
 ## Contents
 - Van Westendorp Price Sensitivity Meter (The Four Questions, How to Analyze, Survey Tips, Sample Output)
-- MaxDiff Analysis (How It Works, Example Survey Question, Analyzing Results, Using MaxDiff for Packaging)
+- MaxDiff Analysis (How It Works, 示例 Survey Question, Analyzing Results, Using MaxDiff for Packaging)
 - Willingness to Pay Surveys
 - Usage-Value Correlation Analysis
 
 ## Van Westendorp Price Sensitivity Meter
 
-The Van Westendorp survey identifies the acceptable price range for your product.
+The Van Westendorp survey identifies the acceptable price range for your 产品.
 
 ### The Four Questions
 
 Ask each respondent:
-1. "At what price would you consider [product] to be so expensive that you would not consider buying it?" (Too expensive)
-2. "At what price would you consider [product] to be priced so low that you would question its quality?" (Too cheap)
-3. "At what price would you consider [product] to be starting to get expensive, but you still might consider it?" (Expensive/high side)
-4. "At what price would you consider [product] to be a bargain—a great buy for the money?" (Cheap/good value)
+1. "At what price would you consider [产品] to be so expensive that you would not consider buying it?" (Too expensive)
+2. "At what price would you consider [产品] to be priced so low that you would question its 质量?" (Too cheap)
+3. "At what price would you consider [产品] to be starting to get expensive, but you still might consider it?" (Expensive/high side)
+4. "At what price would you consider [产品] to be a bargain—a great buy for the money?" (Cheap/good value)
 
 ### How to Analyze
 
@@ -33,7 +33,7 @@ Ask each respondent:
 ### Survey Tips
 - Need 100-300 respondents for reliable data
 - Segment by persona (different willingness to pay)
-- Use realistic product descriptions
+- Use realistic 产品 descriptions
 - Consider adding purchase intent questions
 
 ### Sample Output
@@ -55,17 +55,17 @@ Opportunity: 25-50% price increase without significant demand impact
 
 ## MaxDiff Analysis (Best-Worst Scaling)
 
-MaxDiff identifies which features customers value most, informing packaging decisions.
+MaxDiff identifies which 特性 客户 value most, informing packaging decisions.
 
 ### How It Works
 
-1. List 8-15 features you could include
-2. Show respondents sets of 4-5 features at a time
+1. List 8-15 特性 you could include
+2. Show respondents sets of 4-5 特性 at a time
 3. Ask: "Which is MOST important? Which is LEAST important?"
-4. Repeat across multiple sets until all features compared
+4. Repeat across multiple sets until all 特性 compared
 5. Statistical analysis produces importance scores
 
-### Example Survey Question
+### 示例 Survey Question
 
 ```
 Which feature is MOST important to you?
@@ -80,7 +80,7 @@ Which feature is LEAST important to you?
 
 ### Analyzing Results
 
-Features are ranked by utility score:
+特性 are ranked by utility score:
 - High utility = Must-have (include in base tier)
 - Medium utility = Differentiator (use for tier separation)
 - Low utility = Nice-to-have (premium tier or cut)
@@ -99,14 +99,14 @@ Features are ranked by utility score:
 ## Willingness to Pay Surveys
 
 **Direct method (simple but biased):**
-"How much would you pay for [product]?"
+"How much would you pay for [产品]?"
 
 **Better: Gabor-Granger method:**
-"Would you buy [product] at [$X]?" (Yes/No)
+"Would you buy [产品] at [$X]?" (Yes/No)
 Vary price across respondents to build demand curve.
 
 **Even better: Conjoint analysis:**
-Show product bundles at different prices
+Show 产品 bundles at different prices
 Respondents choose preferred option
 Statistical analysis reveals price sensitivity per feature
 
@@ -115,22 +115,22 @@ Statistical analysis reveals price sensitivity per feature
 ## Usage-Value Correlation Analysis
 
 ### 1. Instrument usage data
-Track how customers use your product:
+Track how 客户 use your 产品:
 - Feature usage frequency
-- Volume metrics (users, records, API calls)
-- Outcome metrics (revenue generated, time saved)
+- Volume 指标 (users, records, API calls)
+- Outcome 指标 (revenue generated, time saved)
 
-### 2. Correlate with customer success
+### 2. Correlate with 客户 success
 - Which usage patterns predict retention?
 - Which usage patterns predict expansion?
-- Which customers pay the most, and why?
+- Which 客户 pay the most, and why?
 
 ### 3. Identify value thresholds
-- At what usage level do customers "get it"?
+- At what usage level do 客户 "get it"?
 - At what usage level do they expand?
 - At what usage level should price increase?
 
-### Example Analysis
+### 示例 Analysis
 
 ```
 Usage-Value Correlation Analysis:

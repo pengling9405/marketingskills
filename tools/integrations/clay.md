@@ -1,23 +1,23 @@
 # Clay
 
-Data enrichment and outbound automation platform for building lead lists with waterfall enrichment across 75+ data providers.
+Data enrichment and outbound automation 平台 for building lead lists with waterfall enrichment across 75+ data providers.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Tables, People Enrichment, Company Enrichment |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/clay) |
 | CLI | ✓ | [clay.js](../clis/clay.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key (Bearer token)
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key (Bearer token)
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API at https://app.clay.com
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Tables
 
@@ -76,7 +76,7 @@ POST https://api.clay.com/v3/companies/enrich
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Person Data
 - `first_name`, `last_name` - Name
@@ -123,25 +123,25 @@ POST https://api.clay.com/v3/companies/enrich
 - Fields are dynamic and match the table's column definitions
 - Pass data as key-value pairs matching column names
 
-## When to Use
+## 适用场景
 
 - Building enriched prospect lists with waterfall enrichment across multiple providers
 - Enriching leads with person and company data from 75+ sources
-- Automating outbound workflows with enriched data
+- Automating outbound 工作流 with enriched data
 - Finding verified contact info (emails, phone numbers, social profiles)
-- Company research and firmographic analysis
-- Triggering enrichment workflows via webhooks
+- Company research and firmographic 分析
+- Triggering enrichment 工作流 via webhooks
 - Syncing enriched data back to CRM or outbound tools
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Standard: 100 requests/minute
 - Enterprise plans have higher limits
 - Enrichment credits consumed per lookup vary by data provider
 - Webhook endpoints accept data continuously
 
-## Relevant Skills
+## 相关技能
 
 - cold-email
 - revops

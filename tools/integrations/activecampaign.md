@@ -1,25 +1,25 @@
 # ActiveCampaign
 
-Email marketing automation platform with CRM, contacts, deals pipeline, tags, automations, and campaign management.
+Email 营销 automation 平台 with CRM, contacts, deals pipeline, tags, automations, and 广告活动 management.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API v3 for contacts, deals, automations, campaigns, tags |
-| MCP | - | Not available |
+| API | ✓ | REST API v3 for contacts, deals, automations, 广告活动, tags |
+| MCP | - | 不可用 |
 | CLI | ✓ | [activecampaign.js](../clis/activecampaign.js) |
 | SDK | ✓ | Python, PHP, Node.js, Ruby |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token
-- **Header**: `Api-Token: {api_token}`
+- **类型**: API Token
+- **请求头**: `Api-Token: {api_token}`
 - **Base URL**: `https://{yourAccountName}.api-us1.com/api/3`
-- **Get key**: Settings > Developer tab in your ActiveCampaign account
-- **Note**: Each user has a unique API key. Base URL is account-specific (found in Settings > Developer).
+- **Get key**: Settings > Developer tab in your ActiveCampaign 账户
+- **Note**: Each user has a unique API key. Base URL is 账户-specific (found in Settings > Developer).
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get current user
 
@@ -136,7 +136,7 @@ POST https://{account}.api-us1.com/api/3/contactLists
 }
 ```
 
-### List campaigns
+### 列出广告活动
 
 ```bash
 GET https://{account}.api-us1.com/api/3/campaigns?limit=20&offset=0
@@ -262,9 +262,9 @@ POST https://{account}.api-us1.com/api/3/webhooks
 
 ## API Pattern
 
-ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). Responses include the resource object plus metadata. Related resources are managed via junction endpoints (e.g., `/contactLists`, `/contactTags`, `/contactAutomations`). The base URL is account-specific. Pagination uses `limit` and `offset` parameters.
+ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). Responses include the resource object plus metadata. Related resources are managed via junction endpoints (e.g., `/contactLists`, `/contactTags`, `/contactAutomations`). The base URL is 账户-specific. Pagination uses `limit` and `offset` parameters.
 
-## Key Metrics
+## 核心指标
 
 ### Contact Fields
 - `email` - Email address
@@ -283,12 +283,12 @@ ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). 
 - `owner` - Assigned user ID
 - `status` - 0 (open), 1 (won), 2 (lost)
 
-### Campaign Metrics
+### 广告活动 指标
 - `sends` - Total sends
 - `opens` - Opens count
-- `clicks` - Clicks count
+- `clicks` - 点击 count
 - `uniqueopens` - Unique opens
-- `uniquelinks` - Unique clicks
+- `uniquelinks` - Unique 点击
 
 ## Parameters
 
@@ -305,33 +305,33 @@ ActiveCampaign uses REST with resource wrapping (e.g., `{ "contact": {...} }`). 
 - `contact` - Contact tags
 - `deal` - Deal tags
 
-### Common Query Parameters
+### 常见 Query Parameters
 - `limit` - Results per page (default 20)
 - `offset` - Skip N results
-- `search` - Text search
+- `search` - Text 搜索
 - `email` - Filter contacts by email
 - `filters[stage]` - Filter deals by stage
 - `filters[owner]` - Filter deals by owner
 
-## When to Use
+## 适用场景
 
-- Marketing automation with complex conditional workflows
-- CRM with deal pipeline management
+- 营销 automation with complex conditional 工作流
+- CRM with deal pipeline 管理
 - Contact management with tagging and segmentation
-- Email campaign creation and tracking
+- Email 广告活动 creation and 跟踪
 - Triggering automations based on external events
-- B2B sales pipeline tracking integrated with marketing
+- B2B sales pipeline 跟踪 integrated with 营销
 
-## Rate Limits
+## 速率限制
 
-- 5 requests per second per account
-- Rate limit applies across all API users on the same account
-- 429 responses include `Retry-After` header
+- 5 requests per second per 账户
+- Rate limit applies across all API users on the same 账户
+- 429 responses include `Retry-After` 请求头
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- lifecycle-marketing
+- lifecycle-营销
 - crm-integration
 - sales-pipeline
-- marketing-automation
+- 营销-automation

@@ -1,13 +1,13 @@
 # Automation Playbooks
 
-Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, and cross-tool automation.
+平台-specific 工作流 recipes for HubSpot, Salesforce, scheduling tools, and cross-tool automation.
 
-## HubSpot Workflow Recipes
+## HubSpot 工作流 Recipes
 
 ### 1. MQL Alert and Assignment
 
 **Name:** MQL Notification and Task Creation
-**Trigger:** Contact property "Lifecycle Stage" is changed to "Marketing Qualified Lead"
+**Trigger:** Contact property "Lifecycle Stage" is changed to "营销 Qualified Lead"
 **Actions:**
 1. Rotate contact owner among sales team (round-robin)
 2. Send internal email notification to contact owner with lead context
@@ -15,7 +15,7 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 4. Send Slack notification to #sales-alerts channel
 5. Enroll in "MQL Follow-Up" sequence (if using HubSpot Sequences)
 **Outcome:** Every MQL gets assigned instantly with a clear SLA
-**Notes:** Set enrollment criteria to exclude leads already owned by a rep
+**说明:** Set enrollment criteria to exclude leads already owned by a rep
 
 ---
 
@@ -29,7 +29,7 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 3. If still no activity after 48 hours → reassign contact owner via rotation
 4. Create task for new owner: "Urgent: Contact [Contact Name] — reassigned due to SLA breach"
 **Outcome:** No MQL goes unworked for more than 48 hours
-**Notes:** Exclude contacts where last activity type is "Call" or "Meeting" (already engaged)
+**说明:** Exclude contacts where last activity 类型 is "Call" or "Meeting" (already engaged)
 
 ---
 
@@ -38,12 +38,12 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 **Name:** Auto-MQL on Score Threshold
 **Trigger:** Contact property "HubSpot Score" is greater than or equal to 65
 **Actions:**
-1. Set lifecycle stage to "Marketing Qualified Lead"
+1. Set lifecycle stage to "营销 Qualified Lead"
 2. Set "MQL Date" to current date
-3. Suppress from marketing nurture workflows
-4. Trigger MQL Alert workflow (recipe #1)
+3. Suppress from 营销 nurture 工作流
+4. Trigger MQL Alert 工作流 (recipe #1)
 **Outcome:** Leads automatically promote to MQL when they hit the scoring threshold
-**Notes:** Add suppression list for existing customers and competitors
+**说明:** Add suppression list for existing 客户 and competitors
 
 ---
 
@@ -58,24 +58,24 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 4. Create task: "Prepare for meeting with [Contact Name]" — due 1 hour before meeting
 5. Send Slack notification to #meetings channel
 **Outcome:** AEs are prepared for every meeting with full context
-**Notes:** Include recent page views and content downloads in notification email
+**说明:** Include recent page views and content downloads in notification email
 
 ---
 
 ### 5. Closed-Won Handoff to CS
 
-**Name:** Customer Onboarding Trigger
+**Name:** 客户 Onboarding Trigger
 **Trigger:** Deal stage is changed to "Closed Won"
 **Actions:**
-1. Update associated contact lifecycle stage to "Customer"
-2. Set "Customer Since" date to current date
+1. Update associated contact lifecycle stage to "客户"
+2. Set "客户 Since" date to current date
 3. Assign contact owner to CS team member (based on segment/territory)
 4. Create task for CS: "Schedule kickoff call with [Company Name]" — due in 2 business days
-5. Enroll contact in "Customer Onboarding" email sequence
+5. Enroll contact in "客户 Onboarding" email sequence
 6. Send internal notification to CS manager
 7. Remove from all sales sequences
-**Outcome:** Seamless handoff from sales to customer success
-**Notes:** Include deal notes, contract value, and key stakeholders in CS notification
+**Outcome:** Seamless handoff from sales to 客户 success
+**说明:** Include deal notes, contract value, and key stakeholders in CS notification
 
 ---
 
@@ -89,7 +89,7 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 3. If no update after 7 days → alert sales manager
 4. Add to "Stale Deals" dashboard list
 **Outcome:** Pipeline stays clean and forecast stays accurate
-**Notes:** Customize thresholds per stage (Discovery: 14 days, Proposal: 10 days, Negotiation: 21 days)
+**说明:** Customize thresholds per stage (Discovery: 14 days, Proposal: 10 days, Negotiation: 21 days)
 
 ---
 
@@ -102,9 +102,9 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 2. Reset engagement score to baseline (keep fit score)
 3. Enroll in "Recycled Lead Nurture" sequence (lower frequency)
 4. Set "Recycle Date" to current date
-5. Set re-enrollment trigger: if HubSpot Score exceeds threshold again, re-trigger MQL workflow
+5. Set re-enrollment trigger: if HubSpot Score exceeds threshold again, re-trigger MQL 工作流
 **Outcome:** Rejected leads get a second chance without clogging the pipeline
-**Notes:** Track recycled-to-MQL conversion rate as a separate metric
+**说明:** Track recycled-to-MQL 转化率 as a separate metric
 
 ---
 
@@ -117,7 +117,7 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 2. Send digest email to each contact owner with their leads' activity
 3. Include: pages visited, content downloaded, emails opened/clicked
 **Outcome:** Sales reps start each day knowing which leads are active
-**Notes:** Only include leads with meaningful activity (exclude single homepage visits)
+**说明:** Only include leads with meaningful activity (exclude single 首页 visits)
 
 ---
 
@@ -125,34 +125,34 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 
 ### 1. MQL Alert and Assignment (Salesforce Flow)
 
-**Type:** Record-Triggered Flow
+**类型:** Record-Triggered Flow
 **Object:** Lead
 **Trigger:** Lead field "Status" is changed to "MQL"
-**Flow steps:**
+**Flow 步骤:**
 1. Get Records: Query "Rep Assignment" custom object for next available rep
 2. Update Records: Set Lead Owner to assigned rep
 3. Create Records: Create Task — "Contact MQL: {Lead.Name}" with due date = NOW + 4 hours
 4. Action: Send email alert to new lead owner
 5. Update Records: Update "Rep Assignment" last-assigned timestamp
-**Notes:** Use a custom "Rep Assignment" object to manage round-robin state
+**说明:** Use a custom "Rep Assignment" object to manage round-robin state
 
 ### 2. SLA Escalation (Salesforce Flow)
 
-**Type:** Scheduled-Triggered Flow
+**类型:** Scheduled-Triggered Flow
 **Schedule:** Every 4 hours during business hours
-**Flow steps:**
+**Flow 步骤:**
 1. Get Records: Leads where Status = "MQL" AND LastActivityDate < TODAY - 1
 2. Decision: Is lead older than 48 hours with no activity?
    - YES → Reassign to next rep, create urgent task, alert manager
    - NO → Send reminder email to current owner
-**Notes:** Pair with Process Builder for real-time alerts on initial assignment
+**说明:** Pair with 流程 Builder for real-time alerts on initial assignment
 
 ### 3. Pipeline Stage Automation (Salesforce Flow)
 
-**Type:** Record-Triggered Flow
+**类型:** Record-Triggered Flow
 **Object:** Opportunity
 **Trigger:** Stage field is updated
-**Flow steps:**
+**Flow 步骤:**
 1. Decision: Which stage was it changed to?
 2. For each stage:
    - **Discovery:** Create task "Complete discovery questionnaire"
@@ -163,9 +163,9 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 
 ### 4. Stale Deal Detection (Salesforce Flow)
 
-**Type:** Scheduled-Triggered Flow
+**类型:** Scheduled-Triggered Flow
 **Schedule:** Daily at 7:00 AM
-**Flow steps:**
+**Flow 步骤:**
 1. Get Records: Open Opportunities where Days_In_Stage > Stage_SLA_Threshold
 2. Loop through results:
    - Create Task: "Update stale deal: {Opportunity.Name}"
@@ -179,8 +179,8 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 
 ### Round-Robin Meeting Scheduling
 
-**Calendly setup:**
-1. Create a team event type with all eligible reps
+**Calendly 配置方式:**
+1. Create a team 事件 类型 with all eligible reps
 2. Distribution: "Optimize for equal distribution"
 3. Availability: Each rep manages their own calendar
 4. Buffer: 15 min before and after meetings
@@ -193,7 +193,7 @@ Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, an
 4. If new contact → create lead, assign via routing rules, log meeting
 5. Set lifecycle stage to MQL (meeting = high intent)
 
-### SavvyCal Setup
+### SavvyCal 配置方式
 
 **Advantages over Calendly:**
 - Priority-based scheduling (prefer certain time slots)
@@ -219,7 +219,7 @@ Booking form submitted
 └─ Round-robin across SDR team
 ```
 
-### No-Show Workflow
+### No-Show 工作流
 
 **Trigger:** Meeting time passes + no meeting notes logged within 30 minutes
 **Actions:**
@@ -256,20 +256,20 @@ Booking form submitted
 
 **Trigger:** CRM deal stage changed to "Closed Won"
 **Actions:**
-1. Create customer record in CS tool (Vitally, Gainsight, ChurnZero)
+1. Create 客户 record in CS tool (Vitally, Gainsight, ChurnZero)
 2. Add to onboarding project template
 3. Send welcome email via email tool
-4. Create Slack channel: #customer-[company-name]
+4. Create Slack channel: #客户-[company-name]
 5. Notify CS team in Slack
 
 ### 4. Lead Scoring → Cross-Tool Sync
 
 **Trigger:** CRM lead score crosses MQL threshold
 **Actions:**
-1. Update marketing automation platform status
-2. Add to retargeting audience (Facebook, Google Ads)
+1. Update 营销 automation 平台 status
+2. Add to retargeting 受众 (Facebook, Google Ads)
 3. Trigger SDR outreach sequence
-4. Log event in analytics (Mixpanel, Amplitude)
+4. Log 事件 in 分析 (Mixpanel, Amplitude)
 
 ### 5. SLA Breach → Multi-Channel Alert
 

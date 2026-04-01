@@ -1,23 +1,23 @@
 # SendGrid
 
-Email delivery platform for transactional and marketing emails.
+Email delivery 平台 for transactional and 营销 emails.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Mail Send API, Marketing API |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | Mail Send API, 营销 API |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | Official libraries for most languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API Keys in SendGrid dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Send email
 
@@ -72,7 +72,7 @@ PUT https://api.sendgrid.com/v3/marketing/contacts
 }
 ```
 
-### Search contacts
+### 搜索 contacts
 
 ```bash
 POST https://api.sendgrid.com/v3/marketing/contacts/search
@@ -118,7 +118,7 @@ POST https://api.sendgrid.com/v3/validations/email
 
 ## Webhook Events
 
-| Event | Description |
+| 事件 | 说明 |
 |-------|-------------|
 | `processed` | Email accepted |
 | `delivered` | Email delivered |
@@ -143,19 +143,19 @@ await sgMail.send({
 });
 ```
 
-## When to Use
+## 适用场景
 
 - Transactional email at scale
-- Marketing email campaigns
+- 营销 email 广告活动
 - Email validation
-- Deliverability management
+- Deliverability 管理
 
-## Rate Limits
+## 速率限制
 
 - Free: 100 emails/day
 - Paid: Varies by plan (up to millions/month)
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- analytics-tracking
+- 分析-跟踪

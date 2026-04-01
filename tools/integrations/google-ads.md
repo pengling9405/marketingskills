@@ -1,26 +1,26 @@
 # Google Ads
 
-Pay-per-click advertising platform for search, display, and video campaigns.
+Pay-per-click advertising 平台 for 搜索, 展示, and 视频 广告活动.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Google Ads API for campaign management |
-| MCP | ✓ | Available via Google Ads MCP server |
+| API | ✓ | Google Ads API for 广告活动 management |
+| MCP | ✓ | 可用 via Google Ads MCP server |
 | CLI | - | Use gcloud or API scripts |
 | SDK | ✓ | Client libraries for multiple languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0
-- **Scopes**: `https://www.googleapis.com/auth/adwords`
-- **Setup**: Create credentials in Google Cloud Console, link to Google Ads account
-- **Headers**: `developer-token`, `login-customer-id` (for MCC)
+- **类型**: OAuth 2.0
+- **作用域**: `https://www.googleapis.com/auth/adwords`
+- **配置方式**: Create credentials in Google Cloud Console, link to Google Ads 账户
+- **请求头**: `developer-token`, `login-customer-id` (for MCC)
 
-## Common Agent Operations
+## 常见代理操作
 
-### Get account info
+### 获取账户信息
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:searchStream
@@ -30,7 +30,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:sear
 }
 ```
 
-### List campaigns
+### 列出广告活动
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:searchStream
@@ -40,7 +40,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:sear
 }
 ```
 
-### Get campaign performance
+### 获取广告活动表现
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:searchStream
@@ -50,7 +50,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:sear
 }
 ```
 
-### Get ad group performance
+### 获取广告组表现
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:searchStream
@@ -60,7 +60,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:sear
 }
 ```
 
-### Get keyword performance
+### 获取关键词表现
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:searchStream
@@ -70,7 +70,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/googleAds:sear
 }
 ```
 
-### Pause campaign
+### 暂停广告活动
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/campaigns:mutate
@@ -86,7 +86,7 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/campaigns:muta
 }
 ```
 
-### Update budget
+### 更新预算
 
 ```bash
 POST https://googleads.googleapis.com/v14/customers/{customer_id}/campaignBudgets:mutate
@@ -102,25 +102,25 @@ POST https://googleads.googleapis.com/v14/customers/{customer_id}/campaignBudget
 }
 ```
 
-## Key Metrics
+## 核心指标
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
-| `metrics.impressions` | Ad impressions |
-| `metrics.clicks` | Clicks |
+| `metrics.impressions` | Ad 曝光 |
+| `metrics.clicks` | 点击 |
 | `metrics.cost_micros` | Cost in micros (divide by 1M) |
-| `metrics.conversions` | Conversions |
+| `metrics.conversions` | 转化 |
 | `metrics.conversions_value` | Conversion value |
-| `metrics.average_cpc` | Average cost per click |
-| `metrics.ctr` | Click-through rate |
-| `metrics.conversion_rate` | Conversion rate |
+| `metrics.average_cpc` | Average 每次点击成本 |
+| `metrics.ctr` | 点击率 |
+| `metrics.conversion_rate` | 转化率 |
 
-## Campaign Types
+## 广告活动 Types
 
-- `SEARCH` - Search network text ads
-- `DISPLAY` - Display network
-- `SHOPPING` - Product shopping ads
-- `VIDEO` - YouTube video ads
+- `SEARCH` - 搜索 network text ads
+- `DISPLAY` - 展示 network
+- `SHOPPING` - 产品 shopping ads
+- `VIDEO` - YouTube 视频 ads
 - `PERFORMANCE_MAX` - AI-optimized across channels
 - `DEMAND_GEN` - Discovery/Demand Gen
 
@@ -139,21 +139,21 @@ ORDER BY metrics.conversions DESC
 LIMIT 10
 ```
 
-## When to Use
+## 适用场景
 
-- Managing search advertising campaigns
-- Analyzing campaign performance
+- Managing 搜索 advertising 广告活动
+- Analyzing 广告活动 表现
 - Adjusting budgets and bids
-- Keyword research and management
-- Conversion tracking analysis
+- 关键词 research and 管理
+- Conversion 跟踪 分析
 
-## Rate Limits
+## 速率限制
 
-- 15,000 operations per day (basic)
+- 15,000 操作 per day (basic)
 - Higher limits with developer token levels
 
-## Relevant Skills
+## 相关技能
 
 - paid-ads
-- analytics-tracking
+- 分析-跟踪
 - page-cro

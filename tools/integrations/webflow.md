@@ -1,23 +1,23 @@
 # Webflow
 
-Visual web design and CMS platform for marketing sites.
+Visual web design and CMS 平台 for 营销 sites.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for sites, CMS, forms |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | Webflow CLI for devlink and apps |
 | SDK | ✓ | Official SDK for Node.js |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token (Site token or OAuth)
-- **Header**: `Authorization: Bearer {api_token}`
-- **Get token**: Site Settings > Integrations > API Access
+- **类型**: API Token (Site token or OAuth)
+- **请求头**: `Authorization: Bearer {api_token}`
+- **获取令牌**： Site Settings > Integrations > API Access
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List sites
 
@@ -166,32 +166,32 @@ webflow devlink sync
 - **Items** - Individual entries in a collection
 - **Fields** - Data fields on items
 
-## Common Field Types
+## 常见 Field Types
 
 - `PlainText` - Simple text
 - `RichText` - Formatted content
 - `Image` - Image upload
-- `Link` - URL or page reference
+- `Link` - URL or page 参考
 - `Reference` - Link to another collection
 - `Multi-Reference` - Multiple collection links
 - `Switch` - Boolean toggle
 - `Number` - Numeric value
 - `Date` - Date/time
 
-## When to Use
+## 适用场景
 
-- Marketing site CMS management
+- 营销 site CMS 管理
 - Blog/content publishing
 - Form submission handling
 - Automated content updates
 - Programmatic SEO pages
 
-## Rate Limits
+## 速率限制
 
 - 60 requests/minute (general)
 - 10 requests/minute (publishing)
 
-## Relevant Skills
+## 相关技能
 
 - programmatic-seo
 - content-strategy

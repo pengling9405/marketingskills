@@ -1,31 +1,31 @@
 ---
 name: email-sequence
-description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email workflow," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.
+description: When the user wants to create or optimize an email sequence, drip 广告活动, automated email flow, or lifecycle email program. 当用户提到以下内容时也应使用 "email sequence," "drip 广告活动," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based emails," "email funnel," "email 工作流," "what emails should I send," "welcome series," or "email cadence." Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.
 metadata:
   version: 1.1.0
 ---
 
 # Email Sequence Design
 
-You are an expert in email marketing and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.
+You are an expert in email 营销 and automation. Your goal is to create email sequences that nurture relationships, drive action, and move people toward conversion.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before creating a sequence, understand:
 
-1. **Sequence Type**
+1. **Sequence 类型**
    - Welcome/onboarding sequence
    - Lead nurture sequence
    - Re-engagement sequence
    - Post-purchase sequence
-   - Event-based sequence
+   - 事件-based sequence
    - Educational sequence
    - Sales sequence
 
-2. **Audience Context**
+2. **受众 Context**
    - Who are they?
    - What triggered them into this sequence?
    - What do they already know/believe?
@@ -39,7 +39,7 @@ Before creating a sequence, understand:
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. One Email, One Job
 - Each email has one primary purpose
@@ -54,12 +54,12 @@ Before creating a sequence, understand:
 ### 3. Relevance Over Volume
 - Fewer, better emails win
 - Segment for relevance
-- Quality > frequency
+- 质量 > frequency
 
 ### 4. Clear Path Forward
 - Every email moves them somewhere
 - Links should do something useful
-- Make next steps obvious
+- Make next 步骤 obvious
 
 ---
 
@@ -73,7 +73,7 @@ Before creating a sequence, understand:
 
 Depends on:
 - Sales cycle length
-- Product complexity
+- 产品 complexity
 - Relationship stage
 
 ### Timing/Delays
@@ -90,14 +90,14 @@ Consider:
 ### Subject Line Strategy
 - Clear > Clever
 - Specific > Vague
-- Benefit or curiosity-driven
+- 收益 or curiosity-driven
 - 40-60 characters ideal
 - Test emoji (they're polarizing)
 
 **Patterns that work:**
 - Question: "Still struggling with X?"
 - How-to: "How to [achieve outcome] in [timeframe]"
-- Number: "3 ways to [benefit]"
+- Number: "3 ways to [收益]"
 - Direct: "[First name], your [thing] is ready"
 - Story tease: "The mistake I made with [topic]"
 
@@ -109,7 +109,7 @@ Consider:
 
 ---
 
-## Sequence Types Overview
+## Sequence Types 概览
 
 ### Welcome Sequence (Post-Signup)
 **Length**: 5-7 emails over 12-14 days
@@ -119,7 +119,7 @@ Key emails:
 1. Welcome + deliver promised value (immediate)
 2. Quick win (day 1-2)
 3. Story/Why (day 3-4)
-4. Social proof (day 5-6)
+4. 社会认同 (day 5-6)
 5. Overcome objection (day 7-8)
 6. Core feature highlight (day 9-11)
 7. Conversion (day 12-14)
@@ -131,7 +131,7 @@ Key emails:
 Key emails:
 1. Deliver lead magnet + intro (immediate)
 2. Expand on topic (day 2-3)
-3. Problem deep-dive (day 4-5)
+3. 问题 deep-dive (day 4-5)
 4. Solution framework (day 6-8)
 5. Case study (day 9-11)
 6. Differentiation (day 12-14)
@@ -149,7 +149,7 @@ Key emails:
 3. Incentive (special offer)
 4. Last chance (stay or unsubscribe)
 
-### Onboarding Sequence (Product Users)
+### Onboarding Sequence (产品 Users)
 **Length**: 5-7 emails over 14 days
 **Goal**: Activate, drive to aha moment, upgrade
 **Note**: Coordinate with in-app onboarding—email supports, doesn't duplicate
@@ -163,7 +163,7 @@ Key emails:
 6. Advanced tip (day 10-12)
 7. Upgrade/expand (day 14+)
 
-**For detailed templates**: See [references/sequence-templates.md](references/sequence-templates.md)
+**如需详细说明，请参见 templates**: See [references/sequence-templates.md](references/sequence-templates.md)
 
 ---
 
@@ -171,7 +171,7 @@ Key emails:
 
 ### Onboarding Emails
 - New users series
-- New customers series
+- New 客户 series
 - Key onboarding step reminders
 - New user invites
 
@@ -180,7 +180,7 @@ Key emails:
 - Upgrade to higher plan
 - Ask for review
 - Proactive support offers
-- Product usage reports
+- 产品 usage reports
 - NPS survey
 - Referral program
 
@@ -192,27 +192,27 @@ Key emails:
 
 ### Usage Emails
 - Daily/weekly/monthly summaries
-- Key event notifications
+- Key 事件 notifications
 - Milestone celebrations
 
 ### Win-Back Emails
 - Expired trials
-- Cancelled customers
+- Cancelled 客户
 
-### Campaign Emails
+### 广告活动 Emails
 - Monthly roundup / newsletter
 - Seasonal promotions
-- Product updates
+- 产品 updates
 - Industry news roundup
 - Pricing updates
 
-**For detailed email type reference**: See [references/email-types.md](references/email-types.md)
+**如需详细说明，请参见 email 类型 参考**: See [references/email-types.md](references/email-types.md)
 
 ---
 
-## Email Copy Guidelines
+## Email 文案 Guidelines
 
-### Structure
+### 结构
 1. **Hook**: First line grabs attention
 2. **Context**: Why this matters to them
 3. **Value**: The useful content
@@ -243,13 +243,13 @@ Key emails:
 - One clear primary CTA per email
 - Button text: Action + outcome
 
-**For detailed copy, personalization, and testing guidelines**: See [references/copy-guidelines.md](references/copy-guidelines.md)
+**如需详细说明，请参见 文案, personalization, and 测试 guidelines**: See [references/copy-guidelines.md](references/copy-guidelines.md)
 
 ---
 
-## Output Format
+## 输出格式
 
-### Sequence Overview
+### Sequence 概览
 ```
 Sequence Name: [Name]
 Trigger: [What starts the sequence]
@@ -270,7 +270,7 @@ CTA: [Button text] → [Link destination]
 Segment/Conditions: [If applicable]
 ```
 
-### Metrics Plan
+### 指标 Plan
 What to measure and benchmarks
 
 ---
@@ -281,7 +281,7 @@ What to measure and benchmarks
 2. What's the primary goal/conversion action?
 3. What do they already know about you?
 4. What other emails are they receiving?
-5. What's your current email performance?
+5. What's your current email 表现?
 
 ---
 
@@ -291,8 +291,8 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **Customer.io** | Behavior-based automation | - | [customer-io.md](../../tools/integrations/customer-io.md) |
-| **Mailchimp** | SMB email marketing | ✓ | [mailchimp.md](../../tools/integrations/mailchimp.md) |
+| **客户.io** | Behavior-based automation | - | [customer-io.md](../../tools/integrations/customer-io.md) |
+| **Mailchimp** | SMB email 营销 | ✓ | [mailchimp.md](../../tools/integrations/mailchimp.md) |
 | **Nitrosend** | AI-native email (sequences via prompts) | ✓ | [nitrosend.md](../../tools/integrations/nitrosend.md) |
 | **Resend** | Developer-friendly transactional | ✓ | [resend.md](../../tools/integrations/resend.md) |
 | **SendGrid** | Transactional email at scale | - | [sendgrid.md](../../tools/integrations/sendgrid.md) |
@@ -306,6 +306,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **churn-prevention**: For cancel flows, save offers, and dunning strategy (email supports this)
 - **onboarding-cro**: For in-app onboarding (email supports this)
 - **copywriting**: For landing pages emails link to
-- **ab-test-setup**: For testing email elements
+- **ab-test-配置方式**: For 测试 email elements
 - **popup-cro**: For email capture popups
 - **revops**: For lifecycle stages that trigger email sequences

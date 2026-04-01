@@ -1,12 +1,12 @@
 # One-Pager Templates
 
-Templates for different one-pager use cases, with layout guidance and copy prompts.
+Templates for different one-pager use cases, with layout 指导 and 文案 prompts.
 
-## Product Overview One-Pager
+## 产品 概览 One-Pager
 
-The default one-pager. Introduces your product to someone who knows nothing about you.
+The default one-pager. Introduces your 产品 to someone who knows nothing about you.
 
-### Structure
+### 结构
 
 ```
 [Logo]                                              [Tagline]
@@ -31,19 +31,19 @@ PROOF
 [CTA Button/Link]                    [Contact: name@company.com]
 ```
 
-### Copy Prompts
+### 文案 Prompts
 
-- Headline: "What do you do, in one sentence, that makes someone say 'tell me more'?"
-- Problem: "What is your buyer struggling with before they find you?"
+- 标题: "What do you do, in one sentence, that makes someone say 'tell me more'?"
+- 问题: "What is your buyer struggling with before they find you?"
 - Differentiators: "If you could only tell them 3 things, what would make them choose you?"
 
 ---
 
 ## Use-Case Specific One-Pager
 
-Tailored to a specific workflow, vertical, or problem. More targeted than the product overview.
+Tailored to a specific 工作流, vertical, or 问题. More targeted than the 产品 概览.
 
-### Structure
+### 结构
 
 ```
 [Logo]                                    [Use Case: e.g., "For Sales Teams"]
@@ -70,7 +70,7 @@ CUSTOMER SPOTLIGHT
 [CTA: "See it in action" or "Start a pilot"]       [Contact info]
 ```
 
-### When to Use
+### 适用场景
 
 - Different buyer personas need different one-pagers
 - Industry-specific versions (healthcare, fintech, e-commerce)
@@ -80,9 +80,9 @@ CUSTOMER SPOTLIGHT
 
 ## Post-Meeting Leave-Behind
 
-Designed to reinforce a conversation that already happened. Summarizes what you discussed and proposes next steps.
+Designed to reinforce a conversation that already happened. Summarizes what you discussed and proposes next 步骤.
 
-### Structure
+### 结构
 
 ```
 [Logo]                                            [Date of Meeting]
@@ -114,8 +114,8 @@ PROPOSED NEXT STEPS
 ### Tips
 
 - Send within 24 hours of the meeting
-- Reference specific things they said (shows you listened)
-- Keep proposed next steps concrete and time-bound
+- 参考 specific things they said (shows you listened)
+- Keep proposed next 步骤 concrete and time-bound
 - This is the asset your champion forwards to their boss
 
 ---
@@ -124,7 +124,7 @@ PROPOSED NEXT STEPS
 
 Designed specifically for your internal champion to share with their team and leadership. Written to make them look smart.
 
-### Structure
+### 结构
 
 ```
 [Logo]
@@ -169,14 +169,14 @@ Questions? Talk to [Champion name] or [Your name at email].
 
 ---
 
-## Layout Guidance
+## Layout 指导
 
 ### Visual Hierarchy
 
-1. **Headline** — Largest text, top of page, immediately communicates value
-2. **Section headers** — Bold, clear, act as scannable anchors
+1. **标题** — Largest text, top of page, immediately communicates value
+2. **Section 请求头** — Bold, clear, act as scannable anchors
 3. **Body text** — Short sentences, bullet points preferred over paragraphs
-4. **Proof elements** — Metrics and quotes should visually stand out (larger font, color, or callout box)
+4. **Proof elements** — 指标 and quotes should visually stand out (larger font, color, or callout box)
 5. **CTA** — Prominent placement, bottom of page or bottom-right
 
 ### Whitespace
@@ -189,17 +189,17 @@ Questions? Talk to [Champion name] or [Your name at email].
 
 | Element | Suggested Size |
 |---------|---------------|
-| Headline | 18-24pt |
-| Section headers | 12-14pt bold |
+| 标题 | 18-24pt |
+| Section 请求头 | 12-14pt bold |
 | Body text | 10-11pt |
 | Fine print / footer | 8-9pt |
 
 ### Color
 
-- Use brand colors for headers and accents
+- Use brand colors for 请求头 and accents
 - Keep body text dark (black or near-black) on white
 - Limit accent colors to 1-2 for visual consistency
-- Use color to draw attention to metrics and CTAs
+- Use color to draw attention to 指标 and CTAs
 
 ### File Format
 

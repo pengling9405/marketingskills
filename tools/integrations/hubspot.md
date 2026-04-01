@@ -1,23 +1,23 @@
 # HubSpot
 
-CRM platform for marketing, sales, and customer service.
+CRM 平台 for 营销, sales, and 客户 service.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for CRM, Marketing, Sales |
-| MCP | - | Not available |
+| API | ✓ | REST API for CRM, 营销, Sales |
+| MCP | - | 不可用 |
 | CLI | ✓ | `hs` CLI for local development |
 | SDK | ✓ | Official client libraries |
 
-## Authentication
+## 认证方式
 
-- **Type**: Private App Token or OAuth 2.0
-- **Header**: `Authorization: Bearer {access_token}`
-- **Get token**: Settings > Integrations > Private Apps
+- **类型**: Private App Token or OAuth 2.0
+- **请求头**: `Authorization: Bearer {access_token}`
+- **获取令牌**： Settings > Integrations > Private Apps
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get contacts
 
@@ -27,7 +27,7 @@ GET https://api.hubapi.com/crm/v3/objects/contacts?limit=10
 Authorization: Bearer {access_token}
 ```
 
-### Search contacts
+### 搜索 contacts
 
 ```bash
 POST https://api.hubapi.com/crm/v3/objects/contacts/search
@@ -107,7 +107,7 @@ GET https://api.hubapi.com/form-integrations/v1/submissions/forms/{form_guid}
 Authorization: Bearer {access_token}
 ```
 
-### Get marketing emails
+### Get 营销 emails
 
 ```bash
 GET https://api.hubapi.com/marketing/v3/emails?limit=10
@@ -143,7 +143,7 @@ hs accounts list
 - **Products** - Items for sale
 - **Line Items** - Deal line items
 
-## Common Properties
+## 常见 Properties
 
 ### Contact Properties
 - `email` - Email address
@@ -157,22 +157,22 @@ hs accounts list
 - `dealstage` - Pipeline stage
 - `closedate` - Expected close
 
-## When to Use
+## 适用场景
 
 - Managing contacts and leads
-- Tracking sales deals
-- Marketing automation
+- 跟踪 sales deals
+- 营销 automation
 - Form submissions
-- Email campaigns
-- Customer service tickets
+- Email 广告活动
+- 客户 service tickets
 
-## Rate Limits
+## 速率限制
 
 - 100 requests per 10 seconds
 - Higher limits on enterprise plans
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- analytics-tracking
+- 分析-跟踪
 - referral-program

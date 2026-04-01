@@ -1,25 +1,25 @@
-# Platform Specs Reference
+# 平台 Specs 参考
 
-Complete character limits, format requirements, and best practices for each ad platform.
+Complete character limits, format requirements, and best practices for each ad 平台.
 
 ---
 
 ## Google Ads
 
-### Responsive Search Ads (RSAs)
+### Responsive 搜索 Ads (RSAs)
 
-| Element | Character Limit | Required | Notes |
+| Element | Character Limit | Required | 说明 |
 |---------|----------------|----------|-------|
-| Headline | 30 chars | 3 minimum, 15 max | Any 3 may be shown together |
-| Description | 90 chars | 2 minimum, 4 max | Any 2 may be shown together |
-| Display path 1 | 15 chars | Optional | Appears after domain in URL |
-| Display path 2 | 15 chars | Optional | Appears after path 1 |
-| Final URL | No limit | Required | Landing page URL |
+| 标题 | 30 chars | 3 minimum, 15 max | Any 3 may be shown together |
+| 说明 | 90 chars | 2 minimum, 4 max | Any 2 may be shown together |
+| 展示 path 1 | 15 chars | Optional | Appears after domain in URL |
+| 展示 path 2 | 15 chars | Optional | Appears after path 1 |
+| Final URL | No limit | Required | 落地页 URL |
 
 **Combination rules:**
 - Google selects up to 3 headlines and 2 descriptions to show
 - Headlines appear separated by " | " or stacked
-- Any headline can appear in any position unless pinned
+- Any 标题 can appear in any position unless pinned
 - Pinning reduces Google's ability to optimize — use sparingly
 
 **Pinning strategy:**
@@ -27,71 +27,71 @@ Complete character limits, format requirements, and best practices for each ad p
 - Pin your strongest CTA to position 2 or 3
 - Leave most headlines unpinned for machine learning
 
-**Headline mix recommendation (15 headlines):**
-- 3-4 keyword-focused (match search intent)
-- 3-4 benefit-focused (what they get)
-- 2-3 social proof (numbers, awards, customers)
+**标题 mix recommendation (15 headlines):**
+- 3-4 关键词-focused (match 搜索 intent)
+- 3-4 收益-focused (what they get)
+- 2-3 社会认同 (numbers, awards, 客户)
 - 2-3 CTA-focused (action to take)
 - 1-2 differentiators (why you over competitors)
-- 1 brand name headline
+- 1 brand name 标题
 
-**Description mix recommendation (4 descriptions):**
-- 1 benefit + proof point
+**说明 mix recommendation (4 descriptions):**
+- 1 收益 + proof point
 - 1 feature + outcome
-- 1 social proof + CTA
+- 1 社会认同 + CTA
 - 1 urgency/offer + CTA (if applicable)
 
-### Performance Max
+### 表现 Max
 
-| Element | Character Limit | Notes |
+| Element | Character Limit | 说明 |
 |---------|----------------|-------|
-| Headline | 30 chars (5 required) | Short headlines for various placements |
-| Long headline | 90 chars (5 required) | Used in display, video, discover |
-| Description | 90 chars (1 required, 5 max) | Accompany various ad formats |
+| 标题 | 30 chars (5 required) | Short headlines for various placements |
+| Long 标题 | 90 chars (5 required) | Used in 展示, 视频, discover |
+| 说明 | 90 chars (1 required, 5 max) | Accompany various ad formats |
 | Business name | 25 chars | Required |
 
-### Display Ads
+### 展示 Ads
 
 | Element | Character Limit |
 |---------|----------------|
-| Headline | 30 chars |
-| Long headline | 90 chars |
-| Description | 90 chars |
+| 标题 | 30 chars |
+| Long 标题 | 90 chars |
+| 说明 | 90 chars |
 | Business name | 25 chars |
 
 ---
 
 ## Meta Ads (Facebook & Instagram)
 
-### Single Image / Video / Carousel
+### Single Image / 视频 / Carousel
 
-| Element | Recommended | Maximum | Notes |
+| Element | Recommended | Maximum | 说明 |
 |---------|-------------|---------|-------|
 | Primary text | 125 chars | 2,200 chars | Text above image; truncated after ~125 |
-| Headline | 40 chars | 255 chars | Below image; truncated after ~40 |
-| Description | 30 chars | 255 chars | Below headline; may not show |
-| URL display link | 40 chars | N/A | Optional custom display URL |
+| 标题 | 40 chars | 255 chars | Below image; truncated after ~40 |
+| 说明 | 30 chars | 255 chars | Below 标题; may not show |
+| URL 展示 link | 40 chars | N/A | Optional custom 展示 URL |
 
 **Placement-specific notes:**
 - **Feed**: All elements show; primary text most visible
 - **Stories/Reels**: Primary text overlaid; keep under 72 chars
-- **Right column**: Only headline visible; skip description
-- **Audience Network**: Varies by publisher
+- **Right column**: Only 标题 visible; skip description
+- **受众 Network**: Varies by publisher
 
 **Best practices:**
 - Front-load the hook in primary text (first 125 chars)
 - Use line breaks for readability in longer primary text
 - Emojis: test, but don't overuse — 1-2 per ad max
 - Questions in primary text increase engagement
-- Headline should be a clear CTA or value statement
+- 标题 should be a clear CTA or value statement
 
 ### Lead Ads (Instant Form)
 
 | Element | Limit |
 |---------|-------|
-| Greeting headline | 60 chars |
+| Greeting 标题 | 60 chars |
 | Greeting description | 360 chars |
-| Privacy policy text | 200 chars |
+| 隐私 policy text | 200 chars |
 
 ---
 
@@ -99,18 +99,18 @@ Complete character limits, format requirements, and best practices for each ad p
 
 ### Single Image Ad
 
-| Element | Recommended | Maximum | Notes |
+| Element | Recommended | Maximum | 说明 |
 |---------|-------------|---------|-------|
 | Intro text | 150 chars | 600 chars | Above the image; truncated after ~150 |
-| Headline | 70 chars | 200 chars | Below the image |
-| Description | 100 chars | 300 chars | Only shows on Audience Network |
+| 标题 | 70 chars | 200 chars | Below the image |
+| 说明 | 100 chars | 300 chars | Only shows on 受众 Network |
 
 ### Carousel Ad
 
 | Element | Limit |
 |---------|-------|
 | Intro text | 255 chars |
-| Card headline | 45 chars |
+| Card 标题 | 45 chars |
 | Card count | 2-10 cards |
 
 ### Message Ad (InMail)
@@ -125,15 +125,15 @@ Complete character limits, format requirements, and best practices for each ad p
 
 | Element | Limit |
 |---------|-------|
-| Headline | 25 chars |
-| Description | 75 chars |
+| 标题 | 25 chars |
+| 说明 | 75 chars |
 
 **LinkedIn-specific guidelines:**
 - Professional tone, but not boring
-- Use job-specific language the audience recognizes
+- Use job-specific language the 受众 recognizes
 - Statistics and data points perform well
 - Avoid consumer-style hype ("Amazing!" "Incredible!")
-- First-person testimonials from peers resonate
+- First-person 推荐语 from peers resonate
 
 ---
 
@@ -141,26 +141,26 @@ Complete character limits, format requirements, and best practices for each ad p
 
 ### In-Feed Ads
 
-| Element | Recommended | Maximum | Notes |
+| Element | Recommended | Maximum | 说明 |
 |---------|-------------|---------|-------|
-| Ad text | 80 chars | 100 chars | Above the video |
-| Display name | N/A | 40 chars | Brand name |
-| CTA button | Platform options | Predefined | Select from TikTok's options |
+| Ad text | 80 chars | 100 chars | Above the 视频 |
+| 展示 name | N/A | 40 chars | Brand name |
+| CTA button | 平台 options | Predefined | Select from TikTok's options |
 
 ### Spark Ads (Boosted Organic)
 
-| Element | Notes |
+| Element | 说明 |
 |---------|-------|
 | Caption | Uses original post caption |
 | CTA button | Added by advertiser |
-| Display name | Original creator's handle |
+| 展示 name | Original creator's handle |
 
 **TikTok-specific guidelines:**
 - Native content outperforms polished ads
 - First 2 seconds determine if they watch
 - Use trending sounds and formats
 - Text overlay is essential (most watch with sound off)
-- Vertical video only (9:16)
+- Vertical 视频 only (9:16)
 
 ---
 
@@ -168,18 +168,18 @@ Complete character limits, format requirements, and best practices for each ad p
 
 ### Promoted Tweets
 
-| Element | Limit | Notes |
+| Element | Limit | 说明 |
 |---------|-------|-------|
-| Tweet text | 280 chars | Full tweet with image/video |
-| Card headline | 70 chars | Website card |
+| Tweet text | 280 chars | Full tweet with image/视频 |
+| Card 标题 | 70 chars | Website card |
 | Card description | 200 chars | Website card |
 
 ### Website Cards
 
 | Element | Limit |
 |---------|-------|
-| Headline | 70 chars |
-| Description | 200 chars |
+| 标题 | 70 chars |
+| 说明 | 200 chars |
 
 **Twitter/X-specific guidelines:**
 - Conversational, casual tone
@@ -193,19 +193,19 @@ Complete character limits, format requirements, and best practices for each ad p
 ## Character Counting Tips
 
 - **Spaces count** as characters on all platforms
-- **Emojis** count as 1-2 characters depending on platform
+- **Emojis** count as 1-2 characters depending on 平台
 - **Special characters** (|, &, etc.) count as 1 character
 - **URLs** in body text count against limits
-- **Dynamic keyword insertion** (`{KeyWord:default}`) can exceed limits — set safe defaults
-- Always verify in the platform's ad preview before launching
+- **Dynamic 关键词 insertion** (`{KeyWord:default}`) can exceed limits — set safe defaults
+- Always verify in the 平台's ad preview before launching
 
 ---
 
-## Multi-Platform Creative Adaptation
+## Multi-平台 Creative Adaptation
 
 When creating for multiple platforms simultaneously, start with the most restrictive format:
 
-1. **Google Search headlines** (30 chars) — forces the tightest messaging
+1. **Google 搜索 headlines** (30 chars) — forces the tightest messaging
 2. **Expand to Meta headlines** (40 chars) — add a word or two
 3. **Expand to LinkedIn intro text** (150 chars) — add context and proof
 4. **Expand to Meta primary text** (125+ chars) — full hook and value prop

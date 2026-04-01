@@ -1,25 +1,25 @@
 # PostHog
 
-Open-source product analytics with session replay and feature flags.
+开源 产品 分析 with 会话回放 and 功能开关.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Capture API, Query API, Feature Flags API |
-| MCP | - | Not available |
+| API | ✓ | Capture API, Query API, 功能开关 API |
+| MCP | - | 不可用 |
 | CLI | ✓ | `posthog` CLI for local development |
 | SDK | ✓ | JavaScript, Python, Ruby, Go, etc. |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key (Personal or Project)
-- **Header**: `Authorization: Bearer {api_key}`
-- **For capture**: Project API Key in payload
+- **类型**: API Key (Personal or Project)
+- **请求头**: `Authorization: Bearer {api_key}`
+- **用于采集**： Project API Key in payload
 
-## Common Agent Operations
+## 常见代理操作
 
-### Capture event
+### 采集事件
 
 ```bash
 POST https://app.posthog.com/capture/
@@ -35,7 +35,7 @@ POST https://app.posthog.com/capture/
 }
 ```
 
-### Batch events
+### 批量事件
 
 ```bash
 POST https://app.posthog.com/batch/
@@ -49,7 +49,7 @@ POST https://app.posthog.com/batch/
 }
 ```
 
-### Get person by distinct_id
+### 按 distinct_id 获取用户
 
 ```bash
 GET https://app.posthog.com/api/projects/{project_id}/persons/?distinct_id=user_123
@@ -57,7 +57,7 @@ GET https://app.posthog.com/api/projects/{project_id}/persons/?distinct_id=user_
 Authorization: Bearer {api_key}
 ```
 
-### Query events (HogQL)
+### 查询事件（HogQL）
 
 ```bash
 POST https://app.posthog.com/api/projects/{project_id}/query/
@@ -70,7 +70,7 @@ POST https://app.posthog.com/api/projects/{project_id}/query/
 }
 ```
 
-### Get feature flag value
+### 获取功能开关值
 
 ```bash
 POST https://app.posthog.com/decide?v=3
@@ -81,7 +81,7 @@ POST https://app.posthog.com/decide?v=3
 }
 ```
 
-### Get insights
+### 获取洞察
 
 ```bash
 GET https://app.posthog.com/api/projects/{project_id}/insights/
@@ -89,7 +89,7 @@ GET https://app.posthog.com/api/projects/{project_id}/insights/
 Authorization: Bearer {api_key}
 ```
 
-### Get session recordings
+### 获取会话录屏
 
 ```bash
 GET https://app.posthog.com/api/projects/{project_id}/session_recordings/
@@ -122,30 +122,30 @@ if (posthog.isFeatureEnabled('new-pricing')) {
 }
 ```
 
-## Key Features
+## 核心特性
 
-- **Event tracking** - Product analytics
-- **Session replay** - Watch user sessions
-- **Feature flags** - Control feature rollout
-- **A/B testing** - Built-in experiments
+- **事件 跟踪** - 产品 分析
+- **会话回放** - Watch user sessions
+- **功能开关** - Control feature rollout
+- **A/B 测试** - Built-in experiments
 - **HogQL** - SQL-like query language
 - **Self-hostable** - Run on your infrastructure
 
-## When to Use
+## 适用场景
 
-- Product analytics with privacy focus
-- Session replay for UX insights
-- Feature flag management
-- Self-hosted analytics needs
-- Open-source requirements
+- 产品 分析 with 隐私 focus
+- 会话回放 for UX insights
+- Feature flag 管理
+- Self-hosted 分析 needs
+- 开源 requirements
 
-## Rate Limits
+## 速率限制
 
 - Cloud: 10,000 events/second
 - Self-hosted: Unlimited
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
-- ab-test-setup
+- 分析-跟踪
+- ab-test-配置方式
 - onboarding-cro

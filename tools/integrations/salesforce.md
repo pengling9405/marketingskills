@@ -1,23 +1,23 @@
 # Salesforce
 
-Enterprise CRM platform for sales, service, and marketing.
+Enterprise CRM 平台 for sales, service, and 营销.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API, SOAP API, Bulk API |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | Salesforce CLI (`sf`) |
 | SDK | ✓ | JSforce, simple-salesforce, etc. |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 (Web Server Flow or JWT Bearer)
-- **Header**: `Authorization: Bearer {access_token}`
+- **类型**: OAuth 2.0 (Web Server Flow or JWT Bearer)
+- **请求头**: `Authorization: Bearer {access_token}`
 - **Instance URL**: Use instance_url from auth response
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Query records (SOQL)
 
@@ -58,7 +58,7 @@ PATCH https://{instance}.salesforce.com/services/data/v59.0/sobjects/Contact/{re
 }
 ```
 
-### Search records (SOSL)
+### 搜索 records (SOSL)
 
 ```bash
 GET https://{instance}.salesforce.com/services/data/v59.0/search?q=FIND+{searchTerm}+IN+ALL+FIELDS+RETURNING+Contact(Id,Name,Email)
@@ -101,7 +101,7 @@ sf project deploy start
 sf apex run --file script.apex
 ```
 
-## SOQL Examples
+## SOQL 示例
 
 ```sql
 -- Get contacts with accounts
@@ -123,28 +123,28 @@ ORDER BY CreatedDate DESC
 
 ## Key Objects
 
-- **Lead** - Potential customer
-- **Contact** - Person at account
-- **Account** - Company/organization
+- **Lead** - Potential 客户
+- **Contact** - Person at 账户
+- **账户** - Company/organization
 - **Opportunity** - Sales deal
 - **Case** - Support ticket
-- **Campaign** - Marketing campaign
+- **广告活动** - 营销 广告活动
 
-## When to Use
+## 适用场景
 
-- Enterprise CRM operations
+- Enterprise CRM 操作
 - Complex sales processes
 - Multi-object relationships
-- Custom object management
-- Marketing campaign tracking
+- Custom object 管理
+- 营销 广告活动 跟踪
 
-## Rate Limits
+## 速率限制
 
 - 15,000 API calls per 24 hours (Enterprise)
 - Higher limits available
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- analytics-tracking
+- 分析-跟踪
 - paid-ads

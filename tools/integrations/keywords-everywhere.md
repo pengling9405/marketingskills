@@ -1,26 +1,26 @@
-# Keywords Everywhere
+# 关键词 Everywhere
 
-Keyword research API for search volume, CPC, competition, related keywords, and traffic data.
+关键词 research API for 搜索 volume, CPC, competition, related 关键词, and traffic data.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for keyword data, related keywords, traffic |
+| API | ✓ | REST API for 关键词 data, related 关键词, traffic |
 | MCP | - | Community MCP server available |
 | CLI | ✓ | [keywords-everywhere.js](../clis/keywords-everywhere.js) |
 | SDK | - | API-only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key (Bearer token)
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key (Bearer token)
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: https://keywordseverywhere.com/first-install-addon.html
-- **Limit**: 100 keywords per request
+- **Limit**: 100 关键词 per request
 
-## Common Agent Operations
+## 常见代理操作
 
-### Get keyword data (volume, CPC, competition)
+### Get 关键词 data (volume, CPC, competition)
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_keyword_data
@@ -35,7 +35,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Get related keywords
+### Get related 关键词
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_related_keywords
@@ -50,7 +50,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Get "People Also Search For" keywords
+### Get "People Also 搜索 For" 关键词
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_pasf_keywords
@@ -65,7 +65,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Get domain keywords (what a domain ranks for)
+### Get domain 关键词 (what a domain ranks for)
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_domain_keywords
@@ -79,7 +79,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Get URL keywords (what a specific URL ranks for)
+### Get URL 关键词 (what a specific URL ranks for)
 
 ```bash
 POST https://api.keywordseverywhere.com/v1/get_url_keywords
@@ -167,39 +167,39 @@ GET https://api.keywordseverywhere.com/v1/get_currencies
 Authorization: Bearer {api_key}
 ```
 
-## Key Metrics
+## 核心指标
 
-### Keyword Data
-- `vol` - Monthly search volume
-- `cpc.value` - Cost per click
+### 关键词 Data
+- `vol` - Monthly 搜索 volume
+- `cpc.value` - 每次点击成本
 - `competition` - Competition score
 - `trend` - 12-month trend data
 
 ### Traffic Data
 - `estimated_traffic` - Estimated monthly traffic
-- `keywords_count` - Number of ranking keywords
+- `keywords_count` - Number of ranking 关键词
 
 ## Parameters
 
 - `country` - Country code (us, uk, de, fr, etc.)
 - `currency` - Currency code (USD, GBP, EUR, etc.)
-- `dataSource` - Data source, default `gkp` (Google Keyword Planner)
-- `kw` - Array of keywords (max 100 per request)
+- `dataSource` - Data 来源, default `gkp` (Google 关键词 Planner)
+- `kw` - Array of 关键词 (max 100 per request)
 
-## When to Use
+## 适用场景
 
-- Quick keyword research with volume and CPC
-- Finding related keywords and PASF suggestions
-- Analyzing domain/URL keyword rankings
+- Quick 关键词 research with volume and CPC
+- Finding related 关键词 and PASF suggestions
+- Analyzing domain/URL 关键词 rankings
 - Traffic estimation for domains and pages
 - Backlink discovery
 
-## Rate Limits
+## 速率限制
 
-- 100 keywords per request
-- Credit-based pricing (1 credit per keyword)
+- 100 关键词 per request
+- Credit-based pricing (1 credit per 关键词)
 
-## Relevant Skills
+## 相关技能
 
 - seo-audit
 - content-strategy

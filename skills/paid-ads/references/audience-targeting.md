@@ -1,40 +1,40 @@
-# Audience Targeting Reference
+# 受众 Targeting 参考
 
-Detailed targeting strategies for each major ad platform.
+Detailed targeting strategies for each major ad 平台.
 
 ## Contents
-- Google Ads Audiences (Search Campaign Targeting, Display/YouTube Targeting)
+- Google Ads Audiences (搜索 广告活动 Targeting, 展示/YouTube Targeting)
 - Meta Audiences (Core Audiences, Custom Audiences, Lookalike Audiences)
 - LinkedIn Audiences (Job-Based Targeting, Company-Based Targeting, High-Performing Combinations)
 - Twitter/X Audiences
 - TikTok Audiences
-- Audience Size Guidelines
+- 受众 Size Guidelines
 - Exclusion Strategy
 
 ## Google Ads Audiences
 
-### Search Campaign Targeting
+### 搜索 广告活动 Targeting
 
-**Keywords:**
-- Exact match: [keyword] — most precise, lower volume
-- Phrase match: "keyword" — moderate precision and volume
-- Broad match: keyword — highest volume, use with smart bidding
+**关键词:**
+- Exact match: [关键词] — most precise, lower volume
+- Phrase match: "关键词" — moderate precision and volume
+- Broad match: 关键词 — highest volume, use with smart bidding
 
-**Audience layering:**
+**受众 layering:**
 - Add audiences in "observation" mode first
-- Analyze performance by audience
+- Analyze 表现 by 受众
 - Switch to "targeting" mode for high performers
 
-**RLSA (Remarketing Lists for Search Ads):**
+**RLSA (Remarketing Lists for 搜索 Ads):**
 - Bid higher on past visitors searching your terms
 - Show different ads to returning searchers
-- Exclude converters from prospecting campaigns
+- Exclude converters from prospecting 广告活动
 
-### Display/YouTube Targeting
+### 展示/YouTube Targeting
 
 **Custom intent audiences:**
-- Based on recent search behavior
-- Create from your converting keywords
+- Based on recent 搜索 behavior
+- Create from your converting 关键词
 - High intent, good for prospecting
 
 **In-market audiences:**
@@ -47,15 +47,15 @@ Detailed targeting strategies for each major ad platform.
 - Better for awareness
 - Broad but can exclude irrelevant
 
-**Customer match:**
+**客户 match:**
 - Upload email lists
-- Retarget existing customers
-- Create lookalikes from best customers
+- Retarget existing 客户
+- Create lookalikes from best 客户
 
 **Similar/lookalike audiences:**
-- Based on your customer match lists
+- Based on your 客户 match lists
 - Expand reach while maintaining relevance
-- Best when source list is high-quality customers
+- Best when 来源 list is high-质量 客户
 
 ---
 
@@ -65,12 +65,12 @@ Detailed targeting strategies for each major ad platform.
 
 **Interest targeting tips:**
 - Layer interests with AND logic for precision
-- Use Audience Insights to research interests
+- Use 受众 Insights to research interests
 - Start broad, let algorithm optimize
-- Exclude existing customers always
+- Exclude existing 客户 always
 
 **Demographic targeting:**
-- Age and gender (if product-specific)
+- Age and gender (if 产品-specific)
 - Location (down to zip/postal code)
 - Language
 - Education and work (limited data now)
@@ -89,13 +89,13 @@ Detailed targeting strategies for each major ad platform.
 - Time on site thresholds
 - Frequency (visited X times)
 
-**Customer list:**
+**客户 list:**
 - Upload emails/phone numbers
 - Match rate typically 30-70%
 - Refresh regularly for accuracy
 
 **Engagement audiences:**
-- Video viewers (25%, 50%, 75%, 95%)
+- 视频 viewers (25%, 50%, 75%, 95%)
 - Page/profile engagers
 - Form openers
 - Instagram engagers
@@ -107,10 +107,10 @@ Detailed targeting strategies for each major ad platform.
 
 ### Lookalike Audiences
 
-**Source audience quality matters:**
-- Use high-LTV customers, not all customers
+**来源 受众 质量 matters:**
+- Use high-LTV 客户, not all 客户
 - Purchasers > leads > all visitors
-- Minimum 100 source users, ideally 1,000+
+- Minimum 100 来源 users, ideally 1,000+
 
 **Size recommendations:**
 - 1% — most similar, smallest reach
@@ -121,7 +121,7 @@ Detailed targeting strategies for each major ad platform.
 **Layering strategies:**
 - Lookalike + interest = more precision early
 - Test lookalike-only as you scale
-- Exclude the source audience
+- Exclude the 来源 受众
 
 ---
 
@@ -130,7 +130,7 @@ Detailed targeting strategies for each major ad platform.
 ### Job-Based Targeting
 
 **Job titles:**
-- Be specific (CMO vs. "Marketing")
+- Be specific (CMO vs. "营销")
 - LinkedIn normalizes titles, but verify
 - Stack related titles
 - Exclude irrelevant titles
@@ -138,7 +138,7 @@ Detailed targeting strategies for each major ad platform.
 **Job functions:**
 - Broader than titles
 - Combine with seniority level
-- Good for awareness campaigns
+- Good for awareness 广告活动
 
 **Seniority levels:**
 - Entry, Senior, Manager, Director, VP, CXO, Partner
@@ -160,12 +160,12 @@ Detailed targeting strategies for each major ad platform.
 - Can be broad, layer with other criteria
 
 **Company names (ABM):**
-- Upload target account list
+- Upload target 账户 list
 - Minimum 300 companies recommended
 - Match rate varies
 
 **Company growth rate:**
-- Hiring rapidly = budget available
+- Hiring rapidly = 预算 available
 - Good signal for timing
 
 ### High-Performing Combinations
@@ -174,8 +174,8 @@ Detailed targeting strategies for each major ad platform.
 |----------|----------------------|
 | Enterprise sales | Company size 1000+ + VP/CXO + Industry |
 | SMB sales | Company size 11-200 + Manager/Director + Function |
-| Developer tools | Skills + Job function + Company type |
-| ABM campaigns | Company list + Decision-maker titles |
+| Developer tools | Skills + Job function + Company 类型 |
+| ABM 广告活动 | Company list + Decision-maker titles |
 | Broad awareness | Industry + Seniority + Geography |
 
 ---
@@ -185,14 +185,14 @@ Detailed targeting strategies for each major ad platform.
 ### Targeting options:
 - Follower lookalikes (accounts similar to followers of X)
 - Interest categories
-- Keywords (in tweets)
+- 关键词 (in tweets)
 - Conversation topics
 - Events
 - Tailored audiences (your lists)
 
 ### Best practices:
 - Follower lookalikes of relevant accounts work well
-- Keyword targeting catches active conversations
+- 关键词 targeting catches active conversations
 - Lower CPMs than LinkedIn/Meta
 - Less precise, better for awareness
 
@@ -203,9 +203,9 @@ Detailed targeting strategies for each major ad platform.
 ### Targeting options:
 - Demographics (age, gender, location)
 - Interests (TikTok's categories)
-- Behaviors (video interactions)
-- Device (iOS/Android, connection type)
-- Custom audiences (pixel, customer file)
+- Behaviors (视频 interactions)
+- Device (iOS/Android, connection 类型)
+- Custom audiences (pixel, 客户 file)
 - Lookalike audiences
 
 ### Best practices:
@@ -216,12 +216,12 @@ Detailed targeting strategies for each major ad platform.
 
 ---
 
-## Audience Size Guidelines
+## 受众 Size Guidelines
 
-| Platform | Minimum Recommended | Ideal Range |
+| 平台 | Minimum Recommended | Ideal Range |
 |----------|-------------------|-------------|
-| Google Search | 1,000+ searches/mo | 5,000-50,000 |
-| Google Display | 100,000+ | 500K-5M |
+| Google 搜索 | 1,000+ searches/mo | 5,000-50,000 |
+| Google 展示 | 100,000+ | 500K-5M |
 | Meta | 100,000+ | 500K-10M |
 | LinkedIn | 50,000+ | 100K-500K |
 | Twitter/X | 50,000+ | 100K-1M |
@@ -235,7 +235,7 @@ Too broad = wasted spend, poor relevance
 ## Exclusion Strategy
 
 Always exclude:
-- Existing customers (unless upsell)
+- Existing 客户 (unless upsell)
 - Recent converters (7-14 days)
 - Bounced visitors (<10 sec)
 - Employees (by company or email list)

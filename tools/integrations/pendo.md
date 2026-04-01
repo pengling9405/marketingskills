@@ -1,25 +1,25 @@
 # Pendo
 
-Product analytics and in-app guidance platform for tracking user behavior, measuring feature adoption, and delivering targeted in-app messages.
+产品 分析 and in-app 指导 平台 for 跟踪 user behavior, measuring feature adoption, and delivering targeted in-app messages.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Features, Pages, Guides, Visitors, Accounts, Reports, Metadata |
-| MCP | - | Not available |
+| API | ✓ | 特性, Pages, Guides, Visitors, Accounts, Reports, Metadata |
+| MCP | - | 不可用 |
 | CLI | ✓ | [pendo.js](../clis/pendo.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: Integration Key
-- **Header**: `x-pendo-integration-key: {key}`
+- **类型**: Integration Key
+- **请求头**: `x-pendo-integration-key: {key}`
 - **Get key**: Settings > Integrations at https://app.pendo.io
 
-## Common Agent Operations
+## 常见代理操作
 
-### List Features
+### List 特性
 
 ```bash
 GET https://app.pendo.io/api/v1/feature
@@ -61,7 +61,7 @@ GET https://app.pendo.io/api/v1/guide/{guideId}
 GET https://app.pendo.io/api/v1/visitor/{visitorId}
 ```
 
-### Search Visitors
+### 搜索 Visitors
 
 ```bash
 POST https://app.pendo.io/api/v1/aggregation
@@ -77,13 +77,13 @@ POST https://app.pendo.io/api/v1/aggregation
 }
 ```
 
-### Get Account Data
+### Get 账户 Data
 
 ```bash
 GET https://app.pendo.io/api/v1/account/{accountId}
 ```
 
-### Search Accounts
+### 搜索 Accounts
 
 ```bash
 POST https://app.pendo.io/api/v1/aggregation
@@ -125,15 +125,15 @@ GET https://app.pendo.io/api/v1/metadata/schema/account
 GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Feature Data
 - `id` - Feature ID
 - `name` - Feature name
-- `kind` - Feature type
+- `kind` - Feature 类型
 - `elementPath` - CSS selector for the tracked element
 - `pageId` - Associated page ID
-- `numEvents` - Event count
+- `numEvents` - 事件 count
 - `numVisitors` - Unique visitor count
 
 ### Page Data
@@ -149,7 +149,7 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 - `state` - Guide state (draft, staged, public, disabled)
 - `launchMethod` - How the guide is triggered
 - `steps` - Guide step definitions
-- `numSteps` - Number of steps
+- `numSteps` - Number of 步骤
 - `numViews` - Total views
 - `numVisitors` - Unique visitors who saw the guide
 
@@ -157,14 +157,14 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 - `visitorId` - Unique visitor identifier
 - `lastVisitedAt` - Last visit timestamp
 - `firstVisit` - First visit timestamp
-- `numEvents` - Total event count
+- `numEvents` - Total 事件 count
 - `metadata` - Custom visitor metadata
 
-### Account Data
-- `accountId` - Unique account identifier
-- `lastVisitedAt` - Last visit from any account member
-- `numVisitors` - Number of visitors in the account
-- `metadata` - Custom account metadata
+### 账户 Data
+- `accountId` - Unique 账户 identifier
+- `lastVisitedAt` - Last visit from any 账户 member
+- `numVisitors` - Number of visitors in the 账户
+- `metadata` - Custom 账户 metadata
 
 ## Parameters
 
@@ -172,7 +172,7 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 - `state` - Filter by state: draft, staged, public, disabled
 
 ### Aggregation Queries
-- `source` - Data source: visitors, accounts, features, pages, guides
+- `source` - Data 来源: visitors, accounts, 特性, pages, guides
 - `filter` - Expression-based filtering
 - `sort` - Sort results
 - `limit` - Max results to return
@@ -180,29 +180,29 @@ GET https://app.pendo.io/api/v1/metadata/schema/parentAccount
 
 ### Metadata Kinds
 - `visitor` - Visitor metadata schema
-- `account` - Account metadata schema
-- `parentAccount` - Parent account metadata schema
+- `account` - 账户 metadata schema
+- `parentAccount` - Parent 账户 metadata schema
 
-## When to Use
+## 适用场景
 
-- Tracking feature adoption and usage patterns
+- 跟踪 feature adoption and usage patterns
 - Building and managing in-app onboarding guides
-- Analyzing user behavior across pages and features
+- Analyzing user behavior across pages and 特性
 - Segmenting users by engagement level
 - Running funnel analysis on user journeys
 - Identifying at-risk accounts based on usage decline
-- A/B testing in-app messages and tooltips
+- A/B 测试 in-app messages and tooltips
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Standard: 500 requests per minute
 - Aggregation queries: may take longer for large datasets
 - Use pagination for large result sets
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - onboarding-cro
 - churn-prevention
-- ab-test-setup
+- ab-test-配置方式

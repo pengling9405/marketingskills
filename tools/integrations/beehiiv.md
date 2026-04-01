@@ -1,24 +1,24 @@
 # Beehiiv
 
-Newsletter platform with subscriber management, post publishing, automations, and referral programs.
+Newsletter 平台 with subscriber management, post publishing, automations, and referral programs.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API v2 for publications, subscriptions, posts, segments |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [beehiiv.js](../clis/beehiiv.js) |
 | SDK | - | No official SDK; OpenAPI spec available for codegen |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: Bearer Token
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API under Workspace Settings at https://app.beehiiv.com
-- **Note**: API key is only shown once on creation; copy and store it immediately
+- **Note**: API key is only shown once on creation; 文案 and store it immediately
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List publications
 
@@ -110,15 +110,15 @@ GET https://api.beehiiv.com/v2/publications/{publicationId}/referral_program
 
 ## API Pattern
 
-All endpoints are scoped to a publication. The publication ID is a required path parameter for most operations. Responses use cursor-based pagination with a `cursor` parameter for fetching subsequent pages.
+All endpoints are scoped to a publication. The publication ID is a required path parameter for most 操作. Responses use cursor-based pagination with a `cursor` parameter for fetching subsequent pages.
 
-## Key Metrics
+## 核心指标
 
 ### Subscription Fields
 - `status` - validating, invalid, pending, active, inactive
 - `tier` - free or premium
 - `created` - Subscription creation timestamp
-- `utm_source`, `utm_medium`, `utm_campaign` - Acquisition tracking
+- `utm_source`, `utm_medium`, `utm_campaign` - Acquisition 跟踪
 - `referral_code` - Unique referral code for subscriber
 
 ### Post Fields
@@ -128,28 +128,28 @@ All endpoints are scoped to a publication. The publication ID is a required path
 
 ## Parameters
 
-### Common Query Parameters
+### 常见 Query Parameters
 - `limit` - Results per page (1-100, default 10)
 - `cursor` - Cursor for next page of results
 - `expand[]` - Include additional data: stats, custom_fields, referrals
 - `status` - Filter by subscription/post status
 - `tier` - Filter by subscription tier (free, premium)
 
-## When to Use
+## 适用场景
 
 - Managing newsletter subscribers programmatically
 - Syncing subscribers from external signup forms or landing pages
 - Building referral program integrations
-- Automating post creation and publishing workflows
-- Tracking subscriber growth and engagement metrics
+- Automating post creation and publishing 工作流
+- 跟踪 subscriber growth and engagement 指标
 
-## Rate Limits
+## 速率限制
 
-- API rate limits apply per API key
+- API 速率限制 apply per API key
 - Use cursor-based pagination for efficient data retrieval
-- Batch operations not available; iterate with individual requests
+- Batch 操作 不可用; iterate with individual requests
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - newsletter-growth

@@ -1,24 +1,24 @@
 # DataForSEO
 
-Comprehensive SEO data API for SERP results, keyword research, backlinks, and on-page analysis.
+Comprehensive SEO data API for SERP results, 关键词 research, backlinks, and on-page analysis.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | SERP, Keywords Data, Backlinks, On-Page, Labs |
-| MCP | - | Not available |
+| API | ✓ | SERP, 关键词 Data, Backlinks, On-Page, Labs |
+| MCP | - | 不可用 |
 | CLI | ✓ | [dataforseo.js](../clis/dataforseo.js) |
 | SDK | ✓ | Python, TypeScript, PHP, Java, C# |
 
-## Authentication
+## 认证方式
 
-- **Type**: Basic Auth
-- **Header**: `Authorization: Basic {base64(login:password)}`
-- **Get credentials**: API Access tab at https://app.dataforseo.com/api-access
-- **Note**: API password is auto-generated, different from account password
+- **类型**: Basic Auth
+- **请求头**: `Authorization: Basic {base64(login:password)}`
+- **Get credentials**: API Access tab at https://app.dataforseo.com/API-access
+- **Note**: API password is auto-generated, different from 账户 password
 
-## Common Agent Operations
+## 常见代理操作
 
 ### SERP - Google organic (live)
 
@@ -32,7 +32,7 @@ POST https://api.dataforseo.com/v3/serp/google/organic/live/regular
 }]
 ```
 
-### Keywords - Search volume (live)
+### 关键词 - 搜索 volume (live)
 
 ```bash
 POST https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live
@@ -44,7 +44,7 @@ POST https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live
 }]
 ```
 
-### Keywords - Keywords for site (live)
+### 关键词 - 关键词 for site (live)
 
 ```bash
 POST https://api.dataforseo.com/v3/keywords_data/google_ads/keywords_for_site/live
@@ -129,35 +129,35 @@ DataForSEO uses two methods for most endpoints:
 
 Request bodies are always JSON arrays (even for single requests).
 
-## Key Metrics
+## 核心指标
 
-### Keyword Metrics
-- `search_volume` - Monthly search volume
+### 关键词 指标
+- `search_volume` - Monthly 搜索 volume
 - `competition` - Competition level (0-1)
-- `cpc` - Cost per click
+- `cpc` - 每次点击成本
 - `monthly_searches` - Monthly breakdown array
 
-### Backlink Metrics
+### Backlink 指标
 - `total_backlinks` - Total backlink count
 - `referring_domains` - Unique referring domains
-- `domain_rank` - Domain authority score
+- `domain_rank` - Domain 权威 score
 - `backlinks_spam_score` - Spam score
 
-## When to Use
+## 适用场景
 
-- Programmatic SERP tracking at scale
-- Keyword research with search volume data
+- Programmatic SERP 跟踪 at scale
+- 关键词 research with 搜索 volume data
 - Backlink analysis and monitoring
 - On-page SEO audits
-- Competitor analysis
+- Competitor 分析
 
-## Rate Limits
+## 速率限制
 
-- Rate limit headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`
+- Rate limit 请求头: `X-RateLimit-Limit`, `X-RateLimit-Remaining`
 - Backlinks API: 2000 requests/minute, 30 simultaneous
 - Varies by endpoint and plan
 
-## Relevant Skills
+## 相关技能
 
 - seo-audit
 - programmatic-seo

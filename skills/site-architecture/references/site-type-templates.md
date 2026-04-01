@@ -1,10 +1,10 @@
-# Site Type Templates
+# Site 类型 Templates
 
-Full page hierarchy templates with ASCII trees, URL maps, and navigation recommendations for common site types.
+Full page hierarchy templates with ASCII trees, URL maps, and navigation recommendations for 常见 site types.
 
 ---
 
-## SaaS Marketing Site
+## SaaS 营销 Site
 
 ### Page Hierarchy
 
@@ -44,29 +44,29 @@ Homepage (/)
 
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
-| Homepage | `/` | Header (logo) | Critical |
-| Features | `/features` | Header | High |
-| Feature pages | `/features/{slug}` | Header dropdown | Medium |
-| Pricing | `/pricing` | Header | Critical |
-| Customers | `/customers` | Header | Medium |
-| Case studies | `/customers/{slug}` | Customers dropdown | Medium |
-| Blog | `/blog` | Header (Resources) | High |
+| 首页 | `/` | 请求头 (logo) | Critical |
+| 特性 | `/features` | 请求头 | High |
+| Feature pages | `/features/{slug}` | 请求头 dropdown | Medium |
+| Pricing | `/pricing` | 请求头 | Critical |
+| 客户 | `/customers` | 请求头 | Medium |
+| 案例研究 | `/customers/{slug}` | 客户 dropdown | Medium |
+| Blog | `/blog` | 请求头 (Resources) | High |
 | Blog posts | `/blog/{slug}` | — | Medium |
-| Integrations | `/integrations` | Header | Medium |
-| Docs | `/docs` | Header | Medium |
+| Integrations | `/integrations` | 请求头 | Medium |
+| Docs | `/docs` | 请求头 | Medium |
 | Compare | `/compare/{slug}` | Footer | High (SEO) |
 | About | `/about` | Footer | Low |
-| Pricing CTA | `/pricing` | Header (CTA button) | Critical |
+| Pricing CTA | `/pricing` | 请求头 (CTA button) | Critical |
 
 ### Navigation
 
-**Header (6 items + CTA)**: Features | Pricing | Customers | Resources | Integrations | Docs | [Get Started]
+**请求头 (6 items + CTA)**: 特性 | Pricing | 客户 | Resources | Integrations | Docs | [Get Started]
 
 **Footer columns**:
-- Product: Features, Pricing, Integrations, Changelog, Security
-- Resources: Blog, Templates, Guides, Case Studies
+- 产品: 特性, Pricing, Integrations, Changelog, Security
+- Resources: Blog, Templates, Guides, 案例研究
 - Company: About, Careers, Contact, Press
-- Legal: Privacy, Terms, Security
+- Legal: 隐私, Terms, Security
 
 ---
 
@@ -97,17 +97,17 @@ Homepage (/)
 
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
-| Homepage | `/` | Header (logo) | Critical |
-| Blog index | `/blog` | Header | High |
-| Categories | `/blog/category/{slug}` | Header dropdown | Medium |
+| 首页 | `/` | 请求头 (logo) | Critical |
+| Blog index | `/blog` | 请求头 | High |
+| Categories | `/blog/category/{slug}` | 请求头 dropdown | Medium |
 | Posts | `/blog/{slug}` | — | Medium |
-| Newsletter | `/newsletter` | Header (CTA) | High |
-| Guides | `/resources/guides` | Header | Medium |
-| About | `/about` | Header | Low |
+| Newsletter | `/newsletter` | 请求头 (CTA) | High |
+| Guides | `/resources/guides` | 请求头 | Medium |
+| About | `/about` | 请求头 | Low |
 
 ### Navigation
 
-**Header (4 items + CTA)**: Blog | Resources | About | Contact | [Subscribe]
+**请求头 (4 items + CTA)**: Blog | Resources | About | Contact | [Subscribe]
 
 **Sidebar** (on blog): Categories, Popular Posts, Newsletter signup
 
@@ -150,18 +150,18 @@ Homepage (/)
 
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
-| Homepage | `/` | Header (logo) | Critical |
-| Shop | `/shop` | Header | Critical |
-| Categories | `/shop/{category}` | Header mega menu | High |
+| 首页 | `/` | 请求头 (logo) | Critical |
+| Shop | `/shop` | 请求头 | Critical |
+| Categories | `/shop/{category}` | 请求头 mega menu | High |
 | Products | `/shop/{category}/{product}` | — | High |
-| Collections | `/collections/{slug}` | Header | Medium |
-| Sale | `/sale` | Header (highlighted) | High |
-| Cart | `/cart` | Header (icon) | Critical |
-| Account | `/account` | Header (icon) | Medium |
+| Collections | `/collections/{slug}` | 请求头 | Medium |
+| Sale | `/sale` | 请求头 (highlighted) | High |
+| Cart | `/cart` | 请求头 (icon) | Critical |
+| 账户 | `/account` | 请求头 (icon) | Medium |
 
 ### Navigation
 
-**Header (5 items + cart/account)**: Shop (mega menu) | Collections | Sale | Blog | Help | [Cart icon] [Account icon]
+**请求头 (5 items + cart/账户)**: Shop (mega menu) | Collections | Sale | Blog | Help | [Cart icon] [账户 icon]
 
 **Mega menu under Shop**: Category columns with featured products/images
 
@@ -195,17 +195,17 @@ Docs Home (/docs)
 
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
-| Docs home | `/docs` | Header | High |
+| Docs home | `/docs` | 请求头 | High |
 | Getting Started | `/docs/getting-started` | Sidebar (top) | Critical |
 | Guides | `/docs/guides` | Sidebar | High |
-| API Reference | `/docs/api` | Sidebar | High |
+| API 参考 | `/docs/api` | Sidebar | High |
 | Changelog | `/docs/changelog` | Sidebar (bottom) | Low |
 
 ### Navigation
 
-**Header**: Docs | API | Blog | Community | GitHub | [Dashboard]
+**请求头**: Docs | API | Blog | Community | GitHub | [Dashboard]
 
-**Sidebar** (persistent, left): Getting Started, Guides, API Reference, Examples, Changelog — with expandable subsections
+**Sidebar** (persistent, left): Getting Started, Guides, API 参考, 示例, Changelog — with expandable subsections
 
 **On-page**: Previous/Next navigation at bottom of each doc page
 
@@ -249,9 +249,9 @@ Homepage (/)
 
 ### Navigation
 
-**Header (7 items + CTA)**: Product | Solutions | Pricing | Resources | Blog | Docs | Integrations | [Start Free Trial]
+**请求头 (7 items + CTA)**: 产品 | Solutions | Pricing | Resources | Blog | Docs | Integrations | [Start Free Trial]
 
-Use mega menus for Product (features list), Solutions (use cases + industries), and Resources (blog, guides, templates, webinars, case studies).
+Use mega menus for 产品 (特性 list), Solutions (use cases + industries), and Resources (blog, guides, templates, webinars, 案例研究).
 
 ---
 
@@ -278,16 +278,16 @@ Homepage (/)
 
 | Page | URL | Nav Location | Priority |
 |------|-----|-------------|----------|
-| Homepage | `/` | Header (logo) | Critical |
-| Services | `/services` | Header | High |
-| Service pages | `/services/{slug}` | Header dropdown | High |
-| About | `/about` | Header | Medium |
-| Testimonials | `/testimonials` | Header | Medium |
-| Blog | `/blog` | Header | Medium |
-| Contact | `/contact` | Header (CTA) | High |
+| 首页 | `/` | 请求头 (logo) | Critical |
+| Services | `/services` | 请求头 | High |
+| Service pages | `/services/{slug}` | 请求头 dropdown | High |
+| About | `/about` | 请求头 | Medium |
+| 推荐语 | `/testimonials` | 请求头 | Medium |
+| Blog | `/blog` | 请求头 | Medium |
+| Contact | `/contact` | 请求头 (CTA) | High |
 
 ### Navigation
 
-**Header (5 items + CTA)**: Services | About | Testimonials | Blog | [Contact Us]
+**请求头 (5 items + CTA)**: Services | About | 推荐语 | Blog | [Contact Us]
 
-Keep it simple. Small business sites should be flat (1-2 levels max). Every page should be reachable from the header.
+Keep it simple. Small business sites should be flat (1-2 levels max). Every page should be reachable from the 请求头.

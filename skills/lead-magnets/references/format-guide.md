@@ -1,6 +1,6 @@
 # Lead Magnet Format Guide
 
-Detailed creation guidance for each lead magnet format.
+Detailed creation 指导 for each lead magnet format.
 
 ## Contents
 - Ebooks & Guides
@@ -16,15 +16,15 @@ Detailed creation guidance for each lead magnet format.
 
 ## Ebooks & Guides
 
-**Best for**: Building authority, deep education, awareness-stage leads
+**Best for**: Building 权威, deep education, awareness-stage leads
 
 **Structure**:
 1. Title page with professional design
 2. Table of contents
-3. Introduction — frame the problem, set expectations
+3. Introduction — frame the 问题, set expectations
 4. 3-7 chapters — one key concept per chapter
 5. Summary — recap key takeaways
-6. CTA — next step toward your product
+6. CTA — next step toward your 产品
 
 **Guidelines**:
 - Ideal length: 10-25 pages (shorter is fine if valuable)
@@ -39,7 +39,7 @@ Detailed creation guidance for each lead magnet format.
 
 ## Checklists
 
-**Best for**: Process-oriented tasks, quick wins, implementation help
+**Best for**: 流程-oriented tasks, quick wins, implementation help
 
 **Structure**:
 - Title: "[Number]-Point [Topic] Checklist"
@@ -50,29 +50,29 @@ Detailed creation guidance for each lead magnet format.
 **Guidelines**:
 - Keep to 1-2 pages
 - Use actionable language ("Verify X", "Set up Y", "Remove Z")
-- Order by workflow sequence or priority
+- Order by 工作流 sequence or priority
 - Make it printable — clean layout, generous spacing
 - Include a "done" checkbox for each item
 
-**What works**: Step-by-step processes, audit criteria, launch checklists, setup guides
+**What works**: Step-by-step processes, audit criteria, launch checklists, 配置方式 guides
 
 ---
 
 ## Cheat Sheets
 
-**Best for**: Reference material, shortcuts, quick-lookup information
+**Best for**: 参考 material, shortcuts, quick-lookup information
 
 **Structure**:
 - One page (two pages max)
-- Organized by category or workflow
+- Organized by category or 工作流
 - Dense but scannable
-- Visual hierarchy with headers and grouping
+- Visual hierarchy with 请求头 and grouping
 
 **Guidelines**:
-- Optimize for quick reference, not reading
+- Optimize for quick 参考, not reading
 - Use tables, grids, or columns
 - Include formulas, shortcuts, or code snippets
-- Design for printing or saving as desktop reference
+- Design for printing or saving as desktop 参考
 - Bold the most important items
 
 **What works**: Keyboard shortcuts, formula references, terminology glossaries, decision matrices
@@ -81,21 +81,21 @@ Detailed creation guidance for each lead magnet format.
 
 ## Templates & Spreadsheets
 
-**Best for**: Repeatable processes, planning, tracking
+**Best for**: Repeatable processes, planning, 跟踪
 
 ### Spreadsheet Templates (Google Sheets / Excel)
 - Include a "How to Use" tab with instructions
-- Pre-fill with example data
+- Pre-fill with 示例 data
 - Use data validation for dropdown fields
 - Add conditional formatting for visual cues
 - Lock formula cells, leave input cells editable
-- Include a "Make a Copy" link (Google Sheets)
+- Include a "Make a 文案" link (Google Sheets)
 
 ### Notion Templates
 - Provide a duplicate link
 - Include a getting-started guide
-- Pre-populate with example content
-- Use Notion's database features (views, filters, relations)
+- Pre-populate with 示例 content
+- Use Notion's database 特性 (views, filters, relations)
 - Keep it simple — don't over-engineer
 
 ### Document Templates
@@ -114,20 +114,20 @@ Detailed creation guidance for each lead magnet format.
 
 **Structure**:
 - Curated collection of 15-50 examples
-- Organized by category, type, or use case
-- Each example includes:
-  - The example itself (screenshot, text, link)
+- Organized by category, 类型, or use case
+- Each 示例 includes:
+  - The 示例 itself (screenshot, text, link)
   - Why it works (2-3 bullet annotations)
   - How to adapt it (1-2 sentences)
 
 **Guidelines**:
-- Quality over quantity — curate ruthlessly
+- 质量 over quantity — curate ruthlessly
 - Add your analysis, don't just collect
 - Organize for browsing (categories, tags)
 - Update periodically with fresh examples
 - Credit original sources
 
-**What works**: Email subject lines, landing pages, ad copy, CTAs, onboarding flows, pricing pages
+**What works**: Email subject lines, landing pages, ad 文案, CTAs, onboarding flows, pricing pages
 
 ---
 
@@ -136,13 +136,13 @@ Detailed creation guidance for each lead magnet format.
 ### Email-Based Mini-Courses
 - 3-5 emails delivered over 5-7 days
 - One lesson per email, one concept per lesson
-- Each email: teach → example → exercise
+- Each email: teach → 示例 → exercise
 - Progressive difficulty (build on previous lessons)
-- Final email: summary + CTA for product or next step
+- Final email: summary + CTA for 产品 or next step
 
-### Video-Based Mini-Courses
+### 视频-Based Mini-Courses
 - 3-5 videos, 5-15 minutes each
-- Host on unlisted YouTube, Loom, or course platform
+- Host on unlisted YouTube, Loom, or course 平台
 - Deliver links via email drip
 - Include worksheets or exercises per lesson
 - More personal — builds stronger connection
@@ -166,12 +166,12 @@ Detailed creation guidance for each lead magnet format.
 **Result Segmentation**:
 - 3-5 result categories
 - Each result: name, description, personalized recommendations
-- Tailor follow-up emails by result type
+- Tailor follow-up emails by result 类型
 - Share-worthy result format ("I got: Growth Stage Marketer!")
 
 **Implementation**: Gate results behind email capture. The quiz itself is ungated — the personalized results require an email.
 
-**For building interactive quizzes**: See **free-tool-strategy** skill for technical implementation guidance.
+**For building interactive quizzes**: See **free-tool-strategy** skill for technical implementation 指导.
 
 ---
 
@@ -179,7 +179,7 @@ Detailed creation guidance for each lead magnet format.
 
 ### Live Webinars
 - 30-45 minutes teaching + 15 minutes Q&A
-- Structure: Hook → Teach (3 key points) → Demo/example → CTA
+- Structure: Hook → Teach (3 key points) → Demo/示例 → CTA
 - Promote 1-2 weeks in advance
 - Send 3 reminder emails (confirmation, day before, 1 hour before)
 - Record for replay (extends value)

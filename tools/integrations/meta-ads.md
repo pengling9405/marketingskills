@@ -1,23 +1,23 @@
 # Meta Ads (Facebook/Instagram)
 
-Advertising platform for Facebook, Instagram, Messenger, and Audience Network.
+Advertising 平台 for Facebook, Instagram, Messenger, and 受众 Network.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Marketing API for campaigns, audiences, reporting |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | 营销 API for 广告活动, audiences, reporting |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | Official SDKs for Python, PHP, Node.js |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 Access Token
-- **Header**: Access token as query parameter
-- **Setup**: Create app in Meta Business Suite, generate System User token
+- **类型**: OAuth 2.0 Access Token
+- **请求头**: Access token as query parameter
+- **配置方式**: Create app in Meta Business Suite, generate System User token
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get ad accounts
 
@@ -25,13 +25,13 @@ Advertising platform for Facebook, Instagram, Messenger, and Audience Network.
 GET https://graph.facebook.com/v18.0/me/adaccounts?access_token={access_token}&fields=id,name,account_status
 ```
 
-### Get campaigns
+### Get 广告活动
 
 ```bash
 GET https://graph.facebook.com/v18.0/act_{ad_account_id}/campaigns?access_token={access_token}&fields=id,name,status,objective,daily_budget
 ```
 
-### Get campaign insights
+### Get 广告活动 insights
 
 ```bash
 GET https://graph.facebook.com/v18.0/{campaign_id}/insights?access_token={access_token}&fields=impressions,clicks,spend,actions,cost_per_action_type&date_preset=last_30d
@@ -49,7 +49,7 @@ GET https://graph.facebook.com/v18.0/act_{ad_account_id}/adsets?access_token={ac
 GET https://graph.facebook.com/v18.0/{ad_set_id}/ads?access_token={access_token}&fields=id,name,status,creative
 ```
 
-### Create campaign
+### Create 广告活动
 
 ```bash
 POST https://graph.facebook.com/v18.0/act_{ad_account_id}/campaigns
@@ -61,7 +61,7 @@ access_token={access_token}
 &special_ad_categories=[]
 ```
 
-### Update campaign status
+### Update 广告活动 status
 
 ```bash
 POST https://graph.facebook.com/v18.0/{campaign_id}
@@ -76,7 +76,7 @@ access_token={access_token}
 GET https://graph.facebook.com/v18.0/act_{ad_account_id}/customaudiences?access_token={access_token}&fields=id,name,approximate_count
 ```
 
-### Create lookalike audience
+### Create lookalike 受众
 
 ```bash
 POST https://graph.facebook.com/v18.0/act_{ad_account_id}/customaudiences
@@ -88,28 +88,28 @@ access_token={access_token}
 &lookalike_spec={"type":"similarity","country":"US"}
 ```
 
-## Key Metrics
+## 核心指标
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
-| `impressions` | Ad impressions |
-| `clicks` | All clicks |
+| `impressions` | Ad 曝光 |
+| `clicks` | All 点击 |
 | `spend` | Amount spent |
 | `reach` | Unique people reached |
-| `frequency` | Avg impressions per person |
-| `cpm` | Cost per 1000 impressions |
-| `cpc` | Cost per click |
-| `actions` | Conversions array |
+| `frequency` | Avg 曝光 per person |
+| `cpm` | Cost per 1000 曝光 |
+| `cpc` | 每次点击成本 |
+| `actions` | 转化 array |
 | `cost_per_action_type` | CPA by action |
 
-## Campaign Objectives
+## 广告活动 Objectives
 
 - `AWARENESS` - Brand awareness
 - `TRAFFIC` - Website traffic
 - `ENGAGEMENT` - Post engagement
 - `LEADS` - Lead generation
 - `APP_PROMOTION` - App installs
-- `SALES` - Conversions/catalog sales
+- `SALES` - 转化/catalog sales
 
 ## Targeting Options
 
@@ -127,21 +127,21 @@ access_token={access_token}
 }
 ```
 
-## When to Use
+## 适用场景
 
 - Creating/managing Facebook and Instagram ads
-- Audience targeting and lookalikes
-- Campaign performance analysis
-- Retargeting setup
+- 受众 targeting and lookalikes
+- 广告活动 表现 分析
+- Retargeting 配置方式
 
-## Rate Limits
+## 速率限制
 
-- 200 calls/hour per ad account
-- 60 calls/hour for marketing API
+- 200 calls/hour per ad 账户
+- 60 calls/hour for 营销 API
 - Use batch requests for efficiency
 
-## Relevant Skills
+## 相关技能
 
 - paid-ads
-- analytics-tracking
+- 分析-跟踪
 - page-cro

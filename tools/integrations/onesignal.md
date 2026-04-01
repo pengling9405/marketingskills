@@ -1,25 +1,25 @@
 # OneSignal
 
-Push notification, email, SMS, and in-app messaging platform for customer engagement at scale.
+Push notification, email, SMS, and in-app messaging 平台 for 客户 engagement at scale.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Notifications, Users, Segments, Templates, Apps |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [onesignal.js](../clis/onesignal.js) |
 | SDK | ✓ | JavaScript, Node.js, Python, Java, PHP, Ruby, Go, .NET |
 
-## Authentication
+## 认证方式
 
-- **Type**: REST API Key (Basic Auth)
-- **Header**: `Authorization: Basic {REST_API_KEY}`
+- **类型**: REST API Key (Basic Auth)
+- **请求头**: `Authorization: Basic {REST_API_KEY}`
 - **App ID**: Required as `app_id` in request bodies
 - **Get credentials**: Dashboard > Settings > Keys & IDs
 - **Security**: HTTPS required, TLS 1.2+ on port 443
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Send push notification to segment
 
@@ -162,9 +162,9 @@ Headers:
   Authorization: Basic {REST_API_KEY}
 ```
 
-## Key Metrics
+## 核心指标
 
-### Notification Metrics
+### Notification 指标
 - `successful` - Number of successful deliveries
 - `failed` - Number of failed deliveries
 - `converted` - Users who clicked/converted
@@ -172,7 +172,7 @@ Headers:
 - `errored` - Count of errors
 - `opened` - Notification open count
 
-### User Metrics
+### User 指标
 - `session_count` - Total user sessions
 - `last_active` - Last activity timestamp
 - `tags` - Custom key-value metadata
@@ -202,28 +202,28 @@ Headers:
 - `app_version` - App version
 - `country` - User country code
 
-## When to Use
+## 适用场景
 
-- Sending push notifications for product updates
+- Sending push notifications for 产品 updates
 - Triggered notifications based on user behavior
 - Multi-channel messaging (push + email + SMS)
-- Re-engagement campaigns for inactive users
+- Re-engagement 广告活动 for inactive users
 - Segmenting users for targeted messaging
-- A/B testing notification content
-- Scheduling promotional campaigns
+- A/B 测试 notification content
+- Scheduling promotional 广告活动
 
-## Rate Limits
+## 速率限制
 
 - **Free Plan**: 150 notification requests/second per app
 - **Paid Plan**: 6,000 notification requests/second per app
 - **User/Subscription ops**: 1,000 requests/second per app
 - **Burst limit**: No more than 10x total subscribers in 15 minutes
-- **429 response**: Includes `RetryAfter` header with seconds to wait
+- **429 response**: Includes `RetryAfter` 请求头 with seconds to wait
 
-## Relevant Skills
+## 相关技能
 
 - push-notifications
-- customer-engagement
-- retention-campaign
+- 客户-engagement
+- retention-广告活动
 - re-engagement
-- lifecycle-marketing
+- lifecycle-营销

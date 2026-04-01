@@ -1,25 +1,25 @@
 # Segment
 
-Customer data platform for collecting, routing, and activating user data.
+客户 data 平台 for collecting, routing, and activating 用户数据.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Tracking API, Profile API, Config API |
-| MCP | - | Not available |
-| CLI | - | Not available |
-| SDK | ✓ | analytics.js, iOS, Android, server libraries |
+| API | ✓ | 跟踪 API, Profile API, Config API |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
+| SDK | ✓ | 分析.js, iOS, Android, server libraries |
 
-## Authentication
+## 认证方式
 
-- **Tracking**: Write Key (per source)
-- **API**: Access Token (OAuth 2.0)
-- **Header**: `Authorization: Bearer {access_token}`
+- **跟踪**: Write Key (per 来源)
+- **API**： Access Token (OAuth 2.0)
+- **请求头**: `Authorization: Bearer {access_token}`
 
-## Common Agent Operations
+## 常见代理操作
 
-### Track event
+### 跟踪事件
 
 ```bash
 POST https://api.segment.io/v1/track
@@ -36,7 +36,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Identify user
+### 识别用户
 
 ```bash
 POST https://api.segment.io/v1/identify
@@ -53,7 +53,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Track page view
+### 跟踪页面浏览
 
 ```bash
 POST https://api.segment.io/v1/page
@@ -70,7 +70,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Batch events
+### 批量事件
 
 ```bash
 POST https://api.segment.io/v1/batch
@@ -85,7 +85,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Get user profile (Profile API)
+### 获取用户画像 (Profile API)
 
 ```bash
 GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles/user_id:{user_id}/traits
@@ -93,7 +93,7 @@ GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles
 Authorization: Basic {base64(access_token:)}
 ```
 
-### Get user events
+### 获取用户事件
 
 ```bash
 GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles/user_id:{user_id}/events
@@ -122,38 +122,38 @@ analytics.track('Feature Used', {
 analytics.page('Pricing');
 ```
 
-## Key Concepts
+## 关键概念
 
 - **Sources** - Where data comes from (website, app, server)
-- **Destinations** - Where data goes (analytics, CRM, ads)
-- **Tracking Plan** - Schema for events and properties
+- **Destinations** - Where data goes (分析, CRM, ads)
+- **跟踪 Plan** - Schema for events and properties
 - **Protocols** - Data governance and validation
 - **Personas** - Unified user profiles
 - **Audiences** - Computed user segments
 
-## Common Destinations
+## 常见目标平台
 
-- Analytics: GA4, Mixpanel, Amplitude
+- 分析: GA4, Mixpanel, Amplitude
 - CRM: HubSpot, Salesforce
-- Email: Customer.io, Mailchimp
+- Email: 客户.io, Mailchimp
 - Ads: Google Ads, Meta
 - Data Warehouse: BigQuery, Snowflake
 
-## When to Use
+## 适用场景
 
-- Centralizing event tracking
+- Centralizing 事件 跟踪
 - Routing data to multiple tools
-- Maintaining consistent tracking
+- Maintaining consistent 跟踪
 - Building unified user profiles
 - Syncing audiences across platforms
 
-## Rate Limits
+## 速率限制
 
-- 500 requests/second per source
-- Batch up to 500KB or 32KB per event
+- 500 requests/second per 来源
+- Batch up to 500KB or 32KB per 事件
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - email-sequence
 - paid-ads

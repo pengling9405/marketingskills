@@ -1,32 +1,32 @@
 # Lemlist
 
-Cold email outreach platform with personalization and campaign management.
+Cold email outreach 平台 with personalization and 广告活动 management.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for campaigns, leads, activities, webhooks |
-| MCP | - | Not available |
+| API | ✓ | REST API for 广告活动, leads, activities, webhooks |
+| MCP | - | 不可用 |
 | CLI | [✓](../clis/lemlist.js) | Zero-dependency Node.js CLI |
 | SDK | - | API-only |
 
-## Authentication
+## 认证方式
 
-- **Type**: Basic Auth (empty username, API key as password)
-- **Header**: `Authorization: Basic base64(:api_key)`
+- **类型**: Basic Auth (empty username, API key as password)
+- **请求头**: `Authorization: Basic base64(:api_key)`
 - **Env var**: `LEMLIST_API_KEY`
 - **Get key**: [Lemlist Settings > Integrations](https://app.lemlist.com/settings/integrations)
 
-## Common Agent Operations
+## 常见代理操作
 
-### List campaigns
+### 列出广告活动
 
 ```bash
 node tools/clis/lemlist.js campaigns list --offset 0 --limit 20
 ```
 
-### Get campaign details and stats
+### Get 广告活动 details and stats
 
 ```bash
 # Get campaign
@@ -39,7 +39,7 @@ node tools/clis/lemlist.js campaigns stats --id cam_abc123
 node tools/clis/lemlist.js campaigns export --id cam_abc123
 ```
 
-### Manage leads in a campaign
+### Manage leads in a 广告活动
 
 ```bash
 # List leads
@@ -97,14 +97,14 @@ node tools/clis/lemlist.js hooks delete --id hook_123
 node tools/clis/lemlist.js team info
 ```
 
-## Rate Limits
+## 速率限制
 
-- API rate limits vary by plan
+- API 速率限制 vary by plan
 - Recommended: stay under 10 requests/second
 
 ## Use Cases
 
-- **Link building outreach**: Add prospects to campaigns for backlink requests
-- **Campaign management**: Monitor open/reply rates across outreach campaigns
-- **Lead management**: Add, remove, and track leads across campaigns
+- **Link building outreach**: Add prospects to 广告活动 for backlink requests
+- **广告活动 management**: Monitor open/reply rates across outreach 广告活动
+- **Lead management**: Add, remove, and track leads across 广告活动
 - **Webhook integration**: Get real-time notifications for email events

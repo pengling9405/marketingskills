@@ -1,6 +1,6 @@
 # Lead Scoring Models
 
-Detailed scoring templates, example models by business type, and calibration guidance.
+Detailed scoring templates, 示例 models by business 类型, and calibration 指导.
 
 ## Explicit Scoring Template (Fit)
 
@@ -59,7 +59,7 @@ Detailed scoring templates, example models by business type, and calibration gui
 | Signal | Points | Decay |
 |--------|--------|-------|
 | **Demo request** | +30 | None |
-| **Pricing page visit** | +20 | -5 per week |
+| **定价页 visit** | +20 | -5 per week |
 | **Free trial signup** | +25 | None |
 | **Contact sales form** | +30 | None |
 | **Case study page (2+)** | +15 | -5 per 2 weeks |
@@ -85,13 +85,13 @@ Detailed scoring templates, example models by business type, and calibration gui
 | **Single blog visit** | +2 | -2 per month |
 | **Newsletter open** | +2 | -1 per month |
 | **Single email open** | +1 | -1 per month |
-| **Visited homepage only** | +1 | -1 per week |
+| **Visited 首页 only** | +1 | -1 per week |
 
-### Product Usage Signals (PLG)
+### 产品 Usage Signals (PLG)
 
 | Signal | Points | Decay |
 |--------|--------|-------|
-| **Created account** | +15 | None |
+| **Created 账户** | +15 | None |
 | **Completed onboarding** | +20 | None |
 | **Used core feature (3+ times)** | +25 | -5 per month inactive |
 | **Invited team member** | +25 | None |
@@ -104,7 +104,7 @@ Detailed scoring templates, example models by business type, and calibration gui
 
 ## Negative Scoring Signals
 
-| Signal | Points | Notes |
+| Signal | Points | 说明 |
 |--------|--------|-------|
 | **Competitor email domain** | -50 | Auto-flag for review |
 | **Student email (.edu)** | -30 | May still be valid in some cases |
@@ -112,19 +112,19 @@ Detailed scoring templates, example models by business type, and calibration gui
 | **Unsubscribe from emails** | -20 | Reduce engagement score |
 | **Bounce (hard)** | -50 | Remove from scoring |
 | **Spam complaint** | -100 | Remove from all sequences |
-| **Job title: Student/Intern** | -25 | Low buying authority |
+| **Job title: Student/Intern** | -25 | Low buying 权威 |
 | **Job title: Consultant** | -10 | May be evaluating for client |
 | **No website visit in 90 days** | -15 | Score decay |
-| **Invalid phone number** | -10 | Data quality signal |
+| **Invalid phone number** | -10 | Data 质量 signal |
 | **Careers page visitor only** | -30 | Likely a job seeker |
 
 ---
 
-## Example Scoring Models
+## 示例 Scoring Models
 
 ### Model 1: PLG SaaS (ACV $500-$5K)
 
-**Weight: 30% fit / 70% engagement (heavily favor product usage)**
+**Weight: 30% fit / 70% engagement (heavily favor 产品 usage)**
 
 **Fit criteria:**
 - Company size 10-500: +15
@@ -133,12 +133,12 @@ Detailed scoring templates, example models by business type, and calibration gui
 - Uses complementary tool: +10
 
 **Engagement criteria:**
-- Created free account: +15
+- Created free 账户: +15
 - Completed onboarding: +20
 - Used core feature 3+ times: +25
 - Invited team member: +25
 - Hit usage limit: +20
-- Pricing page visit: +15
+- 定价页 visit: +15
 
 **Negative:**
 - Personal email: -10
@@ -167,7 +167,7 @@ Detailed scoring templates, example models by business type, and calibration gui
 - Multiple stakeholders engaged: +20
 - Attended executive webinar: +15
 - Downloaded ROI guide: +10
-- Visited pricing page 2+: +15
+- Visited 定价页 2+: +15
 
 **Negative:**
 - Company too small (<100): -30
@@ -192,10 +192,10 @@ Detailed scoring templates, example models by business type, and calibration gui
 
 **Engagement criteria:**
 - Demo request or trial signup: +25
-- Pricing page visit: +15
+- 定价页 visit: +15
 - Case study download: +10
 - Webinar attendance: +10
-- Email engagement (3+ clicks): +10
+- Email engagement (3+ 点击): +10
 - Blog visits (5+ pages): +10
 
 **Negative:**
@@ -221,13 +221,13 @@ Detailed scoring templates, example models by business type, and calibration gui
 
 ### Calibration Cadence
 
-| Business Type | Recalibration Frequency | Why |
+| Business 类型 | Recalibration Frequency | Why |
 |---------------|------------------------|-----|
 | PLG / High volume | Monthly | Fast feedback loop, lots of data |
 | Mid-market | Quarterly | Moderate cycle length |
 | Enterprise | Quarterly to semi-annually | Long cycles, small sample size |
 
-### Calibration Steps
+### Calibration 步骤
 
 1. **Pull MQL-to-closed data** for the calibration period
 2. **Compare scored MQLs vs. actual outcomes:**
@@ -244,4 +244,4 @@ Detailed scoring templates, example models by business type, and calibration gui
 - Sales consistently rejects MQLs as "not ready"
 - High-scoring leads don't convert; low-scoring leads do
 - MQL volume spikes without corresponding revenue
-- New product/market changes since last calibration
+- New 产品/market changes since last calibration

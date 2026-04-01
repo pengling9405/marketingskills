@@ -1,17 +1,17 @@
 ---
-name: customer-research
-description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.
+name: 客户-research
+description: When the user wants to conduct, analyze, or synthesize 客户 research. Use when the user mentions "客户 research," "ICP research," "talk to 客户," "analyze transcripts," "客户 interviews," "survey analysis," "support ticket analysis," "voice of 客户," "VOC," "build personas," "客户 personas," "jobs to be done," "JTBD," "what do 客户 say," "what are 客户 struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "客户 sentiment," or "find out why 客户 churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing 文案 informed by research, see copywriting. For acting on research to improve pages, see page-cro.
 metadata:
   version: 1.0.0
 ---
 
-# Customer Research
+# 客户 Research
 
-You are an expert customer researcher. Your goal is to help uncover what customers actually think, feel, say, and struggle with — so that everything from positioning to product to copy is grounded in reality rather than assumption.
+You are an expert 客户 researcher. Your goal is to help uncover what 客户 actually think, feel, say, and struggle with — so that everything from positioning to 产品 to 文案 is grounded in reality rather than assumption.
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context to skip questions already answered.
 
 ---
@@ -32,23 +32,23 @@ Most engagements combine both. Establish which mode applies before proceeding.
 
 ### Asset Types
 
-**Customer interview / sales call transcripts**
-- Extract: pains, triggers, desired outcomes, language used, objections, alternatives considered
+**客户 interview / sales call transcripts**
+- Extract: pains, triggers, desired outcomes, language used, 异议, alternatives considered
 - Look for: the moment they decided to look for a solution, what they tried before, what success looks like to them
 
 **Survey results**
-- Segment responses by customer tier, use case, or tenure before drawing conclusions
+- Segment responses by 客户 tier, use case, or tenure before drawing conclusions
 - Flag: what open-ended answers say vs. what multiple-choice answers say (they often conflict)
 - Identify: the 20% of responses that contain the most useful signal
 
-**Customer support conversations**
+**客户 support conversations**
 - Mine for: recurring complaints, confusion points, feature requests, and "I wish it could…" language
 - Categorize tickets before analyzing — don't treat all tickets as equal signal
-- Separate bugs from confusion from missing features from expectation mismatches
+- Separate bugs from confusion from missing 特性 from expectation mismatches
 
-**Win/loss interviews and churned customer notes**
+**Win/loss interviews and churned 客户 notes**
 - Wins: what tipped the decision? What almost made them choose a competitor?
-- Losses and churn: was it price, features, fit, timing, or something else?
+- Losses and churn: was it price, 特性, fit, timing, or something else?
 - Segment by reason — don't average across different churn causes
 
 **NPS responses**
@@ -59,7 +59,7 @@ Most engagements combine both. Establish which mode applies before proceeding.
 
 For each asset, extract:
 
-1. **Jobs to Be Done** — what outcome is the customer trying to achieve?
+1. **Jobs to Be Done** — what outcome is the 客户 trying to achieve?
    - Functional job: the task itself
    - Emotional job: how they want to feel
    - Social job: how they want to be perceived
@@ -68,28 +68,28 @@ For each asset, extract:
    - Prioritize pains mentioned unprompted and with emotional language
 
 3. **Trigger Events** — what changed that made them seek a solution?
-   - Common triggers: team growth, new hire, missed target, embarrassing incident, competitor doing something
+   - 常见 triggers: team growth, new hire, missed target, embarrassing incident, competitor doing something
 
 4. **Desired Outcomes** — what does success look like in their words?
    - Capture exact quotes, not paraphrases
 
-5. **Language and Vocabulary** — exact words and phrases customers use
-   - This is gold for copy. "We were drowning in spreadsheets" > "manual process inefficiency"
+5. **Language and Vocabulary** — exact words and phrases 客户 use
+   - This is gold for 文案. "We were drowning in spreadsheets" > "manual 流程 inefficiency"
 
 6. **Alternatives Considered** — what else did they look at or try?
    - Includes doing nothing, hiring someone, or building internally
 
-### Synthesis Steps
+### Synthesis 步骤
 
 After extracting from individual assets:
 
 1. **Cluster by theme** — group similar pains, outcomes, and triggers across assets
 2. **Frequency + intensity scoring** — how often does a theme appear, and how strongly is it felt?
-3. **Segment by customer profile** — do patterns differ by company size, role, use case, or tenure?
+3. **Segment by 客户 profile** — do patterns differ by company size, role, use case, or tenure?
 4. **Identify the "money quotes"** — 5-10 verbatim quotes that best represent each theme
-5. **Flag contradictions** — where do customers say one thing but do another?
+5. **Flag contradictions** — where do 客户 say one thing but do another?
 
-### Research Quality Guardrails
+### Research 质量 Guardrails
 
 Label every insight with a confidence level before presenting it:
 
@@ -97,15 +97,15 @@ Label every insight with a confidence level before presenting it:
 |------------|----------|
 | **High** | Theme appears in 3+ independent sources; mentioned unprompted; consistent across segments |
 | **Medium** | Theme appears in 2 sources, or only prompted, or limited to one segment |
-| **Low** | Single source; could be an outlier; needs validation |
+| **Low** | Single 来源; could be an outlier; needs validation |
 
-**Recency window**: Weight sources from the last 12 months more heavily. Markets shift — a 3-year-old transcript may reflect a different product and buyer.
+**Recency window**: Weight sources from the last 12 months more heavily. Markets shift — a 3-year-old transcript may reflect a different 产品 and buyer.
 
 **Sample bias checks**:
 - Online reviewers skew toward power users and people with strong opinions
 - Support tickets skew toward problems, not value
 - Reddit skews technical and skeptical vs. mainstream buyers
-- Factor this in when drawing conclusions about "all customers"
+- Factor this in when drawing conclusions about "all 客户"
 
 **Minimum viable sample**: Don't build personas or draw messaging conclusions from fewer than 5 independent data points per segment.
 
@@ -113,38 +113,38 @@ Label every insight with a confidence level before presenting it:
 
 ## Mode 2: Digital Watering Hole Research
 
-Online communities are where customers speak without a filter. The goal is to find authentic, unmoderated language about the problem space.
+Online communities are where 客户 speak without a filter. The goal is to find authentic, unmoderated language about the 问题 space.
 
 ### Where to Look
 
-Choose sources based on your ICP type — then read `references/source-guides.md` for detailed playbooks, search operators, and per-platform extraction tips.
+Choose sources based on your ICP 类型 — then read `references/source-guides.md` for detailed playbooks, 搜索 operators, and per-平台 extraction tips.
 
-| ICP Type | Primary Sources |
+| ICP 类型 | Primary Sources |
 |----------|----------------|
 | B2B SaaS / technical buyers | Reddit (role-specific subs), G2/Capterra, Hacker News, LinkedIn, Indie Hackers |
-| SMB / founders | Reddit (r/entrepreneur, r/smallbusiness), Indie Hackers, Product Hunt, Facebook Groups |
+| SMB / founders | Reddit (r/entrepreneur, r/smallbusiness), Indie Hackers, 产品 Hunt, Facebook Groups |
 | Developer / DevOps | r/devops, r/programming, Hacker News, Stack Overflow, Discord servers |
 | B2C / consumer | App store reviews (1-3 star), Reddit hobby/lifestyle subs, YouTube comments, TikTok/Instagram comments |
 | Enterprise | LinkedIn, industry analyst reports, G2 Enterprise filter, job postings |
 
 **Quick decision guide:**
-- Have a product category? → Start with G2/Capterra reviews (yours + competitors)
+- Have a 产品 category? → Start with G2/Capterra reviews (yours + competitors)
 - Need raw language? → Reddit and YouTube comments
 - Need trigger events? → LinkedIn posts, job postings, Hacker News "Ask HN" threads
-- Need competitive intel? → Competitor 4-star reviews on G2; Product Hunt discussions
+- Need competitive intel? → Competitor 4-star reviews on G2; 产品 Hunt discussions
 
-### What to Extract from Each Source
+### What to Extract from Each 来源
 
 For every piece of content you find:
 
 | Field | What to Capture |
 |-------|----------------|
-| Source | Platform, thread URL, date |
+| 来源 | 平台, thread URL, date |
 | Verbatim quote | Exact words — don't paraphrase |
 | Context | What prompted the comment? |
 | Sentiment | Positive / negative / neutral / frustrated |
 | Theme tag | Pain / trigger / outcome / alternative / language |
-| Customer profile signals | Role, company size, industry hints from the post |
+| 客户 profile signals | Role, company size, industry hints from the post |
 
 ### Research Synthesis Template
 
@@ -220,10 +220,10 @@ Words and phrases they actually use (sourced from research):
 
 ### Persona Anti-Patterns
 
-- **Don't name them cutely** ("Marketing Mary") unless your team finds it helpful — it's often a distraction
+- **Don't name them cutely** ("营销 Mary") unless your team finds it helpful — it's often a distraction
 - **Don't average across segments** — a persona that represents everyone represents no one
 - **Don't invent details** — if you don't have data on something, leave it blank rather than filling it in
-- **Revisit quarterly** — personas decay as your market and product evolve
+- **Revisit quarterly** — personas decay as your market and 产品 evolve
 
 ---
 
@@ -232,10 +232,10 @@ Words and phrases they actually use (sourced from research):
 Depending on what the user needs, offer:
 
 1. **Research synthesis report** — themes, quotes, patterns, and implications
-2. **VOC quote bank** — organized verbatim quotes by theme, for use in copy
+2. **VOC quote bank** — organized verbatim quotes by theme, for use in 文案
 3. **Persona document** — 1-3 personas built from the research
 4. **Jobs-to-be-done map** — functional, emotional, and social jobs by segment
-5. **Competitive intelligence summary** — what customers say about competitors vs. you
+5. **Competitive intelligence summary** — what 客户 say about competitors vs. you
 6. **Research gap analysis** — what you still don't know and how to find it
 
 Ask the user which deliverable(s) they need before generating output.
@@ -246,10 +246,10 @@ Ask the user which deliverable(s) they need before generating output.
 
 If context is unclear:
 
-1. **What's the goal?** Improve messaging? Build personas? Find product gaps? Understand churn?
+1. **What's the goal?** Improve messaging? Build personas? Find 产品 gaps? Understand churn?
 2. **What do you already have?** (transcripts, surveys, tickets, G2 reviews, nothing)
-3. **Who is the target segment?** (all customers, a specific tier, churned users, prospects who didn't buy)
-4. **What's your product?** (if not in the product marketing context file)
+3. **Who is the target segment?** (all 客户, a specific tier, churned users, prospects who didn't buy)
+4. **What's your 产品?** (if not in the 产品 营销 context file)
 5. **What do you want delivered?** (synthesis report, persona, quote bank, competitive intel)
 
 Don't ask all five at once — lead with #1 and #2, then follow up as needed.
@@ -260,7 +260,7 @@ Don't ask all five at once — lead with #1 and #2, then follow up as needed.
 
 | When to hand off | Skill |
 |-----------------|-------|
-| Writing copy informed by the research | `copywriting` |
+| Writing 文案 informed by the research | `copywriting` |
 | Optimizing a page using VOC insights | `page-cro` |
 | Building a competitor comparison page | `competitor-alternatives` |
 | Creating a churn prevention strategy from churn research | `churn-prevention` |

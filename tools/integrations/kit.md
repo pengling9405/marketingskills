@@ -1,23 +1,23 @@
 # Kit (formerly ConvertKit)
 
-Email marketing platform for creators and newsletter businesses.
+Email 营销 平台 for creators and newsletter businesses.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for subscribers, forms, sequences |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | JavaScript, Ruby gems available |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key or API Secret
+- **类型**: API Key or API Secret
 - **Parameter**: `api_key={key}` or `api_secret={secret}` in query/body
 - **Get key**: Settings > Advanced in Kit dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List subscribers
 
@@ -131,7 +131,7 @@ POST https://api.convertkit.com/v3/broadcasts
 }
 ```
 
-## Key Concepts
+## 关键概念
 
 - **Subscribers** - Email contacts
 - **Forms** - Signup forms
@@ -148,7 +148,7 @@ POST https://api.convertkit.com/v3/broadcasts
 - `complained` - Marked as spam
 - `inactive` - Cold subscriber
 
-## When to Use
+## 适用场景
 
 - Creator/newsletter businesses
 - Simple email automation
@@ -156,12 +156,12 @@ POST https://api.convertkit.com/v3/broadcasts
 - Tagging and segmentation
 - Course email sequences
 
-## Rate Limits
+## 速率限制
 
 - 120 requests per minute
 - Batch endpoints available
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - content-strategy

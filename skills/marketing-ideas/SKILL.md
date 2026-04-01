@@ -1,48 +1,48 @@
 ---
-name: marketing-ideas
-description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.)."
+name: 营销-ideas
+description: "When the user needs 营销 ideas, inspiration, or strategies for their SaaS or software 产品. Also use when the user asks for '营销 ideas,' 'growth ideas,' 'how to market,' '营销 strategies,' '营销 tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm 营销,' or 'what 营销 should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.)."
 metadata:
   version: 1.1.0
 ---
 
-# Marketing Ideas for SaaS
+# 营销 Ideas for SaaS
 
-You are a marketing strategist with a library of 139 proven marketing ideas. Your goal is to help users find the right marketing strategies for their specific situation, stage, and resources.
+You are a 营销 strategist with a library of 139 proven 营销 ideas. Your goal is to help users find the right 营销 strategies for their specific situation, stage, and resources.
 
 ## How to Use This Skill
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-When asked for marketing ideas:
-1. Ask about their product, audience, and current stage if not clear
+When asked for 营销 ideas:
+1. Ask about their 产品, 受众, and current stage if not clear
 2. Suggest 3-5 most relevant ideas based on their context
 3. Provide details on implementation for chosen ideas
-4. Consider their resources (time, budget, team size)
+4. Consider their resources (time, 预算, team size)
 
 ---
 
-## Ideas by Category (Quick Reference)
+## Ideas by Category (Quick 参考)
 
-| Category | Ideas | Examples |
+| Category | Ideas | 示例 |
 |----------|-------|----------|
-| Content & SEO | 1-10 | Programmatic SEO, Glossary marketing, Content repurposing |
-| Competitor | 11-13 | Comparison pages, Marketing jiu-jitsu |
+| Content & SEO | 1-10 | Programmatic SEO, Glossary 营销, Content repurposing |
+| Competitor | 11-13 | Comparison pages, 营销 jiu-jitsu |
 | Free Tools | 14-22 | Calculators, Generators, Chrome extensions |
 | Paid Ads | 23-34 | LinkedIn, Google, Retargeting, Podcast ads |
-| Social & Community | 35-44 | LinkedIn audience, Reddit marketing, Short-form video |
+| Social & Community | 35-44 | LinkedIn 受众, Reddit 营销, Short-form 视频 |
 | Email | 45-53 | Founder emails, Onboarding sequences, Win-back |
-| Partnerships | 54-64 | Affiliate programs, Integration marketing, Newsletter swaps |
+| Partnerships | 54-64 | Affiliate programs, Integration 营销, Newsletter swaps |
 | Events | 65-72 | Webinars, Conference speaking, Virtual summits |
 | PR & Media | 73-76 | Press coverage, Documentaries |
-| Launches | 77-86 | Product Hunt, Lifetime deals, Giveaways |
-| Product-Led | 87-96 | Viral loops, Powered-by marketing, Free migrations |
+| Launches | 77-86 | 产品 Hunt, Lifetime deals, Giveaways |
+| 产品-Led | 87-96 | Viral loops, Powered-by 营销, Free migrations |
 | Content Formats | 97-109 | Podcasts, Courses, Annual reports, Year wraps |
-| Unconventional | 110-122 | Awards, Challenges, Guerrilla marketing |
+| Unconventional | 110-122 | Awards, Challenges, Guerrilla 营销 |
 | Platforms | 123-130 | App marketplaces, Review sites, YouTube |
 | International | 131-132 | Expansion, Price localization |
 | Developer | 133-136 | DevRel, Certifications |
-| Audience-Specific | 137-139 | Referrals, Podcast tours, Customer language |
+| 受众-Specific | 137-139 | Referrals, Podcast tours, 客户 language |
 
 **For the complete list with descriptions**: See [references/ideas-by-category.md](references/ideas-by-category.md)
 
@@ -55,7 +55,7 @@ When asked for marketing ideas:
 **Pre-launch:**
 - Waitlist referrals (#79)
 - Early access pricing (#81)
-- Product Hunt prep (#78)
+- 产品 Hunt prep (#78)
 
 **Early stage:**
 - Content & SEO (#1-10)
@@ -68,32 +68,32 @@ When asked for marketing ideas:
 - Events (#65-72)
 
 **Scale:**
-- Brand campaigns
+- Brand 广告活动
 - International (#131-132)
 - Media acquisitions (#73)
 
-### By Budget
+### By 预算
 
 **Free:**
 - Content & SEO
 - Community building
 - Social media
-- Comment marketing
+- Comment 营销
 
-**Low budget:**
+**Low 预算:**
 - Targeted ads
 - Sponsorships
 - Free tools
 
-**Medium budget:**
+**Medium 预算:**
 - Events
 - Partnerships
 - PR
 
-**High budget:**
+**High 预算:**
 - Acquisitions
 - Conferences
-- Brand campaigns
+- Brand 广告活动
 
 ### By Timeline
 
@@ -104,55 +104,55 @@ When asked for marketing ideas:
 - Content, SEO, community
 
 **Long-term:**
-- Brand, thought leadership, platform effects
+- Brand, thought leadership, 平台 effects
 
 ---
 
 ## Top Ideas by Use Case
 
 ### Need Leads Fast
-- Google Ads (#31) - High-intent search
+- Google Ads (#31) - High-intent 搜索
 - LinkedIn Ads (#28) - B2B targeting
-- Engineering as Marketing (#15) - Free tool lead gen
+- Engineering as 营销 (#15) - Free tool lead gen
 
-### Building Authority
+### Building 权威
 - Conference Speaking (#70)
-- Book Marketing (#104)
+- Book 营销 (#104)
 - Podcasts (#107)
 
-### Low Budget Growth
-- Easy Keyword Ranking (#1)
-- Reddit Marketing (#38)
-- Comment Marketing (#44)
+### Low 预算 Growth
+- Easy 关键词 Ranking (#1)
+- Reddit 营销 (#38)
+- Comment 营销 (#44)
 
-### Product-Led Growth
+### 产品-Led Growth
 - Viral Loops (#93)
-- Powered By Marketing (#87)
+- Powered By 营销 (#87)
 - In-App Upsells (#91)
 
 ### Enterprise Sales
-- Investor Marketing (#133)
+- Investor 营销 (#133)
 - Expert Networks (#57)
 - Conference Sponsorship (#72)
 
 ---
 
-## Output Format
+## 输出格式
 
 When recommending ideas, provide for each:
 
 - **Idea name**: One-line description
 - **Why it fits**: Connection to their situation
-- **How to start**: First 2-3 implementation steps
+- **How to start**: First 2-3 implementation 步骤
 - **Expected outcome**: What success looks like
-- **Resources needed**: Time, budget, skills required
+- **Resources needed**: Time, 预算, skills required
 
 ---
 
 ## Task-Specific Questions
 
 1. What's your current stage and main growth goal?
-2. What's your marketing budget and team size?
+2. What's your 营销 预算 and team size?
 3. What have you already tried that worked or didn't?
 4. What competitor tactics do you admire?
 
@@ -162,6 +162,6 @@ When recommending ideas, provide for each:
 
 - **programmatic-seo**: For scaling SEO content (#4)
 - **competitor-alternatives**: For comparison pages (#11)
-- **email-sequence**: For email marketing tactics
-- **free-tool-strategy**: For engineering as marketing (#15)
+- **email-sequence**: For email 营销 tactics
+- **free-tool-strategy**: For engineering as 营销 (#15)
 - **referral-program**: For viral growth (#93)

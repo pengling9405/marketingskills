@@ -1,12 +1,12 @@
-# Google Tag Manager Implementation Reference
+# Google Tag Manager Implementation 参考
 
-Detailed guide for implementing tracking via Google Tag Manager.
+Detailed guide for implementing 跟踪 via Google Tag Manager.
 
 ## Contents
 - Container Structure (tags, triggers, variables)
 - Naming Conventions
 - Data Layer Patterns
-- Common Tag Configurations (GA4 configuration tag, GA4 event tag, Facebook pixel)
+- 常见 Tag Configurations (GA4 configuration tag, GA4 事件 tag, Facebook pixel)
 - Preview and Debug
 - Workspaces and Versioning
 - Consent Management
@@ -18,9 +18,9 @@ Detailed guide for implementing tracking via Google Tag Manager.
 
 Tags are code snippets that execute when triggered.
 
-**Common tag types:**
-- GA4 Configuration (base setup)
-- GA4 Event (custom events)
+**常见 tag types:**
+- GA4 Configuration (base 配置方式)
+- GA4 事件 (custom events)
 - Google Ads Conversion
 - Facebook Pixel
 - LinkedIn Insight Tag
@@ -31,7 +31,7 @@ Tags are code snippets that execute when triggered.
 Triggers define when tags fire.
 
 **Built-in triggers:**
-- Page View: All Pages, DOM Ready, Window Loaded
+- 页面浏览: All Pages, DOM Ready, Window Loaded
 - Click: All Elements, Just Links
 - Form Submission
 - Scroll Depth
@@ -39,7 +39,7 @@ Triggers define when tags fire.
 - Element Visibility
 
 **Custom triggers:**
-- Custom Event (from dataLayer)
+- Custom 事件 (from dataLayer)
 - Trigger Groups (multiple conditions)
 
 ### Variables
@@ -63,7 +63,7 @@ Variables capture dynamic values.
 
 ## Naming Conventions
 
-### Recommended Format
+### 推荐格式
 
 ```
 [Type] - [Description] - [Detail]
@@ -198,33 +198,33 @@ dataLayer.push({
 
 ---
 
-## Common Tag Configurations
+## 常见 Tag Configurations
 
 ### GA4 Configuration Tag
 
-**Tag Type:** Google Analytics: GA4 Configuration
+**Tag 类型:** Google 分析: GA4 Configuration
 
 **Settings:**
-- Measurement ID: G-XXXXXXXX
-- Send page view: Checked (for pageviews)
+- 衡量 ID: G-XXXXXXXX
+- Send 页面浏览: Checked (for pageviews)
 - User Properties: Add any user-level dimensions
 
 **Trigger:** All Pages
 
-### GA4 Event Tag
+### GA4 事件 Tag
 
-**Tag Type:** Google Analytics: GA4 Event
+**Tag 类型:** Google 分析: GA4 事件
 
 **Settings:**
 - Configuration Tag: Select your config tag
-- Event Name: {{DL - event_name}} or hardcode
-- Event Parameters: Add parameters from dataLayer
+- 事件 Name: {{DL - event_name}} or hardcode
+- 事件 Parameters: Add parameters from dataLayer
 
-**Trigger:** Custom Event with event name match
+**Trigger:** Custom 事件 with 事件 name match
 
 ### Facebook Pixel - Base
 
-**Tag Type:** Custom HTML
+**Tag 类型:** Custom HTML
 
 ```html
 <script>
@@ -243,9 +243,9 @@ dataLayer.push({
 
 **Trigger:** All Pages
 
-### Facebook Pixel - Event
+### Facebook Pixel - 事件
 
-**Tag Type:** Custom HTML
+**Tag 类型:** Custom HTML
 
 ```html
 <script>
@@ -255,7 +255,7 @@ dataLayer.push({
 </script>
 ```
 
-**Trigger:** Custom Event - form_submitted
+**Trigger:** Custom 事件 - form_submitted
 
 ---
 
@@ -268,7 +268,7 @@ dataLayer.push({
 3. GTM debug panel opens at bottom
 
 **What to check:**
-- Tags fired on this event
+- Tags fired on this 事件
 - Tags not fired (and why)
 - Variables and their values
 - Data layer contents
@@ -309,7 +309,7 @@ Use workspaces for team collaboration:
 - Review changes before publish
 - Keep production version noted
 
-**Version notes example:**
+**Version notes 示例:**
 ```
 v15: Added purchase conversion tracking
 - New tag: GA4 - Event - Purchase
@@ -340,9 +340,9 @@ function grantConsent() {
 }
 ```
 
-### GTM Consent Overview
+### GTM Consent 概览
 
-1. Enable Consent Overview in Admin
+1. Enable Consent 概览 in Admin
 2. Configure consent for each tag
 3. Tags respect consent state automatically
 
@@ -352,12 +352,12 @@ function grantConsent() {
 
 ### Tag Sequencing
 
-**Setup tags to fire in order:**
+**配置方式 tags to fire in order:**
 Tag Configuration > Advanced Settings > Tag Sequencing
 
 **Use cases:**
-- Config tag before event tags
-- Pixel initialization before tracking
+- Config tag before 事件 tags
+- Pixel initialization before 跟踪
 - Cleanup after conversion
 
 ### Exception Handling
@@ -365,7 +365,7 @@ Tag Configuration > Advanced Settings > Tag Sequencing
 **Trigger exceptions** - Prevent tag from firing:
 - Exclude certain pages
 - Exclude internal traffic
-- Exclude during testing
+- Exclude during 测试
 
 ### Custom JavaScript Variables
 

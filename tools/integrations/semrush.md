@@ -1,61 +1,61 @@
 # SEMrush
 
-SEO and competitive analysis platform for keyword research and site audits.
+SEO and competitive analysis 平台 for 关键词 research and site audits.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Analytics API, Projects API |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | 分析 API, Projects API |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | - | API-only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
+- **类型**: API Key
 - **Parameter**: `key={api_key}` in query string
 - **Get key**: My Profile > API in SEMrush dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
-### Domain overview
+### Domain 概览
 
 ```bash
 GET https://api.semrush.com/?type=domain_ranks&key={api_key}&export_columns=Db,Dn,Rk,Or,Ot,Oc,Ad,At,Ac&domain=example.com
 ```
 
-### Organic keywords
+### 自然搜索关键词
 
 ```bash
 GET https://api.semrush.com/?type=domain_organic&key={api_key}&export_columns=Ph,Po,Pp,Pd,Nq,Cp,Ur,Tr,Tc,Co,Nr&domain=example.com&database=us&display_limit=100
 ```
 
-### Keyword overview
+### 关键词概览
 
 ```bash
 GET https://api.semrush.com/?type=phrase_all&key={api_key}&export_columns=Ph,Nq,Cp,Co,Nr&phrase=keyword&database=us
 ```
 
-### Related keywords
+### Related 关键词
 
 ```bash
 GET https://api.semrush.com/?type=phrase_related&key={api_key}&export_columns=Ph,Nq,Cp,Co,Nr,Td&phrase=keyword&database=us&display_limit=50
 ```
 
-### Keyword difficulty
+### 关键词 difficulty
 
 ```bash
 GET https://api.semrush.com/?type=phrase_kdi&key={api_key}&export_columns=Ph,Kd&phrase=keyword&database=us
 ```
 
-### Backlinks overview
+### 反向链接概览
 
 ```bash
 GET https://api.semrush.com/?type=backlinks_overview&key={api_key}&target=example.com&target_type=root_domain
 ```
 
-### Backlinks list
+### 反向链接列表
 
 ```bash
 GET https://api.semrush.com/?type=backlinks&key={api_key}&target=example.com&target_type=root_domain&export_columns=source_url,source_title,target_url,anchor&display_limit=100
@@ -77,16 +77,16 @@ Responses are CSV by default. Add `&export_escape=1` for proper escaping.
 - `Db` - Database
 - `Dn` - Domain
 - `Rk` - Rank
-- `Or` - Organic keywords
+- `Or` - Organic 关键词
 - `Ot` - Organic traffic
 - `Oc` - Organic cost
 
-### Keyword Report
-- `Ph` - Phrase/keyword
-- `Nq` - Search volume
+### 关键词 Report
+- `Ph` - Phrase/关键词
+- `Nq` - 搜索 volume
 - `Cp` - CPC
 - `Co` - Competition
-- `Kd` - Keyword difficulty
+- `Kd` - 关键词 difficulty
 - `Nr` - Number of results
 
 ### Backlinks
@@ -99,21 +99,21 @@ Responses are CSV by default. Add `&export_escape=1` for proper escaping.
 
 Use country code: `us`, `uk`, `de`, `fr`, `ca`, `au`, etc.
 
-## When to Use
+## 适用场景
 
-- Keyword research
-- Competitive analysis
-- Backlink analysis
+- 关键词 调研
+- Competitive 分析
+- Backlink 分析
 - Site audits
-- Rank tracking
-- Content gap analysis
+- Rank 跟踪
+- Content gap 分析
 
-## Rate Limits
+## 速率限制
 
 - Varies by plan (10-30K units/day)
 - Each API call costs units
 
-## Relevant Skills
+## 相关技能
 
 - seo-audit
 - programmatic-seo

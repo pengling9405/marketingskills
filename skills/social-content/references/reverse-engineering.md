@@ -16,13 +16,13 @@ Identify 10-20 creators in your space who consistently get high engagement:
 **Selection criteria:**
 - Posting consistently (3+ times/week)
 - High engagement rate relative to follower count
-- Audience overlap with your target market
+- 受众 overlap with your target market
 - Mix of established and rising creators
 
 **Where to find them:**
-- LinkedIn: Search by industry keywords, check "People also viewed"
-- Twitter/X: Check who your target audience follows and engages with
-- Use tools like SparkToro, Followerwonk, or manual research
+- LinkedIn: 搜索 by industry 关键词, check "People also viewed"
+- Twitter/X: Check who your target 受众 follows and engages with
+- Use tools like SparkToro, Followerwonk, or manual 调研
 - Look at who gets featured in industry newsletters
 
 ### 2. SCRAPE — Collect Posts at Scale
@@ -31,14 +31,14 @@ Gather 500-1000+ posts from your identified creators for analysis:
 
 **Tools:**
 - **Apify** — LinkedIn scraper, Twitter scraper actors
-- **Phantom Buster** — Multi-platform automation
-- **Export tools** — Platform-specific export features
-- **Manual collection** — For smaller datasets, copy/paste into spreadsheet
+- **Phantom Buster** — Multi-平台 automation
+- **Export tools** — 平台-specific export 特性
+- **Manual collection** — For smaller datasets, 文案/paste into spreadsheet
 
 **Data to collect:**
 - Post text/content
-- Engagement metrics (likes, comments, shares, saves)
-- Post format (text-only, carousel, video, image)
+- Engagement 指标 (likes, comments, shares, saves)
+- Post format (text-only, carousel, 视频, image)
 - Posting time/day
 - Hook/first line
 - CTA used
@@ -53,7 +53,7 @@ Sort and analyze the data to find patterns:
 - Identify top 10% performers
 - Look for format patterns (do carousels outperform?)
 - Check timing patterns (best days/times)
-- Compare topic performance
+- Compare topic 表现
 
 **Qualitative analysis:**
 - What hooks do top posts use?
@@ -88,9 +88,9 @@ Why it works: Pattern interrupt + invites debate
 ```
 
 **Format patterns:**
-- Carousel: Hook slide → Problem → Solution steps → CTA
+- Carousel: Hook slide → 问题 → Solution 步骤 → CTA
 - Thread: Hook → Promise → Deliver → Recap → CTA
-- Story post: Hook → Setup → Conflict → Resolution → Lesson
+- Story post: Hook → 配置方式 → Conflict → Resolution → Lesson
 
 **CTA patterns:**
 - Question: "What would you add?"
@@ -159,15 +159,15 @@ Here's what happened..."
 
 Bridge from engagement to business results:
 
-**Soft conversions:**
+**Soft 转化:**
 - Newsletter signups in bio/comments
 - Free resource offers in follow-up comments
 - DM triggers ("Comment X and I'll send you...")
 - Profile visits → optimized profile with clear CTA
 
-**Direct conversions:**
+**Direct 转化:**
 - Link in comments (not post body on LinkedIn)
-- Contextual product mentions within valuable content
+- Contextual 产品 mentions within valuable content
 - Case study posts that naturally showcase your work
 - "If you want help with this, DM me" (sparingly)
 
@@ -185,11 +185,11 @@ Bridge from engagement to business results:
 ## Reverse Engineering Checklist
 
 - [ ] Identified 10-20 top creators in niche
-- [ ] Collected 500+ posts for analysis
+- [ ] Collected 500+ posts for 分析
 - [ ] Ranked by engagement rate
 - [ ] Documented top 10 hook patterns
 - [ ] Documented top 5 format patterns
 - [ ] Documented top 5 CTA patterns
-- [ ] Created voice guidelines (specificity, brevity, emotion)
+- [ ] Created voice guidelines (具体性, brevity, emotion)
 - [ ] Built template library from patterns
-- [ ] Set up tracking for your own content performance
+- [ ] Set up 跟踪 for your own content 表现

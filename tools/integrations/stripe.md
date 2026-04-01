@@ -2,30 +2,30 @@
 
 Payment processing, subscriptions, and billing for internet businesses.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Comprehensive REST API |
-| MCP | ✓ | Available via Stripe MCP server |
-| CLI | ✓ | `stripe` CLI for testing and webhooks |
+| MCP | ✓ | 可用 via Stripe MCP server |
+| CLI | ✓ | `stripe` CLI for 测试 and webhooks |
 | SDK | ✓ | Official SDKs for most languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer sk_live_xxx` or `sk_test_xxx`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer sk_live_xxx` or `sk_test_xxx`
 - **Keys**: Secret key (server), Publishable key (client)
 
-## Common Agent Operations
+## 常见代理操作
 
-### List customers
+### List 客户
 
 ```bash
 GET https://api.stripe.com/v1/customers?limit=10
 ```
 
-### Get customer by email
+### Get 客户 by email
 
 ```bash
 GET https://api.stripe.com/v1/customers?email=user@example.com
@@ -37,7 +37,7 @@ GET https://api.stripe.com/v1/customers?email=user@example.com
 GET https://api.stripe.com/v1/subscriptions/{subscription_id}
 ```
 
-### List subscriptions for customer
+### List subscriptions for 客户
 
 ```bash
 GET https://api.stripe.com/v1/subscriptions?customer={customer_id}
@@ -56,7 +56,7 @@ customer={customer_id}
 &cancel_url=https://example.com/cancel
 ```
 
-### Create customer portal session
+### Create 客户 portal session
 
 ```bash
 POST https://api.stripe.com/v1/billing_portal/sessions
@@ -81,7 +81,7 @@ GET https://api.stripe.com/v1/payment_intents/{payment_intent_id}
 
 Key events to handle:
 
-| Event | When | Action |
+| 事件 | When | Action |
 |-------|------|--------|
 | `checkout.session.completed` | Successful checkout | Provision access |
 | `customer.subscription.created` | New subscription | Update user record |
@@ -118,31 +118,31 @@ stripe customers retrieve cus_xxx
 
 ## Key Objects
 
-- **Customer** - User billing profile
+- **客户** - User billing profile
 - **Subscription** - Recurring billing
 - **Price** - Pricing configuration
-- **Product** - What you sell
+- **产品** - What you sell
 - **Invoice** - Billing document
 - **PaymentIntent** - One-time payment
 - **Checkout Session** - Hosted payment page
 
-## When to Use
+## 适用场景
 
 - Processing payments
 - Managing subscriptions
 - Creating checkout flows
 - Handling billing portal
-- Querying customer data
-- Revenue analytics
+- Querying 客户 data
+- Revenue 分析
 
-## Rate Limits
+## 速率限制
 
 - 100 read requests per second
 - 100 write requests per second
 - Higher limits available on request
 
-## Relevant Skills
+## 相关技能
 
 - pricing-strategy
 - referral-program (Stripe-integrated affiliate tools)
-- analytics-tracking (revenue tracking)
+- 分析-跟踪 (revenue 跟踪)

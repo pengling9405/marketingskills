@@ -1,20 +1,20 @@
 # Nitrosend
 
-AI-native email platform that combines transactional and marketing email in one stack, controlled entirely through AI assistants via MCP. No traditional dashboard required — build sequences, campaigns, and automations by prompting.
+AI-native email 平台 that combines transactional and 营销 email in one stack, controlled entirely through AI assistants via MCP. No traditional dashboard required — build sequences, 广告活动, and automations by prompting.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API available |
 | MCP | ✓ | Full MCP support — primary integration method |
-| CLI | - | Not available |
+| CLI | - | 不可用 |
 | SDK | - | Use MCP or API directly |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **MCP Setup**: Add Nitrosend MCP server to your Claude Code / AI assistant config
+- **类型**: API Key
+- **MCP 配置方式**: Add Nitrosend MCP server to your Claude Code / AI assistant config
 - **BYO Infrastructure**: Optionally bring your own SendGrid, Postmark, SES, or Resend keys
 - **Get access**: Sign up at nitrosend.com — free tier includes 8K emails initially, then 500/month
 
@@ -33,12 +33,12 @@ Unlimited contacts on all plans — pay per email sent, not per subscriber.
 ## What Makes It Different
 
 - **AI-first**: Designed to be controlled by Claude, ChatGPT, Codex, Cursor, Gemini, Windsurf — not a human clicking through a dashboard
-- **Unified transactional + marketing**: Single platform for both, on separate infrastructure
+- **Unified transactional + 营销**: Single 平台 for both, on separate infrastructure
 - **Automatic optimization**: Continuously tests subject lines, send times, and content based on engagement
 - **Auto-configured deliverability**: DKIM, SPF, DMARC, and dedicated IP warmup handled automatically
 - **Migration-friendly**: Import from Mailchimp, Klaviyo, ActiveCampaign, HubSpot
 
-## Common Agent Operations (via MCP)
+## 常见代理操作 (via MCP)
 
 ### Create an email sequence
 
@@ -51,7 +51,7 @@ Email 4: Check-in + support offer (day 7)
 Email 5: Upgrade prompt (day 12)"
 ```
 
-Nitrosend builds the sequence, timing, and sends — no manual setup in a dashboard.
+Nitrosend builds the sequence, timing, and sends — no manual 配置方式 in a dashboard.
 
 ### Send a transactional email
 
@@ -59,7 +59,7 @@ Nitrosend builds the sequence, timing, and sends — no manual setup in a dashbo
 "Send a password reset email to user@example.com with a reset link valid for 1 hour."
 ```
 
-### Create a campaign
+### Create a 广告活动
 
 ```
 "Create a re-engagement campaign for subscribers who haven't opened in 90 days.
@@ -67,7 +67,7 @@ Subject line variants: [A] 'We miss you', [B] 'Still interested in [topic]?'
 Test both, send winner to remaining list after 4 hours."
 ```
 
-### Check sequence performance
+### Check sequence 表现
 
 ```
 "Show me open rates, click rates, and unsubscribes for the onboarding sequence."
@@ -79,7 +79,7 @@ Test both, send winner to remaining list after 4 hours."
 "Import this CSV of 2,000 subscribers from our Mailchimp export."
 ```
 
-## Deliverability Setup
+## Deliverability 配置方式
 
 Nitrosend handles this automatically on signup:
 - DKIM signing
@@ -88,24 +88,24 @@ Nitrosend handles this automatically on signup:
 - Dedicated IP provisioning (Pro+)
 - IP warmup schedule
 
-For BYO plan users: bring your own SendGrid, Postmark, SES, or Resend account and Nitrosend routes through your infrastructure.
+For BYO plan users: bring your own SendGrid, Postmark, SES, or Resend 账户 and Nitrosend routes through your infrastructure.
 
-## When to Use
+## 适用场景
 
 - Building email sequences via AI without touching a dashboard
-- Teams already using Claude Code or other AI coding tools as their primary workflow
-- Combining transactional (password resets, receipts) and marketing (nurture, campaigns) in one place
+- Teams already using Claude Code or other AI coding tools as their primary 工作流
+- Combining transactional (password resets, receipts) and 营销 (nurture, 广告活动) in one place
 - Rapid sequence prototyping — describe the sequence, get it built
 - Migrating from Mailchimp/Klaviyo and wanting AI control going forward
 
-## When to Use Something Else
+## 适用场景 Something Else
 
-- **Customer.io** — if you need complex event-based branching logic and behavioral triggers
+- **客户.io** — if you need complex 事件-based branching logic and behavioral triggers
 - **Klaviyo** — if you're in e-commerce and need deep Shopify integration
 - **Resend** — if you need transactional-only and prefer a pure API/code approach
 - **Kit** — if you're a creator or newsletter-first
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - onboarding-cro

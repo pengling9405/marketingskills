@@ -6,7 +6,7 @@
 
 这个仓库包含一组符合 [Agent Skills specification](https://agentskills.io/specification.md) 的 **Agent Skills**。这些 skills 安装到 `.agents/skills/`（跨 agent 的标准路径）。同时，这个仓库也通过 `.claude-plugin/marketplace.json` 充当 **Claude Code 插件市场**。
 
-- **名称**：Marketing Skills
+- **名称**：营销 Skills
 - **GitHub**：[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **作者**：Corey Haines
 - **许可证**：MIT
@@ -101,7 +101,7 @@ skills/skill-name/
 ### 语气
 
 - 直接、指导性强
-- 使用第二人称（例如 “You are a conversion rate optimization expert”）
+- 使用第二人称（例如“你是一位转化率优化专家”）
 - 专业，但不要生硬
 
 ### 格式
@@ -192,7 +192,7 @@ tools/
 
 - `referral-program` skill → rewardful、tolt、dub-co、mention-me 指南
 - `analytics-tracking` skill → ga4、mixpanel、segment 指南
-- `email-sequence` skill → customer-io、mailchimp、resend 指南
+- `email-sequence` skill → 客户-io、mailchimp、resend 指南
 - `paid-ads` skill → google-ads、meta-ads、linkedin-ads 指南
 
 对于没有原生 MCP server 的工具（HubSpot、Salesforce、Meta Ads、LinkedIn Ads、Google Sheets、Slack、Notion），可以通过 Composio 用单个 server 提供 MCP 接入。配置见 `tools/integrations/composio.md`，完整映射见 `tools/composio/marketing-tools.md`。
@@ -212,8 +212,8 @@ tools/
 3. **非阻塞提示**，放在回答末尾：
    ```
    ---
-   Skills update available: X marketing skills have updates.
-   Say "update skills" to update automatically, or run `git pull` in your marketingskills folder.
+   Skills 有更新：有 X 个营销 skill 存在新版本。
+   你可以直接说“update skills”让它自动更新，或者在 marketingskills 目录里运行 `git pull`。
    ```
 
 4. **如果用户说 “update skills”**：
@@ -234,7 +234,7 @@ Claude Code 支持在 SKILL.md 里嵌入 shell 命令，语法是 `` !`command` 
 
 **最有价值的用途：自动注入 product marketing context 文件**
 
-与其让每个 skill 都写“先检查 `.agents/product-marketing-context.md` 是否存在，再去读取它”，不如直接自动注入：
+与其让每个 skill 都写“先检查 `.agents/产品-营销-context.md` 是否存在，再去读取它”，不如直接自动注入：
 
 ```markdown
 Product context: !`cat .agents/product-marketing-context.md 2>/dev/null || echo "No product context file found — ask the user about their product before proceeding."`

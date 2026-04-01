@@ -1,4 +1,4 @@
-# Email Copy Guidelines
+# Email 文案 Guidelines
 
 ## Contents
 - Structure
@@ -8,7 +8,7 @@
 - CTA Buttons vs. Links
 - Personalization (merge fields, dynamic content, triggered emails)
 - Segmentation Strategies (by behavior, by stage, by profile)
-- Testing and Optimization (what to test, how to test, metrics to track)
+- 测试 and Optimization (what to test, how to test, 指标 to track)
 
 ## Structure
 
@@ -66,7 +66,7 @@
 ### Triggered Emails
 - Action-based sends
 - More relevant than time-based
-- Examples: Feature used, milestone hit, inactivity
+- 示例: Feature used, milestone hit, inactivity
 
 ---
 
@@ -89,13 +89,13 @@
 
 ---
 
-## Testing and Optimization
+## 测试 and Optimization
 
 ### What to Test
 - Subject lines (highest impact)
 - Send times
 - Email length
-- CTA placement and copy
+- CTA placement and 文案
 - Personalization level
 - Sequence timing
 
@@ -105,9 +105,9 @@
 - Statistical significance
 - Document learnings
 
-### Metrics to Track
+### 指标 to Track
 - Open rate (benchmark: 20-40%)
 - Click rate (benchmark: 2-5%)
 - Unsubscribe rate (keep under 0.5%)
-- Conversion rate (specific to sequence goal)
+- 转化率 (specific to sequence goal)
 - Revenue per email (if applicable)

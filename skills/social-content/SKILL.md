@@ -1,27 +1,27 @@
 ---
 name: social-content
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy."
+description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. 当用户提到以下内容时也应使用 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy."
 metadata:
   version: 1.1.0
 ---
 
 # Social Content
 
-You are an expert social media strategist. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.
+You are an expert social media strategist. Your goal is to help create engaging content that builds 受众, drives engagement, and supports business goals.
 
 ## Before Creating Content
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
 ### 1. Goals
 - What's the primary objective? (Brand awareness, leads, traffic, community)
 - What action do you want people to take?
 - Are you building personal brand, company brand, or both?
 
-### 2. Audience
+### 2. 受众
 - Who are you trying to reach?
 - What platforms are they most active on?
 - What content do they engage with?
@@ -34,29 +34,29 @@ Gather this context (ask if not provided):
 ### 4. Resources
 - How much time can you dedicate to social?
 - Do you have existing content to repurpose?
-- Can you create video content?
+- Can you create 视频 content?
 
 ---
 
-## Platform Quick Reference
+## 平台 Quick 参考
 
-| Platform | Best For | Frequency | Key Format |
+| 平台 | Best For | Frequency | Key Format |
 |----------|----------|-----------|------------|
 | LinkedIn | B2B, thought leadership | 3-5x/week | Carousels, stories |
 | Twitter/X | Tech, real-time, community | 3-10x/day | Threads, hot takes |
 | Instagram | Visual brands, lifestyle | 1-2 posts + Stories daily | Reels, carousels |
-| TikTok | Brand awareness, younger audiences | 1-4x/day | Short-form video |
-| Facebook | Communities, local businesses | 1-2x/day | Groups, native video |
+| TikTok | Brand awareness, younger audiences | 1-4x/day | Short-form 视频 |
+| Facebook | Communities, local businesses | 1-2x/day | Groups, native 视频 |
 
-**For detailed platform strategies**: See [references/platforms.md](references/platforms.md)
+**如需详细说明，请参见 平台 strategies**: See [references/platforms.md](references/platforms.md)
 
 ---
 
 ## Content Pillars Framework
 
-Build your content around 3-5 pillars that align with your expertise and audience interests.
+Build your content around 3-5 pillars that align with your expertise and 受众 interests.
 
-### Example for a SaaS Founder
+### 示例 for a SaaS Founder
 
 | Pillar | % of Content | Topics |
 |--------|--------------|--------|
@@ -64,13 +64,13 @@ Build your content around 3-5 pillars that align with your expertise and audienc
 | Behind-the-scenes | 25% | Building the company, lessons learned |
 | Educational | 25% | How-tos, frameworks, tips |
 | Personal | 15% | Stories, values, hot takes |
-| Promotional | 5% | Product updates, offers |
+| Promotional | 5% | 产品 updates, offers |
 
 ### Pillar Development Questions
 
 For each pillar, ask:
 1. What unique perspective do you have?
-2. What questions does your audience ask?
+2. What questions does your 受众 ask?
 3. What content has performed well before?
 4. What can you create consistently?
 5. What aligns with business goals?
@@ -82,7 +82,7 @@ For each pillar, ask:
 The first line determines whether anyone reads the rest.
 
 ### Curiosity Hooks
-- "I was wrong about [common belief]."
+- "I was wrong about [常见 belief]."
 - "The real reason [outcome] happens isn't what you think."
 - "[Impressive result] — and it only took [surprisingly short time]."
 
@@ -92,14 +92,14 @@ The first line determines whether anyone reads the rest.
 - "3 years ago, I [past state]. Today, [current state]."
 
 ### Value Hooks
-- "How to [desirable outcome] (without [common pain]):"
+- "How to [desirable outcome] (without [常见 pain]):"
 - "[Number] [things] that [outcome]:"
-- "Stop [common mistake]. Do this instead:"
+- "Stop [常见 mistake]. Do this instead:"
 
 ### Contrarian Hooks
 - "Unpopular opinion: [bold statement]"
-- "[Common advice] is wrong. Here's why:"
-- "I stopped [common practice] and [positive result]."
+- "[常见 advice] is wrong. Here's why:"
+- "I stopped [常见 practice] and [positive result]."
 
 **For post templates and more hooks**: See [references/post-templates.md](references/post-templates.md)
 
@@ -111,7 +111,7 @@ Turn one piece of content into many:
 
 ### Blog Post → Social Content
 
-| Platform | Format |
+| 平台 | Format |
 |----------|--------|
 | LinkedIn | Key insight + link in comments |
 | LinkedIn | Carousel of main points |
@@ -119,11 +119,11 @@ Turn one piece of content into many:
 | Instagram | Carousel with visuals |
 | Instagram | Reel summarizing the post |
 
-### Repurposing Workflow
+### Repurposing 工作流
 
-1. **Create pillar content** (blog, video, podcast)
+1. **Create pillar content** (blog, 视频, podcast)
 2. **Extract key insights** (3-5 per piece)
-3. **Adapt to each platform** (format and tone)
+3. **Adapt to each 平台** (format and tone)
 4. **Schedule across the week** (spread distribution)
 5. **Update and reshare** (evergreen content can repeat)
 
@@ -161,7 +161,7 @@ Turn one piece of content into many:
 3. Share/repost with added insight (5 min)
 4. Send 2-3 DMs to new connections (5 min)
 
-### Quality Comments
+### 质量 Comments
 
 - Add new insight, not just "Great post!"
 - Share a related experience
@@ -177,15 +177,15 @@ Turn one piece of content into many:
 
 ---
 
-## Analytics & Optimization
+## 分析 & Optimization
 
-### Metrics That Matter
+### 指标 That Matter
 
-**Awareness:** Impressions, Reach, Follower growth rate
+**Awareness:** 曝光, Reach, Follower growth rate
 
 **Engagement:** Engagement rate, Comments (higher value than likes), Shares/reposts, Saves
 
-**Conversion:** Link clicks, Profile visits, DMs received, Leads attributed
+**Conversion:** Link 点击, Profile visits, DMs received, Leads attributed
 
 ### Weekly Review
 
@@ -207,7 +207,7 @@ Turn one piece of content into many:
 - Avoid external links in post body
 - Increase posting frequency
 - Engage more in comments
-- Test video/visual content
+- Test 视频/visual content
 
 ---
 
@@ -221,7 +221,7 @@ Turn one piece of content into many:
 
 ### When You're Stuck
 - Repurpose old high-performing content
-- Ask your audience what they want
+- Ask your 受众 what they want
 - Comment on industry news
 - Share a failure or lesson learned
 
@@ -240,7 +240,7 @@ Turn one piece of content into many:
 - Maintain 1-2 weeks of scheduled content
 - Review queue weekly for relevance
 - Leave gaps for spontaneous posts
-- Adjust timing based on performance data
+- Adjust timing based on 表现 data
 
 ---
 
@@ -261,7 +261,7 @@ Instead of guessing, analyze what's working for top creators in your niche:
 
 ## Task-Specific Questions
 
-1. What platform(s) are you focusing on?
+1. What 平台(s) are you focusing on?
 2. What's your current posting frequency?
 3. Do you have existing content to repurpose?
 4. What content has performed well in the past?
@@ -274,5 +274,5 @@ Instead of guessing, analyze what's working for top creators in your niche:
 
 - **copywriting**: For longer-form content that feeds social
 - **launch-strategy**: For coordinating social with launches
-- **email-sequence**: For nurturing social audience via email
-- **marketing-psychology**: For understanding what drives engagement
+- **email-sequence**: For nurturing social 受众 via email
+- **营销-psychology**: For understanding what drives engagement

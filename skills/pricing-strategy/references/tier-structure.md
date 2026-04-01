@@ -4,9 +4,9 @@
 - How Many Tiers?
 - Good-Better-Best Framework
 - Tier Differentiation Strategies
-- Example Tier Structure
+- 示例 Tier Structure
 - Packaging for Personas (Identifying Pricing Personas, Persona-Based Packaging)
-- Freemium vs. Free Trial (When to Use Freemium, When to Use Free Trial, Hybrid Approaches)
+- Freemium vs. Free Trial (适用场景 Freemium, 适用场景 Free Trial, Hybrid Approaches)
 - Enterprise Pricing (When to Add Custom Pricing, Enterprise Tier Elements, Enterprise Pricing Strategies)
 
 ## How Many Tiers?
@@ -18,10 +18,10 @@
 **3 tiers:** Industry standard
 - Good tier = Entry point
 - Better tier = Recommended (anchor to best)
-- Best tier = High-value customers
+- Best tier = High-value 客户
 
 **4+ tiers:** More granularity
-- Works for: Wide range of customer sizes
+- Works for: Wide range of 客户 sizes
 - Risk: Decision paralysis, complexity
 
 ---
@@ -29,20 +29,20 @@
 ## Good-Better-Best Framework
 
 **Good tier (Entry):**
-- Purpose: Remove barriers to entry
-- Includes: Core features, limited usage
+- 用途: Remove barriers to entry
+- Includes: Core 特性, limited usage
 - Price: Low, accessible
 - Target: Small teams, try before you buy
 
 **Better tier (Recommended):**
-- Purpose: Where most customers land
-- Includes: Full features, reasonable limits
+- 用途: Where most 客户 land
+- Includes: Full 特性, reasonable limits
 - Price: Your "anchor" price
 - Target: Growing teams, serious users
 
 **Best tier (Premium):**
-- Purpose: Capture high-value customers
-- Includes: Everything, advanced features, higher limits
+- 用途: Capture high-value 客户
+- Includes: Everything, advanced 特性, higher limits
 - Price: Premium (often 2-3x "Better")
 - Target: Larger teams, power users, enterprises
 
@@ -51,12 +51,12 @@
 ## Tier Differentiation Strategies
 
 **Feature gating:**
-- Basic features in all tiers
-- Advanced features in higher tiers
-- Works when features have clear value differences
+- Basic 特性 in all tiers
+- Advanced 特性 in higher tiers
+- Works when 特性 have clear value differences
 
 **Usage limits:**
-- Same features, different limits
+- Same 特性, different limits
 - More users, storage, API calls at higher tiers
 - Works when value scales with usage
 
@@ -70,7 +70,7 @@
 
 ---
 
-## Example Tier Structure
+## 示例 Tier Structure
 
 ```
 ┌────────────────┬─────────────────┬─────────────────┬─────────────────┐
@@ -95,7 +95,7 @@
 
 ### Identifying Pricing Personas
 
-Different customers have different:
+Different 客户 have different:
 - Willingness to pay
 - Feature needs
 - Buying processes
@@ -103,26 +103,26 @@ Different customers have different:
 
 **Segment by:**
 - Company size (solopreneur → SMB → enterprise)
-- Use case (marketing vs. sales vs. support)
+- Use case (营销 vs. sales vs. support)
 - Sophistication (beginner → power user)
-- Industry (different budget norms)
+- Industry (different 预算 norms)
 
 ### Persona-Based Packaging
 
 **Step 1: Define personas**
 
-| Persona | Size | Needs | WTP | Example |
+| Persona | Size | Needs | WTP | 示例 |
 |---------|------|-------|-----|---------|
-| Freelancer | 1 person | Basic features | Low | $19/mo |
+| Freelancer | 1 person | Basic 特性 | Low | $19/mo |
 | Small Team | 2-10 | Collaboration | Medium | $49/mo |
 | Growing Co | 10-50 | Scale, integrations | Higher | $149/mo |
 | Enterprise | 50+ | Security, support | High | Custom |
 
-**Step 2: Map features to personas**
+**Step 2: Map 特性 to personas**
 
 | Feature | Freelancer | Small Team | Growing | Enterprise |
 |---------|------------|------------|---------|------------|
-| Core features | ✓ | ✓ | ✓ | ✓ |
+| Core 特性 | ✓ | ✓ | ✓ | ✓ |
 | Collaboration | — | ✓ | ✓ | ✓ |
 | Integrations | — | Limited | Full | Full |
 | API access | — | — | ✓ | ✓ |
@@ -139,10 +139,10 @@ Different customers have different:
 
 ## Freemium vs. Free Trial
 
-### When to Use Freemium
+### 适用场景 Freemium
 
 **Freemium works when:**
-- Product has viral/network effects
+- 产品 has viral/network effects
 - Free users provide value (content, data, referrals)
 - Large market where % conversion drives volume
 - Low marginal cost to serve free users
@@ -150,18 +150,18 @@ Different customers have different:
 
 **Freemium risks:**
 - Free users may never convert
-- Devalues product perception
+- Devalues 产品 perception
 - Support costs for non-paying users
 - Harder to raise prices later
 
-### When to Use Free Trial
+### 适用场景 Free Trial
 
 **Free trial works when:**
-- Product needs time to demonstrate value
-- Onboarding/setup investment required
+- 产品 needs time to demonstrate value
+- Onboarding/配置方式 investment required
 - B2B with buying committees
 - Higher price points
-- Product is "sticky" once configured
+- 产品 is "sticky" once configured
 
 **Trial best practices:**
 - 7-14 days for simple products
@@ -178,14 +178,14 @@ Different customers have different:
 ### Hybrid Approaches
 
 **Freemium + Trial:**
-- Free tier with limited features
-- Trial of premium features
-- Example: Zoom (free 40-min, trial of Pro)
+- Free tier with limited 特性
+- Trial of premium 特性
+- 示例: Zoom (free 40-min, trial of Pro)
 
 **Reverse trial:**
 - Start with full access
 - After trial, downgrade to free tier
-- Example: See premium value, live with limitations until ready
+- 示例: See premium value, live with limitations until ready
 
 ---
 
@@ -195,9 +195,9 @@ Different customers have different:
 
 Add "Contact Sales" when:
 - Deal sizes exceed $10k+ ARR
-- Customers need custom contracts
+- 客户 need custom contracts
 - Implementation/onboarding required
-- Security/compliance requirements
+- Security/遵循率 requirements
 - Procurement processes involved
 
 ### Enterprise Tier Elements
@@ -220,13 +220,13 @@ Add "Contact Sales" when:
 
 **Per-seat at scale:**
 - Volume discounts for large teams
-- Example: $15/user (standard) → $10/user (100+)
+- 示例: $15/user (standard) → $10/user (100+)
 
-**Platform fee + usage:**
+**平台 fee + usage:**
 - Base fee for access
 - Usage-based above thresholds
-- Example: $500/mo base + $0.01 per API call
+- 示例: $500/mo base + $0.01 per API call
 
 **Value-based contracts:**
-- Price tied to customer's revenue/outcomes
-- Example: % of transactions, revenue share
+- Price tied to 客户's revenue/outcomes
+- 示例: % of transactions, revenue share

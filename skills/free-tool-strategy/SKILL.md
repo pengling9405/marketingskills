@@ -1,40 +1,40 @@
 ---
 name: free-tool-strategy
-description: When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketing," "free tool," "marketing tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a tool for leads," "free resource," "ROI calculator," "grader tool," "audit tool," "should I build a free tool," or "tools for lead gen." Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.
+description: When the user wants to plan, evaluate, or build a free tool for 营销 purposes — lead generation, SEO value, or brand awareness. 当用户提到以下内容时也应使用 "engineering as 营销," "free tool," "营销 tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a tool for leads," "free resource," "ROI calculator," "grader tool," "audit tool," "should I build a free tool," or "tools for lead gen." 在这些情况下都应使用本技能 someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.
 metadata:
   version: 1.1.0
 ---
 
-# Free Tool Strategy (Engineering as Marketing)
+# Free Tool Strategy (Engineering as 营销)
 
-You are an expert in engineering-as-marketing strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
+You are an expert in engineering-as-营销 strategy. Your goal is to help plan and evaluate free tools that generate leads, attract organic traffic, and build brand awareness.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before designing a tool strategy, understand:
 
-1. **Business Context** - What's the core product? Who is the target audience? What problems do they have?
+1. **Business Context** - What's the core 产品? Who is the target 受众? What problems do they have?
 
-2. **Goals** - Lead generation? SEO/traffic? Brand awareness? Product education?
+2. **Goals** - Lead generation? SEO/traffic? Brand awareness? 产品 education?
 
-3. **Resources** - Technical capacity to build? Ongoing maintenance bandwidth? Budget for promotion?
+3. **Resources** - Technical capacity to build? Ongoing maintenance bandwidth? 预算 for promotion?
 
 ---
 
-## Core Principles
+## 核心原则
 
-### 1. Solve a Real Problem
+### 1. Solve a Real 问题
 - Tool must provide genuine value
-- Solves a problem your audience actually has
-- Useful even without your main product
+- Solves a 问题 your 受众 actually has
+- Useful even without your main 产品
 
-### 2. Adjacent to Core Product
+### 2. Adjacent to Core 产品
 - Related to what you sell
-- Natural path from tool to product
-- Educates on problem you solve
+- Natural path from tool to 产品
+- Educates on 问题 you solve
 
 ### 3. Simple and Focused
 - Does one thing well
@@ -46,18 +46,18 @@ Before designing a tool strategy, understand:
 
 ---
 
-## Tool Types Overview
+## Tool Types 概览
 
-| Type | Examples | Best For |
+| 类型 | 示例 | Best For |
 |------|----------|----------|
 | Calculators | ROI, savings, pricing estimators | Decisions involving numbers |
 | Generators | Templates, policies, names | Creating something quickly |
 | Analyzers | Website graders, SEO auditors | Evaluating existing work |
 | Testers | Meta tag preview, speed tests | Checking if something works |
-| Libraries | Icon sets, templates, snippets | Reference material |
+| Libraries | Icon sets, templates, snippets | 参考 material |
 | Interactive | Tutorials, playgrounds, quizzes | Learning/understanding |
 
-**For detailed tool types and examples**: See [references/tool-types.md](references/tool-types.md)
+**如需详细说明，请参见 tool types and examples**: See [references/tool-types.md](references/tool-types.md)
 
 ---
 
@@ -65,19 +65,19 @@ Before designing a tool strategy, understand:
 
 ### Start with Pain Points
 
-1. **What problems does your audience Google?** - Search query research, common questions
+1. **What problems does your 受众 Google?** - 搜索 query research, 常见 questions
 
 2. **What manual processes are tedious?** - Spreadsheet tasks, repetitive calculations
 
-3. **What do they need before buying your product?** - Assessments, planning, comparisons
+3. **What do they need before buying your 产品?** - Assessments, planning, comparisons
 
 4. **What information do they wish they had?** - Data they can't easily access, benchmarks
 
 ### Validate the Idea
 
-- **Search demand**: Is there search volume? How competitive?
+- **搜索 demand**: Is there 搜索 volume? How competitive?
 - **Uniqueness**: What exists? How can you be 10x better?
-- **Lead quality**: Does this audience match buyers?
+- **Lead 质量**: Does this 受众 match buyers?
 - **Build feasibility**: How complex? Can you scope an MVP?
 
 ---
@@ -89,7 +89,7 @@ Before designing a tool strategy, understand:
 | Approach | Pros | Cons |
 |----------|------|------|
 | Fully gated | Maximum capture | Lower usage |
-| Partially gated | Balance of both | Common pattern |
+| Partially gated | Balance of both | 常见 pattern |
 | Ungated + optional | Maximum reach | Lower capture |
 | Ungated entirely | Pure SEO/brand | No direct leads |
 
@@ -103,14 +103,14 @@ Before designing a tool strategy, understand:
 
 ## SEO Considerations
 
-### Keyword Strategy
-**Tool landing page**: "[thing] calculator", "[thing] generator", "free [tool type]"
+### 关键词 Strategy
+**Tool 落地页**: "[thing] calculator", "[thing] generator", "free [tool 类型]"
 
 **Supporting content**: "How to [use case]", "What is [concept]"
 
 ### Link Building
 Free tools attract links because:
-- Genuinely useful (people reference them)
+- Genuinely useful (people 参考 them)
 - Unique (can't link to just any page)
 - Shareable (social amplification)
 
@@ -123,7 +123,7 @@ When: Unique concept, core to brand, high strategic value, have dev capacity
 
 ### Use No-Code Tools
 Options: Outgrow, Involve.me, Typeform, Tally, Bubble, Webflow
-When: Speed to market, limited dev resources, testing concept
+When: Speed to market, limited dev resources, 测试 concept
 
 ### Embed Existing
 When: Something good exists, white-label available, not core differentiator
@@ -138,7 +138,7 @@ When: Something good exists, white-label available, not core differentiator
 3. Basic lead capture—email collection, leads go somewhere useful
 
 ### What to Skip Initially
-Account creation, saving results, advanced features, perfect design, every edge case
+账户 creation, saving results, advanced 特性, perfect design, every edge case
 
 ---
 
@@ -148,10 +148,10 @@ Rate each factor 1-5:
 
 | Factor | Score |
 |--------|-------|
-| Search demand exists | ___ |
-| Audience match to buyers | ___ |
+| 搜索 demand exists | ___ |
+| 受众 match to buyers | ___ |
 | Uniqueness vs. existing | ___ |
-| Natural path to product | ___ |
+| Natural path to 产品 | ___ |
 | Build feasibility | ___ |
 | Maintenance burden (inverse) | ___ |
 | Link-building potential | ___ |
@@ -163,17 +163,17 @@ Rate each factor 1-5:
 
 ## Task-Specific Questions
 
-1. What existing tools does your audience use for workarounds?
+1. What existing tools does your 受众 use for workarounds?
 2. How do you currently generate leads?
 3. What technical resources are available?
-4. What's the timeline and budget?
+4. What's the timeline and 预算?
 
 ---
 
 ## Related Skills
 
 - **lead-magnets**: For downloadable content lead magnets (ebooks, checklists, templates)
-- **page-cro**: For optimizing the tool's landing page
+- **page-cro**: For optimizing the tool's 落地页
 - **seo-audit**: For SEO-optimizing the tool
-- **analytics-tracking**: For measuring tool usage
+- **分析-跟踪**: For measuring tool usage
 - **email-sequence**: For nurturing leads from the tool

@@ -2,7 +2,7 @@
 
 Replace complex or pompous words with plain English alternatives.
 
-Source: Plain English Campaign A-Z of Alternative Words (2001), Australian Government Style Manual (2024), plainlanguage.gov
+来源: Plain English 广告活动 A-Z of Alternative Words (2001), Australian Government Style Manual (2024), plainlanguage.gov
 
 ---
 
@@ -196,7 +196,7 @@ Source: Plain English Campaign A-Z of Alternative Words (2001), Australian Gover
 | in receipt of | receive |
 | in relation to | about |
 | in respect of | about, for |
-| in the event of | if |
+| in the 事件 of | if |
 | in the majority of instances | most, usually |
 | in the near future | soon |
 | in view of the fact that | because |
@@ -360,7 +360,7 @@ Source: Plain English Campaign A-Z of Alternative Words (2001), Australian Gover
 | whatsoever | any |
 | with a view to | to |
 | with effect from | from |
-| with reference to | about |
+| with 参考 to | about |
 | with regard to | about |
 | with respect to | about |
 | zone | area |
@@ -382,7 +382,7 @@ These phrases often add nothing. Delete them:
 - currently (when "now" or nothing works)
 - I am of the opinion that (use: I think)
 - in due course (use: soon, or say when)
-- in the final analysis
+- in the final 分析
 - it should be understood
 - last but not least
 - obviously

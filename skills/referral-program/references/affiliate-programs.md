@@ -1,6 +1,6 @@
 # Affiliate Program Design
 
-Detailed guidance for building and managing affiliate programs.
+Detailed 指导 for building and managing affiliate programs.
 
 ## Contents
 - Commission Structures
@@ -8,28 +8,28 @@ Detailed guidance for building and managing affiliate programs.
 - Affiliate Recruitment
 - Affiliate Enablement
 - Tools & Platforms (Referral Program Tools, Affiliate Program Tools, Choosing a Tool)
-- Fraud Prevention (Common Referral Fraud, Prevention Measures)
+- Fraud Prevention (常见 Referral Fraud, Prevention Measures)
 
 ## Commission Structures
 
 **Percentage of sale:**
 - Standard: 10-30% of first sale or first year
 - Works for: E-commerce, SaaS with clear pricing
-- Example: "Earn 25% of every sale you refer"
+- 示例: "Earn 25% of every sale you refer"
 
 **Flat fee per action:**
 - Standard: $5-500 depending on value
 - Works for: Lead gen, trials, freemium
-- Example: "$50 for every qualified demo"
+- 示例: "$50 for every qualified demo"
 
 **Recurring commission:**
 - Standard: 10-25% of recurring revenue
 - Works for: Subscription products
-- Example: "20% of subscription for 12 months"
+- 示例: "20% of subscription for 12 months"
 
 **Tiered commission:**
 - Works for: Motivating high performers
-- Example: "20% for 1-10 sales, 25% for 11-25, 30% for 26+"
+- 示例: "20% for 1-10 sales, 25% for 11-25, 30% for 26+"
 
 ---
 
@@ -50,7 +50,7 @@ How long after click does affiliate get credit?
 ## Affiliate Recruitment
 
 ### Where to find affiliates:
-- Existing customers who create content
+- Existing 客户 who create content
 - Industry bloggers and reviewers
 - YouTubers in your niche
 - Newsletter writers
@@ -79,14 +79,14 @@ Would you be open to learning more?
 ## Affiliate Enablement
 
 Provide affiliates with:
-- [ ] Unique tracking links/codes
-- [ ] Product overview and key benefits
-- [ ] Target audience description
+- [ ] Unique 跟踪 links/codes
+- [ ] 产品 概览 and key 收益
+- [ ] Target 受众 description
 - [ ] Comparison to competitors
 - [ ] Creative assets (logos, banners, images)
-- [ ] Sample copy and talking points
-- [ ] Case studies and testimonials
-- [ ] Demo access or free account
+- [ ] Sample 文案 and talking points
+- [ ] 案例研究 and 推荐语
+- [ ] Demo access or free 账户
 - [ ] FAQ and objection handling
 - [ ] Payment terms and schedule
 
@@ -101,13 +101,13 @@ Provide affiliates with:
 - Ambassador — Enterprise referral programs
 - Friendbuy — E-commerce and subscription
 - GrowSurf — SaaS and tech companies
-- Mention Me — AI-powered referral marketing
-- Viral Loops — Template-based campaigns
+- Mention Me — AI-powered referral 营销
+- Viral Loops — Template-based 广告活动
 
 **Built-in options:**
-- Stripe (basic referral tracking)
+- Stripe (basic referral 跟踪)
 - HubSpot (CRM-integrated)
-- Segment (tracking and analytics)
+- Segment (跟踪 and 分析)
 
 ### Affiliate Program Tools
 
@@ -115,11 +115,11 @@ Provide affiliates with:
 - ShareASale — Large merchant network
 - Impact — Enterprise partnerships
 - PartnerStack — SaaS focused
-- Tapfiliate — Simple SaaS affiliate tracking
-- FirstPromoter — SaaS affiliate management
+- Tapfiliate — Simple SaaS affiliate 跟踪
+- FirstPromoter — SaaS affiliate 管理
 
 **Partner Relationship Management (PRM):**
-- Introw — Full PRM with deal registration, commissions, tiers, QBRs, and partner engagement tracking ([integration guide](../../../tools/integrations/introw.md))
+- Introw — Full PRM with deal registration, commissions, tiers, QBRs, and partner engagement 跟踪 ([integration guide](../../../tools/integrations/introw.md))
 
 **Self-hosted:**
 - Rewardful — Stripe-integrated affiliates
@@ -129,9 +129,9 @@ Provide affiliates with:
 
 Consider:
 - Integration with your payment system
-- Fraud detection capabilities
-- Payout management
-- Reporting and analytics
+- Fraud detection 能力
+- Payout 管理
+- Reporting and 分析
 - Customization options
 - Price vs. program scale
 
@@ -139,7 +139,7 @@ Consider:
 
 ## Fraud Prevention
 
-### Common Referral Fraud
+### 常见 Referral Fraud
 - Self-referrals (creating fake accounts)
 - Referral rings (groups referring each other)
 - Coupon sites posting referral codes
@@ -149,7 +149,7 @@ Consider:
 ### Prevention Measures
 
 **Technical:**
-- Email verification required
+- Email 验证 required
 - Device fingerprinting
 - IP address monitoring
 - Delayed reward payout (after activation)
@@ -164,4 +164,4 @@ Consider:
 **Structural:**
 - Require referred user to take meaningful action
 - Cap lifetime rewards
-- Pay rewards in product credit (less attractive to fraudsters)
+- Pay rewards in 产品 credit (less attractive to fraudsters)

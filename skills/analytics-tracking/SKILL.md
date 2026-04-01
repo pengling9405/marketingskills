@@ -1,33 +1,33 @@
 ---
-name: analytics-tracking
-description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," "tracking plan," "how do I measure this," "track conversions," "attribution," "Mixpanel," "Segment," "are my events firing," or "analytics isn't working." Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.
+name: 分析-跟踪
+description: When the user wants to set up, improve, or audit 分析 跟踪 and 衡量. 当用户提到以下内容时也应使用 "set up 跟踪," "GA4," "Google 分析," "conversion 跟踪," "事件 跟踪," "UTM parameters," "tag manager," "GTM," "分析 implementation," "跟踪 plan," "how do I measure this," "track 转化," "attribution," "Mixpanel," "Segment," "are my events firing," or "分析 isn't working." 在这些情况下都应使用本技能 someone asks how to know if something is working or wants to measure 营销 results. 如果是 A/B 测试衡量，请参见 `ab-test-配置方式`。
 metadata:
   version: 1.1.0
 ---
 
-# Analytics Tracking
+# 分析追踪
 
-You are an expert in analytics implementation and measurement. Your goal is to help set up tracking that provides actionable insights for marketing and product decisions.
+你是一位分析实现与衡量方面的专家。 你的目标是帮助搭建可用于营销和产品决策的追踪体系，输出可执行的洞察。
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Before implementing tracking, understand:
+在实施埋点之前，先弄清以下几点：
 
-1. **Business Context** - What decisions will this data inform? What are key conversions?
-2. **Current State** - What tracking exists? What tools are in use?
-3. **Technical Context** - What's the tech stack? Any privacy/compliance requirements?
+1. **Business Context** - What decisions will this data inform? What are key 转化?
+2. **Current State** - What 跟踪 exists? What tools are in use?
+3. **Technical Context** - What's the tech stack? Any 隐私/遵循率 requirements?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Track for Decisions, Not Data
-- Every event should inform a decision
-- Avoid vanity metrics
-- Quality > quantity of events
+- Every 事件 should inform a decision
+- Avoid vanity 指标
+- 质量 > quantity of events
 
 ### 2. Start with the Questions
 - What do you need to know?
@@ -39,38 +39,38 @@ Before implementing tracking, understand:
 - Establish patterns before implementing
 - Document everything
 
-### 4. Maintain Data Quality
+### 4. Maintain Data 质量
 - Validate implementation
 - Monitor for issues
 - Clean data > more data
 
 ---
 
-## Tracking Plan Framework
+## 埋点方案框架
 
-### Structure
+### 结构
 
 ```
 Event Name | Category | Properties | Trigger | Notes
 ---------- | -------- | ---------- | ------- | -----
 ```
 
-### Event Types
+### 事件类型
 
-| Type | Examples |
+| 类型 | 示例 |
 |------|----------|
 | Pageviews | Automatic, enhanced with metadata |
-| User Actions | Button clicks, form submissions, feature usage |
+| User Actions | Button 点击, form submissions, feature usage |
 | System Events | Signup completed, purchase, subscription changed |
-| Custom Conversions | Goal completions, funnel stages |
+| Custom 转化 | Goal completions, funnel stages |
 
-**For comprehensive event lists**: See [references/event-library.md](references/event-library.md)
+**如需更完整的内容，请参见 事件 lists**: See [references/event-library.md](references/event-library.md)
 
 ---
 
-## Event Naming Conventions
+## 事件命名规范
 
-### Recommended Format: Object-Action
+### 推荐格式: Object-Action
 
 ```
 signup_completed
@@ -80,51 +80,51 @@ article_read
 checkout_payment_completed
 ```
 
-### Best Practices
+### 最佳实践
 - Lowercase with underscores
 - Be specific: `cta_hero_clicked` vs. `button_clicked`
-- Include context in properties, not event name
+- Include context in properties, not 事件 name
 - Avoid spaces and special characters
 - Document decisions
 
 ---
 
-## Essential Events
+## 关键事件
 
-### Marketing Site
+### 营销站点
 
-| Event | Properties |
+| 事件 | 属性 |
 |-------|------------|
 | cta_clicked | button_text, location |
 | form_submitted | form_type |
-| signup_completed | method, source |
+| signup_completed | method, 来源 |
 | demo_requested | - |
 
-### Product/App
+### 产品 / 应用
 
-| Event | Properties |
+| 事件 | 属性 |
 |-------|------------|
 | onboarding_step_completed | step_number, step_name |
 | feature_used | feature_name |
 | purchase_completed | plan, value |
 | subscription_cancelled | reason |
 
-**For full event library by business type**: See [references/event-library.md](references/event-library.md)
+**如需完整内容，请参见 事件 library by business 类型**: See [references/event-library.md](references/event-library.md)
 
 ---
 
-## Event Properties
+## 事件属性
 
-### Standard Properties
+### 标准属性
 
-| Category | Properties |
+| 类别 | 属性 |
 |----------|------------|
 | Page | page_title, page_location, page_referrer |
 | User | user_id, user_type, account_id, plan_type |
-| Campaign | source, medium, campaign, content, term |
-| Product | product_id, product_name, category, price |
+| 广告活动 | 来源, medium, 广告活动, content, term |
+| 产品 | product_id, product_name, category, price |
 
-### Best Practices
+### 最佳实践
 - Use consistent property names
 - Include relevant context
 - Don't duplicate automatic properties
@@ -132,17 +132,17 @@ checkout_payment_completed
 
 ---
 
-## GA4 Implementation
+## GA4 实施
 
-### Quick Setup
+### 快速配置
 
 1. Create GA4 property and data stream
 2. Install gtag.js or GTM
-3. Enable enhanced measurement
+3. Enable enhanced 衡量
 4. Configure custom events
-5. Mark conversions in Admin
+5. Mark 转化 in Admin
 
-### Custom Event Example
+### Custom 事件 示例
 
 ```javascript
 gtag('event', 'signup_completed', {
@@ -151,21 +151,21 @@ gtag('event', 'signup_completed', {
 });
 ```
 
-**For detailed GA4 implementation**: See [references/ga4-implementation.md](references/ga4-implementation.md)
+**如需详细说明，请参见 GA4 implementation**: See [references/ga4-implementation.md](references/ga4-implementation.md)
 
 ---
 
-## Google Tag Manager
+## Google 标签管理器
 
-### Container Structure
+### 容器结构
 
-| Component | Purpose |
+| 组件 | 用途 |
 |-----------|---------|
 | Tags | Code that executes (GA4, pixels) |
-| Triggers | When tags fire (page view, click) |
+| Triggers | When tags fire (页面浏览, click) |
 | Variables | Dynamic values (click text, data layer) |
 
-### Data Layer Pattern
+### Data Layer 模式
 
 ```javascript
 dataLayer.push({
@@ -175,23 +175,23 @@ dataLayer.push({
 });
 ```
 
-**For detailed GTM implementation**: See [references/gtm-implementation.md](references/gtm-implementation.md)
+**如需详细说明，请参见 GTM implementation**: See [references/gtm-implementation.md](references/gtm-implementation.md)
 
 ---
 
-## UTM Parameter Strategy
+## UTM 参数策略
 
-### Standard Parameters
+### 标准参数
 
-| Parameter | Purpose | Example |
+| 参数 | 用途 | 示例 |
 |-----------|---------|---------|
-| utm_source | Traffic source | google, newsletter |
-| utm_medium | Marketing medium | cpc, email, social |
-| utm_campaign | Campaign name | spring_sale |
+| utm_source | Traffic 来源 | google, newsletter |
+| utm_medium | 营销 medium | cpc, email, social |
+| utm_campaign | 广告活动 name | spring_sale |
 | utm_content | Differentiate versions | hero_cta |
-| utm_term | Paid search keywords | running+shoes |
+| utm_term | Paid 搜索 关键词 | running+shoes |
 
-### Naming Conventions
+### 命名规范
 - Lowercase everything
 - Use underscores or hyphens consistently
 - Be specific but concise: `blog_footer_cta`, not `cta1`
@@ -199,28 +199,28 @@ dataLayer.push({
 
 ---
 
-## Debugging and Validation
+## 调试与校验
 
-### Testing Tools
+### 测试 Tools
 
-| Tool | Use For |
+| 工具 | 用途 |
 |------|---------|
-| GA4 DebugView | Real-time event monitoring |
+| GA4 DebugView | Real-time 事件 monitoring |
 | GTM Preview Mode | Test triggers before publish |
 | Browser Extensions | Tag Assistant, dataLayer Inspector |
 
-### Validation Checklist
+### 验证清单
 
 - [ ] Events firing on correct triggers
 - [ ] Property values populating correctly
 - [ ] No duplicate events
 - [ ] Works across browsers and mobile
-- [ ] Conversions recorded correctly
+- [ ] 转化 recorded correctly
 - [ ] No PII leaking
 
-### Common Issues
+### 常见问题
 
-| Issue | Check |
+| 问题 | 检查项 |
 |-------|-------|
 | Events not firing | Trigger config, GTM loaded |
 | Wrong values | Variable path, data layer structure |
@@ -228,25 +228,25 @@ dataLayer.push({
 
 ---
 
-## Privacy and Compliance
+## 隐私与合规
 
-### Considerations
+### 注意事项
 - Cookie consent required in EU/UK/CA
-- No PII in analytics properties
+- No PII in 分析 properties
 - Data retention settings
-- User deletion capabilities
+- User deletion 能力
 
-### Implementation
+### 实施方式
 - Use consent mode (wait for consent)
 - IP anonymization
 - Only collect what you need
-- Integrate with consent management platform
+- Integrate with consent management 平台
 
 ---
 
-## Output Format
+## 输出格式
 
-### Tracking Plan Document
+### 跟踪 Plan Document
 
 ```markdown
 # [Site/Product] Tracking Plan
@@ -281,29 +281,29 @@ dataLayer.push({
 1. What tools are you using (GA4, Mixpanel, etc.)?
 2. What key actions do you want to track?
 3. What decisions will this data inform?
-4. Who implements - dev team or marketing?
-5. Are there privacy/consent requirements?
+4. Who implements - dev team or 营销?
+5. Are there 隐私/consent requirements?
 6. What's already tracked?
 
 ---
 
 ## Tool Integrations
 
-For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analytics tools:
+For implementation, see the [tools registry](../../tools/REGISTRY.md). Key 分析 tools:
 
 | Tool | Best For | MCP | Guide |
 |------|----------|:---:|-------|
-| **GA4** | Web analytics, Google ecosystem | ✓ | [ga4.md](../../tools/integrations/ga4.md) |
-| **Mixpanel** | Product analytics, event tracking | - | [mixpanel.md](../../tools/integrations/mixpanel.md) |
-| **Amplitude** | Product analytics, cohort analysis | - | [amplitude.md](../../tools/integrations/amplitude.md) |
-| **PostHog** | Open-source analytics, session replay | - | [posthog.md](../../tools/integrations/posthog.md) |
-| **Segment** | Customer data platform, routing | - | [segment.md](../../tools/integrations/segment.md) |
+| **GA4** | Web 分析, Google ecosystem | ✓ | [ga4.md](../../tools/integrations/ga4.md) |
+| **Mixpanel** | 产品 分析, 事件 跟踪 | - | [mixpanel.md](../../tools/integrations/mixpanel.md) |
+| **Amplitude** | 产品 分析, cohort analysis | - | [amplitude.md](../../tools/integrations/amplitude.md) |
+| **PostHog** | 开源 分析, 会话回放 | - | [posthog.md](../../tools/integrations/posthog.md) |
+| **Segment** | 客户 data 平台, routing | - | [segment.md](../../tools/integrations/segment.md) |
 
 ---
 
 ## Related Skills
 
-- **ab-test-setup**: For experiment tracking
-- **seo-audit**: For organic traffic analysis
+- **ab-test-配置方式**: For experiment 跟踪
+- **seo-audit**: For organic traffic 分析
 - **page-cro**: For conversion optimization (uses this data)
-- **revops**: For pipeline metrics, CRM tracking, and revenue attribution
+- **revops**: For pipeline 指标, CRM 跟踪, and revenue attribution

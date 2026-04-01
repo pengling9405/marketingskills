@@ -1,6 +1,6 @@
 # Mermaid Diagram Templates
 
-Copy-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site.
+文案-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site.
 
 ---
 
@@ -185,7 +185,7 @@ graph TD
 
 ## Color-Coding Conventions
 
-Use styles to highlight page status, priority, or type.
+Use styles to highlight page status, priority, or 类型.
 
 ```mermaid
 graph TD

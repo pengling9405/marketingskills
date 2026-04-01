@@ -1,24 +1,24 @@
 # Wistia
 
-Video hosting, management, and analytics platform built for marketers with detailed engagement tracking.
+视频 hosting, management, and 分析 平台 built for marketers with detailed engagement 跟踪.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Data API (v1/modern), Stats API, Upload API |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [wistia.js](../clis/wistia.js) |
 | SDK | ✓ | Ruby (official), community wrappers for other languages |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token
-- **Header**: `Authorization: Bearer {api_token}`
-- **Get key**: Account Settings > API tab at https://account.wistia.com/account/api
-- **Note**: Only Account Owners can create/manage tokens. Tokens can only be copied when first created.
+- **类型**: Bearer Token
+- **请求头**: `Authorization: Bearer {api_token}`
+- **Get key**: 账户 Settings > API tab at https://账户.wistia.com/账户/API
+- **Note**: Only 账户 Owners can create/manage tokens. Tokens can only be copied when first created.
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List all projects
 
@@ -54,7 +54,7 @@ GET https://api.wistia.com/v1/medias/{media_hashed_id}.json
 GET https://api.wistia.com/v1/medias/{media_hashed_id}/stats.json
 ```
 
-### Get account-wide stats
+### Get 账户-wide stats
 
 ```bash
 GET https://api.wistia.com/v1/stats/account.json
@@ -95,7 +95,7 @@ PUT https://api.wistia.com/v1/medias/{media_hashed_id}.json
 }
 ```
 
-### List captions for a video
+### List captions for a 视频
 
 ```bash
 GET https://api.wistia.com/v1/medias/{media_hashed_id}/captions.json
@@ -105,14 +105,14 @@ GET https://api.wistia.com/v1/medias/{media_hashed_id}/captions.json
 
 Wistia has two API versions:
 - **v1** (`/v1/`) - Legacy, perpetually supported, no breaking changes
-- **modern** (`/modern/`) - Current version, date-based versioning via `X-Wistia-Api-Version` header
+- **modern** (`/modern/`) - Current version, date-based versioning via `X-Wistia-Api-Version` 请求头
 
 The CLI uses v1 for maximum stability.
 
-## Key Metrics
+## 核心指标
 
 ### Media Stats
-- `plays` - Total video plays
+- `plays` - Total 视频 plays
 - `visitors` - Unique visitors
 - `pageLoads` - Page load count
 - `averagePercentWatched` - Average watch percentage
@@ -122,10 +122,10 @@ The CLI uses v1 for maximum stability.
 - Heatmap data showing exactly where viewers watch, rewatch, and drop off
 - Per-second engagement breakdown
 
-### Account Stats
-- `total_medias` - Total video count
-- `total_plays` - Account-wide plays
-- `total_hours_watched` - Total hours of video watched
+### 账户 Stats
+- `total_medias` - Total 视频 count
+- `total_plays` - 账户-wide plays
+- `total_hours_watched` - Total hours of 视频 watched
 
 ## Parameters
 
@@ -134,31 +134,31 @@ The CLI uses v1 for maximum stability.
 - `per_page` - Results per page (default: 25, max: 100)
 - `project_id` - Filter by project
 - `name` - Filter by name
-- `type` - Filter by type (Video, Audio, Image, etc.)
+- `type` - Filter by 类型 (视频, Audio, Image, etc.)
 
 ### Stats Date Parameters
 - `start_date` - Start date (YYYY-MM-DD)
 - `end_date` - End date (YYYY-MM-DD)
 
-## When to Use
+## 适用场景
 
-- Hosting marketing and product videos with analytics
-- Tracking video engagement and viewer behavior
-- A/B testing video thumbnails and CTAs
+- Hosting 营销 and 产品 videos with 分析
+- 跟踪 视频 engagement and viewer behavior
+- A/B 测试 视频 thumbnails and CTAs
 - Embedding videos with custom player branding
 - Analyzing which parts of videos drive engagement
-- Lead generation via video email gates
+- Lead generation via 视频 email gates
 
-## Rate Limits
+## 速率限制
 
-- 600 requests per minute per account
-- Exceeding returns HTTP 429 with `Retry-After` header
+- 600 requests per minute per 账户
+- Exceeding returns HTTP 429 with `Retry-After` 请求头
 - Asset access (media file downloads) does not count toward limit
 - Events data returns records from past 2 years only
 
-## Relevant Skills
+## 相关技能
 
-- video-marketing
+- 视频-营销
 - content-repurposing
 - landing-page-optimization
 - lead-generation

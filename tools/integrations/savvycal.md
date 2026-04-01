@@ -1,23 +1,23 @@
 # SavvyCal
 
-Scheduling platform API for managing scheduling links, events, availability slots, and webhooks.
+Scheduling 平台 API for managing scheduling links, events, availability slots, and webhooks.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API v1 - scheduling links, events, webhooks |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [savvycal.js](../clis/savvycal.js) |
 | SDK | - | No official SDK |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (Personal Access Token or OAuth 2.0)
-- **Header**: `Authorization: Bearer {token}`
+- **类型**: Bearer Token (Personal Access Token or OAuth 2.0)
+- **请求头**: `Authorization: Bearer {token}`
 - **Get key**: Developer Settings in SavvyCal dashboard (create a Personal Access Token)
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get current user
 
@@ -89,13 +89,13 @@ GET https://api.savvycal.com/v1/scheduling-links/{id}/slots
 GET https://api.savvycal.com/v1/events
 ```
 
-### Get an event
+### Get an 事件
 
 ```bash
 GET https://api.savvycal.com/v1/events/{id}
 ```
 
-### Create an event
+### Create an 事件
 
 ```bash
 POST https://api.savvycal.com/v1/events
@@ -108,7 +108,7 @@ POST https://api.savvycal.com/v1/events
 }
 ```
 
-### Cancel an event
+### Cancel an 事件
 
 ```bash
 POST https://api.savvycal.com/v1/events/{id}/cancel
@@ -131,22 +131,22 @@ POST https://api.savvycal.com/v1/webhooks
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Scheduling Link Data
 - `id` - Unique link identifier
-- `name` - Display name
+- `name` - 展示 name
 - `slug` - URL slug
 - `duration_minutes` - Meeting duration
 - `state` - Active or disabled
 - `url` - Full scheduling URL
 
-### Event Data
-- `id` - Unique event identifier
+### 事件 Data
+- `id` - Unique 事件 identifier
 - `name` - Invitee name
 - `email` - Invitee email
-- `start_at` / `end_at` - Event timing
-- `status` - Event status
+- `start_at` / `end_at` - 事件 timing
+- `status` - 事件 status
 - `scheduling_link` - Associated scheduling link
 
 ## Parameters
@@ -159,23 +159,23 @@ POST https://api.savvycal.com/v1/webhooks
 - `before` / `after` - Pagination cursors
 - `limit` - Results per page
 
-## When to Use
+## 适用场景
 
 - Managing scheduling links programmatically
-- Retrieving booked events for CRM or analytics sync
+- Retrieving booked events for CRM or 分析 sync
 - Checking available time slots for custom booking UIs
-- Automating scheduling link creation for campaigns
+- Automating scheduling link creation for 广告活动
 - Monitoring booking activity via webhooks
 
-## Rate Limits
+## 速率限制
 
 - Not officially documented
 - Implement retry logic with exponential backoff
 - Monitor for HTTP 429 responses
 
-## Relevant Skills
+## 相关技能
 
 - lead-generation
 - sales-automation
 - appointment-scheduling
-- customer-onboarding
+- 客户-onboarding

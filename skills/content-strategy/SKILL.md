@@ -1,37 +1,37 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content marketing," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.
+description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. 当用户提到以下内容时也应使用 "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," "content planning," "editorial calendar," "content 营销," "content roadmap," "what content should I create," "blog topics," "content pillars," or "I don't know what to write." 在这些情况下都应使用本技能 someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.
 metadata:
   version: 1.1.0
 ---
 
 # Content Strategy
 
-You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
+You are a content strategist. Your goal is to help plan content that drives traffic, builds 权威, and generates leads by being either searchable, shareable, or both.
 
 ## Before Planning
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
 ### 1. Business Context
 - What does the company do?
-- Who is the ideal customer?
+- Who is the ideal 客户?
 - What's the primary goal for content? (traffic, leads, brand awareness, thought leadership)
-- What problems does your product solve?
+- What problems does your 产品 solve?
 
-### 2. Customer Research
-- What questions do customers ask before buying?
-- What objections come up in sales calls?
+### 2. 客户 Research
+- What questions do 客户 ask before buying?
+- What 异议 come up in sales calls?
 - What topics appear repeatedly in support tickets?
-- What language do customers use to describe their problems?
+- What language do 客户 use to describe their problems?
 
 ### 3. Current State
 - Do you have existing content? What's working?
-- What resources do you have? (writers, budget, time)
-- What content formats can you produce? (written, video, audio)
+- What resources do you have? (writers, 预算, time)
+- What content formats can you produce? (written, 视频, audio)
 
 ### 4. Competitive Landscape
 - Who are your main competitors?
@@ -41,7 +41,7 @@ Gather this context (ask if not provided):
 
 ## Searchable vs Shareable
 
-Every piece of content must be searchable, shareable, or both. Prioritize in that order—search traffic is the foundation.
+Every piece of content must be searchable, shareable, or both. Prioritize in that order—搜索 traffic is the foundation.
 
 **Searchable content** captures existing demand. Optimized for people actively looking for answers.
 
@@ -49,11 +49,11 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 
 ### When Writing Searchable Content
 
-- Target a specific keyword or question
-- Match search intent exactly—answer what the searcher wants
-- Use clear titles that match search queries
-- Structure with headings that mirror search patterns
-- Place keywords in title, headings, first paragraph, URL
+- Target a specific 关键词 or question
+- Match 搜索 intent exactly—answer what the searcher wants
+- Use clear titles that match 搜索 queries
+- Structure with headings that mirror 搜索 patterns
+- Place 关键词 in title, headings, first paragraph, URL
 - Provide comprehensive coverage (don't leave questions unanswered)
 - Include data, examples, and links to authoritative sources
 - Optimize for AI/LLM discovery: clear positioning, structured content, brand consistency across the web
@@ -74,13 +74,13 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 ### Searchable Content Types
 
 **Use-Case Content**
-Formula: [persona] + [use-case]. Targets long-tail keywords.
+Formula: [persona] + [use-case]. Targets long-tail 关键词.
 - "Project management for designers"
-- "Task tracking for developers"
+- "Task 跟踪 for developers"
 - "Client collaboration for freelancers"
 
 **Hub and Spoke**
-Hub = comprehensive overview. Spokes = related subtopics.
+Hub = comprehensive 概览. Spokes = related subtopics.
 ```
 /topic (hub)
 ├── /topic/subtopic-1 (spoke)
@@ -92,27 +92,27 @@ Create hub first, then build spokes. Interlink strategically.
 **Note:** Most content works fine under `/blog`. Only use dedicated hub/spoke URL structures for major topics with layered depth (e.g., Atlassian's `/agile` guide). For typical blog posts, `/blog/post-title` is sufficient.
 
 **Template Libraries**
-High-intent keywords + product adoption.
-- Target searches like "marketing plan template"
+High-intent 关键词 + 产品 adoption.
+- Target searches like "营销 plan template"
 - Provide immediate standalone value
-- Show how product enhances the template
+- Show how 产品 enhances the template
 
 ### Shareable Content Types
 
 **Thought Leadership**
-- Articulate concepts everyone feels but hasn't named
+- Articulate 概念 everyone feels but hasn't named
 - Challenge conventional wisdom with evidence
 - Share vulnerable, honest experiences
 
 **Data-Driven Content**
-- Product data analysis (anonymized insights)
+- 产品 data analysis (anonymized insights)
 - Public data analysis (uncover patterns)
 - Original research (run experiments, share results)
 
 **Expert Roundups**
 15-30 experts answering one specific question. Built-in distribution.
 
-**Case Studies**
+**案例研究**
 Structure: Challenge → Solution → Results → Key learnings
 
 **Meta Content**
@@ -130,9 +130,9 @@ Most of the time, all content can live under `/blog` with good internal linking 
 
 ### How to Identify Pillars
 
-1. **Product-led**: What problems does your product solve?
-2. **Audience-led**: What does your ICP need to learn?
-3. **Search-led**: What topics have volume in your space?
+1. **产品-led**: What problems does your 产品 solve?
+2. **受众-led**: What does your ICP need to learn?
+3. **搜索-led**: What topics have volume in your space?
 4. **Competitor-led**: What are competitors ranking for?
 
 ### Pillar Structure
@@ -156,21 +156,21 @@ Pillar Topic (Hub)
 ### Pillar Criteria
 
 Good pillars should:
-- Align with your product/service
-- Match what your audience cares about
-- Have search volume and/or social interest
+- Align with your 产品/service
+- Match what your 受众 cares about
+- Have 搜索 volume and/or social interest
 - Be broad enough for many subtopics
 
 ---
 
-## Keyword Research by Buyer Stage
+## 关键词 Research by Buyer Stage
 
-Map topics to the buyer's journey using proven keyword modifiers:
+Map topics to the buyer's journey using proven 关键词 modifiers:
 
 ### Awareness Stage
 Modifiers: "what is," "how to," "guide to," "introduction to"
 
-Example: If customers ask about project management basics:
+示例: If 客户 ask about project management basics:
 - "What is Agile Project Management"
 - "Guide to Sprint Planning"
 - "How to Run a Standup Meeting"
@@ -178,7 +178,7 @@ Example: If customers ask about project management basics:
 ### Consideration Stage
 Modifiers: "best," "top," "vs," "alternatives," "comparison"
 
-Example: If customers evaluate multiple tools:
+示例: If 客户 evaluate multiple tools:
 - "Best Project Management Tools for Remote Teams"
 - "Asana vs Trello vs Monday"
 - "Basecamp Alternatives"
@@ -186,42 +186,42 @@ Example: If customers evaluate multiple tools:
 ### Decision Stage
 Modifiers: "pricing," "reviews," "demo," "trial," "buy"
 
-Example: If pricing comes up in sales calls:
+示例: If pricing comes up in sales calls:
 - "Project Management Tool Pricing Comparison"
 - "How to Choose the Right Plan"
-- "[Product] Reviews"
+- "[产品] Reviews"
 
-### Implementation Stage
-Modifiers: "templates," "examples," "tutorial," "how to use," "setup"
+### 实施方式 Stage
+Modifiers: "templates," "examples," "tutorial," "how to use," "配置方式"
 
-Example: If support tickets show implementation struggles:
+示例: If support tickets show implementation struggles:
 - "Project Template Library"
-- "Step-by-Step Setup Tutorial"
+- "Step-by-Step 配置方式 Tutorial"
 - "How to Use [Feature]"
 
 ---
 
 ## Content Ideation Sources
 
-### 1. Keyword Data
+### 1. 关键词 Data
 
-If user provides keyword exports (Ahrefs, SEMrush, GSC), analyze for:
-- Topic clusters (group related keywords)
+If user provides 关键词 exports (Ahrefs, SEMrush, GSC), analyze for:
+- Topic clusters (group related 关键词)
 - Buyer stage (awareness/consideration/decision/implementation)
-- Search intent (informational, commercial, transactional)
+- 搜索 intent (informational, commercial, transactional)
 - Quick wins (low competition + decent volume + high relevance)
-- Content gaps (keywords competitors rank for that you don't)
+- Content gaps (关键词 competitors rank for that you don't)
 
 Output as prioritized table:
-| Keyword | Volume | Difficulty | Buyer Stage | Content Type | Priority |
+| 关键词 | Volume | Difficulty | Buyer Stage | Content 类型 | Priority |
 
 ### 2. Call Transcripts
 
-If user provides sales or customer call transcripts, extract:
+If user provides sales or 客户 call transcripts, extract:
 - Questions asked → FAQ content or blog posts
 - Pain points → problems in their own words
-- Objections → content to address proactively
-- Language patterns → exact phrases to use (voice of customer)
+- 异议 → content to address proactively
+- Language patterns → exact phrases to use (voice of 客户)
 - Competitor mentions → what they compared you to
 
 Output content ideas with supporting quotes.
@@ -230,13 +230,13 @@ Output content ideas with supporting quotes.
 
 If user provides survey data, mine for:
 - Open-ended responses (topics and language)
-- Common themes (30%+ mention = high priority)
+- 常见 themes (30%+ mention = high priority)
 - Resource requests (what they wish existed)
 - Content preferences (formats they want)
 
 ### 4. Forum Research
 
-Use web search to find content ideas:
+Use web 搜索 to find content ideas:
 
 **Reddit:** `site:reddit.com [topic]`
 - Top posts in relevant subreddits
@@ -247,13 +247,13 @@ Use web search to find content ideas:
 - Most-followed questions
 - Highly upvoted answers
 
-**Other:** Indie Hackers, Hacker News, Product Hunt, industry Slack/Discord
+**Other:** Indie Hackers, Hacker News, 产品 Hunt, industry Slack/Discord
 
 Extract: FAQs, misconceptions, debates, problems being solved, terminology used.
 
 ### 5. Competitor Analysis
 
-Use web search to analyze competitor content:
+Use web 搜索 to analyze competitor content:
 
 **Find their content:** `site:competitor.com/blog`
 
@@ -261,7 +261,7 @@ Use web search to analyze competitor content:
 - Top-performing posts (comments, shares)
 - Topics covered repeatedly
 - Gaps they haven't covered
-- Case studies (customer problems, use cases, results)
+- 案例研究 (客户 problems, use cases, results)
 - Content structure (pillars, categories, formats)
 
 **Identify opportunities:**
@@ -271,8 +271,8 @@ Use web search to analyze competitor content:
 
 ### 6. Sales and Support Input
 
-Extract from customer-facing teams:
-- Common objections
+Extract from 客户-facing teams:
+- 常见 异议
 - Repeated questions
 - Support ticket patterns
 - Success stories
@@ -284,23 +284,23 @@ Extract from customer-facing teams:
 
 Score each idea on four factors:
 
-### 1. Customer Impact (40%)
+### 1. 客户 Impact (40%)
 - How frequently did this topic come up in research?
-- What percentage of customers face this challenge?
+- What percentage of 客户 face this challenge?
 - How emotionally charged was this pain point?
-- What's the potential LTV of customers with this need?
+- What's the potential LTV of 客户 with this need?
 
 ### 2. Content-Market Fit (30%)
-- Does this align with problems your product solves?
-- Can you offer unique insights from customer research?
-- Do you have customer stories to support this?
-- Will this naturally lead to product interest?
+- Does this align with problems your 产品 solves?
+- Can you offer unique insights from 客户 research?
+- Do you have 客户 stories to support this?
+- Will this naturally lead to 产品 interest?
 
-### 3. Search Potential (20%)
-- What's the monthly search volume?
+### 3. 搜索 Potential (20%)
+- What's the monthly 搜索 volume?
 - How competitive is this topic?
 - Are there related long-tail opportunities?
-- Is search interest growing or declining?
+- Is 搜索 interest growing or declining?
 
 ### 4. Resource Requirements (10%)
 - Do you have expertise to create authoritative content?
@@ -309,29 +309,29 @@ Score each idea on four factors:
 
 ### Scoring Template
 
-| Idea | Customer Impact (40%) | Content-Market Fit (30%) | Search Potential (20%) | Resources (10%) | Total |
+| Idea | 客户 Impact (40%) | Content-Market Fit (30%) | 搜索 Potential (20%) | Resources (10%) | Total |
 |------|----------------------|-------------------------|----------------------|-----------------|-------|
 | Topic A | 8 | 9 | 7 | 6 | 8.0 |
 | Topic B | 6 | 7 | 9 | 8 | 7.1 |
 
 ---
 
-## Output Format
+## 输出格式
 
 When creating a content strategy, provide:
 
 ### 1. Content Pillars
 - 3-5 pillars with rationale
 - Subtopic clusters for each pillar
-- How pillars connect to product
+- How pillars connect to 产品
 
 ### 2. Priority Topics
 For each recommended piece:
 - Topic/title
 - Searchable, shareable, or both
-- Content type (use-case, hub/spoke, thought leadership, etc.)
-- Target keyword and buyer stage
-- Why this topic (customer research backing)
+- Content 类型 (use-case, hub/spoke, thought leadership, etc.)
+- Target 关键词 and buyer stage
+- Why this topic (客户 research backing)
 
 ### 3. Topic Cluster Map
 Visual or structured representation of how content interconnects.
@@ -340,25 +340,25 @@ Visual or structured representation of how content interconnects.
 
 ## Task-Specific Questions
 
-1. What patterns emerge from your last 10 customer conversations?
+1. What patterns emerge from your last 10 客户 conversations?
 2. What questions keep coming up in sales calls?
 3. Where are competitors' content efforts falling short?
-4. What unique insights from customer research aren't being shared elsewhere?
-5. Which existing content drives the most conversions, and why?
+4. What unique insights from 客户 research aren't being shared elsewhere?
+5. Which existing content drives the most 转化, and why?
 
 ---
 
 ## References
 
-- **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
+- **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for 营销, editorial 工作流, 平台 comparison (Sanity, Contentful, Strapi)
 
 ---
 
 ## Related Skills
 
 - **copywriting**: For writing individual content pieces
-- **seo-audit**: For technical SEO and on-page optimization
-- **ai-seo**: For optimizing content for AI search engines and getting cited by LLMs
+- **seo-audit**: For technical SEO and on-page 优化
+- **ai-seo**: For optimizing content for AI 搜索 engines and getting cited by LLMs
 - **programmatic-seo**: For scaled content generation
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **email-sequence**: For email-based content

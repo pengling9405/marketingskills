@@ -62,7 +62,7 @@ Major card networks offer automatic card update programs:
 
 | Service | Network | What It Does |
 |---------|---------|--------------|
-| Visa Account Updater (VAU) | Visa | Auto-updates stored card numbers and expiry dates |
+| Visa 账户 Updater (VAU) | Visa | Auto-updates stored card numbers and expiry dates |
 | Mastercard Automatic Billing Updater (ABU) | Mastercard | Same for Mastercard |
 | Amex Cardrefresher | American Express | Same for Amex |
 
@@ -78,7 +78,7 @@ Major card networks offer automatic card update programs:
 
 Prompt for a second payment method:
 - During signup: "Add a backup payment method" (low conversion)
-- After first successful payment: "Protect your account with a backup card" (better timing)
+- After first successful payment: "Protect your 账户 with a backup card" (better timing)
 - After a failed payment is recovered: "Add a backup to prevent future interruptions" (best timing — they felt the pain)
 
 ### Pre-Billing Notifications
@@ -93,9 +93,9 @@ For annual plans or high-value subscriptions:
 
 ## Smart Retry Strategy
 
-### Decline Type Classification
+### Decline 类型 Classification
 
-| Code | Type | Meaning | Retry? |
+| Code | 类型 | Meaning | Retry? |
 |------|------|---------|--------|
 | `insufficient_funds` | Soft | Temporarily low balance | Yes — retry in 2-3 days |
 | `card_declined` (generic) | Soft | Various temporary reasons | Yes — retry 3-4 times |
@@ -103,7 +103,7 @@ For annual plans or high-value subscriptions:
 | `expired_card` | Hard | Card is expired | No — request new card |
 | `stolen_card` | Hard | Card reported stolen | No — request new card |
 | `do_not_honor` | Soft/Hard | Bank refused (ambiguous) | Try once more, then ask for new card |
-| `authentication_required` | Auth | SCA/3DS needed | Send customer to authenticate |
+| `authentication_required` | Auth | SCA/3DS needed | Send 客户 to authenticate |
 
 ### Retry Schedule by Provider
 
@@ -125,7 +125,7 @@ For annual plans or high-value subscriptions:
 
 **Retry timing insights:**
 - Retry on the same day of month the original payment succeeded
-- Retry after common paydays (1st and 15th of the month)
+- Retry after 常见 paydays (1st and 15th of the month)
 - Avoid retrying on weekends (lower approval rates)
 - Morning retries (8-10am local time) perform slightly better
 
@@ -249,9 +249,9 @@ will be paused automatically.
 ### Access Degradation Options
 
 **Option A: Full access during grace (recommended for B2B)**
-- Lower friction, customer feels respected
+- Lower friction, 客户 feels respected
 - Higher recovery rate (they still see value)
-- Risk: some customers exploit the grace period
+- Risk: some 客户 exploit the grace period
 
 **Option B: Read-only access (recommended for B2C)**
 - Can view but not create/edit
@@ -267,8 +267,8 @@ will be paused automatically.
 
 | Timing | Action |
 |--------|--------|
-| Grace period ends | Pause account (not delete) |
-| Day 1 post-pause | "Your account has been paused" email |
+| Grace period ends | Pause 账户 (not delete) |
+| Day 1 post-pause | "Your 账户 has been paused" email |
 | Day 7 post-pause | "Your data is still here" reminder |
 | Day 30 post-pause | Win-back attempt with new offer |
 | Day 60 post-pause | Final win-back |
@@ -276,7 +276,7 @@ will be paused automatically.
 
 ---
 
-## Provider-Specific Setup
+## Provider-Specific 配置方式
 
 ### Stripe
 
@@ -326,10 +326,10 @@ Final:   Mark subscription as unpaid after last retry
 2. Set retry schedule per plan
 3. Configure grace period and final action (pause vs cancel)
 
-**Advanced features:**
-- Machine-learning retry optimization
+**Advanced 特性:**
+- Machine-learning retry 优化
 - Per-plan dunning schedules
-- Built-in Account Updater
+- Built-in 账户 Updater
 
 ---
 
@@ -348,8 +348,8 @@ Don't rely on email alone. Show payment failures in the app:
 **Rules:**
 - Show on every page load during dunning period
 - Allow dismiss (but show again next session)
-- Direct link to payment update (fewest clicks possible)
-- Don't block the product — let them continue using it
+- Direct link to payment update (fewest 点击 possible)
+- Don't block the 产品 — let them continue using it
 
 ### Modal Pattern (for final warning)
 ```
@@ -370,18 +370,18 @@ Don't rely on email alone. Show payment failures in the app:
 
 ---
 
-## Measuring Dunning Performance
+## Measuring Dunning 表现
 
-### Key Metrics
+### 核心指标
 
 | Metric | How to Calculate | Target |
 |--------|-----------------|--------|
 | Recovery rate | Recovered payments / Total failed | 50-60% |
-| Recovery rate by decline type | Recovered / Failed per type | Soft: 70%+, Hard: 40%+ |
+| Recovery rate by decline 类型 | Recovered / Failed per 类型 | Soft: 70%+, Hard: 40%+ |
 | Time to recovery | Days from failure to successful payment | <5 days |
 | Pre-dunning prevention rate | Prevented failures / Expected failures | 20-30% |
 | Dunning email open rate | Opens / Sent per email | 60%+ |
-| Dunning email click rate | Clicks / Opens per email | 30%+ |
+| Dunning email click rate | 点击 / Opens per email | 30%+ |
 | Revenue recovered (monthly) | Sum of recovered payment amounts | Track trend |
 | Revenue lost to involuntary churn | Sum of failed + unrecovered amounts | Track trend |
 

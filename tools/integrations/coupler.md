@@ -1,23 +1,23 @@
 # Coupler.io
 
-Data integration platform that connects marketing, sales, analytics, and e-commerce data sources to destinations like spreadsheets, BI tools, and data warehouses with automated scheduling.
+Data integration 平台 that connects 营销, sales, 分析, and e-commerce data sources to destinations like spreadsheets, BI tools, and data warehouses with automated scheduling.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Importers, Runs, Sources, Destinations |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/coupler-io) |
 | CLI | ✓ | [coupler.js](../clis/coupler.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API at https://app.coupler.io
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Importers
 
@@ -67,25 +67,25 @@ GET https://api.coupler.io/v1/importers/{id}/runs
 GET https://api.coupler.io/v1/runs/{id}
 ```
 
-### List Available Sources
+### List 可用 Sources
 
 ```bash
 GET https://api.coupler.io/v1/sources
 ```
 
-### List Available Destinations
+### List 可用 Destinations
 
 ```bash
 GET https://api.coupler.io/v1/destinations
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Importer Data
 - `id` - Importer ID
 - `name` - Importer name
-- `source_type` - Source connector type
-- `destination_type` - Destination connector type
+- `source_type` - 来源 connector 类型
+- `destination_type` - 目标 connector 类型
 - `schedule` - Automation schedule
 - `status` - Current status
 - `last_run_at` - Last run timestamp
@@ -102,13 +102,13 @@ GET https://api.coupler.io/v1/destinations
 ## Parameters
 
 ### Importer Creation
-- `source_type` - Source connector (e.g., google_analytics, google_ads, facebook_ads, hubspot, shopify, stripe, airtable)
-- `destination_type` - Destination connector (e.g., google_sheets, bigquery, snowflake, postgresql)
+- `source_type` - 来源 connector (e.g., google_analytics, google_ads, facebook_ads, hubspot, shopify, stripe, airtable)
+- `destination_type` - 目标 connector (e.g., google_sheets, bigquery, snowflake, postgresql)
 - `name` - Importer name
 - `schedule` - Automation schedule (e.g., hourly, daily, weekly)
 
 ### Supported Sources
-- **Analytics**: Google Analytics, Adobe Analytics
+- **分析**: Google 分析, Adobe 分析
 - **Ads**: Google Ads, Facebook Ads, LinkedIn Ads, TikTok Ads
 - **CRM**: HubSpot, Salesforce, Pipedrive
 - **E-commerce**: Shopify, Stripe, WooCommerce
@@ -120,23 +120,23 @@ GET https://api.coupler.io/v1/destinations
 - **Data Warehouses**: BigQuery, Snowflake, Redshift
 - **Databases**: PostgreSQL, MySQL
 
-## When to Use
+## 适用场景
 
-- Automating marketing data pipelines from ads and analytics platforms
-- Consolidating multi-channel campaign data into a single destination
+- Automating 营销 data pipelines from ads and 分析 platforms
+- Consolidating multi-channel 广告活动 data into a single 目标
 - Scheduling recurring data syncs from CRM to spreadsheets or BI tools
-- Building marketing dashboards with fresh data from multiple sources
-- Exporting e-commerce data for reporting and analysis
+- Building 营销 dashboards with fresh data from multiple sources
+- Exporting e-commerce data for reporting and 分析
 - Connecting data sources without writing custom ETL code
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan
+- 速率限制 vary by plan
 - Standard: API access available on Professional and higher plans
 - Importer run frequency depends on plan tier
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
+- 分析-跟踪
 - paid-ads
 - revops

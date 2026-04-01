@@ -1,23 +1,23 @@
 # Generative AI Tools for Ad Creative
 
-Reference for using AI image generators, video generators, and code-based video tools to produce ad visuals at scale.
+参考 for using AI image generators, 视频 generators, and code-based 视频 tools to produce ad visuals at scale.
 
 ---
 
-## When to Use Generative Tools
+## 适用场景 Generative Tools
 
 | Need | Tool Category | Best Fit |
 |------|---------------|----------|
 | Static ad images (banners, social) | Image generation | Nano Banana Pro, Flux, Ideogram |
 | Ad images with text overlays | Image generation (text-capable) | Ideogram, Nano Banana Pro |
-| Short video ads (6-30 sec) | Video generation | Veo, Kling, Runway, Sora, Seedance |
-| Video ads with voiceover | Video gen + voice | Veo/Sora (native), or Runway + ElevenLabs |
+| Short 视频 ads (6-30 sec) | 视频 generation | Veo, Kling, Runway, Sora, Seedance |
+| 视频 ads with voiceover | 视频 gen + voice | Veo/Sora (native), or Runway + ElevenLabs |
 | Voiceover tracks for ads | Voice generation | ElevenLabs, OpenAI TTS, Cartesia |
 | Multi-language ad versions | Voice generation | ElevenLabs, PlayHT |
 | Brand voice cloning | Voice generation | ElevenLabs, Resemble AI |
-| Product mockups and variations | Image generation + references | Flux (multi-image reference) |
-| Templated video ads at scale | Code-based video | Remotion |
-| Personalized video (name, data) | Code-based video | Remotion |
+| 产品 mockups and variations | Image generation + references | Flux (multi-image 参考) |
+| Templated 视频 ads at scale | Code-based 视频 | Remotion |
+| Personalized 视频 (name, data) | Code-based 视频 | Remotion |
 | Brand-consistent variations | Image gen + style refs | Flux, Ideogram, Nano Banana Pro |
 
 ---
@@ -28,23 +28,23 @@ Reference for using AI image generators, video generators, and code-based video 
 
 Google DeepMind's image generation model, available through the Gemini API.
 
-**Best for:** High-quality ad images, product visuals, text rendering
+**Best for:** High-质量 ad images, 产品 visuals, text rendering
 **API:** Gemini API (Google AI Studio, Vertex AI)
 **Pricing:** ~$0.04/image (Gemini 2.5 Flash Image), ~$0.24/4K image (Nano Banana Pro)
 
 **Strengths:**
 - Strong text rendering in images (logos, headlines)
 - Native image editing (modify existing images with prompts)
-- Available through the same Gemini API used for text generation
+- 可用 through the same Gemini API used for text generation
 - Supports both generation and editing in one model
 
 **Ad creative use cases:**
 - Generate social media ad images from text descriptions
-- Create product mockup variations
+- Create 产品 mockup variations
 - Edit existing ad images (swap backgrounds, change colors)
-- Generate images with headline text baked in
+- Generate images with 标题 text baked in
 
-**API example:**
+**API 示例:**
 ```bash
 # Using the Gemini API for image generation
 curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent" \
@@ -64,12 +64,12 @@ curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5
 
 Open-weight image generation models with API access through Replicate and BFL's native API.
 
-**Best for:** Photorealistic images, brand-consistent variations, multi-reference generation
+**Best for:** Photorealistic images, brand-consistent variations, multi-参考 generation
 **API:** Replicate, BFL API, fal.ai
 **Pricing:** ~$0.01-0.06/image depending on model and resolution
 
 **Model variants:**
-| Model | Speed | Quality | Cost | Best For |
+| Model | Speed | 质量 | Cost | Best For |
 |-------|-------|---------|------|----------|
 | Flux 2 Pro | ~6 sec | Highest | $0.015/MP | Final production assets |
 | Flux 2 Flex | ~22 sec | High + editing | $0.06/MP | Iterative editing |
@@ -77,15 +77,15 @@ Open-weight image generation models with API access through Replicate and BFL's 
 | Flux 2 Klein | Fastest | Good | Lowest | High-volume batch generation |
 
 **Strengths:**
-- Multi-image reference (up to 8 images) for consistent identity across ads
-- Product consistency — same product in different contexts
-- Style transfer from reference images
+- Multi-image 参考 (up to 8 images) for consistent identity across ads
+- 产品 consistency — same 产品 in different contexts
+- Style transfer from 参考 images
 - Open-weight Dev model for self-hosting
 
 **Ad creative use cases:**
-- Generate 50+ ad variations with consistent product/person identity
-- Create product-in-context images (your SaaS on different devices)
-- Style-match to existing brand assets using reference images
+- Generate 50+ ad variations with consistent 产品/person identity
+- Create 产品-in-context images (your SaaS on different devices)
+- Style-match to existing brand assets using 参考 images
 - Rapid A/B test image variations
 
 **Docs:** [Replicate Flux](https://replicate.com/black-forest-labs/flux-2-pro), [BFL API](https://docs.bfl.ml/)
@@ -102,12 +102,12 @@ Specialized in typography and text rendering within images.
 
 **Strengths:**
 - Best-in-class text rendering (~90% accuracy vs ~30% for most tools)
-- Style reference system (upload up to 3 reference images)
+- Style 参考 system (upload up to 3 参考 images)
 - 4.3 billion style presets for consistent brand aesthetics
 - Strong at logos and branded typography
 
 **Ad creative use cases:**
-- Generate ad banners with headline text directly in the image
+- Generate ad banners with 标题 text directly in the image
 - Create social media graphics with branded text overlays
 - Produce multiple design variations with consistent typography
 - Generate promotional materials without needing a designer for each iteration
@@ -118,36 +118,36 @@ Specialized in typography and text rendering within images.
 
 ### Other Image Tools
 
-| Tool | Best For | API Status | Notes |
+| Tool | Best For | API Status | 说明 |
 |------|----------|------------|-------|
 | **DALL-E 3** (OpenAI) | General image generation | Official API | Integrated with ChatGPT, good text rendering |
 | **Midjourney** | Artistic, high-aesthetic images | No official public API | Discord-based; unofficial APIs exist but risk bans |
-| **Stable Diffusion** | Self-hosted, customizable | Open source | Best for teams with GPU infrastructure |
+| **Stable Diffusion** | Self-hosted, customizable | Open 来源 | Best for teams with GPU infrastructure |
 
 ---
 
-## Video Generation
+## 视频 Generation
 
 ### Google Veo
 
-Google DeepMind's video generation model, available through the Gemini API and Vertex AI.
+Google DeepMind's 视频 generation model, available through the Gemini API and Vertex AI.
 
-**Best for:** High-quality video ads with native audio, vertical video for social
+**Best for:** High-质量 视频 ads with native audio, vertical 视频 for social
 **API:** Gemini API, Vertex AI
 **Pricing:** ~$0.15/sec (Veo 3.1 Fast), ~$0.40/sec (Veo 3.1 Standard)
 
-**Capabilities:**
+**能力:**
 - Up to 60 seconds at 1080p
 - Native audio generation (dialogue, sound effects, ambient)
 - Vertical 9:16 output for Stories/Reels/Shorts
 - Upscale to 4K
-- Text-to-video and image-to-video
+- Text-to-视频 and image-to-视频
 
 **Ad creative use cases:**
-- Generate short video ads (15-30 sec) from text descriptions
-- Create vertical video ads for TikTok, Reels, Shorts
-- Produce product demos with voiceover
-- Generate multiple video variations from the same prompt with different styles
+- Generate short 视频 ads (15-30 sec) from text descriptions
+- Create vertical 视频 ads for TikTok, Reels, Shorts
+- Produce 产品 demos with voiceover
+- Generate multiple 视频 variations from the same prompt with different styles
 
 **Docs:** [Veo on Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/video/overview)
 
@@ -155,22 +155,22 @@ Google DeepMind's video generation model, available through the Gemini API and V
 
 ### Kling (Kuaishou)
 
-Video generation with simultaneous audio-visual generation and camera controls.
+视频 generation with simultaneous audio-visual generation and camera controls.
 
-**Best for:** Cinematic video ads, longer-form content, audio-synced video
+**Best for:** Cinematic 视频 ads, longer-form content, audio-synced 视频
 **API:** Kling API, PiAPI, fal.ai
 **Pricing:** ~$0.09/sec (via fal.ai third-party)
 
-**Capabilities:**
+**能力:**
 - Up to 3 minutes at 1080p/30-48fps
 - Simultaneous audio-visual generation (Kling 2.6)
-- Text-to-video and image-to-video
+- Text-to-视频 and image-to-视频
 - Motion and camera controls
 
 **Ad creative use cases:**
-- Longer product explainer videos
+- Longer 产品 explainer videos
 - Cinematic brand videos with synchronized audio
-- Animate product images into video ads
+- Animate 产品 images into 视频 ads
 
 **Docs:** [Kling AI Developer](https://klingai.com/global/dev/model/video)
 
@@ -178,21 +178,21 @@ Video generation with simultaneous audio-visual generation and camera controls.
 
 ### Runway
 
-Video generation and editing platform with strong controllability.
+视频 generation and editing 平台 with strong controllability.
 
-**Best for:** Controlled video generation, style-consistent content, editing existing footage
+**Best for:** Controlled 视频 generation, style-consistent content, editing existing footage
 **API:** Runway Developer Portal
 
-**Capabilities:**
+**能力:**
 - Gen-4: Character/scene consistency across shots
 - Motion brush and camera controls
-- Image-to-video with reference images
-- Video-to-video style transfer
+- Image-to-视频 with 参考 images
+- 视频-to-视频 style transfer
 
 **Ad creative use cases:**
-- Generate video ads with consistent characters/products across scenes
+- Generate 视频 ads with consistent characters/products across scenes
 - Style-transfer existing footage to match brand aesthetics
-- Extend or remix existing video content
+- Extend or remix existing 视频 content
 
 **Docs:** [Runway API](https://docs.dev.runwayml.com/)
 
@@ -200,21 +200,21 @@ Video generation and editing platform with strong controllability.
 
 ### Sora 2 (OpenAI)
 
-OpenAI's video generation model with synchronized audio.
+OpenAI's 视频 generation model with synchronized audio.
 
-**Best for:** High-fidelity video with dialogue and sound
+**Best for:** High-fidelity 视频 with dialogue and sound
 **API:** OpenAI API
 **Pricing:** Free tier available; Pro from $0.10-0.50/sec depending on resolution
 
-**Capabilities:**
+**能力:**
 - Up to 60 seconds with synchronized audio
 - Dialogue, sound effects, and ambient audio
-- sora-2 (fast) and sora-2-pro (quality) variants
-- Text-to-video and image-to-video
+- sora-2 (fast) and sora-2-pro (质量) variants
+- Text-to-视频 and image-to-视频
 
 **Ad creative use cases:**
-- Video testimonials and talking-head style ads
-- Product demo videos with narration
+- 视频 推荐语 and talking-head style ads
+- 产品 demo videos with narration
 - Narrative brand videos
 
 **Docs:** [OpenAI Video Generation](https://platform.openai.com/docs/guides/video-generation)
@@ -223,24 +223,24 @@ OpenAI's video generation model with synchronized audio.
 
 ### Seedance 2.0 (ByteDance)
 
-ByteDance's video generation model with simultaneous audio-visual generation and multimodal inputs.
+ByteDance's 视频 generation model with simultaneous audio-visual generation and multimodal inputs.
 
-**Best for:** Fast, affordable video ads with native audio, multimodal reference inputs
+**Best for:** Fast, affordable 视频 ads with native audio, multimodal 参考 inputs
 **API:** BytePlus (official), Replicate, WaveSpeedAI, fal.ai (third-party); OpenAI-compatible API format
 **Pricing:** ~$0.10-0.80/min depending on resolution (estimated 10-100x cheaper than Sora 2 per clip)
 
-**Capabilities:**
+**能力:**
 - Up to 20 seconds at up to 2K resolution
 - Simultaneous audio-visual generation (Dual-Branch Diffusion Transformer)
-- Text-to-video and image-to-video
-- Up to 12 reference files for multimodal input
+- Text-to-视频 and image-to-视频
+- Up to 12 参考 files for multimodal input
 - OpenAI-compatible API structure
 
 **Ad creative use cases:**
-- High-volume short video ad production at low cost
-- Video ads with synchronized voiceover and sound effects in one pass
-- Multi-reference generation (feed product images, brand assets, style references)
-- Rapid iteration on video ad concepts
+- High-volume short 视频 ad production at low cost
+- 视频 ads with synchronized voiceover and sound effects in one pass
+- Multi-参考 generation (feed 产品 images, brand assets, style references)
+- Rapid iteration on 视频 ad 概念
 
 **Docs:** [Seedance](https://seed.bytedance.com/en/seedance2_0)
 
@@ -248,30 +248,30 @@ ByteDance's video generation model with simultaneous audio-visual generation and
 
 ### Higgsfield
 
-Full-stack video creation platform with cinematic camera controls.
+Full-stack 视频 creation 平台 with cinematic camera controls.
 
-**Best for:** Social video ads, cinematic style, mobile-first content
-**Platform:** [higgsfield.ai](https://higgsfield.ai/)
+**Best for:** Social 视频 ads, cinematic style, mobile-first content
+**平台:** [higgsfield.ai](https://higgsfield.ai/)
 
-**Capabilities:**
+**能力:**
 - 50+ professional camera movements (zooms, pans, FPV drone shots)
-- Image-to-video animation
+- Image-to-视频 animation
 - Built-in editing, transitions, and keyframing
-- All-in-one workflow: image gen, animation, editing
+- All-in-one 工作流: image gen, animation, editing
 
 **Ad creative use cases:**
-- Social media video ads with cinematic feel
-- Animate product images into dynamic video
-- Create multiple video variations with different camera styles
-- Quick-turn video content for social campaigns
+- Social media 视频 ads with cinematic feel
+- Animate 产品 images into dynamic 视频
+- Create multiple 视频 variations with different camera styles
+- Quick-turn 视频 content for social 广告活动
 
 ---
 
-### Video Tool Comparison
+### 视频 Tool Comparison
 
 | Tool | Max Length | Audio | Resolution | API | Best For |
 |------|-----------|-------|------------|-----|----------|
-| **Veo 3.1** | 60 sec | Native | 1080p/4K | Gemini | Vertical social video |
+| **Veo 3.1** | 60 sec | Native | 1080p/4K | Gemini | Vertical social 视频 |
 | **Kling 2.6** | 3 min | Native | 1080p | Third-party | Longer cinematic |
 | **Runway Gen-4** | 10 sec | No | 1080p | Official | Controlled, consistent |
 | **Sora 2** | 60 sec | Native | 1080p | Official | Dialogue-heavy |
@@ -282,16 +282,16 @@ Full-stack video creation platform with cinematic camera controls.
 
 ## Voice & Audio Generation
 
-For layering realistic voiceovers onto video ads, adding narration to product demos, or generating audio for Remotion-rendered videos. These tools turn ad scripts into natural-sounding voice tracks.
+For layering realistic voiceovers onto 视频 ads, adding narration to 产品 demos, or generating audio for Remotion-rendered videos. These tools turn ad scripts into natural-sounding voice tracks.
 
-### When to Use Voice Tools
+### 适用场景 Voice Tools
 
-Many video generators (Veo, Kling, Sora, Seedance) now include native audio. Use standalone voice tools when you need:
+Many 视频 generators (Veo, Kling, Sora, Seedance) now include native audio. Use standalone voice tools when you need:
 
-- **Voiceover on silent video** — Runway Gen-4 and Remotion produce silent output
+- **Voiceover on silent 视频** — Runway Gen-4 and Remotion produce silent output
 - **Brand voice consistency** — Clone a specific voice for all ads
 - **Multi-language versions** — Same ad script in 20+ languages
-- **Script iteration** — Re-record voiceover without reshooting video
+- **Script iteration** — Re-record voiceover without reshooting 视频
 - **Precise control** — Exact timing, emotion, and pacing
 
 ---
@@ -304,7 +304,7 @@ The market leader in realistic voice generation and voice cloning.
 **API:** REST API with streaming support
 **Pricing:** ~$0.12-0.30 per 1,000 characters depending on plan; starts at $5/month
 
-**Capabilities:**
+**能力:**
 - 29+ languages with natural accent and intonation
 - Voice cloning from short audio clips (instant) or longer recordings (professional)
 - Emotion and style control
@@ -312,12 +312,12 @@ The market leader in realistic voice generation and voice cloning.
 - Voice library with hundreds of pre-built voices
 
 **Ad creative use cases:**
-- Generate voiceover tracks for video ads
+- Generate voiceover tracks for 视频 ads
 - Clone your brand spokesperson's voice for all ad variations
 - Produce the same ad in 10+ languages from one script
 - A/B test different voice styles (authoritative vs. friendly vs. urgent)
 
-**API example:**
+**API 示例:**
 ```bash
 curl -X POST "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}" \
   -H "xi-api-key: $ELEVENLABS_API_KEY" \
@@ -341,11 +341,11 @@ Simple, affordable text-to-speech built into the OpenAI API.
 **API:** OpenAI API (same SDK as GPT/DALL-E)
 **Pricing:** $15/million chars (standard), $30/million chars (HD); ~$0.015/min with gpt-4o-mini-tts
 
-**Capabilities:**
+**能力:**
 - 13 built-in voices (no custom cloning)
 - Multiple languages
 - Real-time streaming
-- HD quality option
+- HD 质量 option
 - Simple API — same SDK you already use for GPT
 
 **Ad creative use cases:**
@@ -365,7 +365,7 @@ Ultra-low latency voice generation built for real-time applications.
 **API:** REST + WebSocket streaming
 **Pricing:** Starts at $5/month; pay-as-you-go from $0.03/min
 
-**Capabilities:**
+**能力:**
 - 40ms time-to-first-audio (fastest in class)
 - 15+ languages
 - Nonverbal expressiveness: laughter, breathing, emotional inflections
@@ -381,16 +381,16 @@ Ultra-low latency voice generation built for real-time applications.
 
 ---
 
-### Voicebox (Open Source)
+### Voicebox (Open 来源)
 
-Free, local-first voice synthesis studio powered by Qwen3-TTS. The open-source alternative to ElevenLabs.
+Free, local-first voice synthesis studio powered by Qwen3-TTS. The 开源 alternative to ElevenLabs.
 
 **Best for:** Free voice cloning, local/private generation, zero-cost batch production
 **API:** Local REST API at `http://localhost:8000`
 **Pricing:** Free (MIT license). Runs entirely on your machine.
 **Stack:** Tauri (Rust) + React + FastAPI (Python)
 
-**Capabilities:**
+**能力:**
 - Voice cloning from short audio samples via Qwen3-TTS
 - Multi-language support (English, Chinese, more planned)
 - Multi-track timeline editor for composing conversations
@@ -404,14 +404,14 @@ Free, local-first voice synthesis studio powered by Qwen3-TTS. The open-source a
 - Private/local generation when ad content is sensitive or pre-launch
 - Prototype voice variations before committing to a paid service
 
-**API example:**
+**API 示例:**
 ```bash
 curl -X POST http://localhost:8000/generate \
   -H "Content-Type: application/json" \
   -d '{"text": "Stop wasting hours on manual reporting.", "profile_id": "abc123", "language": "en"}'
 ```
 
-**Install:** Desktop apps for macOS and Windows at [voicebox.sh](https://voicebox.sh), or build from source:
+**Install:** Desktop apps for macOS and Windows at [voicebox.sh](https://voicebox.sh), or build from 来源:
 ```bash
 git clone https://github.com/jamiepine/voicebox.git
 cd voicebox && make setup && make dev
@@ -428,7 +428,7 @@ cd voicebox && make setup && make dev
 | **PlayHT** | Large voice library, low latency | 900+ voices, <300ms latency, ultra-realistic | [play.ht](https://play.ht/) |
 | **Resemble AI** | Enterprise voice cloning | On-premise deployment, real-time speech-to-speech | [resemble.ai](https://www.resemble.ai/) |
 | **WellSaid Labs** | Ethical, commercial-safe voices | Voices from compensated actors, safe for commercial use | [wellsaid.io](https://www.wellsaid.io/) |
-| **Fish Audio** | Budget-friendly, emotion control | ~50-70% cheaper than ElevenLabs, emotion tags | [fish.audio](https://fish.audio/) |
+| **Fish Audio** | 预算-friendly, emotion control | ~50-70% cheaper than ElevenLabs, emotion tags | [fish.audio](https://fish.audio/) |
 | **Murf AI** | Non-technical teams | Browser-based studio, 200+ voices | [murf.ai](https://murf.ai/) |
 | **Google Cloud TTS** | Google ecosystem, scale | 220+ voices, 40+ languages, enterprise SLAs | [Google TTS](https://cloud.google.com/text-to-speech) |
 | **Amazon Polly** | AWS ecosystem, cost | Neural voices, SSML control, cheap at volume | [Amazon Polly](https://aws.amazon.com/polly/) |
@@ -437,7 +437,7 @@ cd voicebox && make setup && make dev
 
 ### Voice Tool Comparison
 
-| Tool | Quality | Cloning | Languages | Latency | Price/1K chars |
+| Tool | 质量 | Cloning | Languages | Latency | Price/1K chars |
 |------|---------|---------|-----------|---------|----------------|
 | **ElevenLabs** | Best | Yes (instant + pro) | 29+ | ~200ms | $0.12-0.30 |
 | **OpenAI TTS** | Good | No | 13+ | ~300ms | $0.015-0.030 |
@@ -445,7 +445,7 @@ cd voicebox && make setup && make dev
 | **PlayHT** | Very good | Yes | 140+ | <300ms | ~$0.10-0.20 |
 | **Fish Audio** | Good | Yes | 13+ | ~200ms | ~$0.05-0.10 |
 | **WellSaid** | Very good | No (actor voices) | English | ~300ms | Custom pricing |
-| **Voicebox** | Good | Yes (local) | 2+ | Local | Free (open source) |
+| **Voicebox** | Good | Yes (local) | 2+ | Local | Free (open 来源) |
 
 ### Choosing a Voice Tool
 
@@ -468,7 +468,7 @@ Need voiceover for ads?
     └── Cartesia Sonic (40ms TTFA)
 ```
 
-### Workflow: Voice + Video
+### 工作流: Voice + 视频
 
 ```
 1. Write ad script (use ad-creative skill for copy)
@@ -483,18 +483,18 @@ Need voiceover for ads?
 
 ---
 
-## Code-Based Video: Remotion
+## Code-Based 视频: Remotion
 
-For templated, data-driven video ads at scale, Remotion is the best option. Unlike AI video generators that produce unique video from prompts, Remotion uses React code to render deterministic, brand-perfect video from templates and data.
+For templated, data-driven 视频 ads at scale, Remotion is the best option. Unlike AI 视频 generators that produce unique 视频 from prompts, Remotion uses React code to render deterministic, brand-perfect 视频 from templates and data.
 
-**Best for:** Templated ad variations, personalized video, brand-consistent production
+**Best for:** Templated ad variations, personalized 视频, brand-consistent production
 **Stack:** React + TypeScript
 **Pricing:** Free for individuals/small teams; commercial license required for 4+ employees
 **Docs:** [remotion.dev](https://www.remotion.dev/)
 
 ### Why Remotion for Ads
 
-| AI Video Generators | Remotion |
+| AI 视频 Generators | Remotion |
 |---------------------|----------|
 | Unique output each time | Deterministic, pixel-perfect |
 | Prompt-based, less control | Full code control over every frame |
@@ -504,8 +504,8 @@ For templated, data-driven video ads at scale, Remotion is the best option. Unli
 
 ### Ad Creative Use Cases
 
-**1. Dynamic product ads**
-Feed a JSON array of products and render a unique video ad for each:
+**1. Dynamic 产品 ads**
+Feed a JSON array of products and render a unique 视频 ad for each:
 ```tsx
 // Simplified Remotion component for product ads
 export const ProductAd: React.FC<{
@@ -526,7 +526,7 @@ export const ProductAd: React.FC<{
 };
 ```
 
-**2. A/B test video variations**
+**2. A/B test 视频 variations**
 Render the same template with different headlines, CTAs, or color schemes:
 ```tsx
 const variations = [
@@ -546,7 +546,7 @@ Render the same content across different aspect ratios:
 - 9:16 for Stories/Reels
 - 16:9 for YouTube
 
-### Remotion Workflow for Ad Creative
+### Remotion 工作流 for Ad Creative
 
 ```
 1. Design template in React (or use AI to generate the component)
@@ -606,9 +606,9 @@ Need image ads?
 | 100 × 15-sec videos | Remotion (templated) | ~$0 (self-hosted render) |
 | 10 hero videos + 90 templated | Veo + Remotion | ~$22 + render time |
 
-### Recommended Workflow for Scaled Ad Production
+### Recommended 工作流 for Scaled Ad Production
 
-1. **Generate hero creative** with AI (Nano Banana, Flux, Veo) — high-quality, exploratory
+1. **Generate hero creative** with AI (Nano Banana, Flux, Veo) — high-质量, exploratory
 2. **Build templates** in Remotion based on winning creative patterns
 3. **Batch produce variations** with Remotion using data (products, headlines, CTAs)
 4. **Iterate** — use AI tools for new angles, Remotion for scale
@@ -617,17 +617,17 @@ This hybrid approach gives you the creative exploration of AI generators and the
 
 ---
 
-## Platform-Specific Image Specs
+## 平台-Specific Image Specs
 
 When generating images for ads, request the correct dimensions:
 
-| Platform | Placement | Aspect Ratio | Recommended Size |
+| 平台 | Placement | Aspect Ratio | Recommended Size |
 |----------|-----------|-------------|-----------------|
 | Meta Feed | Single image | 1:1 | 1080x1080 |
 | Meta Stories/Reels | Vertical | 9:16 | 1080x1920 |
 | Meta Carousel | Square | 1:1 | 1080x1080 |
-| Google Display | Landscape | 1.91:1 | 1200x628 |
-| Google Display | Square | 1:1 | 1200x1200 |
+| Google 展示 | Landscape | 1.91:1 | 1200x628 |
+| Google 展示 | Square | 1:1 | 1200x1200 |
 | LinkedIn Feed | Landscape | 1.91:1 | 1200x627 |
 | LinkedIn Feed | Square | 1:1 | 1200x1200 |
 | TikTok Feed | Vertical | 9:16 | 1080x1920 |

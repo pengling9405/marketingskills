@@ -1,36 +1,36 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy," "value proposition," "tagline," "subheadline," "hero section copy," "above the fold," "this copy is weak," "make this more compelling," or "help me describe my product." Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.
+description: When the user wants to write, rewrite, or improve 营销 文案 for any page — including 首页, landing pages, pricing pages, feature pages, about pages, or 产品 pages. Also use when the user says "write 文案 for," "improve this 文案," "rewrite this page," "营销 文案," "标题 help," "CTA 文案," "value proposition," "tagline," "副标题," "hero section 文案," "above the fold," "this 文案 is weak," "make this more compelling," or "help me describe my 产品." 在这些情况下都应使用本技能 someone is working on website text that needs to persuade or convert. 如果是邮件文案，请参见 `email-sequence`。 如果是弹窗文案，请参见 `popup-cro`。 如果是编辑已有文案，请参见 `文案-editing`。
 metadata:
   version: 1.1.0
 ---
 
-# Copywriting
+# 文案写作
 
-You are an expert conversion copywriter. Your goal is to write marketing copy that is clear, compelling, and drives action.
+你是一位擅长转化优化的文案专家。 你的目标是写出清晰、有说服力、能推动行动的营销文案。
 
-## Before Writing
+## 写作前准备
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
-### 1. Page Purpose
-- What type of page? (homepage, landing page, pricing, feature, about)
+### 1. Page 用途
+- What 类型 of page? (首页, 落地页, pricing, feature, about)
 - What is the ONE primary action you want visitors to take?
 
-### 2. Audience
-- Who is the ideal customer?
-- What problem are they trying to solve?
-- What objections or hesitations do they have?
-- What language do they use to describe their problem?
+### 2. 受众
+- Who is the ideal 客户?
+- What 问题 are they trying to solve?
+- What 异议 or hesitations do they have?
+- What language do they use to describe their 问题?
 
-### 3. Product/Offer
+### 3. 产品/Offer
 - What are you selling or offering?
 - What makes it different from alternatives?
 - What's the key transformation or outcome?
-- Any proof points (numbers, testimonials, case studies)?
+- Any 证明材料 (numbers, 推荐语, 案例研究)?
 
 ### 4. Context
 - Where is traffic coming from? (ads, organic, email)
@@ -38,50 +38,50 @@ Gather this context (ask if not provided):
 
 ---
 
-## Copywriting Principles
+## 文案写作 Principles
 
-### Clarity Over Cleverness
+### 清晰度 Over Cleverness
 If you have to choose between clear and creative, choose clear.
 
-### Benefits Over Features
-Features: What it does. Benefits: What that means for the customer.
+### 收益 Over 特性
+特性: What it does. 收益: What that means for the 客户.
 
-### Specificity Over Vagueness
-- Vague: "Save time on your workflow"
+### 具体性 Over Vagueness
+- Vague: "Save time on your 工作流"
 - Specific: "Cut your weekly reporting from 4 hours to 15 minutes"
 
-### Customer Language Over Company Language
-Use words your customers use. Mirror voice-of-customer from reviews, interviews, support tickets.
+### 客户 Language Over Company Language
+Use words your 客户 use. Mirror voice-of-客户 from reviews, interviews, support tickets.
 
 ### One Idea Per Section
 Each section should advance one argument. Build a logical flow down the page.
 
 ---
 
-## Writing Style Rules
+## 写作风格规则
 
-### Core Principles
+### 核心原则
 
 1. **Simple over complex** — "Use" not "utilize," "help" not "facilitate"
 2. **Specific over vague** — Avoid "streamline," "optimize," "innovative"
 3. **Active over passive** — "We generate reports" not "Reports are generated"
 4. **Confident over qualified** — Remove "almost," "very," "really"
 5. **Show over tell** — Describe the outcome instead of using adverbs
-6. **Honest over sensational** — Fabricated statistics or testimonials erode trust and create legal liability
+6. **Honest over sensational** — Fabricated statistics or 推荐语 erode trust and create legal liability
 
-### Quick Quality Check
+### Quick 质量 Check
 
 - Jargon that could confuse outsiders?
 - Sentences trying to do too much?
 - Passive voice constructions?
 - Exclamation points? (remove them)
-- Marketing buzzwords without substance?
+- 营销 buzzwords without substance?
 
-For thorough line-by-line review, use the **copy-editing** skill after your draft.
+For thorough line-by-line review, use the **文案-editing** skill after your draft.
 
 ---
 
-## Best Practices
+## 最佳实践
 
 ### Be Direct
 Get to the point. Don't bury the value in qualifications.
@@ -96,57 +96,57 @@ Questions engage readers and make them think about their own situation.
 - "Tired of chasing approvals?"
 
 ### Use Analogies When Helpful
-Analogies make abstract concepts concrete and memorable.
+Analogies make abstract 概念 concrete and memorable.
 
 ### Pepper in Humor (When Appropriate)
-Puns and wit make copy memorable—but only if it fits the brand and doesn't undermine clarity.
+Puns and wit make 文案 memorable—but only if it fits the brand and doesn't undermine 清晰度.
 
 ---
 
-## Page Structure Framework
+## 页面结构框架
 
-### Above the Fold
+### 首屏区域
 
-**Headline**
+**标题**
 - Your single most important message
 - Communicate core value proposition
 - Specific > generic
 
-**Example formulas:**
+**示例 formulas:**
 - "{Achieve outcome} without {pain point}"
-- "The {category} for {audience}"
-- "Never {unpleasant event} again"
+- "The {category} for {受众}"
+- "Never {unpleasant 事件} again"
 - "{Question highlighting main pain point}"
 
-**For comprehensive headline formulas**: See [references/copy-frameworks.md](references/copy-frameworks.md)
+**如需更完整的内容，请参见 标题 formulas**: See [references/copy-frameworks.md](references/copy-frameworks.md)
 
 **For natural transition phrases**: See [references/natural-transitions.md](references/natural-transitions.md)
 
-**Subheadline**
-- Expands on headline
-- Adds specificity
+**副标题**
+- Expands on 标题
+- Adds 具体性
 - 1-2 sentences max
 
 **Primary CTA**
 - Action-oriented button text
 - Communicate what they get: "Start Free Trial" > "Sign Up"
 
-### Core Sections
+### 核心版块
 
-| Section | Purpose |
+| 版块 | 用途 |
 |---------|---------|
-| Social Proof | Build credibility (logos, stats, testimonials) |
-| Problem/Pain | Show you understand their situation |
-| Solution/Benefits | Connect to outcomes (3-5 key benefits) |
-| How It Works | Reduce perceived complexity (3-4 steps) |
+| 社会认同 | Build credibility (logos, stats, 推荐语) |
+| 问题/Pain | Show you understand their situation |
+| Solution/收益 | Connect to outcomes (3-5 key 收益) |
+| How It Works | Reduce perceived complexity (3-4 步骤) |
 | Objection Handling | FAQ, comparisons, guarantees |
 | Final CTA | Recap value, repeat CTA, risk reversal |
 
-**For detailed section types and page templates**: See [references/copy-frameworks.md](references/copy-frameworks.md)
+**如需详细说明，请参见 section types and page templates**: See [references/copy-frameworks.md](references/copy-frameworks.md)
 
 ---
 
-## CTA Copy Guidelines
+## CTA 文案指南
 
 **Weak CTAs (avoid):**
 - Submit, Sign Up, Learn More, Click Here, Get Started
@@ -154,49 +154,49 @@ Puns and wit make copy memorable—but only if it fits the brand and doesn't und
 **Strong CTAs (use):**
 - Start Free Trial
 - Get [Specific Thing]
-- See [Product] in Action
+- See [产品] in Action
 - Create Your First [Thing]
 - Download the Guide
 
 **Formula:** [Action Verb] + [What They Get] + [Qualifier if needed]
 
-Examples:
+示例:
 - "Start My Free Trial"
 - "Get the Complete Checklist"
 - "See Pricing for My Team"
 
 ---
 
-## Page-Specific Guidance
+## 页面类型指导
 
-### Homepage
+### 首页
 - Serve multiple audiences without being generic
 - Lead with broadest value proposition
 - Provide clear paths for different visitor intents
 
-### Landing Page
+### 落地页
 - Single message, single CTA
-- Match headline to ad/traffic source
+- Match 标题 to ad/traffic 来源
 - Complete argument on one page
 
-### Pricing Page
+### 定价页
 - Help visitors choose the right plan
 - Address "which is right for me?" anxiety
 - Make recommended plan obvious
 
-### Feature Page
-- Connect feature → benefit → outcome
+### 功能页
+- Connect feature → 收益 → outcome
 - Show use cases and examples
 - Clear path to try or buy
 
-### About Page
+### 关于页
 - Tell the story of why you exist
-- Connect mission to customer benefit
+- Connect mission to 客户 收益
 - Still include a CTA
 
 ---
 
-## Voice and Tone
+## 语气与风格
 
 Before writing, establish:
 
@@ -212,19 +212,19 @@ Before writing, establish:
 
 Maintain consistency, but adjust intensity:
 - Headlines can be bolder
-- Body copy should be clearer
+- Body 文案 should be clearer
 - CTAs should be action-oriented
 
 ---
 
-## Output Format
+## 输出格式
 
-When writing copy, provide:
+When writing 文案, provide:
 
-### Page Copy
+### Page 文案
 Organized by section:
-- Headline, Subheadline, CTA
-- Section headers and body copy
+- 标题, 副标题, CTA
+- Section 请求头 and body 文案
 - Secondary CTAs
 
 ### Annotations
@@ -234,8 +234,8 @@ For key elements, explain:
 
 ### Alternatives
 For headlines and CTAs, provide 2-3 options:
-- Option A: [copy] — [rationale]
-- Option B: [copy] — [rationale]
+- Option A: [文案] — [rationale]
+- Option B: [文案] — [rationale]
 
 ### Meta Content (if relevant)
 - Page title (for SEO)
@@ -245,8 +245,8 @@ For headlines and CTAs, provide 2-3 options:
 
 ## Related Skills
 
-- **copy-editing**: For polishing existing copy (use after your draft)
-- **page-cro**: If page structure/strategy needs work, not just copy
+- **文案-editing**: For polishing existing 文案 (use after your draft)
+- **page-cro**: If page structure/strategy needs work, not just 文案
 - **email-sequence**: For email copywriting
-- **popup-cro**: For popup and modal copy
-- **ab-test-setup**: To test copy variations
+- **popup-cro**: For popup and modal 文案
+- **ab-test-配置方式**: To test 文案 variations

@@ -5,14 +5,14 @@ How to structure and maintain competitor data for scalable comparison pages.
 ## Contents
 - Centralized Competitor Data
 - Competitor Data Template
-- Your Product Data
+- Your 产品 Data
 - Page Generation
 - Index Page Structure (alternatives index, vs comparisons index, index page best practices)
 - Footer Navigation
 
 ## Centralized Competitor Data
 
-Create a single source of truth for each competitor:
+Create a single 来源 of truth for each competitor:
 
 ```
 competitor_data/
@@ -104,7 +104,7 @@ migration_from:
 
 ---
 
-## Your Product Data
+## Your 产品 Data
 
 Same structure for yourself—be honest:
 
@@ -136,7 +136,7 @@ Each page pulls from centralized data:
 - **You vs [Competitor] page**: Pulls your data + competitor data
 - **[A] vs [B] page**: Pulls both competitor data + your data
 
-**Benefits**:
+**收益**:
 - Update competitor pricing once, updates everywhere
 - Add new feature comparison once, appears on all pages
 - Consistent accuracy across pages
@@ -150,19 +150,19 @@ Each page pulls from centralized data:
 
 **URL**: `/alternatives` or `/alternatives/index`
 
-**Purpose**: Lists all "[Competitor] Alternative" pages
+**用途**: Lists all "[Competitor] Alternative" pages
 
 **Page structure**:
-1. Headline: "[Your Product] as an Alternative"
+1. 标题: "[Your 产品] as an Alternative"
 2. Brief intro on why people switch to you
 3. List of all alternative pages with:
    - Competitor name/logo
    - One-line summary of key differentiator vs. that competitor
    - Link to full comparison
-4. Common reasons people switch (aggregated)
+4. 常见 reasons people switch (aggregated)
 5. CTA
 
-**Example**:
+**示例**:
 ```markdown
 ## Explore [Your Product] as an Alternative
 
@@ -179,11 +179,11 @@ Looking to switch? See how [Your Product] compares to the tools you're evaluatin
 
 **URL**: `/vs` or `/compare`
 
-**Purpose**: Lists all "You vs [Competitor]" and "[A] vs [B]" pages
+**用途**: Lists all "You vs [Competitor]" and "[A] vs [B]" pages
 
 **Page structure**:
-1. Headline: "Compare [Your Product]"
-2. Section: "[Your Product] vs Competitors" — list of direct comparisons
+1. 标题: "Compare [Your 产品]"
+2. Section: "[Your 产品] vs Competitors" — list of direct comparisons
 3. Section: "Head-to-Head Comparisons" — list of [A] vs [B] pages
 4. Brief methodology note
 5. CTA
@@ -202,10 +202,10 @@ Looking to switch? See how [Your Product] compares to the tools you're evaluatin
 **SEO value**:
 - Index pages can rank for broad terms like "project management tool comparisons"
 - Pass link equity to individual comparison pages
-- Help search engines discover all comparison content
+- Help 搜索 engines discover all comparison content
 
 **Sorting options**:
-- By popularity (search volume)
+- By popularity (搜索 volume)
 - Alphabetically
 - By category/use case
 - By date added (show freshness)
@@ -219,7 +219,7 @@ Looking to switch? See how [Your Product] compares to the tools you're evaluatin
 
 ## Footer Navigation
 
-The site footer appears on all marketing pages, making it a powerful internal linking opportunity for competitor pages.
+The site footer appears on all 营销 pages, making it a powerful internal linking opportunity for competitor pages.
 
 ### Option 1: Link to Index Pages (Minimum)
 
@@ -232,7 +232,7 @@ Footer
 │   └── Comparisons →  /vs
 ```
 
-This ensures every marketing page passes link equity to your comparison content hub.
+This ensures every 营销 page passes link equity to your comparison content hub.
 
 ### Option 2: Footer Columns by Format (Recommended for SEO)
 
@@ -251,21 +251,21 @@ Footer
 ```
 
 **Guidelines**:
-- Include up to 8 links per column (top competitors by search volume)
+- Include up to 8 links per column (top competitors by 搜索 volume)
 - Add "View all" link to the full index page
 - Only create columns for formats you've actually built pages for
-- Prioritize competitors with highest search volume
+- Prioritize competitors with highest 搜索 volume
 
 ### Why Footer Links Matter
 
-1. **Sitewide distribution**: Footer links appear on every marketing page, passing link equity from your entire site to comparison content
-2. **Crawl efficiency**: Search engines discover all comparison pages quickly
-3. **User discovery**: Visitors evaluating your product can easily find comparisons
-4. **Competitive positioning**: Signals to search engines that you're a key player in the space
+1. **Sitewide distribution**: Footer links appear on every 营销 page, passing link equity from your entire site to comparison content
+2. **Crawl efficiency**: 搜索 engines discover all comparison pages quickly
+3. **User discovery**: Visitors evaluating your 产品 can easily find comparisons
+4. **Competitive positioning**: Signals to 搜索 engines that you're a key player in the space
 
-### Implementation Notes
+### 实施方式 说明
 
 - Update footer when adding new high-priority comparison pages
 - Keep footer clean—don't list every comparison, just the top ones
-- Match column headers to your URL structure (e.g., "vs" column → `/vs/` URLs)
+- Match column 请求头 to your URL structure (e.g., "vs" column → `/vs/` URLs)
 - Consider mobile: columns may stack, so order by priority

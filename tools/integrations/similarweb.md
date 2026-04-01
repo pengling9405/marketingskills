@@ -1,23 +1,23 @@
 # Similarweb
 
-Competitive traffic intelligence platform providing website analytics, traffic sources, keyword data, and competitor insights.
+Competitive traffic intelligence 平台 providing website 分析, traffic sources, 关键词 data, and competitor insights.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Traffic, Search, Referrals, Competitors, Geography |
-| MCP | - | Not available |
+| API | ✓ | Traffic, 搜索, Referrals, Competitors, Geography |
+| MCP | - | 不可用 |
 | CLI | ✓ | [similarweb.js](../clis/similarweb.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
+- **类型**: API Key
 - **Query param**: `?api_key={key}`
-- **Get key**: Account Settings > API at https://account.similarweb.com
+- **Get key**: 账户 Settings > API at https://账户.similarweb.com
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Total Visits
 
@@ -55,13 +55,13 @@ GET https://api.similarweb.com/v1/website/example.com/traffic-sources/overview?a
 GET https://api.similarweb.com/v1/website/example.com/traffic-sources/referrals?api_key={key}&start_date=2024-01&end_date=2024-03
 ```
 
-### Organic Keywords
+### Organic 关键词
 
 ```bash
 GET https://api.similarweb.com/v1/website/example.com/search/organic-search-keywords?api_key={key}&start_date=2024-01&end_date=2024-03
 ```
 
-### Paid Keywords
+### Paid 关键词
 
 ```bash
 GET https://api.similarweb.com/v1/website/example.com/search/paid-search-keywords?api_key={key}&start_date=2024-01&end_date=2024-03
@@ -85,7 +85,7 @@ GET https://api.similarweb.com/v1/website/example.com/category-rank/category-ran
 GET https://api.similarweb.com/v1/website/example.com/geo/traffic-by-country?api_key={key}&start_date=2024-01&end_date=2024-03
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Traffic & Engagement
 - `visits` - Total visits for the period
@@ -94,18 +94,18 @@ GET https://api.similarweb.com/v1/website/example.com/geo/traffic-by-country?api
 - `bounce_rate` - Percentage of single-page visits
 
 ### Traffic Sources
-- `search` - Organic + paid search percentage
+- `search` - Organic + paid 搜索 percentage
 - `social` - Social media traffic percentage
 - `direct` - Direct traffic percentage
 - `referrals` - Referral traffic percentage
 - `mail` - Email traffic percentage
-- `display_ads` - Display advertising percentage
+- `display_ads` - 展示 advertising percentage
 
-### Search Keywords
-- `search_term` - Keyword text
+### 搜索 关键词
+- `search_term` - 关键词 text
 - `share` - Traffic share percentage
-- `volume` - Search volume
-- `cpc` - Cost per click
+- `volume` - 搜索 volume
+- `cpc` - 每次点击成本
 - `position` - Average ranking position
 
 ### Geography
@@ -114,35 +114,35 @@ GET https://api.similarweb.com/v1/website/example.com/geo/traffic-by-country?api
 
 ## Parameters
 
-### Common Parameters
+### 常见 Parameters
 - `start_date` - Start month (YYYY-MM format)
 - `end_date` - End month (YYYY-MM format)
 - `country` - Two-letter country code (e.g., us, gb, de)
 - `granularity` - Data granularity: monthly, weekly, daily
 
-### Search Parameters
-- `limit` - Number of keywords to return
+### 搜索 Parameters
+- `limit` - Number of 关键词 to return
 - `country` - Filter by country
 
-## When to Use
+## 适用场景
 
-- Analyzing competitor website traffic and engagement metrics
+- Analyzing competitor website traffic and engagement 指标
 - Benchmarking your site against competitors
 - Identifying top traffic sources for any website
-- Discovering competitor organic and paid keywords
+- Discovering competitor organic and paid 关键词
 - Finding similar sites and competitive landscape
 - Understanding geographic traffic distribution
-- Auditing SEO performance relative to competitors
+- Auditing SEO 表现 relative to competitors
 - Researching market share by traffic volume
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan tier
+- 速率限制 vary by plan tier
 - Standard: 10 requests/second
 - Data availability depends on plan (3 months to 36 months historical)
 - Some endpoints require Premium or Enterprise plans
 
-## Relevant Skills
+## 相关技能
 
 - seo-audit
 - competitor-alternatives

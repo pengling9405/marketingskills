@@ -1,25 +1,25 @@
 # ZoomInfo
 
-B2B contact database and intent data platform with 100M+ business contacts and company intelligence for sales and marketing teams.
+B2B contact database and intent data 平台 with 100M+ business contacts and company intelligence for sales and 营销 teams.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Contact Search, Company Search, Enrichment, Intent Data, Scoops |
+| API | ✓ | Contact 搜索, Company 搜索, Enrichment, Intent Data, Scoops |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/zoominfo) |
 | CLI | ✓ | [zoominfo.js](../clis/zoominfo.js) |
 | SDK | - | REST API only |
 
-## Authentication
+## 认证方式
 
-- **Type**: JWT Token (Bearer)
+- **类型**: JWT Token (Bearer)
 - **Flow**: POST `/authenticate` with username + password, receive JWT token
-- **Header**: `Authorization: Bearer {jwt_token}`
+- **请求头**: `Authorization: Bearer {jwt_token}`
 - **Env vars**: `ZOOMINFO_USERNAME` + `ZOOMINFO_PRIVATE_KEY` or `ZOOMINFO_ACCESS_TOKEN`
 - **Get credentials**: Contact ZoomInfo sales or admin portal at https://app.zoominfo.com
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Authenticate
 
@@ -32,7 +32,7 @@ POST https://api.zoominfo.com/authenticate
 }
 ```
 
-### Contact Search
+### Contact 搜索
 
 ```bash
 POST https://api.zoominfo.com/search/contact
@@ -56,7 +56,7 @@ POST https://api.zoominfo.com/enrich/contact
 }
 ```
 
-### Company Search
+### Company 搜索
 
 ```bash
 POST https://api.zoominfo.com/search/company
@@ -104,7 +104,7 @@ POST https://api.zoominfo.com/lookup/scoops
 }
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Contact Data
 - `firstName`, `lastName` - Name
@@ -129,16 +129,16 @@ POST https://api.zoominfo.com/lookup/scoops
 ### Intent Data
 - `topicName` - Intent topic
 - `signalScore` - Signal strength
-- `audienceStrength` - Audience engagement level
+- `audienceStrength` - 受众 engagement level
 - `firstSeenDate`, `lastSeenDate` - Signal timeframe
 
 ## Parameters
 
-### Contact Search
+### Contact 搜索
 - `jobTitle` - Array of job titles
 - `companyName` - Array of company names
 - `managementLevel` - Array: C-Level, VP, Director, Manager, Staff
-- `department` - Array: Marketing, Sales, Engineering, Finance, etc.
+- `department` - Array: 营销, Sales, Engineering, Finance, etc.
 - `personLocationCity` - Array of cities
 - `personLocationState` - Array of states
 - `personLocationCountry` - Array of countries
@@ -150,7 +150,7 @@ POST https://api.zoominfo.com/lookup/scoops
 - `personId` - Array of ZoomInfo person IDs
 - `matchFirstName` + `matchLastName` + `matchCompanyName` - Alternative lookup
 
-### Company Search
+### Company 搜索
 - `companyName` - Array of company names
 - `industry` - Array of industries
 - `employeeCountMin` / `employeeCountMax` - Employee count range
@@ -167,23 +167,23 @@ POST https://api.zoominfo.com/lookup/scoops
 - `topicId` - Array of intent topic IDs
 - `companyId` - Array of company IDs
 
-## When to Use
+## 适用场景
 
 - Identifying in-market accounts with intent signals
 - Building targeted contact lists by role, seniority, and company
 - Enriching leads with verified contact data and firmographics
 - Finding decision-makers at target accounts for ABM
-- Tracking company news and leadership changes via scoops
+- 跟踪 company news and leadership changes via scoops
 - Prioritizing outreach based on buyer intent signals
 
-## Rate Limits
+## 速率限制
 
-- Rate limits vary by plan and endpoint
+- 速率限制 vary by plan and endpoint
 - Standard: ~200 requests/minute
 - Bulk endpoints: batched requests recommended
-- Authentication tokens expire after ~12 hours
+- 认证 tokens expire after ~12 hours
 
-## Relevant Skills
+## 相关技能
 
 - cold-email
 - revops

@@ -1,6 +1,6 @@
 # Lead Routing Rules
 
-Decision trees, platform-specific configurations, territory routing, ABM routing, and speed-to-lead benchmarks.
+Decision trees, 平台-specific configurations, territory routing, ABM routing, and speed-to-lead benchmarks.
 
 ## Routing Decision Tree
 
@@ -43,27 +43,27 @@ Customize this tree for your business. The key principle: **route to the most sp
 4. Reset distribution count weekly or monthly
 5. Log every assignment for auditing
 
-### HubSpot Round-Robin Setup
+### HubSpot Round-Robin 配置方式
 
 **Using HubSpot's rotation tool:**
-- Navigate to Automation → Workflows
+- Navigate to Automation → 工作流
 - Trigger: Contact property "Lifecycle Stage" equals "MQL"
 - Action: Rotate contact owner among selected users
 - Options: Even distribution, skip unavailable owners
 - Add delay + task creation after assignment
 
-**Custom rotation with workflows:**
+**Custom rotation with 工作流:**
 1. Create a custom property "Rotation Counter" (number)
-2. Workflow trigger: New MQL created
+2. 工作流 trigger: New MQL created
 3. Branch by rotation counter value (0, 1, 2... for each rep)
 4. Set contact owner to corresponding rep
 5. Increment counter (reset at max)
 6. Create follow-up task with SLA deadline
 
-### Salesforce Round-Robin Setup
+### Salesforce Round-Robin 配置方式
 
 **Using Lead Assignment Rules:**
-1. Setup → Feature Settings → Marketing → Lead Assignment Rules
+1. 配置方式 → Feature Settings → 营销 → Lead Assignment Rules
 2. Create rule entries in priority order (most specific first)
 3. For round-robin: Use assignment rule + custom logic
 
@@ -95,7 +95,7 @@ Customize this tree for your business. The key principle: **route to the most sp
 | SMB | 1-50 employees | Inside sales |
 | Mid-market | 51-500 employees | Mid-market AEs |
 | Enterprise | 501-5000 employees | Enterprise AEs |
-| Strategic | 5000+ employees | Strategic account team |
+| Strategic | 5000+ employees | Strategic 账户 team |
 
 ### By Industry
 
@@ -125,13 +125,13 @@ Lead arrives
 
 ---
 
-## Named Account / ABM Routing
+## Named 账户 / ABM Routing
 
-### Setup
+### 配置方式
 
-1. **Define target account list** (typically 50-500 accounts)
-2. **Assign account owners** in CRM (1 rep per account)
-3. **Match logic:** Any lead from a target account domain routes to account owner
+1. **Define target 账户 list** (typically 50-500 accounts)
+2. **Assign 账户 owners** in CRM (1 rep per 账户)
+3. **Match logic:** Any lead from a target 账户 domain routes to 账户 owner
 4. **Matching rules:**
    - Email domain match (primary)
    - Company name fuzzy match (secondary, requires manual review)
@@ -139,7 +139,7 @@ Lead arrives
 
 ### ABM Routing Rules
 
-| Tier | Account Type | Routing | Response SLA |
+| Tier | 账户 类型 | Routing | Response SLA |
 |------|-------------|---------|--------------|
 | Tier 1 | Top 20 strategic accounts | Named owner, instant alert | 1 hour |
 | Tier 2 | Top 100 target accounts | Named owner, standard alert | 4 hours |
@@ -147,11 +147,11 @@ Lead arrives
 
 ### Multi-Contact Handling
 
-When multiple contacts from the same account engage:
-- Route all contacts to the **same account owner**
+When multiple contacts from the same 账户 engage:
+- Route all contacts to the **same 账户 owner**
 - Notify the owner of new contacts entering
-- Track account-level engagement score (sum of all contacts)
-- Trigger "buying committee" alert when 3+ contacts from one account engage
+- Track 账户-level engagement score (sum of all contacts)
+- Trigger "buying committee" alert when 3+ contacts from one 账户 engage
 
 ---
 
@@ -159,7 +159,7 @@ When multiple contacts from the same account engage:
 
 ### Response Time Impact on Conversion
 
-| Response Time | Relative Qualification Rate | Notes |
+| Response Time | Relative Qualification Rate | 说明 |
 |---------------|---------------------------|-------|
 | Under 5 minutes | **21x** more likely to qualify | Gold standard |
 | 5-10 minutes | 10x more likely | Still strong |
@@ -168,7 +168,7 @@ When multiple contacts from the same account engage:
 | 1-24 hours | Baseline | Industry average |
 | 24+ hours | 60% lower than baseline | Lead is effectively cold |
 
-Source: Lead Connect, InsideSales.com
+来源: Lead Connect, InsideSales.com
 
 ### Implementing Speed-to-Lead
 
@@ -195,9 +195,9 @@ Source: Lead Connect, InsideSales.com
 
 ### Measuring Speed-to-Lead
 
-Track these metrics weekly:
+Track these 指标 weekly:
 - **Average time to first contact** (from MQL creation to first call/email)
 - **Median time to first contact** (less skewed by outliers)
 - **% of leads contacted within SLA** (target: 90%+)
 - **Contact rate by time of day** (identify coverage gaps)
-- **Conversion rate by response time** (prove the ROI of speed)
+- **转化率 by response time** (prove the ROI of speed)

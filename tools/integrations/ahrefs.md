@@ -1,25 +1,25 @@
 # Ahrefs
 
-SEO toolset for backlink analysis, keyword research, and competitive research.
+SEO 工具集 for backlink analysis, 关键词 research, and competitive research.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for Site Explorer, Keywords Explorer |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | REST API for Site Explorer, 关键词 Explorer |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | - | API-only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token
-- **Header**: `Authorization: Bearer {api_token}`
-- **Get token**: Account Settings > API in Ahrefs dashboard
+- **类型**: API Token
+- **请求头**: `Authorization: Bearer {api_token}`
+- **获取令牌**： 账户 Settings > API in Ahrefs dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
-### Domain rating
+### 域名评级
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/domain-rating?target=example.com
@@ -27,7 +27,7 @@ GET https://api.ahrefs.com/v3/site-explorer/domain-rating?target=example.com
 Authorization: Bearer {api_token}
 ```
 
-### Backlinks overview
+### 反向链接概览
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/backlinks-stats?target=example.com&mode=domain
@@ -35,7 +35,7 @@ GET https://api.ahrefs.com/v3/site-explorer/backlinks-stats?target=example.com&m
 Authorization: Bearer {api_token}
 ```
 
-### Referring domains
+### 引荐域名
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/refdomains?target=example.com&mode=domain&limit=100
@@ -43,7 +43,7 @@ GET https://api.ahrefs.com/v3/site-explorer/refdomains?target=example.com&mode=d
 Authorization: Bearer {api_token}
 ```
 
-### Backlinks list
+### 反向链接列表
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/backlinks?target=example.com&mode=domain&limit=100
@@ -51,7 +51,7 @@ GET https://api.ahrefs.com/v3/site-explorer/backlinks?target=example.com&mode=do
 Authorization: Bearer {api_token}
 ```
 
-### Organic keywords
+### 自然搜索关键词
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/organic-keywords?target=example.com&mode=domain&country=us&limit=100
@@ -59,7 +59,7 @@ GET https://api.ahrefs.com/v3/site-explorer/organic-keywords?target=example.com&
 Authorization: Bearer {api_token}
 ```
 
-### Top pages
+### 顶级页面
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/top-pages?target=example.com&mode=domain&country=us&limit=50
@@ -67,7 +67,7 @@ GET https://api.ahrefs.com/v3/site-explorer/top-pages?target=example.com&mode=do
 Authorization: Bearer {api_token}
 ```
 
-### Keyword overview
+### 关键词概览
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/overview?keywords=keyword1,keyword2&country=us
@@ -75,7 +75,7 @@ GET https://api.ahrefs.com/v3/keywords-explorer/overview?keywords=keyword1,keywo
 Authorization: Bearer {api_token}
 ```
 
-### Keyword suggestions
+### 关键词建议
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/matching-terms?keyword=seed+keyword&country=us&limit=100
@@ -83,7 +83,7 @@ GET https://api.ahrefs.com/v3/keywords-explorer/matching-terms?keyword=seed+keyw
 Authorization: Bearer {api_token}
 ```
 
-### SERP overview
+### SERP 概览
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/serp-overview?keyword=target+keyword&country=us
@@ -91,51 +91,51 @@ GET https://api.ahrefs.com/v3/keywords-explorer/serp-overview?keyword=target+key
 Authorization: Bearer {api_token}
 ```
 
-## Key Metrics
+## 核心指标
 
-### Domain Metrics
+### Domain 指标
 - `domain_rating` - Domain Rating (DR)
 - `ahrefs_rank` - Ahrefs Rank
 - `referring_domains` - Referring domains count
 - `backlinks` - Total backlinks
 - `organic_traffic` - Estimated organic traffic
 
-### Keyword Metrics
-- `volume` - Monthly search volume
+### 关键词 指标
+- `volume` - Monthly 搜索 volume
 - `keyword_difficulty` - KD score (0-100)
-- `cpc` - Cost per click
-- `clicks` - Estimated monthly clicks
-- `global_volume` - Global search volume
+- `cpc` - 每次点击成本
+- `clicks` - Estimated monthly 点击
+- `global_volume` - Global 搜索 volume
 
 ### Backlink Fields
-- `url_from` - Source URL
+- `url_from` - 来源 URL
 - `url_to` - Target URL
 - `anchor` - Anchor text
-- `domain_rating_source` - Source DR
+- `domain_rating_source` - 来源 DR
 - `first_seen` - First discovery date
 
-## Modes
+## 模式
 
 - `domain` - Entire domain
 - `subdomains` - Domain + subdomains
 - `prefix` - URL prefix
 - `exact` - Exact URL
 
-## When to Use
+## 适用场景
 
-- Backlink analysis
-- Link building research
-- Keyword research
-- Competitive analysis
-- Content gap analysis
+- Backlink 分析
+- Link building 调研
+- 关键词 调研
+- Competitive 分析
+- Content gap 分析
 - Site audits
 
-## Rate Limits
+## 速率限制
 
 - Varies by plan
 - 500-5000 rows per request
 
-## Relevant Skills
+## 相关技能
 
 - seo-audit
 - content-strategy

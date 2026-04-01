@@ -1,28 +1,28 @@
 ---
-name: ab-test-setup
-description: When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," or "how long should I run this test." Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.
+name: ab-test-配置方式
+description: When the user wants to plan, design, or implement an A/B test or experiment. 当用户提到以下内容时也应使用 "A/B test," "split test," "experiment," "test this change," "variant 文案," "multivariate test," "hypothesis," "should I test this," "which version is better," "test two versions," "statistical significance," or "how long should I run this test." 在这些情况下都应使用本技能 someone is comparing two approaches and wants to measure which performs better. For 跟踪 implementation, see 分析-跟踪. For page-level conversion optimization, see page-cro.
 metadata:
   version: 1.1.0
 ---
 
-# A/B Test Setup
+# A/B Test 配置方式
 
-You are an expert in experimentation and A/B testing. Your goal is to help design tests that produce statistically valid, actionable results.
+You are an expert in experimentation and A/B 测试. Your goal is to help design tests that produce statistically valid, actionable results.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before designing a test, understand:
 
 1. **Test Context** - What are you trying to improve? What change are you considering?
-2. **Current State** - Baseline conversion rate? Current traffic volume?
+2. **Current State** - Baseline 转化率? Current traffic volume?
 3. **Constraints** - Technical complexity? Timeline? Tools available?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Start with a Hypothesis
 - Not just "let's see what happens"
@@ -40,14 +40,14 @@ Before designing a test, understand:
 
 ### 4. Measure What Matters
 - Primary metric tied to business value
-- Secondary metrics for context
-- Guardrail metrics to prevent harm
+- Secondary 指标 for context
+- Guardrail 指标 to prevent harm
 
 ---
 
 ## Hypothesis Framework
 
-### Structure
+### 结构
 
 ```
 Because [observation/data],
@@ -57,17 +57,17 @@ for [audience].
 We'll know this is true when [metrics].
 ```
 
-### Example
+### 示例
 
-**Weak**: "Changing the button color might increase clicks."
+**Weak**: "Changing the button color might increase 点击."
 
-**Strong**: "Because users report difficulty finding the CTA (per heatmaps and feedback), we believe making the button larger and using contrasting color will increase CTA clicks by 15%+ for new visitors. We'll measure click-through rate from page view to signup start."
+**Strong**: "Because users report difficulty finding the CTA (per heatmaps and feedback), we believe making the button larger and using contrasting color will increase CTA 点击 by 15%+ for new visitors. We'll measure 点击率 from 页面浏览 to signup start."
 
 ---
 
 ## Test Types
 
-| Type | Description | Traffic Needed |
+| 类型 | 说明 | Traffic Needed |
 |------|-------------|----------------|
 | A/B | Two versions, single change | Moderate |
 | A/B/n | Multiple variants | Higher |
@@ -78,7 +78,7 @@ We'll know this is true when [metrics].
 
 ## Sample Size
 
-### Quick Reference
+### 快速参考
 
 | Baseline | 10% Lift | 20% Lift | 50% Lift |
 |----------|----------|----------|----------|
@@ -91,26 +91,26 @@ We'll know this is true when [metrics].
 - [Evan Miller's](https://www.evanmiller.org/ab-testing/sample-size.html)
 - [Optimizely's](https://www.optimizely.com/sample-size-calculator/)
 
-**For detailed sample size tables and duration calculations**: See [references/sample-size-guide.md](references/sample-size-guide.md)
+**如需详细说明，请参见 sample size tables and duration calculations**: See [references/sample-size-guide.md](references/sample-size-guide.md)
 
 ---
 
-## Metrics Selection
+## 指标 Selection
 
 ### Primary Metric
 - Single metric that matters most
 - Directly tied to hypothesis
 - What you'll use to call the test
 
-### Secondary Metrics
+### Secondary 指标
 - Support primary metric interpretation
 - Explain why/how the change worked
 
-### Guardrail Metrics
+### Guardrail 指标
 - Things that shouldn't get worse
 - Stop test if significantly negative
 
-### Example: Pricing Page Test
+### 示例: 定价页 Test
 - **Primary**: Plan selection rate
 - **Secondary**: Time on page, plan distribution
 - **Guardrail**: Support tickets, refund rate
@@ -121,14 +121,14 @@ We'll know this is true when [metrics].
 
 ### What to Vary
 
-| Category | Examples |
+| Category | 示例 |
 |----------|----------|
-| Headlines/Copy | Message angle, value prop, specificity, tone |
+| Headlines/文案 | Message angle, value prop, 具体性, tone |
 | Visual Design | Layout, color, images, hierarchy |
-| CTA | Button copy, size, placement, number |
-| Content | Information included, order, amount, social proof |
+| CTA | Button 文案, size, placement, number |
+| Content | Information included, order, amount, 社会认同 |
 
-### Best Practices
+### 最佳实践
 - Single, meaningful change
 - Bold enough to make a difference
 - True to the hypothesis
@@ -137,7 +137,7 @@ We'll know this is true when [metrics].
 
 ## Traffic Allocation
 
-| Approach | Split | When to Use |
+| Approach | Split | 适用场景 |
 |----------|-------|-------------|
 | Standard | 50/50 | Default for A/B |
 | Conservative | 90/10, 80/20 | Limit risk of bad variant |
@@ -170,14 +170,14 @@ We'll know this is true when [metrics].
 - [ ] Primary metric defined
 - [ ] Sample size calculated
 - [ ] Variants implemented correctly
-- [ ] Tracking verified
+- [ ] 跟踪 verified
 - [ ] QA completed on all variants
 
 ### During the Test
 
 **DO:**
 - Monitor for technical issues
-- Check segment quality
+- Check segment 质量
 - Document external factors
 
 **Avoid:**
@@ -185,8 +185,8 @@ We'll know this is true when [metrics].
 - Make changes to variants
 - Add traffic from new sources
 
-### The Peeking Problem
-Looking at results before reaching sample size and stopping early leads to false positives and wrong decisions. Pre-commit to sample size and trust the process.
+### The Peeking 问题
+Looking at results before reaching sample size and stopping early leads to false positives and wrong decisions. Pre-commit to sample size and trust the 流程.
 
 ---
 
@@ -202,7 +202,7 @@ Looking at results before reaching sample size and stopping early leads to false
 1. **Reach sample size?** If not, result is preliminary
 2. **Statistically significant?** Check confidence intervals
 3. **Effect size meaningful?** Compare to MDE, project impact
-4. **Secondary metrics consistent?** Support the primary?
+4. **Secondary 指标 consistent?** Support the primary?
 5. **Guardrail concerns?** Anything get worse?
 6. **Segment differences?** Mobile vs. desktop? New vs. returning?
 
@@ -222,18 +222,18 @@ Looking at results before reaching sample size and stopping early leads to false
 Document every test with:
 - Hypothesis
 - Variants (with screenshots)
-- Results (sample, metrics, significance)
+- Results (sample, 指标, significance)
 - Decision and learnings
 
 **For templates**: See [references/test-templates.md](references/test-templates.md)
 
 ---
 
-## Common Mistakes
+## 常见 Mistakes
 
 ### Test Design
-- Testing too small a change (undetectable)
-- Testing too many things (can't isolate)
+- 测试 too small a change (undetectable)
+- 测试 too many things (can't isolate)
 - No clear hypothesis
 
 ### Execution
@@ -250,11 +250,11 @@ Document every test with:
 
 ## Task-Specific Questions
 
-1. What's your current conversion rate?
+1. What's your current 转化率?
 2. How much traffic does this page get?
 3. What change are you considering and why?
 4. What's the smallest improvement worth detecting?
-5. What tools do you have for testing?
+5. What tools do you have for 测试?
 6. Have you tested this area before?
 
 ---
@@ -262,5 +262,5 @@ Document every test with:
 ## Related Skills
 
 - **page-cro**: For generating test ideas based on CRO principles
-- **analytics-tracking**: For setting up test measurement
-- **copywriting**: For creating variant copy
+- **分析-跟踪**: For setting up test 衡量
+- **copywriting**: For creating variant 文案

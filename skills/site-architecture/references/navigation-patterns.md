@@ -4,9 +4,9 @@ Detailed navigation patterns for different site types and contexts.
 
 ---
 
-## Header Navigation
+## 请求头 Navigation
 
-### Simple Header (4-6 items)
+### Simple 请求头 (4-6 items)
 
 Best for: small businesses, simple SaaS, portfolios.
 
@@ -15,20 +15,20 @@ Best for: small businesses, simple SaaS, portfolios.
 ```
 
 Rules:
-- Logo always links to homepage
+- Logo always links to 首页
 - CTA button is rightmost, visually distinct (filled button, contrasting color)
 - Items ordered by priority (most visited first)
 - Active page gets visual indicator (underline, bold, color)
 
-### Mega Menu Header
+### Mega Menu 请求头
 
-Best for: SaaS with many features, e-commerce with categories, large content sites.
+Best for: SaaS with many 特性, e-commerce with categories, large content sites.
 
 ```
 [Logo]   Product ▾   Solutions ▾   Resources ▾   Pricing   Docs   [CTA]
 ```
 
-When "Product" is hovered/clicked:
+When "产品" is hovered/clicked:
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -45,21 +45,21 @@ When "Product" is hovered/clicked:
 
 Mega menu rules:
 - 2-4 columns max
-- Group items logically (by feature area, use case, or audience)
+- Group items logically (by feature area, use case, or 受众)
 - Include a "See all" link at the bottom
 - Don't nest dropdowns inside mega menus
 - Show descriptions for items when labels alone aren't clear
 
 ### Split Navigation
 
-Best for: apps with both marketing and product nav.
+Best for: apps with both 营销 and 产品 nav.
 
 ```
 [Logo]   Features   Pricing   Blog        [Login]   [Sign Up]
 ├── Marketing nav (left) ──────┘          └── Auth nav (right) ──┤
 ```
 
-Right side handles authentication actions. Left side handles page navigation.
+Right side handles 认证 actions. Left side handles page navigation.
 
 ---
 
@@ -154,7 +154,7 @@ Changelog
 Rules:
 - Current page highlighted
 - Sections collapsible (expanded by default for active section)
-- Search at top of sidebar
+- 搜索 at top of sidebar
 - "Previous / Next" page navigation at bottom of content area
 - Sticky on scroll (doesn't scroll away)
 
@@ -241,8 +241,8 @@ Standard for mobile. All nav items collapse into a menu icon.
 Rules:
 - Hamburger icon (three lines) top-right or top-left
 - Full-screen or slide-out panel
-- CTA button visible without opening the menu (sticky header)
-- Search accessible from mobile menu
+- CTA button visible without opening the menu (sticky 请求头)
+- 搜索 accessible from mobile menu
 - Accordion pattern for nested items
 
 ### Bottom Tab Bar
@@ -272,21 +272,21 @@ Rules:
 
 ### Things to Avoid
 
-- **Too many header items** (8+): causes decision paralysis, nav becomes unreadable on smaller screens
+- **Too many 请求头 items** (8+): causes decision paralysis, nav becomes unreadable on smaller screens
 - **Dropdown inception**: dropdowns inside dropdowns inside dropdowns
 - **Mystery icons**: icons without labels — users don't know what they mean
 - **Hidden primary nav**: burying important pages in hamburger menus on desktop
-- **Inconsistent nav between pages**: nav should be identical across the site (except app vs marketing)
+- **Inconsistent nav between pages**: nav should be identical across the site (except app vs 营销)
 - **No mobile consideration**: desktop nav that doesn't translate to mobile
 - **Footer as sitemap dump**: 50+ links in the footer with no organization
 - **Breadcrumbs that don't match URLs**: breadcrumb says "Products > Widget" but URL is `/shop/widget-pro`
 
-### Common Fixes
+### 常见 Fixes
 
-| Problem | Fix |
+| 问题 | Fix |
 |---------|-----|
 | Too many nav items | Group into dropdowns or mega menus |
-| Users can't find pages | Add search, improve labeling |
+| Users can't find pages | Add 搜索, improve labeling |
 | High bounce from nav | Simplify choices, use clearer labels |
 | SEO pages not linked | Add to footer or resource sections |
 | Mobile nav is broken | Test on real devices, use hamburger pattern |
@@ -297,9 +297,9 @@ Rules:
 
 Internal links in navigation pass PageRank. Use this strategically:
 
-- **Header nav links are strongest** — put your most important pages here
+- **请求头 nav links are strongest** — put your most important pages here
 - **Footer links pass less value** but still matter — good for comparison pages, location pages
-- **Sidebar links** help with section-level authority — good for blog categories, doc sections
-- **Breadcrumbs** provide structural signals to search engines — implement with schema markup
-- **Don't use JavaScript-only nav** — search engines need crawlable HTML links
-- **Use descriptive anchor text** — "Analytics Features" not just "Features"
+- **Sidebar links** help with section-level 权威 — good for blog categories, doc sections
+- **Breadcrumbs** provide structural signals to 搜索 engines — implement with schema markup
+- **Don't use JavaScript-only nav** — 搜索 engines need crawlable HTML links
+- **Use descriptive anchor text** — "分析 特性" not just "特性"

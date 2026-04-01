@@ -7,12 +7,12 @@ Reusable content block patterns optimized for answer engines and AI citation.
 ## Contents
 - Answer Engine Optimization (AEO) Patterns (Definition Block, Step-by-Step Block, Comparison Table Block, Pros and Cons Block, FAQ Block, Listicle Block)
 - Generative Engine Optimization (GEO) Patterns (Statistic Citation Block, Expert Quote Block, Authoritative Claim Block, Self-Contained Answer Block, Evidence Sandwich Block)
-- Domain-Specific GEO Tactics (Technology Content, Health/Medical Content, Financial Content, Legal Content, Business/Marketing Content)
-- Voice Search Optimization (Question Formats for Voice, Voice-Optimized Answer Structure)
+- Domain-Specific GEO Tactics (Technology Content, Health/Medical Content, Financial Content, Legal Content, Business/营销 Content)
+- Voice 搜索 Optimization (Question Formats for Voice, Voice-Optimized Answer Structure)
 
 ## Answer Engine Optimization (AEO) Patterns
 
-These patterns help content appear in featured snippets, AI Overviews, voice search results, and answer boxes.
+These patterns help content appear in featured snippets, AI Overviews, voice 搜索 results, and answer boxes.
 
 ### Definition Block
 
@@ -24,7 +24,7 @@ Use for "What is [X]?" queries.
 [Term] is [concise 1-sentence definition]. [Expanded 1-2 sentence explanation with key characteristics]. [Brief context on why it matters or how it's used].
 ```
 
-**Example:**
+**示例：**
 ```markdown
 ## What is Answer Engine Optimization?
 
@@ -49,7 +49,7 @@ Use for "How to [X]" queries. Optimal for list snippets.
 [Optional: Brief note on expected outcome or time estimate]
 ```
 
-**Example:**
+**示例：**
 ```markdown
 ## How to Optimize Content for Featured Snippets
 
@@ -108,7 +108,7 @@ Use for evaluation queries: "Is [X] worth it?", "Should I [X]?"
 
 ### FAQ Block
 
-Use for topic pages with multiple common questions. Essential for FAQ schema.
+Use for topic pages with multiple 常见 questions. Essential for FAQ schema.
 
 ```markdown
 ## Frequently Asked Questions
@@ -129,7 +129,7 @@ Use for topic pages with multiple common questions. Essential for FAQ schema.
 **Tips for FAQ questions:**
 - Use natural question phrasing ("How do I..." not "How does one...")
 - Include question words: what, how, why, when, where, who, which
-- Match "People Also Ask" queries from search results
+- Match "People Also Ask" queries from 搜索 results
 - Keep answers between 50-100 words
 
 ### Listicle Block
@@ -168,7 +168,7 @@ Statistics increase AI citation rates by 15-30%. Always include sources.
 [Claim statement]. According to [Source/Organization], [specific statistic with number and timeframe]. [Context for why this matters].
 ```
 
-**Example:**
+**示例：**
 ```markdown
 Mobile optimization is no longer optional for SEO success. According to Google's 2024 Core Web Vitals report, 70% of web traffic now comes from mobile devices, and pages failing mobile usability standards see 24% higher bounce rates. This makes mobile-first indexing a critical ranking factor.
 ```
@@ -181,7 +181,7 @@ Named expert attribution adds credibility and increases citation likelihood.
 "[Direct quote from expert]," says [Expert Name], [Title/Role] at [Organization]. [1 sentence of context or interpretation].
 ```
 
-**Example:**
+**示例：**
 ```markdown
 "The shift from keyword-driven search to intent-driven discovery represents the most significant change in SEO since mobile-first indexing," says Rand Fishkin, Co-founder of SparkToro. This perspective highlights why content strategies must evolve beyond traditional keyword optimization.
 ```
@@ -194,7 +194,7 @@ Structure claims for easy AI extraction with clear attribution.
 [Topic] [verb: is/has/requires/involves] [clear, specific claim]. [Source] [confirms/reports/found] that [supporting evidence]. This [explains/means/suggests] [implication or action].
 ```
 
-**Example:**
+**示例：**
 ```markdown
 E-E-A-T is the cornerstone of Google's content quality evaluation. Google's Search Quality Rater Guidelines confirm that trust is the most critical factor, stating that "untrustworthy pages have low E-E-A-T no matter how experienced, expert, or authoritative they may seem." This means content creators must prioritize transparency and accuracy above all other optimization tactics.
 ```
@@ -207,7 +207,7 @@ Create quotable, standalone statements that AI can extract directly.
 **[Topic/Question]**: [Complete, self-contained answer that makes sense without additional context. Include specific details, numbers, or examples in 2-3 sentences.]
 ```
 
-**Example:**
+**示例：**
 ```markdown
 **Ideal blog post length for SEO**: The optimal length for SEO blog posts is 1,500-2,500 words for competitive topics. This range allows comprehensive topic coverage while maintaining reader engagement. HubSpot research shows long-form content earns 77% more backlinks than short articles, directly impacting search rankings.
 ```
@@ -231,12 +231,12 @@ Evidence supporting this includes:
 
 ## Domain-Specific GEO Tactics
 
-Different content domains benefit from different authority signals.
+Different content domains 收益 from different 权威 signals.
 
 ### Technology Content
 - Emphasize technical precision and correct terminology
 - Include version numbers and dates for software/tools
-- Reference official documentation
+- 参考 official documentation
 - Add code examples where relevant
 
 ### Health/Medical Content
@@ -246,26 +246,26 @@ Different content domains benefit from different authority signals.
 - Add "last reviewed" dates
 
 ### Financial Content
-- Reference regulatory bodies (SEC, FTC, etc.)
+- 参考 regulatory bodies (SEC, FTC, etc.)
 - Include specific numbers with timeframes
 - Note that information is educational, not advice
 - Cite recognized financial institutions
 
 ### Legal Content
 - Cite specific laws, statutes, and regulations
-- Reference jurisdiction clearly
+- 参考 jurisdiction clearly
 - Include professional disclaimers
 - Note when professional consultation is advised
 
-### Business/Marketing Content
-- Include case studies with measurable results
-- Reference industry research and reports
+### Business/营销 Content
+- Include 案例研究 with measurable results
+- 参考 industry research and reports
 - Add percentage changes and timeframes
 - Quote recognized thought leaders
 
 ---
 
-## Voice Search Optimization
+## Voice 搜索 Optimization
 
 Voice queries are conversational and question-based. Optimize for these patterns:
 
@@ -280,6 +280,6 @@ Voice queries are conversational and question-based. Optimize for these patterns
 ### Voice-Optimized Answer Structure
 - Lead with direct answer (under 30 words ideal)
 - Use natural, conversational language
-- Avoid jargon unless targeting expert audience
+- Avoid jargon unless targeting expert 受众
 - Include local context where relevant
 - Structure for single spoken response

@@ -1,23 +1,23 @@
 # Calendly
 
-Scheduling and booking platform API for managing event types, scheduled events, invitees, and availability.
+Scheduling and booking 平台 API for managing 事件 types, scheduled events, invitees, and availability.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API v2 - event types, scheduled events, invitees, availability |
-| MCP | - | Not available |
+| API | ✓ | REST API v2 - 事件 types, scheduled events, invitees, availability |
+| MCP | - | 不可用 |
 | CLI | ✓ | [calendly.js](../clis/calendly.js) |
 | SDK | ✓ | No official SDK; community libraries available |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (Personal Access Token or OAuth 2.0)
-- **Header**: `Authorization: Bearer {token}`
+- **类型**: Bearer Token (Personal Access Token or OAuth 2.0)
+- **请求头**: `Authorization: Bearer {token}`
 - **Get key**: https://calendly.com/integrations/api_webhooks (Personal Access Token)
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get current user
 
@@ -25,7 +25,7 @@ Scheduling and booking platform API for managing event types, scheduled events, 
 GET https://api.calendly.com/users/me
 ```
 
-### List event types
+### List 事件 types
 
 ```bash
 GET https://api.calendly.com/event_types?user={user_uri}
@@ -37,19 +37,19 @@ GET https://api.calendly.com/event_types?user={user_uri}
 GET https://api.calendly.com/scheduled_events?user={user_uri}&min_start_time=2024-01-01T00:00:00Z&max_start_time=2024-12-31T23:59:59Z&status=active
 ```
 
-### Get a scheduled event
+### Get a scheduled 事件
 
 ```bash
 GET https://api.calendly.com/scheduled_events/{event_uuid}
 ```
 
-### List invitees for an event
+### List invitees for an 事件
 
 ```bash
 GET https://api.calendly.com/scheduled_events/{event_uuid}/invitees
 ```
 
-### Cancel a scheduled event
+### Cancel a scheduled 事件
 
 ```bash
 POST https://api.calendly.com/scheduled_events/{event_uuid}/cancellation
@@ -102,14 +102,14 @@ GET https://api.calendly.com/webhook_subscriptions?organization={organization_ur
 DELETE https://api.calendly.com/webhook_subscriptions/{webhook_uuid}
 ```
 
-## Key Metrics
+## 核心指标
 
-### Scheduled Event Data
-- `uri` - Unique event URI
-- `name` - Event type name
-- `status` - Event status (active, canceled)
-- `start_time` / `end_time` - Event timing
-- `event_type` - URI of the event type
+### Scheduled 事件 Data
+- `uri` - Unique 事件 URI
+- `name` - 事件 类型 name
+- `status` - 事件 status (active, canceled)
+- `start_time` / `end_time` - 事件 timing
+- `event_type` - URI of the 事件 类型
 - `location` - Meeting location details
 - `invitees_counter` - Count of invitees (active, limit, total)
 
@@ -131,31 +131,31 @@ DELETE https://api.calendly.com/webhook_subscriptions/{webhook_uuid}
 - `page_token` - Pagination token
 - `sort` - Sort order (start_time:asc or start_time:desc)
 
-### List Event Types
+### List 事件 Types
 - `user` - User URI
 - `organization` - Organization URI
 - `active` - Filter active/inactive
 - `count` - Results per page
 - `sort` - Sort order
 
-## When to Use
+## 适用场景
 
 - Retrieving scheduled meeting data for CRM sync
 - Monitoring booking activity and conversion rates
-- Automating follow-up workflows after meetings
+- Automating follow-up 工作流 after meetings
 - Checking availability before suggesting meeting times
-- Tracking meeting cancellations and no-shows
+- 跟踪 meeting cancellations and no-shows
 - Building custom booking interfaces
 
-## Rate Limits
+## 速率限制
 
 - Not officially documented; implement retry logic with exponential backoff
 - Use conservative request rates (avoid bursting)
 - Monitor for HTTP 429 responses
 
-## Relevant Skills
+## 相关技能
 
 - lead-generation
 - sales-automation
-- customer-onboarding
+- 客户-onboarding
 - appointment-scheduling

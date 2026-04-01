@@ -1,33 +1,33 @@
 ---
 name: site-architecture
-description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.
+description: When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. 当用户提到以下内容时也应使用 "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy," "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs," "internal linking strategy," "website planning," "what pages do I need," "how should I organize my site," or "site navigation." 在这些情况下都应使用本技能 someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.
 metadata:
   version: 1.1.0
 ---
 
 # Site Architecture
 
-You are an information architecture expert. Your goal is to help plan website structure — page hierarchy, navigation, URL patterns, and internal linking — so the site is intuitive for users and optimized for search engines.
+You are an information architecture expert. Your goal is to help plan website structure — page hierarchy, navigation, URL patterns, and internal linking — so the site is intuitive for users and optimized for 搜索 engines.
 
 ## Before Planning
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
 ### 1. Business Context
 - What does the company do?
 - Who are the primary audiences?
-- What are the top 3 goals for the site? (conversions, SEO traffic, education, support)
+- What are the top 3 goals for the site? (转化, SEO traffic, education, support)
 
 ### 2. Current State
 - New site or restructuring an existing one?
 - If restructuring: what's broken? (high bounce, poor SEO, users can't find things)
 - Existing URLs that must be preserved (for redirects)?
 
-### 3. Site Type
-- SaaS marketing site
+### 3. Site 类型
+- SaaS 营销 site
 - Content/blog site
 - E-commerce
 - Documentation
@@ -36,23 +36,23 @@ Gather this context (ask if not provided):
 
 ### 4. Content Inventory
 - How many pages exist or are planned?
-- What are the most important pages? (by traffic, conversions, or business value)
+- What are the most important pages? (by traffic, 转化, or business value)
 - Any planned sections or expansions?
 
 ---
 
 ## Site Types and Starting Points
 
-| Site Type | Typical Depth | Key Sections | URL Pattern |
+| Site 类型 | Typical Depth | Key Sections | URL Pattern |
 |-----------|--------------|--------------|-------------|
-| SaaS marketing | 2-3 levels | Home, Features, Pricing, Blog, Docs | `/features/name`, `/blog/slug` |
+| SaaS 营销 | 2-3 levels | Home, 特性, Pricing, Blog, Docs | `/features/name`, `/blog/slug` |
 | Content/blog | 2-3 levels | Home, Blog, Categories, About | `/blog/slug`, `/category/slug` |
 | E-commerce | 3-4 levels | Home, Categories, Products, Cart | `/category/subcategory/product` |
-| Documentation | 3-4 levels | Home, Guides, API Reference | `/docs/section/page` |
-| Hybrid SaaS+content | 3-4 levels | Home, Product, Blog, Resources, Docs | `/product/feature`, `/blog/slug` |
+| Documentation | 3-4 levels | Home, Guides, API 参考 | `/docs/section/page` |
+| Hybrid SaaS+content | 3-4 levels | Home, 产品, Blog, Resources, Docs | `/product/feature`, `/blog/slug` |
 | Small business | 1-2 levels | Home, Services, About, Contact | `/services/name` |
 
-**For full page hierarchy templates**: See [references/site-type-templates.md](references/site-type-templates.md)
+**如需完整内容，请参见 page hierarchy templates**: See [references/site-type-templates.md](references/site-type-templates.md)
 
 ---
 
@@ -60,7 +60,7 @@ Gather this context (ask if not provided):
 
 ### The 3-Click Rule
 
-Users should reach any important page within 3 clicks from the homepage. This isn't absolute, but if critical pages are buried 4+ levels deep, something is wrong.
+Users should reach any important page within 3 点击 from the 首页. This isn't absolute, but if critical pages are buried 4+ levels deep, something is wrong.
 
 ### Flat vs Deep
 
@@ -74,9 +74,9 @@ Users should reach any important page within 3 clicks from the homepage. This is
 
 ### Hierarchy Levels
 
-| Level | What It Is | Example |
+| Level | What It Is | 示例 |
 |-------|-----------|---------|
-| L0 | Homepage | `/` |
+| L0 | 首页 | `/` |
 | L1 | Primary sections | `/features`, `/blog`, `/pricing` |
 | L2 | Section pages | `/features/analytics`, `/blog/seo-guide` |
 | L3+ | Detail pages | `/docs/api/authentication` |
@@ -106,7 +106,7 @@ Homepage (/)
 └── Contact (/contact)
 ```
 
-**When to use ASCII vs Mermaid**:
+**适用场景 ASCII vs Mermaid**:
 - ASCII: quick hierarchy drafts, text-only contexts, simple structures
 - Mermaid: visual presentations, complex relationships, showing nav zones or linking patterns
 
@@ -116,30 +116,30 @@ Homepage (/)
 
 ### Navigation Types
 
-| Nav Type | Purpose | Placement |
+| Nav 类型 | 用途 | Placement |
 |----------|---------|-----------|
-| Header nav | Primary navigation, always visible | Top of every page |
-| Dropdown menus | Organize sub-pages under parent | Expands from header items |
+| 请求头 nav | Primary navigation, always visible | Top of every page |
+| Dropdown menus | Organize sub-pages under parent | Expands from 请求头 items |
 | Footer nav | Secondary links, legal, sitemap | Bottom of every page |
 | Sidebar nav | Section navigation (docs, blog) | Left side within a section |
-| Breadcrumbs | Show current location in hierarchy | Below header, above content |
-| Contextual links | Related content, next steps | Within page content |
+| Breadcrumbs | Show current location in hierarchy | Below 请求头, above content |
+| Contextual links | Related content, next 步骤 | Within page content |
 
-### Header Navigation Rules
+### 请求头 Navigation Rules
 
 - **4-7 items max** in the primary nav (more causes decision paralysis)
 - **CTA button** goes rightmost (e.g., "Start Free Trial," "Get Started")
-- **Logo** links to homepage (left side)
+- **Logo** links to 首页 (left side)
 - **Order by priority**: most important/visited pages first
 - If you have a mega menu, limit to 3-4 columns
 
 ### Footer Organization
 
 Group footer links into columns:
-- **Product**: Features, Pricing, Integrations, Changelog
-- **Resources**: Blog, Case Studies, Templates, Docs
+- **产品**: 特性, Pricing, Integrations, Changelog
+- **Resources**: Blog, 案例研究, Templates, Docs
 - **Company**: About, Careers, Contact, Press
-- **Legal**: Privacy, Terms, Security
+- **Legal**: 隐私, Terms, Security
 
 ### Breadcrumb Format
 
@@ -150,7 +150,7 @@ Home > Blog > SEO Category > Post Title
 
 Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be a clickable link except the current page.
 
-**For detailed navigation patterns**: See [references/navigation-patterns.md](references/navigation-patterns.md)
+**如需详细说明，请参见 navigation patterns**: See [references/navigation-patterns.md](references/navigation-patterns.md)
 
 ---
 
@@ -165,24 +165,24 @@ Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be 
 5. **Lowercase always** — `/About` should redirect to `/about`
 6. **Short but descriptive** — `/blog/how-to-improve-landing-page-conversion-rates` is too long; `/blog/landing-page-conversions` is better
 
-### URL Patterns by Page Type
+### URL Patterns by Page 类型
 
-| Page Type | Pattern | Example |
+| Page 类型 | Pattern | 示例 |
 |-----------|---------|---------|
-| Homepage | `/` | `example.com` |
-| Feature page | `/features/{name}` | `/features/analytics` |
+| 首页 | `/` | `example.com` |
+| 功能页 | `/features/{name}` | `/features/analytics` |
 | Pricing | `/pricing` | `/pricing` |
 | Blog post | `/blog/{slug}` | `/blog/seo-guide` |
 | Blog category | `/blog/category/{slug}` | `/blog/category/seo` |
 | Case study | `/customers/{slug}` | `/customers/acme-corp` |
 | Documentation | `/docs/{section}/{page}` | `/docs/api/authentication` |
 | Legal | `/{page}` | `/privacy`, `/terms` |
-| Landing page | `/{slug}` or `/lp/{slug}` | `/free-trial`, `/lp/webinar` |
+| 落地页 | `/{slug}` or `/lp/{slug}` | `/free-trial`, `/lp/webinar` |
 | Comparison | `/compare/{competitor}` or `/vs/{competitor}` | `/compare/competitor-name` |
 | Integration | `/integrations/{name}` | `/integrations/slack` |
 | Template | `/templates/{slug}` | `/templates/marketing-plan` |
 
-### Common Mistakes
+### 常见 Mistakes
 
 - **Dates in blog URLs** — `/blog/2024/01/15/post-title` adds no value and makes URLs long. Use `/blog/post-title`.
 - **Over-nesting** — `/products/category/subcategory/item/detail` is too deep. Flatten where possible.
@@ -197,9 +197,9 @@ The breadcrumb trail should mirror the URL path:
 
 | URL | Breadcrumb |
 |-----|-----------|
-| `/features/analytics` | Home > Features > Analytics |
+| `/features/analytics` | Home > 特性 > 分析 |
 | `/blog/seo-guide` | Home > Blog > SEO Guide |
-| `/docs/api/auth` | Home > Docs > API > Authentication |
+| `/docs/api/auth` | Home > Docs > API > 认证 |
 
 ---
 
@@ -260,19 +260,19 @@ graph TD
 
 ### Link Types
 
-| Type | Purpose | Example |
+| 类型 | 用途 | 示例 |
 |------|---------|---------|
-| Navigational | Move between sections | Header, footer, sidebar links |
+| Navigational | Move between sections | 请求头, footer, sidebar links |
 | Contextual | Related content within text | "Learn more about [analytics](/features/analytics)" |
 | Hub-and-spoke | Connect cluster content to hub | Blog posts linking to pillar page |
-| Cross-section | Connect related pages across sections | Feature page linking to related case study |
+| Cross-section | Connect related pages across sections | 功能页 linking to related case study |
 
 ### Internal Linking Rules
 
 1. **No orphan pages** — every page must have at least one internal link pointing to it
-2. **Descriptive anchor text** — "our analytics features" not "click here"
+2. **Descriptive anchor text** — "our 分析 特性" not "click here"
 3. **5-10 internal links per 1000 words** of content (approximate guideline)
-4. **Link to important pages more often** — homepage, key feature pages, pricing
+4. **Link to important pages more often** — 首页, key feature pages, pricing
 5. **Use breadcrumbs** — free internal links on every page
 6. **Related content sections** — "Related Posts" or "You might also like" at page bottom
 
@@ -298,11 +298,11 @@ Each spoke links back to the hub. The hub links to all spokes. Spokes link to ea
 - [ ] Important pages have the most inbound internal links
 - [ ] Breadcrumbs are implemented on all pages
 - [ ] Related content links exist on blog posts
-- [ ] Cross-section links connect features to case studies, blog to product pages
+- [ ] Cross-section links connect 特性 to 案例研究, blog to 产品 pages
 
 ---
 
-## Output Format
+## 输出格式
 
 When creating a site architecture plan, provide these deliverables:
 
@@ -316,14 +316,14 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 
 | Page | URL | Parent | Nav Location | Priority |
 |------|-----|--------|-------------|----------|
-| Homepage | `/` | — | Header | High |
-| Features | `/features` | Homepage | Header | High |
-| Analytics | `/features/analytics` | Features | Header dropdown | Medium |
-| Pricing | `/pricing` | Homepage | Header | High |
-| Blog | `/blog` | Homepage | Header | Medium |
+| 首页 | `/` | — | 请求头 | High |
+| 特性 | `/features` | 首页 | 请求头 | High |
+| 分析 | `/features/analytics` | 特性 | 请求头 dropdown | Medium |
+| Pricing | `/pricing` | 首页 | 请求头 | High |
+| Blog | `/blog` | 首页 | 请求头 | Medium |
 
 ### 4. Navigation Spec
-- Header nav items (ordered, with CTA)
+- 请求头 nav items (ordered, with CTA)
 - Footer sections and links
 - Sidebar nav (if applicable)
 - Breadcrumb implementation notes
@@ -339,7 +339,7 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 ## Task-Specific Questions
 
 1. Is this a new site or are you restructuring an existing one?
-2. What type of site is it? (SaaS, content, e-commerce, docs, hybrid, small business)
+2. What 类型 of site is it? (SaaS, content, e-commerce, docs, hybrid, small business)
 3. How many pages exist or are planned?
 4. What are the 5 most important pages on the site?
 5. Are there existing URLs that need to be preserved or redirected?

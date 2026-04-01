@@ -1,23 +1,23 @@
 # Dub.co
 
-Link management and attribution platform for modern marketing teams.
+Link management and attribution 平台 for modern 营销 teams.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for links, analytics, domains |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | REST API for links, 分析, domains |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | TypeScript SDK available |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Get key**: Settings > API Keys in Dub dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Create short link
 
@@ -44,19 +44,19 @@ GET https://api.dub.co/links?domain=link.example.com&key=summer-sale
 GET https://api.dub.co/links?domain=link.example.com&page=1
 ```
 
-### Get link analytics
+### Get link 分析
 
 ```bash
 GET https://api.dub.co/analytics?domain=link.example.com&key=summer-sale&interval=30d
 ```
 
-### Get clicks by location
+### Get 点击 by location
 
 ```bash
 GET https://api.dub.co/analytics/country?domain=link.example.com&key=summer-sale
 ```
 
-### Get clicks by device
+### Get 点击 by device
 
 ```bash
 GET https://api.dub.co/analytics/device?domain=link.example.com&key=summer-sale
@@ -118,43 +118,43 @@ const analytics = await dub.analytics.retrieve({
 });
 ```
 
-## Key Features
+## 核心特性
 
 - **Custom domains** - Use your own branded domains
-- **Link analytics** - Clicks, locations, devices, referrers
-- **Tags** - Organize links by campaign, channel, etc.
+- **Link 分析** - 点击, locations, devices, referrers
+- **Tags** - Organize links by 广告活动, channel, etc.
 - **QR codes** - Auto-generated for each link
 - **Password protection** - Secure sensitive links
 - **Expiration** - Time-limited links
 - **Geo-targeting** - Redirect based on location
 
-## Analytics Dimensions
+## 分析 Dimensions
 
 - `clicks` - Total click count
-- `country` - Clicks by country
-- `city` - Clicks by city
-- `device` - Clicks by device type
-- `browser` - Clicks by browser
-- `os` - Clicks by operating system
-- `referer` - Clicks by referrer
+- `country` - 点击 by country
+- `city` - 点击 by city
+- `device` - 点击 by device 类型
+- `browser` - 点击 by browser
+- `os` - 点击 by operating system
+- `referer` - 点击 by referrer
 
-## When to Use
+## 适用场景
 
-- Creating trackable marketing links
+- Creating trackable 营销 links
 - Building referral link systems
-- Tracking campaign attribution
-- A/B testing landing pages via links
+- 跟踪 广告活动 attribution
+- A/B 测试 landing pages via links
 - Generating branded short URLs
-- Analyzing link performance
+- Analyzing link 表现
 
-## Rate Limits
+## 速率限制
 
 - Free: 1,000 links, 5 API requests/second
 - Pro: Unlimited links, 50 API requests/second
 - Enterprise: Custom limits
 
-## Relevant Skills
+## 相关技能
 
 - referral-program
-- analytics-tracking
+- 分析-跟踪
 - paid-ads

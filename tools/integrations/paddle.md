@@ -1,26 +1,26 @@
 # Paddle
 
-SaaS billing and payments platform with built-in tax compliance, acting as merchant of record for global sales.
+SaaS billing and payments 平台 with built-in tax 遵循率, acting as merchant of record for global sales.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for products, prices, subscriptions, transactions |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [paddle.js](../clis/paddle.js) |
 | SDK | ✓ | Node.js, Python, PHP, Go |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token
-- **Header**: `Authorization: Bearer {api_key}`
-- **Get key**: Paddle dashboard > Developer Tools > Authentication
+- **类型**: Bearer Token
+- **请求头**: `Authorization: Bearer {api_key}`
+- **Get key**: Paddle dashboard > Developer Tools > 认证
 - **Production URL**: `https://api.paddle.com`
 - **Sandbox URL**: `https://sandbox-api.paddle.com`
-- **Note**: Version specified via header, not path. Set `PADDLE_SANDBOX=true` env var for sandbox.
+- **Note**: Version specified via 请求头, not path. Set `PADDLE_SANDBOX=true` env var for sandbox.
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List products
 
@@ -28,7 +28,7 @@ SaaS billing and payments platform with built-in tax compliance, acting as merch
 GET https://api.paddle.com/products
 ```
 
-### Create a product
+### Create a 产品
 
 ```bash
 POST https://api.paddle.com/products
@@ -40,7 +40,7 @@ POST https://api.paddle.com/products
 }
 ```
 
-### Create a price for a product
+### Create a price for a 产品
 
 ```bash
 POST https://api.paddle.com/prices
@@ -59,13 +59,13 @@ POST https://api.paddle.com/prices
 }
 ```
 
-### List customers
+### List 客户
 
 ```bash
 GET https://api.paddle.com/customers
 ```
 
-### Create a customer
+### Create a 客户
 
 ```bash
 POST https://api.paddle.com/customers
@@ -142,28 +142,28 @@ POST https://api.paddle.com/adjustments
 GET https://api.paddle.com/events
 ```
 
-### List event types
+### List 事件 types
 
 ```bash
 GET https://api.paddle.com/event-types
 ```
 
-## Key Metrics
+## 核心指标
 
-### Transaction Metrics
+### Transaction 指标
 - `totals.total` - Total amount charged
 - `totals.tax` - Tax amount
 - `totals.subtotal` - Amount before tax
 - `totals.discount` - Discount applied
 - `currency_code` - Transaction currency
 
-### Subscription Metrics
+### Subscription 指标
 - `status` - active, canceled, paused, past_due, trialing
 - `current_billing_period` - Current period start/end
 - `next_billed_at` - Next billing date
 - `scheduled_change` - Pending changes (cancellation, plan change)
 
-### Product/Price Metrics
+### 产品/Price 指标
 - `unit_price.amount` - Price in lowest denomination
 - `billing_cycle` - Interval and frequency
 - `trial_period` - Trial duration if set
@@ -188,25 +188,25 @@ GET https://api.paddle.com/event-types
 - `digital-goods` - Digital goods tax rate
 - `saas` - SaaS-specific tax rate
 
-## When to Use
+## 适用场景
 
-- Managing SaaS subscription billing with tax compliance
+- Managing SaaS subscription billing with tax 遵循率
 - Creating products and pricing tiers
 - Processing refunds and adjustments
 - Handling subscription lifecycle (create, pause, cancel, resume)
 - Global tax handling as merchant of record
 - Discount and coupon management for promotions
 
-## Rate Limits
+## 速率限制
 
 - 100 requests per minute
 - Applies across all endpoints
 - HTTP 429 returned when exceeded
 
-## Relevant Skills
+## 相关技能
 
 - pricing-page
-- saas-metrics
+- saas-指标
 - churn-reduction
 - launch-sequence
 - monetization-strategy

@@ -1,24 +1,24 @@
 # Buffer
 
-Social media scheduling, publishing, and analytics platform for managing multiple social profiles.
+Social media scheduling, publishing, and 分析 平台 for managing multiple social profiles.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API v1 for profiles, updates, scheduling |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [buffer.js](../clis/buffer.js) |
 | SDK | - | No official SDK; legacy API still supported |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 Bearer Token
-- **Header**: `Authorization: Bearer {access_token}`
+- **类型**: OAuth 2.0 Bearer Token
+- **请求头**: `Authorization: Bearer {access_token}`
 - **Get key**: Register app at https://buffer.com/developers/apps then complete OAuth flow
-- **Note**: Buffer is no longer accepting new developer app registrations; existing apps continue to work. New public API is in development at https://buffer.com/developer-api
+- **Note**: Buffer is no longer accepting new developer app registrations; existing apps continue to work. New public API is in development at https://buffer.com/developer-API
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get user info
 
@@ -86,19 +86,19 @@ order[]={update_id_1}&order[]={update_id_2}&order[]={update_id_3}
 
 ## API Pattern
 
-Buffer API v1 uses `.json` extensions on all endpoints. POST requests use `application/x-www-form-urlencoded` content type. Array parameters use bracket notation (e.g., `profile_ids[]`).
+Buffer API v1 uses `.json` extensions on all endpoints. POST requests use `application/x-www-form-urlencoded` content 类型. Array parameters use bracket notation (e.g., `profile_ids[]`).
 
-Responses include a `success` boolean for mutation operations.
+Responses include a `success` boolean for mutation 操作.
 
-## Key Metrics
+## 核心指标
 
-### Profile Metrics
+### Profile 指标
 - `followers` - Follower count for connected profile
-- `service` - Platform name (twitter, facebook, instagram, linkedin, etc.)
+- `service` - 平台 name (twitter, facebook, instagram, linkedin, etc.)
 
-### Update Metrics (sent updates)
+### Update 指标 (sent updates)
 - `statistics.reach` - Post reach
-- `statistics.clicks` - Link clicks
+- `statistics.clicks` - Link 点击
 - `statistics.retweets` - Retweets/shares
 - `statistics.favorites` - Likes/favorites
 - `statistics.mentions` - Mentions
@@ -116,21 +116,21 @@ Responses include a `success` boolean for mutation operations.
 - `media[thumbnail]` - URL to thumbnail
 - `media[link]` - URL for link attachment
 
-## When to Use
+## 适用场景
 
 - Scheduling social media posts across multiple platforms
 - Managing social media content queues
-- Analyzing post performance across channels
-- Automating social media publishing workflows
+- Analyzing post 表现 across channels
+- Automating social media publishing 工作流
 - Coordinating team social media activity
 
-## Rate Limits
+## 速率限制
 
 - 60 authenticated requests per user per minute
 - Exceeding returns HTTP 429
 - Higher limits available by contacting hello@buffer.com
 
-## Relevant Skills
+## 相关技能
 
 - social-media-calendar
 - content-repurposing

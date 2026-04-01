@@ -1,53 +1,53 @@
-# Platform Setup Checklists
+# 平台 配置方式 Checklists
 
-Complete setup checklists for major ad platforms.
+Complete 配置方式 checklists for major ad platforms.
 
 ## Contents
-- Google Ads Setup (Account Foundation, Conversion Tracking, Analytics Integration, Audience Setup, Campaign Readiness, Ad Extensions, Brand Protection)
-- Meta Ads Setup (Business Manager Foundation, Pixel & Tracking, Domain & Aggregated Events, Audience Setup, Catalog, Creative Assets, Compliance)
-- LinkedIn Ads Setup (Campaign Manager Foundation, Insight Tag & Tracking, Audience Setup, Lead Gen Forms, Document Ads, Creative Assets, Budget Considerations)
-- Twitter/X Ads Setup (Account Foundation, Tracking, Audience Setup, Creative)
-- TikTok Ads Setup (Account Foundation, Pixel & Tracking, Audience Setup, Creative)
+- Google Ads 配置方式 (账户 Foundation, Conversion 跟踪, 分析 Integration, 受众 配置方式, 广告活动 Readiness, Ad Extensions, Brand Protection)
+- Meta Ads 配置方式 (Business Manager Foundation, Pixel & 跟踪, Domain & Aggregated Events, 受众 配置方式, Catalog, Creative Assets, 遵循率)
+- LinkedIn Ads 配置方式 (广告活动 Manager Foundation, Insight Tag & 跟踪, 受众 配置方式, Lead Gen Forms, Document Ads, Creative Assets, 预算 Considerations)
+- Twitter/X Ads 配置方式 (账户 Foundation, 跟踪, 受众 配置方式, Creative)
+- TikTok Ads 配置方式 (账户 Foundation, Pixel & 跟踪, 受众 配置方式, Creative)
 - Universal Pre-Launch Checklist
 
-## Google Ads Setup
+## Google Ads 配置方式
 
-### Account Foundation
+### 账户 Foundation
 
-- [ ] Google Ads account created and verified
+- [ ] Google Ads 账户 created and verified
 - [ ] Billing information added
 - [ ] Time zone and currency set correctly
-- [ ] Account access granted to team members
+- [ ] 账户 access granted to team members
 
-### Conversion Tracking
+### Conversion 跟踪
 
 - [ ] Google tag installed on all pages
 - [ ] Conversion actions created (purchase, lead, signup)
 - [ ] Conversion values assigned (if applicable)
-- [ ] Enhanced conversions enabled
-- [ ] Test conversions firing correctly
-- [ ] Import conversions from GA4 (optional)
+- [ ] Enhanced 转化 enabled
+- [ ] Test 转化 firing correctly
+- [ ] Import 转化 from GA4 (optional)
 
-### Analytics Integration
+### 分析 Integration
 
-- [ ] Google Analytics 4 linked
+- [ ] Google 分析 4 linked
 - [ ] Auto-tagging enabled
 - [ ] GA4 audiences available in Google Ads
-- [ ] Cross-domain tracking set up (if multiple domains)
+- [ ] Cross-domain 跟踪 set up (if multiple domains)
 
-### Audience Setup
+### 受众 配置方式
 
 - [ ] Remarketing tag verified
 - [ ] Website visitor audiences created:
   - All visitors (180 days)
-  - Key page visitors (pricing, demo, features)
+  - Key page visitors (pricing, demo, 特性)
   - Converters (for exclusion)
-- [ ] Customer match lists uploaded
+- [ ] 客户 match lists uploaded
 - [ ] Similar audiences enabled
 
-### Campaign Readiness
+### 广告活动 Readiness
 
-- [ ] Negative keyword lists created:
+- [ ] Negative 关键词 lists created:
   - Universal negatives (free, jobs, careers, reviews, complaints)
   - Competitor negatives (if needed)
   - Irrelevant industry terms
@@ -59,8 +59,8 @@ Complete setup checklists for major ad platforms.
 ### Ad Extensions
 
 - [ ] Sitelinks (4-6 relevant pages)
-- [ ] Callouts (key benefits, offers)
-- [ ] Structured snippets (features, types, services)
+- [ ] Callouts (key 收益, offers)
+- [ ] Structured snippets (特性, types, services)
 - [ ] Call extension (if phone leads valuable)
 - [ ] Lead form extension (if using)
 - [ ] Price extensions (if applicable)
@@ -68,60 +68,60 @@ Complete setup checklists for major ad platforms.
 
 ### Brand Protection
 
-- [ ] Brand campaign running (protect branded terms)
-- [ ] Competitor campaigns considered
-- [ ] Brand terms in negative lists for non-brand campaigns
+- [ ] Brand 广告活动 running (protect branded terms)
+- [ ] Competitor 广告活动 considered
+- [ ] Brand terms in negative lists for non-brand 广告活动
 
 ---
 
-## Meta Ads Setup
+## Meta Ads 配置方式
 
 ### Business Manager Foundation
 
 - [ ] Business Manager created
 - [ ] Business verified (if running certain ad types)
-- [ ] Ad account created within Business Manager
+- [ ] Ad 账户 created within Business Manager
 - [ ] Payment method added
 - [ ] Team access configured with proper roles
 
-### Pixel & Tracking
+### Pixel & 跟踪
 
 - [ ] Meta Pixel installed on all pages
 - [ ] Standard events configured:
   - PageView (automatic)
-  - ViewContent (product/feature pages)
+  - ViewContent (产品/feature pages)
   - Lead (form submissions)
-  - Purchase (conversions)
+  - Purchase (转化)
   - AddToCart (if e-commerce)
   - InitiateCheckout (if e-commerce)
-- [ ] Conversions API (CAPI) set up for server-side tracking
-- [ ] Event Match Quality score > 6
+- [ ] 转化 API (CAPI) set up for server-side 跟踪
+- [ ] 事件 Match 质量 score > 6
 - [ ] Test events in Events Manager
 
 ### Domain & Aggregated Events
 
 - [ ] Domain verified in Business Manager
-- [ ] Aggregated Event Measurement configured
+- [ ] Aggregated 事件 衡量 configured
 - [ ] Top 8 events prioritized in order of importance
-- [ ] Web events prioritized for iOS 14+ tracking
+- [ ] Web events prioritized for iOS 14+ 跟踪
 
-### Audience Setup
+### 受众 配置方式
 
 - [ ] Custom audiences created:
   - Website visitors (all, 30/60/90/180 days)
   - Key page visitors
-  - Video viewers (25%, 50%, 75%, 95%)
+  - 视频 viewers (25%, 50%, 75%, 95%)
   - Page/Instagram engagers
-  - Customer list uploaded
+  - 客户 list uploaded
 - [ ] Lookalike audiences created (1%, 1-3%)
-- [ ] Saved audiences for common targeting
+- [ ] Saved audiences for 常见 targeting
 
 ### Catalog (E-commerce)
 
-- [ ] Product catalog connected
-- [ ] Product feed updating correctly
-- [ ] Catalog sales campaigns enabled
-- [ ] Dynamic product ads configured
+- [ ] 产品 catalog connected
+- [ ] 产品 feed updating correctly
+- [ ] Catalog sales 广告活动 enabled
+- [ ] Dynamic 产品 ads configured
 
 ### Creative Assets
 
@@ -130,51 +130,51 @@ Complete setup checklists for major ad platforms.
   - Stories/Reels: 1080x1920 (9:16)
   - Landscape: 1200x628 (1.91:1)
 - [ ] Videos in correct formats
-- [ ] Ad copy variations ready
-- [ ] UTM parameters in all destination URLs
+- [ ] Ad 文案 variations ready
+- [ ] UTM parameters in all 目标 URLs
 
-### Compliance
+### 遵循率
 
 - [ ] Special Ad Categories declared (if housing, credit, employment, politics)
-- [ ] Landing page complies with Meta policies
+- [ ] 落地页 complies with Meta policies
 - [ ] No prohibited content in ads
 
 ---
 
-## LinkedIn Ads Setup
+## LinkedIn Ads 配置方式
 
-### Campaign Manager Foundation
+### 广告活动 Manager Foundation
 
-- [ ] Campaign Manager account created
+- [ ] 广告活动 Manager 账户 created
 - [ ] Company Page connected
 - [ ] Billing information added
 - [ ] Team access configured
 
-### Insight Tag & Tracking
+### Insight Tag & 跟踪
 
 - [ ] LinkedIn Insight Tag installed on all pages
 - [ ] Tag verified and firing
-- [ ] Conversion tracking configured:
-  - URL-based conversions
-  - Event-specific conversions
+- [ ] Conversion 跟踪 configured:
+  - URL-based 转化
+  - 事件-specific 转化
 - [ ] Conversion values set (if applicable)
 
-### Audience Setup
+### 受众 配置方式
 
 - [ ] Matched Audiences created:
   - Website retargeting audiences
   - Company list uploaded (for ABM)
   - Contact list uploaded
 - [ ] Lookalike audiences created
-- [ ] Saved audiences for common targeting
+- [ ] Saved audiences for 常见 targeting
 
 ### Lead Gen Forms (if using)
 
 - [ ] Lead gen form templates created
 - [ ] Form fields selected (minimize for conversion)
-- [ ] Privacy policy URL added
+- [ ] 隐私 policy URL added
 - [ ] Thank you message configured
-- [ ] CRM integration set up (or CSV export process)
+- [ ] CRM integration set up (or CSV export 流程)
 
 ### Document Ads (if using)
 
@@ -186,66 +186,66 @@ Complete setup checklists for major ad platforms.
 
 - [ ] Single image ads: 1200x627 (1.91:1) or 1080x1080 (1:1)
 - [ ] Carousel images ready
-- [ ] Video specs met (if using)
-- [ ] Ad copy within character limits:
+- [ ] 视频 specs met (if using)
+- [ ] Ad 文案 within character limits:
   - Intro text: 600 max, 150 recommended
-  - Headline: 200 max, 70 recommended
+  - 标题: 200 max, 70 recommended
 
-### Budget Considerations
+### 预算 Considerations
 
-- [ ] Budget realistic for LinkedIn CPCs ($8-15+ typical)
-- [ ] Audience size validated (50K+ recommended)
-- [ ] Daily vs. lifetime budget decided
+- [ ] 预算 realistic for LinkedIn CPCs ($8-15+ typical)
+- [ ] 受众 size validated (50K+ recommended)
+- [ ] Daily vs. lifetime 预算 decided
 - [ ] Bid strategy selected
 
 ---
 
-## Twitter/X Ads Setup
+## Twitter/X Ads 配置方式
 
-### Account Foundation
+### 账户 Foundation
 
-- [ ] Ads account created
+- [ ] Ads 账户 created
 - [ ] Payment method added
-- [ ] Account verified (if required)
+- [ ] 账户 verified (if required)
 
-### Tracking
+### 跟踪
 
 - [ ] Twitter Pixel installed
 - [ ] Conversion events created
 - [ ] Website tag verified
 
-### Audience Setup
+### 受众 配置方式
 
 - [ ] Tailored audiences created:
   - Website visitors
-  - Customer lists
+  - 客户 lists
 - [ ] Follower lookalikes identified
-- [ ] Interest and keyword targets researched
+- [ ] Interest and 关键词 targets researched
 
 ### Creative
 
-- [ ] Tweet copy within 280 characters
+- [ ] Tweet 文案 within 280 characters
 - [ ] Images: 1200x675 (1.91:1) or 1200x1200 (1:1)
-- [ ] Video specs met (if using)
+- [ ] 视频 specs met (if using)
 - [ ] Cards configured (website, app, etc.)
 
 ---
 
-## TikTok Ads Setup
+## TikTok Ads 配置方式
 
-### Account Foundation
+### 账户 Foundation
 
-- [ ] TikTok Ads Manager account created
-- [ ] Business verification completed
+- [ ] TikTok Ads Manager 账户 created
+- [ ] Business 验证 completed
 - [ ] Payment method added
 
-### Pixel & Tracking
+### Pixel & 跟踪
 
 - [ ] TikTok Pixel installed
 - [ ] Events configured (ViewContent, Purchase, etc.)
 - [ ] Events API set up (recommended)
 
-### Audience Setup
+### 受众 配置方式
 
 - [ ] Custom audiences created
 - [ ] Lookalike audiences created
@@ -253,7 +253,7 @@ Complete setup checklists for major ad platforms.
 
 ### Creative
 
-- [ ] Vertical video (9:16) ready
+- [ ] Vertical 视频 (9:16) ready
 - [ ] Native-feeling content (not too polished)
 - [ ] First 3 seconds are compelling hooks
 - [ ] Captions added (most watch without sound)
@@ -263,15 +263,15 @@ Complete setup checklists for major ad platforms.
 
 ## Universal Pre-Launch Checklist
 
-Before launching any campaign:
+Before launching any 广告活动:
 
-- [ ] Conversion tracking tested with real conversion
-- [ ] Landing page loads fast (<3 sec)
-- [ ] Landing page mobile-friendly
+- [ ] Conversion 跟踪 tested with real conversion
+- [ ] 落地页 loads fast (<3 sec)
+- [ ] 落地页 mobile-friendly
 - [ ] UTM parameters working
-- [ ] Budget set correctly (daily vs. lifetime)
+- [ ] 预算 set correctly (daily vs. lifetime)
 - [ ] Start/end dates correct
-- [ ] Targeting matches intended audience
+- [ ] Targeting matches intended 受众
 - [ ] Ad creative approved
 - [ ] Team notified of launch
 - [ ] Reporting dashboard ready

@@ -1,6 +1,6 @@
-# Marketing CLIs
+# 营销 CLIs
 
-Zero-dependency, single-file CLI tools for marketing platforms that don't ship their own.
+Zero-dependency, single-file CLI tools for 营销 platforms that don't ship their own.
 
 Every CLI is a standalone Node.js script (Node 18+) with no `npm install` required — just `chmod +x` and go.
 
@@ -30,7 +30,7 @@ resend send --from you@example.com --to them@example.com --subject "Hello" --htm
 export PATH="$PATH:/path/to/marketingskills/tools/clis"
 ```
 
-## Authentication
+## 认证方式
 
 Every CLI reads credentials from environment variables:
 
@@ -74,7 +74,7 @@ Every CLI reads credentials from environment variables:
 | `resend` | `RESEND_API_KEY` |
 | `rewardful` | `REWARDFUL_API_KEY` |
 | `savvycal` | `SAVVYCAL_API_KEY` |
-| `segment` | `SEGMENT_WRITE_KEY` (tracking), `SEGMENT_ACCESS_TOKEN` (profile) |
+| `segment` | `SEGMENT_WRITE_KEY` (跟踪), `SEGMENT_ACCESS_TOKEN` (profile) |
 | `semrush` | `SEMRUSH_API_KEY` |
 | `sendgrid` | `SENDGRID_API_KEY` |
 | `tiktok-ads` | `TIKTOK_ACCESS_TOKEN`, `TIKTOK_ADVERTISER_ID` |
@@ -105,7 +105,7 @@ All CLIs follow the same structure:
 {tool} <resource> <action> [options]
 ```
 
-Examples:
+示例:
 
 ```bash
 ahrefs backlinks list --target example.com --limit 50
@@ -130,14 +130,14 @@ semrush keywords overview --phrase "saas marketing" --database us > keywords.jso
 DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 ```
 
-## Available CLIs
+## 可用 CLIs
 
 | CLI | Category | Tool |
 |-----|----------|------|
 | `activecampaign.js` | Email/CRM | [ActiveCampaign](https://activecampaign.com) |
-| `adobe-analytics.js` | Analytics | [Adobe Analytics](https://business.adobe.com/products/analytics) |
+| `adobe-analytics.js` | 分析 | [Adobe Analytics](https://business.adobe.com/products/analytics) |
 | `ahrefs.js` | SEO | [Ahrefs](https://ahrefs.com) |
-| `amplitude.js` | Analytics | [Amplitude](https://amplitude.com) |
+| `amplitude.js` | 分析 | [Amplitude](https://amplitude.com) |
 | `apollo.js` | Data Enrichment | [Apollo.io](https://apollo.io) |
 | `beehiiv.js` | Newsletter | [Beehiiv](https://beehiiv.com) |
 | `brevo.js` | Email/SMS | [Brevo](https://brevo.com) |
@@ -149,7 +149,7 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `demio.js` | Webinar | [Demio](https://demio.com) |
 | `dub.js` | Links | [Dub.co](https://dub.co) |
 | `g2.js` | Reviews | [G2](https://g2.com) |
-| `ga4.js` | Analytics | [Google Analytics 4](https://analytics.google.com) |
+| `ga4.js` | 分析 | [Google Analytics 4](https://analytics.google.com) |
 | `google-ads.js` | Ads | [Google Ads](https://ads.google.com) |
 | `google-search-console.js` | SEO | [Google Search Console](https://search.google.com/search-console) |
 | `hotjar.js` | CRO | [Hotjar](https://hotjar.com) |
@@ -165,17 +165,17 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `mailchimp.js` | Email | [Mailchimp](https://mailchimp.com) |
 | `mention-me.js` | Referral | [Mention Me](https://www.mention-me.com) |
 | `meta-ads.js` | Ads | [Meta Ads](https://www.facebook.com/business/ads) |
-| `mixpanel.js` | Analytics | [Mixpanel](https://mixpanel.com) |
+| `mixpanel.js` | 分析 | [Mixpanel](https://mixpanel.com) |
 | `onesignal.js` | Push | [OneSignal](https://onesignal.com) |
-| `optimizely.js` | A/B Testing | [Optimizely](https://optimizely.com) |
+| `optimizely.js` | A/B 测试 | [Optimizely](https://optimizely.com) |
 | `paddle.js` | Payments | [Paddle](https://paddle.com) |
 | `partnerstack.js` | Affiliate | [PartnerStack](https://partnerstack.com) |
-| `plausible.js` | Analytics | [Plausible](https://plausible.io) |
+| `plausible.js` | 分析 | [Plausible](https://plausible.io) |
 | `postmark.js` | Email | [Postmark](https://postmarkapp.com) |
 | `resend.js` | Email | [Resend](https://resend.com) |
 | `rewardful.js` | Referral | [Rewardful](https://www.getrewardful.com) |
 | `savvycal.js` | Scheduling | [SavvyCal](https://savvycal.com) |
-| `segment.js` | Analytics | [Segment](https://segment.com) |
+| `segment.js` | 分析 | [Segment](https://segment.com) |
 | `semrush.js` | SEO | [SEMrush](https://semrush.com) |
 | `sendgrid.js` | Email | [SendGrid](https://sendgrid.com) |
 | `snov.js` | Email Outreach | [Snov.io](https://snov.io) |
@@ -183,5 +183,5 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `tolt.js` | Referral | [Tolt](https://tolt.io) |
 | `trustpilot.js` | Reviews | [Trustpilot](https://trustpilot.com) |
 | `typeform.js` | Forms | [Typeform](https://typeform.com) |
-| `wistia.js` | Video | [Wistia](https://wistia.com) |
+| `wistia.js` | 视频 | [Wistia](https://wistia.com) |
 | `zapier.js` | Automation | [Zapier](https://zapier.com) |

@@ -1,30 +1,30 @@
 # Sample Size Guide
 
-Reference for calculating sample sizes and test duration.
+参考 for calculating sample sizes and test duration.
 
 ## Contents
 - Sample Size Fundamentals (required inputs, what these mean)
-- Sample Size Quick Reference Tables
+- Sample Size Quick 参考 Tables
 - Duration Calculator (formula, examples, minimum duration rules, maximum duration guidelines)
 - Online Calculators
 - Adjusting for Multiple Variants
-- Common Sample Size Mistakes
+- 常见 Sample Size Mistakes
 - When Sample Size Requirements Are Too High
-- Sequential Testing
+- Sequential 测试
 - Quick Decision Framework
 
 ## Sample Size Fundamentals
 
 ### Required Inputs
 
-1. **Baseline conversion rate**: Your current rate
+1. **Baseline 转化率**: Your current rate
 2. **Minimum detectable effect (MDE)**: Smallest change worth detecting
 3. **Statistical significance level**: Usually 95% (α = 0.05)
 4. **Statistical power**: Usually 80% (β = 0.20)
 
 ### What These Mean
 
-**Baseline conversion rate**: If your page converts at 5%, that's your baseline.
+**Baseline 转化率**: If your page converts at 5%, that's your baseline.
 
 **MDE (Minimum Detectable Effect)**: The smallest improvement you care about detecting. Set this based on:
 - Business impact (is a 5% lift meaningful?)
@@ -37,9 +37,9 @@ Reference for calculating sample sizes and test duration.
 
 ---
 
-## Sample Size Quick Reference Tables
+## Sample Size Quick 参考 Tables
 
-### Conversion Rate: 1%
+### 转化率: 1%
 
 | Lift to Detect | Sample per Variant | Total Sample |
 |----------------|-------------------|--------------|
@@ -49,7 +49,7 @@ Reference for calculating sample sizes and test duration.
 | 50% (1% → 1.5%) | 16,000 | 32,000 |
 | 100% (1% → 2%) | 4,200 | 8,400 |
 
-### Conversion Rate: 3%
+### 转化率: 3%
 
 | Lift to Detect | Sample per Variant | Total Sample |
 |----------------|-------------------|--------------|
@@ -59,7 +59,7 @@ Reference for calculating sample sizes and test duration.
 | 50% (3% → 4.5%) | 5,200 | 10,400 |
 | 100% (3% → 6%) | 1,400 | 2,800 |
 
-### Conversion Rate: 5%
+### 转化率: 5%
 
 | Lift to Detect | Sample per Variant | Total Sample |
 |----------------|-------------------|--------------|
@@ -69,7 +69,7 @@ Reference for calculating sample sizes and test duration.
 | 50% (5% → 7.5%) | 3,100 | 6,200 |
 | 100% (5% → 10%) | 810 | 1,620 |
 
-### Conversion Rate: 10%
+### 转化率: 10%
 
 | Lift to Detect | Sample per Variant | Total Sample |
 |----------------|-------------------|--------------|
@@ -79,7 +79,7 @@ Reference for calculating sample sizes and test duration.
 | 50% (10% → 15%) | 1,500 | 3,000 |
 | 100% (10% → 20%) | 400 | 800 |
 
-### Conversion Rate: 20%
+### 转化率: 20%
 
 | Lift to Detect | Sample per Variant | Total Sample |
 |----------------|-------------------|--------------|
@@ -99,7 +99,7 @@ Reference for calculating sample sizes and test duration.
 Duration (days) = (Sample per variant × Number of variants) / (Daily traffic × % exposed)
 ```
 
-### Examples
+### 示例
 
 **Scenario 1: High-traffic page**
 - Need: 10,000 per variant (2 variants = 20,000 total)
@@ -141,7 +141,7 @@ Avoid running tests longer than 4-8 weeks:
 ### Recommended Tools
 
 **Evan Miller's Calculator**
-https://www.evanmiller.org/ab-testing/sample-size.html
+https://www.evanmiller.org/ab-测试/sample-size.html
 - Simple interface
 - Bookmark-worthy
 
@@ -182,26 +182,26 @@ Apply Bonferroni correction or use tools that handle this automatically.
 
 ---
 
-## Common Sample Size Mistakes
+## 常见 Sample Size Mistakes
 
 ### 1. Underpowered tests
-**Problem**: Not enough sample to detect realistic effects
+**问题**: Not enough sample to detect realistic effects
 **Fix**: Be realistic about MDE, get more traffic, or don't test
 
 ### 2. Overpowered tests
-**Problem**: Waiting for sample size when you already have significance
+**问题**: Waiting for sample size when you already have significance
 **Fix**: This is actually fine—you committed to sample size, honor it
 
 ### 3. Wrong baseline rate
-**Problem**: Using wrong conversion rate for calculation
+**问题**: Using wrong 转化率 for calculation
 **Fix**: Use the specific metric and page, not site-wide averages
 
 ### 4. Ignoring segments
-**Problem**: Calculating for full traffic, then analyzing segments
+**问题**: Calculating for full traffic, then analyzing segments
 **Fix**: If you plan segment analysis, calculate sample for smallest segment
 
-### 5. Testing too many things
-**Problem**: Dividing traffic too many ways
+### 5. 测试 too many things
+**问题**: Dividing traffic too many ways
 **Fix**: Prioritize ruthlessly, run fewer concurrent tests
 
 ---
@@ -220,14 +220,14 @@ Options when you can't get enough traffic:
 
 ---
 
-## Sequential Testing
+## Sequential 测试
 
 If you must check results before reaching sample size:
 
 ### What is it?
 Statistical method that adjusts for multiple looks at data.
 
-### When to use
+### 适用场景
 - High-risk changes
 - Need to stop bad variants early
 - Time-sensitive decisions
@@ -240,7 +240,7 @@ Statistical method that adjusts for multiple looks at data.
 ### Tradeoff
 - More flexibility to stop early
 - Slightly larger sample size requirement
-- More complex analysis
+- More complex 分析
 
 ---
 

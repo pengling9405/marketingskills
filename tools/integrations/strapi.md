@@ -1,24 +1,24 @@
 # Strapi
 
-Open-source headless CMS with self-hosted option, REST and GraphQL APIs, and customizable admin panel. Targets Strapi 5.
+开源 headless CMS with self-hosted option, REST and GraphQL APIs, and customizable admin panel. Targets Strapi 5.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST (default), GraphQL (plugin) |
 | MCP | - | No official MCP server |
-| CLI | ✓ | `strapi` CLI for project setup, content types, plugins |
+| CLI | ✓ | `strapi` CLI for project 配置方式, content types, plugins |
 | SDK | ✓ | `@strapi/sdk-js`, `@strapi/blocks-react-renderer` |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Token or Users & Permissions JWT
-- **Header**: `Authorization: Bearer {api_token}`
+- **类型**: API Token or Users & Permissions JWT
+- **请求头**: `Authorization: Bearer {api_token}`
 - **Tokens**: Create in Settings → API Tokens (full access, read-only, or custom)
 - **JWT**: `POST /api/auth/local` with identifier + password returns JWT
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List documents
 
@@ -139,29 +139,29 @@ npm install @strapi/plugin-graphql
 
 ## Key Objects
 
-- **Content Type** — Schema definition (collection type or single type)
+- **Content 类型** — Schema definition (collection 类型 or single 类型)
 - **Document** — Content item identified by `documentId` (Strapi 5 pattern)
 - **Component** — Reusable field group (e.g., SEO fields, CTA block)
 - **Dynamic Zone** — Flexible content area accepting multiple component types
 - **Media** — Files managed through the Media Library
 - **Locale** — i18n locale for content translation (plugin-based)
 
-## When to Use
+## 适用场景
 
 - Self-hosted CMS with full data ownership
-- Budget-conscious projects (no per-seat pricing)
+- 预算-conscious projects (no per-seat pricing)
 - Custom admin panel or plugin requirements
 - Teams with DevOps capability
 - Projects needing both REST and GraphQL access
 
-## Rate Limits
+## 速率限制
 
-- Self-hosted: No built-in rate limits (configure via middleware or reverse proxy)
+- Self-hosted: No built-in 速率限制 (configure via middleware or reverse proxy)
 - Strapi Cloud: Varies by plan
 - Recommended: Add rate limiting middleware for production APIs
 
-## Relevant Skills
+## 相关技能
 
 - content-strategy (CMS selection, content modeling)
-- programmatic-seo (CMS as data source for generated pages)
+- programmatic-seo (CMS as data 来源 for generated pages)
 - site-architecture (URL structure from CMS slugs)

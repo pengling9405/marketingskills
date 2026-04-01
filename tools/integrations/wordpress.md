@@ -2,22 +2,22 @@
 
 Content management system for blogs and websites.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API (WP REST API) |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | WP-CLI for server-side management |
 | SDK | ✓ | Various client libraries |
 
-## Authentication
+## 认证方式
 
-- **Type**: Application Password, JWT, or OAuth
-- **Header**: `Authorization: Basic {base64(username:app_password)}`
-- **Setup**: Users > Your Profile > Application Passwords
+- **类型**: Application Password, JWT, or OAuth
+- **请求头**: `Authorization: Basic {base64(username:app_password)}`
+- **配置方式**: Users > Your Profile > Application Passwords
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List posts
 
@@ -143,7 +143,7 @@ wp plugin update --all
 - `future` - Scheduled
 - `trash` - In trash
 
-## Common Endpoints
+## 常见 Endpoints
 
 | Endpoint | Resource |
 |----------|----------|
@@ -155,20 +155,20 @@ wp plugin update --all
 | `/wp/v2/users` | Users |
 | `/wp/v2/comments` | Comments |
 
-## When to Use
+## 适用场景
 
-- Blog content management
+- Blog content 管理
 - Page updates
-- Media management
+- Media 管理
 - Site configuration
-- Plugin/theme management
+- Plugin/theme 管理
 
-## Rate Limits
+## 速率限制
 
 - No default limits
 - Server/host dependent
 
-## Relevant Skills
+## 相关技能
 
 - content-strategy
 - seo-audit

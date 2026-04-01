@@ -1,24 +1,24 @@
 # PartnerStack
 
-Partner and affiliate program management platform for SaaS companies with deal tracking, rewards, and multi-tier partnerships.
+Partner and affiliate program management 平台 for SaaS companies with deal 跟踪, rewards, and multi-tier partnerships.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Vendor API v2 for partnerships, deals, customers, transactions |
-| MCP | - | Not available |
+| API | ✓ | Vendor API v2 for partnerships, deals, 客户, transactions |
+| MCP | - | 不可用 |
 | CLI | ✓ | [partnerstack.js](../clis/partnerstack.js) |
 | SDK | - | No official SDK; REST API with Basic Auth |
 
-## Authentication
+## 认证方式
 
-- **Type**: Basic Auth (Vendor API)
-- **Header**: `Authorization: Basic {base64(public_key:secret_key)}`
+- **类型**: Basic Auth (Vendor API)
+- **请求头**: `Authorization: Basic {base64(public_key:secret_key)}`
 - **Get credentials**: Vendor dashboard > Settings > Integrations > PartnerStack API Keys
-- **Note**: Separate Test and Production API keys. Test transactions can only be added to customers created with Test keys.
+- **Note**: Separate Test and Production API keys. Test transactions can only be added to 客户 created with Test keys.
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List partnerships
 
@@ -41,13 +41,13 @@ POST https://api.partnerstack.com/api/v2/partnerships
 }
 ```
 
-### List customers
+### List 客户
 
 ```bash
 GET https://api.partnerstack.com/api/v2/customers?limit=25
 ```
 
-### Create a customer (attribute to partner)
+### Create a 客户 (attribute to partner)
 
 ```bash
 POST https://api.partnerstack.com/api/v2/customers
@@ -91,7 +91,7 @@ POST https://api.partnerstack.com/api/v2/deals
 }
 ```
 
-### Record an action (event-based rewards)
+### Record an action (事件-based rewards)
 
 ```bash
 POST https://api.partnerstack.com/api/v2/actions
@@ -164,26 +164,26 @@ All responses follow the format:
 }
 ```
 
-## Key Metrics
+## 核心指标
 
-### Partnership Metrics
+### Partnership 指标
 - `partner_key` - Unique partner identifier
 - `group` - Partner tier/group
 - `status` - active, pending, archived
 - `created_at` - Partnership start date
 
-### Transaction Metrics
+### Transaction 指标
 - `amount` - Transaction value in cents
 - `currency` - Currency code
-- `product_key` - Associated product
-- `customer_key` - Associated customer
+- `product_key` - Associated 产品
+- `customer_key` - Associated 客户
 
-### Deal Metrics
+### Deal 指标
 - `amount` - Deal value
 - `stage` - Deal pipeline stage
 - `status` - open, won, lost
 
-### Reward Metrics
+### Reward 指标
 - `amount` - Reward amount in cents
 - `status` - pending, approved, paid
 
@@ -195,28 +195,28 @@ All responses follow the format:
 - `ending_before` - Cursor for previous page (item key)
 - `order_by` - Sort field, prefix with `-` for descending
 
-### Common Filters
+### 常见 Filters
 - `include_archived` - Include archived records
 - `has_sub_id` - Filter by sub ID presence
 
-## When to Use
+## 适用场景
 
 - Managing SaaS affiliate and referral programs
-- Tracking partner-driven revenue and attributions
+- 跟踪 partner-driven revenue and attributions
 - Automating partner onboarding and rewards
-- Deal registration and pipeline tracking
+- Deal registration and pipeline 跟踪
 - Multi-tier partnership programs (affiliates, resellers, agencies)
-- Event-based reward triggers (signups, upgrades, etc.)
+- 事件-based reward triggers (signups, upgrades, etc.)
 
-## Rate Limits
+## 速率限制
 
 - Not explicitly documented
 - Use reasonable request rates; implement exponential backoff on 429 responses
 
-## Relevant Skills
+## 相关技能
 
 - referral-program
-- affiliate-marketing
+- affiliate-营销
 - partner-enablement
-- saas-metrics
+- saas-指标
 - launch-sequence

@@ -1,27 +1,27 @@
 # Introw PRM
 
-Partner Relationship Management platform for managing channel partners, tracking partner-sourced deals, commissions, tasks, and engagement — with built-in business review generation.
+Partner Relationship Management 平台 for managing channel partners, 跟踪 partner-sourced deals, commissions, tasks, and engagement — with built-in business review generation.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | - | Not available |
+| API | - | 不可用 |
 | MCP | ✓ | Full read/write via Claude connector |
-| CLI | - | Not available |
-| SDK | - | Not available |
+| CLI | - | 不可用 |
+| SDK | - | 不可用 |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth2 (via MCP connector)
-- **Setup**: Connect via Claude MCP connector — no API key management needed
+- **类型**: OAuth2 (via MCP connector)
+- **配置方式**: Connect via Claude MCP connector — no API key management needed
 - **Scope**: All data is scoped to the authenticated organisation
 
-## Common Agent Operations
+## 常见代理操作
 
-All operations are performed via MCP tools. The following are the primary tool calls available.
+All 操作 are performed via MCP tools. The following are the primary tool calls available.
 
-### Search Partners
+### 搜索 Partners
 
 ```
 search_partners
@@ -30,7 +30,7 @@ search_partners
 
 Returns: partner name/ID, contact info, tier, lifecycle stage, categories, country, last activity date.
 
-### Search CRM Objects (Deals, Tickets, Leads, Companies, Contacts)
+### 搜索 CRM Objects (Deals, Tickets, Leads, Companies, Contacts)
 
 ```
 search_crm_objects
@@ -42,9 +42,9 @@ search_crm_objects
   limit: 10
 ```
 
-Synonym mapping: Opportunity/Forecast → `DEAL`, Account → `COMPANY`, Case → `TICKET`.
+Synonym mapping: Opportunity/Forecast → `DEAL`, 账户 → `COMPANY`, Case → `TICKET`.
 
-### Search Tasks
+### 搜索 Tasks
 
 ```
 search_tasks
@@ -52,7 +52,7 @@ search_tasks
   partnerId: "{partner_id}"
 ```
 
-### Search Commissions
+### 搜索 Commissions
 
 ```
 search_commissions
@@ -69,9 +69,9 @@ generate_business_review
   partnerId: "{partner_id}"
 ```
 
-Returns: pipeline & forecast analysis, form submissions overview, mutual action plan, goal tracking, timed agenda and next steps.
+Returns: pipeline & forecast analysis, form submissions 概览, mutual action plan, goal 跟踪, timed agenda and next 步骤.
 
-### Search Partner Engagement
+### 搜索 Partner Engagement
 
 ```
 search_partner_engagement
@@ -127,7 +127,7 @@ share_lead_or_register_deal
   partnerId: "{partner_id}"
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Partner Data
 - `id` - Partner ID
@@ -154,27 +154,27 @@ share_lead_or_register_deal
 - `dealId` - Associated deal
 
 ### Engagement Data
-- `type` - Activity type (ROOM_VISIT, COMMENT, FORM_SUBMIT, etc.)
+- `type` - Activity 类型 (ROOM_VISIT, COMMENT, FORM_SUBMIT, etc.)
 - `partnerId` - Partner involved
 - `crmObjectId` - Related CRM object
 - `createdAt` - Activity timestamp
 
-## When to Use
+## 适用场景
 
-- Managing channel partner relationships and tracking partner activity
+- Managing channel partner relationships and 跟踪 partner activity
 - Reviewing partner-sourced pipeline (deals, leads, opportunities)
 - Preparing QBR/MBR/WBR meetings with automated business review generation
-- Tracking partner commissions and payouts
+- 跟踪 partner commissions and payouts
 - Managing mutual action plans via tasks assigned to partners or internal teams
 - Processing deal registrations and lead sharing from partners
 - Monitoring partner portal engagement and content asset views
 
-## Rate Limits
+## 速率限制
 
-- Rate limits managed by the MCP connector
+- 速率限制 managed by the MCP connector
 - All data scoped to authenticated organisation
 
-## Relevant Skills
+## 相关技能
 
 - revops
 - sales-enablement

@@ -1,23 +1,23 @@
 # TikTok Ads
 
-Advertising platform for TikTok's short-form video audience.
+Advertising 平台 for TikTok's short-form 视频 受众.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | Marketing API for campaigns, audiences, reporting |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | 营销 API for 广告活动, audiences, reporting |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | Python SDK available |
 
-## Authentication
+## 认证方式
 
-- **Type**: Access Token
-- **Header**: `Access-Token: {access_token}`
-- **Setup**: Create app in TikTok for Business, get access token
+- **类型**: Access Token
+- **请求头**: `Access-Token: {access_token}`
+- **配置方式**: Create app in TikTok for Business, get access token
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get advertiser info
 
@@ -27,7 +27,7 @@ GET https://business-api.tiktok.com/open_api/v1.3/advertiser/info/?advertiser_id
 Access-Token: {access_token}
 ```
 
-### Get campaigns
+### Get 广告活动
 
 ```bash
 GET https://business-api.tiktok.com/open_api/v1.3/campaign/get/?advertiser_id={advertiser_id}&page=1&page_size=20
@@ -35,7 +35,7 @@ GET https://business-api.tiktok.com/open_api/v1.3/campaign/get/?advertiser_id={a
 Access-Token: {access_token}
 ```
 
-### Get campaign report
+### Get 广告活动 report
 
 ```bash
 POST https://business-api.tiktok.com/open_api/v1.3/report/integrated/get/
@@ -53,7 +53,7 @@ Access-Token: {access_token}
 }
 ```
 
-### Create campaign
+### Create 广告活动
 
 ```bash
 POST https://business-api.tiktok.com/open_api/v1.3/campaign/create/
@@ -69,7 +69,7 @@ Access-Token: {access_token}
 }
 ```
 
-### Update campaign status
+### Update 广告活动 status
 
 ```bash
 POST https://business-api.tiktok.com/open_api/v1.3/campaign/status/update/
@@ -99,28 +99,28 @@ GET https://business-api.tiktok.com/open_api/v1.3/dmp/custom_audience/list/?adve
 Access-Token: {access_token}
 ```
 
-## Key Metrics
+## 核心指标
 
-| Metric | Description |
+| 指标 | 说明 |
 |--------|-------------|
 | `spend` | Amount spent |
-| `impressions` | Ad impressions |
-| `clicks` | Clicks |
-| `ctr` | Click-through rate |
-| `cpc` | Cost per click |
-| `cpm` | Cost per 1000 impressions |
-| `conversion` | Conversions |
+| `impressions` | Ad 曝光 |
+| `clicks` | 点击 |
+| `ctr` | 点击率 |
+| `cpc` | 每次点击成本 |
+| `cpm` | Cost per 1000 曝光 |
+| `conversion` | 转化 |
 | `cost_per_conversion` | CPA |
-| `video_play_actions` | Video views |
+| `video_play_actions` | 视频 views |
 | `video_watched_6s` | 6s views |
 
-## Campaign Objectives
+## 广告活动 Objectives
 
 - `REACH` - Brand awareness
 - `TRAFFIC` - Website traffic
-- `VIDEO_VIEWS` - Video views
+- `VIDEO_VIEWS` - 视频 views
 - `LEAD_GENERATION` - Lead forms
-- `CONVERSIONS` - Website conversions
+- `CONVERSIONS` - Website 转化
 - `APP_PROMOTION` - App installs
 
 ## Targeting Options
@@ -133,29 +133,29 @@ Access-Token: {access_token}
 
 ### Interests & Behavior
 - Interest categories
-- Video interactions
+- 视频 interactions
 - Creator interactions
 - Hashtag interactions
 
 ### Custom Audiences
-- Customer file uploads
+- 客户 file uploads
 - Website visitors (pixel)
 - App activity
 - Engagement audiences
 
-## When to Use
+## 适用场景
 
 - Reaching younger demographics (18-34)
-- Video-first advertising
-- Viral/creative campaigns
+- 视频-first advertising
+- Viral/creative 广告活动
 - App promotion
 
-## Rate Limits
+## 速率限制
 
 - 10 requests/second
 - 100,000 requests/day
 
-## Relevant Skills
+## 相关技能
 
 - paid-ads
-- analytics-tracking
+- 分析-跟踪

@@ -1,35 +1,35 @@
-# GA4 Implementation Reference
+# GA4 Implementation 参考
 
-Detailed implementation guide for Google Analytics 4.
+Detailed implementation guide for Google 分析 4.
 
 ## Contents
-- Configuration (data streams, enhanced measurement events, recommended events)
+- Configuration (data streams, enhanced 衡量 events, recommended events)
 - Custom Events (gtag.js implementation, Google Tag Manager)
-- Conversions Setup (creating conversions, conversion values)
-- Custom Dimensions and Metrics (when to use, setup steps, examples)
-- Audiences (creating audiences, audience examples)
-- Debugging (DebugView, real-time reports, common issues)
-- Data Quality (filters, cross-domain tracking, session settings)
-- Integration with Google Ads (linking, audience export)
+- 转化 配置方式 (creating 转化, conversion values)
+- Custom Dimensions and 指标 (适用场景, 配置方式 步骤, examples)
+- Audiences (creating audiences, 受众 examples)
+- 调试 (DebugView, real-time reports, 常见 issues)
+- Data 质量 (filters, cross-domain 跟踪, session settings)
+- Integration with Google Ads (linking, 受众 export)
 
 ## Configuration
 
 ### Data Streams
 
-- One stream per platform (web, iOS, Android)
-- Enable enhanced measurement for automatic tracking
+- One stream per 平台 (web, iOS, Android)
+- Enable enhanced 衡量 for automatic 跟踪
 - Configure data retention (2 months default, 14 months max)
 - Enable Google Signals (for cross-device, if consented)
 
-### Enhanced Measurement Events (Automatic)
+### Enhanced 衡量 Events (Automatic)
 
-| Event | Description | Configuration |
+| 事件 | 说明 | Configuration |
 |-------|-------------|---------------|
 | page_view | Page loads | Automatic |
 | scroll | 90% scroll depth | Toggle on/off |
 | outbound_click | Click to external domain | Automatic |
-| site_search | Search query used | Configure parameter |
-| video_engagement | YouTube video plays | Toggle on/off |
+| site_search | 搜索 query used | Configure parameter |
+| video_engagement | YouTube 视频 plays | Toggle on/off |
 | file_download | PDF, docs, etc. | Configurable extensions |
 
 ### Recommended Events
@@ -39,7 +39,7 @@ Use Google's predefined events when possible for enhanced reporting:
 **All properties:**
 - login, sign_up
 - share
-- search
+- 搜索
 
 **E-commerce:**
 - view_item, view_item_list
@@ -52,7 +52,7 @@ Use Google's predefined events when possible for enhanced reporting:
 - level_up, unlock_achievement
 - post_score, spend_virtual_currency
 
-Reference: https://support.google.com/analytics/answer/9267735
+参考: https://support.google.com/分析/answer/9267735
 
 ---
 
@@ -91,7 +91,7 @@ gtag('config', 'GA_MEASUREMENT_ID', {
 });
 ```
 
-### Google Tag Manager (dataLayer)
+### Google 标签管理器 (dataLayer)
 
 ```javascript
 // Custom event
@@ -135,15 +135,15 @@ dataLayer.push({
 
 ---
 
-## Conversions Setup
+## 转化 配置方式
 
-### Creating Conversions
+### Creating 转化
 
-1. **Collect the event** - Ensure event is firing in GA4
+1. **Collect the 事件** - Ensure 事件 is firing in GA4
 2. **Mark as conversion** - Admin > Events > Mark as conversion
 3. **Set counting method**:
    - Once per session (leads, signups)
-   - Every event (purchases)
+   - Every 事件 (purchases)
 4. **Import to Google Ads** - For conversion-optimized bidding
 
 ### Conversion Values
@@ -160,36 +160,36 @@ Or set default value in GA4 Admin when marking conversion.
 
 ---
 
-## Custom Dimensions and Metrics
+## Custom Dimensions and 指标
 
-### When to Use
+### 适用场景
 
 **Custom dimensions:**
 - Properties you want to segment/filter by
-- User attributes (plan type, industry)
+- User attributes (plan 类型, industry)
 - Content attributes (author, category)
 
-**Custom metrics:**
+**Custom 指标:**
 - Numeric values to aggregate
 - Scores, counts, durations
 
-### Setup Steps
+### 配置方式 步骤
 
-1. Admin > Data display > Custom definitions
+1. Admin > Data 展示 > Custom definitions
 2. Create dimension or metric
 3. Choose scope:
-   - **Event**: Per event (content_type)
+   - **事件**: Per 事件 (content_type)
    - **User**: Per user (account_type)
-   - **Item**: Per product (product_category)
-4. Enter parameter name (must match event parameter)
+   - **Item**: Per 产品 (product_category)
+4. Enter parameter name (must match 事件 parameter)
 
-### Examples
+### 示例
 
-| Dimension | Scope | Parameter | Description |
+| Dimension | Scope | Parameter | 说明 |
 |-----------|-------|-----------|-------------|
-| User Type | User | user_type | Free, trial, paid |
-| Content Author | Event | author | Blog post author |
-| Product Category | Item | item_category | E-commerce category |
+| User 类型 | User | user_type | Free, trial, paid |
+| Content Author | 事件 | author | Blog post author |
+| 产品 Category | Item | item_category | E-commerce category |
 
 ---
 
@@ -197,17 +197,17 @@ Or set default value in GA4 Admin when marking conversion.
 
 ### Creating Audiences
 
-Admin > Data display > Audiences
+Admin > Data 展示 > Audiences
 
 **Use cases:**
 - Remarketing audiences (export to Ads)
-- Segment analysis
+- Segment 分析
 - Trigger-based events
 
-### Audience Examples
+### 受众 示例
 
 **High-intent visitors:**
-- Viewed pricing page
+- Viewed 定价页
 - Did not convert
 - In last 7 days
 
@@ -216,12 +216,12 @@ Admin > Data display > Audiences
 - Or 5+ minutes total engagement
 
 **Purchasers:**
-- Purchase event
+- Purchase 事件
 - For exclusion or lookalike
 
 ---
 
-## Debugging
+## 调试
 
 ### DebugView
 
@@ -237,7 +237,7 @@ View at: Reports > Configure > DebugView
 Check events within 30 minutes:
 Reports > Real-time
 
-### Common Issues
+### 常见问题
 
 **Events not appearing:**
 - Check DebugView first
@@ -249,14 +249,14 @@ Reports > Real-time
 - Parameter name mismatch
 - Data still processing (24-48 hrs)
 
-**Conversions not recording:**
-- Event not marked as conversion
-- Event name doesn't match
+**转化 not recording:**
+- 事件 not marked as conversion
+- 事件 name doesn't match
 - Counting method (once vs. every)
 
 ---
 
-## Data Quality
+## Data 质量
 
 ### Filters
 
@@ -265,11 +265,11 @@ Admin > Data streams > [Stream] > Configure tag settings > Define internal traff
 **Exclude:**
 - Internal IP addresses
 - Developer traffic
-- Testing environments
+- 测试 environments
 
-### Cross-Domain Tracking
+### Cross-Domain 跟踪
 
-For multiple domains sharing analytics:
+For multiple domains sharing 分析:
 
 1. Admin > Data streams > [Stream] > Configure tag settings
 2. Configure your domains
@@ -288,13 +288,13 @@ Admin > Data streams > [Stream] > Configure tag settings
 
 ### Linking
 
-1. Admin > Product links > Google Ads links
+1. Admin > 产品 links > Google Ads links
 2. Enable auto-tagging in Google Ads
-3. Import conversions in Google Ads
+3. Import 转化 in Google Ads
 
-### Audience Export
+### 受众 Export
 
 Audiences created in GA4 can be used in Google Ads for:
-- Remarketing campaigns
-- Customer match
+- Remarketing 广告活动
+- 客户 match
 - Similar audiences

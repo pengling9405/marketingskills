@@ -1,30 +1,30 @@
 ---
 name: paywall-upgrade-cro
-description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.
+description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. 当用户提到以下内容时也应使用 "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," "in-app pricing," "free users won't upgrade," "trial to paid conversion," or "how do I get users to pay." Use this for any in-产品 moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) — this focuses on in-产品 upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.
 metadata:
   version: 1.1.0
 ---
 
 # Paywall and Upgrade Screen CRO
 
-You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment.
+You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the 承诺.
 
-## Initial Assessment
+## 初始评估
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before providing recommendations, understand:
 
 1. **Upgrade Context** - Freemium → Paid? Trial → Paid? Tier upgrade? Feature upsell? Usage limit?
 
-2. **Product Model** - What's free? What's behind paywall? What triggers prompts? Current conversion rate?
+2. **产品 Model** - What's free? What's behind paywall? What triggers prompts? Current 转化率?
 
 3. **User Journey** - When does this appear? What have they experienced? What are they trying to do?
 
 ---
 
-## Core Principles
+## 核心原则
 
 ### 1. Value Before Ask
 - User should have experienced real value first
@@ -32,7 +32,7 @@ Before providing recommendations, understand:
 - Timing: After "aha moment," not before
 
 ### 2. Show, Don't Just Tell
-- Demonstrate the value of paid features
+- Demonstrate the value of paid 特性
 - Preview what they're missing
 - Make the upgrade feel tangible
 
@@ -50,7 +50,7 @@ Before providing recommendations, understand:
 ## Paywall Trigger Points
 
 ### Feature Gates
-When user clicks a paid-only feature:
+When user 点击 a paid-only feature:
 - Clear explanation of why it's paid
 - Show what the feature does
 - Quick path to unlock
@@ -71,14 +71,14 @@ When trial is ending:
 ### Time-Based Prompts
 After X days of free use:
 - Gentle upgrade reminder
-- Highlight unused paid features
+- Highlight unused paid 特性
 - Easy to dismiss
 
 ---
 
 ## Paywall Screen Components
 
-1. **Headline** - Focus on what they get: "Unlock [Feature] to [Benefit]"
+1. **标题** - Focus on what they get: "Unlock [Feature] to [收益]"
 
 2. **Value Demonstration** - Preview, before/after, "With Pro you could..."
 
@@ -86,9 +86,9 @@ After X days of free use:
 
 4. **Pricing** - Clear, simple, annual vs. monthly options
 
-5. **Social Proof** - Customer quotes, "X teams use this"
+5. **社会认同** - 客户 quotes, "X teams use this"
 
-6. **CTA** - Specific and value-oriented: "Start Getting [Benefit]"
+6. **CTA** - Specific and value-oriented: "Start Getting [收益]"
 
 7. **Escape Hatch** - Clear "Not now" or "Continue with Free"
 
@@ -161,35 +161,35 @@ What you've accomplished:
 ## Upgrade Flow Optimization
 
 ### From Paywall to Payment
-- Minimize steps
+- Minimize 步骤
 - Keep in-context if possible
 - Pre-fill known information
 
 ### Post-Upgrade
-- Immediate access to features
+- Immediate access to 特性
 - Confirmation and receipt
-- Guide to new features
+- Guide to new 特性
 
 ---
 
-## A/B Testing
+## A/B 测试
 
 ### What to Test
 - Trigger timing
-- Headline/copy variations
+- 标题/文案 variations
 - Price presentation
 - Trial length
 - Feature emphasis
 - Design/layout
 
-### Metrics to Track
+### 指标 to Track
 - Paywall impression rate
 - Click-through to upgrade
 - Completion rate
 - Revenue per user
 - Churn rate post-upgrade
 
-**For comprehensive experiment ideas**: See [references/experiments.md](references/experiments.md)
+**如需更完整的内容，请参见 experiment ideas**: See [references/experiments.md](references/experiments.md)
 
 ---
 
@@ -198,21 +198,21 @@ What you've accomplished:
 ### Dark Patterns
 - Hiding the close button
 - Confusing plan selection
-- Guilt-trip copy
+- Guilt-trip 文案
 
 ### Conversion Killers
 - Asking before value delivered
 - Too frequent prompts
 - Blocking critical flows
-- Complicated upgrade process
+- Complicated upgrade 流程
 
 ---
 
 ## Task-Specific Questions
 
-1. What's your current free → paid conversion rate?
+1. What's your current free → paid 转化率?
 2. What triggers upgrade prompts today?
-3. What features are behind the paywall?
+3. What 特性 are behind the paywall?
 4. What's your "aha moment" for users?
 5. What pricing model? (per seat, usage, flat)
 6. Mobile app, web app, or both?
@@ -222,6 +222,6 @@ What you've accomplished:
 ## Related Skills
 
 - **churn-prevention**: For cancel flows, save offers, and reducing churn post-upgrade
-- **page-cro**: For public pricing page optimization
+- **page-cro**: For public 定价页 优化
 - **onboarding-cro**: For driving to aha moment before upgrade
-- **ab-test-setup**: For testing paywall variations
+- **ab-test-配置方式**: For 测试 paywall variations

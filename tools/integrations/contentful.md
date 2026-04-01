@@ -2,16 +2,16 @@
 
 Enterprise headless CMS with multi-locale support, two-API architecture, and composable content.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Content Delivery API (read), Content Management API (write) |
 | MCP | - | No official MCP server |
 | CLI | ✓ | `contentful-cli` for spaces, content types, migrations |
 | SDK | ✓ | `contentful` (delivery), `contentful-management` (management) |
 
-## Authentication
+## 认证方式
 
 - **Delivery API (CDA)**: `Authorization: Bearer {delivery_token}`
   - Base URL: `https://cdn.contentful.com`
@@ -24,7 +24,7 @@ Enterprise headless CMS with multi-locale support, two-API architecture, and com
   - Read/write, not cached
 - **Tokens**: Create in Settings → API keys (delivery) or Settings → CMA tokens (management)
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Get entries (Delivery API)
 
@@ -42,7 +42,7 @@ GET https://cdn.contentful.com/spaces/{space_id}/environments/{environment}/entr
 Authorization: Bearer {delivery_token}
 ```
 
-### Search and filter
+### 搜索 and filter
 
 ```bash
 # By field value
@@ -131,30 +131,30 @@ contentful content-type list --space-id {space_id}
 
 - **Space** — Top-level container for content (one per project)
 - **Environment** — Isolated content branch (`master`, `staging`, etc.)
-- **Content Type** — Schema definition with fields and validations
-- **Entry** — Content item of a specific content type
-- **Asset** — Media file (image, video, document)
+- **Content 类型** — Schema definition with fields and validations
+- **Entry** — Content item of a specific content 类型
+- **Asset** — Media file (image, 视频, document)
 - **Locale** — Language/region variant (e.g., `en-US`, `de-DE`)
 
-## When to Use
+## 适用场景
 
-- Multi-locale marketing content (global sites)
-- Enterprise content operations with approval workflows
+- Multi-locale 营销 content (global sites)
+- Enterprise content 操作 with approval 工作流
 - Composable content architecture
 - Teams needing established vendor support and SLAs
 - Content reuse across multiple channels
 
-## Rate Limits
+## 速率限制
 
-Rate limits are plan-dependent. Check `X-Contentful-RateLimit-Second-Limit` response header for your actual limits.
+速率限制 are plan-dependent. Check `X-Contentful-RateLimit-Second-Limit` response 请求头 for your actual limits.
 
 - Delivery API (CDA): Varies by plan (typically high throughput)
 - Preview API (CPA): Lower than CDA (varies by plan)
 - Management API (CMA): ~10 requests per second (default)
 - See [Contentful technical limits](https://www.contentful.com/developers/docs/technical-limits/) for current values
 
-## Relevant Skills
+## 相关技能
 
 - content-strategy (CMS selection, content modeling)
-- programmatic-seo (CMS as data source for generated pages)
+- programmatic-seo (CMS as data 来源 for generated pages)
 - site-architecture (multi-locale URL structure)

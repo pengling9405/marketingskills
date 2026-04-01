@@ -1,26 +1,26 @@
 # Brevo
 
-All-in-one marketing platform (formerly Sendinblue) for email, SMS, and WhatsApp with contacts, campaigns, and transactional messaging.
+All-in-one 营销 平台 (formerly Sendinblue) for email, SMS, and WhatsApp with contacts, 广告活动, and transactional messaging.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API v3 for contacts, campaigns, transactional email/SMS |
-| MCP | - | Not available |
+| API | ✓ | REST API v3 for contacts, 广告活动, transactional email/SMS |
+| MCP | - | 不可用 |
 | CLI | ✓ | [brevo.js](../clis/brevo.js) |
 | SDK | ✓ | Node.js, Python, PHP, Ruby, Java, C#, Go |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `api-key: {api_key}`
-- **Get key**: SMTP & API settings at https://app.brevo.com/settings/keys/api
+- **类型**: API Key
+- **请求头**: `api-key: {api_key}`
+- **Get key**: SMTP & API settings at https://app.brevo.com/settings/keys/API
 - **Note**: API key is only shown once on creation; store securely. Formerly used `api.sendinblue.com` base URL.
 
-## Common Agent Operations
+## 常见代理操作
 
-### Get account info
+### 获取账户信息
 
 ```bash
 GET https://api.brevo.com/v3/account
@@ -141,13 +141,13 @@ POST https://api.brevo.com/v3/smtp/email
 }
 ```
 
-### List email campaigns
+### List email 广告活动
 
 ```bash
 GET https://api.brevo.com/v3/emailCampaigns?limit=50&offset=0&type=classic&status=sent
 ```
 
-### Create email campaign
+### Create email 广告活动
 
 ```bash
 POST https://api.brevo.com/v3/emailCampaigns
@@ -161,13 +161,13 @@ POST https://api.brevo.com/v3/emailCampaigns
 }
 ```
 
-### Send campaign immediately
+### Send 广告活动 immediately
 
 ```bash
 POST https://api.brevo.com/v3/emailCampaigns/{campaignId}/sendNow
 ```
 
-### Send test email for campaign
+### Send test email for 广告活动
 
 ```bash
 POST https://api.brevo.com/v3/emailCampaigns/{campaignId}/sendTest
@@ -190,7 +190,7 @@ POST https://api.brevo.com/v3/transactionalSMS/sms
 }
 ```
 
-### List SMS campaigns
+### List SMS 广告活动
 
 ```bash
 GET https://api.brevo.com/v3/smsCampaigns?limit=50&offset=0
@@ -206,7 +206,7 @@ GET https://api.brevo.com/v3/senders
 
 Brevo uses standard REST with offset-based pagination (`limit` and `offset` parameters). Contact attributes use uppercase field names (FIRSTNAME, LASTNAME). Lists are nested under the contacts resource path. Transactional email uses the `/smtp/email` endpoint despite being REST-based.
 
-## Key Metrics
+## 核心指标
 
 ### Contact Fields
 - `email` - Email address
@@ -216,7 +216,7 @@ Brevo uses standard REST with offset-based pagination (`limit` and `offset` para
 - `smsBlacklisted` - SMS opt-out status
 - `statistics` - Engagement stats (with expand)
 
-### Campaign Metrics
+### 广告活动 指标
 - `sent` - Total sends
 - `delivered` - Successful deliveries
 - `openRate` - Open percentage
@@ -225,7 +225,7 @@ Brevo uses standard REST with offset-based pagination (`limit` and `offset` para
 - `hardBounces`, `softBounces` - Bounce counts
 
 ### Transactional Email Response
-- `messageId` - Unique message identifier for tracking
+- `messageId` - Unique message identifier for 跟踪
 
 ## Parameters
 
@@ -235,34 +235,34 @@ Brevo uses standard REST with offset-based pagination (`limit` and `offset` para
 - `listIds` - Array of list IDs to subscribe to
 - `unlinkListIds` - Array of list IDs to unsubscribe from
 
-### Campaign Parameters
-- `name` - Campaign name
+### 广告活动 Parameters
+- `name` - 广告活动 name
 - `subject` - Email subject line
 - `sender` - Object with `name` and `email`
 - `htmlContent` / `textContent` - Email body
 - `recipients` - Object with `listIds` array
 - `type` - classic or trigger
 
-## When to Use
+## 适用场景
 
-- Multi-channel marketing (email + SMS + WhatsApp)
-- Transactional email sending with tracking
+- Multi-channel 营销 (email + SMS + WhatsApp)
+- Transactional email sending with 跟踪
 - Managing contacts and segmented lists
-- Creating and scheduling email campaigns
-- SMS notifications and marketing
-- Affordable all-in-one marketing automation
+- Creating and scheduling email 广告活动
+- SMS notifications and 营销
+- Affordable all-in-one 营销 automation
 
-## Rate Limits
+## 速率限制
 
-- API rate limits depend on plan (free tier: limited sends/day)
+- API 速率限制 depend on plan (free tier: limited sends/day)
 - Transactional email: varies by plan
 - Contact imports: batch processing with async status
-- Rate limit headers returned with responses
+- Rate limit 请求头 returned with responses
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- sms-marketing
+- sms-营销
 - transactional-email
-- lifecycle-marketing
+- lifecycle-营销
 - contact-management

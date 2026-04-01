@@ -1,24 +1,24 @@
 # Outreach
 
-Sales engagement platform for managing prospects, sequences, and outbound campaigns at scale.
+Sales engagement 平台 for managing prospects, sequences, and outbound 广告活动 at scale.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Prospects, Sequences, Mailings, Accounts, Tasks |
 | MCP | ✓ | [Claude connector](https://claude.com/connectors/outreach) |
 | CLI | ✓ | [outreach.js](../clis/outreach.js) |
 | SDK | - | REST API only (JSON:API format) |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth2 Bearer Token
-- **Header**: `Authorization: Bearer {access_token}`
-- **Content-Type**: `application/vnd.api+json`
-- **Get token**: Settings > API at https://app.outreach.io or via OAuth2 flow
+- **类型**: OAuth2 Bearer Token
+- **请求头**: `Authorization: Bearer {access_token}`
+- **Content-类型**: `application/vnd.api+json`
+- **获取令牌**： Settings > API at https://app.outreach.io or via OAuth2 flow
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Prospects
 
@@ -103,7 +103,7 @@ curl -s "https://api.outreach.io/api/v2/tasks?filter[status]=incomplete" \
   -H "Content-Type: application/vnd.api+json"
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Prospect Data
 - `firstName`, `lastName` - Name
@@ -116,12 +116,12 @@ curl -s "https://api.outreach.io/api/v2/tasks?filter[status]=incomplete" \
 ### Sequence Data
 - `name` - Sequence name
 - `enabled` - Whether sequence is active
-- `sequenceType` - Type (e.g., interval, date-based)
-- `stepCount` - Number of steps
-- `openCount`, `clickCount`, `replyCount` - Engagement metrics
+- `sequenceType` - 类型 (e.g., interval, date-based)
+- `stepCount` - Number of 步骤
+- `openCount`, `clickCount`, `replyCount` - Engagement 指标
 
 ### Mailing Data
-- `mailingType` - Type of mailing
+- `mailingType` - 类型 of mailing
 - `state` - Delivery state
 - `openCount`, `clickCount` - Engagement
 - `deliveredAt`, `openedAt`, `clickedAt` - Timestamps
@@ -146,25 +146,25 @@ curl -s "https://api.outreach.io/api/v2/tasks?filter[status]=incomplete" \
 
 ### Tasks
 - `filter[status]` - Filter by status (e.g., `incomplete`, `complete`)
-- `filter[taskType]` - Filter by type (e.g., `call`, `email`, `action_item`)
+- `filter[taskType]` - Filter by 类型 (e.g., `call`, `email`, `action_item`)
 
-## When to Use
+## 适用场景
 
 - Managing outbound sales sequences and cadences
 - Adding prospects to automated email sequences
-- Tracking prospect engagement across touchpoints
+- 跟踪 prospect engagement across touchpoints
 - Managing sales tasks and follow-ups
-- Coordinating multi-channel outreach campaigns
-- Monitoring sequence performance and reply rates
+- Coordinating multi-channel outreach 广告活动
+- Monitoring sequence 表现 and reply rates
 
-## Rate Limits
+## 速率限制
 
 - 10,000 requests per hour per user
 - Burst limit: 100 requests per 10 seconds
-- Rate limit headers returned: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
+- Rate limit 请求头 returned: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`
 - 429 responses when limits exceeded
 
-## Relevant Skills
+## 相关技能
 
 - cold-email
 - revops

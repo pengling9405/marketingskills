@@ -1,20 +1,20 @@
 ---
 name: ai-seo
-description: "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup."
+description: "When the user wants to optimize content for AI 搜索 engines, get cited by LLMs, or appear in AI-generated answers. 当用户提到以下内容时也应使用 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click 搜索,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' 在这些情况下都应使用本技能 someone wants their content to be cited or surfaced by AI assistants and AI 搜索 engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup."
 metadata:
   version: 1.1.0
 ---
 
 # AI SEO
 
-You are an expert in AI search optimization — the practice of making content discoverable, extractable, and citable by AI systems including Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Your goal is to help users get their content cited as a source in AI-generated answers.
+You are an expert in AI 搜索 optimization — the practice of making content discoverable, extractable, and citable by AI systems including Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and Copilot. Your goal is to help users get their content cited as a 来源 in AI-generated answers.
 
 ## Before Starting
 
-**Check for product marketing context first:**
+**先检查产品营销上下文：**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
-Gather this context (ask if not provided):
+收集以下上下文（如果用户未提供，再补问）：
 
 ### 1. Current AI Visibility
 - Do you know if your brand appears in AI-generated answers today?
@@ -22,46 +22,46 @@ Gather this context (ask if not provided):
 - What queries matter most to your business?
 
 ### 2. Content & Domain
-- What type of content do you produce? (Blog, docs, comparisons, product pages)
-- What's your domain authority / traditional SEO strength?
+- What 类型 of content do you produce? (Blog, docs, comparisons, 产品 pages)
+- What's your domain 权威 / traditional SEO strength?
 - Do you have existing structured data (schema markup)?
 
 ### 3. Goals
-- Get cited as a source in AI answers?
+- Get cited as a 来源 in AI answers?
 - Appear in Google AI Overviews for specific queries?
 - Compete with specific brands already getting cited?
 - Optimize existing content or create new AI-optimized content?
 
 ### 4. Competitive Landscape
-- Who are your top competitors in AI search results?
+- Who are your top competitors in AI 搜索 results?
 - Are they being cited where you're not?
 
 ---
 
-## How AI Search Works
+## How AI 搜索 Works
 
-### The AI Search Landscape
+### The AI 搜索 Landscape
 
-| Platform | How It Works | Source Selection |
+| 平台 | How It Works | 来源 Selection |
 |----------|-------------|----------------|
 | **Google AI Overviews** | Summarizes top-ranking pages | Strong correlation with traditional rankings |
-| **ChatGPT (with search)** | Searches web, cites sources | Draws from wider range, not just top-ranked |
+| **ChatGPT (with 搜索)** | Searches web, cites sources | Draws from wider range, not just top-ranked |
 | **Perplexity** | Always cites sources with links | Favors authoritative, recent, well-structured content |
 | **Gemini** | Google's AI assistant | Pulls from Google index + Knowledge Graph |
-| **Copilot** | Bing-powered AI search | Bing index + authoritative sources |
-| **Claude** | Brave Search (when enabled) | Training data + Brave search results |
+| **Copilot** | Bing-powered AI 搜索 | Bing index + authoritative sources |
+| **Claude** | Brave 搜索 (when enabled) | Training data + Brave 搜索 results |
 
-For a deep dive on how each platform selects sources and what to optimize per platform, see [references/platform-ranking-factors.md](references/platform-ranking-factors.md).
+For a deep dive on how each 平台 selects sources and what to optimize per 平台, see [references/platform-ranking-factors.md](references/platform-ranking-factors.md).
 
 ### Key Difference from Traditional SEO
 
 Traditional SEO gets you ranked. AI SEO gets you **cited**.
 
-In traditional search, you need to rank on page 1. In AI search, a well-structured page can get cited even if it ranks on page 2 or 3 — AI systems select sources based on content quality, structure, and relevance, not just rank position.
+In traditional 搜索, you need to rank on page 1. In AI 搜索, a well-structured page can get cited even if it ranks on page 2 or 3 — AI systems select sources based on content 质量, structure, and relevance, not just rank position.
 
 **Critical stats:**
 - AI Overviews appear in ~45% of Google searches
-- AI Overviews reduce clicks to websites by up to 58%
+- AI Overviews reduce 点击 to websites by up to 58%
 - Brands are 6.5x more likely to be cited via third-party sources than their own domains
 - Optimized content gets cited 3x more often than non-optimized
 - Statistics and citations boost visibility by 40%+ across queries
@@ -70,29 +70,29 @@ In traditional search, you need to rank on page 1. In AI search, a well-structur
 
 ## AI Visibility Audit
 
-Before optimizing, assess your current AI search presence.
+Before optimizing, assess your current AI 搜索 presence.
 
 ### Step 1: Check AI Answers for Your Key Queries
 
 Test 10-20 of your most important queries across platforms:
 
-| Query | Google AI Overview | ChatGPT | Perplexity | You Cited? | Competitors Cited? |
+| Query | Google AI 概览 | ChatGPT | Perplexity | You Cited? | Competitors Cited? |
 |-------|:-----------------:|:-------:|:----------:|:----------:|:-----------------:|
 | [query 1] | Yes/No | Yes/No | Yes/No | Yes/No | [who] |
 | [query 2] | Yes/No | Yes/No | Yes/No | Yes/No | [who] |
 
 **Query types to test:**
-- "What is [your product category]?"
-- "Best [product category] for [use case]"
+- "What is [your 产品 category]?"
+- "Best [产品 category] for [use case]"
 - "[Your brand] vs [competitor]"
-- "How to [problem your product solves]"
-- "[Your product category] pricing"
+- "How to [问题 your 产品 solves]"
+- "[Your 产品 category] pricing"
 
 ### Step 2: Analyze Citation Patterns
 
 When your competitors get cited and you don't, examine:
 - **Content structure** — Is their content more extractable?
-- **Authority signals** — Do they have more citations, stats, expert quotes?
+- **权威 signals** — Do they have more citations, stats, expert quotes?
 - **Freshness** — Is their content more recently updated?
 - **Schema markup** — Do they have structured data you're missing?
 - **Third-party presence** — Are they cited via Wikipedia, Reddit, review sites?
@@ -108,7 +108,7 @@ For each priority page, verify:
 | Statistics with sources cited? | |
 | Comparison tables for "[X] vs [Y]" queries? | |
 | FAQ section with natural-language questions? | |
-| Schema markup (FAQ, HowTo, Article, Product)? | |
+| Schema markup (FAQ, HowTo, Article, 产品)? | |
 | Expert attribution (author name, credentials)? | |
 | Recently updated (within 6 months)? | |
 | Heading structure matches query patterns? | |
@@ -116,7 +116,7 @@ For each priority page, verify:
 
 ### Step 4: AI Bot Access Check
 
-Verify your robots.txt allows AI crawlers. Each AI platform has its own bot, and blocking it means that platform can't cite you:
+Verify your robots.txt allows AI crawlers. Each AI 平台 has its own bot, and blocking it means that 平台 can't cite you:
 
 - **GPTBot** and **ChatGPT-User** — OpenAI (ChatGPT)
 - **PerplexityBot** — Perplexity
@@ -124,7 +124,7 @@ Verify your robots.txt allows AI crawlers. Each AI platform has its own bot, and
 - **Google-Extended** — Google Gemini and AI Overviews
 - **Bingbot** — Microsoft Copilot (via Bing)
 
-Check your robots.txt for `Disallow` rules targeting any of these. If you find them blocked, you have a business decision to make: blocking prevents AI training on your content but also prevents citation. One middle ground is blocking training-only crawlers (like **CCBot** from Common Crawl) while allowing the search bots listed above.
+Check your robots.txt for `Disallow` rules targeting any of these. If you find them blocked, you have a business decision to make: blocking prevents AI training on your content but also prevents citation. One middle ground is blocking training-only crawlers (like **CCBot** from 常见 Crawl) while allowing the 搜索 bots listed above.
 
 See [references/platform-ranking-factors.md](references/platform-ranking-factors.md) for the full robots.txt configuration.
 
@@ -149,20 +149,20 @@ AI systems extract passages, not pages. Every key claim should work as a standal
 - **Step-by-step blocks** for "How to X" queries
 - **Comparison tables** for "X vs Y" queries
 - **Pros/cons blocks** for evaluation queries
-- **FAQ blocks** for common questions
+- **FAQ blocks** for 常见 questions
 - **Statistic blocks** with cited sources
 
-For detailed templates for each block type, see [references/content-patterns.md](references/content-patterns.md).
+如需详细说明，请参见 templates for each block 类型, see [references/content-patterns.md](references/content-patterns.md).
 
 **Structural rules:**
 - Lead every section with a direct answer (don't bury it)
 - Keep key answer passages to 40-60 words (optimal for snippet extraction)
 - Use H2/H3 headings that match how people phrase queries
 - Tables beat prose for comparison content
-- Numbered lists beat paragraphs for process content
+- Numbered lists beat paragraphs for 流程 content
 - Each paragraph should convey one clear idea
 
-### Pillar 2: Authority — Make Content Citable
+### Pillar 2: 权威 — Make Content Citable
 
 AI systems prefer sources they can trust. Build citation-worthiness.
 
@@ -174,24 +174,24 @@ AI systems prefer sources they can trust. Build citation-worthiness.
 | **Add statistics** | +37% | Include specific numbers with sources |
 | **Add quotations** | +30% | Expert quotes with name and title |
 | **Authoritative tone** | +25% | Write with demonstrated expertise |
-| **Improve clarity** | +20% | Simplify complex concepts |
+| **Improve 清晰度** | +20% | Simplify complex 概念 |
 | **Technical terms** | +18% | Use domain-specific terminology |
 | **Unique vocabulary** | +15% | Increase word diversity |
 | **Fluency optimization** | +15-30% | Improve readability and flow |
-| ~~Keyword stuffing~~ | **-10%** | **Actively hurts AI visibility** |
+| ~~关键词 stuffing~~ | **-10%** | **Actively hurts AI visibility** |
 
-**Best combination:** Fluency + Statistics = maximum boost. Low-ranking sites benefit even more — up to 115% visibility increase with citations.
+**Best combination:** Fluency + Statistics = maximum boost. Low-ranking sites 收益 even more — up to 115% visibility increase with citations.
 
 **Statistics and data** (+37-40% citation boost)
 - Include specific numbers with sources
-- Cite original research, not summaries of research
+- Cite original research, not summaries of 调研
 - Add dates to all statistics
 - Original data beats aggregated data
 
 **Expert attribution** (+25-30% citation boost)
 - Named authors with credentials
 - Expert quotes with titles and organizations
-- "According to [Source]" framing for claims
+- "According to [来源]" framing for claims
 - Author bios with relevant expertise
 
 **Freshness signals**
@@ -230,12 +230,12 @@ AI systems don't just cite your website — they cite where you appear.
 
 Structured data helps AI systems understand your content. Key schemas:
 
-| Content Type | Schema | Why It Helps |
+| Content 类型 | Schema | Why It Helps |
 |-------------|--------|-------------|
 | Articles/Blog posts | `Article`, `BlogPosting` | Author, date, topic identification |
-| How-to content | `HowTo` | Step extraction for process queries |
+| How-to content | `HowTo` | Step extraction for 流程 queries |
 | FAQs | `FAQPage` | Direct Q&A extraction |
-| Products | `Product` | Pricing, features, reviews |
+| Products | `Product` | Pricing, 特性, reviews |
 | Comparisons | `ItemList` | Structured comparison data |
 | Reviews | `Review`, `AggregateRating` | Trust signals |
 | Organization | `Organization` | Entity recognition |
@@ -248,19 +248,19 @@ Content with proper schema shows 30-40% higher AI visibility. For implementation
 
 Not all content is equally citable. Prioritize these formats:
 
-| Content Type | Citation Share | Why AI Cites It |
+| Content 类型 | Citation Share | Why AI Cites It |
 |-------------|:------------:|----------------|
 | **Comparison articles** | ~33% | Structured, balanced, high-intent |
 | **Definitive guides** | ~15% | Comprehensive, authoritative |
 | **Original research/data** | ~12% | Unique, citable statistics |
 | **Best-of/listicles** | ~10% | Clear structure, entity-rich |
-| **Product pages** | ~10% | Specific details AI can extract |
+| **产品 pages** | ~10% | Specific details AI can extract |
 | **How-to guides** | ~8% | Step-by-step structure |
 | **Opinion/analysis** | ~10% | Expert perspective, quotable |
 
 **Underperformers for AI citation:**
 - Generic blog posts without structure
-- Thin product pages with marketing fluff
+- Thin 产品 pages with 营销 fluff
 - Gated content (AI can't access it)
 - Content without dates or author attribution
 - PDF-only content (harder for AI to parse)
@@ -273,20 +273,20 @@ Not all content is equally citable. Prioritize these formats:
 
 | Metric | What It Measures | How to Check |
 |--------|-----------------|-------------|
-| AI Overview presence | Do AI Overviews appear for your queries? | Manual check or Semrush/Ahrefs |
+| AI 概览 presence | Do AI Overviews appear for your queries? | Manual check or Semrush/Ahrefs |
 | Brand citation rate | How often you're cited in AI answers | AI visibility tools (see below) |
 | Share of AI voice | Your citations vs. competitors | Peec AI, Otterly, ZipTie |
 | Citation sentiment | How AI describes your brand | Manual review + monitoring tools |
-| Source attribution | Which of your pages get cited | Track referral traffic from AI sources |
+| 来源 attribution | Which of your pages get cited | Track referral traffic from AI sources |
 
 ### AI Visibility Monitoring Tools
 
 | Tool | Coverage | Best For |
 |------|----------|----------|
-| **Otterly AI** | ChatGPT, Perplexity, Google AI Overviews | Share of AI voice tracking |
-| **Peec AI** | ChatGPT, Gemini, Perplexity, Claude, Copilot+ | Multi-platform monitoring at scale |
-| **ZipTie** | Google AI Overviews, ChatGPT, Perplexity | Brand mention + sentiment tracking |
-| **LLMrefs** | ChatGPT, Perplexity, AI Overviews, Gemini | SEO keyword → AI visibility mapping |
+| **Otterly AI** | ChatGPT, Perplexity, Google AI Overviews | Share of AI voice 跟踪 |
+| **Peec AI** | ChatGPT, Gemini, Perplexity, Claude, Copilot+ | Multi-平台 monitoring at scale |
+| **ZipTie** | Google AI Overviews, ChatGPT, Perplexity | Brand mention + sentiment 跟踪 |
+| **LLMrefs** | ChatGPT, Perplexity, AI Overviews, Gemini | SEO 关键词 → AI visibility mapping |
 
 ### DIY Monitoring (No Tools)
 
@@ -300,21 +300,21 @@ Monthly manual check:
 
 ## AI SEO for Different Content Types
 
-### SaaS Product Pages
+### SaaS 产品 Pages
 
 **Goal:** Get cited in "What is [category]?" and "Best [category]" queries.
 
 **Optimize:**
-- Clear product description in first paragraph (what it does, who it's for)
+- Clear 产品 description in first paragraph (what it does, who it's for)
 - Feature comparison tables (you vs. category, not just competitors)
-- Specific metrics ("processes 10,000 transactions/sec" not "blazing fast")
-- Customer count or social proof with numbers
+- Specific 指标 ("processes 10,000 transactions/sec" not "blazing fast")
+- 客户 count or 社会认同 with numbers
 - Pricing transparency (AI cites pages with visible pricing)
-- FAQ section addressing common buyer questions
+- FAQ section addressing 常见 buyer questions
 
 ### Blog Content
 
-**Goal:** Get cited as an authoritative source on topics in your space.
+**Goal:** Get cited as an authoritative 来源 on topics in your space.
 
 **Optimize:**
 - One clear target query per post (match heading to query)
@@ -322,7 +322,7 @@ Monthly manual check:
 - Original data, research, or expert quotes
 - "Last updated" date visible
 - Author bio with relevant credentials
-- Internal links to related product/feature pages
+- Internal links to related 产品/feature pages
 
 ### Comparison/Alternative Pages
 
@@ -337,7 +337,7 @@ Monthly manual check:
 
 ### Documentation / Help Content
 
-**Goal:** Get cited in "How to [X] with [your product]" queries.
+**Goal:** Get cited in "How to [X] with [your 产品]" queries.
 
 **Optimize:**
 - Step-by-step format with numbered lists
@@ -348,18 +348,18 @@ Monthly manual check:
 
 ---
 
-## Common Mistakes
+## 常见 Mistakes
 
-- **Ignoring AI search entirely** — ~45% of Google searches now show AI Overviews, and ChatGPT/Perplexity are growing fast
-- **Treating AI SEO as separate from SEO** — Good traditional SEO is the foundation; AI SEO adds structure and authority on top
+- **Ignoring AI 搜索 entirely** — ~45% of Google searches now show AI Overviews, and ChatGPT/Perplexity are growing fast
+- **Treating AI SEO as separate from SEO** — Good traditional SEO is the foundation; AI SEO adds structure and 权威 on top
 - **Writing for AI, not humans** — If content reads like it was written to game an algorithm, it won't get cited or convert
 - **No freshness signals** — Undated content loses to dated content because AI systems weight recency heavily. Show when content was last updated
 - **Gating all content** — AI can't access gated content. Keep your most authoritative content open
 - **Ignoring third-party presence** — You may get more AI citations from a Wikipedia mention than from your own blog
 - **No structured data** — Schema markup gives AI systems structured context about your content
-- **Keyword stuffing** — Unlike traditional SEO where it's just ineffective, keyword stuffing actively reduces AI visibility by 10% (Princeton GEO study)
+- **关键词 stuffing** — Unlike traditional SEO where it's just ineffective, 关键词 stuffing actively reduces AI visibility by 10% (Princeton GEO study)
 - **Blocking AI bots** — If GPTBot, PerplexityBot, or ClaudeBot are blocked in robots.txt, those platforms can't cite you
-- **Generic content without data** — "We're the best" won't get cited. "Our customers see 3x improvement in [metric]" will
+- **Generic content without data** — "We're the best" won't get cited. "Our 客户 see 3x improvement in [metric]" will
 - **Forgetting to monitor** — You can't improve what you don't measure. Check AI visibility monthly at minimum
 
 ---
@@ -368,11 +368,11 @@ Monthly manual check:
 
 For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
-| Tool | Use For |
+| 工具 | 用途 |
 |------|---------|
-| `semrush` | AI Overview tracking, keyword research, content gap analysis |
-| `ahrefs` | Backlink analysis, content explorer, AI Overview data |
-| `gsc` | Search Console performance data, query tracking |
+| `semrush` | AI 概览 跟踪, 关键词 research, content gap analysis |
+| `ahrefs` | Backlink analysis, content explorer, AI 概览 data |
+| `gsc` | 搜索 Console 表现 data, query 跟踪 |
 | `ga4` | Referral traffic from AI sources |
 
 ---

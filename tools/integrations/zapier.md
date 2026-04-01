@@ -1,23 +1,23 @@
 # Zapier
 
-Workflow automation platform connecting apps without code.
+工作流 automation 平台 connecting apps without code.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for Zaps, tasks, and webhooks |
-| MCP | ✓ | Available via Zapier MCP server |
-| CLI | - | Not available |
+| MCP | ✓ | 可用 via Zapier MCP server |
+| CLI | - | 不可用 |
 | SDK | - | API and webhooks only |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `X-API-Key: {api_key}`
-- **Get key**: Settings > API in Zapier account
+- **类型**: API Key
+- **请求头**: `X-API-Key: {api_key}`
+- **Get key**: Settings > API in Zapier 账户
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List Zaps
 
@@ -68,7 +68,7 @@ POST https://hooks.zapier.com/hooks/catch/{webhook_id}/
 
 ### Send data to Zapier
 
-Most common: trigger a Zap from your app:
+Most 常见: trigger a Zap from your app:
 
 ```bash
 POST https://hooks.zapier.com/hooks/catch/{account_id}/{hook_id}/
@@ -80,14 +80,14 @@ POST https://hooks.zapier.com/hooks/catch/{account_id}/{hook_id}/
 }
 ```
 
-## Common Marketing Automations
+## 常见 营销 Automations
 
 ### Lead capture to CRM
 ```
 Typeform → Zapier → HubSpot
 ```
 
-### New customer notifications
+### New 客户 notifications
 ```
 Stripe (new customer) → Zapier → Slack
 ```
@@ -97,12 +97,12 @@ Stripe (new customer) → Zapier → Slack
 Form submission → Zapier → Customer.io
 ```
 
-### Social proof automation
+### 社会认同 automation
 ```
 New review → Zapier → Twitter/Slack
 ```
 
-### Referral tracking
+### Referral 跟踪
 ```
 New referral → Zapier → Spreadsheet + Slack
 ```
@@ -121,30 +121,30 @@ When sending to Zapier, structure data as flat JSON:
 }
 ```
 
-## Key Concepts
+## 关键概念
 
-- **Zap** - Automated workflow
-- **Trigger** - Event that starts a Zap
+- **Zap** - Automated 工作流
+- **Trigger** - 事件 that starts a Zap
 - **Action** - Task performed by Zap
 - **Task** - Single action execution
 - **Filter** - Conditional logic
 - **Path** - Branching logic
 
-## When to Use
+## 适用场景
 
-- Connecting marketing tools without code
+- Connecting 营销 tools without code
 - Automating lead routing
 - Syncing data between platforms
 - Triggering notifications
-- Building marketing workflows
+- Building 营销 工作流
 
-## Rate Limits
+## 速率限制
 
 - 100 requests per minute
 - Task limits by plan tier
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
-- analytics-tracking
+- 分析-跟踪
 - referral-program

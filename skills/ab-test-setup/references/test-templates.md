@@ -1,4 +1,4 @@
-# A/B Test Templates Reference
+# A/B Test Templates 参考
 
 Templates for planning, documenting, and analyzing experiments.
 
@@ -195,7 +195,7 @@ We'll know this is true when [metrics].
 
 ## Test Repository Entry Template
 
-For tracking all tests in a central location:
+For 跟踪 all tests in a central location:
 
 ```markdown
 | Test ID | Name | Page | Dates | Primary Metric | Result | Lift | Link |

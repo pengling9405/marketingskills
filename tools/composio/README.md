@@ -1,6 +1,6 @@
 # Composio Quick Start
 
-Get MCP access to 500+ marketing tools through a single integration.
+Get MCP access to 500+ 营销 tools through a single integration.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ Agent: "Please connect HubSpot first: https://app.composio.dev/connect/..."
 Agent: "Here are your top contacts: ..."
 ```
 
-## Usage Examples
+## Usage 示例
 
 ### Pull CRM contacts
 
@@ -34,7 +34,7 @@ Agent: "Here are your top contacts: ..."
 "Show me my 10 most recent HubSpot contacts with their deal stages"
 ```
 
-### Get ad performance
+### Get ad 表现
 
 ```
 "What's my Meta Ads spend and ROAS for the last 7 days?"
@@ -46,25 +46,25 @@ Agent: "Here are your top contacts: ..."
 "Add a row to my 'Campaign Tracker' Google Sheet with today's LinkedIn Ads metrics"
 ```
 
-### Cross-tool workflow
+### Cross-tool 工作流
 
 ```
 "Find Salesforce leads from this week and post a summary in Slack #new-leads"
 ```
 
-## Available Marketing Tools
+## 可用 营销 Tools
 
-See [marketing-tools.md](marketing-tools.md) for the full list of Composio toolkits mapped to marketing use cases.
+See [marketing-tools.md](marketing-tools.md) for the full list of Composio toolkits mapped to 营销 use cases.
 
 Key tools with new MCP access (no native MCP server in this repo):
 - **HubSpot** — contacts, deals, companies, lists
 - **Salesforce** — SOQL queries, leads, opportunities
-- **Meta Ads** — campaigns, ad sets, insights
-- **LinkedIn Ads** — campaigns, analytics
+- **Meta Ads** — 广告活动, ad sets, insights
+- **LinkedIn Ads** — 广告活动, 分析
 - **Google Sheets** — read, write, create spreadsheets
 - **Slack** — messages, channels
 - **Notion** — pages, databases
-- **Klaviyo** — profiles, lists, campaigns
+- **Klaviyo** — profiles, lists, 广告活动
 - **ActiveCampaign** — contacts, automations
 
 ## Troubleshooting
@@ -77,7 +77,7 @@ The tool may not be connected yet. Ask the agent to connect it, or run:
 npx composio apps list
 ```
 
-### Expired authentication
+### Expired 认证
 
 OAuth tokens expire. If a tool stops working, re-authenticate:
 
@@ -89,14 +89,14 @@ npx composio connections remove {id}  # Remove it
 
 ### Rate limit errors
 
-Composio has its own rate limits (free: 20K calls/mo, 10 req/sec). If you hit them:
+Composio has its own 速率限制 (free: 20K calls/mo, 10 req/sec). If you hit them:
 - Reduce request frequency
 - Upgrade your Composio plan
-- Use native CLI tools for high-volume operations
+- Use native CLI tools for high-volume 操作
 
 ### MCP server not appearing
 
-Re-run the setup command:
+Re-run the 配置方式 command:
 
 ```bash
 npx @composio/mcp@latest setup

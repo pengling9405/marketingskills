@@ -1,23 +1,23 @@
-# Google Analytics 4 (GA4)
+# Google 分析 4 (GA4)
 
-Web analytics platform for tracking user behavior, conversions, and marketing performance.
+Web 分析 平台 for 跟踪 user behavior, 转化, and 营销 表现.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Data API for reports, Admin API for configuration |
-| MCP | ✓ | Available via Google Analytics MCP server |
-| CLI | - | Use gcloud for some operations |
-| SDK | ✓ | gtag.js, Google Analytics SDK for mobile |
+| MCP | ✓ | 可用 via Google 分析 MCP server |
+| CLI | - | Use gcloud for some 操作 |
+| SDK | ✓ | gtag.js, Google 分析 SDK for mobile |
 
-## Authentication
+## 认证方式
 
-- **Type**: OAuth 2.0 or Service Account
-- **Scopes**: `https://www.googleapis.com/auth/analytics.readonly` (read), `https://www.googleapis.com/auth/analytics.edit` (write)
-- **Setup**: Create credentials in Google Cloud Console
+- **类型**: OAuth 2.0 or Service 账户
+- **作用域**: `https://www.googleapis.com/auth/analytics.readonly` (read), `https://www.googleapis.com/auth/analytics.edit` (write)
+- **配置方式**: Create credentials in Google Cloud Console
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Run a report (Data API)
 
@@ -48,7 +48,7 @@ POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRea
 GET https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conversionEvents
 ```
 
-### Create a conversion event
+### Create a conversion 事件
 
 ```bash
 POST https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conversionEvents
@@ -58,9 +58,9 @@ POST https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conve
 }
 ```
 
-## Client-Side Tracking
+## Client-Side 跟踪
 
-### Send custom event (gtag.js)
+### Send custom 事件 (gtag.js)
 
 ```javascript
 gtag('event', 'signup_completed', {
@@ -69,7 +69,7 @@ gtag('event', 'signup_completed', {
 });
 ```
 
-### Send event via Measurement Protocol
+### Send 事件 via 衡量 Protocol
 
 ```bash
 POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}&api_secret={api_secret}
@@ -86,17 +86,17 @@ POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}
 }
 ```
 
-## Key Dimensions & Metrics
+## Key Dimensions & 指标
 
-### Common Dimensions
-- `sessionSource` - Traffic source
+### 常见 Dimensions
+- `sessionSource` - Traffic 来源
 - `sessionMedium` - Traffic medium
-- `sessionCampaignName` - Campaign name
+- `sessionCampaignName` - 广告活动 name
 - `landingPage` - Entry page
-- `deviceCategory` - Device type
+- `deviceCategory` - Device 类型
 - `country` - User country
 
-### Common Metrics
+### 常见 指标
 - `sessions` - Total sessions
 - `activeUsers` - Active users
 - `newUsers` - New users
@@ -104,23 +104,23 @@ POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}
 - `engagementRate` - Engaged sessions rate
 - `averageSessionDuration` - Session duration
 
-## When to Use
+## 适用场景
 
-- Tracking website traffic and user behavior
-- Measuring marketing campaign performance
-- Setting up conversion tracking
+- 跟踪 website traffic and user behavior
+- Measuring 营销 广告活动 表现
+- Setting up conversion 跟踪
 - Analyzing user journeys and funnels
 - Attribution modeling
 
-## Rate Limits
+## 速率限制
 
 - Data API: 10 requests per second per property
 - Admin API: Varies by endpoint
-- Measurement Protocol: 1M hits/day for free tier
+- 衡量 Protocol: 1M hits/day for free tier
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
-- ab-test-setup
+- 分析-跟踪
+- ab-test-配置方式
 - seo-audit
 - page-cro

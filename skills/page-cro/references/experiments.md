@@ -1,49 +1,49 @@
 # Page CRO Experiment Ideas
 
-Comprehensive list of A/B tests and experiments organized by page type.
+Comprehensive list of A/B tests and experiments organized by page 类型.
 
 ## Contents
-- Homepage Experiments (Hero Section, Trust & Social Proof, Features & Content, Navigation & UX)
-- Pricing Page Experiments (Price Presentation, Pricing UX, Objection Handling, Trust Signals)
+- 首页 Experiments (Hero Section, Trust & 社会认同, 特性 & Content, Navigation & UX)
+- 定价页 Experiments (Price Presentation, Pricing UX, Objection Handling, Trust Signals)
 - Demo Request Page Experiments (Form Optimization, Page Content, CTA & Routing)
 - Resource/Blog Page Experiments (Content CTAs, Resource Section)
-- Landing Page Experiments (Message Match, Conversion Focus, Page Length)
-- Feature Page Experiments (Feature Presentation, Conversion Path)
+- 落地页 Experiments (Message Match, Conversion Focus, Page Length)
+- 功能页 Experiments (Feature Presentation, Conversion Path)
 - Cross-Page Experiments (Site-Wide Tests, Navigation Tests)
 
-## Homepage Experiments
+## 首页 Experiments
 
 ### Hero Section
 
 | Test | Hypothesis |
 |------|------------|
-| Headline variations | Specific vs. abstract messaging |
-| Subheadline clarity | Add/refine to support headline |
+| 标题 variations | Specific vs. abstract messaging |
+| 副标题 清晰度 | Add/refine to support 标题 |
 | CTA above fold | Include or exclude prominent CTA |
-| Hero visual format | Screenshot vs. GIF vs. illustration vs. video |
+| Hero visual format | Screenshot vs. GIF vs. illustration vs. 视频 |
 | CTA button color | Test contrast and visibility |
 | CTA button text | "Start Free Trial" vs. "Get Started" vs. "See Demo" |
-| Interactive demo | Engage visitors immediately with product |
+| Interactive demo | Engage visitors immediately with 产品 |
 
-### Trust & Social Proof
+### Trust & 社会认同
 
 | Test | Hypothesis |
 |------|------------|
 | Logo placement | Hero section vs. below fold |
 | Case study in hero | Show results immediately |
-| Trust badges | Add security, compliance, awards |
-| Social proof in headline | "Join 10,000+ teams" messaging |
+| Trust badges | Add security, 遵循率, awards |
+| 社会认同 in 标题 | "Join 10,000+ teams" messaging |
 | Testimonial placement | Above fold vs. dedicated section |
-| Video testimonials | More engaging than text quotes |
+| 视频 推荐语 | More engaging than text quotes |
 
-### Features & Content
+### 特性 & Content
 
 | Test | Hypothesis |
 |------|------------|
 | Feature presentation | Icons + descriptions vs. detailed sections |
-| Section ordering | Move high-value features up |
+| Section ordering | Move high-value 特性 up |
 | Secondary CTAs | Add/remove throughout page |
-| Benefit vs. feature focus | Lead with outcomes |
+| 收益 vs. feature focus | Lead with outcomes |
 | Comparison section | Show vs. competitors or status quo |
 
 ### Navigation & UX
@@ -54,18 +54,18 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Nav menu order | High-priority items at edges |
 | Nav CTA button | Add prominent button in nav |
 | Support widget | Live chat vs. AI chatbot |
-| Footer optimization | Clearer secondary conversions |
+| Footer optimization | Clearer secondary 转化 |
 | Exit intent popup | Capture abandoning visitors |
 
 ---
 
-## Pricing Page Experiments
+## 定价页 Experiments
 
 ### Price Presentation
 
 | Test | Hypothesis |
 |------|------------|
-| Annual vs. monthly display | Highlight savings or simplify |
+| Annual vs. monthly 展示 | Highlight savings or simplify |
 | Price points | $99 vs. $100 vs. $97 psychology |
 | "Most Popular" badge | Highlight target plan |
 | Number of tiers | 3 vs. 4 vs. 2 visible options |
@@ -76,30 +76,30 @@ Comprehensive list of A/B tests and experiments organized by page type.
 
 | Test | Hypothesis |
 |------|------------|
-| Pricing calculator | For usage-based pricing clarity |
+| Pricing calculator | For usage-based pricing 清晰度 |
 | Guided pricing flow | Multistep wizard vs. comparison table |
 | Feature comparison format | Table vs. expandable sections |
 | Monthly/annual toggle | With savings highlighted |
 | Plan recommendation quiz | Help visitors choose |
-| Checkout flow length | Steps required after plan selection |
+| Checkout flow length | 步骤 required after plan selection |
 
 ### Objection Handling
 
 | Test | Hypothesis |
 |------|------------|
-| FAQ section | Address pricing objections |
+| FAQ section | Address pricing 异议 |
 | ROI calculator | Demonstrate value vs. cost |
 | Money-back guarantee | Prominent placement |
-| Per-user breakdowns | Clarity for team plans |
-| Feature inclusion clarity | What's in each tier |
+| Per-user breakdowns | 清晰度 for team plans |
+| Feature inclusion 清晰度 | What's in each tier |
 | Competitor comparison | Side-by-side value comparison |
 
 ### Trust Signals
 
 | Test | Hypothesis |
 |------|------------|
-| Value testimonials | Quotes about ROI specifically |
-| Customer logos | Near pricing section |
+| Value 推荐语 | Quotes about ROI specifically |
+| 客户 logos | Near pricing section |
 | Review scores | G2/Capterra ratings |
 | Case study snippet | Specific pricing/value results |
 
@@ -122,12 +122,12 @@ Comprehensive list of A/B tests and experiments organized by page type.
 
 | Test | Hypothesis |
 |------|------------|
-| Benefits above form | Reinforce value before ask |
-| Demo preview | Video/GIF showing demo experience |
+| 收益 above form | Reinforce value before ask |
+| Demo preview | 视频/GIF showing demo experience |
 | "What You'll Learn" | Set expectations clearly |
-| Testimonials near form | Reduce friction at decision point |
-| FAQ below form | Address common objections |
-| Video vs. text | Format for explaining value |
+| 推荐语 near form | Reduce friction at decision point |
+| FAQ below form | Address 常见 异议 |
+| 视频 vs. text | Format for explaining value |
 
 ### CTA & Routing
 
@@ -135,7 +135,7 @@ Comprehensive list of A/B tests and experiments organized by page type.
 |------|------------|
 | CTA text | "Book Your Demo" vs. "Schedule 15-Min Call" |
 | On-demand option | Instant demo alongside live option |
-| Personalized messaging | Based on visitor data/source |
+| Personalized messaging | Based on visitor data/来源 |
 | Navigation removal | Reduce page distractions |
 | Calendar integration | Inline booking vs. external link |
 | Qualification routing | Self-serve for some, sales for others |
@@ -150,7 +150,7 @@ Comprehensive list of A/B tests and experiments organized by page type.
 |------|------------|
 | Floating CTAs | Sticky CTA on blog posts |
 | CTA placement | Inline vs. end-of-post only |
-| Reading time display | Estimated reading time |
+| Reading time 展示 | Estimated reading time |
 | Related resources | End-of-article recommendations |
 | Gated vs. free | Content access strategy |
 | Content upgrades | Specific to article topic |
@@ -160,24 +160,24 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Test | Hypothesis |
 |------|------------|
 | Navigation/filtering | Easier to find relevant content |
-| Search functionality | Find specific resources |
+| 搜索 functionality | Find specific resources |
 | Featured resources | Highlight best content |
 | Layout format | Grid vs. list view |
 | Topic bundles | Grouped resources by theme |
-| Download tracking | Gate some, track engagement |
+| Download 跟踪 | Gate some, track engagement |
 
 ---
 
-## Landing Page Experiments
+## 落地页 Experiments
 
 ### Message Match
 
 | Test | Hypothesis |
 |------|------------|
-| Headline matching | Match ad copy exactly |
+| 标题 matching | Match ad 文案 exactly |
 | Visual matching | Match ad creative |
 | Offer alignment | Same offer as ad promised |
-| Audience-specific pages | Different pages per segment |
+| 受众-specific pages | Different pages per segment |
 
 ### Conversion Focus
 
@@ -186,9 +186,9 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Navigation removal | Single-focus page |
 | CTA repetition | Multiple CTAs throughout |
 | Form vs. button | Direct capture vs. click-through |
-| Urgency/scarcity | If genuine, test messaging |
-| Social proof density | Amount and placement |
-| Video inclusion | Explain offer with video |
+| Urgency/稀缺性 | If genuine, test messaging |
+| 社会认同 density | Amount and placement |
+| 视频 inclusion | Explain offer with 视频 |
 
 ### Page Length
 
@@ -201,16 +201,16 @@ Comprehensive list of A/B tests and experiments organized by page type.
 
 ---
 
-## Feature Page Experiments
+## 功能页 Experiments
 
 ### Feature Presentation
 
 | Test | Hypothesis |
 |------|------------|
 | Demo/screenshot | Show feature in action |
-| Use case examples | How customers use it |
+| Use case examples | How 客户 use it |
 | Before/after | Impact visualization |
-| Video walkthrough | Feature tour |
+| 视频 walkthrough | Feature tour |
 | Interactive demo | Try feature without signup |
 
 ### Conversion Path
@@ -218,7 +218,7 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Test | Hypothesis |
 |------|------------|
 | Trial CTA | Feature-specific trial offer |
-| Related features | Cross-link to other features |
+| Related 特性 | Cross-link to other 特性 |
 | Comparison | vs. competitors' version |
 | Pricing mention | Connect to relevant plan |
 | Case study link | Feature-specific success story |
@@ -231,9 +231,9 @@ Comprehensive list of A/B tests and experiments organized by page type.
 
 | Test | Hypothesis |
 |------|------------|
-| Chat widget | Impact on conversions |
+| Chat widget | Impact on 转化 |
 | Cookie consent UX | Minimize friction |
-| Page load speed | Performance vs. features |
+| Page load speed | 表现 vs. 特性 |
 | Mobile experience | Responsive optimization |
 | Accessibility | Impact on conversion |
 | Personalization | Dynamic content by segment |
@@ -243,6 +243,6 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Test | Hypothesis |
 |------|------------|
 | Menu structure | Information architecture |
-| Search placement | Help visitors find content |
+| 搜索 placement | Help visitors find content |
 | CTA in nav | Always-visible conversion path |
-| Breadcrumbs | Navigation clarity |
+| Breadcrumbs | Navigation 清晰度 |

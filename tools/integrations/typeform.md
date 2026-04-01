@@ -1,23 +1,23 @@
 # Typeform
 
-Forms and surveys platform API for creating typeforms, retrieving responses, managing webhooks, themes, images, and workspaces.
+Forms and surveys 平台 API for creating typeforms, retrieving responses, managing webhooks, themes, images, and workspaces.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Create, Responses, Webhooks APIs |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [typeform.js](../clis/typeform.js) |
-| SDK | ✓ | JavaScript (@typeform/js-api-client), Embed SDK |
+| SDK | ✓ | JavaScript (@typeform/js-API-client), Embed SDK |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (Personal Access Token or OAuth 2.0)
-- **Header**: `Authorization: Bearer {token}`
-- **Get key**: https://admin.typeform.com/account#/section/tokens
+- **类型**: Bearer Token (Personal Access Token or OAuth 2.0)
+- **请求头**: `Authorization: Bearer {token}`
+- **Get key**: https://admin.typeform.com/账户#/section/tokens
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List forms
 
@@ -129,7 +129,7 @@ GET https://api.typeform.com/workspaces
 GET https://api.typeform.com/workspaces/{workspace_id}
 ```
 
-## Key Metrics
+## 核心指标
 
 ### Response Data
 - `response_id` - Unique response identifier
@@ -145,7 +145,7 @@ GET https://api.typeform.com/workspaces/{workspace_id}
 - `fields` - Array of form fields
 - `logic` - Logic jumps
 - `settings` - Form settings (notifications, meta, etc.)
-- `_links` - Display and responses URLs
+- `_links` - 展示 and responses URLs
 
 ## Parameters
 
@@ -154,7 +154,7 @@ GET https://api.typeform.com/workspaces/{workspace_id}
 - `since` / `until` - Date range filter (ISO 8601 or Unix timestamp)
 - `after` / `before` - Pagination tokens
 - `response_type` - Filter: started, partial, completed (default: completed)
-- `query` - Text search within responses
+- `query` - Text 搜索 within responses
 - `fields` - Show only specific fields in answers
 - `sort` - Sort order: `{fieldID},{asc|desc}`
 - `included_response_ids` / `excluded_response_ids` - Filter specific responses
@@ -164,27 +164,27 @@ GET https://api.typeform.com/workspaces/{workspace_id}
 - `page` - Page number
 - `page_size` - Results per page (default 10, max 200)
 - `workspace_id` - Filter by workspace
-- `search` - Search by form title
+- `search` - 搜索 by form title
 
-## When to Use
+## 适用场景
 
 - Collecting lead information and survey data
 - Building custom form experiences programmatically
-- Automating survey creation for campaigns
+- Automating survey creation for 广告活动
 - Analyzing form response data at scale
 - Setting up real-time response webhooks
 - Managing form themes and branding
 
-## Rate Limits
+## 速率限制
 
-- **Create & Responses APIs**: 2 requests per second per account
-- **Webhooks & Embed**: No rate limits (push-based)
+- **Create & Responses APIs**: 2 requests per second per 账户
+- **Webhooks & Embed**: No 速率限制 (push-based)
 - Monitor for HTTP 429 responses
 
-## Relevant Skills
+## 相关技能
 
 - lead-generation
-- customer-research
+- 客户-research
 - page-cro
 - signup-flow-cro
-- customer-feedback
+- 客户-feedback

@@ -1,25 +1,25 @@
 # Mixpanel
 
-Product analytics platform for tracking user behavior and retention.
+产品 分析 平台 for 跟踪 user behavior and retention.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Ingestion API, Query API, Data Export |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | ✓ | JavaScript, iOS, Android, Python, etc. |
 
-## Authentication
+## 认证方式
 
 - **Ingestion**: Project token (public)
-- **Query API**: Service Account (username:secret as Basic auth)
+- **Query API**: Service 账户 (username:secret as Basic auth)
 - **Export**: API Secret
 
-## Common Agent Operations
+## 常见代理操作
 
-### Track event (Ingestion API)
+### 跟踪事件 (Ingestion API)
 
 ```bash
 POST https://api.mixpanel.com/track
@@ -108,30 +108,30 @@ mixpanel.track('Feature Used', {
 });
 ```
 
-## Key Concepts
+## 关键概念
 
 - **Events** - User actions (signup, purchase, etc.)
 - **Properties** - Attributes on events
-- **User Profiles** - Persistent user data
+- **User Profiles** - Persistent 用户数据
 - **Cohorts** - Saved user segments
 - **Funnels** - Conversion sequences
 - **Retention** - User return patterns
 
-## When to Use
+## 适用场景
 
-- Tracking product usage events
+- 跟踪 产品 usage events
 - Analyzing conversion funnels
 - Measuring feature adoption
-- Retention analysis
+- Retention 分析
 - User segmentation
 
-## Rate Limits
+## 速率限制
 
 - Ingestion: No hard limit (batch recommended)
 - Query API: Varies by plan
 
-## Relevant Skills
+## 相关技能
 
-- analytics-tracking
-- ab-test-setup
+- 分析-跟踪
+- ab-test-配置方式
 - onboarding-cro

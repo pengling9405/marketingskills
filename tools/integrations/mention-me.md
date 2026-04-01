@@ -1,23 +1,23 @@
 # Mention Me
 
-Enterprise referral marketing platform for customer advocacy.
+Enterprise referral 营销 平台 for 客户 advocacy.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
-| API | ✓ | REST API for referrals, customers, rewards |
-| MCP | - | Not available |
-| CLI | - | Not available |
+| API | ✓ | REST API for referrals, 客户, rewards |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
 | SDK | - | JavaScript widget for embedding |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_key}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_key}`
 - **Environment**: Separate keys for sandbox and production
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Create referral offer
 
@@ -34,13 +34,13 @@ POST https://api.mention-me.com/api/v2/referrer-offer
 }
 ```
 
-### Get referral link for customer
+### Get referral link for 客户
 
 ```bash
 GET https://api.mention-me.com/api/v2/referrer/{customer_id}/share-links
 ```
 
-### Record referee (referred customer)
+### Record referee (referred 客户)
 
 ```bash
 POST https://api.mention-me.com/api/v2/referee
@@ -60,7 +60,7 @@ POST https://api.mention-me.com/api/v2/referee
 GET https://api.mention-me.com/api/v2/referral/{referral_id}
 ```
 
-### List referrals for customer
+### List referrals for 客户
 
 ```bash
 GET https://api.mention-me.com/api/v2/referrer/{customer_id}/referrals
@@ -116,45 +116,45 @@ MentionMe.push({
 
 ## Webhook Events
 
-| Event | When |
+| 事件 | When |
 |-------|------|
 | `referral.created` | New referral tracked |
 | `referral.converted` | Referral completed purchase |
 | `reward.earned` | Reward unlocked |
 | `reward.redeemed` | Reward used |
 
-## Key Features
+## 核心特性
 
-- **A/B testing** - Built-in experiment framework
+- **A/B 测试** - Built-in experiment framework
 - **Fraud prevention** - Automatic fraud detection
 - **Multi-channel** - Share via link, email, social
 - **Name sharing** - Refer by name, not code
 - **Segmentation** - Different offers by segment
-- **Analytics** - Referral program reporting
+- **分析** - Referral program reporting
 
 ## Key Objects
 
-- **Referrer** - Customer who refers
-- **Referee** - Customer who is referred
+- **Referrer** - 客户 who refers
+- **Referee** - 客户 who is referred
 - **Referral** - Connection between referrer and referee
 - **Offer** - Referral program configuration
 - **Reward** - Incentive earned
 
-## When to Use
+## 适用场景
 
 - Enterprise referral programs
-- Multi-market referral campaigns
-- A/B testing referral offers
-- Fraud-resistant referral tracking
+- Multi-market referral 广告活动
+- A/B 测试 referral offers
+- Fraud-resistant referral 跟踪
 - Name-based sharing programs
 
-## Rate Limits
+## 速率限制
 
 - 1000 requests per minute
 - Contact for higher limits
 
-## Relevant Skills
+## 相关技能
 
 - referral-program
 - pricing-strategy
-- analytics-tracking
+- 分析-跟踪

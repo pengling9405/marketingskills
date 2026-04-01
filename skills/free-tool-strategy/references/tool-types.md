@@ -1,6 +1,6 @@
-# Free Tool Types Reference
+# Free Tool Types 参考
 
-Detailed guide to each type of marketing tool you can build.
+Detailed guide to each 类型 of 营销 tool you can build.
 
 ## Contents
 - Calculators
@@ -9,13 +9,13 @@ Detailed guide to each type of marketing tool you can build.
 - Testers/Validators
 - Libraries/Resources
 - Interactive Educational
-- Tool Concept Examples by Industry (SaaS product, agency/services, e-commerce, developer tools, finance)
+- Tool Concept 示例 by Industry (SaaS 产品, agency/services, e-commerce, developer tools, finance)
 
 ## Calculators
 
 **Best for**: Decisions involving numbers, comparisons, estimates
 
-**Examples**:
+**示例**:
 - ROI calculator
 - Savings calculator
 - Cost comparison tool
@@ -29,7 +29,7 @@ Detailed guide to each type of marketing tool you can build.
 - Personalized output
 - High perceived value
 - Share-worthy results
-- Clear problem → solution
+- Clear 问题 → solution
 
 **Implementation tips**:
 - Keep inputs simple
@@ -43,8 +43,8 @@ Detailed guide to each type of marketing tool you can build.
 
 **Best for**: Creating something useful quickly
 
-**Examples**:
-- Policy generator (privacy, terms)
+**示例**:
+- Policy generator (隐私, terms)
 - Template generator
 - Name/tagline generator
 - Email subject line generator
@@ -71,15 +71,15 @@ Detailed guide to each type of marketing tool you can build.
 
 **Best for**: Evaluating existing work or assets
 
-**Examples**:
+**示例**:
 - Website grader
 - SEO analyzer
 - Email subject tester
-- Headline analyzer
+- 标题 analyzer
 - Security checker
-- Performance auditor
+- 表现 auditor
 - Accessibility checker
-- Code quality analyzer
+- Code 质量 analyzer
 
 **Why they work**:
 - Curiosity-driven
@@ -99,7 +99,7 @@ Detailed guide to each type of marketing tool you can build.
 
 **Best for**: Checking if something works
 
-**Examples**:
+**示例**:
 - Meta tag preview
 - Email rendering test
 - Mobile-friendly test
@@ -119,19 +119,19 @@ Detailed guide to each type of marketing tool you can build.
 - Fast results are essential
 - Show pass/fail clearly
 - Provide fix instructions
-- Integrate with your product where relevant
+- Integrate with your 产品 where relevant
 
 ---
 
 ## Libraries/Resources
 
-**Best for**: Reference material
+**Best for**: 参考 material
 
-**Examples**:
+**示例**:
 - Icon library
 - Template library
 - Code snippet library
-- Example gallery
+- 示例 gallery
 - Industry directory
 - Resource list
 - Swipe file collection
@@ -140,7 +140,7 @@ Detailed guide to each type of marketing tool you can build.
 **Why they work**:
 - High SEO value
 - Ongoing traffic
-- Establishes authority
+- Establishes 权威
 - Linkable asset
 
 **Implementation tips**:
@@ -155,7 +155,7 @@ Detailed guide to each type of marketing tool you can build.
 
 **Best for**: Learning/understanding
 
-**Examples**:
+**示例**:
 - Interactive tutorials
 - Code playgrounds
 - Visual explainers
@@ -179,10 +179,10 @@ Detailed guide to each type of marketing tool you can build.
 
 ---
 
-## Tool Concept Examples by Industry
+## Tool Concept 示例 by Industry
 
-### SaaS Product
-- Product ROI calculator
+### SaaS 产品
+- 产品 ROI calculator
 - Competitor comparison tool
 - Readiness assessment quiz
 - Template library for use case
@@ -196,7 +196,7 @@ Detailed guide to each type of marketing tool you can build.
 - Proposal generator
 
 ### E-commerce
-- Product finder quiz
+- 产品 finder quiz
 - Comparison tool
 - Size/fit calculator
 - Savings calculator
@@ -204,7 +204,7 @@ Detailed guide to each type of marketing tool you can build.
 
 ### Developer Tools
 - Code snippet library
-- Testing/preview tool
+- 测试/preview tool
 - Documentation generator
 - Interactive tutorials
 - API playground
@@ -212,6 +212,6 @@ Detailed guide to each type of marketing tool you can build.
 ### Finance
 - Financial calculators
 - Investment comparison
-- Budget planner
+- 预算 planner
 - Tax estimator
 - Loan calculator

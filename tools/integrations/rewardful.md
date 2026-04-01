@@ -1,23 +1,23 @@
 # Rewardful
 
-Affiliate and referral tracking for Stripe-based SaaS businesses.
+Affiliate and referral 跟踪 for Stripe-based SaaS businesses.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for affiliates, referrals, commissions |
-| MCP | - | Not available |
-| CLI | - | Not available |
-| SDK | - | API-only, JavaScript snippet for tracking |
+| MCP | - | 不可用 |
+| CLI | - | 不可用 |
+| SDK | - | API-only, JavaScript snippet for 跟踪 |
 
-## Authentication
+## 认证方式
 
-- **Type**: API Key
-- **Header**: `Authorization: Bearer {api_secret}`
+- **类型**: API Key
+- **请求头**: `Authorization: Bearer {api_secret}`
 - **Get key**: Settings > API in Rewardful dashboard
 
-## Common Agent Operations
+## 常见代理操作
 
 ### List affiliates
 
@@ -31,13 +31,13 @@ GET https://api.getrewardful.com/v1/affiliates
 GET https://api.getrewardful.com/v1/affiliates/{affiliate_id}
 ```
 
-### Search affiliate by email
+### 搜索 affiliate by email
 
 ```bash
 GET https://api.getrewardful.com/v1/affiliates?email=affiliate@example.com
 ```
 
-### Get referral by Stripe customer
+### Get referral by Stripe 客户
 
 ```bash
 GET https://api.getrewardful.com/v1/referrals?stripe_customer_id={customer_id}
@@ -84,7 +84,7 @@ PUT https://api.getrewardful.com/v1/affiliates/{affiliate_id}
 }
 ```
 
-## JavaScript Tracking
+## JavaScript 跟踪
 
 ### Install snippet
 
@@ -103,45 +103,45 @@ rewardful('convert', { email: 'customer@example.com' });
 
 ## Webhook Events
 
-| Event | When |
+| 事件 | When |
 |-------|------|
 | `affiliate.created` | New affiliate signs up |
 | `affiliate.approved` | Affiliate approved |
 | `referral.created` | New referral tracked |
-| `referral.converted` | Referral becomes customer |
+| `referral.converted` | Referral becomes 客户 |
 | `commission.created` | Commission generated |
 | `commission.paid` | Commission paid out |
 
 ## Key Objects
 
-- **Affiliate** - Partner promoting your product
+- **Affiliate** - Partner promoting your 产品
 - **Referral** - Tracked visit/lead from affiliate
 - **Commission** - Earned payment for affiliate
-- **Campaign** - Program with specific terms
-- **Link** - Tracking URL for affiliate
+- **广告活动** - Program with specific terms
+- **Link** - 跟踪 URL for affiliate
 
 ## Integration with Stripe
 
 Rewardful automatically:
 1. Tracks referral cookie when user visits via affiliate link
-2. Associates Stripe customer with referral on checkout
+2. Associates Stripe 客户 with referral on checkout
 3. Creates commissions when subscriptions are paid
 4. Handles recurring commissions for subscriptions
 
-## When to Use
+## 适用场景
 
 - Setting up affiliate/referral programs for SaaS
-- Tracking referral attribution from Stripe payments
+- 跟踪 referral attribution from Stripe payments
 - Managing affiliate relationships
 - Processing affiliate payouts
-- Analyzing referral program performance
+- Analyzing referral program 表现
 
-## Rate Limits
+## 速率限制
 
 - 120 requests per minute
 - Contact support for higher limits
 
-## Relevant Skills
+## 相关技能
 
 - referral-program
 - pricing-strategy

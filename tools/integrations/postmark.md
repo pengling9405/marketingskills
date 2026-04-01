@@ -1,25 +1,25 @@
 # Postmark
 
-Transactional email delivery service with fast delivery, templates, bounce management, and detailed analytics.
+Transactional email delivery service with fast delivery, templates, bounce management, and detailed 分析.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | REST API for email sending, templates, bounces, stats |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [postmark.js](../clis/postmark.js) |
 | SDK | ✓ | Node.js, Ruby, Python, PHP, Java, .NET, Go |
 
-## Authentication
+## 认证方式
 
-- **Type**: Server Token (or Account Token for account-level ops)
-- **Header**: `X-Postmark-Server-Token: {server_token}` (server-level)
-- **Header**: `X-Postmark-Account-Token: {account_token}` (account-level)
-- **Get key**: API Tokens tab at https://account.postmarkapp.com/servers
-- **Note**: Server tokens are per-server; account tokens apply across all servers
+- **类型**: Server Token (or 账户 Token for 账户-level ops)
+- **请求头**: `X-Postmark-Server-Token: {server_token}` (server-level)
+- **请求头**: `X-Postmark-Account-Token: {account_token}` (账户-level)
+- **Get key**: API Tokens tab at https://账户.postmarkapp.com/servers
+- **Note**: Server tokens are per-server; 账户 tokens apply across all servers
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Send single email
 
@@ -120,13 +120,13 @@ GET https://api.postmarkapp.com/bounces?count=50&offset=0&type=HardBounce
 PUT https://api.postmarkapp.com/bounces/{bounceId}/activate
 ```
 
-### Search outbound messages
+### 搜索 outbound messages
 
 ```bash
 GET https://api.postmarkapp.com/messages/outbound?count=50&offset=0&recipient=user@example.com
 ```
 
-### Get outbound stats overview
+### Get outbound stats 概览
 
 ```bash
 GET https://api.postmarkapp.com/stats/outbound?fromdate=2025-01-01&todate=2025-01-31
@@ -170,16 +170,16 @@ POST https://api.postmarkapp.com/message-streams/outbound/suppressions
 
 ## API Pattern
 
-Postmark uses simple REST endpoints with PascalCase field names in request/response bodies. Authentication is via custom headers rather than Authorization. Pagination uses `Count` and `Offset` parameters. Email sending is synchronous with immediate delivery confirmation.
+Postmark uses simple REST endpoints with PascalCase field names in request/response bodies. 认证 is via custom 请求头 rather than Authorization. Pagination uses `Count` and `Offset` parameters. Email sending is synchronous with immediate delivery confirmation.
 
-## Key Metrics
+## 核心指标
 
-### Delivery Metrics
+### Delivery 指标
 - `Sent` - Total emails sent
-- `Bounced` - Bounce count by type (hard, soft, transient)
+- `Bounced` - Bounce count by 类型 (hard, soft, transient)
 - `SpamComplaints` - Spam complaint count
 - `Opens` - Open count and unique opens
-- `Clicks` - Click count and unique clicks
+- `Clicks` - Click count and unique 点击
 
 ### Bounce Types
 - `HardBounce` - Permanent delivery failure
@@ -201,7 +201,7 @@ Postmark uses simple REST endpoints with PascalCase field names in request/respo
 - `Subject` - Email subject
 - `HtmlBody` / `TextBody` - Email content
 - `MessageStream` - outbound (transactional) or broadcast
-- `TrackOpens` - Enable open tracking (boolean)
+- `TrackOpens` - Enable open 跟踪 (boolean)
 - `TrackLinks` - None, HtmlAndText, HtmlOnly, TextOnly
 - `Tag` - Custom tag for categorization
 
@@ -210,23 +210,23 @@ Postmark uses simple REST endpoints with PascalCase field names in request/respo
 - `todate` - End date (YYYY-MM-DD)
 - `tag` - Filter by tag
 
-## When to Use
+## 适用场景
 
 - Transactional emails (password resets, order confirmations, notifications)
 - Template-based email sending with dynamic variables
 - Monitoring email deliverability and bounce rates
-- Tracking email engagement (opens, clicks)
+- 跟踪 email engagement (opens, 点击)
 - Managing email suppressions and bounces
-- High-reliability email delivery with fast performance
+- High-reliability email delivery with fast 表现
 
-## Rate Limits
+## 速率限制
 
 - 500 messages per batch request
 - 10 MB max per single message (including attachments)
 - 50 MB max per batch request
-- API rate limits vary by plan
+- API 速率限制 vary by plan
 
-## Relevant Skills
+## 相关技能
 
 - email-sequence
 - transactional-email

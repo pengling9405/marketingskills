@@ -2,22 +2,22 @@
 
 Company and person data enrichment API for converting leads with 100+ firmographic and technographic attributes.
 
-## Capabilities
+## 能力概览
 
-| Integration | Available | Notes |
+| 集成方式 | 是否可用 | 说明 |
 |-------------|-----------|-------|
 | API | ✓ | Person, Company, Combined Enrichment, Reveal, Name to Domain, Prospector |
-| MCP | - | Not available |
+| MCP | - | 不可用 |
 | CLI | ✓ | [clearbit.js](../clis/clearbit.js) |
 | SDK | ✓ | Node, Ruby, Python, PHP |
 
-## Authentication
+## 认证方式
 
-- **Type**: Bearer Token (or Basic Auth with API key as username)
-- **Header**: `Authorization: Bearer {api_key}`
-- **Get key**: https://dashboard.clearbit.com/api
+- **类型**: Bearer Token (or Basic Auth with API key as username)
+- **请求头**: `Authorization: Bearer {api_key}`
+- **Get key**: https://dashboard.clearbit.com/API
 
-## Common Agent Operations
+## 常见代理操作
 
 ### Person Enrichment (by email)
 
@@ -75,11 +75,11 @@ Clearbit uses separate subdomains per API:
 - `person-stream.clearbit.com` - Streaming person lookup (blocking, up to 60s)
 - `company-stream.clearbit.com` - Streaming company lookup (blocking, up to 60s)
 - `reveal.clearbit.com` - IP to company
-- `prospector.clearbit.com` - Employee search
+- `prospector.clearbit.com` - Employee 搜索
 
 Standard endpoints return `202 Accepted` if data is being processed (use webhooks). Stream endpoints block until data is ready.
 
-## Key Metrics
+## 核心指标
 
 ### Person Attributes
 - `name.fullName` - Full name
@@ -111,29 +111,29 @@ Standard endpoints return `202 Accepted` if data is being processed (use webhook
 
 ### Prospector
 - `domain` (required) - Company domain
-- `role` - Job role filter (sales, engineering, marketing, etc.)
+- `role` - Job role filter (sales, engineering, 营销, etc.)
 - `seniority` - Seniority filter (executive, director, manager, etc.)
 - `title` - Exact title filter
 - `page` - Page number (default: 1)
 - `page_size` - Results per page (default: 5, max: 20)
 
-## When to Use
+## 适用场景
 
 - Lead scoring and qualification based on firmographic data
 - Enriching CRM contacts with company and person data
 - De-anonymizing website visitors with Reveal
 - Building prospect lists with Prospector
-- Personalizing marketing based on company attributes
+- Personalizing 营销 based on company attributes
 - Routing leads based on company size, industry, or tech stack
 
-## Rate Limits
+## 速率限制
 
 - Enrichment: 600 requests/minute
 - Prospector: 100 requests/minute
 - Reveal: 600 requests/minute
-- Responses include `X-RateLimit-Limit` and `X-RateLimit-Remaining` headers
+- Responses include `X-RateLimit-Limit` and `X-RateLimit-Remaining` 请求头
 
-## Relevant Skills
+## 相关技能
 
 - lead-scoring
 - personalization

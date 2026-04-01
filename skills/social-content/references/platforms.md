@@ -1,6 +1,6 @@
-# Platform-Specific Strategy Guide
+# 平台-Specific Strategy Guide
 
-Detailed strategies for each major social platform.
+Detailed strategies for each major social 平台.
 
 ## Contents
 - LinkedIn
@@ -12,7 +12,7 @@ Detailed strategies for each major social platform.
 ## LinkedIn
 
 **Best for:** B2B, thought leadership, professional networking, recruiting
-**Audience:** Professionals, decision-makers, job seekers
+**受众:** Professionals, decision-makers, job seekers
 **Posting frequency:** 3-5x per week
 **Best times:** Tuesday-Thursday, 7-8am, 12pm, 5-6pm
 
@@ -39,20 +39,20 @@ Detailed strategies for each major social platform.
 
 **Algorithm tips:**
 - First hour engagement matters most
-- Comments > reactions > clicks
-- Dwell time (people reading) signals quality
+- Comments > reactions > 点击
+- Dwell time (people reading) signals 质量
 - No external links in post body
 - Document posts (carousels) get strong reach
-- Polls drive engagement but don't build authority
+- Polls drive engagement but don't build 权威
 
 ---
 
 ## Twitter/X
 
 **Best for:** Tech, media, real-time commentary, community building
-**Audience:** Tech-savvy, news-oriented, niche communities
+**受众:** Tech-savvy, news-oriented, niche communities
 **Posting frequency:** 3-10x per day (including replies)
-**Best times:** Varies by audience; test and measure
+**Best times:** Varies by 受众; test and measure
 
 **What works:**
 - Hot takes and opinions
@@ -75,9 +75,9 @@ Detailed strategies for each major social platform.
 - Use visuals to stop the scroll
 
 **Algorithm tips:**
-- Replies and quote tweets build authority
-- Threads keep people on platform (rewarded)
-- Images and video get more reach
+- Replies and quote tweets build 权威
+- Threads keep people on 平台 (rewarded)
+- Images and 视频 get more reach
 - Engagement in first 30 min matters
 - Twitter Blue/Premium may boost reach
 
@@ -86,20 +86,20 @@ Detailed strategies for each major social platform.
 ## Instagram
 
 **Best for:** Visual brands, lifestyle, e-commerce, younger demographics
-**Audience:** 18-44, visual-first consumers
+**受众:** 18-44, visual-first consumers
 **Posting frequency:** 1-2 feed posts per day, 3-10 Stories per day
 **Best times:** 11am-1pm, 7-9pm
 
 **What works:**
-- High-quality visuals
+- High-质量 visuals
 - Behind-the-scenes Stories
-- Reels (short-form video)
+- Reels (short-form 视频)
 - Carousels with value
 - User-generated content
 - Interactive Stories (polls, questions)
 
 **What doesn't:**
-- Low-quality images
+- Low-质量 images
 - Too much text in images
 - Ignoring Stories and Reels
 - Only promotional content
@@ -108,21 +108,21 @@ Detailed strategies for each major social platform.
 - Reels get 2x reach of static posts
 - First frame of Reels must hook
 - Carousels: 10 slides with educational content
-- Use all Story features (polls, links, etc.)
+- Use all Story 特性 (polls, links, etc.)
 
 **Algorithm tips:**
 - Reels heavily prioritized over static posts
 - Saves and shares > likes
 - Stories keep you top of feed
 - Consistency matters more than perfection
-- Use all features (polls, questions, etc.)
+- Use all 特性 (polls, questions, etc.)
 
 ---
 
 ## TikTok
 
 **Best for:** Brand awareness, younger audiences, viral potential
-**Audience:** 16-34, entertainment-focused
+**受众:** 16-34, entertainment-focused
 **Posting frequency:** 1-4x per day
 **Best times:** 7-9am, 12-3pm, 7-11pm
 
@@ -138,7 +138,7 @@ Detailed strategies for each major social platform.
 - Overly produced content
 - Ignoring trends
 - Hard selling
-- Repurposed horizontal video
+- Repurposed horizontal 视频
 
 **Format tips:**
 - Hook in first 1-2 seconds
@@ -152,14 +152,14 @@ Detailed strategies for each major social platform.
 ## Facebook
 
 **Best for:** Communities, local businesses, older demographics, groups
-**Audience:** 25-55+, community-oriented
+**受众:** 25-55+, community-oriented
 **Posting frequency:** 1-2x per day
 **Best times:** 1-4pm weekdays
 
 **What works:**
 - Facebook Groups (community)
-- Native video
-- Live video
+- Native 视频
+- Live 视频
 - Local content and events
 - Discussion-prompting questions
 
