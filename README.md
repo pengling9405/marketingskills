@@ -1,22 +1,22 @@
-# 面向 AI Agent 的 Marketing 技能
+# 面向 AI 代理的营销技能
 
-这是一个聚焦营销任务的 AI agent skill 集合。它面向技术型营销人和创始人，帮助 AI 编码 agent 处理转化优化、文案撰写、SEO、数据分析和增长工程等工作。可用于 Claude Code、OpenAI Codex、Cursor、Windsurf，以及任何支持 [Agent Skills spec](https://agentskills.io) 的 agent。
+这是一个聚焦营销任务的 AI 代理技能集合。它面向技术型营销人和创始人，帮助 AI 编码代理处理转化优化、文案撰写、SEO、数据分析和增长工程等工作。可用于 Claude Code、OpenAI Codex、Cursor、Windsurf，以及任何支持 [Agent Skills spec](https://agentskills.io) 的代理。
 
 由 [Corey Haines](https://corey.co?ref=marketingskills) 构建。想要落地执行支持？可以了解 [Conversion Factory](https://conversionfactory.co?ref=marketingskills)，这是 Corey 的转化优化、落地页和增长策略咨询机构。想学更多营销？可以订阅 [Swipe Files](https://swipefiles.com?ref=marketingskills)。如果你想要一个能使用这些 skill、像 CMO 一样工作的自治 AI agent，可以看看 [Magister](https://magistermarketing.com?ref=marketingskills)。
 
-如果你刚开始接触终端和 coding agent，可以看看配套指南 [Coding for Marketers](https://codingformarketers.com?ref=marketingskills)。
+如果你刚开始接触终端和编码代理，可以看看配套指南 [Coding for Marketers](https://codingformarketers.com?ref=marketingskills)。
 
 **欢迎贡献！** 如果你找到改进某个 skill 的方式，或者有新的 skill 想法，可以[提交 PR](#contributing)。
 
 如果你遇到问题或有疑问，可以[提交 issue](https://github.com/coreyhaines31/marketingskills/issues)，我们很乐意帮忙。
 
-## 什么是 技能？
+## 什么是技能？
 
-Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业知识和工作流。当你把这些文件加入项目后，agent 就能识别你当前是否在处理营销任务，并自动套用合适的框架与最佳实践。
+技能是 Markdown 文件，用来给 AI 代理提供某一类任务的专业知识和工作流。当你把这些文件加入项目后，代理就能识别你当前是否在处理营销任务，并自动套用合适的框架与最佳实践。
 
-## 技能 如何协同工作
+## 技能如何协同工作
 
-各个 skill 会互相引用，并建立在共享上下文之上。`product-marketing-context` 是基础层，其他所有 skill 在真正开始工作前，都会先读取它，理解你的产品、受众和定位。
+各个技能会互相引用，并建立在共享上下文之上。`product-marketing-context` 是基础层，其他所有技能在真正开始工作前，都会先读取它，理解你的产品、受众和定位。
 
 ```
                             ┌──────────────────────────────────────┐
@@ -49,7 +49,7 @@ Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业�
 
 完整依赖关系见各个 skill 中的 **Related Skills** 章节。
 
-## 可用 技能
+## 可用技能
 
 <!-- SKILLS:START -->
 | Skill | Description |
@@ -97,13 +97,13 @@ Skills 是 Markdown 文件，用来给 AI agent 提供某一类任务的专业�
 使用 [npx skills](https://github.com/vercel-labs/skills) 直接安装：
 
 ```bash
-# 安装全部 技能
+# 安装全部技能
 npx skills add coreyhaines31/marketingskills
 
-# 安装指定 技能
+# 安装指定技能
 npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
 
-# 列出可用 技能
+# 列出可用技能
 npx skills add coreyhaines31/marketingskills --list
 ```
 
@@ -117,7 +117,7 @@ npx skills add coreyhaines31/marketingskills --list
 # 添加 marketplace
 /plugin marketplace add coreyhaines31/marketingskills
 
-# 安装全部 marketing 技能
+# 安装全部营销技能
 /plugin install marketing-skills
 ```
 

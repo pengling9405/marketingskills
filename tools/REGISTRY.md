@@ -1,31 +1,31 @@
-# 营销 Tools Registry
+# 营销工具注册表
 
-Quick 参考 for AI agents to discover tool 能力 and integration methods.
+供 AI 代理快速查找工具能力与集成方式的参考表。
 
-## How to Use This Registry
+## 如何使用本注册表
 
-1. **Find tools by category** - Browse sections below for tools in each domain
-2. **Check integration methods** - See what APIs, MCPs, CLIs, or SDKs are available
-3. **Read integration guides** - Detailed 配置 and 常见 操作 in `integrations/`
+1. **按类别找工具**：查看下方各领域工具列表
+2. **检查集成方式**：确认有哪些 API、MCP、CLI 或 SDK 可用
+3. **阅读集成指南**：在 `integrations/` 中查看详细配置与常见操作
 
 ---
 
-## 工具 Index
+## 工具索引
 
-| Tool | Category | API | MCP | CLI | SDK | Guide |
+| 工具 | 类别 | API | MCP | CLI | SDK | 指南 |
 |------|----------|:---:|:---:|:---:|:---:|-------|
 | ga4 | 分析 | ✓ | ✓ | [✓](clis/ga4.js) | ✓ | [ga4.md](integrations/ga4.md) |
 | mixpanel | 分析 | ✓ | - | [✓](clis/mixpanel.js) | ✓ | [mixpanel.md](integrations/mixpanel.md) |
 | amplitude | 分析 | ✓ | - | [✓](clis/amplitude.js) | ✓ | [amplitude.md](integrations/amplitude.md) |
 | posthog | 分析 | ✓ | - | ✓ | ✓ | [posthog.md](integrations/posthog.md) |
 | segment | 分析 | ✓ | - | [✓](clis/segment.js) | ✓ | [segment.md](integrations/segment.md) |
-| adobe-分析 | 分析 | ✓ | - | [✓](clis/adobe-analytics.js) | ✓ | [adobe-analytics.md](integrations/adobe-analytics.md) |
+| adobe-analytics | 分析 | ✓ | - | [✓](clis/adobe-analytics.js) | ✓ | [adobe-analytics.md](integrations/adobe-analytics.md) |
 | plausible | 分析 | ✓ | - | [✓](clis/plausible.js) | - | [plausible.md](integrations/plausible.md) |
-| google-搜索-console | SEO | ✓ | - | [✓](clis/google-search-console.js) | ✓ | [google-search-console.md](integrations/google-search-console.md) |
+| google-search-console | SEO | ✓ | - | [✓](clis/google-search-console.js) | ✓ | [google-search-console.md](integrations/google-search-console.md) |
 | semrush | SEO | ✓ | - | [✓](clis/semrush.js) | - | [semrush.md](integrations/semrush.md) |
 | ahrefs | SEO | ✓ | - | [✓](clis/ahrefs.js) | - | [ahrefs.md](integrations/ahrefs.md) |
 | dataforseo | SEO | ✓ | - | [✓](clis/dataforseo.js) | ✓ | [dataforseo.md](integrations/dataforseo.md) |
-| 关键词-everywhere | SEO | ✓ | - | [✓](clis/keywords-everywhere.js) | - | [keywords-everywhere.md](integrations/keywords-everywhere.md) |
+| keywords-everywhere | SEO | ✓ | - | [✓](clis/keywords-everywhere.js) | - | [keywords-everywhere.md](integrations/keywords-everywhere.md) |
 | clearbit | Data Enrichment | ✓ | - | [✓](clis/clearbit.js) | ✓ | [clearbit.md](integrations/clearbit.md) |
 | apollo | Data Enrichment | ✓ | - | [✓](clis/apollo.js) | - | [apollo.md](integrations/apollo.md) |
 | zoominfo | Data Enrichment | ✓ | ✓ | [✓](clis/zoominfo.js) | - | [zoominfo.md](integrations/zoominfo.md) |
@@ -43,7 +43,7 @@ Quick 参考 for AI agents to discover tool 能力 and integration methods.
 | mention-me | Referral | ✓ | - | [✓](clis/mention-me.js) | - | [mention-me.md](integrations/mention-me.md) |
 | partnerstack | Affiliate | ✓ | - | [✓](clis/partnerstack.js) | - | [partnerstack.md](integrations/partnerstack.md) |
 | mailchimp | Email | ✓ | ✓ | [✓](clis/mailchimp.js) | ✓ | [mailchimp.md](integrations/mailchimp.md) |
-| 客户-io | Email | ✓ | - | [✓](clis/customer-io.js) | ✓ | [customer-io.md](integrations/customer-io.md) |
+| customer-io | Email | ✓ | - | [✓](clis/customer-io.js) | ✓ | [customer-io.md](integrations/customer-io.md) |
 | sendgrid | Email | ✓ | - | [✓](clis/sendgrid.js) | ✓ | [sendgrid.md](integrations/sendgrid.md) |
 | resend | Email | ✓ | ✓ | [✓](clis/resend.js) | ✓ | [resend.md](integrations/resend.md) |
 | nitrosend | Email | ✓ | ✓ | - | - | [nitrosend.md](integrations/nitrosend.md) |

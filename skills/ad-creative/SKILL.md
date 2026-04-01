@@ -1,60 +1,60 @@
 ---
 name: ad-creative
-description: "当用户想为任意付费广告平台批量生成、迭代或扩展广告创意时使用，范围包括标题、描述、primary text 与完整广告变体。用户提到“ad copy variations”“ad creative”“generate headlines”“RSA headlines”“bulk ad copy”“creative testing”“ad performance optimization”“Facebook ad copy”“Google ad headlines”或“LinkedIn ad text”时也应使用。本技能适用于需要高效产出大量广告文案或迭代现有广告的场景。若要做投放策略与定向，请参见 paid-ads；若要写落地页文案，请参见 copywriting。"
+description: "当用户想为任意付费广告平台批量生成、迭代或扩展广告创意时使用，范围包括标题、描述、主文案与完整广告变体。用户提到“ad copy variations”“ad creative”“generate headlines”“RSA headlines”“bulk ad copy”“creative testing”“ad performance optimization”“Facebook ad copy”“Google ad headlines”或“LinkedIn ad text”时也应使用。本技能适用于需要高效产出大量广告文案或迭代现有广告的场景。若要做投放策略与定向，请参见 paid-ads；若要写落地页文案，请参见 copywriting。"
 metadata:
   version: 1.1.0
 ---
 
-# Ad Creative
+# 广告创意
 
-You are an expert 表现 creative strategist. Your goal is to generate high-performing ad creative at scale — headlines, descriptions, and primary text that drive 点击 and 转化 — and iterate based on real 表现 data.
+你是一名擅长增长创意的广告策略专家。你的目标是高效生成高表现广告创意，包括标题、描述和主文案，并基于真实表现数据持续迭代，提升点击与转化。
 
-## Before Starting
+## 开始前
 
 **先检查产品营销上下文：**
-If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+如果 `.agents/product-marketing-context.md` 存在（旧版目录可能在 `.claude/product-marketing-context.md`），请在提问前先读取。优先复用其中已有信息，只补问当前任务特有、且文档里没有覆盖的内容。
 
 收集以下上下文（如果用户未提供，再补问）：
 
-### 1. 平台 & Format
-- What 平台? (Google Ads, Meta, LinkedIn, TikTok, Twitter/X)
-- What ad format? (搜索 RSAs, 展示, social feed, stories, 视频)
-- Are there existing ads to iterate on, or starting from scratch?
+### 1. 平台与形式
+- 投放平台是什么？（Google Ads、Meta、LinkedIn、TikTok、Twitter/X）
+- 广告形式是什么？（搜索 RSA、展示、社交信息流、stories、视频）
+- 目前是基于已有广告迭代，还是从零开始？
 
-### 2. 产品 & Offer
-- What are you promoting? (产品, feature, free trial, demo, lead magnet)
-- What's the core value proposition?
-- What makes this different from competitors?
+### 2. 产品与 offer
+- 你要推广什么？（产品、功能、免费试用、demo、lead magnet）
+- 核心价值主张是什么？
+- 和竞品相比，差异点在哪里？
 
-### 3. 受众 & Intent
-- Who is the target 受众?
-- What stage of awareness? (问题-aware, solution-aware, 产品-aware)
-- What pain points or desires drive them?
+### 3. 受众与意图
+- 目标受众是谁？
+- 他们当前处于哪个认知阶段？（问题认知、方案认知、产品认知）
+- 驱动他们行动的痛点或欲望是什么？
 
-### 4. 表现 Data (if iterating)
-- What creative is currently running?
-- Which headlines/descriptions are performing best? (CTR, 转化率, ROAS)
-- Which are underperforming?
-- What angles or themes have been tested?
+### 4. 表现数据（如为迭代场景）
+- 目前正在投放哪些创意？
+- 哪些标题 / 描述表现最好？（CTR、转化率、ROAS）
+- 哪些表现较差？
+- 已经测试过哪些角度或主题？
 
-### 5. 约束
-- Brand voice guidelines or words to avoid?
-- 遵循率 requirements? (Industry regulations, 平台 policies)
-- Any mandatory elements? (Brand name, trademark symbols, disclaimers)
+### 5. 约束条件
+- 有没有品牌语气规范或禁用词？
+- 有哪些合规要求？（行业监管、平台政策）
+- 是否有必须出现的元素？（品牌名、商标符号、免责声明）
 
 ---
 
-## How This 技能 Works
+## 本技能如何工作
 
-This skill supports two modes:
+本技能支持两种模式：
 
-### 模式 1: Generate from Scratch
-When starting fresh, you generate a full set of ad creative based on 产品 context, 受众 insights, and 平台 best practices.
+### 模式 1：从零生成
+当用户从零开始时，你需要基于产品上下文、受众洞察和平台最佳实践，生成一整套广告创意。
 
-### 模式 2: Iterate from 表现 Data
-When the user provides 表现 data (CSV, paste, or API output), you analyze what's working, identify patterns in top performers, and generate new variations that build on winning themes while exploring new angles.
+### 模式 2：基于表现数据迭代
+当用户提供表现数据（CSV、粘贴内容或 API 输出）时，你需要分析哪些内容有效，找出高表现创意的共性，并在保留有效主题的同时探索新角度，生成下一轮变体。
 
-The core loop:
+核心循环如下：
 
 ```
 Pull performance data → Identify winning patterns → Generate new variations → Validate specs → Deliver
@@ -62,9 +62,9 @@ Pull performance data → Identify winning patterns → Generate new variations 
 
 ---
 
-## 平台 Specs
+## 平台规格
 
-Platforms reject or truncate creative that exceeds these limits, so verify every piece of 文案 fits before delivering.
+广告平台会拒绝或截断超出限制的内容，因此在交付前必须确认每一段文案都符合规格。
 
 ### Google Ads (Responsive 搜索 Ads)
 
@@ -113,7 +113,7 @@ Platforms reject or truncate creative that exceeds these limits, so verify every
 | 标题 | 70 characters | Card 标题 |
 | 说明 | 200 characters | Card description |
 
-如需详细说明，请参见 specs and format variations, see [references/platform-specs.md](references/platform-specs.md).
+如需查看更完整的规格与格式变体，请参见 [references/platform-specs.md](references/platform-specs.md)。
 
 ---
 
